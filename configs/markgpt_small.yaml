@@ -1,0 +1,59 @@
+# MarkGPT-Small Training Configuration
+# ======================================
+# This is the primary configuration for training MarkGPT on KJV Bible + Banso data.
+# Load this file with: python src/training/train.py --config configs/markgpt_small.yaml
+#
+# Hardware requirement: GPU with 6GB+ VRAM (Google Colab T4 works)
+# Estimated training time: ~4-8 hours on T4 GPU for full 50,000 iterations
+
+# ── Model ─────────────────────────────────────────────────────────────────
+model_size: "small"          # Use MarkGPT-Small (~10M parameters)
+vocab_size: 8000             # Must match your trained tokenizer's vocabulary size
+
+# ── Data ──────────────────────────────────────────────────────────────────
+data_path: "data/processed/kjv_tokenized.bin"
+val_split: 0.05              # Reserve 5% of data for validation
+
+# ── Sequence Length ────────────────────────────────────────────────────────
+# 512 tokens = roughly 30-40 Bible verses as context.
+# Longer context = richer model but more memory required.
+block_size: 512
+
+# ── Batch Size ────────────────────────────────────────────────────────────
+# If you run out of GPU memory, reduce batch_size.
+# To compensate for a smaller batch, you can increase gradient_accumulation_steps
+# (not yet implemented — see docs/TRAINING_TIPS.md for manual simulation)
+batch_size: 32
+
+# ── Training Duration ─────────────────────────────────────────────────────
+max_iters: 50000             # ~2-3 full passes through the Bible corpus
+
+# ── Learning Rate Schedule ────────────────────────────────────────────────
+# This is the "standard" schedule for Transformer pre-training.
+# See src/training/train.py get_lr() for the implementation.
+learning_rate: 0.0003        # Peak learning rate (3e-4)
+min_lr: 0.00003              # Floor learning rate (3e-5 = 10% of peak)
+warmup_iters: 2000           # Steps of linear warmup from 0 to learning_rate
+lr_decay_iters: 50000        # Cosine decay reaches min_lr at this iteration
+
+# ── Regularization ────────────────────────────────────────────────────────
+weight_decay: 0.1            # L2 penalty on weight matrices (not biases or LayerNorm)
+grad_clip: 1.0               # Clip gradient norm to this value
+
+# ── Evaluation & Checkpointing ────────────────────────────────────────────
+eval_interval: 500           # Compute validation loss every 500 steps
+eval_iters: 200              # Average over 200 validation batches for stable estimate
+log_interval: 10             # Log training loss every 10 steps
+checkpoint_interval: 1000    # Save a snapshot every 1000 steps
+out_dir: "checkpoints"
+
+# ── System ────────────────────────────────────────────────────────────────
+device: "auto"               # Automatically select: cuda > mps > cpu
+dtype: "bfloat16"            # Use bfloat16 for ~2x speedup on modern GPUs
+compile: false               # Set true if using PyTorch 2.0+ for ~20% extra speed
+
+# ── Experiment Tracking ───────────────────────────────────────────────────
+# Set wandb_log to true and provide your W&B project name to enable tracking.
+wandb_log: false
+wandb_project: "markgpt"
+run_name: "markgpt-small-bible-v1"

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+markgpt-env/
+
+# Model checkpoints (too large for git)
+checkpoints/*.pt
+checkpoints/*.bin
+
+# Data files (too large for git; document sources instead)
+data/raw/*.txt
+data/raw/*.bin
+data/processed/*.bin
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Weights & Biases
+wandb/
