@@ -90,3 +90,13 @@ These practices ensure effective text tokenization.
 - **Multilingual Support**: Test with diverse languages.
 
 Addressing these can resolve common tokenization issues.
+
+## Future Enhancements
+
+- **Advanced Tokenization**: Implement subword algorithms like BPE.
+- **Multilingual Support**: Expand to more languages beyond Banso.
+- **Dynamic Vocab**: Allow vocab updates during training.
+- **Efficiency Improvements**: Optimize for faster processing.
+- **Integration**: Better integration with model training pipelines.
+
+These enhancements will make tokenization more powerful.
