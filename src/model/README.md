@@ -93,3 +93,13 @@ These examples show how to build and customize the model.
 - **Version Models**: Save different versions for comparison.
 
 These practices help in developing robust models.
+
+## Troubleshooting
+
+- **Gradient Issues**: Check for vanishing/exploding gradients.
+- **Memory Errors**: Reduce batch size or use gradient accumulation.
+- **Convergence Problems**: Adjust learning rate or optimizer.
+- **LoRA Integration**: Ensure LoRA layers are properly initialized.
+- **RoPE Errors**: Verify positional encoding dimensions.
+
+Solving these can improve model training stability.
