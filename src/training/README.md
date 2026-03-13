@@ -137,3 +137,48 @@ The training components work together in a cohesive pipeline:
 5. **Monitoring**: Throughout, `training_utils.py` provides metrics and scheduling, while the logger ensures external tracking.
 
 This modular design allows beginners to understand each part's role and how they interconnect for a complete training system. For example, a beginner could start by running `train.py` with logging enabled to see the full pipeline in action.
+
+## Usage Examples
+
+Here are some practical examples of how to use the training components:
+
+### Basic Training Setup
+
+```python
+from src.training.train import main
+from src.training.wandb_logger import WandbLogger
+
+# Initialize logger
+logger = WandbLogger(project='markgpt', config={'lr': 1e-4})
+
+# Run training
+main(logger=logger)
+```
+
+### Checkpoint Management
+
+```python
+from src.training.checkpoint import save_checkpoint, load_checkpoint
+
+# Save checkpoint
+save_checkpoint(model, optimizer, epoch, 'checkpoint.pth')
+
+# Load checkpoint
+model, optimizer, start_epoch = load_checkpoint('checkpoint.pth')
+```
+
+### Distributed Training
+
+```python
+from src.training.distributed import setup_distributed, cleanup_distributed
+
+# Setup
+setup_distributed()
+
+# Training code here
+
+# Cleanup
+cleanup_distributed()
+```
+
+These examples show how the components work together in practice.
