@@ -1,4 +1,9 @@
-# 🧠 MarkGPT: From Zero to Training Your Own LLM
+#  MarkGPT: From Zero to Training Your Own LLM
+![create_a_professio_image](https://github.com/user-attachments/assets/f990f5ee-4a26-40fa-adaf-d2bb71163795)
+
+
+
+
 ## A 60-Day Comprehensive Curriculum in Large Language Models
 
 > *"The journey of a thousand tokens begins with a single character."*
