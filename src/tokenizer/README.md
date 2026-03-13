@@ -80,3 +80,13 @@ These examples demonstrate the tokenizer's role in text processing.
 - **Test Encoding/Decoding**: Verify that encode/decode cycles preserve meaning.
 
 These practices ensure effective text tokenization.
+
+## Troubleshooting
+
+- **Encoding Errors**: Check input text format and encoding.
+- **Vocab Mismatches**: Ensure vocab files match the tokenizer.
+- **Performance Issues**: Profile tokenization for bottlenecks.
+- **Special Tokens**: Verify special tokens are handled correctly.
+- **Multilingual Support**: Test with diverse languages.
+
+Addressing these can resolve common tokenization issues.
