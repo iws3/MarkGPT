@@ -103,3 +103,13 @@ These practices help in developing robust models.
 - **RoPE Errors**: Verify positional encoding dimensions.
 
 Solving these can improve model training stability.
+
+## Future Enhancements
+
+- **Larger Variants**: Develop bigger model sizes for better performance.
+- **Advanced LoRA**: Implement more sophisticated adaptation techniques.
+- **RoPE Variants**: Explore different positional encoding methods.
+- **Multi-Modal**: Add support for images or other modalities.
+- **Quantization**: Implement model compression for deployment.
+
+These will expand model capabilities significantly.
