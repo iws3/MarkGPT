@@ -108,3 +108,13 @@ stats = analyze_vocab(tokenizer)
 ```
 
 These examples show how utils support various project needs.
+
+## Best Practices for Utils
+
+- **Modular Design**: Keep utilities modular for easy reuse.
+- **Error Handling**: Add robust error handling in utility functions.
+- **Documentation**: Document each utility with clear docstrings.
+- **Testing**: Write unit tests for all utility functions.
+- **Performance**: Optimize utilities for speed and memory usage.
+
+Following these practices will make utilities reliable and maintainable.
