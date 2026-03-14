@@ -44,3 +44,11 @@ ASCII's main limitation is its scope: only 128 characters. This excludes:
 - East Asian characters
 
 This led to incompatible encoding systems for different languages, causing data corruption when mixing text from different regions.
+
+---
+
+## Unicode: A Universal Solution
+
+Unicode is a standard that assigns a unique number (code point) to every character in every writing system. It currently supports over 140,000 characters.
+
+Unicode solves the compatibility issues of older encodings by providing a universal character set. However, Unicode itself is not an encoding - it's the mapping. Actual storage requires an encoding like UTF-8.
