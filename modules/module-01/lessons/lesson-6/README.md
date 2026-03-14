@@ -31,3 +31,16 @@ ASCII (American Standard Code for Information Interchange) was developed in the 
 - Space: 32
 
 ASCII was sufficient for English text but couldn't handle accented characters or non-Latin scripts.
+
+---
+
+## Limitations of ASCII
+
+ASCII's main limitation is its scope: only 128 characters. This excludes:
+
+- Accented characters (é, ñ, ü)
+- Non-Latin alphabets (Greek, Cyrillic, Arabic)
+- Emoji and symbols
+- East Asian characters
+
+This led to incompatible encoding systems for different languages, causing data corruption when mixing text from different regions.
