@@ -88,3 +88,16 @@ Python 3 uses UTF-8 by default. Key functions:
 - open(file, encoding='utf-8'): Specify encoding when reading files
 
 Always specify encoding when working with files to avoid platform-dependent behavior.
+
+---
+
+## Best Practices for Text Handling
+
+- Always use UTF-8 for new projects
+- Specify encoding explicitly when opening files
+- Handle encoding errors gracefully
+- Test with non-ASCII characters
+- Use Unicode normalization for text comparison
+- Be aware of byte order marks (BOM) in UTF-8 files
+
+Proper text encoding prevents data corruption and ensures compatibility across systems.
