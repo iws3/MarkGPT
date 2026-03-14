@@ -65,3 +65,14 @@ UTF-8 is the most widely used Unicode encoding. It uses 1-4 bytes per character:
 - Emoji and rare symbols: 4 bytes
 
 UTF-8 is backward compatible with ASCII and space-efficient for English text. It's the default encoding for the web and most modern systems.
+
+---
+
+## Other Encoding Schemes
+
+Other Unicode encodings include:
+
+- UTF-16: Uses 2 or 4 bytes, efficient for East Asian text
+- UTF-32: Uses 4 bytes per character, simple but wasteful
+
+Legacy encodings like Latin-1, Windows-1252, and Shift-JIS are still encountered but should be avoided for new projects.
