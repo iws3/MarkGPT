@@ -12,3 +12,17 @@
 - 7. Where MarkGPT Fits In
 - Key Concepts from This Lesson
 - Exercises for Day 1
+
+---
+
+## Before We Begin: A Thought Experiment
+
+Imagine you are six years old and you ask your grandmother a question: *"What does 'covenant' mean?"*
+
+She doesn't open a dictionary. She doesn't recite a definition. She tells you a story — maybe about a promise your grandfather made, maybe about a handshake that meant everything in a village. Through that story, through context and warmth and memory, the word *covenant* takes on meaning for you. You now understand it not as a definition but as a living thing.
+
+Now: can a machine do that?
+
+This question — whether a machine can understand, generate, or engage meaningfully with language — is the question that has driven artificial intelligence research for more than seventy years. And the answer, as of the 2020s, is: *sort of, and in ways that continue to astonish even the researchers who build these systems.*
+
+This lesson tells the story of how we got here.
