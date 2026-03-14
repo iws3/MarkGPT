@@ -76,3 +76,23 @@ Language models are evaluated using metrics like perplexity, which measures how 
 Other metrics include BLEU for translation, ROUGE for summarization, and human evaluation for quality.
 
 Cross-entropy loss is also used during training to measure how well the model fits the data.
+
+---
+
+## Language Models in Practice
+
+Language models are used in many applications:
+
+- Text generation and completion
+
+- Machine translation
+
+- Sentiment analysis
+
+- Chatbots and virtual assistants
+
+- Code generation
+
+- Summarization
+
+They power systems like GPT, BERT, and are integrated into search engines, email clients, and more.
