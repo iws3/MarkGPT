@@ -94,3 +94,13 @@ The Transformer architecture — introduced by Vaswani et al. in the 2017 paper 
 Instead of processing text word by word in sequence (as RNNs do), Transformers process all words simultaneously and let every word directly "attend to" every other word. This parallel processing is why Transformers can be scaled to enormous size and why they can be trained efficiently on modern hardware.
 
 GPT-2 (2019, 1.5 billion parameters), GPT-3 (2020, 175 billion parameters), and then ChatGPT (2022), Claude, Gemini, and Llama demonstrated that scaling up Transformer-based language models produces something that feels qualitatively different from anything before — systems that can write, reason, code, translate, summarize, and converse in ways that regularly surprise their creators.
+
+---
+
+## 7. Where MarkGPT Fits In
+
+MarkGPT is not GPT-4. It is not even GPT-2. It will have somewhere between 2 million and 85 million parameters, depending on your hardware — orders of magnitude smaller than production LLMs.
+
+But here is what matters: **MarkGPT uses exactly the same architecture, the same training algorithm, and the same fundamental ideas as the largest models in the world.** The difference is scale, not structure. By building MarkGPT, you will understand — from the inside — how every modern LLM works.
+
+And MarkGPT has something the big models don't: it will know Banso. It will have absorbed the cadences of Lamnso' proverbs and the rhythms of Biblical language in a dialect that has almost no representation in any commercial AI system. That is something genuinely new.
