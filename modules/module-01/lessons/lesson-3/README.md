@@ -41,3 +41,19 @@ These models set the benchmark for LLM capabilities but are proprietary and expe
 Open-source LLMs provide transparency and customization options. Models like Llama, Mistral, and Falcon are freely available for research and commercial use.
 
 These models often lag behind commercial ones in performance but offer flexibility for fine-tuning and deployment. They are crucial for the democratization of AI.
+
+---
+
+## Specialized Models
+
+Specialized models are designed for specific tasks:
+
+- Code generation: GitHub Copilot, CodeLlama
+
+- Medical: BioBERT, ClinicalBERT
+
+- Legal: Legal-BERT
+
+- Scientific: SciBERT
+
+These models are fine-tuned on domain-specific data for better performance in their niches.
