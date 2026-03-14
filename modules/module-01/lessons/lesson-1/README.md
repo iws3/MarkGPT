@@ -104,3 +104,19 @@ MarkGPT is not GPT-4. It is not even GPT-2. It will have somewhere between 2 mil
 But here is what matters: **MarkGPT uses exactly the same architecture, the same training algorithm, and the same fundamental ideas as the largest models in the world.** The difference is scale, not structure. By building MarkGPT, you will understand — from the inside — how every modern LLM works.
 
 And MarkGPT has something the big models don't: it will know Banso. It will have absorbed the cadences of Lamnso' proverbs and the rhythms of Biblical language in a dialect that has almost no representation in any commercial AI system. That is something genuinely new.
+
+---
+
+## Key Concepts from This Lesson
+
+**Symbolic AI** — The approach of encoding intelligence as explicit rules and logic. Powerful for narrow tasks, brittle for open-ended language.
+
+**Neural Networks** — Systems of interconnected parameters that learn patterns from data. The engine behind all modern AI.
+
+**Backpropagation** — The algorithm that makes it possible to train deep neural networks. You will implement it from scratch on Day 15.
+
+**Deep Learning** — Neural networks with many layers, trained on large data with GPUs. The current paradigm.
+
+**Transformer** — The specific architecture behind GPT, BERT, Claude, and MarkGPT. The subject of Module 06.
+
+**Pre-training and Fine-tuning** — First train a model on massive general text (pre-training), then adapt it to a specific domain or task (fine-tuning). This is exactly what you will do with MarkGPT.
