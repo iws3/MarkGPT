@@ -76,3 +76,15 @@ Other Unicode encodings include:
 - UTF-32: Uses 4 bytes per character, simple but wasteful
 
 Legacy encodings like Latin-1, Windows-1252, and Shift-JIS are still encountered but should be avoided for new projects.
+
+---
+
+## Encoding in Python
+
+Python 3 uses UTF-8 by default. Key functions:
+
+- str.encode(): Convert string to bytes
+- bytes.decode(): Convert bytes to string
+- open(file, encoding='utf-8'): Specify encoding when reading files
+
+Always specify encoding when working with files to avoid platform-dependent behavior.
