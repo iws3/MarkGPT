@@ -30,3 +30,19 @@ At its core, a language model computes the probability of a sequence of words: P
 In practice, we use the Markov assumption to limit the context window, looking only at the previous k words. For bigram models, k=1; for trigram models, k=2.
 
 Modern neural language models use attention mechanisms to consider all previous words, making them much more powerful.
+
+---
+
+## Types of Language Models
+
+Language models can be categorized in several ways:
+
+1. **Statistical vs Neural**: Statistical models use n-grams and smoothing techniques. Neural models use deep learning.
+
+2. **Autoregressive vs Autoencoding**: Autoregressive models (like GPT) predict the next token. Autoencoding models (like BERT) predict masked tokens.
+
+3. **Unidirectional vs Bidirectional**: Unidirectional models only look at previous context. Bidirectional models consider both directions.
+
+4. **Causal vs Masked**: Causal models are for generation, masked for understanding.
+
+Each type has its strengths and use cases.
