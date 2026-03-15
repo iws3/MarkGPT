@@ -141,4 +141,6 @@ Research continues to push the boundaries of what's possible with language model
 
 2. How does the chain rule of probability apply to language models?
 
+3. What is the Markov assumption in language models?
+
 *Next: Lesson 2.1 — Tokenization and Preprocessing*
