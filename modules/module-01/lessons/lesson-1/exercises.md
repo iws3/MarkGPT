@@ -11,3 +11,5 @@
 4. How did the availability of GPUs contribute to the deep learning revolution?
 
 5. What is the difference between static and contextual word embeddings?
+
+6. Explain the key innovation of the Transformer architecture.
