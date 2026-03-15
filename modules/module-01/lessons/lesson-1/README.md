@@ -173,5 +173,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 19. What is the AI winter and how did it affect neural networks?
 
+20. How does scaling affect the capabilities of language models?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
