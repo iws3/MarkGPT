@@ -141,5 +141,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 3. What role did backpropagation play in the development of neural networks?
 
+4. How did the availability of GPUs contribute to the deep learning revolution?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
