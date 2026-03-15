@@ -151,5 +151,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 8. How does MarkGPT differ from larger models like GPT-4?
 
+9. What is the significance of the Banso language for MarkGPT?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
