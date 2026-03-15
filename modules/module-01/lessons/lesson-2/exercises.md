@@ -9,3 +9,5 @@
 3. What is the Markov assumption and how does it simplify language modeling?
 
 4. What are the different types of language models?
+
+5. How do language models learn from training data?
