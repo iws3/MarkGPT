@@ -132,3 +132,11 @@ The future of language models includes:
 - Improved interpretability and safety
 
 Research continues to push the boundaries of what's possible with language models.
+
+---
+
+## Questions
+
+1. What is a language model and what is its primary function?
+
+*Next: Lesson 2.1 — Tokenization and Preprocessing*
