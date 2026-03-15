@@ -7,3 +7,5 @@
 2. What are the main differences between Symbolic AI and Neural Networks?
 
 3. What role did backpropagation play in the development of neural networks?
+
+4. How did the availability of GPUs contribute to the deep learning revolution?
