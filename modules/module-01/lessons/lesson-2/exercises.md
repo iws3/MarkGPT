@@ -13,3 +13,5 @@
 5. How do language models learn from training data?
 
 6. What is perplexity and how is it used to evaluate language models?
+
+7. Explain the distinction between autoregressive and autoencoding models.
