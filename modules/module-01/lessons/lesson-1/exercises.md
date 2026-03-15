@@ -13,3 +13,5 @@
 5. What is the difference between static and contextual word embeddings?
 
 6. Explain the key innovation of the Transformer architecture.
+
+7. What is pre-training and fine-tuning in the context of language models?
