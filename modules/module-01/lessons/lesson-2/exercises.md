@@ -5,3 +5,5 @@
 1. What is a language model and what is its primary function?
 
 2. How does the chain rule of probability apply to language models?
+
+3. What is the Markov assumption and how does it simplify language modeling?
