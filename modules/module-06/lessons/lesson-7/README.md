@@ -16,3 +16,9 @@
 Transformer performance often improves with model size, data, and compute. Understanding scaling laws helps make informed design choices.
 
 This lesson covers practical strategies for making transformers efficient and scalable.
+
+---
+
+## Quick Note
+
+When using quantization, run accuracy checks on critical tasks to ensure performance remains acceptable. Some models degrade more than others when compressed.
