@@ -165,5 +165,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 15. What is Word2Vec and how did it advance language processing?
 
+16. How did BERT improve upon previous language models?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
