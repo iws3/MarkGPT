@@ -33,6 +33,8 @@ This lesson tells the story of how we got here.
 
 The story of machine intelligence begins seriously in 1950 with a British mathematician named Alan Turing, who published a paper titled *"Computing Machinery and Intelligence."* It opens with a question that still echoes today: *"Can machines think?"*
 
+
+
 Turing was too careful a thinker to answer that question directly. Instead, he proposed a test — now called the *Turing Test* or the *Imitation Game* — in which a human judge conducts text-based conversations with both a human and a machine. If the judge cannot reliably distinguish the machine from the human, then for all practical purposes, the machine is demonstrating something that looks like intelligence.
 
 The Turing Test was less a solution than a provocation. It shifted the question from the philosophical ("Can machines think?") to the operational ("Can a machine fool a person?"). This shift — from asking what intelligence *is* to asking what it *does* — would shape AI research for generations.
