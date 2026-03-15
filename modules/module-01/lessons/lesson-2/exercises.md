@@ -15,3 +15,9 @@
 6. What is perplexity and how is it used to evaluate language models?
 
 7. Explain the distinction between autoregressive and autoencoding models.
+
+8. What are the practical applications of language models in industry?
+
+9. What are the main challenges and limitations of language models?
+
+10. How does tokenization affect language model performance?
