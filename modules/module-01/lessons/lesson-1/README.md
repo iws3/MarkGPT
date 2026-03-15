@@ -157,5 +157,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 11. What was the main limitation of symbolic AI for language processing?
 
+12. How did the Dartmouth workshop influence AI development?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
