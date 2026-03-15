@@ -16,3 +16,13 @@
 Large language models can generate unsafe or misleading content. Understanding the risks is essential for responsible deployment.
 
 This lesson reviews safety considerations and practical mitigation strategies.
+
+---
+
+## Quick Checklist
+
+- Define acceptable use cases and guardrails.
+- Conduct red-team exercises to uncover failure modes.
+- Implement logging and human review pipelines.
+
+A checklist ensures safety practices are consistently applied.
