@@ -137,5 +137,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 1. What is the Turing Test, and why was it significant for AI research?
 
+2. What are the main differences between Symbolic AI and Neural Networks?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
