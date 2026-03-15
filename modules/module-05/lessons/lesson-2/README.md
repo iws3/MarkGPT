@@ -18,3 +18,11 @@
 Tokenization is the process of splitting text into meaningful units (tokens) that a model can process. A good tokenizer balances expressivity, vocabulary size, and efficiency.
 
 Tokenization is a critical preprocessing step for any language model.
+
+---
+
+## Quick Exercise
+
+Try tokenizing a sentence with different tokenizers (e.g., whitespace, BPE, WordPiece) and compare the token count. Note how subword tokenization handles rare words.
+
+This exercise will help you see the practical tradeoffs between vocabulary size and tokenization granularity.
