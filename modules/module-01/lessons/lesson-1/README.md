@@ -149,5 +149,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 7. What is pre-training and fine-tuning in the context of language models?
 
+8. How does MarkGPT differ from larger models like GPT-4?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
