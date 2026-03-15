@@ -143,5 +143,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 4. How did the availability of GPUs contribute to the deep learning revolution?
 
+5. What is the difference between static and contextual word embeddings?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
