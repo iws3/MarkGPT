@@ -153,5 +153,7 @@ Write three sentences on this in your journal. We will return to this question o
 
 9. What is the significance of the Banso language for MarkGPT?
 
+10. Why is the thought experiment at the beginning of the lesson important?
+
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
