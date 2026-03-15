@@ -9,3 +9,5 @@
 3. What role did backpropagation play in the development of neural networks?
 
 4. How did the availability of GPUs contribute to the deep learning revolution?
+
+5. What is the difference between static and contextual word embeddings?
