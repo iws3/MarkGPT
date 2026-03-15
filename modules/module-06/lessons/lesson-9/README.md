@@ -16,3 +16,9 @@
 Evaluating transformers involves both automated metrics and human judgment. Key metrics include perplexity, accuracy, and response quality.
 
 This lesson covers how to set up evaluation pipelines and monitor model behavior.
+
+---
+
+## Practical Tip
+
+Set up alerts for sudden jumps in loss or drops in key metrics. Automated alerts help catch issues before they impact users.
