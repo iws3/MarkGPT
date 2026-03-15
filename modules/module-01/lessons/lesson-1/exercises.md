@@ -15,3 +15,9 @@
 6. Explain the key innovation of the Transformer architecture.
 
 7. What is pre-training and fine-tuning in the context of language models?
+
+8. How does MarkGPT differ from larger models like GPT-4?
+
+9. What is the significance of the Banso language for MarkGPT?
+
+10. Why is the thought experiment at the beginning of the lesson important?
