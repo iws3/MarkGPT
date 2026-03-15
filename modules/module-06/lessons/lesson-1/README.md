@@ -18,3 +18,9 @@
 Transformers are a neural network architecture that uses attention mechanisms to process sequences of tokens in parallel. They replaced recurrent and convolutional architectures in many NLP tasks.
 
 This lesson introduces the core concepts and intuition behind transformers.
+
+---
+
+## Suggested Implementation
+
+Try implementing a basic transformer encoder block in your preferred framework (PyTorch or TensorFlow). Start with self-attention and a simple feed-forward network, then stack a few blocks to see how representations evolve.
