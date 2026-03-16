@@ -1,5 +1,8 @@
-# Lesson 1: The History of AI: From Turing to Transformers
-## A Complete Narrative for the Curious Beginner
+# Lesson L01.1: The History of AI: From Turing to Transformers
+## Day 1: Welcome & Orientation | A Complete Narrative for the Curious Beginner
+
+### Lesson Overview
+This lesson traces the 70+ year journey from Turing's foundational question—"Can machines think?"—to today's transformer-based language models. You'll see how symbolic AI gave way to connectionism, how deep learning emerged, and how the 2017 "Attention Is All You Need" paper sparked the LLM revolution. By understanding this history, you'll develop intuition for why models like MarkGPT work the way they do. This is not just history for history's sake; it's intellectual scaffolding for everything that comes next.
 
 ## Table of Contents
 - Before We Begin: A Thought Experiment
@@ -179,3 +182,15 @@ Write three sentences on this in your journal. We will return to this question o
 
 *Next: Lesson 1.2 — What Is a Language Model?*
 *Continue to:* `modules/module-01/lessons/L01.2_what_is_a_language_model.md`
+
+---
+
+## Closing Reflection: Why This History Matters
+
+This lesson began with your grandmother explaining "covenant" through story. Seventy years of AI research is, in a sense, the story of how to teach a machine to do something similar — to find patterns in language, to predict what comes next, to eventually generate text that sounds like it understands.
+
+But understanding the history is not just about appreciating how far we've come. It is about developing **epistemic humility**: knowing both the real capabilities and the deep limitations of what we're building. Symbolic AI promised the moon and delivered disappointment. Deep learning has delivered astonishing results, yet models still hallucinate, still reflect biases in their training data, still fail unpredictably.
+
+As you move through this curriculum, this perspective will matter. When you train MarkGPT, you will achieve something genuinely impressive. You will also see its limits. Both are important to understand. The models of the 2020s are not oracles. They are probabilistic pattern-matchers of remarkable sophistication. That is profound in its own right.
+
+Now, move forward to understand what those patterns are actually doing. That is what Lesson L01.2 explores.

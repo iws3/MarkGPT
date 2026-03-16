@@ -1,5 +1,8 @@
-# Lesson 2: What Is a Language Model?
-## Understanding the Core of Modern AI
+# Lesson L01.2: What Is a Language Model?
+## Day 1: Welcome & Orientation | Understanding the Core of Modern AI
+
+### Lesson Overview
+In Lesson L01.1, you learned *how* we got to modern LLMs. Now, in Lesson L01.2, you learn *what* a language model actually is — not as a concept, but as a mathematical object. A language model is, at its core, a probability machine: given some words, it computes the probability distribution over what word should come next. This is the fundamental principle underlying GPT, Claude, MarkGPT, and every autoregressive language model in existence. Understanding this principle deeply is the key to understanding everything that follows. By the end of this lesson, you should be able to explain to someone why "perplexity" matters, what "next-token prediction" really means, and why scaling up a language model makes it predict better.
 
 ## Table of Contents
 - Introduction to Language Models
@@ -143,4 +146,12 @@ Research continues to push the boundaries of what's possible with language model
 
 3. What is the Markov assumption in language models?
 
-*Next: Lesson 2.1 — Tokenization and Preprocessing*
+---
+
+## Closing Reflection: The Elegant Core
+
+When you strip away all the complexity — the billions of parameters, the GPUs, the multi-head attention — a language model is doing something almost deceptively simple: predicting the next word. This simplicity is its power. By doing this prediction task extremely well on massive amounts of text, the model learns an implicit understanding of language, culture, reasoning, and even things its creators never explicitly taught it.
+
+This is not magic. It is mathematics. But what emerges from that mathematics sometimes *feels* like magic — which is why understanding the mechanics so thoroughly is essential. When you build MarkGPT, you will train it on the next-word prediction task. Everything it learns will come from that signal, refined trillions of times. This principle — that simplicity at scale produces complexity — is perhaps the most important insight in modern AI.
+
+*Next: Lesson L01.3 — How MarkGPT Fits Into the AI Landscape*

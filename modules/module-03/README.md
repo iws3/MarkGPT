@@ -1,8 +1,17 @@
-# Module $i: [Module Title]
+# Module 03 — Neural Networks from Scratch
+## Days 13–18 | Intermediate
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+This module builds your intuition for how neural networks learn. You will implement a neuron, then a multi-layer perceptron, then the magic of backpropagation — all from scratch, in plain Python and NumPy.
+
+By the end of Module 03, you will:
+- Understand the neuron as a mathematical object
+- Implement forward and backward passes
+- Solve non-linear problems (XOR) that n-gram models cannot
+- Grasp why depth matters in neural networks
 
 ## Learning Objectives
 

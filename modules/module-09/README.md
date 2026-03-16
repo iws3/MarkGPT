@@ -1,8 +1,18 @@
-# Module $i: [Module Title]
+# Module 09 — Building the Banso Dataset
+## Days 49–54 | Advanced + Cultural
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+Data is the soul of language models. This module teaches you to source, clean, document, and preserve data ethically — with a focus on low-resource languages and the Banso people of Northwest Cameroon.
+
+By the end of Module 09, you will:
+- Understand Banso language: phonology, grammar, tonal features
+- Source and align parallel Biblical text (Banso ↔ English)
+- Build data pipelines that respect cultural context
+- Train a BPE tokenizer optimized for Banso
+- Write a complete dataset card and datasheet
 
 ## Learning Objectives
 

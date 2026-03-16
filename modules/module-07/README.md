@@ -1,8 +1,18 @@
-# Module $i: [Module Title]
+# Module 07 — Training Large Language Models
+## Days 37–42 | Advanced
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+How do you actually train an LLM at scale? This module covers the practical details: data pipelines, learning rate schedules, scaling laws, mixed-precision training, and the art of not crashing your GPU.
+
+By the end of Module 07, you will:
+- Build efficient data loaders for streaming text
+- Understand learning rate warmup and annealing
+- Apply Chinchilla scaling laws
+- Train MarkGPT-Small on the full KJV Bible
+- Evaluate beyond loss: perplexity, BLEU, BERTScore
 
 ## Learning Objectives
 

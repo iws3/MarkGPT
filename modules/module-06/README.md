@@ -1,8 +1,18 @@
-# Module $i: [Module Title]
+# Module 06 — The Transformer Architecture
+## Days 31–36 | Advanced
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+The Transformer is the architecture underlying GPT, Claude, and all modern large language models. This module teaches you the "Attention Is All You Need" paper in depth and guides you through implementing a complete Transformer block from scratch.
+
+By the end of Module 06, you will:
+- Understand scaled dot-product attention intimately
+- Implement multi-head attention
+- Build positional encoding
+- Assemble a complete Transformer decoder block
+- Implement and train MarkGPT-Nano (a tiny GPT model)
 
 ## Learning Objectives
 

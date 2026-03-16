@@ -1,8 +1,17 @@
-# Module $i: [Module Title]
+# Module 05 — NLP Foundations: Text as Data
+## Days 25–30 | Intermediate
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+How do machines see language? This module teaches the practical skills for converting text into numbers: tokenization, embeddings, and the craft of feature engineering. You'll also learn about pre-Transformer language models that ruled the era 2018–2019.
+
+By the end of Module 05, you will:
+- Implement tokenization from Byte Pair Encoding
+- Train word embeddings and visualize them
+- Build a text classifier
+- Understand ELMo and the shift toward contextual representations
 
 ## Learning Objectives
 

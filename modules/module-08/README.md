@@ -1,8 +1,18 @@
-# Module $i: [Module Title]
+# Module 08 — Fine-Tuning & Transfer Learning
+## Days 43–48 | Advanced
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+Pretraining is powerful, but your model becomes truly useful when adapted to specific tasks and languages. This module teaches you to fine-tune efficiently, preserve learned knowledge, and adapt language models to low-resource languages like Banso.
+
+By the end of Module 08, you will:
+- Fine-tune pretrained models without catastrophic forgetting
+- Implement LoRA (Low-Rank Adaptation) from scratch
+- Extend tokenizers for new languages
+- Design evaluation rubrics for culturally-specific language
+- Build MarkGPT with Banso style and vocabulary
 
 ## Learning Objectives
 

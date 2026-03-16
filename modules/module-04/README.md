@@ -1,8 +1,17 @@
-# Module $i: [Module Title]
+# Module 04 — Recurrent Networks & Sequence Modeling
+## Days 19–24 | Intermediate
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
+
+Sequences are everywhere in language: a sentence is a sequence of words, a word is a sequence of characters. This module teaches how to build networks that remember, using RNNs, LSTMs, and the first forms of attention.
+
+By the end of Module 04, you will:
+- Understand how RNNs maintain hidden state over time
+- Implement the vanishing gradient problem and see it firsthand
+- Build an LSTM that actually remembers long sequences
+- Use attention to look back selectively through a sequence
 
 ## Learning Objectives
 

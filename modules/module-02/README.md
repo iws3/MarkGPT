@@ -1,13 +1,18 @@
-# Module $i: [Module Title]
+# Module 02 — Python & Mathematics Essentials
+## Days 7–12 | Beginner–Intermediate
 
-## Overview
+---
 
-This module covers fundamental concepts in machine learning and deep learning.
+## Module Overview
 
-## Learning Objectives
+Now that you understand what language models are, let's build the mathematical and programming foundations you'll need. This module doesn't assume you know Python or linear algebra — only curiosity and willingness to work through examples.
 
-- Understand core ML concepts
-- Implement algorithms from scratch
+By the end of Module 02, you will:
+- Write vectorized code in NumPy
+- Manipulate data with Pandas
+- Plot and visualize loss curves
+- Understand matrix operations, calculus, and probability
+- Have a solid foundation for the neural networks in Module 03
 - Relate theory to MarkGPT architecture
 - Complete hands-on exercises
 
