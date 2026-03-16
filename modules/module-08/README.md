@@ -7,6 +7,13 @@
 
 Pretraining is powerful, but your model becomes truly useful when adapted to specific tasks and languages. This module teaches you to fine-tune efficiently, preserve learned knowledge, and adapt language models to low-resource languages like Banso.
 
+### Lesson Structure (Days 43–48):
+- **L43.1-L43.2** (Days 43–44): Transfer learning foundation and adapter methods
+- **L44.1-L44.2** (Days 44–45): LoRA and Quantized LoRA (QLoRA) techniques
+- **L45.1-L45.2** (Days 45–46): Instruction tuning and SFT data preparation
+- **L46.1-L46.2** (Days 46–47): Reinforcement Learning from Human Feedback (RLHF) and reward models
+- **L47.1-L47.2** (Days 47–48): Direct Preference Optimization (DPO) and mini-project
+
 By the end of Module 08, you will:
 - Fine-tune pretrained models without catastrophic forgetting
 - Implement LoRA (Low-Rank Adaptation) from scratch
