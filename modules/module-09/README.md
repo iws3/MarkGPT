@@ -7,6 +7,13 @@
 
 Data is the soul of language models. This module teaches you to source, clean, document, and preserve data ethically — with a focus on low-resource languages and the Banso people of Northwest Cameroon.
 
+### Lesson Structure (Days 49–54):
+- **L49.1-L49.2** (Days 49–50): Banso people, history, and linguistic features
+- **L50.1-L50.2** (Days 50–51): Data collection methods and annotation pipelines
+- **L51.1-L51.2** (Days 51–52): Quality control procedures and privacy considerations
+- **L52.1-L52.2** (Days 52–53): Dataset versioning and comprehensive documentation
+- **L53.1-L53.2** (Days 53–54): Benchmark creation and dataset freeze
+
 By the end of Module 09, you will:
 - Understand Banso language: phonology, grammar, tonal features
 - Source and align parallel Biblical text (Banso ↔ English)
