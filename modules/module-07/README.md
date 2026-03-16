@@ -7,6 +7,13 @@
 
 How do you actually train an LLM at scale? This module covers the practical details: data pipelines, learning rate schedules, scaling laws, mixed-precision training, and the art of not crashing your GPU.
 
+### Lesson Structure (Days 37–42):
+- **L37.1-L37.2** (Days 37–38): Pretraining objectives and next-token prediction task
+- **L38.1-L38.2** (Days 38–39): Dataloaders and tokenization pipelines
+- **L39.1-L39.2** (Days 39–40): Learning rates and warmup scheduling
+- **L40.1-L40.2** (Days 40–41): Perplexity and evaluation metrics (BLEU, ROUGE)
+- **L41.1-L41.2** (Days 41–42): Scaling laws and Chinchilla compute allocation
+
 By the end of Module 07, you will:
 - Build efficient data loaders for streaming text
 - Understand learning rate warmup and annealing
