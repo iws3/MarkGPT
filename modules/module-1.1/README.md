@@ -585,6 +585,50 @@ Ensemble methods combine multiple base learners to create a stronger model. By l
 - Use feature selection before stacking
 - Document ensemble architecture and weights
 
+## Scaling and Computational Considerations
+
+### Computational Complexity Analysis
+
+**Training Complexity**
+- **Linear Models**: O(n·d) for n samples, d features
+- **Decision Trees**: O(n·d·log n) for tree construction
+- **Support Vector Machines**: O(n²) or O(n³) depending on solver
+- **Neural Networks**: Depends on architecture, typically O(n·layers²)
+- **Ensemble Methods**: Multiple of individual model complexity
+
+**Prediction Complexity**
+- **Linear Models**: O(d) - very fast
+- **Decision Trees**: O(tree depth)
+- **Neural Networks**: O(layers·neurons)
+- Critical for real-time applications
+
+### Strategies for Large-Scale Data
+
+**Data Handling**
+- Distributed processing with Spark-MLlib
+- Streaming algorithms for online learning
+- Mini-batch training for memory efficiency
+- Feature sampling and dimensionality reduction
+
+**Model Selection**
+- Linear models scale to millions of samples
+- Tree-based methods handle high dimensions
+- Neural networks require careful architecture
+- Approximate algorithms (SGD) for faster convergence
+
+**Infrastructure Considerations**
+- Cloud platforms (AWS, GCP, Azure) for scalability
+- GPU acceleration for neural networks
+- Distributed training frameworks (Horovod, Ray)
+- Model serving optimization (quantization, pruning)
+
+### Practical Guidelines
+- Profile code to identify bottlenecks
+- Start with simpler models on full data
+- Use sampling for hyperparameter tuning
+- Optimize data pipeline before model optimization
+- Consider cost-benefit of accuracy improvement vs. computational cost
+
 ---
 
 **Total Algorithms**: 30+
