@@ -547,6 +547,44 @@ For many applications (healthcare, finance, legal), understanding why a model ma
 - Use multiple interpretation methods for validation
 - Consider both global and local explanations
 
+## Ensemble Methods
+
+### Why Ensemble Learning Works
+Ensemble methods combine multiple base learners to create a stronger model. By leveraging diversity among models, ensembles can achieve better performance than individual models.
+
+### Common Ensemble Strategies
+
+**Voting and Averaging**
+- **Hard Voting**: Majority class vote for classification
+- **Soft Voting**: Weighted average of probability predictions
+- **Averaging**: Mean of regression predictions
+- Works best with diverse, independent models
+
+**Bagging (Bootstrap Aggregating)**
+- Train models on random samples with replacement
+- Reduces variance without increasing bias
+- Examples: Random Forests, Bagged Decision Trees
+- Works well with high-variance (complex) models
+
+**Boosting**
+- Train models sequentially, focusing on errors
+- Reduces both bias and variance
+- Examples: Gradient Boosting, AdaBoost, XGBoost
+- Effective with weak learners
+
+**Stacking**
+- Meta-learner combines predictions from base learners
+- Can capture relationships between models
+- Requires careful cross-validation to avoid overfitting
+
+### Ensemble Best Practices
+- Combine diverse algorithms for better results
+- Validate ensemble performance rigorously
+- Monitor for correlation between base models
+- Consider computational cost of ensemble
+- Use feature selection before stacking
+- Document ensemble architecture and weights
+
 ---
 
 **Total Algorithms**: 30+
