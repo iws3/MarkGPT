@@ -355,6 +355,42 @@ Hyperparameters are configuration settings chosen before training that control h
 - **Neural Networks**: learning rate, batch size, number of layers
 - **Clustering**: number of clusters, initialization method
 
+## Common Mistakes and How to Avoid Them
+
+### Training and Validation Mistakes
+- **Mistake**: Hyperparameter tuning on test set
+  - **Fix**: Use separate validation set for tuning, test set for final evaluation
+- **Mistake**: Not scaling features before training
+  - **Fix**: Normalize/standardize all numerical features consistently
+- **Mistake**: Evaluating only on training data
+  - **Fix**: Always evaluate on held-out test data
+- **Mistake**: Using raw predictions instead of cross-validation scores
+  - **Fix**: Use k-fold cross-validation for more reliable assessment
+
+### Data Handling Mistakes
+- **Mistake**: Not checking for data leakage
+  - **Fix**: Carefully track temporal order and separate data splits
+- **Mistake**: Ignoring class imbalance
+  - **Fix**: Use stratified sampling, class weights, or resampling techniques
+- **Mistake**: Duplicates in train and test sets
+  - **Fix**: Check for duplicates and remove from one set before splitting
+- **Mistake**: Using test set statistics for preprocessing
+  - **Fix**: Fit normalization on training set, apply to test set
+
+### Model Development Mistakes
+- **Mistake**: Picking model complexity without evidence
+  - **Fix**: Start simple, increase complexity only if needed
+- **Mistake**: Ignoring the bias-variance tradeoff
+  - **Fix**: Explicitly check for overfitting and underfitting
+- **Mistake**: Not documenting the development process
+  - **Fix**: Keep detailed records of experiments and decisions
+
+### Interpretation Mistakes
+- **Mistake**: Assuming correlation implies causation
+  - **Fix**: Understand the difference; use proper statistical tests
+- **Mistake**: Overgeneralizing from model performance
+  - **Fix**: Test on diverse, representative data
+
 ---
 
 **Total Algorithms**: 30+
