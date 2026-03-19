@@ -327,6 +327,34 @@ Cross-validation provides more reliable performance estimates by using multiple 
 - Account for data leakage between sets
 - Document your cross-validation strategy
 
+## Hyperparameter Tuning
+
+### Understanding Hyperparameters
+Hyperparameters are configuration settings chosen before training that control how the learning algorithm behaves. Unlike model parameters learned from data, hyperparameters define the learning process itself.
+
+### Common Hyperparameter Tuning Methods
+- **Grid Search**: Exhaustive search over specified parameter values
+- **Random Search**: Random sampling of parameter space
+- **Bayesian Optimization**: Probabilistic model-based search
+- **Genetic Algorithms**: Evolution-inspired optimization
+- **Hyperband**: Successive halving for faster tuning
+
+### Hyperparameter Tuning Best Practices
+- Start with default values and understand their impact
+- Use domain knowledge to set reasonable ranges
+- Tune hyperparameters using validation set, not test set
+- Search coarse-to-fine for efficiency
+- Parallelize search for faster computation
+- Document optimal values for reproducibility
+- Consider computational budget when choosing search strategy
+
+### Common Hyperparameters by Algorithm
+- **Tree-based**: tree depth, min samples split, number of trees
+- **Linear Models**: regularization strength (C, alpha), solver type
+- **SVM**: kernel type, C parameter, gamma
+- **Neural Networks**: learning rate, batch size, number of layers
+- **Clustering**: number of clusters, initialization method
+
 ---
 
 **Total Algorithms**: 30+
