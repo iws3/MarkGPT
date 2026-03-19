@@ -30,6 +30,29 @@ Each learning paradigm contains multiple algorithms with:
 - **exercises.md** - 10 hands-on exercises per algorithm
 - **question.md** - Application questions for deep understanding
 
+## Supervised Learning Paradigm
+
+### Definition
+Supervised learning involves training a model on labeled data, where each input has a corresponding correct output. The model learns the mapping between inputs and outputs, then applies this learned mapping to make predictions on new, unseen data.
+
+### When to Use
+- You have labeled training data
+- You need to predict specific values or categories
+- You have clear input-output relationships
+- Accuracy on specific metrics is critical
+
+### Key Algorithms Covered
+1. **Linear Regression** - Predicting continuous values
+2. **Logistic Regression** - Binary and multi-class classification
+3. **Decision Trees** - Interpretable classification and regression
+4. **Random Forests** - Ensemble method for improved accuracy
+5. **Support Vector Machines** - Powerful classifier for complex boundaries
+6. **Naive Bayes** - Fast probabilistic classifier
+7. **K-Nearest Neighbors** - Instance-based learning
+8. **Gradient Boosting** - Sequential ensemble method
+9. **Neural Networks** - Deep learning for complex patterns
+10. Plus additional variations and hybrid approaches
+
 ## Learning Outcomes
 
 By completing this module, you will:
