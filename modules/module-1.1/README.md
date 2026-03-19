@@ -391,6 +391,48 @@ Hyperparameters are configuration settings chosen before training that control h
 - **Mistake**: Overgeneralizing from model performance
   - **Fix**: Test on diverse, representative data
 
+## The Bias-Variance Tradeoff
+
+### Understanding Bias and Variance
+
+**Bias** refers to systematic errors from oversimplified assumptions in the model. High bias models underfit, failing to capture the underlying patterns in data.
+
+**Variance** refers to sensitivity to fluctuations in the training data. High variance models overfit, memorizing noise rather than learning patterns.
+
+### Identifying Bias-Variance Issues
+
+**High Bias (Underfitting)**
+- Training error is high
+- Validation error is also high
+- Training and validation errors are similar
+- Model is too simple for the problem
+
+**High Variance (Overfitting)**
+- Training error is low
+- Validation error is much higher than training error
+- Large gap between training and validation error
+- Model is too complex for available data
+
+### Strategies to Address Imbalance
+
+**For Underfitting (High Bias)**
+- Use more complex model architecture
+- Add more features or polynomial features
+- Reduce regularization strength
+- Increase model training duration
+- Collect more diverse data
+
+**For Overfitting (High Variance)**
+- Use simpler model architecture
+- Add regularization (L1, L2, dropout)
+- Collect more training data
+- Perform feature selection
+- Use early stopping
+- Increase dropout rate for neural networks
+
+### The Bias-Variance Tradeoff in Practice
+The goal is to find the sweet spot where total error (bias + variance + irreducible error) is minimized. This often requires experimentation with different model complexities.
+
 ---
 
 **Total Algorithms**: 30+
