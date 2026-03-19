@@ -99,6 +99,9 @@ By completing this module, you will:
 - Apply algorithms to real-world problems
 - Build intuition for algorithm selection
 - Implement solutions using Python and popular ML libraries
+- Develop best practices for model development and deployment
+- Evaluate models using appropriate metrics and validation techniques
+- Recognize and avoid common ML pitfalls
 
 ## Prerequisites
 
