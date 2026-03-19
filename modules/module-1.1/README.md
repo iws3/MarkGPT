@@ -110,6 +110,32 @@ By completing this module, you will:
 - Linear Algebra basics
 - Statistics fundamentals
 
+### Detailed Prerequisites
+
+**Programming Foundation**
+- Python 3.8+ proficiency with variables, functions, and classes
+- Data structures: lists, dictionaries, tuples, numpy arrays
+- Control flow: loops, conditionals, list comprehensions
+- File I/O and basic debugging skills
+
+**Mathematical Foundation**
+- Linear algebra: vectors, matrices, matrix operations
+- Calculus: derivatives, partial derivatives for gradient computation
+- Probability: probability distributions, Bayes' theorem
+- Statistics: mean, variance, correlation, hypothesis testing
+
+**Data Handling**
+- NumPy array operations and broadcasting
+- Pandas DataFrames and Series manipulation
+- Data cleaning and preprocessing techniques
+- Basic data visualization with Matplotlib
+
+**Environment Knowledge**
+- Jupyter notebook environment
+- Command-line basics and Git version control
+- Package management with pip or conda
+- Virtual environment setup and management
+
 ## How to Use This Module
 
 1. Start with Supervised Learning fundamentals
