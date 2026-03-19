@@ -53,6 +53,44 @@ Supervised learning involves training a model on labeled data, where each input 
 9. **Neural Networks** - Deep learning for complex patterns
 10. Plus additional variations and hybrid approaches
 
+## Unsupervised Learning Paradigm
+
+### Definition
+Unsupervised learning involves finding hidden patterns in unlabeled data. Without target outputs to guide the learning process, these algorithms identify structure, relationships, and groupings within the data itself.
+
+### When to Use
+- You have unlabeled data
+- You want to discover hidden patterns or structure
+- You need to reduce dimensionality of high-dimensional data
+- Customer segmentation or market analysis is required
+- Exploratory data analysis is your first step
+
+### Key Algorithms Covered
+1. **K-Means Clustering** - Partitioning data into k clusters
+2. **Hierarchical Clustering** - Building a hierarchy of clusters
+3. **Principal Component Analysis (PCA)** - Dimensionality reduction
+4. **DBSCAN** - Density-based clustering
+5. **Gaussian Mixture Models** - Probabilistic clustering
+6. **Manifold Learning** - Non-linear dimensionality reduction
+
+## Reinforcement Learning Paradigm
+
+### Definition
+Reinforcement learning involves an agent learning to make decisions through interaction with an environment. The agent receives rewards or penalties for its actions and learns to maximize cumulative reward over time.
+
+### When to Use
+- You're dealing with sequential decision-making problems
+- You have an environment or simulator to interact with
+- You need to optimize a long-term strategy
+- Traditional supervised data isn't available
+- Games, robotics, or control problems are involved
+
+### Key Algorithms Covered
+1. **Q-Learning** - Model-free temporal difference learning
+2. **Policy Gradient Methods** - Direct policy optimization
+3. **Actor-Critic** - Combining value and policy methods
+4. **Deep Q-Networks** - Scaling Q-learning with deep neural networks
+
 ## Learning Outcomes
 
 By completing this module, you will:
