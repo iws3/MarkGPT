@@ -239,6 +239,35 @@ Understanding the complete ML workflow is crucial for successful model developme
 - Retrain periodically with new data
 - Document deployment process
 
+## Data Preparation & Feature Engineering
+
+### Why It Matters
+Data quality and features are often more important than the algorithm choice. Organizations typically spend 60-80% of time on data preparation and feature engineering.
+
+### Data Preparation Best Practices
+- **Handle Missing Values**: Understand why data is missing (MCAR, MAR, MNAR)
+- **Detect Outliers**: Use statistical methods (IQR, Z-score) or domain knowledge
+- **Normalize/Standardize**: Essential for distance-based algorithms
+- **Handle Categorical Variables**: One-hot encoding, label encoding, or embeddings
+- **Address Class Imbalance**: SMOTE, class weights, or threshold adjustment
+- **Train-Test Splitting**: Stratified sampling preserves class distributions
+
+### Feature Engineering Techniques
+- **Polynomial Features**: Capture non-linear relationships
+- **Interaction Features**: Combine related variables
+- **Binning/Discretization**: Convert continuous to categorical
+- **Scaling**: Normalize features to similar ranges
+- **PCA/Feature Selection**: Reduce dimensionality
+- **Domain-specific Features**: Leverage domain expertise
+
+### Common Data Pitfalls to Avoid
+- **Data Leakage**: Information from test set leaking into training
+- **Temporal Leakage**: Using future information to predict the past
+- **Class Imbalance**: Minority class being ignored in training
+- **Outlier Sensitivity**: Extreme values distorting model behavior
+- **Feature Scaling**: Forgetting to scale features before training
+- **Missing Documentation**: Not recording preprocessing decisions
+
 ---
 
 **Total Algorithms**: 30+
