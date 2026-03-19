@@ -301,6 +301,32 @@ Data quality and features are often more important than the algorithm choice. Or
 - Use multiple metrics for comprehensive evaluation
 - Document why specific metrics were chosen
 
+## Cross-Validation and Testing Strategies
+
+### Why Cross-Validation Matters
+Cross-validation provides more reliable performance estimates by using multiple train-test splits rather than a single split, which may not be representative of model performance.
+
+### Cross-Validation Techniques
+- **K-Fold Cross-Validation**: Divide data into k equal parts, train k models
+- **Stratified K-Fold**: Preserve class distribution in each fold
+- **Time Series Split**: Respect temporal ordering in time-series data
+- **Leave-One-Out Cross-Validation**: Use one sample for testing, rest for training
+- **Nested Cross-Validation**: Separate validation for hyperparameter tuning
+
+### Proper Train-Test Split Strategy
+- **Training Set** (60-70%): Used for model training
+- **Validation Set** (10-15%): Used for hyperparameter tuning
+- **Test Set** (15-30%): Final evaluation, touched only once
+- **Temporal Ordering**: For time-series, split chronologically
+- **Stratification**: Preserve class distributions in splits
+
+### Avoiding Evaluation Pitfalls
+- Never tune hyperparameters on test set
+- Don't report metrics from training data as final performance
+- Use random states for reproducibility
+- Account for data leakage between sets
+- Document your cross-validation strategy
+
 ---
 
 **Total Algorithms**: 30+
