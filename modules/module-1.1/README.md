@@ -186,6 +186,59 @@ By completing this module, you will:
 - PyTorch
 - OpenAI Gym (for RL)
 
+## The Machine Learning Workflow
+
+Understanding the complete ML workflow is crucial for successful model development:
+
+### 1. Problem Definition
+- Clearly define the problem type (classification, regression, clustering)
+- Identify success metrics and constraints
+- Understand business requirements
+- Determine ethical implications
+
+### 2. Data Collection & Exploration
+- Gather relevant training data
+- Perform exploratory data analysis (EDA)
+- Understand data distributions and relationships
+- Identify missing values and outliers
+- Document data sources and collection methodology
+
+### 3. Data Preparation & Preprocessing
+- Handle missing values appropriately
+- Remove or treat outliers
+- Encode categorical variables
+- Normalize or standardize numerical features
+- Balance class distribution if necessary
+- Create train/validation/test splits
+
+### 4. Feature Engineering
+- Create domain-relevant features
+- Select features most predictive of target
+- Reduce dimensionality if needed
+- Handle multicollinearity
+- Document feature creation logic
+
+### 5. Model Selection & Training
+- Choose appropriate algorithms for your problem
+- Train baseline models
+- Tune hyperparameters systematically
+- Cross-validate results
+- Compare multiple models
+
+### 6. Model Evaluation
+- Evaluate on held-out test set
+- Use appropriate metrics for your problem
+- Check for overfitting and underfitting
+- Analyze prediction errors
+- Gain insight from model predictions
+
+### 7. Deployment & Monitoring
+- Prepare model for production
+- Set up monitoring systems
+- Track model performance over time
+- Retrain periodically with new data
+- Document deployment process
+
 ---
 
 **Total Algorithms**: 30+
