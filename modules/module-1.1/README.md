@@ -268,6 +268,39 @@ Data quality and features are often more important than the algorithm choice. Or
 - **Feature Scaling**: Forgetting to scale features before training
 - **Missing Documentation**: Not recording preprocessing decisions
 
+## Model Evaluation Metrics
+
+### Evaluating Supervised Learning Models
+
+**Classification Metrics**
+- **Accuracy**: Proportion of correct predictions (use with balanced datasets)
+- **Precision**: True positives / (true positives + false positives)
+- **Recall**: True positives / (true positives + false negatives)
+- **F1-Score**: Harmonic mean of precision and recall
+- **ROC-AUC**: Area under receiver operating characteristic curve
+- **Confusion Matrix**: Detailed breakdown of prediction types
+
+**Regression Metrics**
+- **Mean Squared Error (MSE)**: Average squared differences
+- **Root Mean Squared Error (RMSE)**: Square root of MSE
+- **Mean Absolute Error (MAE)**: Average absolute differences
+- **R-squared (R²)**: Proportion of variance explained
+- **Mean Absolute Percentage Error (MAPE)**: Percentage error
+
+### Evaluating Unsupervised Learning Models
+
+**Clustering Metrics**
+- **Silhouette Score**: Measure of cluster cohesion (-1 to 1)
+- **Davies-Bouldin Index**: Ratio of within to between cluster distances
+- **Calinski-Harabasz Index**: Ratio of between to within dispersion
+- **Inertia**: Sum of squared distances to nearest centroid
+
+### Choosing the Right Metric
+- Consider business objectives, not just mathematical metrics
+- Understand class imbalance impact on metric selection
+- Use multiple metrics for comprehensive evaluation
+- Document why specific metrics were chosen
+
 ---
 
 **Total Algorithms**: 30+
