@@ -433,6 +433,53 @@ Hyperparameters are configuration settings chosen before training that control h
 ### The Bias-Variance Tradeoff in Practice
 The goal is to find the sweet spot where total error (bias + variance + irreducible error) is minimized. This often requires experimentation with different model complexities.
 
+## Algorithm Selection Guide
+
+### Decision Tree for Algorithm Selection
+
+**Step 1: Determine Problem Type**
+- Classification: Supervised learning with discrete outputs
+- Regression: Supervised learning with continuous outputs
+- Clustering: Unsupervised learning to find groups
+- Reinforcement Learning: Decision-making with rewards
+
+**Step 2: Consider Data Characteristics**
+- Dataset size: Small (<1000 samples) vs. Large (>100K samples)
+- Feature count: Few vs. Many features
+- Feature types: Numerical, categorical, or mixed
+- Class balance: Balanced vs. Imbalanced data
+- Temporal nature: Time-series vs. static data
+
+### Algorithm Selection by Problem Type
+
+**For Classification**
+- **Binary, Simple Patterns**: Logistic Regression, Naive Bayes
+- **Complex, Non-linear**: Decision Trees, Random Forests, SVM, Neural Networks
+- **Many Features**: Regularized Logistic Regression, SVM
+- **Explainability Important**: Decision Trees, Linear Models
+- **Speed Critical**: Naive Bayes, Linear Models
+
+**For Regression**
+- **Linear Relationships**: Linear Regression, Ridge, Lasso
+- **Non-linear Patterns**: Decision Trees, Random Forests, SVR
+- **High-dimensional Data**: Ridge Regression, Elastic Net
+- **Real-time Prediction**: Linear Models, Neural Networks
+- **Uncertainty Quantification**: Gaussian Processes, Bayesian Regression
+
+**For Clustering**
+- **Spherical Clusters**: K-Means
+- **Arbitrary Shapes**: DBSCAN, Hierarchical Clustering
+- **Probabilistic Assignment**: Gaussian Mixture Models
+- **Dimensionality Reduction**: PCA, t-SNE, UMAP
+- **Hierarchical Structure**: Hierarchical Clustering
+
+### Practical Tips for Selection
+- Start with simplest algorithm that works
+- Benchmark multiple algorithms on your specific data
+- Consider interpretability requirements
+- Account for deployment and computational constraints
+- Ensemble multiple algorithms for best results
+
 ---
 
 **Total Algorithms**: 30+
