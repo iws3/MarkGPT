@@ -8,6 +8,21 @@ This module provides a comprehensive introduction to machine learning, divided i
 2. **Unsupervised Learning** - Finding patterns in unlabeled data
 3. **Reinforcement Learning** - Learning through interaction and reward signals
 
+### What is Machine Learning?
+
+Machine Learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. Instead of following pre-defined rules, ML models learn patterns from data and use these patterns to make predictions or decisions.
+
+Machine Learning has become fundamental to modern technology, powering applications from recommendation systems to autonomous vehicles. Understanding the core concepts and algorithms is essential for any data scientist or AI engineer.
+
+### Goals of This Module
+
+This module aims to:
+- Establish a strong foundation in machine learning theory and practice
+- Develop practical skills in implementing ML algorithms
+- Build intuition for choosing appropriate algorithms for different problems
+- Create a bridge between theoretical understanding and real-world application
+- Prepare you for advanced ML topics and specialized domains
+
 ## Module Structure
 
 Each learning paradigm contains multiple algorithms with:
