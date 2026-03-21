@@ -133,14 +133,112 @@ This curriculum is designed to produce builders. Every exercise, every derivatio
 
 ---
 
-## 🤝 Contributing
+## 🤝 How to Contribute
 
-Contributions are warmly welcomed, especially from:
-- Native Banso speakers who can expand the vernacular dataset
-- Educators who want to adapt this for classroom use
-- Researchers working on low-resource African language NLP
+We **warmly welcome contributions** from the community! Whether you're a beginner student, experienced educator, or researcher, there are many ways to improve this curriculum.
 
-See `CONTRIBUTING.md` for guidelines.
+### 📚 What Can You Contribute?
+
+- **Improve Lessons**: Clarify explanations, add visualizations, fix typos
+- **Create Exercises**: Build challenging practice problems with solutions
+- **Build Projects**: Create real-world applications and mini-capstones
+- **Expand Documentation**: Write guides, troubleshooting docs, tips
+- **Language & Culture**: Expand the Banso dataset, improve translations
+- **Bug Fixes**: Report and fix errors in code or explanations
+- **Data Contributions**: Help with the Banso vernacular dataset
+- **Deployment Guides**: Create deployment examples and best practices
+
+### 🚀 For Student Contributors
+
+**This is the perfect project to build your portfolio!** New to open source? Start here:
+
+1. **Read [contributors/CONTRIBUTORS_GUIDE.md](contributors/CONTRIBUTORS_GUIDE.md)** — Complete step-by-step guide for beginners
+2. **Create your contributor folder** with your GitHub username in `contributors/`
+3. **Work on improvements** in your own isolated folder
+4. **Submit a Pull Request** when you're ready
+5. **Collaborate** with maintainers and other students
+
+The contributors guide includes:
+- ✅ Complete setup instructions (no prior Git knowledge required)
+- ✅ Step-by-step contribution workflow
+- ✅ Best practices and common pitfalls to avoid
+- ✅ Clear examples of what makes a good contribution
+- ✅ Troubleshooting help for common issues
+
+### 🌍 For Educators & Researchers
+
+- Adapt this curriculum for classroom use
+- Contribute research insights and papers
+- Help with Banso language/cultural accuracy
+- Share datasets and resources for African language NLP
+- Collaborate on model deployment and optimization
+
+### 📋 Contribution Process
+
+**Quick Reference** (detailed guide in [contributors/CONTRIBUTORS_GUIDE.md](contributors/CONTRIBUTORS_GUIDE.md)):
+
+```bash
+# 1. Fork the repository on GitHub
+# 2. Clone your fork
+git clone https://github.com/YOUR-USERNAME/MarkGPT-LLM-Curriculum.git
+
+# 3. Create your contributor workspace
+mkdir contributors/YOUR-GITHUB-USERNAME
+cd contributors/YOUR-GITHUB-USERNAME
+
+# 4. Create the module structure you're working on
+mkdir -p module-02/lessons
+
+# 5. Make your changes and commit
+git add .
+git commit -m "feat: improve module-02 numpy lesson"
+
+# 6. Push to your fork and create a Pull Request
+git push origin main
+```
+
+### ✨ Best Practices
+
+1. **Start Small**: First contributions should be focused (1-2 files)
+2. **Test Everything**: Run all Jupyter notebooks before submitting
+3. **Follow Patterns**: Look at existing lessons for structure and style
+4. **Write Clear Commits**: Describe what changed and why
+5. **Communicate**: Ask questions if anything is unclear
+6. **Respect Culture**: Be sensitive to Banso language and traditions
+
+### 💡 Getting Help
+
+- **Setup Issues?** Check [GETTING_STARTED.md](GETTING_STARTED.md)
+- **Contribution Questions?** See [contributors/CONTRIBUTORS_GUIDE.md](contributors/CONTRIBUTORS_GUIDE.md)
+- **Git Problems?** Check the [Git Troubleshooting section](contributors/CONTRIBUTORS_GUIDE.md#common-git-issues)
+- **Need More Help?** Open an issue or email `iwstechnical@gmail.com`
+
+### 🎯 Special Opportunities
+
+We are currently seeking contributors for:
+
+- **Banso Language Experts**: Help expand vernacular dataset and improve linguistic accuracy
+- **Data Collection**: Build tools and workflows for dataset creation
+- **Model Evaluation**: Create evaluation metrics and benchmarks
+- **Deployment**: Build Docker containers and deployment guides
+- **Documentation**: Write case studies, tutorials, and explanations
+- **Translations**: Adapt lessons for other languages/contexts
+
+### 📄 Contributor Guidelines
+
+For detailed guidelines, including code standards, docstring requirements, and the full contribution workflow, see:
+
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** — Technical contribution standards
+- **[contributors/CONTRIBUTORS_GUIDE.md](contributors/CONTRIBUTORS_GUIDE.md)** — Step-by-step guide for beginners
+- **[COMMUNITY_GUIDELINES.md](docs/COMMUNITY_GUIDELINES.md)** — Code of conduct and community values
+
+### 🌟 Recognition
+
+All contributors are recognized in:
+- This README (in a Contributors section)
+- The CONTRIBUTORS.md file in the repository
+- Each Pull Request and commit history
+- Our community page
 
 ---
 
