@@ -4,14 +4,51 @@ Thank you for your interest in contributing to the MarkGPT LLM Curriculum! This 
 
 ## Table of Contents
 
-1. [Code of Conduct](#code-of-conduct)
-2. [Getting Started](#getting-started)
-3. [Fork-and-Branch Workflow](#fork-and-branch-workflow)
-4. [Conventional Commits](#conventional-commits)
-5. [Code Style](#code-style)
-6. [Docstring Standards](#docstring-standards)
-7. [Pull Request Checklist](#pull-request-checklist)
-8. [For Non-Technical Contributors](#for-non-technical-contributors)
+1. [Quick Links for Contributors](#quick-links-for-contributors)
+2. [Code of Conduct](#code-of-conduct)
+3. [Getting Started](#getting-started)
+4. [Fork-and-Branch Workflow](#fork-and-branch-workflow)
+5. [Conventional Commits](#conventional-commits)
+6. [Code Style](#code-style)
+7. [Docstring Standards](#docstring-standards)
+8. [Pull Request Checklist](#pull-request-checklist)
+9. [For Non-Technical Contributors](#for-non-technical-contributors)
+
+---
+
+## 🚀 Quick Links for Contributors
+
+### New to Contributing? Start Here!
+
+1. **[contributors/CONTRIBUTORS_GUIDE.md](contributors/CONTRIBUTORS_GUIDE.md)** ⭐ **START HERE FOR BEGINNERS**
+   - Complete step-by-step guide with no assumptions
+   - Perfect for first-time open source contributors
+   - Includes troubleshooting for common Git issues
+
+2. **[BEST_PRACTICES.md](BEST_PRACTICES.md)** — Quality standards and best practices
+   - Code style guidelines
+   - Jupyter notebook best practices
+   - Educational content guidelines
+   - Module-specific advice
+
+3. **[CONTRIBUTORS.md](CONTRIBUTORS.md)** — Hall of fame and contribution tiers
+   - See previous contributors
+   - Get recognized for your work
+   - Learn about contribution levels
+
+### Different Types of Contributors
+
+**Student or First-Timer?**
+→ Read [contributors/CONTRIBUTORS_GUIDE.md](contributors/CONTRIBUTORS_GUIDE.md) (designed for you!)
+
+**Experienced Developer?**
+→ Jump to [Fork-and-Branch Workflow](#fork-and-branch-workflow)
+
+**Educator or Language Expert?**
+→ See [For Non-Technical Contributors](#for-non-technical-contributors)
+
+**Want Best Practices?**
+→ Check [BEST_PRACTICES.md](BEST_PRACTICES.md)
 
 ---
 
