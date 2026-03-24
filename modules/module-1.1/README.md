@@ -783,3 +783,7 @@ Module 1.1 is organized into three main sections: Supervised Learning covers reg
 ## Prerequisites and Expectations
 
 This module assumes basic knowledge of linear algebra, calculus, probability, and Python programming. Students should be comfortable with matrix operations, derivative computations, probability distributions, and writing clean, documented Python code. Access to datasets (provided in the data/ directory) and computational resources for training models is required. Jupyter notebooks for each lesson facilitate interactive learning. Active engagement with exercises and projects is essential for mastery.
+
+## Practical Applications
+
+The algorithms covered in this module power countless real-world applications: supervised learning enables fraud detection, credit scoring, and medical diagnosis; unsupervised learning discovers customer segments, detects anomalies, and reduces data dimensionality for visualization; reinforcement learning trains autonomous agents for robotics, game-playing, and resource optimization. Throughout the course, emphasis is placed on understanding when each algorithm is appropriate, how to implement it correctly, and how to evaluate its performance on real datasets.
