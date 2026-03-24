@@ -46,3 +46,7 @@ Linear regression is fundamentally based on the principle of minimizing the sum 
 ### Gradient Descent Optimization
 
 Gradient descent is the iterative optimization algorithm used to find the parameters that minimize the cost function. The algorithm works by computing the partial derivatives of the cost function with respect to each parameter and moving in the direction of steepest descent. The learning rate (alpha) is a critical hyperparameter that controls the size of each step taken during optimization. A learning rate that is too small will result in slow convergence, while a learning rate that is too large may cause the algorithm to overshoot the optimal solution. Choosing an appropriate learning rate requires careful consideration and often involves experimentation with different values.
+
+### Feature Scaling and Normalization
+
+When features have vastly different scales, gradient descent can converge slowly and may struggle to find optimal parameters. Feature scaling techniques such as standardization (z-score normalization) and mean normalization help ensure that all features contribute equally to the optimization process. Standardization transforms features to have zero mean and unit variance, computed as (x - mean) / standard_deviation. Without proper feature scaling, features with larger numerical ranges can dominate the learningprocess, leading to a model that does not properly utilize all available information in the training data.
