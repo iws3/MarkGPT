@@ -775,3 +775,7 @@ Ensemble methods combine multiple base learners to create a stronger model. By l
 ## Learning Outcomes
 
 Upon completing this module, students will be able to: (1) apply supervised learning algorithms to structured data, understanding when to use linear models, tree-based methods, and support vector machines; (2) perform unsupervised learning tasks including clustering and dimensionality reduction, recognizing patterns and structure in unlabeled data; (3) understand reinforcement learning fundamentals and implement basic agents that learn through interaction with environments; (4) evaluate models using appropriate metrics and cross-validation techniques; and (5) preprocess data, select features, and tune hyperparameters effectively.
+
+## Module Structure
+
+Module 1.1 is organized into three main sections: Supervised Learning covers regression and classification using classical algorithms. Unsupervised Learning provides clustering and dimensionality reduction techniques for discovering hidden structure. Reinforcement Learning introduces agents that learn optimal policies through trial and error. Within each section, algorithms are presented with increasing complexity, building foundational understanding before introducing advanced topics like ensemble methods, kernel tricks, and deep neural network integration.
