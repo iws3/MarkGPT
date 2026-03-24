@@ -37,3 +37,8 @@ Use logistic regression when:
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### The Sigmoid Function and Probability
+
+Unlike linear regression which predicts continuous values, logistic regression is designed for binary classification problems. The core of logistic regression is the sigmoid function, defined as σ(z) = 1 / (1 + e^(-z)), which maps any input to a value between 0 and 1. This output is interpreted as the probability that an instance belongs to the positive class. The sigmoid function has a smooth S-shaped curve that ensures the probability estimates are always bounded between 0 and 1, making it ideal for modeling classification probabilities. The decision boundary is typically set at 0.5, where instances with probability above 0.5 are classified as positive and those below are classified as negative.
