@@ -779,3 +779,7 @@ Upon completing this module, students will be able to: (1) apply supervised lear
 ## Module Structure
 
 Module 1.1 is organized into three main sections: Supervised Learning covers regression and classification using classical algorithms. Unsupervised Learning provides clustering and dimensionality reduction techniques for discovering hidden structure. Reinforcement Learning introduces agents that learn optimal policies through trial and error. Within each section, algorithms are presented with increasing complexity, building foundational understanding before introducing advanced topics like ensemble methods, kernel tricks, and deep neural network integration.
+
+## Prerequisites and Expectations
+
+This module assumes basic knowledge of linear algebra, calculus, probability, and Python programming. Students should be comfortable with matrix operations, derivative computations, probability distributions, and writing clean, documented Python code. Access to datasets (provided in the data/ directory) and computational resources for training models is required. Jupyter notebooks for each lesson facilitate interactive learning. Active engagement with exercises and projects is essential for mastery.
