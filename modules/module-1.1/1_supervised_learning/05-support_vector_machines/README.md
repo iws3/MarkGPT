@@ -23,3 +23,8 @@ Support Vector Machines (SVM) are powerful supervised learning algorithms that f
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### The Maximum Margin Principle
+
+Support Vector Machines (SVMs) are based on the principle of finding the optimal separating hyperplane that maximizes the margin between classes. The margin is defined as the distance from the hyperplane to the nearest data points of either class. SVMs solve the optimization problem of finding the hyperplane W that maximizes this margin while correctly classifying all training examples. Mathematically, this is formulated as minimizing ||W||² subject to the constraint that y_i(W·x_i + b) ≥ 1 for all training examples. The maximum margin principle provides strong generalization guarantees; a larger margin means the hyperplane is more robust to small perturbations in the data. The data points closest to the hyperplane that define the margin are called support vectors, and only these points are needed to define the decision boundary, making SVMs memory-efficient for prediction.
