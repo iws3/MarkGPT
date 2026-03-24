@@ -770,3 +770,8 @@ Ensemble methods combine multiple base learners to create a stronger model. By l
 **Total Exercises**: 300+
 **Total Learning Hours**: 40-50 hours
 
+
+
+## Learning Outcomes
+
+Upon completing this module, students will be able to: (1) apply supervised learning algorithms to structured data, understanding when to use linear models, tree-based methods, and support vector machines; (2) perform unsupervised learning tasks including clustering and dimensionality reduction, recognizing patterns and structure in unlabeled data; (3) understand reinforcement learning fundamentals and implement basic agents that learn through interaction with environments; (4) evaluate models using appropriate metrics and cross-validation techniques; and (5) preprocess data, select features, and tune hyperparameters effectively.
