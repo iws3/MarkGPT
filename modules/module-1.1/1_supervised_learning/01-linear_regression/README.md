@@ -42,3 +42,7 @@ Use linear regression when:
 ### Mathematical Foundations
 
 Linear regression is fundamentally based on the principle of minimizing the sum of squared errors between predicted and actual values. The cost function, also known as the Mean Squared Error (MSE), is defined as J(θ) = 1/(2m) * Σ(h(x) - y)², where h(x) represents the hypothesis function and m is the number of training examples. This quadratic cost function creates a convex optimization landscape, ensuring that any local minimum found is also the global minimum. Understanding this mathematical foundation is crucial for implementing optimization algorithms like gradient descent effectively.
+
+### Gradient Descent Optimization
+
+Gradient descent is the iterative optimization algorithm used to find the parameters that minimize the cost function. The algorithm works by computing the partial derivatives of the cost function with respect to each parameter and moving in the direction of steepest descent. The learning rate (alpha) is a critical hyperparameter that controls the size of each step taken during optimization. A learning rate that is too small will result in slow convergence, while a learning rate that is too large may cause the algorithm to overshoot the optimal solution. Choosing an appropriate learning rate requires careful consideration and often involves experimentation with different values.
