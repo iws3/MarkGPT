@@ -23,3 +23,8 @@ Ensemble Methods combine multiple weak or strong learners to create a powerful p
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### Ensemble Learning Principles
+
+Ensemble methods combine multiple weak learners to create a strong learner, leveraging the principle that diverse models make better collective predictions. Errors from individual models may be uncorrelated; combining predictions can cancel out individual errors. This requires diversity: if models make the same mistakes, combining them provides no benefit. Ensemble diversity comes from different algorithms, different training data samples (bagging), or sequential training to correct prior mistakes (boosting). Voting (classification) or averaging (regression) aggregates predictions. More sophisticated methods use stacking, where predictions from base learners train a meta-learner, which makes final predictions. Theoretical bounds show ensemble generalization error decreases with diversity and individual learner accuracy.
