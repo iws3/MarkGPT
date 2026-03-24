@@ -23,3 +23,8 @@ Gradient Boosting is an ensemble learning technique that sequentially builds wea
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### Boosting Ensemble Strategy and Sequential Models
+
+Gradient Boosting builds an ensemble of weak learners sequentially, where each new learner focuses on correcting the mistakes made by previous learners. Unlike bagging, which trains models in parallel on random subsets, boosting is inherently sequential: each iteration fits a new model to the residuals (negative gradients) of previous predictions. This sequential nature creates strong dependencies between models but dramatically reduces bias. The final prediction is a weighted sum of all weak learner predictions. The boosting principle is powerful: weak learners, individual models that perform only slightly better than random guessing, can be combined into a strong ensemble that achieves excellent performance. This is formalized in boosting theory, which provides bounds on generalization error in terms of training error and the diversity of weak learners.
