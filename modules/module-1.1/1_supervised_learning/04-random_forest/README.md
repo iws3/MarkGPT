@@ -23,3 +23,8 @@ Random Forest is a powerful ensemble learning algorithm that builds multiple dec
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### Bootstrap Aggregating and Ensemble Power
+
+Random Forests leverage the principle of bootstrap aggregating (bagging) to create multiple diverse decision trees and combine their predictions through averaging or voting. Each tree is grown on a bootstrap sample—a random sample with replacement from the original training set. This sampling strategy ensures that each tree trains on slightly different data, creating diversity in the ensemble. The diversity is crucial because when combining predictions from correlated models, the ensemble performs similar to a single model; diversity allows uncorrelated errors to cancel out, significantly reducing variance. By averaging predictions from many trees (for regression) or taking majority votes (for classification), Random Forests achieve substantially lower variance than individual decision trees while maintaining comparable bias.
