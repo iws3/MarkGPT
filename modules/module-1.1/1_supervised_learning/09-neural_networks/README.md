@@ -23,3 +23,8 @@ Neural Networks are powerful deep learning models inspired by biological neurons
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### Neural Network Fundamentals
+
+Neural networks are computational models loosely inspired by biological neural networks, consisting of interconnected layers of artificial neurons. Each neuron computes a weighted sum of inputs plus a bias term, then applies a non-linear activation function. The network learns by adjusting weights and biases through backpropagation, which computes gradients of the loss function with respect to each parameter. Neural networks can approximate any continuous function to arbitrary precision (universal approximation theorem), making them extremely flexible. The depth (number of layers) and width (neurons per layer) are hyperparameters controlling model capacity. Deep networks can learn hierarchical representations where early layers detect simple patterns, middle layers combine them into complex patterns, and final layers make predictions.
