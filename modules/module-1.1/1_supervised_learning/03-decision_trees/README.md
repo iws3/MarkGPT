@@ -23,3 +23,8 @@ Decision Trees are versatile supervised learning algorithms that build tree-like
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### Tree Construction and Splitting Criteria
+
+Decision trees recursively partition the feature space into regions where each region is assigned a class label or prediction. The tree construction process begins with all training data at the root node and recursively selects the feature and split value that best separates the data into homogeneous subsets. Common splitting criteria for classification include Gini impurity and Information Gain based on entropy. Gini impurity measures the probability of misclassifying a randomly chosen element and is defined as 1 - Σ(p_i)², where p_i is the proportion of class i. Information Gain uses entropy, H = -Σ(p_i * log(p_i)), to measure the disorder in a dataset and selects splits that maximize the reduction in entropy. For regression tasks, variance reduction is used as the splitting criterion, selecting splits that minimize the variance within resulting subsets.
