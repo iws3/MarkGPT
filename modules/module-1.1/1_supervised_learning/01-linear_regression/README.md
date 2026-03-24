@@ -50,3 +50,7 @@ Gradient descent is the iterative optimization algorithm used to find the parame
 ### Feature Scaling and Normalization
 
 When features have vastly different scales, gradient descent can converge slowly and may struggle to find optimal parameters. Feature scaling techniques such as standardization (z-score normalization) and mean normalization help ensure that all features contribute equally to the optimization process. Standardization transforms features to have zero mean and unit variance, computed as (x - mean) / standard_deviation. Without proper feature scaling, features with larger numerical ranges can dominate the learningprocess, leading to a model that does not properly utilize all available information in the training data.
+
+### Regularization and Model Complexity
+
+Overfitting occurs when a linear regression model learns the noise in the training data rather than the underlying pattern, resulting in poor performance on new, unseen data. Regularization techniques add a penalty term to the cost function to discourage overly complex models. Ridge regression adds an L2 penalty proportional to the square of the coefficients, while Lasso regression adds an L1 penalty proportional to the absolute value of the coefficients. The regularization parameter (lambda) controls the strength of the penalty; higher values lead to smaller coefficients and simpler models, while lower values allow for more complex models. Cross-validation can be used to find the optimal regularization parameter that balances model complexity and generalization performance.
