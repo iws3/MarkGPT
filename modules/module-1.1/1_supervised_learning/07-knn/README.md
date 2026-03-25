@@ -23,3 +23,8 @@ K-Nearest Neighbors (KNN) is a simple yet effective instance-based learning algo
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### Distance Metrics Beyond Euclidean
+
+While Euclidean distance is most common, other metrics suit different data types. Manhattan distance (L1) |x-y| sum uses coordinate differences; it's often more robust to outliers. Chebyshev distance (L-infinity) max(|x-y|) uses maximum coordinate difference; useful for bounded spaces. For high-dimensional data, Euclidean distances become less meaningful (curse of dimensionality); Manhattan or Chebyshev sometimes perform better. For text, cosine similarity (angle between vectors) is standard; it ignores magnitude, focusing on direction. For categorical data, Hamming distance (number of differing coordinates) applies. Domain-specific distances exist: edit distance (Levenshtein) for strings, dynamic time warping for time series, geodesic distance for data on manifolds. Choosing metric requires domain knowledge: geometric intuition in Euclidean space doesn't apply in all domains. k-NN performance is sensitive to metric choice; trying multiple metrics via cross-validation is worthwhile. Custom distances can be plugged into scikit-learn's k-NN.
