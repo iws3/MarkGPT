@@ -770,3 +770,20 @@ Ensemble methods combine multiple base learners to create a stronger model. By l
 **Total Exercises**: 300+
 **Total Learning Hours**: 40-50 hours
 
+
+
+## Learning Outcomes
+
+Upon completing this module, students will be able to: (1) apply supervised learning algorithms to structured data, understanding when to use linear models, tree-based methods, and support vector machines; (2) perform unsupervised learning tasks including clustering and dimensionality reduction, recognizing patterns and structure in unlabeled data; (3) understand reinforcement learning fundamentals and implement basic agents that learn through interaction with environments; (4) evaluate models using appropriate metrics and cross-validation techniques; and (5) preprocess data, select features, and tune hyperparameters effectively.
+
+## Module Structure
+
+Module 1.1 is organized into three main sections: Supervised Learning covers regression and classification using classical algorithms. Unsupervised Learning provides clustering and dimensionality reduction techniques for discovering hidden structure. Reinforcement Learning introduces agents that learn optimal policies through trial and error. Within each section, algorithms are presented with increasing complexity, building foundational understanding before introducing advanced topics like ensemble methods, kernel tricks, and deep neural network integration.
+
+## Prerequisites and Expectations
+
+This module assumes basic knowledge of linear algebra, calculus, probability, and Python programming. Students should be comfortable with matrix operations, derivative computations, probability distributions, and writing clean, documented Python code. Access to datasets (provided in the data/ directory) and computational resources for training models is required. Jupyter notebooks for each lesson facilitate interactive learning. Active engagement with exercises and projects is essential for mastery.
+
+## Practical Applications
+
+The algorithms covered in this module power countless real-world applications: supervised learning enables fraud detection, credit scoring, and medical diagnosis; unsupervised learning discovers customer segments, detects anomalies, and reduces data dimensionality for visualization; reinforcement learning trains autonomous agents for robotics, game-playing, and resource optimization. Throughout the course, emphasis is placed on understanding when each algorithm is appropriate, how to implement it correctly, and how to evaluate its performance on real datasets.
