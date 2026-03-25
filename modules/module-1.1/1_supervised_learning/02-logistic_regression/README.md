@@ -37,3 +37,20 @@ Use logistic regression when:
 
 [Go to Exercises](exercises.md) | [Answer the Question](question.md)
 
+
+
+### The Sigmoid Function and Probability
+
+Unlike linear regression which predicts continuous values, logistic regression is designed for binary classification problems. The core of logistic regression is the sigmoid function, defined as σ(z) = 1 / (1 + e^(-z)), which maps any input to a value between 0 and 1. This output is interpreted as the probability that an instance belongs to the positive class. The sigmoid function has a smooth S-shaped curve that ensures the probability estimates are always bounded between 0 and 1, making it ideal for modeling classification probabilities. The decision boundary is typically set at 0.5, where instances with probability above 0.5 are classified as positive and those below are classified as negative.
+
+### Cross-Entropy Loss and Cost Function
+
+While logistic regression models probabilities, the cost function used for optimization is different from linear regression. The cross-entropy loss (also called log loss) is defined as -[y*log(h(x)) + (1-y)*log(1-h(x))], where y is the true label and h(x) is the predicted probability. This cost function has several desirable properties: it penalizes confident but incorrect predictions heavily, rewards confident correct predictions, and creates a convex optimization landscape. The logarithmic scale ensures that as the predicted probability moves away from the true label, the penalty increases exponentially. This property makes the cross-entropy loss particularly effective for training classification models as it naturally encourages the model to produce well-calibrated probability estimates.
+
+### Multiclass Classification Extension
+
+While binary logistic regression handles two-class problems, many real-world applications require classifying instances into more than two classes. Multiclass logistic regression extends the binary case using the softmax function, which generalizes the sigmoid function to multiple classes. The softmax function computes probabilities for each class such that they sum to 1, allowing the model to rank all classes and select the one with the highest probability. The cost function for multiclass problems becomes categorical cross-entropy, computed as -Σ(y_i * log(p_i)) where y_i is the true label indicator and p_i is the predicted probability for class i. This framework enables logistic regression to handle complex multi-class problems while maintaining the interpretability of probability estimates.
+
+### Practical Implementation Considerations
+
+Implementing logistic regression requires careful attention to several practical aspects beyond the theoretical foundations. Feature engineering remains critical; categorical variables must be encoded, and continuous features should be scaled to improve convergence. Class imbalance, where one class is significantly more prevalent than others, can bias the model toward the majority class. Techniques like stratified sampling, class weights, and resampling can address this issue. Additionally, threshold selection for classification is not always 0.5; depending on the application, moving the decision threshold can optimize metrics like precision, recall, or F1-score. Finally, regularization strategies apply to logistic regression just as they do to linear regression, and practitioners should use techniques like L1 or L2 regularization to prevent overfitting and improve model generalization.
