@@ -46,3 +46,6 @@ Mirror descent generalizes gradient descent to non-Euclidean geometry.
 
 Natural gradient uses information geometry for better optimization.
 
+
+## Distributed and Parallel Optimization
+
