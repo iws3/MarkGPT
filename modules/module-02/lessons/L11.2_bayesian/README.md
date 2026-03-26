@@ -66,3 +66,5 @@ Stochastic Variational Inference handles massive datasets.
 
 Hierarchical models share information across groups.
 
+Zero-inflated models handle excess zeros in count data.
+
