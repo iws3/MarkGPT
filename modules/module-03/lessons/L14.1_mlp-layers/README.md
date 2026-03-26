@@ -49,3 +49,5 @@ Batch processing passes multiple samples simultaneously.
 
 Matrix operations leverage GPU acceleration efficiently.
 
+Vectorization eliminates explicit loops over samples.
+
