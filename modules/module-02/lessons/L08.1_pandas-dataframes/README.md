@@ -11,3 +11,5 @@ DataFrame attributes provide essential information about data: shape, dtypes, co
 
 ## Data Cleaning and Preparation
 
+Missing data is one of the most common data quality issues requiring strategic approaches.
+
