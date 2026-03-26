@@ -3,3 +3,5 @@
 
 ## The Chain Rule in Networks
 
+Backpropagation applies the chain rule to compute gradients.
+
