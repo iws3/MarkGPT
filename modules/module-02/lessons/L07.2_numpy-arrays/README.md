@@ -9,3 +9,5 @@ Arrays have several key attributes that define their characteristics: shape, dty
 
 Creating arrays can be done in multiple ways depending on your needs: arange, linspace, zeros, ones.
 
+## Array Indexing and Slicing
+
