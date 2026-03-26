@@ -11,3 +11,5 @@ Prevents co-adaptation of features.
 
 Acts as ensemble of thinned networks.
 
+No dropout applied during inference.
+
