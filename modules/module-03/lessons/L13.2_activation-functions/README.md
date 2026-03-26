@@ -68,3 +68,6 @@ Boundedness prevents numerical instability and neuron saturation problems.
 
 Output range affects learning dynamics and convergence properties.
 
+
+## Function Comparisons
+
