@@ -57,3 +57,5 @@ Trade-off between network size and approximation error.
 
 ## Practical Implications
 
+Network expressiveness grows exponentially with depth.
+
