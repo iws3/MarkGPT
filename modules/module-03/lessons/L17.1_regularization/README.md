@@ -45,3 +45,5 @@ Effective augmentation enables training with less data.
 
 ## Advanced Regularization
 
+Stochastic depth randomly drops layers during training.
+
