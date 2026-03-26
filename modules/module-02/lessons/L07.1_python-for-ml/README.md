@@ -70,3 +70,5 @@ Unit tests catch bugs early before they propagate through the pipeline.
 
 Integration tests verify components work together seamlessly.
 
+Logging captures runtime information helping diagnose production issues.
+
