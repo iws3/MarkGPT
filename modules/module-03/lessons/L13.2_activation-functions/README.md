@@ -71,3 +71,5 @@ Output range affects learning dynamics and convergence properties.
 
 ## Function Comparisons
 
+ReLU computational efficiency makes it standard for deep networks.
+
