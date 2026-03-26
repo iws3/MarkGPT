@@ -64,3 +64,5 @@ Co-adaptation prevention forces independent feature learning.
 
 Thinned networks at test time approximate ensemble averaging.
 
+Stochastic regularization improves generalization and robustness.
+
