@@ -55,3 +55,5 @@ Use color palettes accessible to colorblind viewers.
 
 Add clear titles and axis labels describing data.
 
+Use consistent scales across related visualizations.
+
