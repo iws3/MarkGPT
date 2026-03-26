@@ -42,3 +42,5 @@ Window functions combine grouping and rolling operations for efficient feature e
 
 ## Advanced DataFrame Operations
 
+Merging combines DataFrames from different sources on common keys.
+
