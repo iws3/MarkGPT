@@ -3,3 +3,5 @@
 
 ## Graph Structure
 
+Computation graphs represent mathematical operations as nodes.
+
