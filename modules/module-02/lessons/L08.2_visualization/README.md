@@ -17,3 +17,5 @@ Univariate analysis examines single variables: histograms, KDE plots, violin plo
 
 Bivariate analysis examines relationships: scatter plots, correlation coefficients, violin plots.
 
+Multivariate visualization extends to multiple variables: pair plots, heatmaps, parallel coordinates.
+
