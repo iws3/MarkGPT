@@ -29,3 +29,5 @@ Both suffer from gradient saturation at extreme values.
 
 Modern networks prefer ReLU-based activations.
 
+## ReLU and Variants
+
