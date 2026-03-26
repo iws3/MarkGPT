@@ -33,3 +33,5 @@ Understanding broadcasting transforms your ability to write concise, efficient M
 
 Matrix operations are fundamental to machine learning and compute dot products efficiently.
 
+Matrix decomposition techniques like SVD and eigenvalue decomposition reveal underlying structure.
+
