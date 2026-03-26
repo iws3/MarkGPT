@@ -57,3 +57,5 @@ Automatic Differentiation Variational Inference (ADVI) scales variational.
 
 Expectation-Propagation provides deterministic approximation.
 
+Assumed Density Filtering processes streams of data.
+
