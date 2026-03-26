@@ -40,3 +40,5 @@ First-order approximation f(x) ≈ f(a) + f'(a)(x-a) is fundamental.
 
 Second-order approximation adds curvature information.
 
+Convergence of Taylor series depends on distance from expansion point.
+
