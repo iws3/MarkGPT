@@ -43,3 +43,5 @@ Deeper networks learn more abstract features.
 
 Optimal architecture depends on dataset and problem.
 
+## Vectorization and Efficiency
+
