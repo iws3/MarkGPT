@@ -61,3 +61,5 @@ Network expressiveness grows exponentially with depth.
 
 Theoretical guarantees don't address optimization difficulty.
 
+Practical networks may need exponential width for some functions.
+
