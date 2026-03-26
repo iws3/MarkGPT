@@ -52,3 +52,5 @@ Compact domain assumptions ensure finite parameter networks suffice.
 
 Activation function choice affects approximation requirements.
 
+Trade-off between network size and approximation error.
+
