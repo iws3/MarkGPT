@@ -49,3 +49,5 @@ Swish (SiLU) is x * sigmoid(x) combining smoothness with efficiency.
 
 GELU (Gaussian Error Linear Unit) uses cumulative Gaussian distribution.
 
+Mish is x * tanh(softplus(x)) providing smooth non-linearity.
+
