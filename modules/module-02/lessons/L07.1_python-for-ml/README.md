@@ -27,3 +27,5 @@ Version control with Git is non-negotiable in professional ML development.
 
 Documentation and comments are often overlooked but essential for ML projects.
 
+Testing in ML contexts goes beyond unit testing—you need to validate data integrity and model performance.
+
