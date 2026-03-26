@@ -77,3 +77,5 @@ Data augmentation artificially increases training set size.
 
 Mixup interpolates samples and labels during training.
 
+Cutout removes random image patches forcing robust learning.
+
