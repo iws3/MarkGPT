@@ -73,3 +73,5 @@ Contrastive losses encourage similar pairs and dissimilar pairs.
 
 Focal loss addresses class imbalance in object detection.
 
+Triplet loss optimizes relative distances from anchors.
+
