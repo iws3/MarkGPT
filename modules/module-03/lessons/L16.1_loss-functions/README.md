@@ -53,3 +53,5 @@ Flat minima suggest better generalization.
 
 Asymmetry in loss landscape guides gradient descent.
 
+Multiple local minima exist in high dimensions.
+
