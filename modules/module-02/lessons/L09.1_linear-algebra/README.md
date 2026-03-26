@@ -17,3 +17,5 @@ The dot product measures similarity between vectors summing component-wise produ
 
 Matrix multiplication combines dot products of matrix rows with columns.
 
+Norms quantify vector magnitude: L2 (Euclidean), L1, and max norms are common.
+
