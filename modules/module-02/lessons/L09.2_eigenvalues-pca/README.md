@@ -17,3 +17,5 @@ SVD extends eigendecomposition to rectangular matrices: A = U @ Σ @ V^T.
 
 Singular values measure how much the matrix stretches vectors in directions.
 
+SVD reveals the rank of a matrix through non-zero singular values.
+
