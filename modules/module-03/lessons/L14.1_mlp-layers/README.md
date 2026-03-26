@@ -5,3 +5,5 @@
 
 Fully connected layers connect every input to every output.
 
+Each output neuron has separate weights and bias.
+
