@@ -39,3 +39,5 @@ Running statistics tracked for inference.
 
 Different behavior during training vs. inference.
 
+Improves gradient flow enabling faster training.
+
