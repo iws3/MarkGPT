@@ -45,3 +45,5 @@ Skip connections (residual networks) enable training very deep.
 
 ## Modern Automatic Differentiation
 
+Automatic differentiation computes gradients without manual derivation.
+
