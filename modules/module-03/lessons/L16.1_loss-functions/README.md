@@ -68,3 +68,6 @@ Reconstruction losses measure data fidelity in generative models.
 
 Contrastive losses encourage similar pairs and dissimilar pairs.
 
+
+## Advanced Losses
+
