@@ -23,3 +23,5 @@ Spatial dropout drops feature maps in convolutional layers.
 
 Variational dropout shares dropout mask across timesteps.
 
+DropConnect drops weights instead of activations.
+
