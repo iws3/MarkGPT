@@ -61,3 +61,6 @@ Highlight important findings with annotations.
 
 Avoid chart junk that distracts from data.
 
+
+## Interactive Dashboards
+
