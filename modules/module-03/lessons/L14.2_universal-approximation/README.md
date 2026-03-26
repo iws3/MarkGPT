@@ -50,3 +50,5 @@ Hidden layer density affects approximation quality and complexity.
 
 Compact domain assumptions ensure finite parameter networks suffice.
 
+Activation function choice affects approximation requirements.
+
