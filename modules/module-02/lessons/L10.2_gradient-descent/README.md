@@ -49,3 +49,5 @@ Natural gradient uses information geometry for better optimization.
 
 ## Distributed and Parallel Optimization
 
+Federated learning trains models on decentralized data.
+
