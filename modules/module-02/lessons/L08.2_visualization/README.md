@@ -25,3 +25,5 @@ Time series visualization reveals temporal patterns: line plots, seasonal decomp
 
 Feature importance visualizations show which features contribute most to model predictions.
 
+Confusion matrices visualize classification model performance and error patterns.
+
