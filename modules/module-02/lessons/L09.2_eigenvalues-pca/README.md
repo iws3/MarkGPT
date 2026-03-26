@@ -34,3 +34,5 @@ Practical PCA requires careful scaling and selection of component numbers.
 
 ## Advanced Dimensionality Reduction
 
+Kernel PCA handles non-linear patterns unlike linear PCA.
+
