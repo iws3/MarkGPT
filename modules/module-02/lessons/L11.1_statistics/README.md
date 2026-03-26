@@ -74,3 +74,5 @@ Difference-in-differences evaluates policy interventions.
 
 Instrumental variables handle endogeneity problems.
 
+Mediation analysis decomposes indirect effects.
+
