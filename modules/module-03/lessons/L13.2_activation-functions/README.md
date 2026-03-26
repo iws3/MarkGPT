@@ -31,3 +31,5 @@ Modern networks prefer ReLU-based activations.
 
 ## ReLU and Variants
 
+ReLU (Rectified Linear Unit) is f(x) = max(0, x).
+
