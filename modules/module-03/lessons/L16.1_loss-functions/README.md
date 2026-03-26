@@ -13,3 +13,5 @@ Focal loss addresses class imbalance in hard examples.
 
 Hinge loss used in support vector machines.
 
+Proper loss function choice affects convergence.
+
