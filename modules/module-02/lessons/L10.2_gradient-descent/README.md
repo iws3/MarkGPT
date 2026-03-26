@@ -11,3 +11,5 @@ Mini-batch gradient descent balances stability and speed using small batches.
 
 Learning rate scheduling adjusts step size during training for optimal convergence.
 
+## Adaptive Learning Rate Methods
+
