@@ -27,3 +27,5 @@ Hypothesis testing formalizes comparing observations to baseline claims.
 
 The p-value is the probability of data given null hypothesis is true.
 
+Type I and Type II errors formalize testing mistakes in inference.
+
