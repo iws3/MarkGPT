@@ -13,3 +13,5 @@ Weight decay in optimization approximates L2 regularization.
 
 Regularization constrains model complexity.
 
+Strength of regularization trades fit vs. simplicity.
+
