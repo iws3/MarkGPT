@@ -21,3 +21,5 @@ TensorFlow and PyTorch are deep learning frameworks that enable you to build and
 
 ## Python Programming Best Practices for ML
 
+Code organization is critical in ML projects, with separate modules for data, preprocessing, and model training.
+
