@@ -47,3 +47,5 @@ Optimal architecture depends on dataset and problem.
 
 Batch processing passes multiple samples simultaneously.
 
+Matrix operations leverage GPU acceleration efficiently.
+
