@@ -44,3 +44,5 @@ Bokeh enables interactive web-based visualizations.
 
 Folium creates interactive maps from geographic data.
 
+Dash builds interactive web applications with Python.
+
