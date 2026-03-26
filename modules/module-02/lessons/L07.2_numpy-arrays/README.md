@@ -74,3 +74,5 @@ Profiling reveals which NumPy operations dominate execution time.
 
 Applying functions across dimensions with axis parameter.
 
+Computing statistics: quantiles, percentiles, moving averages.
+
