@@ -53,3 +53,5 @@ Exploratory data analysis reveals patterns, distributions, and anomalies.
 
 Feature engineering transforms raw data into forms algorithms can learn from.
 
+Model selection chooses appropriate algorithms for the problem at hand.
+
