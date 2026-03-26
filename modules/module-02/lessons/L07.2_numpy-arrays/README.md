@@ -59,3 +59,5 @@ Reshaping changes dimensions while preserving total size.
 
 Vectorization eliminates loops replacing them with array operations.
 
+Memory layout affects performance: C-order vs Fortran-order arrays.
+
