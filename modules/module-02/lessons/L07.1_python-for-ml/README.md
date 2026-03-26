@@ -34,3 +34,5 @@ Testing in ML contexts goes beyond unit testing—you need to validate data inte
 
 List comprehensions provide concise syntax for creating lists from existing lists.
 
+Decorators are functions that modify other functions, useful for logging and timing.
+
