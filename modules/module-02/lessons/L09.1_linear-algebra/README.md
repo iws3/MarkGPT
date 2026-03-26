@@ -31,3 +31,6 @@ Least-squares solutions minimize error when exactly solving Ax = b is impossible
 
 The condition number measures sensitivity to perturbations indicating instability.
 
+
+## Matrix Decompositions
+
