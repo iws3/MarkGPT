@@ -31,3 +31,5 @@ Architecture design critically impacts learning capability.
 
 ## Network Capacity and Expressiveness
 
+Wider networks have more parameters per layer.
+
