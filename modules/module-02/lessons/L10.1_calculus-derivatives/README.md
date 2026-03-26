@@ -51,3 +51,5 @@ Taylor series enables algorithm derivations.
 
 Gradient vectors point in direction of steepest increase.
 
+Directional derivatives measure rate of change in any direction.
+
