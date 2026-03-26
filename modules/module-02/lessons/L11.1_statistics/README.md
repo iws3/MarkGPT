@@ -13,3 +13,5 @@ The normal distribution is ubiquitous due to the central limit theorem.
 
 ## Sampling and Estimation
 
+Sampling selects a subset from population to study using samples to estimate.
+
