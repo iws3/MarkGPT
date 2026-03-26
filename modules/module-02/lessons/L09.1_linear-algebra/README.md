@@ -3,3 +3,5 @@
 
 ## Vectors and Matrices
 
+Vectors are ordered collections of numbers representing points in space.
+
