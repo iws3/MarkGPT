@@ -11,3 +11,5 @@ Each layer propagates error signals to previous layers.
 
 The chain rule decomposes complex derivatives into simple parts.
 
+Automatic differentiation implements the chain rule efficiently.
+
