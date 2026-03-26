@@ -47,3 +47,5 @@ Reduces need for careful weight initialization.
 
 Layer normalization normalizes across features per sample.
 
+Instance normalization per sample per feature.
+
