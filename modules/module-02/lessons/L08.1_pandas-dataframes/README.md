@@ -82,3 +82,5 @@ Filtering groups based on aggregate properties.
 
 Ngroups property reveals number of distinct groups.
 
+Size method counts group sizes for analysis.
+
