@@ -74,3 +74,5 @@ Explained variance guides selection of component count.
 
 Loadings show how original features contribute to components.
 
+Score plots show projections of samples onto components.
+
