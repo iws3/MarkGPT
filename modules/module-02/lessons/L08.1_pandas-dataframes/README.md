@@ -7,3 +7,5 @@ A DataFrame is a 2D tabular data structure with labeled rows and columns for dat
 
 Creating DataFrames is straightforward from CSV, Excel, databases, or Python data structures.
 
+DataFrame attributes provide essential information about data: shape, dtypes, columns, index.
+
