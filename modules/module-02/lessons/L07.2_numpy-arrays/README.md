@@ -82,3 +82,5 @@ Set operations on arrays for unique, intersection, union.
 
 Polynomial fitting approximates data with polynomial curves.
 
+Random number generation for simulations and initialization.
+
