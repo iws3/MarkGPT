@@ -70,3 +70,5 @@ Causal inference estimates treatment effects from data.
 
 Propensity score matching reduces selection bias.
 
+Difference-in-differences evaluates policy interventions.
+
