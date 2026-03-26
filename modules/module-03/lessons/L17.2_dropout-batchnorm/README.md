@@ -29,3 +29,5 @@ Monte Carlo dropout enables uncertainty estimation.
 
 Variants optimize dropout for different architectures.
 
+## Batch Normalization Details
+
