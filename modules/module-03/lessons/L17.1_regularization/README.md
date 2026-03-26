@@ -62,3 +62,5 @@ Combination of techniques provides best results.
 
 L1 regularization encourages sparse weight solutions.
 
+L2 regularization penalizes large weight magnitudes.
+
