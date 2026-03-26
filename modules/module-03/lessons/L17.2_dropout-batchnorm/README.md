@@ -49,3 +49,5 @@ Layer normalization normalizes across features per sample.
 
 Instance normalization per sample per feature.
 
+Group normalization groups features for normalization.
+
