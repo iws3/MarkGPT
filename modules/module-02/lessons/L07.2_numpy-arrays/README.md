@@ -72,3 +72,5 @@ Profiling reveals which NumPy operations dominate execution time.
 
 ## Advanced NumPy Functions
 
+Applying functions across dimensions with axis parameter.
+
