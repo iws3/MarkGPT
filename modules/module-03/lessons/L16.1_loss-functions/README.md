@@ -23,3 +23,5 @@ Mean absolute error (MAE) is robust to outliers.
 
 Huber loss combines benefits of MSE and MAE.
 
+Log-cosh loss is smooth approximation to L1 distance.
+
