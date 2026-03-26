@@ -42,3 +42,5 @@ Second-order approximation adds curvature information.
 
 Convergence of Taylor series depends on distance from expansion point.
 
+Truncation error bounds quantify approximation accuracy.
+
