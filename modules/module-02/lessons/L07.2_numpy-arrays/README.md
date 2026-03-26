@@ -23,3 +23,5 @@ Fancy indexing uses integer arrays to select elements: arr[[0, 2, 4]].
 
 Broadcasting is a mechanism that allows NumPy to work with arrays of different shapes.
 
+Vectorized operations are the heart of NumPy's efficiency, avoiding explicit loops.
+
