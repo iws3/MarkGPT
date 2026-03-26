@@ -27,3 +27,5 @@ Feature importance visualizations show which features contribute most to model p
 
 Confusion matrices visualize classification model performance and error patterns.
 
+ROC and Precision-Recall curves evaluate binary classification models comprehensively.
+
