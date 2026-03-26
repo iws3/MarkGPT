@@ -27,3 +27,5 @@ Bayesian networks use directed graphs to represent conditional dependencies.
 
 Bayesian methods shine in small-data regimes with limited samples.
 
+Decision making under uncertainty is fundamentally Bayesian in frameworks.
+
