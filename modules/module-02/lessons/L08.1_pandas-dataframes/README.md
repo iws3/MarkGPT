@@ -80,3 +80,5 @@ Named aggregations produce descriptive output column names.
 
 Filtering groups based on aggregate properties.
 
+Ngroups property reveals number of distinct groups.
+
