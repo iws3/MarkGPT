@@ -64,3 +64,5 @@ Vanishing gradients decay exponentially through many layers.
 
 Exploding gradients amplify exponentially requiring clipping.
 
+Gradient normalization stabilizes training across layers.
+
