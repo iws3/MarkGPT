@@ -27,3 +27,5 @@ Gradients enable parameter updates toward lower loss.
 
 Forward pass cost is one inference, backward is ~2x inference.
 
+Efficient computation critical for training large networks.
+
