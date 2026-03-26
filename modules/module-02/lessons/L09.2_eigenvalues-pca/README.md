@@ -61,3 +61,6 @@ Model-based selection uses feature importances from fitted models.
 
 Wrapper methods evaluate subsets with cross-validation.
 
+
+## Applications and Interpretability
+
