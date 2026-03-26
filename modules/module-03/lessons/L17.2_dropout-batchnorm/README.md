@@ -66,3 +66,5 @@ Thinned networks at test time approximate ensemble averaging.
 
 Stochastic regularization improves generalization and robustness.
 
+Dropout variants apply to different layer types.
+
