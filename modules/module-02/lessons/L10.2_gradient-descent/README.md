@@ -25,3 +25,5 @@ Adaptive methods have trade-offs between convergence speed and generalization.
 
 Convergence curves plot training progress showing loss or accuracy versus epochs.
 
+Exploding and vanishing gradients plague deep networks requiring solutions.
+
