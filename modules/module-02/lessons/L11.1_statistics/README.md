@@ -61,3 +61,6 @@ Beta distribution models proportions and probabilities.
 
 Gamma distribution generalizes exponential and chi-squared.
 
+
+## Advanced Statistical Methods
+
