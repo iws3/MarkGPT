@@ -74,3 +74,5 @@ Latent variable models handle missing or hidden structure.
 
 Copulas model dependencies between distributions.
 
+Gaussian processes provide flexible function approximation.
+
