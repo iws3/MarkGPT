@@ -42,3 +42,5 @@ Proximal gradient methods combine gradients with proximity operators.
 
 Alternating Direction Method of Multipliers (ADMM) solves convex problems.
 
+Mirror descent generalizes gradient descent to non-Euclidean geometry.
+
