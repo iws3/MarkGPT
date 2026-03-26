@@ -23,3 +23,5 @@ Deep networks can be more efficient than single wide layers.
 
 Deep networks require fewer total parameters for many problems.
 
+Deeper architectures learn features hierarchically.
+
