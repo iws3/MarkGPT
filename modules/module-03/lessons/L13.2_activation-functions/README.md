@@ -9,3 +9,5 @@ Linear activations fail to introduce non-linearity to networks.
 
 Stacking linear layers is mathematically equivalent to a single layer.
 
+Linear functions limit the network to learning linear relationships.
+
