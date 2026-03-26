@@ -46,3 +46,5 @@ Artificial neurons enable computational learning from data.
 
 ## Advanced Neuroscience
 
+Synaptic plasticity enables learning through strengthening and weakening connections.
+
