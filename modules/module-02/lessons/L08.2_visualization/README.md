@@ -15,3 +15,5 @@ Matplotlib is Python's foundational visualization library providing fine-grained
 
 Univariate analysis examines single variables: histograms, KDE plots, violin plots.
 
+Bivariate analysis examines relationships: scatter plots, correlation coefficients, violin plots.
+
