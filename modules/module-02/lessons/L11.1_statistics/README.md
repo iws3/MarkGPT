@@ -11,3 +11,5 @@ The mean is the average outcome; variance measures spread around the mean.
 
 The normal distribution is ubiquitous due to the central limit theorem.
 
+## Sampling and Estimation
+
