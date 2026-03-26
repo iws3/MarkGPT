@@ -59,3 +59,6 @@ Hyperparameter tuning optimizes algorithm settings for best performance.
 
 Model evaluation ensures the model generalizes to unseen data correctly.
 
+
+## Debugging ML Code
+
