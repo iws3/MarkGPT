@@ -41,3 +41,5 @@ Careful initialization helps maintain stable gradient flow.
 
 Batch normalization stabilizes gradient flow through networks.
 
+Skip connections (residual networks) enable training very deep.
+
