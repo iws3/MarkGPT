@@ -13,3 +13,5 @@ Partial derivatives extend to multiple variables measuring changes per variable.
 
 ## Optimization and Critical Points
 
+Critical points are where the derivative equals zero: f'(x) = 0.
+
