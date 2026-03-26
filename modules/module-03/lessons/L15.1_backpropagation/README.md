@@ -37,3 +37,5 @@ Exploding gradients occur when gradients grow exponentially.
 
 Gradient clipping prevents explosion by capping gradient norms.
 
+Careful initialization helps maintain stable gradient flow.
+
