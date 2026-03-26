@@ -31,3 +31,6 @@ Projecting onto principal components reduces dimensionality efficiently.
 
 Practical PCA requires careful scaling and selection of component numbers.
 
+
+## Advanced Dimensionality Reduction
+
