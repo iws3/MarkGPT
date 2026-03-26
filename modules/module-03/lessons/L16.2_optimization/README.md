@@ -19,3 +19,5 @@ Becomes different during inference vs. training.
 
 Constant learning rates rarely work well throughout training.
 
+Cyclical learning rates alternate between high and low.
+
