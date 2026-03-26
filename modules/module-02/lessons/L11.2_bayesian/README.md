@@ -59,3 +59,5 @@ Expectation-Propagation provides deterministic approximation.
 
 Assumed Density Filtering processes streams of data.
 
+Stochastic Variational Inference handles massive datasets.
+
