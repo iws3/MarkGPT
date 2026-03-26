@@ -9,3 +9,5 @@ Matrices are rectangular arrays of numbers organizing vectors into a grid struct
 
 Matrix transpose swaps rows and columns: (A^T)[i,j] = A[j,i].
 
+Special matrices have unique properties: identity, diagonal, orthogonal matrices.
+
