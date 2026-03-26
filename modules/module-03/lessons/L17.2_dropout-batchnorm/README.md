@@ -31,3 +31,5 @@ Variants optimize dropout for different architectures.
 
 ## Batch Normalization Details
 
+Normalization performed per-feature across minibatch.
+
