@@ -53,3 +53,5 @@ Label smoothing prevents overconfident predictions.
 
 Adversarial training improves robustness.
 
+Mixup-based methods reduce memorization.
+
