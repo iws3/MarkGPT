@@ -66,3 +66,5 @@ Avoid chart junk that distracts from data.
 
 Streamlit builds interactive web apps rapidly with Python.
 
+Callbacks in Plotly update visualizations on user interaction.
+
