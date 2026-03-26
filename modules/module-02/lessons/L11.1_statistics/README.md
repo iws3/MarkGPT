@@ -29,3 +29,5 @@ The p-value is the probability of data given null hypothesis is true.
 
 Type I and Type II errors formalize testing mistakes in inference.
 
+A/B testing applies hypothesis testing to compare two options systematically.
+
