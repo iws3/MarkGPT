@@ -33,3 +33,5 @@ Time series data requires special handling with lagged features and rolling stat
 
 The groupby operation is one of Pandas' most powerful features for data analysis.
 
+Aggregation functions summarize data across groups using sum, mean, median, std.
+
