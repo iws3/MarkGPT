@@ -53,3 +53,5 @@ Federated learning trains models on decentralized data.
 
 Data parallelism distributes batches across multiple devices.
 
+Model parallelism distributes model parameters across devices.
+
