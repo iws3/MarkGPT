@@ -42,3 +42,5 @@ Cross-validation estimates predictive performance.
 
 Pareto smoothed importance sampling estimates without refitting.
 
+Widely Applicable Information Criterion (WAIC) approximates posterior.
+
