@@ -49,3 +49,5 @@ Leave-One-Out Cross-Validation efficiently estimates predictive power.
 
 ## Bayesian Computation Advanced
 
+Hamiltonian Monte Carlo explores high-dimensional posteriors.
+
