@@ -42,3 +42,5 @@ Polynomial regression fits curved relationships.
 
 Robust regression resists influence of outliers.
 
+Ridge and Lasso regression add regularization penalties.
+
