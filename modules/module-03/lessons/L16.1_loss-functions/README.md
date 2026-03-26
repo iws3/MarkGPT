@@ -19,3 +19,5 @@ Proper loss function choice affects convergence.
 
 Mean squared error (MSE) penalizes large errors quadratically.
 
+Mean absolute error (MAE) is robust to outliers.
+
