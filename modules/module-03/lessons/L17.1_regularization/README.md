@@ -31,3 +31,5 @@ Checkpoint best model during training.
 
 ## Data Augmentation
 
+Augmentation artificially expands dataset through transformations.
+
