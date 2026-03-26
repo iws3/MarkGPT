@@ -36,3 +36,5 @@ The condition number measures sensitivity to perturbations indicating instabilit
 
 QR decomposition factors matrix into orthogonal and upper triangular.
 
+Cholesky decomposition works with symmetric positive-definite matrices.
+
