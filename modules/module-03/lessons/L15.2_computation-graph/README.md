@@ -23,3 +23,5 @@ Dynamic graphs are built during execution (e.g., PyTorch).
 
 Static graphs enable more optimization opportunities.
 
+Dynamic graphs enable Python control flow within models.
+
