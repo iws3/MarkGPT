@@ -15,3 +15,5 @@ Missing data is one of the most common data quality issues requiring strategic a
 
 Duplicates can artificially inflate your dataset and cause bias in model training.
 
+Data type conversions ensure your columns have appropriate types for analysis.
+
