@@ -44,3 +44,5 @@ Schur decomposition reveals matrix structure and stability.
 
 Polar decomposition factors into unitary and positive-semidefinite.
 
+Jordan decomposition helps understand matrix powers and exponentials.
+
