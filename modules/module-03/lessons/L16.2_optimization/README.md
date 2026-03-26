@@ -61,3 +61,5 @@ Warm-up phases prevent divergence at training start.
 
 Decay schedules reduce learning rate as training progresses.
 
+Cyclical learning rates escape local minima periodically.
+
