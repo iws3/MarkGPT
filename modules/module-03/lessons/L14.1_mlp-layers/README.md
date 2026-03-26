@@ -19,3 +19,5 @@ These layers form the basis of deep neural networks.
 
 Stacking multiple layers creates deep neural networks.
 
+Each layer transforms the representation from previous layer.
+
