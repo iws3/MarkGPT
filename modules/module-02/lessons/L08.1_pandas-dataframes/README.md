@@ -23,3 +23,5 @@ Outliers are data points that deviate significantly from the norm requiring care
 
 Normalization and standardization transform features to have comparable scales.
 
+Categorical data requires special handling through one-hot encoding or ordinal encoding.
+
