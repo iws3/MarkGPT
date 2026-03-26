@@ -39,3 +39,6 @@ Transform operations apply functions while preserving the original DataFrame sha
 
 Window functions combine grouping and rolling operations for efficient feature engineering.
 
+
+## Advanced DataFrame Operations
+
