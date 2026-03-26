@@ -60,3 +60,5 @@ Combination of techniques provides best results.
 
 ## Regularization Mechanisms
 
+L1 regularization encourages sparse weight solutions.
+
