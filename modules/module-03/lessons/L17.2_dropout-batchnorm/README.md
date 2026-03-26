@@ -43,3 +43,5 @@ Improves gradient flow enabling faster training.
 
 Reduces need for careful weight initialization.
 
+## Normalization Variants
+
