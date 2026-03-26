@@ -63,3 +63,5 @@ Sensory processing hierarchies mirror deep learning layer organization.
 
 Attention mechanisms reflect biological selective attention processes.
 
+Memory systems inspire network architectures with separate learning rates.
+
