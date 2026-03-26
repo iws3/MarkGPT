@@ -13,3 +13,5 @@ Creating arrays can be done in multiple ways depending on your needs: arange, li
 
 Indexing arrays allows you to access individual elements or groups of elements efficiently.
 
+Slicing extracts contiguous subarrays using the colon notation: arr[start:stop:step].
+
