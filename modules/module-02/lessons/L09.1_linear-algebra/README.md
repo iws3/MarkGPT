@@ -74,3 +74,5 @@ Iterative refinement improves solutions from direct methods.
 
 Preconditioning accelerates convergence of iterative solvers.
 
+Error bounds quantify how much rounding affects results.
+
