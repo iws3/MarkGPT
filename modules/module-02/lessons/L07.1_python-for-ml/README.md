@@ -40,3 +40,5 @@ Generators use yield to produce sequences lazily, saving memory compared to list
 
 Context managers ensure resources are properly allocated and cleaned up.
 
+Exception handling with try-except blocks prevents crashes from errors.
+
