@@ -33,3 +33,5 @@ Architecture design critically impacts learning capability.
 
 Wider networks have more parameters per layer.
 
+Deeper networks compose more transformations.
+
