@@ -66,3 +66,5 @@ Differentiability requirement allows gradient-based optimization algorithms.
 
 Boundedness prevents numerical instability and neuron saturation problems.
 
+Output range affects learning dynamics and convergence properties.
+
