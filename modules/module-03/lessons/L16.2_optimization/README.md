@@ -17,3 +17,5 @@ Becomes different during inference vs. training.
 
 ## Learning Rate Strategies
 
+Constant learning rates rarely work well throughout training.
+
