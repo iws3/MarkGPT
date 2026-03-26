@@ -21,3 +21,5 @@ Mean squared error (MSE) penalizes large errors quadratically.
 
 Mean absolute error (MAE) is robust to outliers.
 
+Huber loss combines benefits of MSE and MAE.
+
