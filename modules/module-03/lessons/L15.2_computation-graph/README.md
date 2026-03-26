@@ -37,3 +37,5 @@ Reverse traversal computes gradients in backward pass.
 
 Higher-order gradients require second traversal.
 
+Efficient caching avoids recomputing intermediate values.
+
