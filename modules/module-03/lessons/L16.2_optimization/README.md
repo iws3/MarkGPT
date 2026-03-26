@@ -33,3 +33,5 @@ Proper scheduling significantly impacts final performance.
 
 Accumulation enables larger effective batch sizes.
 
+Useful when memory limits batch size.
+
