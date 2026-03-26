@@ -42,3 +42,5 @@ Altair declaratively specifies visualizations encoding data.
 
 Bokeh enables interactive web-based visualizations.
 
+Folium creates interactive maps from geographic data.
+
