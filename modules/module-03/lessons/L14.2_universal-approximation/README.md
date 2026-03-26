@@ -46,3 +46,5 @@ Real problems benefit from carefully designed architectures.
 
 ## Approximation Theory
 
+Hidden layer density affects approximation quality and complexity.
+
