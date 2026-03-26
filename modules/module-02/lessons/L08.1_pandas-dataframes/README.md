@@ -29,3 +29,5 @@ Feature creation and selection can dramatically improve model performance.
 
 Time series data requires special handling with lagged features and rolling statistics.
 
+## GroupBy Operations and Aggregations
+
