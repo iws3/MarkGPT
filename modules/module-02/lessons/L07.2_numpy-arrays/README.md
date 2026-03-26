@@ -57,3 +57,5 @@ Reshaping changes dimensions while preserving total size.
 
 ## Performance Optimization
 
+Vectorization eliminates loops replacing them with array operations.
+
