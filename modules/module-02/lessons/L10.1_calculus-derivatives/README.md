@@ -64,3 +64,5 @@ Implicit differentiation handles equations without explicit solutions.
 
 ## Advanced Optimization Concepts
 
+Constrained optimization handles problems with constraints.
+
