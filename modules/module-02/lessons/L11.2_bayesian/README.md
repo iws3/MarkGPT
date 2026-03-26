@@ -72,3 +72,5 @@ Mixture models combine multiple component distributions.
 
 Latent variable models handle missing or hidden structure.
 
+Copulas model dependencies between distributions.
+
