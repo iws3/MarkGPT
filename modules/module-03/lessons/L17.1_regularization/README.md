@@ -47,3 +47,5 @@ Effective augmentation enables training with less data.
 
 Stochastic depth randomly drops layers during training.
 
+MixUp and CutMix regularize through sample mixing.
+
