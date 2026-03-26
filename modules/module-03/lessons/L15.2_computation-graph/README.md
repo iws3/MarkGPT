@@ -7,3 +7,5 @@ Computation graphs represent mathematical operations as nodes.
 
 Edges represent data flow between operations.
 
+Neural networks are directed acyclic graphs (DAGs).
+
