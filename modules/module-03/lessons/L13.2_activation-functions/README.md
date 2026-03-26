@@ -64,3 +64,5 @@ Non-linearity enables networks to approximate complex non-linear functions.
 
 Differentiability requirement allows gradient-based optimization algorithms.
 
+Boundedness prevents numerical instability and neuron saturation problems.
+
