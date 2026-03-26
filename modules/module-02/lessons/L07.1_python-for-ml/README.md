@@ -17,3 +17,5 @@ Pandas builds on NumPy and provides data structures for data manipulation and an
 
 Scikit-learn is the primary library for implementing traditional machine learning algorithms in Python.
 
+TensorFlow and PyTorch are deep learning frameworks that enable you to build and train neural networks.
+
