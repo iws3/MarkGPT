@@ -36,3 +36,5 @@ Practical PCA requires careful scaling and selection of component numbers.
 
 Kernel PCA handles non-linear patterns unlike linear PCA.
 
+Independent Component Analysis finds independent sources.
+
