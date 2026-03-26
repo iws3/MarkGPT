@@ -23,3 +23,5 @@ Gradient descent iteratively improves a solution by moving opposite the gradient
 
 ## Advanced Optimization Concepts
 
+Second-order methods use curvature information for faster convergence.
+
