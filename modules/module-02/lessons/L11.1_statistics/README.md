@@ -40,3 +40,5 @@ Logistic regression handles binary classification.
 
 Polynomial regression fits curved relationships.
 
+Robust regression resists influence of outliers.
+
