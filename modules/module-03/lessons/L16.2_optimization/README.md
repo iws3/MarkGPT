@@ -13,3 +13,5 @@ Reduces sensitivity to weight initialization.
 
 Acts as regularizer reducing overfitting.
 
+Becomes different during inference vs. training.
+
