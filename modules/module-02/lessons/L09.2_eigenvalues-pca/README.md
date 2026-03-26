@@ -66,3 +66,5 @@ Wrapper methods evaluate subsets with cross-validation.
 
 PCA for visualization reduces to 2D or 3D for plotting.
 
+PCA for noise reduction filters out small variance components.
+
