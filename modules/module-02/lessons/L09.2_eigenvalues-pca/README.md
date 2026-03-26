@@ -13,3 +13,5 @@ Symmetric matrices have special properties enabling diagonalization and decompos
 
 ## Singular Value Decomposition (SVD)
 
+SVD extends eigendecomposition to rectangular matrices: A = U @ Σ @ V^T.
+
