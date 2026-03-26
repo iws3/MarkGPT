@@ -29,3 +29,5 @@ Gaussian elimination is the foundation transforming systems to upper triangular 
 
 Least-squares solutions minimize error when exactly solving Ax = b is impossible.
 
+The condition number measures sensitivity to perturbations indicating instability.
+
