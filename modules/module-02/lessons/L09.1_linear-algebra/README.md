@@ -70,3 +70,5 @@ Pivoting strategies improve numerical stability in algorithms.
 
 Regularization adds small constants to diagonal for stability.
 
+Iterative refinement improves solutions from direct methods.
+
