@@ -27,3 +27,5 @@ Second-order methods use curvature information for faster convergence.
 
 Newton's method uses the Hessian for convergence faster than gradient descent.
 
+Quasi-Newton methods approximate the Hessian efficiently for large problems.
+
