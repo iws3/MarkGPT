@@ -13,3 +13,5 @@ Special matrices have unique properties: identity, diagonal, orthogonal matrices
 
 ## Vector and Matrix Operations
 
+The dot product measures similarity between vectors summing component-wise products.
+
