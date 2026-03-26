@@ -3,3 +3,5 @@
 
 ## Eigenvalues and Eigenvectors
 
+Eigenvectors are special vectors only stretched without changing direction.
+
