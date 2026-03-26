@@ -17,3 +17,5 @@ Strength of regularization trades fit vs. simplicity.
 
 ## Early Stopping
 
+Early stopping monitors validation performance during training.
+
