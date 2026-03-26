@@ -25,3 +25,5 @@ Variational dropout shares dropout mask across timesteps.
 
 DropConnect drops weights instead of activations.
 
+Monte Carlo dropout enables uncertainty estimation.
+
