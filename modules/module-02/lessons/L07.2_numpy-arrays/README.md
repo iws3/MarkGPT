@@ -31,3 +31,5 @@ Understanding broadcasting transforms your ability to write concise, efficient M
 
 ## Linear Algebra with NumPy
 
+Matrix operations are fundamental to machine learning and compute dot products efficiently.
+
