@@ -36,3 +36,5 @@ A/B testing applies hypothesis testing to compare two options systematically.
 
 Linear regression models relationships between variables.
 
+Logistic regression handles binary classification.
+
