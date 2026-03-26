@@ -55,3 +55,5 @@ Feature engineering transforms raw data into forms algorithms can learn from.
 
 Model selection chooses appropriate algorithms for the problem at hand.
 
+Hyperparameter tuning optimizes algorithm settings for best performance.
+
