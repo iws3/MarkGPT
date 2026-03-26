@@ -63,3 +63,5 @@ Decay schedules reduce learning rate as training progresses.
 
 Cyclical learning rates escape local minima periodically.
 
+Adaptive schedules adjust rates per parameter based on gradients.
+
