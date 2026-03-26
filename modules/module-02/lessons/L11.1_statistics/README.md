@@ -3,3 +3,5 @@
 
 ## Probability Fundamentals
 
+Probability quantifies uncertainty as numbers between 0 (impossible) and 1 (certain).
+
