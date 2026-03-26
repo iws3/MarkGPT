@@ -47,3 +47,5 @@ Variants improve training stability and network expressiveness.
 
 Swish (SiLU) is x * sigmoid(x) combining smoothness with efficiency.
 
+GELU (Gaussian Error Linear Unit) uses cumulative Gaussian distribution.
+
