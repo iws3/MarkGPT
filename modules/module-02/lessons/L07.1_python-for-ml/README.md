@@ -51,3 +51,5 @@ The typical ML project starts with problem definition and data collection.
 
 Exploratory data analysis reveals patterns, distributions, and anomalies.
 
+Feature engineering transforms raw data into forms algorithms can learn from.
+
