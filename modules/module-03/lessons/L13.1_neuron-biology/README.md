@@ -54,3 +54,6 @@ Hebbian learning implements the principle that neurons that fire together wire t
 
 Spike-timing dependent plasticity depends on precise timing between pre and post neurons.
 
+
+## Biological Inspiration
+
