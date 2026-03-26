@@ -25,3 +25,5 @@ Hidden layers learn intermediate features useful for prediction.
 
 Network depth enables learning hierarchical representations.
 
+Very deep networks require careful initialization and training.
+
