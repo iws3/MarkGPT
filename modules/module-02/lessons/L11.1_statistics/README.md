@@ -17,3 +17,5 @@ Sampling selects a subset from population to study using samples to estimate.
 
 Estimators are statistics that estimate population parameters from samples.
 
+Confidence intervals quantify uncertainty using repeated sampling interpretation.
+
