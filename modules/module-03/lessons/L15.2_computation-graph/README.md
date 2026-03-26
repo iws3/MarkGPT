@@ -43,3 +43,6 @@ Memory usage grows with graph complexity.
 
 Checkpointing trades computation for memory.
 
+
+## Graph Structure
+
