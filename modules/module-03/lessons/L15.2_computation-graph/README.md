@@ -25,3 +25,5 @@ Static graphs enable more optimization opportunities.
 
 Dynamic graphs enable Python control flow within models.
 
+Dynamic graphs simplify debugging and experimentation.
+
