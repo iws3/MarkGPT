@@ -70,3 +70,5 @@ Outlier-robust methods resist influence of anomalous samples.
 
 Regularization paths show how solutions evolve with regularization.
 
+Cross-validation estimates generalization performance.
+
