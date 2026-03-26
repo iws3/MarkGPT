@@ -11,3 +11,5 @@ Stacking linear layers is mathematically equivalent to a single layer.
 
 Linear functions limit the network to learning linear relationships.
 
+Deep networks with only linear activation reduce to shallow networks.
+
