@@ -35,3 +35,5 @@ Wider networks have more parameters per layer.
 
 Deeper networks compose more transformations.
 
+Width and depth trade off computational cost and expressiveness.
+
