@@ -5,3 +5,5 @@
 
 Cross-entropy loss measures divergence between distributions.
 
+Softmax cross-entropy suits multi-class classification.
+
