@@ -21,3 +21,5 @@ The sigmoid function squashes values to range (0, 1).
 
 Sigmoid was historically popular but suffers from vanishing gradients.
 
+The tanh function maps values to range (-1, 1).
+
