@@ -60,3 +60,5 @@ Efficient implementation critical for training large networks.
 
 ## Layer Design Principles
 
+Width determines expressiveness matching problem complexity requirements.
+
