@@ -3,3 +3,5 @@
 
 ## Biological Neurons: Structure and Function
 
+Biological neurons transmit information through electrical and chemical signals.
+
