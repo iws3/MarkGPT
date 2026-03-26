@@ -62,3 +62,5 @@ Understanding loss geometry improves training.
 
 Classification losses encourage correct class prediction.
 
+Regression losses minimize prediction error magnitudes.
+
