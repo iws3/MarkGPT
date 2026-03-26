@@ -21,3 +21,5 @@ Early stopping monitors validation performance during training.
 
 Training stops when validation loss stops improving.
 
+Prevents overfitting without explicit regularization.
+
