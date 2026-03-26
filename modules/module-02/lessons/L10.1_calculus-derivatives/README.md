@@ -11,3 +11,5 @@ Higher derivatives measure changes in rates of change and curvature.
 
 Partial derivatives extend to multiple variables measuring changes per variable.
 
+## Optimization and Critical Points
+
