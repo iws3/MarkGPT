@@ -37,3 +37,5 @@ Learnable scale and shift parameters restore expressiveness.
 
 Running statistics tracked for inference.
 
+Different behavior during training vs. inference.
+
