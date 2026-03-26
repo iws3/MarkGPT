@@ -44,3 +44,5 @@ Pareto smoothed importance sampling estimates without refitting.
 
 Widely Applicable Information Criterion (WAIC) approximates posterior.
 
+Leave-One-Out Cross-Validation efficiently estimates predictive power.
+
