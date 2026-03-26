@@ -66,3 +66,5 @@ Consensus algorithms ensure agreement in distributed settings.
 
 Robust optimization handles uncertainty in data.
 
+Outlier-robust methods resist influence of anomalous samples.
+
