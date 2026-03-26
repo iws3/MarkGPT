@@ -19,3 +19,5 @@ Bivariate analysis examines relationships: scatter plots, correlation coefficien
 
 Multivariate visualization extends to multiple variables: pair plots, heatmaps, parallel coordinates.
 
+Time series visualization reveals temporal patterns: line plots, seasonal decomposition, lag plots.
+
