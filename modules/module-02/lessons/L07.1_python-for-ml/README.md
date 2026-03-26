@@ -33,3 +33,8 @@ Setting up a virtual environment is straightforward: use 'python -m venv env_nam
 
 Managing dependencies with requirements.txt files allows you to document all packages your project needs. You can generate this with 'pip freeze > requirements.txt', which captures the exact versions of all installed packages. When sharing your project or deploying it, others can replicate your environment exactly by running 'pip install -r requirements.txt'. This is crucial for collaborative ML projects where reproducibility and consistency are paramount.
 
+
+## ML-Specific Python Libraries
+
+NumPy is the foundation of numerical computing in Python and is essential for machine learning. It provides efficient multidimensional array operations, mathematical functions, and linear algebra capabilities that are far faster than native Python lists. Understanding NumPy arrays is fundamental because most ML libraries like scikit-learn, TensorFlow, and PyTorch are built on top of NumPy's architecture. NumPy arrays are homogeneous (all elements are the same type) and support vectorized operations, meaning you can perform operations on entire arrays without explicit loops.
+
