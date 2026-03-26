@@ -15,3 +15,5 @@ Regularization constrains model complexity.
 
 Strength of regularization trades fit vs. simplicity.
 
+## Early Stopping
+
