@@ -52,3 +52,5 @@ Long-term potentiation increases synaptic strength through repeated stimulation.
 
 Hebbian learning implements the principle that neurons that fire together wire together.
 
+Spike-timing dependent plasticity depends on precise timing between pre and post neurons.
+
