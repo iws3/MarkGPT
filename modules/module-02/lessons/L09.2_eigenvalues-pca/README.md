@@ -64,3 +64,5 @@ Wrapper methods evaluate subsets with cross-validation.
 
 ## Applications and Interpretability
 
+PCA for visualization reduces to 2D or 3D for plotting.
+
