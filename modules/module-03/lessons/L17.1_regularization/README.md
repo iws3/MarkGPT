@@ -19,3 +19,5 @@ Strength of regularization trades fit vs. simplicity.
 
 Early stopping monitors validation performance during training.
 
+Training stops when validation loss stops improving.
+
