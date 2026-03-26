@@ -17,3 +17,5 @@ Proper loss function choice affects convergence.
 
 ## Regression Losses
 
+Mean squared error (MSE) penalizes large errors quadratically.
+
