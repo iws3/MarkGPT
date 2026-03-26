@@ -23,3 +23,8 @@ In this lesson, we'll cover the fundamental data types in Python and how they re
 
 Python environments are isolated development spaces that allow you to manage project dependencies independently. When working on machine learning projects, you might need different versions of libraries for different projects. Virtual environments solve this problem by creating self-contained directories with their own Python installations and package libraries. This prevents version conflicts and ensures reproducibility across different machines and development stages.
 
+
+## Understanding Python Environments
+
+Setting up a virtual environment is straightforward: use 'python -m venv env_name' to create a new environment, then activate it with 'source env_name/bin/activate' on Linux/Mac or 'env_name\Scripts\activate' on Windows. Once activated, you can install packages with pip, and they'll be isolated to that environment. This practice is essential in professional ML development because it ensures that your code will run consistently regardless of what other packages are installed globally on a system.
+
