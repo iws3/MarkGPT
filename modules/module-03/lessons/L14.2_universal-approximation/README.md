@@ -59,3 +59,5 @@ Trade-off between network size and approximation error.
 
 Network expressiveness grows exponentially with depth.
 
+Theoretical guarantees don't address optimization difficulty.
+
