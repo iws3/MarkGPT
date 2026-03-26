@@ -72,3 +72,5 @@ Visualization of principal components reveals feature relationships.
 
 Explained variance guides selection of component count.
 
+Loadings show how original features contribute to components.
+
