@@ -46,3 +46,6 @@ t-SNE visualizes high-dimensional data revealing clusters.
 
 UMAP offers scalable alternative to t-SNE.
 
+
+## Feature Selection Methods
+
