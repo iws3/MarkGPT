@@ -21,3 +21,5 @@ Confidence intervals quantify uncertainty using repeated sampling interpretation
 
 The law of large numbers: as sample size increases, estimates converge.
 
+## Hypothesis Testing and Statistical Inference
+
