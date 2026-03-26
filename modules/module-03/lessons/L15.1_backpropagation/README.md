@@ -55,3 +55,5 @@ Tape-based systems record operations for backward pass.
 
 Automatic differentiation enables rapid prototyping.
 
+PyTorch and TensorFlow implement efficient automatic differentiation.
+
