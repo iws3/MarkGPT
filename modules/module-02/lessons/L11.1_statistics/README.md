@@ -23,3 +23,5 @@ The law of large numbers: as sample size increases, estimates converge.
 
 ## Hypothesis Testing and Statistical Inference
 
+Hypothesis testing formalizes comparing observations to baseline claims.
+
