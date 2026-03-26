@@ -41,3 +41,5 @@ Wider networks learn faster but need more data to generalize.
 
 Deeper networks learn more abstract features.
 
+Optimal architecture depends on dataset and problem.
+
