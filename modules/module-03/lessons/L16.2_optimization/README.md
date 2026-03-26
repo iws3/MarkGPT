@@ -11,3 +11,5 @@ Enables higher learning rates during training.
 
 Reduces sensitivity to weight initialization.
 
+Acts as regularizer reducing overfitting.
+
