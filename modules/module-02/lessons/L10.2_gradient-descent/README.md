@@ -44,3 +44,5 @@ Alternating Direction Method of Multipliers (ADMM) solves convex problems.
 
 Mirror descent generalizes gradient descent to non-Euclidean geometry.
 
+Natural gradient uses information geometry for better optimization.
+
