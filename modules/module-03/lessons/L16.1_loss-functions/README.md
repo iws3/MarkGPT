@@ -3,3 +3,5 @@
 
 ## Classification Losses
 
+Cross-entropy loss measures divergence between distributions.
+
