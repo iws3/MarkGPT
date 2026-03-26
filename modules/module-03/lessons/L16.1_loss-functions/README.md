@@ -9,3 +9,5 @@ Softmax cross-entropy suits multi-class classification.
 
 Binary cross-entropy applies to binary classification.
 
+Focal loss addresses class imbalance in hard examples.
+
