@@ -68,3 +68,5 @@ Ill-conditioned matrices amplify small input perturbations.
 
 Pivoting strategies improve numerical stability in algorithms.
 
+Regularization adds small constants to diagonal for stability.
+
