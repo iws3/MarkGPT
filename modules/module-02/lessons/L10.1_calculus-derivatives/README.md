@@ -9,3 +9,5 @@ The derivative f'(x) is the limit of [f(x+h) - f(x)] / h as h approaches 0.
 
 Higher derivatives measure changes in rates of change and curvature.
 
+Partial derivatives extend to multiple variables measuring changes per variable.
+
