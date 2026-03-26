@@ -17,3 +17,5 @@ This motivates using non-linear activation functions.
 
 ## Sigmoid and Tanh Functions
 
+The sigmoid function squashes values to range (0, 1).
+
