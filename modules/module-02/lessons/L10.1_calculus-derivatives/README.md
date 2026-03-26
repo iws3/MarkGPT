@@ -38,3 +38,5 @@ Taylor series approximates functions using polynomial terms.
 
 First-order approximation f(x) ≈ f(a) + f'(a)(x-a) is fundamental.
 
+Second-order approximation adds curvature information.
+
