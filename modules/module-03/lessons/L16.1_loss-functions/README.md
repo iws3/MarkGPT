@@ -43,3 +43,5 @@ Adversarial losses pit generator against discriminator.
 
 Domain-specific losses encode problem structure.
 
+## Loss Landscapes and Optimization
+
