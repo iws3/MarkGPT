@@ -72,3 +72,5 @@ Propensity score matching reduces selection bias.
 
 Difference-in-differences evaluates policy interventions.
 
+Instrumental variables handle endogeneity problems.
+
