@@ -41,3 +41,5 @@ Leaky ReLU allows small negative gradients to prevent dead neurons.
 
 ELU (Exponential Linear Unit) provides smooth negative values.
 
+Variants improve training stability and network expressiveness.
+
