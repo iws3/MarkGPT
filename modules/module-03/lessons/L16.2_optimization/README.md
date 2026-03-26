@@ -41,3 +41,5 @@ Update weights after accumulated gradient.
 
 Increases training time but enables larger effective batches.
 
+Reduces gradient noise improving convergence.
+
