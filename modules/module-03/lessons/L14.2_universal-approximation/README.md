@@ -3,3 +3,5 @@
 
 ## Theoretical Foundations
 
+Universal approximation theorem guarantees network expressiveness.
+
