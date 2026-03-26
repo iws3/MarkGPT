@@ -5,3 +5,5 @@
 
 Batch gradient descent computes gradients using all training data then updates once.
 
+Stochastic gradient descent updates weights after each sample with noisy updates.
+
