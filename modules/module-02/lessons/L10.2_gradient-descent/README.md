@@ -29,3 +29,5 @@ Exploding and vanishing gradients plague deep networks requiring solutions.
 
 Gradient clipping, batch normalization, and skip connections solve gradient flow.
 
+Hyperparameter tuning optimizes learning rate, batch size, and regularization.
+
