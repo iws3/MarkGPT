@@ -76,3 +76,5 @@ MultiIndex enables grouping by multiple columns simultaneously.
 
 Custom aggregation functions apply unique logic to each group.
 
+Named aggregations produce descriptive output column names.
+
