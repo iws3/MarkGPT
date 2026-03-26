@@ -17,3 +17,5 @@ Computing posteriors exactly is impossible due to intractable integrals.
 
 Markov Chain Monte Carlo samples from posterior distributions successfully.
 
+Gibbs sampling specializes MCMC when conditional distributions are tractable.
+
