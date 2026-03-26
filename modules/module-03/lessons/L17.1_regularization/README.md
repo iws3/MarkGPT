@@ -35,3 +35,5 @@ Augmentation artificially expands dataset through transformations.
 
 Random crops, rotations, flips increase training diversity.
 
+Mixup interpolates between samples and labels.
+
