@@ -7,3 +7,5 @@ Python environments are isolated development spaces that allow you to manage pro
 
 Setting up a virtual environment is straightforward: use 'python -m venv env_name' to create a new environment.
 
+Managing dependencies with requirements.txt files allows you to document all packages your project needs.
+
