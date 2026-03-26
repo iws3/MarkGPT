@@ -15,3 +15,5 @@ Deep networks with only linear activation reduce to shallow networks.
 
 This motivates using non-linear activation functions.
 
+## Sigmoid and Tanh Functions
+
