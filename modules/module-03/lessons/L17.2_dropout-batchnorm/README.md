@@ -17,3 +17,5 @@ Scaling ensures same expected output at inference.
 
 ## Dropout Variants
 
+Standard dropout drops neurons independently.
+
