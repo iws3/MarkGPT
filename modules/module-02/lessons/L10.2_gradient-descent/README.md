@@ -21,3 +21,5 @@ Adam combines momentum and RMSprop for faster convergence in practice.
 
 Adaptive methods have trade-offs between convergence speed and generalization.
 
+## Convergence and Debugging
+
