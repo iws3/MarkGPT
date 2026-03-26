@@ -34,3 +34,5 @@ Learning curves show how model performance improves with more training data avai
 
 ## Advanced Visualization Techniques
 
+Seaborn builds on Matplotlib for statistical visualizations.
+
