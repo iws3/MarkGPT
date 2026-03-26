@@ -50,3 +50,5 @@ Directed acyclic graphs represent computation without cycles.
 
 Forward pass computes outputs propagating information forward.
 
+Backward pass computes gradients in reverse topological order.
+
