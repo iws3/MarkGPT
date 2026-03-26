@@ -39,3 +39,5 @@ Accumulate gradients over multiple forward/backward passes.
 
 Update weights after accumulated gradient.
 
+Increases training time but enables larger effective batches.
+
