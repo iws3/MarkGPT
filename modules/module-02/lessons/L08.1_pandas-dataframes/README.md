@@ -35,3 +35,5 @@ The groupby operation is one of Pandas' most powerful features for data analysis
 
 Aggregation functions summarize data across groups using sum, mean, median, std.
 
+Transform operations apply functions while preserving the original DataFrame shape.
+
