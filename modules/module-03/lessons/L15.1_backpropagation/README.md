@@ -23,3 +23,5 @@ Intermediate activations are stored for backward computation.
 
 The backward pass computes gradients of loss w.r.t. parameters.
 
+Gradients enable parameter updates toward lower loss.
+
