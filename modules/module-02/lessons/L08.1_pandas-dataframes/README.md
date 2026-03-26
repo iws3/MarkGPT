@@ -9,3 +9,5 @@ Creating DataFrames is straightforward from CSV, Excel, databases, or Python dat
 
 DataFrame attributes provide essential information about data: shape, dtypes, columns, index.
 
+## Data Cleaning and Preparation
+
