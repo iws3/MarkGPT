@@ -75,3 +75,5 @@ Chain rule efficiently computes gradients for composite functions.
 
 Computational graph representation enables automatic differentiation.
 
+Memory efficiency requires careful gradient accumulation.
+
