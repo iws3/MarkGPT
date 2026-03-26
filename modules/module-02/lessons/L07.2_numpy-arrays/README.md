@@ -29,3 +29,5 @@ Broadcasting enables elegant solutions to complex mathematical problems.
 
 Understanding broadcasting transforms your ability to write concise, efficient ML code.
 
+## Linear Algebra with NumPy
+
