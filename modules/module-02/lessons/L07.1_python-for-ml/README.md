@@ -13,3 +13,5 @@ Managing dependencies with requirements.txt files allows you to document all pac
 
 NumPy is the foundation of numerical computing in Python and is essential for machine learning.
 
+Pandas builds on NumPy and provides data structures for data manipulation and analysis.
+
