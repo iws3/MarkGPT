@@ -15,3 +15,5 @@ Hinge loss used in support vector machines.
 
 Proper loss function choice affects convergence.
 
+## Regression Losses
+
