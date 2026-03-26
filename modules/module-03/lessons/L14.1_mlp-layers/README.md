@@ -77,3 +77,5 @@ Wide layers process large feature spaces enabling parallel computation.
 
 Skip connections enable information flow in very deep networks.
 
+Layer normalization stabilizes training independent of batch size.
+
