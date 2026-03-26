@@ -47,3 +47,5 @@ Type hints document expected input and output types improving code clarity.
 
 ## ML Project Workflow
 
+The typical ML project starts with problem definition and data collection.
+
