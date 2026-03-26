@@ -51,3 +51,5 @@ Reverse-mode AD (backprop) is efficient for single-output functions.
 
 Forward-mode AD suits few parameters and many outputs.
 
+Tape-based systems record operations for backward pass.
+
