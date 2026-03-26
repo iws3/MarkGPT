@@ -42,3 +42,5 @@ Matrix norms measure the magnitude of matrices and appear in regularization and 
 
 ## Advanced Array Operations
 
+Stacking arrays combines multiple arrays into single larger array.
+
