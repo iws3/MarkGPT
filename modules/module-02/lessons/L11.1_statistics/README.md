@@ -38,3 +38,5 @@ Linear regression models relationships between variables.
 
 Logistic regression handles binary classification.
 
+Polynomial regression fits curved relationships.
+
