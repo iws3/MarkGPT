@@ -57,3 +57,6 @@ Selection of activation impacts network capacity and training dynamics.
 
 Different activations suit different problem types and architectures.
 
+
+## Activation Function Properties
+
