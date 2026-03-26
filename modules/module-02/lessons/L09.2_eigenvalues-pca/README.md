@@ -70,3 +70,5 @@ PCA for noise reduction filters out small variance components.
 
 Visualization of principal components reveals feature relationships.
 
+Explained variance guides selection of component count.
+
