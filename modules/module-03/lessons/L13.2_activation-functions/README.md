@@ -77,3 +77,5 @@ Sigmoid smoothness aids optimization but suffers vanishing gradients.
 
 Tanh zero-centered outputs improve convergence over sigmoid.
 
+Leaky ReLU prevents dying ReLU problem with small negative slope.
+
