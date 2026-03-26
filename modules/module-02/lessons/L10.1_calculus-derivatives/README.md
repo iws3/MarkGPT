@@ -44,3 +44,5 @@ Convergence of Taylor series depends on distance from expansion point.
 
 Truncation error bounds quantify approximation accuracy.
 
+Taylor series enables algorithm derivations.
+
