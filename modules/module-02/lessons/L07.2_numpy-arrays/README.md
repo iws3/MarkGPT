@@ -17,3 +17,5 @@ Slicing extracts contiguous subarrays using the colon notation: arr[start:stop:s
 
 Boolean indexing provides powerful filtering capabilities with operators like arr > 5.
 
+Fancy indexing uses integer arrays to select elements: arr[[0, 2, 4]].
+
