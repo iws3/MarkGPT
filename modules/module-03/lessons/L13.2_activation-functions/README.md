@@ -60,3 +60,5 @@ Different activations suit different problem types and architectures.
 
 ## Activation Function Properties
 
+Non-linearity enables networks to approximate complex non-linear functions.
+
