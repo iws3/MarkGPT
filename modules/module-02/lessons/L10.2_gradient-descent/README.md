@@ -61,3 +61,6 @@ Communication reduction compresses gradients for efficiency.
 
 Consensus algorithms ensure agreement in distributed settings.
 
+
+## Robustness and Reliability
+
