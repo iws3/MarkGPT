@@ -7,3 +7,5 @@ Backpropagation applies the chain rule to compute gradients.
 
 Gradients flow backward from outputs to model parameters.
 
+Each layer propagates error signals to previous layers.
+
