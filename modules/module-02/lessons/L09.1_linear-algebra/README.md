@@ -64,3 +64,5 @@ Vectorization tricks convert nested loops to matrix operations.
 
 ## Numerical Stability
 
+Ill-conditioned matrices amplify small input perturbations.
+
