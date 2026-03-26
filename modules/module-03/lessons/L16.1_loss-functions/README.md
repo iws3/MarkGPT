@@ -11,3 +11,5 @@ Binary cross-entropy applies to binary classification.
 
 Focal loss addresses class imbalance in hard examples.
 
+Hinge loss used in support vector machines.
+
