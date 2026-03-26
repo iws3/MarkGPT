@@ -25,3 +25,5 @@ The tanh function maps values to range (-1, 1).
 
 Tanh is zero-centered improving optimization over sigmoid.
 
+Both suffer from gradient saturation at extreme values.
+
