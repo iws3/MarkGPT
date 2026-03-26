@@ -17,3 +17,5 @@ Critical points are where the derivative equals zero: f'(x) = 0.
 
 The second derivative reveals critical point types: minimum, maximum, saddle point.
 
+Convex functions have at most one local minimum (the global minimum).
+
