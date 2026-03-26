@@ -25,3 +25,5 @@ Broadcasting is a mechanism that allows NumPy to work with arrays of different s
 
 Vectorized operations are the heart of NumPy's efficiency, avoiding explicit loops.
 
+Broadcasting enables elegant solutions to complex mathematical problems.
+
