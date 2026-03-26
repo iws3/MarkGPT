@@ -5,3 +5,5 @@
 
 Computation graphs represent mathematical operations as nodes.
 
+Edges represent data flow between operations.
+
