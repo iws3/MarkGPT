@@ -57,3 +57,5 @@ Model parallelism distributes model parameters across devices.
 
 Asynchronous SGD improves throughput with stale gradients.
 
+Communication reduction compresses gradients for efficiency.
+
