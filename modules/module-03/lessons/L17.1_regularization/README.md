@@ -5,3 +5,5 @@
 
 L1 regularization (Lasso) encourages sparsity.
 
+L2 regularization (Ridge) discourages large weights.
+
