@@ -38,3 +38,5 @@ Coordinate descent optimizes one variable at a time.
 
 Frank-Wolfe algorithms handle structured constraints.
 
+Proximal gradient methods combine gradients with proximity operators.
+
