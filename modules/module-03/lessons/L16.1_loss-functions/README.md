@@ -29,3 +29,5 @@ Quantile loss enables prediction of conditional distributions.
 
 Loss choice reflects assumption about error distribution.
 
+## Specialized Loss Functions
+
