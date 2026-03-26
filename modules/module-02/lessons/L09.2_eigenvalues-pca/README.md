@@ -15,3 +15,5 @@ Symmetric matrices have special properties enabling diagonalization and decompos
 
 SVD extends eigendecomposition to rectangular matrices: A = U @ Σ @ V^T.
 
+Singular values measure how much the matrix stretches vectors in directions.
+
