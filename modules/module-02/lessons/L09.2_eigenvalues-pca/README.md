@@ -23,3 +23,5 @@ SVD simplifies many problems: least-squares, approximation, compression.
 
 ## Principal Component Analysis (PCA)
 
+PCA reduces dimensionality while preserving as much variance as possible.
+
