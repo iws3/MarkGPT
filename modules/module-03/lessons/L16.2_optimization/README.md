@@ -50,3 +50,5 @@ Convexity ensures gradient descent reaches global optimum.
 
 Non-convexity complicates optimization requiring good initialization.
 
+Saddle point escape requires sufficient noise or second-order info.
+
