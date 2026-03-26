@@ -66,3 +66,5 @@ Vectorization tricks convert nested loops to matrix operations.
 
 Ill-conditioned matrices amplify small input perturbations.
 
+Pivoting strategies improve numerical stability in algorithms.
+
