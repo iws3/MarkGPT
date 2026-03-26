@@ -9,3 +9,5 @@ Edges represent data flow between operations.
 
 Neural networks are directed acyclic graphs (DAGs).
 
+Graph structure enables efficient automatic differentiation.
+
