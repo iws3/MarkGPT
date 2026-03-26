@@ -39,3 +39,5 @@ Width and depth trade off computational cost and expressiveness.
 
 Wider networks learn faster but need more data to generalize.
 
+Deeper networks learn more abstract features.
+
