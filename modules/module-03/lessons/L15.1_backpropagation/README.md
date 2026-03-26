@@ -17,3 +17,5 @@ Understanding backpropagation reveals how networks learn.
 
 ## Forward and Backward Pass
 
+The forward pass computes outputs from inputs through layers.
+
