@@ -15,3 +15,5 @@ No dropout applied during inference.
 
 Scaling ensures same expected output at inference.
 
+## Dropout Variants
+
