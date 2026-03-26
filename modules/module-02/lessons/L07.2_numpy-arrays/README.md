@@ -3,3 +3,5 @@
 
 ## Fundamentals of NumPy Arrays
 
+NumPy arrays are the fundamental data structure for numerical computing in Python.
+
