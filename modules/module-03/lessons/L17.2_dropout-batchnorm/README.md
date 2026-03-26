@@ -75,3 +75,5 @@ Internal covariate shift reduction stabilizes activations.
 
 Whitening transformation normalizes each layer's inputs.
 
+Scale and shift parameters restore representation capacity.
+
