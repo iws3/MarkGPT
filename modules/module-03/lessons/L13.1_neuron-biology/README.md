@@ -19,3 +19,5 @@ Axon terminals contain vesicles with neurotransmitters for signal transmission.
 
 Dendrites receive signals from other neurons at synaptic connections.
 
+Action potentials propagate along the axon when stimulation exceeds threshold.
+
