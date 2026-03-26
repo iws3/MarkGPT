@@ -80,3 +80,5 @@ Sorting and searching for finding specific elements.
 
 Set operations on arrays for unique, intersection, union.
 
+Polynomial fitting approximates data with polynomial curves.
+
