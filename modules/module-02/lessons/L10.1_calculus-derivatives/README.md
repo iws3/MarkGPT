@@ -19,3 +19,7 @@ The second derivative reveals critical point types: minimum, maximum, saddle poi
 
 Convex functions have at most one local minimum (the global minimum).
 
+Gradient descent iteratively improves a solution by moving opposite the gradient.
+
+## Advanced Optimization Concepts
+
