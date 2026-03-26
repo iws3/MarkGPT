@@ -31,3 +31,5 @@ Loss choice reflects assumption about error distribution.
 
 ## Specialized Loss Functions
 
+Contrastive loss learns similarity between samples.
+
