@@ -34,3 +34,5 @@ A/B testing applies hypothesis testing to compare two options systematically.
 
 ## Regression and Correlation
 
+Linear regression models relationships between variables.
+
