@@ -15,3 +15,5 @@ NumPy is the foundation of numerical computing in Python and is essential for ma
 
 Pandas builds on NumPy and provides data structures for data manipulation and analysis.
 
+Scikit-learn is the primary library for implementing traditional machine learning algorithms in Python.
+
