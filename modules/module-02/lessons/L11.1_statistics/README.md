@@ -49,3 +49,5 @@ Elastic Net combines Ridge and Lasso penalties.
 
 ## Distribution Theory
 
+Chi-squared distribution tests independence and goodness-of-fit.
+
