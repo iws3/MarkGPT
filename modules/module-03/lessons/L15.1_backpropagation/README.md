@@ -29,3 +29,5 @@ Forward pass cost is one inference, backward is ~2x inference.
 
 Efficient computation critical for training large networks.
 
+## Gradient Flow and Backpropagation Challenges
+
