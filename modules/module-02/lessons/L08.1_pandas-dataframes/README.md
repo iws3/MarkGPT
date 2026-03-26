@@ -50,3 +50,5 @@ Concatenating stacks DataFrames vertically or horizontally.
 
 Pivoting reshapes data from long to wide format.
 
+Melting reshapes from wide to long format for analysis.
+
