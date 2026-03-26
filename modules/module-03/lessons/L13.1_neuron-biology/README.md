@@ -15,3 +15,5 @@ Neurotransmitters carry signals across synaptic gaps between neurons.
 
 Axon terminals contain vesicles with neurotransmitters for signal transmission.
 
+## Neural Communication
+
