@@ -68,3 +68,5 @@ Survival analysis models time to events with censoring.
 
 Causal inference estimates treatment effects from data.
 
+Propensity score matching reduces selection bias.
+
