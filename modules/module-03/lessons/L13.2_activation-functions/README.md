@@ -45,3 +45,5 @@ Variants improve training stability and network expressiveness.
 
 ## Modern Activation Functions
 
+Swish (SiLU) is x * sigmoid(x) combining smoothness with efficiency.
+
