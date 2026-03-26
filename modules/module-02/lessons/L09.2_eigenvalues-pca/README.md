@@ -51,3 +51,5 @@ UMAP offers scalable alternative to t-SNE.
 
 Variance-based selection removes low-variance features.
 
+Correlation-based selection removes highly correlated features.
+
