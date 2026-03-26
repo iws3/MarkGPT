@@ -21,3 +21,5 @@ The forward pass computes outputs from inputs through layers.
 
 Intermediate activations are stored for backward computation.
 
+The backward pass computes gradients of loss w.r.t. parameters.
+
