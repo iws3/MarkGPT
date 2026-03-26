@@ -37,3 +37,5 @@ Triplet loss enforces spacing in embedding space.
 
 Siamese losses compare representations across samples.
 
+Ranking losses optimize relative ordering of predictions.
+
