@@ -45,3 +45,5 @@ Optimal architecture depends on dataset and problem.
 
 ## Vectorization and Efficiency
 
+Batch processing passes multiple samples simultaneously.
+
