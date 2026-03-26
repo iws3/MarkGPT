@@ -21,3 +21,5 @@ Gibbs sampling specializes MCMC when conditional distributions are tractable.
 
 Variational inference approximates posteriors faster but with approximation bias.
 
+## Applications and Advantages
+
