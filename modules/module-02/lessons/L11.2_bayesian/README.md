@@ -51,3 +51,5 @@ Leave-One-Out Cross-Validation efficiently estimates predictive power.
 
 Hamiltonian Monte Carlo explores high-dimensional posteriors.
 
+No-U-Turn Sampler (NUTS) adaptively sets trajectory length.
+
