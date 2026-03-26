@@ -33,3 +33,5 @@ Deep learning succeeds because it matches real-world data.
 
 Neural networks learn approximations through training on data.
 
+Training finds weights enabling good sample performance.
+
