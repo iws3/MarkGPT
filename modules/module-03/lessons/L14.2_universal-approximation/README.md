@@ -35,3 +35,5 @@ Neural networks learn approximations through training on data.
 
 Training finds weights enabling good sample performance.
 
+Generalization requires balancing fit and complexity.
+
