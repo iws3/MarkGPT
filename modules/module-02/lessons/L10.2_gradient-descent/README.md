@@ -34,3 +34,5 @@ Hyperparameter tuning optimizes learning rate, batch size, and regularization.
 
 ## Advanced Optimization Algorithms
 
+Coordinate descent optimizes one variable at a time.
+
