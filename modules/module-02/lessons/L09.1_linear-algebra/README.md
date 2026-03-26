@@ -59,3 +59,5 @@ Kronecker products combine transformations in high dimensions.
 
 Tensor operations extend linear algebra to higher-order tensors.
 
+Vectorization tricks convert nested loops to matrix operations.
+
