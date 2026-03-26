@@ -25,3 +25,5 @@ Code organization is critical in ML projects, with separate modules for data, pr
 
 Version control with Git is non-negotiable in professional ML development.
 
+Documentation and comments are often overlooked but essential for ML projects.
+
