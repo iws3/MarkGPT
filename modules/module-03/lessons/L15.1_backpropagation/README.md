@@ -71,3 +71,5 @@ Batch normalization improves gradient flow through networks.
 
 ## Implementation Details
 
+Chain rule efficiently computes gradients for composite functions.
+
