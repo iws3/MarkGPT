@@ -49,3 +49,5 @@ UMAP offers scalable alternative to t-SNE.
 
 ## Feature Selection Methods
 
+Variance-based selection removes low-variance features.
+
