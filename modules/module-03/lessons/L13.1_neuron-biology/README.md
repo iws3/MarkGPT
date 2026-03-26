@@ -27,3 +27,5 @@ Depolarization reduces the potential difference across the membrane.
 
 Hyperpolarization increases the potential difference beyond resting state.
 
+The threshold is the minimum stimulation needed to trigger an action potential.
+
