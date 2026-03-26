@@ -36,3 +36,5 @@ The Bayesian vs. Frequentist debate reflects different philosophical approaches.
 
 Model comparison uses Bayes factors for relative evidence.
 
+Marginal likelihood quantifies model fit accounting for complexity.
+
