@@ -41,3 +41,5 @@ The bias term allows shifting the activation threshold.
 
 The activation function introduces non-linearity mimicking biological behavior.
 
+Artificial neurons enable computational learning from data.
+
