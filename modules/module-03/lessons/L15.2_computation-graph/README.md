@@ -35,3 +35,5 @@ Graph representation enables automatic gradient computation.
 
 Reverse traversal computes gradients in backward pass.
 
+Higher-order gradients require second traversal.
+
