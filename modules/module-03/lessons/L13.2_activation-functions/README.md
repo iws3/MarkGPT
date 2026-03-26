@@ -13,3 +13,5 @@ Linear functions limit the network to learning linear relationships.
 
 Deep networks with only linear activation reduce to shallow networks.
 
+This motivates using non-linear activation functions.
+
