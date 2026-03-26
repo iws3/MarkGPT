@@ -66,3 +66,5 @@ Implicit differentiation handles equations without explicit solutions.
 
 Constrained optimization handles problems with constraints.
 
+Lagrange multipliers enable optimization with constraints.
+
