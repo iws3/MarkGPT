@@ -38,3 +38,5 @@ Model comparison uses Bayes factors for relative evidence.
 
 Marginal likelihood quantifies model fit accounting for complexity.
 
+Cross-validation estimates predictive performance.
+
