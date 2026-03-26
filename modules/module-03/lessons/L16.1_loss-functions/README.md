@@ -35,3 +35,5 @@ Contrastive loss learns similarity between samples.
 
 Triplet loss enforces spacing in embedding space.
 
+Siamese losses compare representations across samples.
+
