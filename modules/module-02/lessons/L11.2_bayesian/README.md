@@ -70,3 +70,5 @@ Zero-inflated models handle excess zeros in count data.
 
 Mixture models combine multiple component distributions.
 
+Latent variable models handle missing or hidden structure.
+
