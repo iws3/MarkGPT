@@ -48,3 +48,5 @@ Reduces gradient noise improving convergence.
 
 Convexity ensures gradient descent reaches global optimum.
 
+Non-convexity complicates optimization requiring good initialization.
+
