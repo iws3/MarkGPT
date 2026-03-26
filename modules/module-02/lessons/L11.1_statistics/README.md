@@ -53,3 +53,5 @@ Chi-squared distribution tests independence and goodness-of-fit.
 
 t-distribution used when population variance is unknown.
 
+F-distribution compares variances between groups.
+
