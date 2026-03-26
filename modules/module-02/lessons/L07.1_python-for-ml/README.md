@@ -38,3 +38,5 @@ Decorators are functions that modify other functions, useful for logging and tim
 
 Generators use yield to produce sequences lazily, saving memory compared to lists.
 
+Context managers ensure resources are properly allocated and cleaned up.
+
