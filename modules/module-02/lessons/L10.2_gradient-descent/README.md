@@ -31,3 +31,6 @@ Gradient clipping, batch normalization, and skip connections solve gradient flow
 
 Hyperparameter tuning optimizes learning rate, batch size, and regularization.
 
+
+## Advanced Optimization Algorithms
+
