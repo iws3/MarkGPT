@@ -53,3 +53,5 @@ Solving least squares problems efficiently with QR decomposition.
 
 Computing determinants from LU for likelihood calculations.
 
+Matrix exponentials appear in continuous-time models.
+
