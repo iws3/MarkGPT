@@ -72,3 +72,5 @@ Regularization paths show how solutions evolve with regularization.
 
 Cross-validation estimates generalization performance.
 
+Benchmark comparisons evaluate algorithms on standard problems.
+
