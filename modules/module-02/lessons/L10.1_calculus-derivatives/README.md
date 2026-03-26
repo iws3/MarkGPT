@@ -15,3 +15,5 @@ Partial derivatives extend to multiple variables measuring changes per variable.
 
 Critical points are where the derivative equals zero: f'(x) = 0.
 
+The second derivative reveals critical point types: minimum, maximum, saddle point.
+
