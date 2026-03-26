@@ -23,3 +23,5 @@ Adaptive methods have trade-offs between convergence speed and generalization.
 
 ## Convergence and Debugging
 
+Convergence curves plot training progress showing loss or accuracy versus epochs.
+
