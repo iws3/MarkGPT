@@ -1,4 +1,4 @@
-# 🤝 MarkGPT Contributors Guide
+ # 🤝 MarkGPT Contributors Guide
 
 Welcome! This guide is designed for **beginner and intermediate students** who want to contribute to the MarkGPT LLM Curriculum. Whether you want to fix bugs, improve lessons, add exercises, or enhance documentation, this guide will walk you through the process step by step.
 
