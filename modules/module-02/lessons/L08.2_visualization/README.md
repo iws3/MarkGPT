@@ -57,3 +57,5 @@ Add clear titles and axis labels describing data.
 
 Use consistent scales across related visualizations.
 
+Highlight important findings with annotations.
+
