@@ -17,3 +17,5 @@ The theorem is existence proof, not constructive algorithm.
 
 ## Practical Implications
 
+Single hidden layer networks are theoretically sufficient.
+
