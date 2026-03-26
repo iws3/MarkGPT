@@ -57,3 +57,6 @@ Each normalization suits different architectures.
 
 Normalization critical for stable deep learning.
 
+
+## Dropout Mechanisms
+
