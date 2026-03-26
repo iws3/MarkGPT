@@ -68,3 +68,5 @@ Assertions verify assumptions about data shape, types, and ranges.
 
 Unit tests catch bugs early before they propagate through the pipeline.
 
+Integration tests verify components work together seamlessly.
+
