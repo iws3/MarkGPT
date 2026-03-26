@@ -64,3 +64,5 @@ Classification losses encourage correct class prediction.
 
 Regression losses minimize prediction error magnitudes.
 
+Reconstruction losses measure data fidelity in generative models.
+
