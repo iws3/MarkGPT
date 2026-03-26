@@ -37,3 +37,5 @@ Training finds weights enabling good sample performance.
 
 Generalization requires balancing fit and complexity.
 
+Regularization prevents overfitting despite large capacity.
+
