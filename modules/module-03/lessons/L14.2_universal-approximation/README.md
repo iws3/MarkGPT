@@ -39,3 +39,5 @@ Generalization requires balancing fit and complexity.
 
 Regularization prevents overfitting despite large capacity.
 
+The inductive bias of architecture shapes learned functions.
+
