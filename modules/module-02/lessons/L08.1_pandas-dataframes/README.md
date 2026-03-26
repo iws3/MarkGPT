@@ -54,3 +54,6 @@ Melting reshapes from wide to long format for analysis.
 
 Windowing operations apply functions to sliding windows.
 
+
+## Time Series Analysis
+
