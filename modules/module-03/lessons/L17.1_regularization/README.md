@@ -39,3 +39,5 @@ Mixup interpolates between samples and labels.
 
 Cutmix mixes regions from different samples.
 
+AutoAugment searches for optimal augmentation policies.
+
