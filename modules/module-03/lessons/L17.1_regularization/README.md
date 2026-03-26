@@ -64,3 +64,5 @@ L1 regularization encourages sparse weight solutions.
 
 L2 regularization penalizes large weight magnitudes.
 
+L1+L2 combination balances sparsity and weight decay.
+
