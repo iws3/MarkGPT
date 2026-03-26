@@ -40,3 +40,5 @@ Cholesky decomposition works with symmetric positive-definite matrices.
 
 LU decomposition factors into lower and upper triangular matrices.
 
+Schur decomposition reveals matrix structure and stability.
+
