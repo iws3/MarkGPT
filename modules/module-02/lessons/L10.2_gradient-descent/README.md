@@ -36,3 +36,5 @@ Hyperparameter tuning optimizes learning rate, batch size, and regularization.
 
 Coordinate descent optimizes one variable at a time.
 
+Frank-Wolfe algorithms handle structured constraints.
+
