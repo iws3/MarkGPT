@@ -15,3 +15,5 @@ Likelihood shows how probable data is for fixed parameters.
 
 Computing posteriors exactly is impossible due to intractable integrals.
 
+Markov Chain Monte Carlo samples from posterior distributions successfully.
+
