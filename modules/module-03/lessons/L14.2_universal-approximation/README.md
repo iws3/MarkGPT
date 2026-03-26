@@ -15,3 +15,5 @@ Width grows exponentially with input dimension in worst case.
 
 The theorem is existence proof, not constructive algorithm.
 
+## Practical Implications
+
