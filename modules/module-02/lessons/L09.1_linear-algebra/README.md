@@ -11,3 +11,5 @@ Matrix transpose swaps rows and columns: (A^T)[i,j] = A[j,i].
 
 Special matrices have unique properties: identity, diagonal, orthogonal matrices.
 
+## Vector and Matrix Operations
+
