@@ -40,3 +40,5 @@ Marginal likelihood quantifies model fit accounting for complexity.
 
 Cross-validation estimates predictive performance.
 
+Pareto smoothed importance sampling estimates without refitting.
+
