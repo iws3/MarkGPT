@@ -37,3 +37,5 @@ Matrix decomposition techniques like SVD and eigenvalue decomposition reveal und
 
 Systems of linear equations appear frequently in ML applications and NumPy solves them efficiently.
 
+Matrix norms measure the magnitude of matrices and appear in regularization and convergence criteria.
+
