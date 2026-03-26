@@ -46,3 +46,5 @@ Checkpointing trades computation for memory.
 
 ## Graph Structure
 
+Directed acyclic graphs represent computation without cycles.
+
