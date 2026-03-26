@@ -32,3 +32,5 @@ Testing in ML contexts goes beyond unit testing—you need to validate data inte
 
 ## Advanced Python Concepts
 
+List comprehensions provide concise syntax for creating lists from existing lists.
+
