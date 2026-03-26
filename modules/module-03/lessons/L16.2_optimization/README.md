@@ -3,3 +3,5 @@
 
 ## Batch Normalization Benefits
 
+Batch normalization reduces internal covariate shift.
+
