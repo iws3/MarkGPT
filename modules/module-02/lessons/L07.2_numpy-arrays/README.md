@@ -76,3 +76,5 @@ Applying functions across dimensions with axis parameter.
 
 Computing statistics: quantiles, percentiles, moving averages.
 
+Sorting and searching for finding specific elements.
+
