@@ -71,3 +71,5 @@ Layer interaction through non-linearity creates feature hierarchies.
 
 ## Network Architecture
 
+Bottleneck layers reduce dimensionality for feature compression.
+
