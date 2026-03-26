@@ -63,3 +63,5 @@ Automatic differentiation computes gradients accurately.
 
 Source transformation produces derivative code automatically.
 
+Operator overloading enables implicit gradient computation.
+
