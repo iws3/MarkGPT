@@ -31,3 +31,6 @@ Quasi-Newton methods approximate the Hessian efficiently for large problems.
 
 Understanding these methods accelerates your ability to optimize neural networks.
 
+
+## Taylor Series and Approximation
+
