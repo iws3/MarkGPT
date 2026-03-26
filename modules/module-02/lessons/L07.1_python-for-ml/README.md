@@ -44,3 +44,6 @@ Exception handling with try-except blocks prevents crashes from errors.
 
 Type hints document expected input and output types improving code clarity.
 
+
+## ML Project Workflow
+
