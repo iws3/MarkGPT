@@ -55,3 +55,5 @@ Correlation-based selection removes highly correlated features.
 
 Information-based selection uses mutual information.
 
+Recursive feature elimination iteratively removes features.
+
