@@ -31,3 +31,5 @@ Deep learning succeeds because it matches real-world data.
 
 ## Function Approximation in Practice
 
+Neural networks learn approximations through training on data.
+
