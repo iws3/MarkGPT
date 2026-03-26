@@ -54,3 +54,6 @@ Saddle point escape requires sufficient noise or second-order info.
 
 Local minima often suffice in practice despite non-convexity.
 
+
+## Learning Rate Strategies
+
