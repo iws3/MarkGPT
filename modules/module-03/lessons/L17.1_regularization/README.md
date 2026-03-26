@@ -37,3 +37,5 @@ Random crops, rotations, flips increase training diversity.
 
 Mixup interpolates between samples and labels.
 
+Cutmix mixes regions from different samples.
+
