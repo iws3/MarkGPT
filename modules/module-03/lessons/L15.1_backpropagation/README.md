@@ -33,3 +33,5 @@ Efficient computation critical for training large networks.
 
 Vanishing gradients occur when gradients shrink through layers.
 
+Exploding gradients occur when gradients grow exponentially.
+
