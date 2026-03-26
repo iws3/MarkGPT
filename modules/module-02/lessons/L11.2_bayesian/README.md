@@ -29,3 +29,5 @@ Bayesian methods shine in small-data regimes with limited samples.
 
 Decision making under uncertainty is fundamentally Bayesian in frameworks.
 
+The Bayesian vs. Frequentist debate reflects different philosophical approaches.
+
