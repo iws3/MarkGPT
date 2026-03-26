@@ -3,3 +3,5 @@
 
 ## Weight Regularization
 
+L1 regularization (Lasso) encourages sparsity.
+
