@@ -53,3 +53,5 @@ Gradient vectors point in direction of steepest increase.
 
 Directional derivatives measure rate of change in any direction.
 
+Hessian matrices contain all second partial derivatives.
+
