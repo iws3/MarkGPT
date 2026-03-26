@@ -48,3 +48,5 @@ Checkpointing trades computation for memory.
 
 Directed acyclic graphs represent computation without cycles.
 
+Forward pass computes outputs propagating information forward.
+
