@@ -68,3 +68,6 @@ Gradient normalization stabilizes training across layers.
 
 Batch normalization improves gradient flow through networks.
 
+
+## Implementation Details
+
