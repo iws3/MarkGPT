@@ -44,3 +44,5 @@ Multidimensional Scaling preserves pairwise distances.
 
 t-SNE visualizes high-dimensional data revealing clusters.
 
+UMAP offers scalable alternative to t-SNE.
+
