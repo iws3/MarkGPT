@@ -47,3 +47,5 @@ Domain-specific losses encode problem structure.
 
 Loss landscape shape affects optimization difficulty.
 
+Sharp minima generalize poorly to test data.
+
