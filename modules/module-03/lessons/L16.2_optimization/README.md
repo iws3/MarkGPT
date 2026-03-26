@@ -43,3 +43,6 @@ Increases training time but enables larger effective batches.
 
 Reduces gradient noise improving convergence.
 
+
+## Convergence Properties
+
