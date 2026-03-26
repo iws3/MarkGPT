@@ -46,3 +46,6 @@ Polar decomposition factors into unitary and positive-semidefinite.
 
 Jordan decomposition helps understand matrix powers and exponentials.
 
+
+## Applications in Machine Learning
+
