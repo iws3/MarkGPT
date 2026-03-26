@@ -29,3 +29,5 @@ Network depth enables inductive biases matching data structure.
 
 Deep learning succeeds because it matches real-world data.
 
+## Function Approximation in Practice
+
