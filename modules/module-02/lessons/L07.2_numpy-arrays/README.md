@@ -19,3 +19,5 @@ Boolean indexing provides powerful filtering capabilities with operators like ar
 
 Fancy indexing uses integer arrays to select elements: arr[[0, 2, 4]].
 
+## Broadcasting and Vectorized Operations
+
