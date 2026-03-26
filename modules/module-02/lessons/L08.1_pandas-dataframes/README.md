@@ -74,3 +74,5 @@ Difference operations reveal changes from previous periods.
 
 MultiIndex enables grouping by multiple columns simultaneously.
 
+Custom aggregation functions apply unique logic to each group.
+
