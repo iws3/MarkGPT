@@ -25,3 +25,5 @@ Warm restarts jump learning rate back up periodically.
 
 OneCycle policy ramps up then down over single epoch.
 
+Discriminative learning rates vary across layers.
+
