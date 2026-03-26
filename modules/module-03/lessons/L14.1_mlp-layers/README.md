@@ -68,3 +68,6 @@ Universal approximation theorem guarantees sufficient width and depth.
 
 Layer interaction through non-linearity creates feature hierarchies.
 
+
+## Network Architecture
+
