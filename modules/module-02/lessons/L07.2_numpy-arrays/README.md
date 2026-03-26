@@ -48,3 +48,5 @@ Tiling repeats arrays to create larger patterns efficiently.
 
 Concatenation joins arrays along specified axis.
 
+Splitting divides arrays into equal or unequal pieces.
+
