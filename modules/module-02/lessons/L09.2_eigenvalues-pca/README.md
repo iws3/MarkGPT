@@ -19,3 +19,5 @@ Singular values measure how much the matrix stretches vectors in directions.
 
 SVD reveals the rank of a matrix through non-zero singular values.
 
+SVD simplifies many problems: least-squares, approximation, compression.
+
