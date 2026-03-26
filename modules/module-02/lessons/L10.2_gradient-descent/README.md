@@ -51,3 +51,5 @@ Natural gradient uses information geometry for better optimization.
 
 Federated learning trains models on decentralized data.
 
+Data parallelism distributes batches across multiple devices.
+
