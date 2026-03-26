@@ -13,3 +13,5 @@ DataFrame attributes provide essential information about data: shape, dtypes, co
 
 Missing data is one of the most common data quality issues requiring strategic approaches.
 
+Duplicates can artificially inflate your dataset and cause bias in model training.
+
