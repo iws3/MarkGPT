@@ -61,3 +61,5 @@ Vectorization eliminates loops replacing them with array operations.
 
 Memory layout affects performance: C-order vs Fortran-order arrays.
 
+In-place operations modify arrays without allocating new memory.
+
