@@ -74,3 +74,5 @@ Penalty methods convert constrained to unconstrained problems.
 
 Barrier methods keep iterates strictly feasible.
 
+Proximal methods handle non-smooth optimization problems.
+
