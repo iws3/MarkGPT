@@ -51,3 +51,5 @@ GELU (Gaussian Error Linear Unit) uses cumulative Gaussian distribution.
 
 Mish is x * tanh(softplus(x)) providing smooth non-linearity.
 
+GLU (Gated Linear Unit) gates information flow through sigmoid.
+
