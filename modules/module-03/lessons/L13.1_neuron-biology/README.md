@@ -25,3 +25,5 @@ The resting potential is maintained by ion pumps using metabolic energy.
 
 Depolarization reduces the potential difference across the membrane.
 
+Hyperpolarization increases the potential difference beyond resting state.
+
