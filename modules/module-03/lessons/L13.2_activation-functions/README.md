@@ -53,3 +53,5 @@ Mish is x * tanh(softplus(x)) providing smooth non-linearity.
 
 GLU (Gated Linear Unit) gates information flow through sigmoid.
 
+Selection of activation impacts network capacity and training dynamics.
+
