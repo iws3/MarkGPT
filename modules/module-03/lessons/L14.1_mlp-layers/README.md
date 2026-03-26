@@ -29,3 +29,5 @@ Very deep networks require careful initialization and training.
 
 Architecture design critically impacts learning capability.
 
+## Network Capacity and Expressiveness
+
