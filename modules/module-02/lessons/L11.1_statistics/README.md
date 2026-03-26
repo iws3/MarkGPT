@@ -66,3 +66,5 @@ Gamma distribution generalizes exponential and chi-squared.
 
 Survival analysis models time to events with censoring.
 
+Causal inference estimates treatment effects from data.
+
