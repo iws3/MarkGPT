@@ -46,3 +46,6 @@ Truncation error bounds quantify approximation accuracy.
 
 Taylor series enables algorithm derivations.
 
+
+## Multivariable Calculus
+
