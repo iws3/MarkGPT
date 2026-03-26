@@ -31,3 +31,5 @@ Efficient computation critical for training large networks.
 
 ## Gradient Flow and Backpropagation Challenges
 
+Vanishing gradients occur when gradients shrink through layers.
+
