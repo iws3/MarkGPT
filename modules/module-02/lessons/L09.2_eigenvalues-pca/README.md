@@ -25,3 +25,5 @@ SVD simplifies many problems: least-squares, approximation, compression.
 
 PCA reduces dimensionality while preserving as much variance as possible.
 
+Principal components are directions ordered by variance they capture.
+
