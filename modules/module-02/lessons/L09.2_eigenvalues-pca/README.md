@@ -38,3 +38,5 @@ Kernel PCA handles non-linear patterns unlike linear PCA.
 
 Independent Component Analysis finds independent sources.
 
+Factor Analysis models shared variance between variables.
+
