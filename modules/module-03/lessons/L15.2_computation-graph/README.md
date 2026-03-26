@@ -59,3 +59,5 @@ Graph optimization eliminates redundant computations.
 
 Symbolic differentiation manipulates expression trees.
 
+Automatic differentiation computes gradients accurately.
+
