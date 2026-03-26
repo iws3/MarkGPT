@@ -27,3 +27,5 @@ Dynamic graphs enable Python control flow within models.
 
 Dynamic graphs simplify debugging and experimentation.
 
+Hybrid approaches combine benefits of both.
+
