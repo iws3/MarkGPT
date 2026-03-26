@@ -25,3 +25,5 @@ Matrix norms extend vector norms: Frobenius norm, spectral norm for stretching.
 
 Linear systems appear constantly in ML: linear regression, constraints, equations.
 
+Gaussian elimination is the foundation transforming systems to upper triangular form.
+
