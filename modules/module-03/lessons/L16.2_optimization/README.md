@@ -9,3 +9,5 @@ Normalized inputs to each layer improve stability.
 
 Enables higher learning rates during training.
 
+Reduces sensitivity to weight initialization.
+
