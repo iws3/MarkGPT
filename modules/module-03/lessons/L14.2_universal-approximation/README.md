@@ -25,3 +25,5 @@ Deep networks require fewer total parameters for many problems.
 
 Deeper architectures learn features hierarchically.
 
+Network depth enables inductive biases matching data structure.
+
