@@ -19,3 +19,5 @@ Estimators are statistics that estimate population parameters from samples.
 
 Confidence intervals quantify uncertainty using repeated sampling interpretation.
 
+The law of large numbers: as sample size increases, estimates converge.
+
