@@ -63,3 +63,5 @@ Theoretical guarantees don't address optimization difficulty.
 
 Practical networks may need exponential width for some functions.
 
+Inductive biases help learning despite theory not requiring them.
+
