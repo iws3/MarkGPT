@@ -64,3 +64,5 @@ Consensus algorithms ensure agreement in distributed settings.
 
 ## Robustness and Reliability
 
+Robust optimization handles uncertainty in data.
+
