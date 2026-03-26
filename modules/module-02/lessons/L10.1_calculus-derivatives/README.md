@@ -59,3 +59,5 @@ Jacobian matrices contain first derivatives of vector functions.
 
 Chain rule extends to functions of multiple variables.
 
+Implicit differentiation handles equations without explicit solutions.
+
