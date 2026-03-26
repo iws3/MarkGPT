@@ -31,3 +31,6 @@ Type I and Type II errors formalize testing mistakes in inference.
 
 A/B testing applies hypothesis testing to compare two options systematically.
 
+
+## Regression and Correlation
+
