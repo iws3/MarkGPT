@@ -33,3 +33,5 @@ Checkpoint best model during training.
 
 Augmentation artificially expands dataset through transformations.
 
+Random crops, rotations, flips increase training diversity.
+
