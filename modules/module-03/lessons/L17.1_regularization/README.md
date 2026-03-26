@@ -75,3 +75,5 @@ Early stopping halts training before overfitting.
 
 Data augmentation artificially increases training set size.
 
+Mixup interpolates samples and labels during training.
+
