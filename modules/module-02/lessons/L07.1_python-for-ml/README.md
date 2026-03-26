@@ -64,3 +64,5 @@ Model evaluation ensures the model generalizes to unseen data correctly.
 
 Print debugging strategically at key points identifies where logic breaks.
 
+Assertions verify assumptions about data shape, types, and ranges.
+
