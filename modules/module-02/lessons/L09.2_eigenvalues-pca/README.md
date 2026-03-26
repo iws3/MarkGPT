@@ -57,3 +57,5 @@ Information-based selection uses mutual information.
 
 Recursive feature elimination iteratively removes features.
 
+Model-based selection uses feature importances from fitted models.
+
