@@ -51,3 +51,5 @@ Sharp minima generalize poorly to test data.
 
 Flat minima suggest better generalization.
 
+Asymmetry in loss landscape guides gradient descent.
+
