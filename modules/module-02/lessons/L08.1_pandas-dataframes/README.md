@@ -67,3 +67,5 @@ Rolling statistics compute aggregates over windows.
 
 Expanding windows compute statistics growing over time.
 
+Difference operations reveal changes from previous periods.
+
