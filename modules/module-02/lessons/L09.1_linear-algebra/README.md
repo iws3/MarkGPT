@@ -19,3 +19,5 @@ Matrix multiplication combines dot products of matrix rows with columns.
 
 Norms quantify vector magnitude: L2 (Euclidean), L1, and max norms are common.
 
+Matrix norms extend vector norms: Frobenius norm, spectral norm for stretching.
+
