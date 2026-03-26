@@ -48,3 +48,5 @@ Joining aligns DataFrames by index for combining datasets.
 
 Concatenating stacks DataFrames vertically or horizontally.
 
+Pivoting reshapes data from long to wide format.
+
