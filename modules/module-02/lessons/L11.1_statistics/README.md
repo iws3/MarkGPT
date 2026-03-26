@@ -7,3 +7,5 @@ Probability quantifies uncertainty as numbers between 0 (impossible) and 1 (cert
 
 Probability distributions describe outcomes: discrete (PMF) or continuous (PDF).
 
+The mean is the average outcome; variance measures spread around the mean.
+
