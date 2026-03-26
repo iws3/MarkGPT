@@ -23,3 +23,5 @@ Matrix norms extend vector norms: Frobenius norm, spectral norm for stretching.
 
 ## Solving Linear Systems
 
+Linear systems appear constantly in ML: linear regression, constraints, equations.
+
