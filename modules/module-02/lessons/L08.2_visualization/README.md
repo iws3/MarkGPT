@@ -29,3 +29,5 @@ Confusion matrices visualize classification model performance and error patterns
 
 ROC and Precision-Recall curves evaluate binary classification models comprehensively.
 
+Learning curves show how model performance improves with more training data available.
+
