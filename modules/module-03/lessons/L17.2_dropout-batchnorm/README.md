@@ -62,3 +62,5 @@ Normalization critical for stable deep learning.
 
 Co-adaptation prevention forces independent feature learning.
 
+Thinned networks at test time approximate ensemble averaging.
+
