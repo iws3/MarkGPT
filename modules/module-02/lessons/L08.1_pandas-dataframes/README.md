@@ -72,3 +72,5 @@ Difference operations reveal changes from previous periods.
 
 ## Advanced Grouping
 
+MultiIndex enables grouping by multiple columns simultaneously.
+
