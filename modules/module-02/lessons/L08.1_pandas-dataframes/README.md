@@ -25,3 +25,5 @@ Normalization and standardization transform features to have comparable scales.
 
 Categorical data requires special handling through one-hot encoding or ordinal encoding.
 
+Feature creation and selection can dramatically improve model performance.
+
