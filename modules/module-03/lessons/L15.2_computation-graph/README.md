@@ -29,3 +29,5 @@ Dynamic graphs simplify debugging and experimentation.
 
 Hybrid approaches combine benefits of both.
 
+## Automatic Differentiation in Graphs
+
