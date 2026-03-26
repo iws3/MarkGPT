@@ -66,3 +66,5 @@ L2 regularization penalizes large weight magnitudes.
 
 L1+L2 combination balances sparsity and weight decay.
 
+Elastic net extends L1/L2 with additional parameters.
+
