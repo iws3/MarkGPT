@@ -34,3 +34,5 @@ The condition number measures sensitivity to perturbations indicating instabilit
 
 ## Matrix Decompositions
 
+QR decomposition factors matrix into orthogonal and upper triangular.
+
