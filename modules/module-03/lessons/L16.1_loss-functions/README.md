@@ -49,3 +49,5 @@ Loss landscape shape affects optimization difficulty.
 
 Sharp minima generalize poorly to test data.
 
+Flat minima suggest better generalization.
+
