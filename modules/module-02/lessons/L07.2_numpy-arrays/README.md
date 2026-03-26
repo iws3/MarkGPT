@@ -63,3 +63,5 @@ Memory layout affects performance: C-order vs Fortran-order arrays.
 
 In-place operations modify arrays without allocating new memory.
 
+Broadcasting avoids explicit loops and temporary arrays.
+
