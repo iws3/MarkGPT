@@ -68,3 +68,5 @@ Constrained optimization handles problems with constraints.
 
 Lagrange multipliers enable optimization with constraints.
 
+KKT conditions generalize to inequality constraints.
+
