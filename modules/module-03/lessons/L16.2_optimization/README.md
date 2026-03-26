@@ -37,3 +37,5 @@ Useful when memory limits batch size.
 
 Accumulate gradients over multiple forward/backward passes.
 
+Update weights after accumulated gradient.
+
