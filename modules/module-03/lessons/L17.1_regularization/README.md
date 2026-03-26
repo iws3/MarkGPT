@@ -71,3 +71,5 @@ Elastic net extends L1/L2 with additional parameters.
 
 ## Advanced Techniques
 
+Early stopping halts training before overfitting.
+
