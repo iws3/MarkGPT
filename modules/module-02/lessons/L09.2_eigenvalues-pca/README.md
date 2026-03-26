@@ -29,3 +29,5 @@ Principal components are directions ordered by variance they capture.
 
 Projecting onto principal components reduces dimensionality efficiently.
 
+Practical PCA requires careful scaling and selection of component numbers.
+
