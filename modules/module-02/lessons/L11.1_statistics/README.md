@@ -55,3 +55,5 @@ t-distribution used when population variance is unknown.
 
 F-distribution compares variances between groups.
 
+Exponential distribution models waiting times.
+
