@@ -19,3 +19,5 @@ Understanding backpropagation reveals how networks learn.
 
 The forward pass computes outputs from inputs through layers.
 
+Intermediate activations are stored for backward computation.
+
