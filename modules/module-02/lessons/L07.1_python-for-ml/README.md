@@ -49,3 +49,5 @@ Type hints document expected input and output types improving code clarity.
 
 The typical ML project starts with problem definition and data collection.
 
+Exploratory data analysis reveals patterns, distributions, and anomalies.
+
