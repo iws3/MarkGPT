@@ -15,3 +15,5 @@ Special matrices have unique properties: identity, diagonal, orthogonal matrices
 
 The dot product measures similarity between vectors summing component-wise products.
 
+Matrix multiplication combines dot products of matrix rows with columns.
+
