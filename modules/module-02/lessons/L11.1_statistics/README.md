@@ -44,3 +44,5 @@ Robust regression resists influence of outliers.
 
 Ridge and Lasso regression add regularization penalties.
 
+Elastic Net combines Ridge and Lasso penalties.
+
