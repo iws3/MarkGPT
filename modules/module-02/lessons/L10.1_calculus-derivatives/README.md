@@ -36,3 +36,5 @@ Understanding these methods accelerates your ability to optimize neural networks
 
 Taylor series approximates functions using polynomial terms.
 
+First-order approximation f(x) ≈ f(a) + f'(a)(x-a) is fundamental.
+
