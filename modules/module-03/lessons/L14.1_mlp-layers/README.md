@@ -57,3 +57,6 @@ Mini-batch processing balances computation and memory.
 
 Efficient implementation critical for training large networks.
 
+
+## Layer Design Principles
+
