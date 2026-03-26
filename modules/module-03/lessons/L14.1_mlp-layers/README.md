@@ -27,3 +27,5 @@ Network depth enables learning hierarchical representations.
 
 Very deep networks require careful initialization and training.
 
+Architecture design critically impacts learning capability.
+
