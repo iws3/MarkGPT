@@ -60,3 +60,5 @@ Normalization critical for stable deep learning.
 
 ## Dropout Mechanisms
 
+Co-adaptation prevention forces independent feature learning.
+
