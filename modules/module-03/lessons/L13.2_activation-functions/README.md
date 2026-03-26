@@ -43,3 +43,5 @@ ELU (Exponential Linear Unit) provides smooth negative values.
 
 Variants improve training stability and network expressiveness.
 
+## Modern Activation Functions
+
