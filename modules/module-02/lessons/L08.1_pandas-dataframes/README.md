@@ -37,3 +37,5 @@ Aggregation functions summarize data across groups using sum, mean, median, std.
 
 Transform operations apply functions while preserving the original DataFrame shape.
 
+Window functions combine grouping and rolling operations for efficient feature engineering.
+
