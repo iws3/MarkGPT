@@ -59,3 +59,5 @@ Spike-timing dependent plasticity depends on precise timing between pre and post
 
 Central nervous system parallels inspire distributed artificial neural network architectures.
 
+Sensory processing hierarchies mirror deep learning layer organization.
+
