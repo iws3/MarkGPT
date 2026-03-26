@@ -55,3 +55,5 @@ Layer norm doesn't depend on batch size.
 
 Each normalization suits different architectures.
 
+Normalization critical for stable deep learning.
+
