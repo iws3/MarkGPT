@@ -42,3 +42,5 @@ Factor Analysis models shared variance between variables.
 
 Multidimensional Scaling preserves pairwise distances.
 
+t-SNE visualizes high-dimensional data revealing clusters.
+
