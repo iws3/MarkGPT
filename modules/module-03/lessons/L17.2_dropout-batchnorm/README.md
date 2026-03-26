@@ -73,3 +73,5 @@ Dropout variants apply to different layer types.
 
 Internal covariate shift reduction stabilizes activations.
 
+Whitening transformation normalizes each layer's inputs.
+
