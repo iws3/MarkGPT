@@ -60,3 +60,5 @@ PyTorch and TensorFlow implement efficient automatic differentiation.
 
 ## Gradient Flow
 
+Vanishing gradients decay exponentially through many layers.
+
