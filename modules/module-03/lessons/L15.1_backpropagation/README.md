@@ -62,3 +62,5 @@ PyTorch and TensorFlow implement efficient automatic differentiation.
 
 Vanishing gradients decay exponentially through many layers.
 
+Exploding gradients amplify exponentially requiring clipping.
+
