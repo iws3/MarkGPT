@@ -59,3 +59,5 @@ Windowing operations apply functions to sliding windows.
 
 DateTime indexing enables efficient time-based operations.
 
+Resampling converts between different time frequencies.
+
