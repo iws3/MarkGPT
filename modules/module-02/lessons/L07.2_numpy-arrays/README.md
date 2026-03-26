@@ -46,3 +46,5 @@ Stacking arrays combines multiple arrays into single larger array.
 
 Tiling repeats arrays to create larger patterns efficiently.
 
+Concatenation joins arrays along specified axis.
+
