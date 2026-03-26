@@ -11,3 +11,5 @@ Color, position, and size encode different dimensions of data in visualizations 
 
 Matplotlib is Python's foundational visualization library providing fine-grained control.
 
+## Exploratory Data Analysis Visualizations
+
