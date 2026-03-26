@@ -43,3 +43,6 @@ The activation function introduces non-linearity mimicking biological behavior.
 
 Artificial neurons enable computational learning from data.
 
+
+## Advanced Neuroscience
+
