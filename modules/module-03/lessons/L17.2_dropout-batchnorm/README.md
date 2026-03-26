@@ -51,3 +51,5 @@ Instance normalization per sample per feature.
 
 Group normalization groups features for normalization.
 
+Layer norm doesn't depend on batch size.
+
