@@ -55,3 +55,5 @@ Batch size affects both speed and generalization.
 
 Mini-batch processing balances computation and memory.
 
+Efficient implementation critical for training large networks.
+
