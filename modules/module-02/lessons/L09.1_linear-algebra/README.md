@@ -72,3 +72,5 @@ Regularization adds small constants to diagonal for stability.
 
 Iterative refinement improves solutions from direct methods.
 
+Preconditioning accelerates convergence of iterative solvers.
+
