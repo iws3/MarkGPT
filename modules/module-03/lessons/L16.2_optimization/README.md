@@ -57,3 +57,5 @@ Local minima often suffice in practice despite non-convexity.
 
 ## Learning Rate Strategies
 
+Warm-up phases prevent divergence at training start.
+
