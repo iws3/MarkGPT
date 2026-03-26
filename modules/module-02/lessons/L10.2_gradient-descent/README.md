@@ -13,3 +13,5 @@ Learning rate scheduling adjusts step size during training for optimal convergen
 
 ## Adaptive Learning Rate Methods
 
+Adagrad adapts learning rates per parameter based on historical gradients.
+
