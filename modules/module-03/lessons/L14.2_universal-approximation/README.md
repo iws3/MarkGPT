@@ -41,3 +41,5 @@ Regularization prevents overfitting despite large capacity.
 
 The inductive bias of architecture shapes learned functions.
 
+Real problems benefit from carefully designed architectures.
+
