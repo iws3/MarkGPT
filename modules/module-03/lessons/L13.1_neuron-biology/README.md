@@ -35,3 +35,5 @@ Artificial neurons mathematically model biological neuron behavior.
 
 The perceptron was one of the first models of artificial neurons.
 
+Weights represent synaptic strengths connecting neurons.
+
