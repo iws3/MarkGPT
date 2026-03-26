@@ -49,3 +49,5 @@ Jordan decomposition helps understand matrix powers and exponentials.
 
 ## Applications in Machine Learning
 
+Solving least squares problems efficiently with QR decomposition.
+
