@@ -51,3 +51,5 @@ Dash builds interactive web applications with Python.
 
 Choose appropriate chart types for your data and question.
 
+Use color palettes accessible to colorblind viewers.
+
