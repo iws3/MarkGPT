@@ -9,3 +9,5 @@ Each neuron kept with probability p during forward pass.
 
 Prevents co-adaptation of features.
 
+Acts as ensemble of thinned networks.
+
