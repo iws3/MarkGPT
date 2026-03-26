@@ -71,3 +71,5 @@ Dropout variants apply to different layer types.
 
 ## Batch Normalization
 
+Internal covariate shift reduction stabilizes activations.
+
