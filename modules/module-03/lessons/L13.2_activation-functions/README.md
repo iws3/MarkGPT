@@ -27,3 +27,5 @@ Tanh is zero-centered improving optimization over sigmoid.
 
 Both suffer from gradient saturation at extreme values.
 
+Modern networks prefer ReLU-based activations.
+
