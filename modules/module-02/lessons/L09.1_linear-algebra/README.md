@@ -55,3 +55,5 @@ Computing determinants from LU for likelihood calculations.
 
 Matrix exponentials appear in continuous-time models.
 
+Kronecker products combine transformations in high dimensions.
+
