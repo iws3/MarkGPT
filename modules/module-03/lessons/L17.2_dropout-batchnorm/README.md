@@ -27,3 +27,5 @@ DropConnect drops weights instead of activations.
 
 Monte Carlo dropout enables uncertainty estimation.
 
+Variants optimize dropout for different architectures.
+
