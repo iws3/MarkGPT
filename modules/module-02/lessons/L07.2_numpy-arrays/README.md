@@ -54,3 +54,6 @@ Flattening converts multidimensional arrays to 1D for processing.
 
 Reshaping changes dimensions while preserving total size.
 
+
+## Performance Optimization
+
