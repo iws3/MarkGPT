@@ -38,3 +38,5 @@ QR decomposition factors matrix into orthogonal and upper triangular.
 
 Cholesky decomposition works with symmetric positive-definite matrices.
 
+LU decomposition factors into lower and upper triangular matrices.
+
