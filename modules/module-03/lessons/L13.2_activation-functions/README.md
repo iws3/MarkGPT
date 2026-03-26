@@ -39,3 +39,5 @@ ReLU helps avoid vanishing gradient problems in deep networks.
 
 Leaky ReLU allows small negative gradients to prevent dead neurons.
 
+ELU (Exponential Linear Unit) provides smooth negative values.
+
