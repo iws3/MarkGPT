@@ -15,3 +15,5 @@ Learning rate scheduling adjusts step size during training for optimal convergen
 
 Adagrad adapts learning rates per parameter based on historical gradients.
 
+RMSprop addresses Adagrad's problem using weighted average of squared gradients.
+
