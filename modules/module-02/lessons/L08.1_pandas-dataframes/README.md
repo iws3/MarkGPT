@@ -17,3 +17,5 @@ Duplicates can artificially inflate your dataset and cause bias in model trainin
 
 Data type conversions ensure your columns have appropriate types for analysis.
 
+Outliers are data points that deviate significantly from the norm requiring careful handling.
+
