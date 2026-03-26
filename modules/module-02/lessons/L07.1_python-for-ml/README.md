@@ -62,3 +62,5 @@ Model evaluation ensures the model generalizes to unseen data correctly.
 
 ## Debugging ML Code
 
+Print debugging strategically at key points identifies where logic breaks.
+
