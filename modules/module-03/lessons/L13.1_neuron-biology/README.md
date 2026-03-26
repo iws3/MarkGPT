@@ -57,3 +57,5 @@ Spike-timing dependent plasticity depends on precise timing between pre and post
 
 ## Biological Inspiration
 
+Central nervous system parallels inspire distributed artificial neural network architectures.
+
