@@ -23,3 +23,5 @@ Action potentials propagate along the axon when stimulation exceeds threshold.
 
 The resting potential is maintained by ion pumps using metabolic energy.
 
+Depolarization reduces the potential difference across the membrane.
+
