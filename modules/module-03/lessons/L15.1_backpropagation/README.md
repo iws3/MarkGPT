@@ -77,3 +77,5 @@ Computational graph representation enables automatic differentiation.
 
 Memory efficiency requires careful gradient accumulation.
 
+Numerical stability requires double precision in critical computations.
+
