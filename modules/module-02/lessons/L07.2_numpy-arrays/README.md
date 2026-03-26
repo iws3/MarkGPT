@@ -35,3 +35,5 @@ Matrix operations are fundamental to machine learning and compute dot products e
 
 Matrix decomposition techniques like SVD and eigenvalue decomposition reveal underlying structure.
 
+Systems of linear equations appear frequently in ML applications and NumPy solves them efficiently.
+
