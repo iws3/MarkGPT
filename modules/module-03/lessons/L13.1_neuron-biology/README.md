@@ -17,3 +17,5 @@ Axon terminals contain vesicles with neurotransmitters for signal transmission.
 
 ## Neural Communication
 
+Dendrites receive signals from other neurons at synaptic connections.
+
