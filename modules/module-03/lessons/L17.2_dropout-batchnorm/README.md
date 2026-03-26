@@ -13,3 +13,5 @@ Acts as ensemble of thinned networks.
 
 No dropout applied during inference.
 
+Scaling ensures same expected output at inference.
+
