@@ -68,3 +68,5 @@ Hierarchical models share information across groups.
 
 Zero-inflated models handle excess zeros in count data.
 
+Mixture models combine multiple component distributions.
+
