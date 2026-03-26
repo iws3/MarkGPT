@@ -25,3 +25,5 @@ Gradient descent iteratively improves a solution by moving opposite the gradient
 
 Second-order methods use curvature information for faster convergence.
 
+Newton's method uses the Hessian for convergence faster than gradient descent.
+
