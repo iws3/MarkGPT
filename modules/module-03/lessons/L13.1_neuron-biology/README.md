@@ -29,3 +29,5 @@ Hyperpolarization increases the potential difference beyond resting state.
 
 The threshold is the minimum stimulation needed to trigger an action potential.
 
+## From Biology to Artificial Neurons
+
