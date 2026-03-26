@@ -67,3 +67,5 @@ Broadcasting avoids explicit loops and temporary arrays.
 
 Numba JIT-compiles Python to fast machine code for loops.
 
+Profiling reveals which NumPy operations dominate execution time.
+
