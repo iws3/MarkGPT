@@ -21,3 +21,5 @@ Constant learning rates rarely work well throughout training.
 
 Cyclical learning rates alternate between high and low.
 
+Warm restarts jump learning rate back up periodically.
+
