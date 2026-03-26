@@ -27,3 +27,5 @@ OneCycle policy ramps up then down over single epoch.
 
 Discriminative learning rates vary across layers.
 
+Proper scheduling significantly impacts final performance.
+
