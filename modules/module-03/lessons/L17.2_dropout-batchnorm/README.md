@@ -35,3 +35,5 @@ Normalization performed per-feature across minibatch.
 
 Learnable scale and shift parameters restore expressiveness.
 
+Running statistics tracked for inference.
+
