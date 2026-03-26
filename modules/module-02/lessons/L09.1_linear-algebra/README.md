@@ -42,3 +42,5 @@ LU decomposition factors into lower and upper triangular matrices.
 
 Schur decomposition reveals matrix structure and stability.
 
+Polar decomposition factors into unitary and positive-semidefinite.
+
