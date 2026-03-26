@@ -75,3 +75,5 @@ Bottleneck layers reduce dimensionality for feature compression.
 
 Wide layers process large feature spaces enabling parallel computation.
 
+Skip connections enable information flow in very deep networks.
+
