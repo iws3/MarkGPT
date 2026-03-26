@@ -35,3 +35,5 @@ Vanishing gradients occur when gradients shrink through layers.
 
 Exploding gradients occur when gradients grow exponentially.
 
+Gradient clipping prevents explosion by capping gradient norms.
+
