@@ -73,3 +73,5 @@ Output range affects learning dynamics and convergence properties.
 
 ReLU computational efficiency makes it standard for deep networks.
 
+Sigmoid smoothness aids optimization but suffers vanishing gradients.
+
