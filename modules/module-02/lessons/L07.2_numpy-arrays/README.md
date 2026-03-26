@@ -11,3 +11,5 @@ Creating arrays can be done in multiple ways depending on your needs: arange, li
 
 ## Array Indexing and Slicing
 
+Indexing arrays allows you to access individual elements or groups of elements efficiently.
+
