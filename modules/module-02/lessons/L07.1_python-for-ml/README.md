@@ -66,3 +66,5 @@ Print debugging strategically at key points identifies where logic breaks.
 
 Assertions verify assumptions about data shape, types, and ranges.
 
+Unit tests catch bugs early before they propagate through the pipeline.
+
