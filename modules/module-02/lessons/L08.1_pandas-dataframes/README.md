@@ -63,3 +63,5 @@ Resampling converts between different time frequencies.
 
 Shifting creates lagged features for sequential prediction.
 
+Rolling statistics compute aggregates over windows.
+
