@@ -21,3 +21,5 @@ Single hidden layer networks are theoretically sufficient.
 
 Deep networks can be more efficient than single wide layers.
 
+Deep networks require fewer total parameters for many problems.
+
