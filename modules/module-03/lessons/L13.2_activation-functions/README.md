@@ -23,3 +23,5 @@ Sigmoid was historically popular but suffers from vanishing gradients.
 
 The tanh function maps values to range (-1, 1).
 
+Tanh is zero-centered improving optimization over sigmoid.
+
