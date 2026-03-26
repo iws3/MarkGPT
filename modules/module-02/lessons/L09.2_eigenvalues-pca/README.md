@@ -53,3 +53,5 @@ Variance-based selection removes low-variance features.
 
 Correlation-based selection removes highly correlated features.
 
+Information-based selection uses mutual information.
+
