@@ -39,3 +39,6 @@ Systems of linear equations appear frequently in ML applications and NumPy solve
 
 Matrix norms measure the magnitude of matrices and appear in regularization and convergence criteria.
 
+
+## Advanced Array Operations
+
