@@ -3,3 +3,5 @@
 
 ## Linear Functions
 
+Linear activation f(x) = x produces outputs proportional to inputs.
+
