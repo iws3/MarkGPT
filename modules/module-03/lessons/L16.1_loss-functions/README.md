@@ -27,3 +27,5 @@ Log-cosh loss is smooth approximation to L1 distance.
 
 Quantile loss enables prediction of conditional distributions.
 
+Loss choice reflects assumption about error distribution.
+
