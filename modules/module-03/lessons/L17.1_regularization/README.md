@@ -11,3 +11,5 @@ Elastic Net combines L1 and L2 penalties.
 
 Weight decay in optimization approximates L2 regularization.
 
+Regularization constrains model complexity.
+
