@@ -17,3 +17,5 @@ Adagrad adapts learning rates per parameter based on historical gradients.
 
 RMSprop addresses Adagrad's problem using weighted average of squared gradients.
 
+Adam combines momentum and RMSprop for faster convergence in practice.
+
