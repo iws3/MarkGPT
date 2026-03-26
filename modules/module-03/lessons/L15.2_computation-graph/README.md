@@ -41,3 +41,5 @@ Efficient caching avoids recomputing intermediate values.
 
 Memory usage grows with graph complexity.
 
+Checkpointing trades computation for memory.
+
