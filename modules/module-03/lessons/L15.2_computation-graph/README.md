@@ -11,3 +11,5 @@ Neural networks are directed acyclic graphs (DAGs).
 
 Graph structure enables efficient automatic differentiation.
 
+Different operations have different computational costs.
+
