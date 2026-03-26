@@ -40,3 +40,5 @@ Frank-Wolfe algorithms handle structured constraints.
 
 Proximal gradient methods combine gradients with proximity operators.
 
+Alternating Direction Method of Multipliers (ADMM) solves convex problems.
+
