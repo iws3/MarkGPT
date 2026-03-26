@@ -34,3 +34,5 @@ The Bayesian vs. Frequentist debate reflects different philosophical approaches.
 
 ## Bayesian Model Selection
 
+Model comparison uses Bayes factors for relative evidence.
+
