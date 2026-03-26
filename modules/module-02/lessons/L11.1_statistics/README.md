@@ -25,3 +25,5 @@ The law of large numbers: as sample size increases, estimates converge.
 
 Hypothesis testing formalizes comparing observations to baseline claims.
 
+The p-value is the probability of data given null hypothesis is true.
+
