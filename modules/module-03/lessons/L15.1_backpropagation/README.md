@@ -15,3 +15,5 @@ Automatic differentiation implements the chain rule efficiently.
 
 Understanding backpropagation reveals how networks learn.
 
+## Forward and Backward Pass
+
