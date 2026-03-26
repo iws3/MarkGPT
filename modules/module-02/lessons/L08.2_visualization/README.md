@@ -13,3 +13,5 @@ Matplotlib is Python's foundational visualization library providing fine-grained
 
 ## Exploratory Data Analysis Visualizations
 
+Univariate analysis examines single variables: histograms, KDE plots, violin plots.
+
