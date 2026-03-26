@@ -55,3 +55,5 @@ GLU (Gated Linear Unit) gates information flow through sigmoid.
 
 Selection of activation impacts network capacity and training dynamics.
 
+Different activations suit different problem types and architectures.
+
