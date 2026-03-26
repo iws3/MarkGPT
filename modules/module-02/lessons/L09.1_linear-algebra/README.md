@@ -51,3 +51,5 @@ Jordan decomposition helps understand matrix powers and exponentials.
 
 Solving least squares problems efficiently with QR decomposition.
 
+Computing determinants from LU for likelihood calculations.
+
