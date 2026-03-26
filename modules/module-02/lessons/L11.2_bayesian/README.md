@@ -23,3 +23,5 @@ Variational inference approximates posteriors faster but with approximation bias
 
 ## Applications and Advantages
 
+Bayesian networks use directed graphs to represent conditional dependencies.
+
