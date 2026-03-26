@@ -57,3 +57,5 @@ Hessian matrices contain all second partial derivatives.
 
 Jacobian matrices contain first derivatives of vector functions.
 
+Chain rule extends to functions of multiple variables.
+
