@@ -61,3 +61,5 @@ Symbolic differentiation manipulates expression trees.
 
 Automatic differentiation computes gradients accurately.
 
+Source transformation produces derivative code automatically.
+
