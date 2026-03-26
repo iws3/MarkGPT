@@ -21,3 +21,5 @@ Standard dropout drops neurons independently.
 
 Spatial dropout drops feature maps in convolutional layers.
 
+Variational dropout shares dropout mask across timesteps.
+
