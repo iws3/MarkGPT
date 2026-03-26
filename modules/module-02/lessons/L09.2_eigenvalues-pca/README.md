@@ -11,3 +11,5 @@ The characteristic polynomial det(A - λI) has roots equal to the eigenvalues.
 
 Symmetric matrices have special properties enabling diagonalization and decomposition.
 
+## Singular Value Decomposition (SVD)
+
