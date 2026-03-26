@@ -3,3 +3,5 @@
 
 ## Fully Connected Layers
 
+Fully connected layers connect every input to every output.
+
