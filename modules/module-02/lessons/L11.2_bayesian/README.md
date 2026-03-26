@@ -64,3 +64,5 @@ Stochastic Variational Inference handles massive datasets.
 
 ## Practical Bayesian Modeling
 
+Hierarchical models share information across groups.
+
