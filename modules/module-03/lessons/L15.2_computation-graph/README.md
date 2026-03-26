@@ -52,3 +52,5 @@ Forward pass computes outputs propagating information forward.
 
 Backward pass computes gradients in reverse topological order.
 
+Graph optimization eliminates redundant computations.
+
