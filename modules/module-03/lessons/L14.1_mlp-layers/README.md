@@ -13,3 +13,5 @@ Fully connected layers are rich in parameters for flexibility.
 
 Parameter count grows quadratically with layer sizes.
 
+These layers form the basis of deep neural networks.
+
