@@ -64,3 +64,5 @@ Gamma distribution generalizes exponential and chi-squared.
 
 ## Advanced Statistical Methods
 
+Survival analysis models time to events with censoring.
+
