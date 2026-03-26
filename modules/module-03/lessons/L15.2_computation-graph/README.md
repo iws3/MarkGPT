@@ -39,3 +39,5 @@ Higher-order gradients require second traversal.
 
 Efficient caching avoids recomputing intermediate values.
 
+Memory usage grows with graph complexity.
+
