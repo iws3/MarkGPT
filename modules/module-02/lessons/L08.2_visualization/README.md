@@ -40,3 +40,5 @@ Plotly creates interactive visualizations with zoom and pan.
 
 Altair declaratively specifies visualizations encoding data.
 
+Bokeh enables interactive web-based visualizations.
+
