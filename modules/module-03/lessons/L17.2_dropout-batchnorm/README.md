@@ -77,3 +77,5 @@ Whitening transformation normalizes each layer's inputs.
 
 Scale and shift parameters restore representation capacity.
 
+Momentum tracking of statistics enables test time normalization.
+
