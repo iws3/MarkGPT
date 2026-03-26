@@ -66,3 +66,5 @@ Exploding gradients amplify exponentially requiring clipping.
 
 Gradient normalization stabilizes training across layers.
 
+Batch normalization improves gradient flow through networks.
+
