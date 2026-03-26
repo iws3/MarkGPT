@@ -3,3 +3,5 @@
 
 ## Dropout Mechanism
 
+Dropout randomly disables neurons during training.
+
