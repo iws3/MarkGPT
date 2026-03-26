@@ -47,3 +47,5 @@ Skip connections (residual networks) enable training very deep.
 
 Automatic differentiation computes gradients without manual derivation.
 
+Reverse-mode AD (backprop) is efficient for single-output functions.
+
