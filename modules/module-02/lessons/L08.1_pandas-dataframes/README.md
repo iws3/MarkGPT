@@ -52,3 +52,5 @@ Pivoting reshapes data from long to wide format.
 
 Melting reshapes from wide to long format for analysis.
 
+Windowing operations apply functions to sliding windows.
+
