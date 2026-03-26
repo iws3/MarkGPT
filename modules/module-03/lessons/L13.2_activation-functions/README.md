@@ -75,3 +75,5 @@ ReLU computational efficiency makes it standard for deep networks.
 
 Sigmoid smoothness aids optimization but suffers vanishing gradients.
 
+Tanh zero-centered outputs improve convergence over sigmoid.
+
