@@ -61,3 +61,5 @@ DateTime indexing enables efficient time-based operations.
 
 Resampling converts between different time frequencies.
 
+Shifting creates lagged features for sequential prediction.
+
