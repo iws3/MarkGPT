@@ -9,3 +9,5 @@ Eigenvalues reveal how much stretching happens in each eigenvector direction.
 
 The characteristic polynomial det(A - λI) has roots equal to the eigenvalues.
 
+Symmetric matrices have special properties enabling diagonalization and decomposition.
+
