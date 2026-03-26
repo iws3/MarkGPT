@@ -21,3 +21,5 @@ Stacking multiple layers creates deep neural networks.
 
 Each layer transforms the representation from previous layer.
 
+Hidden layers learn intermediate features useful for prediction.
+
