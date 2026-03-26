@@ -15,3 +15,5 @@ Acts as regularizer reducing overfitting.
 
 Becomes different during inference vs. training.
 
+## Learning Rate Strategies
+
