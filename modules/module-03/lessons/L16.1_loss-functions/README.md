@@ -57,3 +57,6 @@ Multiple local minima exist in high dimensions.
 
 Understanding loss geometry improves training.
 
+
+## Loss Design
+
