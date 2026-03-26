@@ -36,3 +36,5 @@ List comprehensions provide concise syntax for creating lists from existing list
 
 Decorators are functions that modify other functions, useful for logging and timing.
 
+Generators use yield to produce sequences lazily, saving memory compared to lists.
+
