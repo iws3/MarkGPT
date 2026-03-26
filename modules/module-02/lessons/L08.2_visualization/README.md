@@ -9,3 +9,5 @@ Different visualizations serve different purposes: histograms, scatter plots, bo
 
 Color, position, and size encode different dimensions of data in visualizations effectively.
 
+Matplotlib is Python's foundational visualization library providing fine-grained control.
+
