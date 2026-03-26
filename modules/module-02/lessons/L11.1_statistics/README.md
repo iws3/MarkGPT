@@ -51,3 +51,5 @@ Elastic Net combines Ridge and Lasso penalties.
 
 Chi-squared distribution tests independence and goodness-of-fit.
 
+t-distribution used when population variance is unknown.
+
