@@ -49,3 +49,5 @@ Taylor series enables algorithm derivations.
 
 ## Multivariable Calculus
 
+Gradient vectors point in direction of steepest increase.
+
