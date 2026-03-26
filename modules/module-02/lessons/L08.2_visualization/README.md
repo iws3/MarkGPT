@@ -49,3 +49,5 @@ Dash builds interactive web applications with Python.
 
 ## Visualization Best Practices
 
+Choose appropriate chart types for your data and question.
+
