@@ -7,3 +7,5 @@ Data visualization transforms raw numbers into visual representations humans pro
 
 Different visualizations serve different purposes: histograms, scatter plots, box plots, heatmaps.
 
+Color, position, and size encode different dimensions of data in visualizations effectively.
+
