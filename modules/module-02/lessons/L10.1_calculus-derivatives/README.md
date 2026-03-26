@@ -34,3 +34,5 @@ Understanding these methods accelerates your ability to optimize neural networks
 
 ## Taylor Series and Approximation
 
+Taylor series approximates functions using polynomial terms.
+
