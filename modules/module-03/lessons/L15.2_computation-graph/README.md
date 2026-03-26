@@ -15,3 +15,5 @@ Different operations have different computational costs.
 
 Graph optimization can reduce computation.
 
+## Dynamic vs. Static Graphs
+
