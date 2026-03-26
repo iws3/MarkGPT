@@ -70,3 +70,5 @@ Callbacks in Plotly update visualizations on user interaction.
 
 Widgets enable user input for filtering and customization.
 
+Real-time updates connect visualizations to live data.
+
