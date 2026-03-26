@@ -59,3 +59,5 @@ Asynchronous SGD improves throughput with stale gradients.
 
 Communication reduction compresses gradients for efficiency.
 
+Consensus algorithms ensure agreement in distributed settings.
+
