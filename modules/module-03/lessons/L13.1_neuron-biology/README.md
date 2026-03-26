@@ -9,3 +9,5 @@ The soma (cell body) integrates signals from multiple dendrites.
 
 The axon transmits signals to other neurons via synapses.
 
+Synaptic connections enable learning through strength modification.
+
