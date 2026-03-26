@@ -62,3 +62,5 @@ Efficient implementation critical for training large networks.
 
 Width determines expressiveness matching problem complexity requirements.
 
+Depth enables hierarchical feature learning from raw to abstract.
+
