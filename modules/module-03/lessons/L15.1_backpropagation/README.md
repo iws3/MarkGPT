@@ -39,3 +39,5 @@ Gradient clipping prevents explosion by capping gradient norms.
 
 Careful initialization helps maintain stable gradient flow.
 
+Batch normalization stabilizes gradient flow through networks.
+
