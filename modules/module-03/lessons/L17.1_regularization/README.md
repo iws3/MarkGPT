@@ -27,3 +27,5 @@ Simple but effective approach to generalization.
 
 Requires validation set separate from training.
 
+Checkpoint best model during training.
+
