@@ -73,3 +73,5 @@ Layer interaction through non-linearity creates feature hierarchies.
 
 Bottleneck layers reduce dimensionality for feature compression.
 
+Wide layers process large feature spaces enabling parallel computation.
+
