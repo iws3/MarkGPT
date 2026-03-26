@@ -25,3 +25,5 @@ Prevents overfitting without explicit regularization.
 
 Simple but effective approach to generalization.
 
+Requires validation set separate from training.
+
