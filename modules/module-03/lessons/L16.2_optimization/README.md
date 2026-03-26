@@ -35,3 +35,5 @@ Accumulation enables larger effective batch sizes.
 
 Useful when memory limits batch size.
 
+Accumulate gradients over multiple forward/backward passes.
+
