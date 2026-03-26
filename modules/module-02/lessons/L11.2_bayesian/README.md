@@ -61,3 +61,6 @@ Assumed Density Filtering processes streams of data.
 
 Stochastic Variational Inference handles massive datasets.
 
+
+## Practical Bayesian Modeling
+
