@@ -72,3 +72,5 @@ Integration tests verify components work together seamlessly.
 
 Logging captures runtime information helping diagnose production issues.
 
+Profiling identifies performance bottlenecks for optimization.
+
