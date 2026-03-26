@@ -58,7 +58,7 @@ def save_training_report(
     val_fertility: float,
     test_fertility: float,
 ) -> None:
-    """Save tokenizer training reports.
+    """Save tokenizer training reportss.
     
     Args:
         output_dir: Directory to save report
