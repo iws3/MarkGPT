@@ -27,3 +27,5 @@ Linear systems appear constantly in ML: linear regression, constraints, equation
 
 Gaussian elimination is the foundation transforming systems to upper triangular form.
 
+Least-squares solutions minimize error when exactly solving Ax = b is impossible.
+
