@@ -53,3 +53,5 @@ Hamiltonian Monte Carlo explores high-dimensional posteriors.
 
 No-U-Turn Sampler (NUTS) adaptively sets trajectory length.
 
+Automatic Differentiation Variational Inference (ADVI) scales variational.
+
