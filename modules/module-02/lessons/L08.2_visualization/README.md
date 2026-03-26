@@ -36,3 +36,5 @@ Learning curves show how model performance improves with more training data avai
 
 Seaborn builds on Matplotlib for statistical visualizations.
 
+Plotly creates interactive visualizations with zoom and pan.
+
