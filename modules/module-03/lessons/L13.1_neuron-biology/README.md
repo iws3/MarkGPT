@@ -39,3 +39,5 @@ Weights represent synaptic strengths connecting neurons.
 
 The bias term allows shifting the activation threshold.
 
+The activation function introduces non-linearity mimicking biological behavior.
+
