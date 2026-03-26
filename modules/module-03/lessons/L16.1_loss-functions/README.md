@@ -45,3 +45,5 @@ Domain-specific losses encode problem structure.
 
 ## Loss Landscapes and Optimization
 
+Loss landscape shape affects optimization difficulty.
+
