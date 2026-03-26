@@ -13,3 +13,5 @@ Likelihood shows how probable data is for fixed parameters.
 
 ## Bayesian Inference and Computation
 
+Computing posteriors exactly is impossible due to intractable integrals.
+
