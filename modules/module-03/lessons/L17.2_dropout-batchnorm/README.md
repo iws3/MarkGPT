@@ -41,3 +41,5 @@ Different behavior during training vs. inference.
 
 Improves gradient flow enabling faster training.
 
+Reduces need for careful weight initialization.
+
