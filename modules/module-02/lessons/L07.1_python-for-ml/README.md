@@ -23,3 +23,5 @@ TensorFlow and PyTorch are deep learning frameworks that enable you to build and
 
 Code organization is critical in ML projects, with separate modules for data, preprocessing, and model training.
 
+Version control with Git is non-negotiable in professional ML development.
+
