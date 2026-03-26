@@ -41,3 +41,5 @@ Ranking losses optimize relative ordering of predictions.
 
 Adversarial losses pit generator against discriminator.
 
+Domain-specific losses encode problem structure.
+
