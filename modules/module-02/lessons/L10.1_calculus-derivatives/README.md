@@ -29,3 +29,5 @@ Newton's method uses the Hessian for convergence faster than gradient descent.
 
 Quasi-Newton methods approximate the Hessian efficiently for large problems.
 
+Understanding these methods accelerates your ability to optimize neural networks.
+
