@@ -19,3 +19,5 @@ The theorem is existence proof, not constructive algorithm.
 
 Single hidden layer networks are theoretically sufficient.
 
+Deep networks can be more efficient than single wide layers.
+
