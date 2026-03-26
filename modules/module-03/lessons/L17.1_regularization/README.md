@@ -55,3 +55,5 @@ Adversarial training improves robustness.
 
 Mixup-based methods reduce memorization.
 
+Combination of techniques provides best results.
+
