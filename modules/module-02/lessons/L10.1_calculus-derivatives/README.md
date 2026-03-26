@@ -55,3 +55,5 @@ Directional derivatives measure rate of change in any direction.
 
 Hessian matrices contain all second partial derivatives.
 
+Jacobian matrices contain first derivatives of vector functions.
+
