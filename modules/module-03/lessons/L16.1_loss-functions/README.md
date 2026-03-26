@@ -75,3 +75,5 @@ Focal loss addresses class imbalance in object detection.
 
 Triplet loss optimizes relative distances from anchors.
 
+Contrastive learning brings representations close or far.
+
