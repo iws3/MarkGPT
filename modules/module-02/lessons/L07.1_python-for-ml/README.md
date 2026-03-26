@@ -11,3 +11,5 @@ Managing dependencies with requirements.txt files allows you to document all pac
 
 ## ML-Specific Python Libraries
 
+NumPy is the foundation of numerical computing in Python and is essential for machine learning.
+
