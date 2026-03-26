@@ -64,3 +64,5 @@ Width determines expressiveness matching problem complexity requirements.
 
 Depth enables hierarchical feature learning from raw to abstract.
 
+Universal approximation theorem guarantees sufficient width and depth.
+
