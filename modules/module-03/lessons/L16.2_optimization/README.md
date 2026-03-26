@@ -46,3 +46,5 @@ Reduces gradient noise improving convergence.
 
 ## Convergence Properties
 
+Convexity ensures gradient descent reaches global optimum.
+
