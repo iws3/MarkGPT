@@ -54,3 +54,6 @@ Backward pass computes gradients in reverse topological order.
 
 Graph optimization eliminates redundant computations.
 
+
+## Automatic Differentiation
+
