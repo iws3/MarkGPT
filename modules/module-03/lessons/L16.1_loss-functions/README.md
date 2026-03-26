@@ -71,3 +71,5 @@ Contrastive losses encourage similar pairs and dissimilar pairs.
 
 ## Advanced Losses
 
+Focal loss addresses class imbalance in object detection.
+
