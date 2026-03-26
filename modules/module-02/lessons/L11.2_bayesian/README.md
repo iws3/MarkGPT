@@ -55,3 +55,5 @@ No-U-Turn Sampler (NUTS) adaptively sets trajectory length.
 
 Automatic Differentiation Variational Inference (ADVI) scales variational.
 
+Expectation-Propagation provides deterministic approximation.
+
