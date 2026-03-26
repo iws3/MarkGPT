@@ -55,3 +55,5 @@ Data parallelism distributes batches across multiple devices.
 
 Model parallelism distributes model parameters across devices.
 
+Asynchronous SGD improves throughput with stale gradients.
+
