@@ -19,3 +19,5 @@ This motivates using non-linear activation functions.
 
 The sigmoid function squashes values to range (0, 1).
 
+Sigmoid was historically popular but suffers from vanishing gradients.
+
