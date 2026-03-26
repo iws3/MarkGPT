@@ -23,3 +23,5 @@ Training stops when validation loss stops improving.
 
 Prevents overfitting without explicit regularization.
 
+Simple but effective approach to generalization.
+
