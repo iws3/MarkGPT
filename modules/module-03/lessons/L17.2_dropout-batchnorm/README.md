@@ -53,3 +53,5 @@ Group normalization groups features for normalization.
 
 Layer norm doesn't depend on batch size.
 
+Each normalization suits different architectures.
+
