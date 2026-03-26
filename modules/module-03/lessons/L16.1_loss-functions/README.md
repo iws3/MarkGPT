@@ -39,3 +39,5 @@ Siamese losses compare representations across samples.
 
 Ranking losses optimize relative ordering of predictions.
 
+Adversarial losses pit generator against discriminator.
+
