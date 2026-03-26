@@ -27,3 +27,5 @@ Deeper architectures learn features hierarchically.
 
 Network depth enables inductive biases matching data structure.
 
+Deep learning succeeds because it matches real-world data.
+
