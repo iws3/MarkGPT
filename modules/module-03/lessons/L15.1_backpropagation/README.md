@@ -49,3 +49,5 @@ Automatic differentiation computes gradients without manual derivation.
 
 Reverse-mode AD (backprop) is efficient for single-output functions.
 
+Forward-mode AD suits few parameters and many outputs.
+
