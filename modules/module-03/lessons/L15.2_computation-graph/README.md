@@ -33,3 +33,5 @@ Hybrid approaches combine benefits of both.
 
 Graph representation enables automatic gradient computation.
 
+Reverse traversal computes gradients in backward pass.
+
