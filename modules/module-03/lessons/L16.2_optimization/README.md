@@ -59,3 +59,5 @@ Local minima often suffice in practice despite non-convexity.
 
 Warm-up phases prevent divergence at training start.
 
+Decay schedules reduce learning rate as training progresses.
+
