@@ -72,3 +72,5 @@ KKT conditions generalize to inequality constraints.
 
 Penalty methods convert constrained to unconstrained problems.
 
+Barrier methods keep iterates strictly feasible.
+
