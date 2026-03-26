@@ -21,3 +21,5 @@ Multivariate visualization extends to multiple variables: pair plots, heatmaps, 
 
 Time series visualization reveals temporal patterns: line plots, seasonal decomposition, lag plots.
 
+## Model-Related Visualizations
+
