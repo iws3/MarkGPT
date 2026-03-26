@@ -77,3 +77,5 @@ Triplet loss optimizes relative distances from anchors.
 
 Contrastive learning brings representations close or far.
 
+Adversarial losses drive generative and discriminative learning.
+
