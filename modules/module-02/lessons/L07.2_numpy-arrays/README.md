@@ -50,3 +50,5 @@ Concatenation joins arrays along specified axis.
 
 Splitting divides arrays into equal or unequal pieces.
 
+Flattening converts multidimensional arrays to 1D for processing.
+
