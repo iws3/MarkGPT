@@ -50,3 +50,5 @@ Synaptic plasticity enables learning through strengthening and weakening connect
 
 Long-term potentiation increases synaptic strength through repeated stimulation.
 
+Hebbian learning implements the principle that neurons that fire together wire together.
+
