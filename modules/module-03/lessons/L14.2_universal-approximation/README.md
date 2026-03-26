@@ -11,3 +11,5 @@ The theorem applies to continuous functions on closed intervals.
 
 Approximation requires sufficiently many hidden neurons.
 
+Width grows exponentially with input dimension in worst case.
+
