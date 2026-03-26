@@ -33,3 +33,5 @@ Loss choice reflects assumption about error distribution.
 
 Contrastive loss learns similarity between samples.
 
+Triplet loss enforces spacing in embedding space.
+
