@@ -66,3 +66,5 @@ Depth enables hierarchical feature learning from raw to abstract.
 
 Universal approximation theorem guarantees sufficient width and depth.
 
+Layer interaction through non-linearity creates feature hierarchies.
+
