@@ -45,3 +45,5 @@ Reduces need for careful weight initialization.
 
 ## Normalization Variants
 
+Layer normalization normalizes across features per sample.
+
