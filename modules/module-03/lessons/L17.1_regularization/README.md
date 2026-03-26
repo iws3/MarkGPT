@@ -41,3 +41,5 @@ Cutmix mixes regions from different samples.
 
 AutoAugment searches for optimal augmentation policies.
 
+Effective augmentation enables training with less data.
+
