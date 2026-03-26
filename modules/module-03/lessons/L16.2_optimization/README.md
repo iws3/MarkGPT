@@ -31,3 +31,5 @@ Proper scheduling significantly impacts final performance.
 
 ## Gradient Accumulation
 
+Accumulation enables larger effective batch sizes.
+
