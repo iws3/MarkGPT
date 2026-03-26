@@ -69,3 +69,6 @@ Expanding windows compute statistics growing over time.
 
 Difference operations reveal changes from previous periods.
 
+
+## Advanced Grouping
+
