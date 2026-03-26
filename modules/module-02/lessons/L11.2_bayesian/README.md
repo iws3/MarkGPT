@@ -25,3 +25,5 @@ Variational inference approximates posteriors faster but with approximation bias
 
 Bayesian networks use directed graphs to represent conditional dependencies.
 
+Bayesian methods shine in small-data regimes with limited samples.
+
