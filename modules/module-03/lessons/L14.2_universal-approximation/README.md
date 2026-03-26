@@ -48,3 +48,5 @@ Real problems benefit from carefully designed architectures.
 
 Hidden layer density affects approximation quality and complexity.
 
+Compact domain assumptions ensure finite parameter networks suffice.
+
