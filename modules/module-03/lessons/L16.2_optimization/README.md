@@ -29,3 +29,5 @@ Discriminative learning rates vary across layers.
 
 Proper scheduling significantly impacts final performance.
 
+## Gradient Accumulation
+
