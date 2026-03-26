@@ -7,3 +7,5 @@ Vectors are ordered collections of numbers representing points in space.
 
 Matrices are rectangular arrays of numbers organizing vectors into a grid structure.
 
+Matrix transpose swaps rows and columns: (A^T)[i,j] = A[j,i].
+
