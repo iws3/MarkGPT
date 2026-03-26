@@ -61,3 +61,5 @@ Central nervous system parallels inspire distributed artificial neural network a
 
 Sensory processing hierarchies mirror deep learning layer organization.
 
+Attention mechanisms reflect biological selective attention processes.
+
