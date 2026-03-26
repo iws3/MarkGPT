@@ -53,3 +53,5 @@ Choose appropriate chart types for your data and question.
 
 Use color palettes accessible to colorblind viewers.
 
+Add clear titles and axis labels describing data.
+
