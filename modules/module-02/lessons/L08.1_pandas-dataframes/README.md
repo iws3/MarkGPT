@@ -46,3 +46,5 @@ Merging combines DataFrames from different sources on common keys.
 
 Joining aligns DataFrames by index for combining datasets.
 
+Concatenating stacks DataFrames vertically or horizontally.
+
