@@ -57,3 +57,5 @@ F-distribution compares variances between groups.
 
 Exponential distribution models waiting times.
 
+Beta distribution models proportions and probabilities.
+
