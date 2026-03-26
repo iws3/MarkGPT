@@ -60,3 +60,5 @@ Understanding loss geometry improves training.
 
 ## Loss Design
 
+Classification losses encourage correct class prediction.
+
