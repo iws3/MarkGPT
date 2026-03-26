@@ -62,3 +62,5 @@ Different activations suit different problem types and architectures.
 
 Non-linearity enables networks to approximate complex non-linear functions.
 
+Differentiability requirement allows gradient-based optimization algorithms.
+
