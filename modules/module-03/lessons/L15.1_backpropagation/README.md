@@ -43,3 +43,5 @@ Batch normalization stabilizes gradient flow through networks.
 
 Skip connections (residual networks) enable training very deep.
 
+## Modern Automatic Differentiation
+
