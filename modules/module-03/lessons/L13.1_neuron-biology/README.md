@@ -33,3 +33,5 @@ The threshold is the minimum stimulation needed to trigger an action potential.
 
 Artificial neurons mathematically model biological neuron behavior.
 
+The perceptron was one of the first models of artificial neurons.
+
