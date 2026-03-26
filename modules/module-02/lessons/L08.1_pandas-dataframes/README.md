@@ -27,3 +27,5 @@ Categorical data requires special handling through one-hot encoding or ordinal e
 
 Feature creation and selection can dramatically improve model performance.
 
+Time series data requires special handling with lagged features and rolling statistics.
+
