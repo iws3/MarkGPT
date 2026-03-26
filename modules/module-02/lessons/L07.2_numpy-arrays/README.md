@@ -78,3 +78,5 @@ Computing statistics: quantiles, percentiles, moving averages.
 
 Sorting and searching for finding specific elements.
 
+Set operations on arrays for unique, intersection, union.
+
