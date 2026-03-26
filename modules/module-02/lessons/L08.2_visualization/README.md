@@ -38,3 +38,5 @@ Seaborn builds on Matplotlib for statistical visualizations.
 
 Plotly creates interactive visualizations with zoom and pan.
 
+Altair declaratively specifies visualizations encoding data.
+
