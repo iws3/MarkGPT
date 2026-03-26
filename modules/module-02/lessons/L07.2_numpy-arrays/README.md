@@ -65,3 +65,5 @@ In-place operations modify arrays without allocating new memory.
 
 Broadcasting avoids explicit loops and temporary arrays.
 
+Numba JIT-compiles Python to fast machine code for loops.
+
