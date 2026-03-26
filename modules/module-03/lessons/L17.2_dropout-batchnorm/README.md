@@ -19,3 +19,5 @@ Scaling ensures same expected output at inference.
 
 Standard dropout drops neurons independently.
 
+Spatial dropout drops feature maps in convolutional layers.
+
