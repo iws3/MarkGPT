@@ -13,3 +13,5 @@ Graph structure enables efficient automatic differentiation.
 
 Different operations have different computational costs.
 
+Graph optimization can reduce computation.
+
