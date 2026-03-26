@@ -57,3 +57,5 @@ Windowing operations apply functions to sliding windows.
 
 ## Time Series Analysis
 
+DateTime indexing enables efficient time-based operations.
+
