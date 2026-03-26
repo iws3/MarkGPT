@@ -11,3 +11,5 @@ The axon transmits signals to other neurons via synapses.
 
 Synaptic connections enable learning through strength modification.
 
+Neurotransmitters carry signals across synaptic gaps between neurons.
+
