@@ -19,3 +19,5 @@ Graph optimization can reduce computation.
 
 Static graphs are defined before execution (e.g., TensorFlow 1.x).
 
+Dynamic graphs are built during execution (e.g., PyTorch).
+
