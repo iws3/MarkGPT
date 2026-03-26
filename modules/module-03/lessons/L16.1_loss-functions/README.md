@@ -55,3 +55,5 @@ Asymmetry in loss landscape guides gradient descent.
 
 Multiple local minima exist in high dimensions.
 
+Understanding loss geometry improves training.
+
