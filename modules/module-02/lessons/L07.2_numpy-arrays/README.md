@@ -15,3 +15,5 @@ Indexing arrays allows you to access individual elements or groups of elements e
 
 Slicing extracts contiguous subarrays using the colon notation: arr[start:stop:step].
 
+Boolean indexing provides powerful filtering capabilities with operators like arr > 5.
+
