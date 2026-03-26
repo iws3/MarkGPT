@@ -68,3 +68,5 @@ Streamlit builds interactive web apps rapidly with Python.
 
 Callbacks in Plotly update visualizations on user interaction.
 
+Widgets enable user input for filtering and customization.
+
