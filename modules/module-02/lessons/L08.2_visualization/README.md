@@ -23,3 +23,5 @@ Time series visualization reveals temporal patterns: line plots, seasonal decomp
 
 ## Model-Related Visualizations
 
+Feature importance visualizations show which features contribute most to model predictions.
+
