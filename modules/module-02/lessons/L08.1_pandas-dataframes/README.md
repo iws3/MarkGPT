@@ -78,3 +78,5 @@ Custom aggregation functions apply unique logic to each group.
 
 Named aggregations produce descriptive output column names.
 
+Filtering groups based on aggregate properties.
+
