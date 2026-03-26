@@ -51,3 +51,5 @@ MixUp and CutMix regularize through sample mixing.
 
 Label smoothing prevents overconfident predictions.
 
+Adversarial training improves robustness.
+
