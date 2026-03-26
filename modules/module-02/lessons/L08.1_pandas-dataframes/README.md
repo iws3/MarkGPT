@@ -21,3 +21,5 @@ Outliers are data points that deviate significantly from the norm requiring care
 
 ## Data Transformation and Feature Engineering
 
+Normalization and standardization transform features to have comparable scales.
+
