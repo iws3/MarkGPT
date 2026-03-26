@@ -11,3 +11,5 @@ Priors encode initial beliefs before seeing data influencing inference.
 
 Likelihood shows how probable data is for fixed parameters.
 
+## Bayesian Inference and Computation
+
