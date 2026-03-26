@@ -51,3 +51,5 @@ Matrix operations leverage GPU acceleration efficiently.
 
 Vectorization eliminates explicit loops over samples.
 
+Batch size affects both speed and generalization.
+
