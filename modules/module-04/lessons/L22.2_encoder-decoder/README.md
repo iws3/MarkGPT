@@ -45,3 +45,5 @@ Foundation for transformer architectures.
 
 ## Attention Refinements
 
+Location-based attention focuses on nearby positions.
+
