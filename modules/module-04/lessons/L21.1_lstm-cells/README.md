@@ -31,3 +31,5 @@ Output gate scales hidden state from gated cell.
 
 ## Gradient Advantages
 
+Additive cell state updates enable gradient flow.
+
