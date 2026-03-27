@@ -43,3 +43,5 @@ Particularly effective for long sequences.
 
 Foundation for transformer architectures.
 
+## Attention Refinements
+
