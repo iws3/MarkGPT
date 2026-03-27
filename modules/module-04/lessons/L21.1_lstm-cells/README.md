@@ -19,3 +19,5 @@ Output gate determines what to output from memory.
 
 Sigmoid gates output values between zero and one.
 
+Element-wise multiplication implements information gating.
+
