@@ -19,3 +19,5 @@ Applicable to translation, summarization, question answering.
 
 Encoder compresses variable length input to fixed size.
 
+Final hidden state becomes context for decoder.
+
