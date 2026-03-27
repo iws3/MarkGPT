@@ -47,3 +47,5 @@ Co-attention models interactions between sequences.
 
 Linear attention approximates softmax with less computation.
 
+Sparse attention reduces quadratic complexity.
+
