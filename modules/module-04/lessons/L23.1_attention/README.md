@@ -41,3 +41,5 @@ Speech recognition uses attention to align audio and text.
 
 Image captioning uses spatial attention mechanisms.
 
+Co-attention models interactions between sequences.
+
