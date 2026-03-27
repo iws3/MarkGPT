@@ -21,3 +21,5 @@ Recurrent equation combines previous state with new input.
 
 Non-linear activation enables complex temporal patterns.
 
+State update is deterministic function of input and previous state.
+
