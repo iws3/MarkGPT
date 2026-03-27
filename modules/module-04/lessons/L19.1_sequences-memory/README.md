@@ -27,3 +27,5 @@ No sharing of parameters across time steps.
 
 Markovian assumption ignores historical information.
 
+Cannot model temporal dynamics effectively.
+
