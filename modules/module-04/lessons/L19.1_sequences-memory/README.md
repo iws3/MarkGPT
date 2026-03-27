@@ -31,3 +31,5 @@ Cannot model temporal dynamics effectively.
 
 ## Memory Architectures
 
+Hidden state maintains information across time steps.
+
