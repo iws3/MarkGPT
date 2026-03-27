@@ -29,3 +29,5 @@ Markovian assumption ignores historical information.
 
 Cannot model temporal dynamics effectively.
 
+## Memory Architectures
+
