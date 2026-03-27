@@ -27,3 +27,5 @@ GRU computationally more efficient than LSTM.
 
 LSTM often performs slightly better on long dependencies.
 
+GRU sufficient for many sequence tasks.
+
