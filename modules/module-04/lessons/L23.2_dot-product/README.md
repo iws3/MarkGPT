@@ -47,3 +47,5 @@ Sparsity pruning reduces attention computation further.
 
 Low-rank attention approximation reduces parameters.
 
+Kernel methods approximate attention with features.
+
