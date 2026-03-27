@@ -53,3 +53,5 @@ Additive attention enables learned attention scoring.
 
 Self-attention within encoder improves representation.
 
+Cross-attention between long sequences.
+
