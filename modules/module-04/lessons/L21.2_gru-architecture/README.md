@@ -37,3 +37,5 @@ Update gate interpolates between previous and new state.
 
 Sigmoid gates provide smooth differentiable gating.
 
+Gating enables selective memory updates.
+
