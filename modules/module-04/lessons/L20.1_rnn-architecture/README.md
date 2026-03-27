@@ -23,3 +23,5 @@ One-to-many networks generate sequences from single input.
 
 Many-to-one networks encode sequences to single output.
 
+Many-to-many networks transform input sequences to output sequences.
+
