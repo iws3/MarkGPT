@@ -43,3 +43,5 @@ Bottleneck state constrains information capacity.
 
 Attention mechanisms focus on relevant time steps.
 
+## Advanced State Representations
+
