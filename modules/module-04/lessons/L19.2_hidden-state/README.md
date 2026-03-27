@@ -31,3 +31,5 @@ State reset between sequences separates independent examples.
 
 ## Information Flow
 
+Information propagates forward through time in unfolded graph.
+
