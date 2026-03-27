@@ -25,3 +25,5 @@ LSTM explicitly maintains memory enables stronger control.
 
 GRU computationally more efficient than LSTM.
 
+LSTM often performs slightly better on long dependencies.
+
