@@ -5,3 +5,5 @@
 
 Dot product measures similarity between vectors efficiently.
 
+Query vector matched against all key vectors.
+
