@@ -31,3 +31,5 @@ Self-attention relates positions within same sequence.
 
 ## Applications
 
+Machine translation uses attention to align source and target.
+
