@@ -55,3 +55,5 @@ Second-order information enables more stable optimization.
 
 Orthogonal initialization preserves spectral properties.
 
+Batch normalization normalizes gradient statistics.
+
