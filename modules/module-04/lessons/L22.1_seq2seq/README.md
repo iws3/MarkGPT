@@ -55,3 +55,5 @@ Bucketing sequences reduces padding overhead.
 
 Scheduled sampling curriculum improves decoding.
 
+Multiple decoders model different output aspects.
+
