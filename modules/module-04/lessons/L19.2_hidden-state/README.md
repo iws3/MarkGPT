@@ -47,3 +47,5 @@ Attention mechanisms focus on relevant time steps.
 
 Auxiliary task learning improves state representation quality.
 
+State clustering reveals emergent structure in learned representations.
+
