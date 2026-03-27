@@ -23,3 +23,5 @@ GRU lacks separate cell state simplifying updates.
 
 LSTM explicitly maintains memory enables stronger control.
 
+GRU computationally more efficient than LSTM.
+
