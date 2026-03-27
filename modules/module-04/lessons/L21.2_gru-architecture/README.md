@@ -35,3 +35,5 @@ Reset gate scales previous hidden state relevance.
 
 Update gate interpolates between previous and new state.
 
+Sigmoid gates provide smooth differentiable gating.
+
