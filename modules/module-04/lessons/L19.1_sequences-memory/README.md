@@ -21,3 +21,5 @@ Standard feedforward networks lack memory between inputs.
 
 No temporal context captured from previous inputs.
 
+Fixed input size incompatible with variable length sequences.
+
