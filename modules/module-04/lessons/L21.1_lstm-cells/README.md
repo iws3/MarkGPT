@@ -49,3 +49,5 @@ Peephole connections enable cell state to influence gates.
 
 Coupled input-forget gates reduce redundancy.
 
+Attention-based LSTMs weight previous cell states.
+
