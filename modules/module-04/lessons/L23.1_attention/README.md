@@ -45,3 +45,5 @@ Co-attention models interactions between sequences.
 
 ## Attention Mechanisms Advanced
 
+Linear attention approximates softmax with less computation.
+
