@@ -19,3 +19,5 @@ Memory retention enables learning long-term dependencies.
 
 Standard feedforward networks lack memory between inputs.
 
+No temporal context captured from previous inputs.
+
