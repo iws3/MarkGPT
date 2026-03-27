@@ -35,3 +35,5 @@ Backpropagation Through Time extends backprop to sequences.
 
 Truncated BPTT limits computation by cutting gradients.
 
+Teacher forcing uses ground truth during training.
+
