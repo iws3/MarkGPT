@@ -27,3 +27,5 @@ Additive attention uses learned scoring function.
 
 Multi-head attention models different aspects simultaneously.
 
+Attention weights reveal which inputs influenced output.
+
