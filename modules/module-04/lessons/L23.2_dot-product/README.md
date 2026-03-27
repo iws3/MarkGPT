@@ -29,3 +29,5 @@ Softmax normalization ensures probabilities sum to one.
 
 Temperature scaling adjusts attention sharpness.
 
+## Efficiency and Performance
+
