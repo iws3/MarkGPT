@@ -15,3 +15,5 @@ Output at each timestep can be read independently.
 
 Sequence processing enables variable length inputs.
 
+## RNN Variations
+
