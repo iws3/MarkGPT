@@ -49,3 +49,5 @@ Linear attention approximates softmax with less computation.
 
 Sparse attention reduces quadratic complexity.
 
+Hierarchical attention models nested dependencies.
+
