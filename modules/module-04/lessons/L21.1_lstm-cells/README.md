@@ -17,3 +17,5 @@ Output gate determines what to output from memory.
 
 ## Gate Operations
 
+Sigmoid gates output values between zero and one.
+
