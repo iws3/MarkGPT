@@ -3,3 +3,5 @@
 
 ## Attention Fundamentals
 
+Attention focuses computational resources on important inputs.
+
