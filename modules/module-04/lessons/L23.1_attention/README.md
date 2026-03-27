@@ -27,3 +27,5 @@ Multi-head attention models different representation subspaces.
 
 Grouped multi-head attention shares parameters.
 
+Self-attention relates positions within same sequence.
+
