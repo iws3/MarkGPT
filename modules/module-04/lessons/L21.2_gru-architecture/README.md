@@ -29,3 +29,5 @@ LSTM often performs slightly better on long dependencies.
 
 GRU sufficient for many sequence tasks.
 
+## Gating Mechanisms
+
