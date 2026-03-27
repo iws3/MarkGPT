@@ -21,3 +21,5 @@ GRU has two gates versus LSTM's three gates.
 
 GRU lacks separate cell state simplifying updates.
 
+LSTM explicitly maintains memory enables stronger control.
+
