@@ -23,3 +23,5 @@ Keys and values derived from encoder outputs.
 
 Dot-product attention measures query-key similarity efficiently.
 
+Additive attention uses learned scoring function.
+
