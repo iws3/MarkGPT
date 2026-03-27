@@ -15,3 +15,5 @@ Attention output is weighted sum of input values.
 
 Context vector augmented with attention-weighted input.
 
+## Implementation Details
+
