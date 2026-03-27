@@ -25,3 +25,5 @@ Scaled dot-product prevents saturation of softmax.
 
 Multi-head attention models different representation subspaces.
 
+Grouped multi-head attention shares parameters.
+
