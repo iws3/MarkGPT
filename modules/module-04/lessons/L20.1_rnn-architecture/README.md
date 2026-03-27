@@ -25,3 +25,5 @@ Many-to-one networks encode sequences to single output.
 
 Many-to-many networks transform input sequences to output sequences.
 
+Encoder-decoder separates sequence encoding from decoding.
+
