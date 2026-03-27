@@ -51,3 +51,5 @@ Clockwork RNNs operate at multiple time scales simultaneously.
 
 Dilated RNNs enable larger receptive fields per layer.
 
+Parametric RNN variants adapt behavior to input characteristics.
+
