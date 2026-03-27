@@ -43,3 +43,5 @@ Effective learning across long sequences enabled.
 
 Deep time dependencies become tractable.
 
+## LSTM Variants and Extensions
+
