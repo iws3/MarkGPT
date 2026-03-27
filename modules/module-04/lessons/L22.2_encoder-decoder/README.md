@@ -3,3 +3,5 @@
 
 ## Attention Mechanism
 
+Attention weights enable decoder to focus on relevant inputs.
+
