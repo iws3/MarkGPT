@@ -13,3 +13,5 @@ Update gate controls how much hidden state changes.
 
 Simpler architecture reduces parameters and computation.
 
+Smaller memory footprint enables larger batches.
+
