@@ -55,3 +55,5 @@ Parametric RNN variants adapt behavior to input characteristics.
 
 Probabilistic RNNs model uncertainty in predictions.
 
+Residual RNNs improve gradient flow through layers.
+
