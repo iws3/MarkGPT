@@ -27,3 +27,5 @@ Input gate scales candidate values added to cell state.
 
 Cell state accumulates information across time steps.
 
+Output gate scales hidden state from gated cell.
+
