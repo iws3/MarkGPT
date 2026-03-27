@@ -33,3 +33,5 @@ ReLU activation partially alleviates problem.
 
 Gradient clipping caps maximum gradient magnitude.
 
+Skip connections enable direct gradient flow.
+
