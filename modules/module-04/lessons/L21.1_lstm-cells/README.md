@@ -53,3 +53,5 @@ Attention-based LSTMs weight previous cell states.
 
 Output projection reduces parameter count.
 
+Bidirectional LSTMs process sequences forward and backward.
+
