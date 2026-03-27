@@ -51,3 +51,5 @@ Coupled input-forget gates reduce redundancy.
 
 Attention-based LSTMs weight previous cell states.
 
+Output projection reduces parameter count.
+
