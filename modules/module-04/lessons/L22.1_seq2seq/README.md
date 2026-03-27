@@ -39,3 +39,5 @@ Limited context causes loss of important information.
 
 Attention mechanisms mitigate context bottleneck.
 
+Different encoding and decoding vocabulary possible.
+
