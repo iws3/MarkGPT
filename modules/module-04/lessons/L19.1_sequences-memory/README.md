@@ -9,3 +9,5 @@ Time series contain measurements at regular intervals tracking changes.
 
 Natural language is sequential information processed word by word.
 
+Sequences have variable length requiring special handling in models.
+
