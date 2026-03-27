@@ -9,3 +9,5 @@ State is updated at each time step based on input and previous state.
 
 Hidden dimension determines capacity for information storage.
 
+State initialization affects early predictions and learning.
+
