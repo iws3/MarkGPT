@@ -29,3 +29,5 @@ Teacher forcing provides ground truth during training.
 
 Beam search explores multiple hypotheses at inference.
 
+## Training Considerations
+
