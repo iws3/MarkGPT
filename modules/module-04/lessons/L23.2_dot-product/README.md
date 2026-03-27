@@ -45,3 +45,5 @@ Sparsity pruning reduces attention computation further.
 
 ## Optimization and Variants
 
+Low-rank attention approximation reduces parameters.
+
