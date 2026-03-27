@@ -51,3 +51,5 @@ Kernel methods approximate attention with features.
 
 Flash attention optimizes memory access patterns.
 
+Grouped query attention shares key-value across queries.
+
