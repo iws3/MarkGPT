@@ -11,3 +11,5 @@ Alignment scores measure similarity between query and keys.
 
 Softmax normalizes alignment scores to probability distribution.
 
+Attention output is weighted sum of input values.
+
