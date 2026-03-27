@@ -43,3 +43,5 @@ Attention output dimension affects memory and compute.
 
 Sparsity pruning reduces attention computation further.
 
+## Optimization and Variants
+
