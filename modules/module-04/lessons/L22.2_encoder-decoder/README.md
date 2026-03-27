@@ -41,3 +41,5 @@ Variable length input handling improved.
 
 Particularly effective for long sequences.
 
+Foundation for transformer architectures.
+
