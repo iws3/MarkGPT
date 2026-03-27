@@ -35,3 +35,5 @@ Access to full input sequence mitigates context bottleneck.
 
 Direct paths enable gradient flow to early inputs.
 
+Interpretability from attention weights.
+
