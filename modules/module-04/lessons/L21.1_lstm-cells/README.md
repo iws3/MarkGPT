@@ -5,3 +5,5 @@
 
 Long Short-Term Memory networks use gating mechanisms.
 
+Cell state separate from hidden state enables long-term memory.
+
