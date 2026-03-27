@@ -35,3 +35,5 @@ Gradient clipping caps maximum gradient magnitude.
 
 Skip connections enable direct gradient flow.
 
+LSTM and GRU architectures specifically address problem.
+
