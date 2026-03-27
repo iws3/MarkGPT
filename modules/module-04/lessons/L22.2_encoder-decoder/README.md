@@ -55,3 +55,5 @@ Self-attention within encoder improves representation.
 
 Cross-attention between long sequences.
 
+Attention dropout prevents overfitting attention weights.
+
