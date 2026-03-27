@@ -35,3 +35,5 @@ Encoder fully processes input before decoder starts.
 
 Context vector is bottleneck for information transfer.
 
+Limited context causes loss of important information.
+
