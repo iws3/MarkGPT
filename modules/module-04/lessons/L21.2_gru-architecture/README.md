@@ -3,3 +3,5 @@
 
 ## GRU Design
 
+Gated Recurrent Units simplify LSTM with fewer gates.
+
