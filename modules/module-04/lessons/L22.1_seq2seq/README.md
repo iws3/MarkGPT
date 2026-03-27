@@ -21,3 +21,5 @@ Encoder compresses variable length input to fixed size.
 
 Final hidden state becomes context for decoder.
 
+Decoder starts with context vector as initial state.
+
