@@ -47,3 +47,5 @@ Shared embeddings sometimes improve performance.
 
 Multi-layer seq2seq networks encode hierarchy.
 
+Bidirectional encoders use both directions.
+
