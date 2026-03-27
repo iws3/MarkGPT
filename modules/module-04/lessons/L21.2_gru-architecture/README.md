@@ -17,3 +17,5 @@ Smaller memory footprint enables larger batches.
 
 ## GRU vs LSTM
 
+GRU has two gates versus LSTM's three gates.
+
