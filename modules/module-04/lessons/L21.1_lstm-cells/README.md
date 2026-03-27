@@ -23,3 +23,5 @@ Element-wise multiplication implements information gating.
 
 Forget gate scales cell state by gate values.
 
+Input gate scales candidate values added to cell state.
+
