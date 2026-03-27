@@ -39,3 +39,5 @@ Interpretability from attention weights.
 
 Variable length input handling improved.
 
+Particularly effective for long sequences.
+
