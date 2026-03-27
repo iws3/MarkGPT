@@ -49,3 +49,5 @@ Auxiliary task learning improves state representation quality.
 
 State clustering reveals emergent structure in learned representations.
 
+Adversarial state training hardens against perturbations.
+
