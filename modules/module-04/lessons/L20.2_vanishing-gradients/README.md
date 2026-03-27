@@ -43,3 +43,5 @@ Careful initialization keeps initial gradients reasonable.
 
 Residual connections improve gradient propagation.
 
+## Gradient Flow Analysis
+
