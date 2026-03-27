@@ -31,3 +31,5 @@ Beam search explores multiple hypotheses at inference.
 
 ## Training Considerations
 
+Encoder fully processes input before decoder starts.
+
