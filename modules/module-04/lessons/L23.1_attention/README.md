@@ -33,3 +33,5 @@ Self-attention relates positions within same sequence.
 
 Machine translation uses attention to align source and target.
 
+Question answering uses attention to locate answers.
+
