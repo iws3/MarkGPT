@@ -9,3 +9,5 @@ Cell state separate from hidden state enables long-term memory.
 
 Three gates control information flow: forget, input, output.
 
+Forget gate decides what to discard from previous memory.
+
