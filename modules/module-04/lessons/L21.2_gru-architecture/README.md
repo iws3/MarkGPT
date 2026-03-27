@@ -41,3 +41,5 @@ Gating enables selective memory updates.
 
 Critical information preserved through gate controls.
 
+Irrelevant information discarded by reset gate.
+
