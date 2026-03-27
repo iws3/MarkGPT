@@ -51,3 +51,5 @@ Sparse attention reduces quadratic complexity.
 
 Hierarchical attention models nested dependencies.
 
+Joint attention models interactions between multiple sequences.
+
