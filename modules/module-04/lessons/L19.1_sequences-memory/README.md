@@ -13,3 +13,5 @@ Sequences have variable length requiring special handling in models.
 
 Positional information matters different meanings at different positions.
 
+Memory retention enables learning long-term dependencies.
+
