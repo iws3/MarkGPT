@@ -5,3 +5,5 @@
 
 Gated Recurrent Units simplify LSTM with fewer gates.
 
+Single hidden state replaces separate cell and hidden states.
+
