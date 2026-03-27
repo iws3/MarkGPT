@@ -11,3 +11,5 @@ Hidden dimension determines capacity for information storage.
 
 State initialization affects early predictions and learning.
 
+State is shared across all time steps enabling parameter efficiency.
+
