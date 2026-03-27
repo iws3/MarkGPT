@@ -35,3 +35,5 @@ Dot-product attention highly parallelizable with matrix ops.
 
 GEMM operations efficiently computed on GPUs.
 
+Additive attention requires feed-forward network per query.
+
