@@ -9,3 +9,5 @@ Time unfolding creates deep feedforward graph.
 
 Parameters shared across time steps enable generalization.
 
+Hidden state updates are primarily recurrent not forward.
+
