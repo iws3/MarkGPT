@@ -43,3 +43,5 @@ Critical information preserved through gate controls.
 
 Irrelevant information discarded by reset gate.
 
+## GRU Advances
+
