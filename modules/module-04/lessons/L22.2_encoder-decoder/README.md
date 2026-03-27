@@ -21,3 +21,5 @@ Query is decoder hidden state at current timestep.
 
 Keys and values derived from encoder outputs.
 
+Dot-product attention measures query-key similarity efficiently.
+
