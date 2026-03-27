@@ -11,3 +11,5 @@ Repeated multiplication can cause exponential growth or decay.
 
 Vanishing gradients prevent early timesteps from learning.
 
+Exploding gradients cause instability and NaN values.
+
