@@ -13,3 +13,5 @@ Hidden state updates are primarily recurrent not forward.
 
 Output at each timestep can be read independently.
 
+Sequence processing enables variable length inputs.
+
