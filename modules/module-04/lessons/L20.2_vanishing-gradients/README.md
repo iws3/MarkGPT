@@ -15,3 +15,5 @@ Exploding gradients cause instability and NaN values.
 
 Proper initialization mitigates gradient flow problems.
 
+## Vanishing Gradient Problem
+
