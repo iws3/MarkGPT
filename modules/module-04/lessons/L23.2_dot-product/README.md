@@ -13,3 +13,5 @@ Softmax converts dot products to probability distribution.
 
 Attention weighted output combines relevant values.
 
+Differential gradient flow enables end-to-end training.
+
