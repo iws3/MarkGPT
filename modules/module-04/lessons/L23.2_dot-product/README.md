@@ -17,3 +17,5 @@ Differential gradient flow enables end-to-end training.
 
 ## Scaling and Normalization
 
+Large dimensions cause dot products to become very large.
+
