@@ -45,3 +45,5 @@ Deep time dependencies become tractable.
 
 ## LSTM Variants and Extensions
 
+Peephole connections enable cell state to influence gates.
+
