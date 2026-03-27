@@ -19,3 +19,5 @@ Attention output is context weighted by importance.
 
 Additive attention uses neural network for scoring.
 
+Multiplicative attention uses dot product for efficiency.
+
