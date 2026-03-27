@@ -45,3 +45,5 @@ Different learning rates per layer improves convergence.
 
 ## Advanced RNN Designs
 
+Hierarchical RNNs process multi-level temporal structures.
+
