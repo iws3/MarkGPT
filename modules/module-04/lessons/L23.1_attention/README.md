@@ -37,3 +37,5 @@ Question answering uses attention to locate answers.
 
 Summarization uses attention to select important sentences.
 
+Speech recognition uses attention to align audio and text.
+
