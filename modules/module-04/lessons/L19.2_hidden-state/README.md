@@ -53,3 +53,5 @@ Adversarial state training hardens against perturbations.
 
 State importance reveals which dimensions encode information.
 
+Factorized representations decompose state into independent factors.
+
