@@ -49,3 +49,5 @@ Hierarchical sequence processing models information at multiple scales.
 
 Attention over time steps enables selective history access.
 
+Memory networks learn to read external memory matrices.
+
