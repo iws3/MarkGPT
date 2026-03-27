@@ -47,3 +47,5 @@ Foundation for transformer architectures.
 
 Location-based attention focuses on nearby positions.
 
+Multiplicative attention learns more expressive similarities.
+
