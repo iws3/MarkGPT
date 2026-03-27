@@ -27,3 +27,5 @@ Long-term dependencies become unlearnable.
 
 Sigmoid activation particularly prone to vanishing.
 
+ReLU activation partially alleviates problem.
+
