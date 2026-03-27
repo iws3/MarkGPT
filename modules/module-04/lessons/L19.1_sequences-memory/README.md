@@ -53,3 +53,5 @@ Memory networks learn to read external memory matrices.
 
 Content-based addressing retrieves relevant memory entries.
 
+Episodic training separates experience into discrete episodes.
+
