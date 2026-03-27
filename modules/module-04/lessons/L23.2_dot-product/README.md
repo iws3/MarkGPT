@@ -23,3 +23,5 @@ Large values saturate softmax yielding vanishing gradients.
 
 Dividing by sqrt(dimension) prevents saturation.
 
+Proper scaling maintains reasonable activation ranges.
+
