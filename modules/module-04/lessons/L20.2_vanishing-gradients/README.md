@@ -41,3 +41,5 @@ Layer normalization stabilizes gradient magnitudes.
 
 Careful initialization keeps initial gradients reasonable.
 
+Residual connections improve gradient propagation.
+
