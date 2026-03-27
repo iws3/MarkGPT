@@ -39,3 +39,5 @@ Gradients can flow uninterrupted through cell updates.
 
 Vanishing gradient problem substantially mitigated.
 
+Effective learning across long sequences enabled.
+
