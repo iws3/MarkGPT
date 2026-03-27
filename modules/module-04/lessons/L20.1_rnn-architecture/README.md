@@ -43,3 +43,5 @@ Gradient clipping prevents explosion in recurrent networks.
 
 Different learning rates per layer improves convergence.
 
+## Advanced RNN Designs
+
