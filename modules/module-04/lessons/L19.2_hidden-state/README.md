@@ -41,3 +41,5 @@ Context mixing blends information from all time steps.
 
 Bottleneck state constrains information capacity.
 
+Attention mechanisms focus on relevant time steps.
+
