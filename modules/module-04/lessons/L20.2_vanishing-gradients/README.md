@@ -31,3 +31,5 @@ ReLU activation partially alleviates problem.
 
 ## Solutions and Mitigations
 
+Gradient clipping caps maximum gradient magnitude.
+
