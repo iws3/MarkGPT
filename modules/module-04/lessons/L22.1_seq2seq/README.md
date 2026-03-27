@@ -15,3 +15,5 @@ Separate encoder and decoder enable asymmetric processing.
 
 Applicable to translation, summarization, question answering.
 
+## Encoder-Decoder Pattern
+
