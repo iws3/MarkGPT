@@ -33,3 +33,5 @@ State reset between sequences separates independent examples.
 
 Information propagates forward through time in unfolded graph.
 
+Gradients propagate backward through time for learning.
+
