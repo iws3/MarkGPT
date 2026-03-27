@@ -57,3 +57,5 @@ Scheduled sampling curriculum improves decoding.
 
 Multiple decoders model different output aspects.
 
+Hierarchical decoding generates multi-level outputs.
+
