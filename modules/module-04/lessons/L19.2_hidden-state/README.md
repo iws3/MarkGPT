@@ -17,3 +17,5 @@ Final state summarizes entire sequence information.
 
 ## Recurrent Updates
 
+Recurrent equation combines previous state with new input.
+
