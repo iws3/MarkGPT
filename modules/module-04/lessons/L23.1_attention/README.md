@@ -17,3 +17,5 @@ Attention output is context weighted by importance.
 
 ## Attention Variants
 
+Additive attention uses neural network for scoring.
+
