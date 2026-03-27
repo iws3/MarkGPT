@@ -45,3 +45,5 @@ Shared embeddings sometimes improve performance.
 
 ## Advanced Seq2Seq Techniques
 
+Multi-layer seq2seq networks encode hierarchy.
+
