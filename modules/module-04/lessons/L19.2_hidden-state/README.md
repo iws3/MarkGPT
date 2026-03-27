@@ -19,3 +19,5 @@ Final state summarizes entire sequence information.
 
 Recurrent equation combines previous state with new input.
 
+Non-linear activation enables complex temporal patterns.
+
