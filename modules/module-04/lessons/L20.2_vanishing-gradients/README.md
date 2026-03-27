@@ -25,3 +25,5 @@ Early time steps receive negligible gradient signal.
 
 Long-term dependencies become unlearnable.
 
+Sigmoid activation particularly prone to vanishing.
+
