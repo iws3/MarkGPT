@@ -13,3 +13,5 @@ Forget gate decides what to discard from previous memory.
 
 Input gate controls addition of new information.
 
+Output gate determines what to output from memory.
+
