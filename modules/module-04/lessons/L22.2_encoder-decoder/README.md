@@ -5,3 +5,5 @@
 
 Attention weights enable decoder to focus on relevant inputs.
 
+Attention queries decoder state to find relevant input positions.
+
