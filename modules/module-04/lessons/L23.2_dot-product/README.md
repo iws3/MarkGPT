@@ -3,3 +3,5 @@
 
 ## Dot-Product Mechanism
 
+Dot product measures similarity between vectors efficiently.
+
