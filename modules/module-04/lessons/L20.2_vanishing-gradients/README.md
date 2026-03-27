@@ -49,3 +49,5 @@ Spectral normalization stabilizes gradients through eigenvalue control.
 
 Adaptive gradient scaling per parameter improves learning.
 
+Gradient centralization removes mean before updates.
+
