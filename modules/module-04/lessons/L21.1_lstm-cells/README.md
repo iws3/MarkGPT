@@ -25,3 +25,5 @@ Forget gate scales cell state by gate values.
 
 Input gate scales candidate values added to cell state.
 
+Cell state accumulates information across time steps.
+
