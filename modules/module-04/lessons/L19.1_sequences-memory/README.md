@@ -33,3 +33,5 @@ Cannot model temporal dynamics effectively.
 
 Hidden state maintains information across time steps.
 
+Recurrent connections feed past activations to future timesteps.
+
