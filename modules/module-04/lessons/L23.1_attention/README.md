@@ -9,3 +9,5 @@ Soft attention uses differentiable weighted sum.
 
 Hard attention selects discrete input positions.
 
+Attention scores measure alignment between query and keys.
+
