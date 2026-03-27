@@ -11,3 +11,5 @@ Three gates control information flow: forget, input, output.
 
 Forget gate decides what to discard from previous memory.
 
+Input gate controls addition of new information.
+
