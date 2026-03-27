@@ -47,3 +47,5 @@ Residual connections improve gradient propagation.
 
 Spectral normalization stabilizes gradients through eigenvalue control.
 
+Adaptive gradient scaling per parameter improves learning.
+
