@@ -31,3 +31,5 @@ Attention weights reveal which inputs influenced output.
 
 ## Advantages
 
+Access to full input sequence mitigates context bottleneck.
+
