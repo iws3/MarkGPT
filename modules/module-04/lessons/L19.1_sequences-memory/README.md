@@ -15,3 +15,5 @@ Positional information matters different meanings at different positions.
 
 Memory retention enables learning long-term dependencies.
 
+## Feedforward Limitations
+
