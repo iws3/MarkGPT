@@ -57,3 +57,5 @@ Episodic training separates experience into discrete episodes.
 
 Context aggregation combines multi-source information.
 
+Temporally aware regularization constrains rapid state changes.
+
