@@ -15,3 +15,5 @@ Attention weighted output combines relevant values.
 
 Differential gradient flow enables end-to-end training.
 
+## Scaling and Normalization
+
