@@ -17,3 +17,5 @@ Proper initialization mitigates gradient flow problems.
 
 ## Vanishing Gradient Problem
 
+Activation derivatives less than one cause decay.
+
