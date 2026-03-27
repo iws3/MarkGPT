@@ -51,3 +51,5 @@ Attention over time steps enables selective history access.
 
 Memory networks learn to read external memory matrices.
 
+Content-based addressing retrieves relevant memory entries.
+
