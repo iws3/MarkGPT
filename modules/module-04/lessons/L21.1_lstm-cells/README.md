@@ -33,3 +33,5 @@ Output gate scales hidden state from gated cell.
 
 Additive cell state updates enable gradient flow.
 
+Multiplicative gates control magnitude smoothly.
+
