@@ -5,3 +5,5 @@
 
 Sequential data exhibits temporal dependencies where past influences future.
 
+Time series contain measurements at regular intervals tracking changes.
+
