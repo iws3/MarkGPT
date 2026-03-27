@@ -45,3 +45,5 @@ Backpropagation through time trains recurrent networks.
 
 ## Advanced Sequence Processing
 
+Hierarchical sequence processing models information at multiple scales.
+
