@@ -21,3 +21,5 @@ Activation derivatives less than one cause decay.
 
 Long sequences accumulate many small multiplications.
 
+Early time steps receive negligible gradient signal.
+
