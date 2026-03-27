@@ -31,3 +31,5 @@ GRU sufficient for many sequence tasks.
 
 ## Gating Mechanisms
 
+Reset gate scales previous hidden state relevance.
+
