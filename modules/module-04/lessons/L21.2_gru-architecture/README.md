@@ -15,3 +15,5 @@ Simpler architecture reduces parameters and computation.
 
 Smaller memory footprint enables larger batches.
 
+## GRU vs LSTM
+
