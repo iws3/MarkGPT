@@ -49,3 +49,5 @@ Gated attention GRUs learn adaptive time scale sensitivity.
 
 Bi-directional GRUs capture both preceding and following context.
 
+Multi-head GRUs maintain multiple gating patterns.
+
