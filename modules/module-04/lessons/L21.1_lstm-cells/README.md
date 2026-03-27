@@ -35,3 +35,5 @@ Additive cell state updates enable gradient flow.
 
 Multiplicative gates control magnitude smoothly.
 
+Gradients can flow uninterrupted through cell updates.
+
