@@ -33,3 +33,5 @@ Attention weights reveal which inputs influenced output.
 
 Access to full input sequence mitigates context bottleneck.
 
+Direct paths enable gradient flow to early inputs.
+
