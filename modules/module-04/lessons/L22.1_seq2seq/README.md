@@ -37,3 +37,5 @@ Context vector is bottleneck for information transfer.
 
 Limited context causes loss of important information.
 
+Attention mechanisms mitigate context bottleneck.
+
