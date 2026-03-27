@@ -49,3 +49,5 @@ Location-based attention focuses on nearby positions.
 
 Multiplicative attention learns more expressive similarities.
 
+Additive attention enables learned attention scoring.
+
