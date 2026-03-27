@@ -45,3 +45,5 @@ Attention mechanisms focus on relevant time steps.
 
 ## Advanced State Representations
 
+Auxiliary task learning improves state representation quality.
+
