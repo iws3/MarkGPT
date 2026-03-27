@@ -41,3 +41,5 @@ Scheduled sampling gradually reduces ground truth reliance.
 
 Gradient clipping prevents explosion in recurrent networks.
 
+Different learning rates per layer improves convergence.
+
