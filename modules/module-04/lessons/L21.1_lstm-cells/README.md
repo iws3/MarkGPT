@@ -41,3 +41,5 @@ Vanishing gradient problem substantially mitigated.
 
 Effective learning across long sequences enabled.
 
+Deep time dependencies become tractable.
+
