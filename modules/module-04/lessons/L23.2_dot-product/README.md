@@ -33,3 +33,5 @@ Temperature scaling adjusts attention sharpness.
 
 Dot-product attention highly parallelizable with matrix ops.
 
+GEMM operations efficiently computed on GPUs.
+
