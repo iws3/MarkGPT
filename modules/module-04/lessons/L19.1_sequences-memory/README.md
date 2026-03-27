@@ -23,3 +23,5 @@ No temporal context captured from previous inputs.
 
 Fixed input size incompatible with variable length sequences.
 
+No sharing of parameters across time steps.
+
