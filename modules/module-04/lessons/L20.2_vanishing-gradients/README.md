@@ -39,3 +39,5 @@ LSTM and GRU architectures specifically address problem.
 
 Layer normalization stabilizes gradient magnitudes.
 
+Careful initialization keeps initial gradients reasonable.
+
