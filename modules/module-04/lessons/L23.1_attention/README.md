@@ -43,3 +43,5 @@ Image captioning uses spatial attention mechanisms.
 
 Co-attention models interactions between sequences.
 
+## Attention Mechanisms Advanced
+
