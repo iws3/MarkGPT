@@ -21,3 +21,5 @@ Additive attention uses neural network for scoring.
 
 Multiplicative attention uses dot product for efficiency.
 
+Scaled dot-product prevents saturation of softmax.
+
