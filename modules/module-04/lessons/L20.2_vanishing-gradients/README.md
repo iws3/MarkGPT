@@ -3,3 +3,5 @@
 
 ## Gradient Flow in RNNs
 
+Gradients flow backward through time unfold graph.
+
