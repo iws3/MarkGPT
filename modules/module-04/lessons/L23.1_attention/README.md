@@ -35,3 +35,5 @@ Machine translation uses attention to align source and target.
 
 Question answering uses attention to locate answers.
 
+Summarization uses attention to select important sentences.
+
