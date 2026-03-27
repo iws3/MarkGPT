@@ -43,3 +43,5 @@ Unfolding through time relates recurrent to feedforward networks.
 
 Backpropagation through time trains recurrent networks.
 
+## Advanced Sequence Processing
+
