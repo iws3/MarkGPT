@@ -21,3 +21,5 @@ Sigmoid gates output values between zero and one.
 
 Element-wise multiplication implements information gating.
 
+Forget gate scales cell state by gate values.
+
