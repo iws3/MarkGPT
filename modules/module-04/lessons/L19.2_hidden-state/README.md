@@ -29,3 +29,5 @@ Bidirectional processing uses forward and backward passes.
 
 State reset between sequences separates independent examples.
 
+## Information Flow
+
