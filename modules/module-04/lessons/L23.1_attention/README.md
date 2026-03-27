@@ -57,3 +57,5 @@ Temporal attention weights recent positions less.
 
 Masked attention prevents attending backward in generation.
 
+Relative position attention uses position offsets.
+
