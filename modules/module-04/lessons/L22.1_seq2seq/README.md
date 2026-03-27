@@ -51,3 +51,5 @@ Bidirectional encoders use both directions.
 
 Attention-based decoding enables input focus.
 
+Bucketing sequences reduces padding overhead.
+
