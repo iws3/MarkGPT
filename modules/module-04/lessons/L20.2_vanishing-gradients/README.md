@@ -57,3 +57,5 @@ Orthogonal initialization preserves spectral properties.
 
 Batch normalization normalizes gradient statistics.
 
+Weight normalization reparameterizes for better conditioning.
+
