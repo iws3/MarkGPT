@@ -55,3 +55,5 @@ Output projection reduces parameter count.
 
 Bidirectional LSTMs process sequences forward and backward.
 
+Multi-layer LSTMs stack recurrent computations.
+
