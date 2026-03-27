@@ -33,3 +33,5 @@ GRU sufficient for many sequence tasks.
 
 Reset gate scales previous hidden state relevance.
 
+Update gate interpolates between previous and new state.
+
