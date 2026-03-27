@@ -53,3 +53,5 @@ Attention-based decoding enables input focus.
 
 Bucketing sequences reduces padding overhead.
 
+Scheduled sampling curriculum improves decoding.
+
