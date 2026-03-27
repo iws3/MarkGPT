@@ -51,3 +51,5 @@ State clustering reveals emergent structure in learned representations.
 
 Adversarial state training hardens against perturbations.
 
+State importance reveals which dimensions encode information.
+
