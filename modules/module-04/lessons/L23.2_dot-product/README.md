@@ -57,3 +57,5 @@ Multi-query attention further reduces parameters.
 
 Sliding window attention limits memory quadratic growth.
 
+Efficient attention implementations exploit sparsity.
+
