@@ -57,3 +57,5 @@ Gated skip connections improve gradient flow.
 
 Parametric bias GRUs adapt gates dynamically.
 
+Conditional computation in GRUs reduces active parameters.
+
