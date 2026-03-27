@@ -51,3 +51,5 @@ Multiplicative attention learns more expressive similarities.
 
 Additive attention enables learned attention scoring.
 
+Self-attention within encoder improves representation.
+
