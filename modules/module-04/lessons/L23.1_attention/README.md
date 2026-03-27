@@ -55,3 +55,5 @@ Joint attention models interactions between multiple sequences.
 
 Temporal attention weights recent positions less.
 
+Masked attention prevents attending backward in generation.
+
