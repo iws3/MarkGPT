@@ -17,3 +17,5 @@ Context vector augmented with attention-weighted input.
 
 ## Implementation Details
 
+Query is decoder hidden state at current timestep.
+
