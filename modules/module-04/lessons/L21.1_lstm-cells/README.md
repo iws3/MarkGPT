@@ -15,3 +15,5 @@ Input gate controls addition of new information.
 
 Output gate determines what to output from memory.
 
+## Gate Operations
+
