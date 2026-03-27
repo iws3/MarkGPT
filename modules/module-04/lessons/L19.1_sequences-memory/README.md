@@ -17,3 +17,5 @@ Memory retention enables learning long-term dependencies.
 
 ## Feedforward Limitations
 
+Standard feedforward networks lack memory between inputs.
+
