@@ -55,3 +55,5 @@ Content-based addressing retrieves relevant memory entries.
 
 Episodic training separates experience into discrete episodes.
 
+Context aggregation combines multi-source information.
+
