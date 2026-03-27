@@ -39,3 +39,5 @@ Additive attention requires feed-forward network per query.
 
 Dot-product faster but potentially less expressive.
 
+Attention output dimension affects memory and compute.
+
