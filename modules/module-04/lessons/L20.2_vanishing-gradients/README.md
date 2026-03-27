@@ -7,3 +7,5 @@ Gradients flow backward through time unfold graph.
 
 Chain rule multiplication creates products of Jacobians.
 
+Repeated multiplication can cause exponential growth or decay.
+
