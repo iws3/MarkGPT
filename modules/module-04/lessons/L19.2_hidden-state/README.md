@@ -35,3 +35,5 @@ Information propagates forward through time in unfolded graph.
 
 Gradients propagate backward through time for learning.
 
+Early timesteps influence final prediction through state.
+
