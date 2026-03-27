@@ -39,3 +39,5 @@ Early timesteps influence final prediction through state.
 
 Context mixing blends information from all time steps.
 
+Bottleneck state constrains information capacity.
+
