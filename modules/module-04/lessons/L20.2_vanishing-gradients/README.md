@@ -5,3 +5,5 @@
 
 Gradients flow backward through time unfold graph.
 
+Chain rule multiplication creates products of Jacobians.
+
