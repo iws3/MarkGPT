@@ -25,3 +25,5 @@ Dot-product attention measures query-key similarity efficiently.
 
 Additive attention uses learned scoring function.
 
+Multi-head attention models different aspects simultaneously.
+
