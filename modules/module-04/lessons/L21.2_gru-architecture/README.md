@@ -39,3 +39,5 @@ Sigmoid gates provide smooth differentiable gating.
 
 Gating enables selective memory updates.
 
+Critical information preserved through gate controls.
+
