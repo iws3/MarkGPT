@@ -47,3 +47,5 @@ Deep time dependencies become tractable.
 
 Peephole connections enable cell state to influence gates.
 
+Coupled input-forget gates reduce redundancy.
+
