@@ -37,3 +37,5 @@ Skip connections enable direct gradient flow.
 
 LSTM and GRU architectures specifically address problem.
 
+Layer normalization stabilizes gradient magnitudes.
+
