@@ -25,3 +25,5 @@ State update is deterministic function of input and previous state.
 
 Multiple layers stack recurrent computations for hierarchy.
 
+Bidirectional processing uses forward and backward passes.
+
