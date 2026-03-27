@@ -51,3 +51,5 @@ Bi-directional GRUs capture both preceding and following context.
 
 Multi-head GRUs maintain multiple gating patterns.
 
+Depth-wise separable GRUs reduce parameters.
+
