@@ -53,3 +53,5 @@ Multi-head GRUs maintain multiple gating patterns.
 
 Depth-wise separable GRUs reduce parameters.
 
+Gated skip connections improve gradient flow.
+
