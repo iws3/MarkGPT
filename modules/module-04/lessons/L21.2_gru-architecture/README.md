@@ -47,3 +47,5 @@ Irrelevant information discarded by reset gate.
 
 Gated attention GRUs learn adaptive time scale sensitivity.
 
+Bi-directional GRUs capture both preceding and following context.
+
