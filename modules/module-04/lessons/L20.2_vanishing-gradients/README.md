@@ -13,3 +13,5 @@ Vanishing gradients prevent early timesteps from learning.
 
 Exploding gradients cause instability and NaN values.
 
+Proper initialization mitigates gradient flow problems.
+
