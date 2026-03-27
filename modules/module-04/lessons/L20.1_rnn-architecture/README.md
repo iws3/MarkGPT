@@ -57,3 +57,5 @@ Probabilistic RNNs model uncertainty in predictions.
 
 Residual RNNs improve gradient flow through layers.
 
+Coupled networks enable multi-task sequence learning.
+
