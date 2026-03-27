@@ -19,3 +19,5 @@ Proper initialization mitigates gradient flow problems.
 
 Activation derivatives less than one cause decay.
 
+Long sequences accumulate many small multiplications.
+
