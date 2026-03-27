@@ -27,3 +27,5 @@ Proper scaling maintains reasonable activation ranges.
 
 Softmax normalization ensures probabilities sum to one.
 
+Temperature scaling adjusts attention sharpness.
+
