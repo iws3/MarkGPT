@@ -37,3 +37,5 @@ Recurrent connections feed past activations to future timesteps.
 
 State updates accumulate information over time.
 
+Memory enables context propagation through sequences.
+
