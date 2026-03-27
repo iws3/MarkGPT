@@ -57,3 +57,5 @@ Cross-attention between long sequences.
 
 Attention dropout prevents overfitting attention weights.
 
+Normalized attention smooths gradient flow.
+
