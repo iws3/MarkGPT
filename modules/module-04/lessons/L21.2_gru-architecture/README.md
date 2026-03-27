@@ -45,3 +45,5 @@ Irrelevant information discarded by reset gate.
 
 ## GRU Advances
 
+Gated attention GRUs learn adaptive time scale sensitivity.
+
