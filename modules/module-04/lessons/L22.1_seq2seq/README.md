@@ -9,3 +9,5 @@ Encoder RNN processes input sequence to fixed representation.
 
 Context vector summarizes entire input in fixed dimension.
 
+Decoder RNN generates output sequence from context.
+
