@@ -11,3 +11,5 @@ Context vector summarizes entire input in fixed dimension.
 
 Decoder RNN generates output sequence from context.
 
+Separate encoder and decoder enable asymmetric processing.
+
