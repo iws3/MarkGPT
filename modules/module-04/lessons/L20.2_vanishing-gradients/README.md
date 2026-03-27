@@ -45,3 +45,5 @@ Residual connections improve gradient propagation.
 
 ## Gradient Flow Analysis
 
+Spectral normalization stabilizes gradients through eigenvalue control.
+
