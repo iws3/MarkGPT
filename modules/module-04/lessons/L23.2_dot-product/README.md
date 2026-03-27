@@ -53,3 +53,5 @@ Flash attention optimizes memory access patterns.
 
 Grouped query attention shares key-value across queries.
 
+Multi-query attention further reduces parameters.
+
