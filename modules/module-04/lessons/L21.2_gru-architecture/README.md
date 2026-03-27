@@ -19,3 +19,5 @@ Smaller memory footprint enables larger batches.
 
 GRU has two gates versus LSTM's three gates.
 
+GRU lacks separate cell state simplifying updates.
+
