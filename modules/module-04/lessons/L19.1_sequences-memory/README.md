@@ -39,3 +39,5 @@ State updates accumulate information over time.
 
 Memory enables context propagation through sequences.
 
+Unfolding through time relates recurrent to feedforward networks.
+
