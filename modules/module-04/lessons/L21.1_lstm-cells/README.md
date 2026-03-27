@@ -37,3 +37,5 @@ Multiplicative gates control magnitude smoothly.
 
 Gradients can flow uninterrupted through cell updates.
 
+Vanishing gradient problem substantially mitigated.
+
