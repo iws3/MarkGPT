@@ -23,3 +23,5 @@ Non-linear activation enables complex temporal patterns.
 
 State update is deterministic function of input and previous state.
 
+Multiple layers stack recurrent computations for hierarchy.
+
