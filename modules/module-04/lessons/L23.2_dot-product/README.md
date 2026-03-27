@@ -49,3 +49,5 @@ Low-rank attention approximation reduces parameters.
 
 Kernel methods approximate attention with features.
 
+Flash attention optimizes memory access patterns.
+
