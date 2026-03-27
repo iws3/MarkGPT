@@ -39,3 +39,5 @@ Teacher forcing uses ground truth during training.
 
 Scheduled sampling gradually reduces ground truth reliance.
 
+Gradient clipping prevents explosion in recurrent networks.
+
