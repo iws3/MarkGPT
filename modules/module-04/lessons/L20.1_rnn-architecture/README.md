@@ -11,3 +11,5 @@ Parameters shared across time steps enable generalization.
 
 Hidden state updates are primarily recurrent not forward.
 
+Output at each timestep can be read independently.
+
