@@ -39,3 +39,5 @@ Summarization uses attention to select important sentences.
 
 Speech recognition uses attention to align audio and text.
 
+Image captioning uses spatial attention mechanisms.
+
