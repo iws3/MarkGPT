@@ -9,3 +9,5 @@ Attention queries decoder state to find relevant input positions.
 
 Alignment scores measure similarity between query and keys.
 
+Softmax normalizes alignment scores to probability distribution.
+
