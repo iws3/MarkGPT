@@ -19,3 +19,5 @@ Differential gradient flow enables end-to-end training.
 
 Large dimensions cause dot products to become very large.
 
+Large values saturate softmax yielding vanishing gradients.
+
