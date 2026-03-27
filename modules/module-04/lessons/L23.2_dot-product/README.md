@@ -31,3 +31,5 @@ Temperature scaling adjusts attention sharpness.
 
 ## Efficiency and Performance
 
+Dot-product attention highly parallelizable with matrix ops.
+
