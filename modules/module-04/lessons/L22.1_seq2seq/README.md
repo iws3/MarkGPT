@@ -17,3 +17,5 @@ Applicable to translation, summarization, question answering.
 
 ## Encoder-Decoder Pattern
 
+Encoder compresses variable length input to fixed size.
+
