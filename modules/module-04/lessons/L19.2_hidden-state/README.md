@@ -55,3 +55,5 @@ State importance reveals which dimensions encode information.
 
 Factorized representations decompose state into independent factors.
 
+Sparse state updates reduce computational overhead.
+
