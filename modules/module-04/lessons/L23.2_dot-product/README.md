@@ -55,3 +55,5 @@ Grouped query attention shares key-value across queries.
 
 Multi-query attention further reduces parameters.
 
+Sliding window attention limits memory quadratic growth.
+
