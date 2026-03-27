@@ -41,3 +41,5 @@ Memory enables context propagation through sequences.
 
 Unfolding through time relates recurrent to feedforward networks.
 
+Backpropagation through time trains recurrent networks.
+
