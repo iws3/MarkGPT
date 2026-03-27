@@ -23,3 +23,5 @@ Final hidden state becomes context for decoder.
 
 Decoder starts with context vector as initial state.
 
+Decoder generates outputs one timestep at a time.
+
