@@ -15,3 +15,5 @@ State is shared across all time steps enabling parameter efficiency.
 
 Final state summarizes entire sequence information.
 
+## Recurrent Updates
+
