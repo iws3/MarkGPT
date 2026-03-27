@@ -27,3 +27,5 @@ Decoder generates outputs one timestep at a time.
 
 Teacher forcing provides ground truth during training.
 
+Beam search explores multiple hypotheses at inference.
+
