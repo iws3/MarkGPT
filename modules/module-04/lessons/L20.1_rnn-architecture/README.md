@@ -49,3 +49,5 @@ Hierarchical RNNs process multi-level temporal structures.
 
 Clockwork RNNs operate at multiple time scales simultaneously.
 
+Dilated RNNs enable larger receptive fields per layer.
+
