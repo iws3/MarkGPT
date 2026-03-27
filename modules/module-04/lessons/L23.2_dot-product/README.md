@@ -11,3 +11,5 @@ Large dot products indicate high similarity and relevance.
 
 Softmax converts dot products to probability distribution.
 
+Attention weighted output combines relevant values.
+
