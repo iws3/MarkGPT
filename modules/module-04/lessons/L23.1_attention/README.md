@@ -13,3 +13,5 @@ Attention scores measure alignment between query and keys.
 
 Normalized attention weights form probability distribution.
 
+Attention output is context weighted by importance.
+
