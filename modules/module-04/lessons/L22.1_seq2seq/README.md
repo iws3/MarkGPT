@@ -49,3 +49,5 @@ Multi-layer seq2seq networks encode hierarchy.
 
 Bidirectional encoders use both directions.
 
+Attention-based decoding enables input focus.
+
