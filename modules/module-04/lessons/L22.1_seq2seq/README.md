@@ -41,3 +41,5 @@ Attention mechanisms mitigate context bottleneck.
 
 Different encoding and decoding vocabulary possible.
 
+Shared embeddings sometimes improve performance.
+
