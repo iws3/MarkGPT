@@ -57,3 +57,5 @@ Factorized representations decompose state into independent factors.
 
 Sparse state updates reduce computational overhead.
 
+State prediction losses improve feature learning.
+
