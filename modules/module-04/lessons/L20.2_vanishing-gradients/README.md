@@ -53,3 +53,5 @@ Gradient centralization removes mean before updates.
 
 Second-order information enables more stable optimization.
 
+Orthogonal initialization preserves spectral properties.
+
