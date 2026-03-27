@@ -47,3 +47,5 @@ Different learning rates per layer improves convergence.
 
 Hierarchical RNNs process multi-level temporal structures.
 
+Clockwork RNNs operate at multiple time scales simultaneously.
+
