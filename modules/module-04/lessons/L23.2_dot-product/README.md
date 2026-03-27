@@ -37,3 +37,5 @@ GEMM operations efficiently computed on GPUs.
 
 Additive attention requires feed-forward network per query.
 
+Dot-product faster but potentially less expressive.
+
