@@ -9,3 +9,5 @@ Chain rule multiplication creates products of Jacobians.
 
 Repeated multiplication can cause exponential growth or decay.
 
+Vanishing gradients prevent early timesteps from learning.
+
