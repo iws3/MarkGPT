@@ -37,3 +37,5 @@ Truncated BPTT limits computation by cutting gradients.
 
 Teacher forcing uses ground truth during training.
 
+Scheduled sampling gradually reduces ground truth reliance.
+
