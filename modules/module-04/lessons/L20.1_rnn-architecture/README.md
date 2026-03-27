@@ -17,3 +17,5 @@ Sequence processing enables variable length inputs.
 
 ## RNN Variations
 
+One-to-one networks process fixed inputs producing fixed outputs.
+
