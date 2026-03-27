@@ -33,3 +33,5 @@ Beam search explores multiple hypotheses at inference.
 
 Encoder fully processes input before decoder starts.
 
+Context vector is bottleneck for information transfer.
+
