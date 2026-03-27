@@ -31,3 +31,5 @@ Attention-based variants weight input relevance.
 
 ## Training Recurrent Networks
 
+Backpropagation Through Time extends backprop to sequences.
+
