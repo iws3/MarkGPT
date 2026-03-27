@@ -15,3 +15,5 @@ Normalized attention weights form probability distribution.
 
 Attention output is context weighted by importance.
 
+## Attention Variants
+
