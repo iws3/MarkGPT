@@ -29,3 +29,5 @@ Encoder-decoder separates sequence encoding from decoding.
 
 Attention-based variants weight input relevance.
 
+## Training Recurrent Networks
+
