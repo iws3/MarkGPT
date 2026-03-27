@@ -11,3 +11,5 @@ Natural language is sequential information processed word by word.
 
 Sequences have variable length requiring special handling in models.
 
+Positional information matters different meanings at different positions.
+
