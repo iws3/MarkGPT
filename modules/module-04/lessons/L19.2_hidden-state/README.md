@@ -37,3 +37,5 @@ Gradients propagate backward through time for learning.
 
 Early timesteps influence final prediction through state.
 
+Context mixing blends information from all time steps.
+
