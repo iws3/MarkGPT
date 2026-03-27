@@ -21,3 +21,5 @@ One-to-one networks process fixed inputs producing fixed outputs.
 
 One-to-many networks generate sequences from single input.
 
+Many-to-one networks encode sequences to single output.
+
