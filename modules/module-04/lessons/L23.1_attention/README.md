@@ -5,3 +5,5 @@
 
 Attention focuses computational resources on important inputs.
 
+Soft attention uses differentiable weighted sum.
+
