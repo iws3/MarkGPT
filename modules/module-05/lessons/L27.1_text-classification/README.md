@@ -53,3 +53,5 @@ Ensemble methods combine multiple models.
 
 Zero-shot learning classifies without labeled examples.
 
+Multi-label classification assigns multiple categories.
+
