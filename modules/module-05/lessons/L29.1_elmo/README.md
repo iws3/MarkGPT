@@ -45,3 +45,5 @@ Lightweight variants reduce memory footprint.
 
 Real-time systems need fast inference.
 
+Combination with static embeddings improves robustness.
+
