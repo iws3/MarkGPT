@@ -11,3 +11,5 @@ Iterative merging builds hierarchical vocabulary.
 
 Merge operations preserve frequency information.
 
+Final vocabulary balances coverage and size.
+
