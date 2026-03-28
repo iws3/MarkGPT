@@ -29,3 +29,5 @@ CRF training maximizes sequence likelihood.
 
 Feature templates define potential functions.
 
+Exact inference through dynamic programming.
+
