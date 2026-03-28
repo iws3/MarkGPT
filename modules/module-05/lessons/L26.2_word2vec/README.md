@@ -33,3 +33,5 @@ Hierarchical softmax reduces computation.
 
 Learning rate scheduling improves convergence.
 
+## Word2Vec Properties
+
