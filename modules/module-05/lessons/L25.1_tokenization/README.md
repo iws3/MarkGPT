@@ -23,3 +23,5 @@ Rule-based tokenization uses hand-crafted rules.
 
 Statistical models learn tokenization boundaries.
 
+Morphological tokenization separates roots and affixes.
+
