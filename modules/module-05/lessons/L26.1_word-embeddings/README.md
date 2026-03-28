@@ -19,3 +19,5 @@ Distributed representations improve generalization.
 
 ## Embedding Properties
 
+Semantically similar words cluster in space.
+
