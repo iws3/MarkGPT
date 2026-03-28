@@ -21,3 +21,5 @@ Normalization makes vectors comparable across documents.
 
 Raw counts preserve frequency information.
 
+Logarithmic frequencies reduce range.
+
