@@ -19,3 +19,5 @@ Hierarchical models process documents in sections.
 
 ## Feature Representation
 
+Lexical features capture word information.
+
