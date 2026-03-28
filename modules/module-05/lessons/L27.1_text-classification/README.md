@@ -43,3 +43,5 @@ Data augmentation increases training data.
 
 Regularization prevents overfitting.
 
+Validation monitors generalization.
+
