@@ -47,3 +47,5 @@ Validation monitors generalization.
 
 Hyperparameter tuning optimizes performance.
 
+Ensemble methods combine multiple models.
+
