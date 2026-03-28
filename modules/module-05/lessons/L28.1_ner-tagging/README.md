@@ -9,3 +9,5 @@ Entity types include person, organization, location.
 
 Entity boundaries must be precise.
 
+Multi-word entities require coordinated predictions.
+
