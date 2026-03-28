@@ -13,3 +13,5 @@ Higher-order models capture longer patterns.
 
 Constraints enforce valid label combinations.
 
+Inference algorithms find best sequence.
+
