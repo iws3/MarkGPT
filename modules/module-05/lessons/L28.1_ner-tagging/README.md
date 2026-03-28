@@ -39,3 +39,5 @@ Information extraction builds knowledge graphs.
 
 Question answering locates relevant entities.
 
+Coreference resolution links entity mentions.
+
