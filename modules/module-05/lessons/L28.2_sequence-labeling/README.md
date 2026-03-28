@@ -45,3 +45,5 @@ BiLSTM-CRF uses bidirectional context.
 
 Self-attention captures non-local dependencies.
 
+Transformer-CRF leverages modern architectures.
+
