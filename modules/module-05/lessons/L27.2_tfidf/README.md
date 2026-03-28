@@ -11,3 +11,5 @@ Document frequency counts documents containing term.
 
 Inverse document frequency penalizes common words.
 
+TF-IDF product balances local and global frequency.
+
