@@ -23,3 +23,5 @@ Lexical features capture word information.
 
 Syntactic features encode sentence structure.
 
+Semantic features represent meaning.
+
