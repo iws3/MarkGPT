@@ -51,3 +51,5 @@ Scaling laws predict performance with size.
 
 ## Advanced Language Models
 
+Temperature and top-k sampling control generation diversity.
+
