@@ -33,3 +33,5 @@ Additive compositionality enables phrase vectors.
 
 Geometry of embedding space interpretable.
 
+## Learning Embeddings
+
