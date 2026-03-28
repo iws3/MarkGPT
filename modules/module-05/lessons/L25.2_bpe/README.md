@@ -15,3 +15,5 @@ Final vocabulary balances coverage and size.
 
 BPE enables handling rare words effectively.
 
+Shared vocabulary reduces storage requirements.
+
