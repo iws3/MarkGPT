@@ -35,3 +35,5 @@ Context-aware tokenization adapts to text type.
 
 ## Text Preprocessing
 
+Lowercasing normalizes character case.
+
