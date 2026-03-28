@@ -3,3 +3,5 @@
 
 ## TF-IDF Calculation
 
+TF-IDF weights term importance in documents.
+
