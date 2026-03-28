@@ -35,3 +35,5 @@ Instruction tuning improves usability.
 
 ## GPT Capabilities
 
+Text generation produces coherent sequences.
+
