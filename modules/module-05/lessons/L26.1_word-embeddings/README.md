@@ -49,3 +49,5 @@ Training objective shapes embedding properties.
 
 Initialization affects convergence speed.
 
+## Advanced Embedding Techniques
+
