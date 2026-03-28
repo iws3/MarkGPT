@@ -15,3 +15,5 @@ Analogies solvable through vector arithmetic.
 
 Dimensionality reduction preserves relationships.
 
+Distributed representations improve generalization.
+
