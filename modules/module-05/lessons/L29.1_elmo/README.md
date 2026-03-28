@@ -13,3 +13,5 @@ Fixed embeddings cannot capture variation.
 
 Character-level inputs enable morphological transfer.
 
+Multiple layers capture different linguistic properties.
+
