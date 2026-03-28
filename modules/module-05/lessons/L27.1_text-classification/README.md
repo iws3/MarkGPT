@@ -41,3 +41,5 @@ Class weighting handles imbalance.
 
 Data augmentation increases training data.
 
+Regularization prevents overfitting.
+
