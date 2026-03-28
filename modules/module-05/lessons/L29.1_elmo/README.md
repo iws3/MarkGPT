@@ -21,3 +21,5 @@ Layer combination weights determine representation.
 
 Language modeling predicts next token.
 
+Bidirectional prediction provides full context.
+
