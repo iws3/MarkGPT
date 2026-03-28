@@ -15,3 +15,5 @@ Constraints enforce valid label combinations.
 
 Inference algorithms find best sequence.
 
+Decoding complexity depends on feature scope.
+
