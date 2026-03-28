@@ -33,3 +33,5 @@ Fine-tuning adapts to specific tasks.
 
 Representation quality improves downstream performance.
 
+## Applications and Extensions
+
