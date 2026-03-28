@@ -17,3 +17,5 @@ Logarithmic scaling compresses large frequencies.
 
 Normalization makes vectors comparable across documents.
 
+## Weighting Schemes
+
