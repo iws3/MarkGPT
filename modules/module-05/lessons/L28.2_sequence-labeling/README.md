@@ -33,3 +33,5 @@ Exact inference through dynamic programming.
 
 Approximate inference for complex models.
 
+## Model Combinations
+
