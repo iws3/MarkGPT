@@ -27,3 +27,5 @@ Morphological tokenization separates roots and affixes.
 
 Syntactic tokenization respects grammatical boundaries.
 
+Semantic tokenization captures meaning units.
+
