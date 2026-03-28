@@ -37,3 +37,5 @@ Learning rate scheduling improves convergence.
 
 Captures semantic and syntactic relationships.
 
+Analogy tasks reveal geometric structure.
+
