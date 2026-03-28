@@ -45,3 +45,5 @@ Sparse representations efficiently store vectors.
 
 Dimensionality reduction preserves important information.
 
+Semantic extensions improve retrieval.
+
