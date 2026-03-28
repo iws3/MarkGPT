@@ -11,3 +11,5 @@ First-order Markov models capture label pairs.
 
 Higher-order models capture longer patterns.
 
+Constraints enforce valid label combinations.
+
