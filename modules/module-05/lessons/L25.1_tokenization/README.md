@@ -17,3 +17,5 @@ Delimiter choices affect downstream model behavior.
 
 Language-specific considerations impact tokenization.
 
+## Tokenization Approaches
+
