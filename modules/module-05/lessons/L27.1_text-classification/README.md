@@ -11,3 +11,5 @@ Neural approaches learn representations.
 
 CNN for text captures n-gram patterns.
 
+RNN for text captures sequential information.
+
