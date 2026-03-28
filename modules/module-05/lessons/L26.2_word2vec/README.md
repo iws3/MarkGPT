@@ -39,3 +39,5 @@ Captures semantic and syntactic relationships.
 
 Analogy tasks reveal geometric structure.
 
+Words and contexts have dual representations.
+
