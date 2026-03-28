@@ -51,3 +51,5 @@ Accent removal handles diacritical marks.
 
 ## Advanced Tokenization Techniques
 
+Morphological analysis decomposes words into morphemes.
+
