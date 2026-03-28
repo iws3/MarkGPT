@@ -53,3 +53,5 @@ Accent removal handles diacritical marks.
 
 Morphological analysis decomposes words into morphemes.
 
+Dependency parsing reveals syntactic relationships.
+
