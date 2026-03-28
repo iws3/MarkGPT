@@ -49,3 +49,5 @@ Semantic extensions improve retrieval.
 
 Multi-field documents separate component weights.
 
+## Advanced IR Techniques
+
