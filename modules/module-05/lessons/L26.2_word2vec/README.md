@@ -27,3 +27,5 @@ Random window size varies context diversity.
 
 Subsampling removes frequent words.
 
+Negative sampling speeds training.
+
