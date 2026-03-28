@@ -53,3 +53,5 @@ Initialization affects convergence speed.
 
 Retrofitting embeddings to external knowledge bases.
 
+Cross-lingual embeddings enable multilingual transfer.
+
