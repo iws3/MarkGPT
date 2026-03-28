@@ -27,3 +27,5 @@ Global normalization enables correct probability.
 
 CRF training maximizes sequence likelihood.
 
+Feature templates define potential functions.
+
