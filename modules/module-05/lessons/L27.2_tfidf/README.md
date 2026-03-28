@@ -39,3 +39,5 @@ TF-IDF improves document ranking.
 
 Cosine similarity measures document relevance.
 
+Query vectors use same weighting as documents.
+
