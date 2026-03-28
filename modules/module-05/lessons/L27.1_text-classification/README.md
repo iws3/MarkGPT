@@ -9,3 +9,5 @@ Bag-of-words ignores word order.
 
 Neural approaches learn representations.
 
+CNN for text captures n-gram patterns.
+
