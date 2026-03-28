@@ -29,3 +29,5 @@ Magnitude affects similarity metrics.
 
 Vector operations reflect linguistic properties.
 
+Additive compositionality enables phrase vectors.
+
