@@ -37,3 +37,5 @@ Beam search finds high-probability sequences.
 
 Information extraction builds knowledge graphs.
 
+Question answering locates relevant entities.
+
