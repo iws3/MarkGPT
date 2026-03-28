@@ -3,3 +3,5 @@
 
 ## Transformer Architecture
 
+Transformers use self-attention for context.
+
