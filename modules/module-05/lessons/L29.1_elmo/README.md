@@ -29,3 +29,5 @@ Large-scale pretraining enables good representations.
 
 Transfer learning applies learned representations.
 
+Fine-tuning adapts to specific tasks.
+
