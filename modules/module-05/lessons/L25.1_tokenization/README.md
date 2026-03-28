@@ -19,3 +19,5 @@ Language-specific considerations impact tokenization.
 
 ## Tokenization Approaches
 
+Rule-based tokenization uses hand-crafted rules.
+
