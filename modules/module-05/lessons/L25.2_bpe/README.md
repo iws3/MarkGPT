@@ -25,3 +25,5 @@ Unknown words decompose into known subwords.
 
 Character awareness enables spelling patterns.
 
+Morphological patterns emerge from subwords.
+
