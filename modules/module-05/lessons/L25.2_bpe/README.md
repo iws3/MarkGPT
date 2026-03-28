@@ -51,3 +51,5 @@ Multilingual vocabulary supports cross-lingual models.
 
 ## BPE Variants and Optimizations
 
+SentencePiece learns BPE on character and word levels.
+
