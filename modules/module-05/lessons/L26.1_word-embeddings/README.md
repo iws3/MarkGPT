@@ -43,3 +43,5 @@ Prediction tasks drive embedding learning.
 
 Frequency weighting emphasizes common words.
 
+Context window determines learned relationships.
+
