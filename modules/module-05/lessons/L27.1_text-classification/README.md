@@ -13,3 +13,5 @@ CNN for text captures n-gram patterns.
 
 RNN for text captures sequential information.
 
+Attention mechanisms focus on important words.
+
