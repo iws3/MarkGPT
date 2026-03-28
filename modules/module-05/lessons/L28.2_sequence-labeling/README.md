@@ -49,3 +49,5 @@ Transformer-CRF leverages modern architectures.
 
 Multi-task learning improves generalization.
 
+## Advanced Sequence Models
+
