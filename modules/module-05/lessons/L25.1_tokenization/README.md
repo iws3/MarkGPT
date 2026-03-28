@@ -37,3 +37,5 @@ Context-aware tokenization adapts to text type.
 
 Lowercasing normalizes character case.
 
+Punctuation removal simplifies text.
+
