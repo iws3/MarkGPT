@@ -41,3 +41,5 @@ Punctuation removal simplifies text.
 
 Whitespace normalization handles formatting.
 
+Stop word removal reduces noise.
+
