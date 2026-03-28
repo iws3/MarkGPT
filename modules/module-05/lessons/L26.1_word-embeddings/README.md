@@ -51,3 +51,5 @@ Initialization affects convergence speed.
 
 ## Advanced Embedding Techniques
 
+Retrofitting embeddings to external knowledge bases.
+
