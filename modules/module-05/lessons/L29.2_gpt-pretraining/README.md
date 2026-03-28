@@ -15,3 +15,5 @@ Feed-forward networks increase expressiveness.
 
 Layer normalization stabilizes training.
 
+Residual connections improve gradient flow.
+
