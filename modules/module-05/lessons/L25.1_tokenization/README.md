@@ -13,3 +13,5 @@ Subword tokens balance vocabulary and coverage.
 
 Whitespace tokenization fails for languages without spaces.
 
+Delimiter choices affect downstream model behavior.
+
