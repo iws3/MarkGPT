@@ -9,3 +9,5 @@ Skip-gram uses target to predict surrounding words.
 
 Continuous bag of words predicts target from context.
 
+Single hidden layer keeps model simple.
+
