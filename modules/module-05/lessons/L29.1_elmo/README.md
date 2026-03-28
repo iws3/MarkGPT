@@ -23,3 +23,5 @@ Language modeling predicts next token.
 
 Bidirectional prediction provides full context.
 
+Shared weights increase efficiency.
+
