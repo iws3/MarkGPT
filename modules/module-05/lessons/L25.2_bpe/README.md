@@ -23,3 +23,5 @@ Subword units handle out-of-vocabulary words.
 
 Unknown words decompose into known subwords.
 
+Character awareness enables spelling patterns.
+
