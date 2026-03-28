@@ -21,3 +21,5 @@ Distributed representations improve generalization.
 
 Semantically similar words cluster in space.
 
+Related concepts form coherent regions.
+
