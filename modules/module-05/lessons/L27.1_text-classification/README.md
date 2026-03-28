@@ -25,3 +25,5 @@ Syntactic features encode sentence structure.
 
 Semantic features represent meaning.
 
+Discourse features capture document flow.
+
