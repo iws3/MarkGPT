@@ -7,3 +7,5 @@ Structured prediction outputs sequences of labels.
 
 Sequential dependencies affect valid predictions.
 
+First-order Markov models capture label pairs.
+
