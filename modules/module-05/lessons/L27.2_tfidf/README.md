@@ -35,3 +35,5 @@ Domain-specific schemes address task characteristics.
 
 ## Information Retrieval
 
+TF-IDF improves document ranking.
+
