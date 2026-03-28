@@ -23,3 +23,5 @@ Stochastic gradient descent optimizes embeddings.
 
 Context window slides across text.
 
+Random window size varies context diversity.
+
