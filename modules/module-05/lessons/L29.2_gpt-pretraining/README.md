@@ -19,3 +19,5 @@ Residual connections improve gradient flow.
 
 ## Language Model Pretraining
 
+Next token prediction provides learning signal.
+
