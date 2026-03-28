@@ -3,3 +3,5 @@
 
 ## Embedding Fundamentals
 
+Word embeddings map words to dense vectors.
+
