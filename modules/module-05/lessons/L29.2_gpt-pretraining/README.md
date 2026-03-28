@@ -13,3 +13,5 @@ Multi-head attention models diverse relationships.
 
 Feed-forward networks increase expressiveness.
 
+Layer normalization stabilizes training.
+
