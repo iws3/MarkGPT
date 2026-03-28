@@ -43,3 +43,5 @@ Words and contexts have dual representations.
 
 Frequency affects embedding quality.
 
+Context size controls local vs global patterns.
+
