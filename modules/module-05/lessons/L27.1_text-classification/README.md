@@ -37,3 +37,5 @@ Feature engineering requires domain knowledge.
 
 Balanced datasets ensure fair learning.
 
+Class weighting handles imbalance.
+
