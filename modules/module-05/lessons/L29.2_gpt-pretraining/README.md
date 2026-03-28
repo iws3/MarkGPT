@@ -33,3 +33,5 @@ In-context learning enables few-shot performance.
 
 Instruction tuning improves usability.
 
+## GPT Capabilities
+
