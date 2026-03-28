@@ -27,3 +27,5 @@ Large text corpora provide training data.
 
 Unsupervised learning requires no annotations.
 
+Emergent capabilities appear with scale.
+
