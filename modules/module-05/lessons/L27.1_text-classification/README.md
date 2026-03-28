@@ -29,3 +29,5 @@ Discourse features capture document flow.
 
 Character n-grams handle morphology.
 
+Pre-trained embeddings transfer knowledge.
+
