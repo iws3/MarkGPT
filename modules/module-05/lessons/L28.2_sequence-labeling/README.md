@@ -37,3 +37,5 @@ Approximate inference for complex models.
 
 RNN captures sequential context.
 
+CRF decoding ensures label validity.
+
