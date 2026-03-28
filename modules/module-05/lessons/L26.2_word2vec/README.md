@@ -17,3 +17,5 @@ Output layer predicts word probabilities.
 
 Negative sampling approximates softmax.
 
+## Training Mechanisms
+
