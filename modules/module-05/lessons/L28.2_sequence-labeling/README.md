@@ -5,3 +5,5 @@
 
 Structured prediction outputs sequences of labels.
 
+Sequential dependencies affect valid predictions.
+
