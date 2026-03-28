@@ -13,3 +13,5 @@ Multi-word entities require coordinated predictions.
 
 Nested entities complicate label structure.
 
+Entity context provides classification signal.
+
