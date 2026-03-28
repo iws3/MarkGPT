@@ -3,3 +3,5 @@
 
 ## Classification Approaches
 
+Text classification assigns documents to categories.
+
