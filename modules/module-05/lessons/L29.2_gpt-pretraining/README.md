@@ -7,3 +7,5 @@ Transformers use self-attention for context.
 
 Parallel processing enables efficiency.
 
+Positional encoding captures sequence order.
+
