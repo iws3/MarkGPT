@@ -35,3 +35,5 @@ Token sequences represent rare words accurately.
 
 ## Vocabulary Construction
 
+Initial vocabulary contains characters and special tokens.
+
