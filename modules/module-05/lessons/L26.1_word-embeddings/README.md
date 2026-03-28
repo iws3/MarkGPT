@@ -13,3 +13,5 @@ Embedding space enables mathematical operations.
 
 Analogies solvable through vector arithmetic.
 
+Dimensionality reduction preserves relationships.
+
