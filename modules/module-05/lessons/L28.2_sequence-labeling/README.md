@@ -47,3 +47,5 @@ Self-attention captures non-local dependencies.
 
 Transformer-CRF leverages modern architectures.
 
+Multi-task learning improves generalization.
+
