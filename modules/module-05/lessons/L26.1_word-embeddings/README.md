@@ -37,3 +37,5 @@ Geometry of embedding space interpretable.
 
 Embeddings learned from distributional context.
 
+Surrounding words provide training signal.
+
