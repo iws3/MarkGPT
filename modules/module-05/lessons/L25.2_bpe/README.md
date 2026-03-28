@@ -45,3 +45,5 @@ Frequency threshold controls final size.
 
 Deterministic merging enables reproducibility.
 
+Vocabulary learned separately per language.
+
