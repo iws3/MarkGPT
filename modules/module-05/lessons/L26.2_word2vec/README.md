@@ -21,3 +21,5 @@ Negative sampling approximates softmax.
 
 Stochastic gradient descent optimizes embeddings.
 
+Context window slides across text.
+
