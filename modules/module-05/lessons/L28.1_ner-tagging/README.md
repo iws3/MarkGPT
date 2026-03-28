@@ -33,3 +33,5 @@ LSTM-CRF combines neural and structured learning.
 
 Beam search finds high-probability sequences.
 
+## NER Applications
+
