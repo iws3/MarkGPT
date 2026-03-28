@@ -9,3 +9,5 @@ Frequent character pairs merge into single tokens.
 
 Iterative merging builds hierarchical vocabulary.
 
+Merge operations preserve frequency information.
+
