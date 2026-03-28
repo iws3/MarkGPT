@@ -35,3 +35,5 @@ Geometry of embedding space interpretable.
 
 ## Learning Embeddings
 
+Embeddings learned from distributional context.
+
