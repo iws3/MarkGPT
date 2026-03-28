@@ -3,3 +3,5 @@
 
 ## Contextual Embeddings
 
+ELMo generates context-dependent word representations.
+
