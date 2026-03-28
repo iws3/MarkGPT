@@ -3,3 +3,5 @@
 
 ## Tokenization Fundamentals
 
+Tokenization breaks text into units for processing.
+
