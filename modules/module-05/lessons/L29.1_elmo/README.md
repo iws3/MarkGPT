@@ -5,3 +5,5 @@
 
 ELMo generates context-dependent word representations.
 
+BiLSTM processes text bidirectionally.
+
