@@ -9,3 +9,5 @@ BiLSTM processes text bidirectionally.
 
 Word meaning varies with context.
 
+Fixed embeddings cannot capture variation.
+
