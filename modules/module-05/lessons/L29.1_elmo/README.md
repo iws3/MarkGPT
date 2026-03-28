@@ -41,3 +41,5 @@ Multilingual models handle code-switching.
 
 Domain-specific models improve specialized tasks.
 
+Lightweight variants reduce memory footprint.
+
