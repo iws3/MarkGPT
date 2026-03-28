@@ -49,3 +49,5 @@ Negative samples define what vectors avoid.
 
 Simple architecture enables scalability.
 
+## Word2Vec Extensions
+
