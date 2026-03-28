@@ -15,3 +15,5 @@ TF-IDF product balances local and global frequency.
 
 Logarithmic scaling compresses large frequencies.
 
+Normalization makes vectors comparable across documents.
+
