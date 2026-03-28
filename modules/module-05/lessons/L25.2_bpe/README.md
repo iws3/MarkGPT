@@ -31,3 +31,5 @@ Language transfer improved through shared tokens.
 
 Vocabulary size controls parameter count.
 
+Token sequences represent rare words accurately.
+
