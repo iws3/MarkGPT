@@ -15,3 +15,5 @@ Embedding matrix weights become word vectors.
 
 Output layer predicts word probabilities.
 
+Negative sampling approximates softmax.
+
