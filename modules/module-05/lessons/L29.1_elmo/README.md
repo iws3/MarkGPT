@@ -19,3 +19,5 @@ Layer combination weights determine representation.
 
 ## Training Mechanism
 
+Language modeling predicts next token.
+
