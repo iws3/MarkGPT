@@ -11,3 +11,5 @@ Similar words have similar embeddings.
 
 Embedding space enables mathematical operations.
 
+Analogies solvable through vector arithmetic.
+
