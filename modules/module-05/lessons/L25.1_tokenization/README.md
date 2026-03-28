@@ -39,3 +39,5 @@ Lowercasing normalizes character case.
 
 Punctuation removal simplifies text.
 
+Whitespace normalization handles formatting.
+
