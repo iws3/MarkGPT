@@ -3,3 +3,5 @@
 
 ## NER Task Definition
 
+NER identifies named entities in text.
+
