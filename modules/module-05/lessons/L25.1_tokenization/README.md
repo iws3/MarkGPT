@@ -45,3 +45,5 @@ Stop word removal reduces noise.
 
 Stemming reduces words to root forms.
 
+Lemmatization finds canonical word forms.
+
