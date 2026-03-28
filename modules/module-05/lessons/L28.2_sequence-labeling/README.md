@@ -3,3 +3,5 @@
 
 ## Sequence Models
 
+Structured prediction outputs sequences of labels.
+
