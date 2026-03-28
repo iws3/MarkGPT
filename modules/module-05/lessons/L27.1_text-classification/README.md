@@ -15,3 +15,5 @@ RNN for text captures sequential information.
 
 Attention mechanisms focus on important words.
 
+Hierarchical models process documents in sections.
+
