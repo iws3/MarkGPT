@@ -43,3 +43,5 @@ Whitespace normalization handles formatting.
 
 Stop word removal reduces noise.
 
+Stemming reduces words to root forms.
+
