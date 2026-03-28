@@ -47,3 +47,5 @@ Semantic role labeling identifies relationships.
 
 Relation extraction connects entity pairs.
 
+Event extraction identifies complex structures.
+
