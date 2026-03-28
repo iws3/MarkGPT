@@ -3,3 +3,5 @@
 
 ## BPE Algorithm
 
+Byte Pair Encoding learns vocabulary from data.
+
