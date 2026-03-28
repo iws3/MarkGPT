@@ -5,3 +5,5 @@
 
 Transformers use self-attention for context.
 
+Parallel processing enables efficiency.
+
