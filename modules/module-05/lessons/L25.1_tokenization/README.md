@@ -9,3 +9,5 @@ Word tokens represent semantic units in language.
 
 Character tokens enable morphological analysis.
 
+Subword tokens balance vocabulary and coverage.
+
