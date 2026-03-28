@@ -25,3 +25,5 @@ Logarithmic frequencies reduce range.
 
 Augmented frequency controls TF influence.
 
+Double normalization compares documents fairly.
+
