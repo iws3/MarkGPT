@@ -35,3 +35,5 @@ Representation quality improves downstream performance.
 
 ## Applications and Extensions
 
+NLP tasks benefit from contextual representations.
+
