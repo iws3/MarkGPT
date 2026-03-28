@@ -43,3 +43,5 @@ Rare merges dropped to prevent overfitting.
 
 Frequency threshold controls final size.
 
+Deterministic merging enables reproducibility.
+
