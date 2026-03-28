@@ -21,3 +21,5 @@ Decoding complexity depends on feature scope.
 
 Conditional Random Fields model label dependencies.
 
+Potential functions score label sequences.
+
