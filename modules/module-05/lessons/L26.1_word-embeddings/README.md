@@ -31,3 +31,5 @@ Vector operations reflect linguistic properties.
 
 Additive compositionality enables phrase vectors.
 
+Geometry of embedding space interpretable.
+
