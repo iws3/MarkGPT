@@ -33,3 +33,5 @@ Vocabulary size controls parameter count.
 
 Token sequences represent rare words accurately.
 
+## Vocabulary Construction
+
