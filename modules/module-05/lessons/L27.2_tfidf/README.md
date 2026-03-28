@@ -37,3 +37,5 @@ Domain-specific schemes address task characteristics.
 
 TF-IDF improves document ranking.
 
+Cosine similarity measures document relevance.
+
