@@ -39,3 +39,5 @@ Balanced datasets ensure fair learning.
 
 Class weighting handles imbalance.
 
+Data augmentation increases training data.
+
