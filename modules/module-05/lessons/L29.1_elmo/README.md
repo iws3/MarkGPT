@@ -25,3 +25,5 @@ Bidirectional prediction provides full context.
 
 Shared weights increase efficiency.
 
+Large-scale pretraining enables good representations.
+
