@@ -11,3 +11,5 @@ Positional encoding captures sequence order.
 
 Multi-head attention models diverse relationships.
 
+Feed-forward networks increase expressiveness.
+
