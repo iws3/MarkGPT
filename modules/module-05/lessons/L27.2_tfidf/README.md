@@ -51,3 +51,5 @@ Multi-field documents separate component weights.
 
 ## Advanced IR Techniques
 
+Semantic search uses embeddings for retrieval.
+
