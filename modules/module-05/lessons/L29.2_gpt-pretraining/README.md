@@ -21,3 +21,5 @@ Residual connections improve gradient flow.
 
 Next token prediction provides learning signal.
 
+Causal attention prevents future information access.
+
