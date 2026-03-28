@@ -47,3 +47,5 @@ Real-time systems need fast inference.
 
 Combination with static embeddings improves robustness.
 
+Integration with downstream models straightforward.
+
