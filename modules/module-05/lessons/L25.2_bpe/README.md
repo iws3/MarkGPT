@@ -5,3 +5,5 @@
 
 Byte Pair Encoding learns vocabulary from data.
 
+Frequent character pairs merge into single tokens.
+
