@@ -9,3 +9,5 @@ Vector dimensions capture semantic properties.
 
 Similar words have similar embeddings.
 
+Embedding space enables mathematical operations.
+
