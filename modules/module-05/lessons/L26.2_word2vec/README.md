@@ -51,3 +51,5 @@ Simple architecture enables scalability.
 
 ## Word2Vec Extensions
 
+Fasttext extends word2vec with character n-grams.
+
