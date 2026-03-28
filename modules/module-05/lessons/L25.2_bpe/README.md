@@ -55,3 +55,5 @@ SentencePiece learns BPE on character and word levels.
 
 WordPiece uses likelihood criterion for merging.
 
+Unigram language model selects vocabulary probabilistically.
+
