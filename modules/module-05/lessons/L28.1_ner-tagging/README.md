@@ -53,3 +53,5 @@ Event extraction identifies complex structures.
 
 Distant supervision generates training data automatically.
 
+Transfer learning improves low-resource NER.
+
