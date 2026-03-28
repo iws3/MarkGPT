@@ -45,3 +45,5 @@ Frequency weighting emphasizes common words.
 
 Context window determines learned relationships.
 
+Training objective shapes embedding properties.
+
