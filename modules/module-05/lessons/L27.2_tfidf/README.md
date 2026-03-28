@@ -43,3 +43,5 @@ Query vectors use same weighting as documents.
 
 Sparse representations efficiently store vectors.
 
+Dimensionality reduction preserves important information.
+
