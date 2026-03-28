@@ -15,3 +15,5 @@ Character-level inputs enable morphological transfer.
 
 Multiple layers capture different linguistic properties.
 
+Layer combination weights determine representation.
+
