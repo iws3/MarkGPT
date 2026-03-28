@@ -31,3 +31,5 @@ Character n-grams handle morphology.
 
 Pre-trained embeddings transfer knowledge.
 
+Feature engineering requires domain knowledge.
+
