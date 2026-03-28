@@ -19,3 +19,5 @@ Decoding complexity depends on feature scope.
 
 ## CRF and Structured Learning
 
+Conditional Random Fields model label dependencies.
+
