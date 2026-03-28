@@ -37,3 +37,5 @@ Instruction tuning improves usability.
 
 Text generation produces coherent sequences.
 
+Few-shot learning adapts quickly.
+
