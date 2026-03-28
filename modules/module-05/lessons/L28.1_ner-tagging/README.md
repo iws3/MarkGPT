@@ -15,3 +15,5 @@ Nested entities complicate label structure.
 
 Entity context provides classification signal.
 
+Domain variation affects entity definitions.
+
