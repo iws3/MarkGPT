@@ -41,3 +41,5 @@ Merge frequency determines vocabulary growth.
 
 Rare merges dropped to prevent overfitting.
 
+Frequency threshold controls final size.
+
