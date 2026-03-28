@@ -17,3 +17,5 @@ Dimensionality reduction preserves relationships.
 
 Distributed representations improve generalization.
 
+## Embedding Properties
+
