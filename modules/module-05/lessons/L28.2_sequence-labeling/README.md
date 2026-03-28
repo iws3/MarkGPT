@@ -35,3 +35,5 @@ Approximate inference for complex models.
 
 ## Model Combinations
 
+RNN captures sequential context.
+
