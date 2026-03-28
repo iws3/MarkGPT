@@ -27,3 +27,5 @@ IOBES tagging further refines boundaries.
 
 CRF decoding ensures valid label sequences.
 
+HMM captures label dependencies.
+
