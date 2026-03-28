@@ -39,3 +39,5 @@ Initial vocabulary contains characters and special tokens.
 
 Merge frequency determines vocabulary growth.
 
+Rare merges dropped to prevent overfitting.
+
