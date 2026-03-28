@@ -39,3 +39,5 @@ RNN captures sequential context.
 
 CRF decoding ensures label validity.
 
+LSTM-CRF combines neural and structured approaches.
+
