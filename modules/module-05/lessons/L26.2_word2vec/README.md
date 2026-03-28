@@ -31,3 +31,5 @@ Negative sampling speeds training.
 
 Hierarchical softmax reduces computation.
 
+Learning rate scheduling improves convergence.
+
