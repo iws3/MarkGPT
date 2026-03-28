@@ -51,3 +51,5 @@ Integration with downstream models straightforward.
 
 ## Contextualized Representation Extensions
 
+BERT uses masked language modeling for deeper context.
+
