@@ -41,3 +41,5 @@ Question answering locates relevant entities.
 
 Coreference resolution links entity mentions.
 
+Entity linking maps entities to knowledge base.
+
