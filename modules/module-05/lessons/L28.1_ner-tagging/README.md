@@ -51,3 +51,5 @@ Event extraction identifies complex structures.
 
 ## Advanced NER Methods
 
+Distant supervision generates training data automatically.
+
