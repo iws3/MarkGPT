@@ -53,3 +53,5 @@ Multilingual vocabulary supports cross-lingual models.
 
 SentencePiece learns BPE on character and word levels.
 
+WordPiece uses likelihood criterion for merging.
+
