@@ -27,3 +27,5 @@ Shared weights increase efficiency.
 
 Large-scale pretraining enables good representations.
 
+Transfer learning applies learned representations.
+
