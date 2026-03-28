@@ -21,3 +21,5 @@ Shared vocabulary reduces storage requirements.
 
 Subword units handle out-of-vocabulary words.
 
+Unknown words decompose into known subwords.
+
