@@ -11,3 +11,5 @@ Entity boundaries must be precise.
 
 Multi-word entities require coordinated predictions.
 
+Nested entities complicate label structure.
+
