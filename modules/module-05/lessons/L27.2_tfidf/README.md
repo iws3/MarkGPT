@@ -23,3 +23,5 @@ Raw counts preserve frequency information.
 
 Logarithmic frequencies reduce range.
 
+Augmented frequency controls TF influence.
+
