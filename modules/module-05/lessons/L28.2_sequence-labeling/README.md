@@ -17,3 +17,5 @@ Inference algorithms find best sequence.
 
 Decoding complexity depends on feature scope.
 
+## CRF and Structured Learning
+
