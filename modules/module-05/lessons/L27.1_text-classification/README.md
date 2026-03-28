@@ -51,3 +51,5 @@ Ensemble methods combine multiple models.
 
 ## Advanced Classification Methods
 
+Zero-shot learning classifies without labeled examples.
+
