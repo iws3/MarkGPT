@@ -11,3 +11,5 @@ Continuous bag of words predicts target from context.
 
 Single hidden layer keeps model simple.
 
+Embedding matrix weights become word vectors.
+
