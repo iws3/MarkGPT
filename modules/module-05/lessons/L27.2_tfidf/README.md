@@ -29,3 +29,5 @@ Double normalization compares documents fairly.
 
 Pivoted normalization corrects length bias.
 
+BM25 extends TF-IDF with saturation.
+
