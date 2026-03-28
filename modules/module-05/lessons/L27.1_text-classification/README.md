@@ -21,3 +21,5 @@ Hierarchical models process documents in sections.
 
 Lexical features capture word information.
 
+Syntactic features encode sentence structure.
+
