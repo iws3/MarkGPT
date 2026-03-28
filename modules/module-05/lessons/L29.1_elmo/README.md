@@ -39,3 +39,5 @@ NLP tasks benefit from contextual representations.
 
 Multilingual models handle code-switching.
 
+Domain-specific models improve specialized tasks.
+
