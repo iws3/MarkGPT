@@ -29,3 +29,5 @@ Subsampling removes frequent words.
 
 Negative sampling speeds training.
 
+Hierarchical softmax reduces computation.
+
