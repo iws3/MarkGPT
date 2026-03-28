@@ -27,3 +27,5 @@ Augmented frequency controls TF influence.
 
 Double normalization compares documents fairly.
 
+Pivoted normalization corrects length bias.
+
