@@ -29,3 +29,5 @@ Syntactic tokenization respects grammatical boundaries.
 
 Semantic tokenization captures meaning units.
 
+Hybrid approaches combine multiple techniques.
+
