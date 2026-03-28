@@ -41,3 +41,5 @@ Surrounding words provide training signal.
 
 Prediction tasks drive embedding learning.
 
+Frequency weighting emphasizes common words.
+
