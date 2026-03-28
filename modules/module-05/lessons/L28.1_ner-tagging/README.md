@@ -19,3 +19,5 @@ Domain variation affects entity definitions.
 
 ## Sequence Labeling
 
+BIO tagging represents entity boundaries.
+
