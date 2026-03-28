@@ -17,3 +17,5 @@ BPE enables handling rare words effectively.
 
 Shared vocabulary reduces storage requirements.
 
+## Subword Mechanisms
+
