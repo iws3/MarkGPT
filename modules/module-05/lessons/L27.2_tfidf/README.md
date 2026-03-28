@@ -33,3 +33,5 @@ BM25 extends TF-IDF with saturation.
 
 Domain-specific schemes address task characteristics.
 
+## Information Retrieval
+
