@@ -47,3 +47,5 @@ Deterministic merging enables reproducibility.
 
 Vocabulary learned separately per language.
 
+Multilingual vocabulary supports cross-lingual models.
+
