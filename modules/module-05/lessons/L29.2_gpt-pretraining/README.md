@@ -9,3 +9,5 @@ Parallel processing enables efficiency.
 
 Positional encoding captures sequence order.
 
+Multi-head attention models diverse relationships.
+
