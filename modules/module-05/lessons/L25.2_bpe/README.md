@@ -13,3 +13,5 @@ Merge operations preserve frequency information.
 
 Final vocabulary balances coverage and size.
 
+BPE enables handling rare words effectively.
+
