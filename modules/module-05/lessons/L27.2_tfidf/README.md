@@ -9,3 +9,5 @@ Term frequency counts word occurrences.
 
 Document frequency counts documents containing term.
 
+Inverse document frequency penalizes common words.
+
