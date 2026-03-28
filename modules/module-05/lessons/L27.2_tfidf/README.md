@@ -31,3 +31,5 @@ Pivoted normalization corrects length bias.
 
 BM25 extends TF-IDF with saturation.
 
+Domain-specific schemes address task characteristics.
+
