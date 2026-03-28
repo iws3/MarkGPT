@@ -39,3 +39,5 @@ Embeddings learned from distributional context.
 
 Surrounding words provide training signal.
 
+Prediction tasks drive embedding learning.
+
