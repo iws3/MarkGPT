@@ -45,3 +45,5 @@ Frequency affects embedding quality.
 
 Context size controls local vs global patterns.
 
+Negative samples define what vectors avoid.
+
