@@ -25,3 +25,5 @@ Statistical models learn tokenization boundaries.
 
 Morphological tokenization separates roots and affixes.
 
+Syntactic tokenization respects grammatical boundaries.
+
