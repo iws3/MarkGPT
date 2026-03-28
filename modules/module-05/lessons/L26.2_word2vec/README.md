@@ -5,3 +5,5 @@
 
 Word2Vec predicts context words from target.
 
+Skip-gram uses target to predict surrounding words.
+
