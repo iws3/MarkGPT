@@ -57,3 +57,5 @@ Dependency parsing reveals syntactic relationships.
 
 Tokenization for low-resource languages differs significantly.
 
+Script-aware tokenization handles multiple writing systems.
+
