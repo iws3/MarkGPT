@@ -11,3 +11,5 @@ Word meaning varies with context.
 
 Fixed embeddings cannot capture variation.
 
+Character-level inputs enable morphological transfer.
+
