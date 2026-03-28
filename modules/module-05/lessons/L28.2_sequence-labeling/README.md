@@ -51,3 +51,5 @@ Multi-task learning improves generalization.
 
 ## Advanced Sequence Models
 
+Pointer networks learn attention-based selection.
+
