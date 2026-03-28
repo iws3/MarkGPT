@@ -23,3 +23,5 @@ BIO tagging represents entity boundaries.
 
 BIOES tagging distinguishes entity endings.
 
+IOBES tagging further refines boundaries.
+
