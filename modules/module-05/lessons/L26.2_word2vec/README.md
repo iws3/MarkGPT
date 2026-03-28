@@ -35,3 +35,5 @@ Learning rate scheduling improves convergence.
 
 ## Word2Vec Properties
 
+Captures semantic and syntactic relationships.
+
