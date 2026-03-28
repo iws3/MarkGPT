@@ -9,3 +9,5 @@ Sequential dependencies affect valid predictions.
 
 First-order Markov models capture label pairs.
 
+Higher-order models capture longer patterns.
+
