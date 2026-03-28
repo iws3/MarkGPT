@@ -43,3 +43,5 @@ Domain-specific models improve specialized tasks.
 
 Lightweight variants reduce memory footprint.
 
+Real-time systems need fast inference.
+
