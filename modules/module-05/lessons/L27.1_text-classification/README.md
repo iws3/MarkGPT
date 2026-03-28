@@ -33,3 +33,5 @@ Pre-trained embeddings transfer knowledge.
 
 Feature engineering requires domain knowledge.
 
+## Training Strategies
+
