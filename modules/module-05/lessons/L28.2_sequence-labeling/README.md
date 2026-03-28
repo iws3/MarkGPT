@@ -25,3 +25,5 @@ Potential functions score label sequences.
 
 Global normalization enables correct probability.
 
+CRF training maximizes sequence likelihood.
+
