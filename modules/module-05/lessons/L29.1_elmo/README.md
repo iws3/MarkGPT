@@ -49,3 +49,5 @@ Combination with static embeddings improves robustness.
 
 Integration with downstream models straightforward.
 
+## Contextualized Representation Extensions
+
