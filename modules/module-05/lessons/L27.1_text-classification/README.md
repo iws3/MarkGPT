@@ -49,3 +49,5 @@ Hyperparameter tuning optimizes performance.
 
 Ensemble methods combine multiple models.
 
+## Advanced Classification Methods
+
