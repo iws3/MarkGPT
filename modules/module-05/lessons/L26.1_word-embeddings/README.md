@@ -23,3 +23,5 @@ Semantically similar words cluster in space.
 
 Related concepts form coherent regions.
 
+Direction captures semantic relationships.
+
