@@ -27,3 +27,5 @@ Character awareness enables spelling patterns.
 
 Morphological patterns emerge from subwords.
 
+Language transfer improved through shared tokens.
+
