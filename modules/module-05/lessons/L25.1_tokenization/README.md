@@ -59,3 +59,5 @@ Tokenization for low-resource languages differs significantly.
 
 Script-aware tokenization handles multiple writing systems.
 
+Multi-lingual tokenizers handle code-switching.
+
