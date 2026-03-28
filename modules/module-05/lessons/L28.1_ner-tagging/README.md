@@ -45,3 +45,5 @@ Entity linking maps entities to knowledge base.
 
 Semantic role labeling identifies relationships.
 
+Relation extraction connects entity pairs.
+
