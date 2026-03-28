@@ -55,3 +55,5 @@ Morphological analysis decomposes words into morphemes.
 
 Dependency parsing reveals syntactic relationships.
 
+Tokenization for low-resource languages differs significantly.
+
