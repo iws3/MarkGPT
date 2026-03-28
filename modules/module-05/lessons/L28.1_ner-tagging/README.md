@@ -49,3 +49,5 @@ Relation extraction connects entity pairs.
 
 Event extraction identifies complex structures.
 
+## Advanced NER Methods
+
