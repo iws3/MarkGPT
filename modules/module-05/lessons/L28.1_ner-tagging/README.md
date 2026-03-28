@@ -17,3 +17,5 @@ Entity context provides classification signal.
 
 Domain variation affects entity definitions.
 
+## Sequence Labeling
+
