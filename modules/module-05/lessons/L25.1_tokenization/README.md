@@ -15,3 +15,5 @@ Whitespace tokenization fails for languages without spaces.
 
 Delimiter choices affect downstream model behavior.
 
+Language-specific considerations impact tokenization.
+
