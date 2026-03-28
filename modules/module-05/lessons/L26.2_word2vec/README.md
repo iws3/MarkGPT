@@ -19,3 +19,5 @@ Negative sampling approximates softmax.
 
 ## Training Mechanisms
 
+Stochastic gradient descent optimizes embeddings.
+
