@@ -43,3 +43,5 @@ Coreference resolution links entity mentions.
 
 Entity linking maps entities to knowledge base.
 
+Semantic role labeling identifies relationships.
+
