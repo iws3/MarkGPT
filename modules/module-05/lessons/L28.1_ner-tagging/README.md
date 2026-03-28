@@ -35,3 +35,5 @@ Beam search finds high-probability sequences.
 
 ## NER Applications
 
+Information extraction builds knowledge graphs.
+
