@@ -31,3 +31,5 @@ Semantic tokenization captures meaning units.
 
 Hybrid approaches combine multiple techniques.
 
+Context-aware tokenization adapts to text type.
+
