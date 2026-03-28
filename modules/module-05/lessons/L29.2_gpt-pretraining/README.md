@@ -43,3 +43,5 @@ Prompt engineering guides model behavior.
 
 Chain-of-thought improves reasoning.
 
+Instruction following enables task specification.
+
