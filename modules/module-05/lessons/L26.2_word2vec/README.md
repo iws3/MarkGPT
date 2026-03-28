@@ -25,3 +25,5 @@ Context window slides across text.
 
 Random window size varies context diversity.
 
+Subsampling removes frequent words.
+
