@@ -21,3 +21,5 @@ Domain variation affects entity definitions.
 
 BIO tagging represents entity boundaries.
 
+BIOES tagging distinguishes entity endings.
+
