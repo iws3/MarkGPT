@@ -47,3 +47,5 @@ Instruction following enables task specification.
 
 Knowledge stored implicitly in parameters.
 
+Scaling laws predict performance with size.
+
