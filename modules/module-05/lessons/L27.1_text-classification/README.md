@@ -27,3 +27,5 @@ Semantic features represent meaning.
 
 Discourse features capture document flow.
 
+Character n-grams handle morphology.
+
