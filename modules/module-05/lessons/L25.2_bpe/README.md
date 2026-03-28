@@ -37,3 +37,5 @@ Token sequences represent rare words accurately.
 
 Initial vocabulary contains characters and special tokens.
 
+Merge frequency determines vocabulary growth.
+
