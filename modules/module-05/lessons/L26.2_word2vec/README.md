@@ -47,3 +47,5 @@ Context size controls local vs global patterns.
 
 Negative samples define what vectors avoid.
 
+Simple architecture enables scalability.
+
