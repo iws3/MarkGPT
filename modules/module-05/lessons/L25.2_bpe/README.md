@@ -19,3 +19,5 @@ Shared vocabulary reduces storage requirements.
 
 ## Subword Mechanisms
 
+Subword units handle out-of-vocabulary words.
+
