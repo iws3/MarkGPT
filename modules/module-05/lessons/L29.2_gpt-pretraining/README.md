@@ -23,3 +23,5 @@ Next token prediction provides learning signal.
 
 Causal attention prevents future information access.
 
+Large text corpora provide training data.
+
