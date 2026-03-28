@@ -13,3 +13,5 @@ Single hidden layer keeps model simple.
 
 Embedding matrix weights become word vectors.
 
+Output layer predicts word probabilities.
+
