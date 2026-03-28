@@ -17,3 +17,5 @@ Attention mechanisms focus on important words.
 
 Hierarchical models process documents in sections.
 
+## Feature Representation
+
