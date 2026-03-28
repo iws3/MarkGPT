@@ -5,3 +5,5 @@
 
 TF-IDF weights term importance in documents.
 
+Term frequency counts word occurrences.
+
