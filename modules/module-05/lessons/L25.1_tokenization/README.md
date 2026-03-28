@@ -5,3 +5,5 @@
 
 Tokenization breaks text into units for processing.
 
+Word tokens represent semantic units in language.
+
