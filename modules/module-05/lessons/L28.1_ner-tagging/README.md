@@ -29,3 +29,5 @@ CRF decoding ensures valid label sequences.
 
 HMM captures label dependencies.
 
+LSTM-CRF combines neural and structured learning.
+
