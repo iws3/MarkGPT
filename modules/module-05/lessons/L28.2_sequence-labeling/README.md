@@ -43,3 +43,5 @@ LSTM-CRF combines neural and structured approaches.
 
 BiLSTM-CRF uses bidirectional context.
 
+Self-attention captures non-local dependencies.
+
