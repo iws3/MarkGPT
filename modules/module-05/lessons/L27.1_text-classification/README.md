@@ -5,3 +5,5 @@
 
 Text classification assigns documents to categories.
 
+Bag-of-words ignores word order.
+
