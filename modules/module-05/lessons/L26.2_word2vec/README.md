@@ -3,3 +3,5 @@
 
 ## Skip-Gram Architecture
 
+Word2Vec predicts context words from target.
+
