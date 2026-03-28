@@ -19,3 +19,5 @@ Normalization makes vectors comparable across documents.
 
 ## Weighting Schemes
 
+Raw counts preserve frequency information.
+
