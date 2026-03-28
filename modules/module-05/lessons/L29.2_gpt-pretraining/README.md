@@ -45,3 +45,5 @@ Chain-of-thought improves reasoning.
 
 Instruction following enables task specification.
 
+Knowledge stored implicitly in parameters.
+
