@@ -5,3 +5,5 @@
 
 Word embeddings map words to dense vectors.
 
+Vector dimensions capture semantic properties.
+
