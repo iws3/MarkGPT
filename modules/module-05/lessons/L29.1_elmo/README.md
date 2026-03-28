@@ -37,3 +37,5 @@ Representation quality improves downstream performance.
 
 NLP tasks benefit from contextual representations.
 
+Multilingual models handle code-switching.
+
