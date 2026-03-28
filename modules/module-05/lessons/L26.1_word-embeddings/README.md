@@ -27,3 +27,5 @@ Direction captures semantic relationships.
 
 Magnitude affects similarity metrics.
 
+Vector operations reflect linguistic properties.
+
