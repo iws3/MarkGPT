@@ -25,3 +25,5 @@ BIOES tagging distinguishes entity endings.
 
 IOBES tagging further refines boundaries.
 
+CRF decoding ensures valid label sequences.
+
