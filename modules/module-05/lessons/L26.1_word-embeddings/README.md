@@ -25,3 +25,5 @@ Related concepts form coherent regions.
 
 Direction captures semantic relationships.
 
+Magnitude affects similarity metrics.
+
