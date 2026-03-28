@@ -11,3 +11,5 @@ Character tokens enable morphological analysis.
 
 Subword tokens balance vocabulary and coverage.
 
+Whitespace tokenization fails for languages without spaces.
+
