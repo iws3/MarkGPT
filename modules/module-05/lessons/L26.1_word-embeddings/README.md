@@ -47,3 +47,5 @@ Context window determines learned relationships.
 
 Training objective shapes embedding properties.
 
+Initialization affects convergence speed.
+
