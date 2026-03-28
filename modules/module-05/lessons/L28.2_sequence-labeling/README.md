@@ -23,3 +23,5 @@ Conditional Random Fields model label dependencies.
 
 Potential functions score label sequences.
 
+Global normalization enables correct probability.
+
