@@ -41,3 +41,5 @@ Analogy tasks reveal geometric structure.
 
 Words and contexts have dual representations.
 
+Frequency affects embedding quality.
+
