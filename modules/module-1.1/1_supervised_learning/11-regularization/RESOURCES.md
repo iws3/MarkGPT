@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: L2 penalty**
    - URL: Ridge regression
+
+7. **Dataset: High-dimensional Data**
+   - URL: https://www.kaggle.com/datasets
