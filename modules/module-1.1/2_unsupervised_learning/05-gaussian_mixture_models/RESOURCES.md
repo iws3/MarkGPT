@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Gaussian Mixture Models Tutorial**
    - URL: https://arxiv.org/abs/1710.00635
+
+5. **Interview Question: Expectation-Maximization**
+   - URL: Iterative algorithm
