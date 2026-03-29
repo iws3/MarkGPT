@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Understanding A3C**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Actor-Critic from scratch**
+   - URL: https://www.kaggle.com/code
