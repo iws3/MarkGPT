@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Clustering Algorithms**
    - URL: https://springer.com
+
+4. **Paper: K-Means Clustering Algorithm**
+   - URL: https://arxiv.org/abs/1212.5701
