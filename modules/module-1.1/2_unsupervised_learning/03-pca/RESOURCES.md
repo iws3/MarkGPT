@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Compute covariance matrix**
    - URL: SVD decomposition
+
+11. **Article: PCA Explained Simply**
+   - URL: https://towardsdatascience.com
