@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Bayesian GMM**
    - URL: https://www.youtube.com/watch?v=yMLGBTuY18A
+
+1. **Video: Gaussian Mixture Models**
+   - URL: https://www.youtube.com/watch?v=qMTuMa386t8
