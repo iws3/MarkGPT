@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn NaiveBayes**
    - URL: https://scikit-learn.org/stable/modules/naive_bayes.html
+
+19. **Blog: Naive Bayes in Practice**
+   - URL: Fast and effective
