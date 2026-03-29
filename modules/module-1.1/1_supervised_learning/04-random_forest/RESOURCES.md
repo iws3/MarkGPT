@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Credit Card Fraud Detection**
    - URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+9. **Interview Question: OOB error estimation**
+   - URL: Out-of-bag variance
