@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Distance Metrics Comparison**
    - URL: https://www.youtube.com/watch?v=3VrtKxBhQ0A
+
+3. **Book: Nearest Neighbors Methods**
+   - URL: https://springer.com
