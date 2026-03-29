@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Boosting Algorithms**
    - URL: https://springer.com
+
+4. **Paper: Gradient Boosting Friedman**
+   - URL: https://www.jstor.org/stable/2699986
