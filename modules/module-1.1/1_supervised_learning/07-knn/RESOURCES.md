@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Curse of Dimensionality**
    - URL: https://www.youtube.com/watch?v=BBLBb9p7SJo
+
+14. **Tool: Distance metric comparison**
+   - URL: Which metric for my data
