@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Multicollinearity issues**
    - URL: Use VIF to detect
+
+17. **Practice Problem: Feature normalization**
+   - URL: Z-score and min-max scaling
