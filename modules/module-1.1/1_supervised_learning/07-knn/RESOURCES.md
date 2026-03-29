@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: K value impact**
    - URL: Bias-variance tradeoff
+
+6. **Interview Question: Distance metrics**
+   - URL: Euclidean, Manhattan, etc
