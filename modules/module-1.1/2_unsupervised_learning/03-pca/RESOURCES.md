@@ -115,3 +115,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Reconstruction error**
    - URL: Information loss
+
+17. **Practice Problem: Optimal components**
+   - URL: Validation approach
