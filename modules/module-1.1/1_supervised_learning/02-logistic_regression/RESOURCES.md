@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Decision Boundary Visualization**
    - URL: https://www.youtube.com/watch?v=zZ_EWdEmnVY
+
+14. **Tool: Confusion Matrix Visualization**
+   - URL: Understand true/false positives
