@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: K-means++ improvement**
    - URL: Better initialization
+
+7. **Dataset: Customer Segmentation Data**
+   - URL: https://www.kaggle.com/datasets//c/customer-segmentation
