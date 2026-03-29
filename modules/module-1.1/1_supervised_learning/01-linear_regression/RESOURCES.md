@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Introduction to Statistical Learning**
    - URL: https://www.youtube.com/watch?v=_vR1lhb7gP0
+
+3. **Book: Elements of Statistical Learning (ESL)**
+   - URL: https://web.stanford.edu/~hastie/ElemStatLearn/
