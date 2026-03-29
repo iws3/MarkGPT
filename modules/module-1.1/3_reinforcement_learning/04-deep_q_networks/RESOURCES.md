@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement vanilla DQN**
    - URL: CartPole environment
+
+11. **Article: DQN Deep Dive**
+   - URL: https://towardsdatascience.com
