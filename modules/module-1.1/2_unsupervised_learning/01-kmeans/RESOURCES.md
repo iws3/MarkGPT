@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Scalability limits**
    - URL: Large datasets
+
+17. **Practice Problem: Feature scaling impact**
+   - URL: Normalize before clustering
