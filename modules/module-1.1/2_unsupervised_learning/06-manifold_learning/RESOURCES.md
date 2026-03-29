@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: LLE - Locally Linear Embedding**
    - URL: https://www.youtube.com/watch?v=6zx_zxnuXSA
+
+1. **Video: Manifold Learning Basics**
+   - URL: https://www.youtube.com/watch?v=Nko7_5wPj0w
