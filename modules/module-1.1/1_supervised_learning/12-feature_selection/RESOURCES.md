@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Feature Selection Techniques**
    - URL: https://arxiv.org/abs/1908.09681
+
+5. **Interview Question: Filter methods**
+   - URL: Independent selection
