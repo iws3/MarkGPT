@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: DQN Stabilization Tricks**
    - URL: Practical tips
+
+20. **Video: Rainbow DQN**
+   - URL: https://www.youtube.com/watch?v=0OMM-7J9c0s
