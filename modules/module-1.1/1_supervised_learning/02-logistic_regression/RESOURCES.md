@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Logistic Regression: A Self-Learning Text**
    - URL: https://www.springer.com/gp/book/9781441917851
+
+4. **Paper: The Logistic Map: History and Applications**
+   - URL: https://arxiv.org/abs/1111.1134
