@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement bagging**
    - URL: From decision trees
+
+11. **Article: Random Forests vs Decision Trees**
+   - URL: https://towardsdatascience.com
