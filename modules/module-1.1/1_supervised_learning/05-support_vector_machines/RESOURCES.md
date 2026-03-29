@@ -103,3 +103,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: SVM with different kernels**
    - URL: https://www.kaggle.com/code
+
+13. **Video: RBF Kernel Visualization**
+   - URL: https://www.youtube.com/watch?v=0oM9TKwMVUw
