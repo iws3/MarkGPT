@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Arbitrary shapes**
    - URL: Handle non-globular clusters
+
+10. **Practice: Identify core/border/noise**
+   - URL: Understanding DBSCAN
