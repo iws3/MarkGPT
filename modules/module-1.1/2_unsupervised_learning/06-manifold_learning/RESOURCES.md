@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Manifold comparison tool**
    - URL: Visualize embeddings
+
+15. **Interview Question: Computational cost**
+   - URL: Large datasets
