@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Asynchronous Methods for Deep RL**
    - URL: https://arxiv.org/abs/1602.01783
+
+5. **Interview Question: critic role**
+   - URL: Value function approximation
