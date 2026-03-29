@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Calculate posterior probability**
    - URL: Bayesian inference
+
+11. **Article: Naive Bayes for Text Classification**
+   - URL: https://towardsdatascience.com
