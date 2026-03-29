@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Covariance Matrix Types**
    - URL: https://www.youtube.com/watch?v=4pU8kflYvFo
+
+14. **Tool: Component visualization**
+   - URL: Gaussian ellipses
