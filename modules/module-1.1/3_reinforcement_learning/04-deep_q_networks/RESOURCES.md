@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Atari Games with DQN**
    - URL: https://www.youtube.com/watch?v=V1eYniJ0Rnk
+
+3. **Book: Mastering Reinforcement Learning**
+   - URL: https://packtpub.com
