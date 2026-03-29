@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: KNN Advantages and Disadvantages**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: KNN Visualization**
+   - URL: https://www.kaggle.com/code
