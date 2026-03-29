@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Movie Sentiment Analysis**
    - URL: https://www.kaggle.com/datasets/c/si650winter11
+
+9. **Interview Question: Laplace smoothing**
+   - URL: Handle zero probabilities
