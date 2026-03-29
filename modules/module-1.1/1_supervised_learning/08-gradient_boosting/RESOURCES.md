@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Gradient Boosting Friedman**
    - URL: https://www.jstor.org/stable/2699986
+
+5. **Interview Question: Sequential training**
+   - URL: Learn from errors
