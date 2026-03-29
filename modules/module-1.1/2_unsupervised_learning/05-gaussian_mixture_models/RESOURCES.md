@@ -13,3 +13,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: EM Algorithm Explained**
    - URL: https://www.youtube.com/watch?v=REypj2sy_5U
+
+3. **Book: Pattern Recognition & Machine Learning**
+   - URL: https://www.microsoft.com/en-us/research/people/cmbishop/
