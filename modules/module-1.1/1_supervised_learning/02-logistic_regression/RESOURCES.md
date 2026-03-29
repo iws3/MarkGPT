@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Confusion Matrix Visualization**
    - URL: Understand true/false positives
+
+15. **Interview Question: Threshold tuning**
+   - URL: Trade-off between precision and recall
