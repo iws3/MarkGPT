@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: TD3 - Twin Delayed DDPG**
    - URL: https://www.youtube.com/watch?v=x33Zva3B922
+
+1. **Video: Actor-Critic Explained**
+   - URL: https://www.youtube.com/watch?v=4rD3sKS-Yuk
