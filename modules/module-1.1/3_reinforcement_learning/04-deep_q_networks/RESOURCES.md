@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Mastering Reinforcement Learning**
    - URL: https://packtpub.com
+
+4. **Paper: Human-level Control through DRL Mnih**
+   - URL: https://arxiv.org/abs/1312.5602
