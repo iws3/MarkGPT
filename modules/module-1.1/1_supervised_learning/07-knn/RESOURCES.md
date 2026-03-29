@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Distance metrics**
    - URL: Euclidean, Manhattan, etc
+
+7. **Dataset: Iris Species Classification**
+   - URL: https://www.kaggle.com/datasets/uciml/iris
