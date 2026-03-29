@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn GaussianMixture**
    - URL: https://scikit-learn.org/stable/modules/mixture.html
+
+19. **Blog: GMM Applications**
+   - URL: Speech recognition, speaker identification
