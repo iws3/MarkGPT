@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: RBF Kernel Visualization**
    - URL: https://www.youtube.com/watch?v=0oM9TKwMVUw
+
+14. **Tool: Decision boundary visualization**
+   - URL: Understand SVM geometry
