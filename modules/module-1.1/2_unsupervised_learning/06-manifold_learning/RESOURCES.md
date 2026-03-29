@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: t-SNE applications**
    - URL: Visualization tool
+
+7. **Dataset: Swiss Roll Dataset**
+   - URL: https://scikit-learn.org/stable/modules/manifold.html
