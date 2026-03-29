@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Continuous vs Discrete Naive Bayes**
    - URL: https://www.youtube.com/watch?v=yLR1xeAXYA8
+
+14. **Tool: Probability calculation tool**
+   - URL: Understand distributions
