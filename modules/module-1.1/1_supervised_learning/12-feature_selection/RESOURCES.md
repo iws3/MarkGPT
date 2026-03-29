@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: SHAP for Feature Importance**
    - URL: https://www.youtube.com/watch?v=gLeVJ2PGVaU
+
+1. **Video: Feature Selection Fundamentals**
+   - URL: https://www.youtube.com/watch?v=6g8_kDRwY2k
