@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Learning Classification Trees**
    - URL: https://arxiv.org/abs/1908.03192
+
+5. **Interview Question: Entropy definition**
+   - URL: Measure of disorder/impurity
