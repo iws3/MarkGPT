@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Perplexity parameter**
    - URL: t-SNE tuning
+
+10. **Practice: Local vs global structure**
+   - URL: MDS and Isomap
