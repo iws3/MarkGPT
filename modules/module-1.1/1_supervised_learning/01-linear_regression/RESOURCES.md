@@ -70,3 +70,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Least Squares Method Explained**
    - URL: https://www.youtube.com/watch?v=yIYKR4sgglY
+
+1. **Video: Linear Regression Foundation**
+   - URL: https://www.youtube.com/watch?v=PaFPesqAazI
