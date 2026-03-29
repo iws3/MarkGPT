@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Boston Housing Dataset**
    - URL: https://www.kaggle.com/datasets/altruistdelhite04/boston-housing-dataset
+
+9. **Dataset: California Housing Data**
+   - URL: https://www.kaggle.com/datasets/camnugent/california-housing-prices
