@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: TensorFlow Tutorial**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Gradient Descent Visualization**
+   - URL: https://www.youtube.com/watch?v=IHZwWFHWa-w
