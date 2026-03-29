@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Reinforcement Learning Basics**
    - URL: https://www.youtube.com/watch?v=UoPyi5o9oi8
+
+3. **Book: Reinforcement Learning: An Introduction**
+   - URL: https://mitpress.mit.edu/9780262039246/reinforcement-learning/
