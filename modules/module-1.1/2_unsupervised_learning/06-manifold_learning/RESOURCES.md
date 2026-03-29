@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Dimensionality Reduction for ML**
    - URL: https://springer.com
+
+4. **Paper: Manifold Learning Methods Survey**
+   - URL: https://arxiv.org/abs/1707.08928
