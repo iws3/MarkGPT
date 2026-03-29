@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: DQN extensions**
    - URL: Double, Dueling, Rainbow
+
+10. **Practice: Implement vanilla DQN**
+   - URL: CartPole environment
