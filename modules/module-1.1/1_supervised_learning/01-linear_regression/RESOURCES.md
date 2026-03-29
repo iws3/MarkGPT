@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Create correlation matrix**
    - URL: Compare feature importance
+
+15. **Interview Question: R-squared interpretation**
+   - URL: Proportion of variance explained
