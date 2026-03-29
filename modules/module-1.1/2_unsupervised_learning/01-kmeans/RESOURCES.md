@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: K-Means Clustering Guide**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Clustering Visualization**
+   - URL: https://www.kaggle.com/code
