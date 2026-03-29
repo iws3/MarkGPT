@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Stacking Implementation**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Blending vs Stacking**
+   - URL: https://www.youtube.com/watch?v=qWRjRVLEhFE
