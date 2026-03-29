@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Iris Clustering**
    - URL: https://www.kaggle.com/datasets/uciml/iris
+
+9. **Interview Question: Elbow method**
+   - URL: Find optimal K
