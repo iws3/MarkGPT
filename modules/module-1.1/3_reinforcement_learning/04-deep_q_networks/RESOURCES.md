@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Atari DQN Training**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Double DQN Improvement**
+   - URL: https://www.youtube.com/watch?v=23Xt2yM1QpI
