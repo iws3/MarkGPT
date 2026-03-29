@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Diabetes Dataset**
    - URL: https://www.kaggle.com/datasets/albuquerque/diabetes
+
+9. **Interview Question: Tree depth implications**
+   - URL: Overfitting with deeper trees
