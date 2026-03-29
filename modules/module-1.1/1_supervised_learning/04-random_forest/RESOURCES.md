@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Kaggle Housing Prices**
    - URL: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+
+8. **Dataset: Credit Card Fraud Detection**
+   - URL: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
