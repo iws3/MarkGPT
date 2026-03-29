@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Inertia interpretation**
    - URL: Within-cluster sum of squares
+
+16. **Interview Question: Scalability limits**
+   - URL: Large datasets
