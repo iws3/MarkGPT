@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Multi-class SVM**
    - URL: One-vs-rest strategy
+
+17. **Practice Problem: Kernel selection**
+   - URL: Linear, RBF, polynomial
