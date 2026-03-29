@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Paper: A Tutorial on Linear Regression**
    - URL: https://arxiv.org/abs/1509.02871
+
+6. **Interview Question: Explain residuals**
+   - URL: Residuals measure prediction error
