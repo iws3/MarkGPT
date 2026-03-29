@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Experience replay**
    - URL: Stability improvement
+
+16. **Interview Question: Target network**
+   - URL: Divergence prevention
