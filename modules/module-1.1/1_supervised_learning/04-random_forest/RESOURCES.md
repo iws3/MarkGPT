@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Bootstrap Aggregating Visualized**
    - URL: https://www.youtube.com/watch?v=Y_M9FS-hEZk
+
+3. **Book: Random Forests: From Theory to Applications**
+   - URL: https://springer.com
