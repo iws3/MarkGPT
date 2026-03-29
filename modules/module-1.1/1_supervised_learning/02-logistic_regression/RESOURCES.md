@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Sigmoid function properties**
    - URL: Maps output to 0-1 range
+
+6. **Interview Question: Why not use linear regression**
+   - URL: Unbounded outputs
