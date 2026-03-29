@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Wine Classification**
    - URL: https://www.kaggle.com/datasets/uciml/wine-classification
+
+9. **Interview Question: Soft margin vs hard margin**
+   - URL: C parameter control
