@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Computational complexity**
    - URL: O(n²) memory
+
+16. **Interview Question: When to use hierarchical**
+   - URL: Interpretability needed
