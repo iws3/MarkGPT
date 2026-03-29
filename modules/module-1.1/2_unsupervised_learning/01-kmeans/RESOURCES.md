@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Mini-Batch K-Means**
    - URL: https://www.youtube.com/watch?v=Kf-f2pAHCh8
+
+1. **Video: K-Means Algorithm Basics**
+   - URL: https://www.youtube.com/watch?v=4b5d3muVW2A
