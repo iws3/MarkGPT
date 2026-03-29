@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Trust Region Policy Optimization**
    - URL: https://www.youtube.com/watch?v=sj_OoQC8cGQ
+
+1. **Video: Policy Gradient Methods**
+   - URL: https://www.youtube.com/watch?v=dV4ZnjUYYFU
