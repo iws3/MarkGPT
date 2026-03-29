@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Random Forests vs Decision Trees**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Feature Importance Analysis**
+   - URL: https://www.kaggle.com/code
