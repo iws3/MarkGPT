@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Feature scaling importance**
    - URL: Normalize features
+
+16. **Interview Question: Decision boundary shape**
+   - URL: Non-linear boundaries
