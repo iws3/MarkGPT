@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Model selection**
    - URL: AIC and BIC criteria
+
+10. **Practice: EM algorithm steps**
+   - URL: E-step and M-step
