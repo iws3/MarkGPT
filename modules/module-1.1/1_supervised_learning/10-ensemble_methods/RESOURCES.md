@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Kaggle Competition Data**
    - URL: https://www.kaggle.com/competitions
+
+8. **Dataset: Multi-class Classification**
+   - URL: https://www.kaggle.com/datasets
