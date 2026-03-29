@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: critic role**
    - URL: Value function approximation
+
+6. **Interview Question: actor role**
+   - URL: Policy improvement
