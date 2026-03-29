@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Tree Visualization Example**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Splitting Criteria Comparison**
+   - URL: https://www.youtube.com/watch?v=lj6sdfLXoFI
