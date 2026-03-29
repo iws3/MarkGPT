@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Metric preservation**
    - URL: Distance preservation
+
+17. **Practice Problem: Different metrics**
+   - URL: Euclidean vs cosine
