@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: High-dimensional Data**
    - URL: https://www.kaggle.com/datasets
+
+8. **Dataset: Overfitting Example**
+   - URL: https://www.kaggle.com/datasets
