@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Breast Cancer Features**
    - URL: https://www.kaggle.com/datasets/uci-ml-breast-cancer-wisconsin-diagnostic
+
+9. **Interview Question: Number of components**
+   - URL: Explained variance ratio
