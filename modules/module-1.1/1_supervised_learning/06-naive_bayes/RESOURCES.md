@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Spam Detection Example**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Continuous vs Discrete Naive Bayes**
+   - URL: https://www.youtube.com/watch?v=yLR1xeAXYA8
