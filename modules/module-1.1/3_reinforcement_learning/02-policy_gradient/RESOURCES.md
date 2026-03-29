@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Continuous action spaces**
    - URL: Gaussian policy
+
+18. **Resource: OpenAI Spinning Up**
+   - URL: https://spinningup.openai.com/
