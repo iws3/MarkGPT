@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Dropout regularization**
    - URL: Neural network pruning
+
+16. **Interview Question: Data augmentation**
+   - URL: More training samples
