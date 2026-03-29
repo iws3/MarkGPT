@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: A Brief Introduction to Neural Networks**
    - URL: https://arxiv.org/abs/1803.08055
+
+5. **Interview Question: Activation functions**
+   - URL: ReLU, Sigmoid, Tanh
