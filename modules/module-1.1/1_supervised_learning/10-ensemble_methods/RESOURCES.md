@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Stacking meta-learner**
    - URL: Combine predictions
+
+10. **Practice: Implement voting ensemble**
+   - URL: Multiple classifiers
