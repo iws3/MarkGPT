@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: UMAP Introduction**
    - URL: Better than t-SNE
+
+20. **Video: LLE - Locally Linear Embedding**
+   - URL: https://www.youtube.com/watch?v=6zx_zxnuXSA
