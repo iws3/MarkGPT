@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Kaggle Titanic**
    - URL: https://www.kaggle.com/competitions/titanic
+
+8. **Dataset: XGBoost Competition Data**
+   - URL: https://www.kaggle.com/competitions
