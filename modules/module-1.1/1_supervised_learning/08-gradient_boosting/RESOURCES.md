@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: XGBoost Competition Data**
    - URL: https://www.kaggle.com/competitions
+
+9. **Interview Question: Learning rate tuning**
+   - URL: Shrinkage parameter
