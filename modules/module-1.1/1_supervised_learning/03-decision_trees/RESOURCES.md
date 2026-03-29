@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: ID3 Algorithm Details**
    - URL: https://www.youtube.com/watch?v=sVNtKrWTKm4
+
+1. **Video: Decision Trees Fundamentals**
+   - URL: https://www.youtube.com/watch?v=7VeUPUSoHU8
