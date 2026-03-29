@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement voting ensemble**
    - URL: Multiple classifiers
+
+11. **Article: Ensemble Learning Techniques**
+   - URL: https://towardsdatascience.com
