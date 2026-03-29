@@ -103,3 +103,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: PCA Visualization**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Geometric Interpretation**
+   - URL: https://www.youtube.com/watch?v=N9EFxCRruRY
