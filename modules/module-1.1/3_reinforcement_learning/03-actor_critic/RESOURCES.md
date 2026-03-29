@@ -124,3 +124,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Actor-Critic in Practice**
    - URL: Real implementations
+
+20. **Video: TD3 - Twin Delayed DDPG**
+   - URL: https://www.youtube.com/watch?v=x33Zva3B922
