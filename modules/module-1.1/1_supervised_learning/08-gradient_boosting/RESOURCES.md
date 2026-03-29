@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: XGBoost vs LightGBM comparison**
    - URL: https://www.youtube.com/watch?v=n3SQyW8YRmY
+
+1. **Video: Gradient Boosting Explained**
+   - URL: https://www.youtube.com/watch?v=3CC4N_yofrM
