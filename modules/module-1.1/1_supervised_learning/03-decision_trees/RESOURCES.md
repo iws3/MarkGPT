@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Decision Trees Explained**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Tree Visualization Example**
+   - URL: https://www.kaggle.com/code
