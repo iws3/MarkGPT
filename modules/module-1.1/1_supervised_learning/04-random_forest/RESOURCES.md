@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Random Forests: From Theory to Applications**
    - URL: https://springer.com
+
+4. **Paper: Random Forests Breiman**
+   - URL: https://doi.org/10.1023/A:1010933404324
