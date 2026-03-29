@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: When to use Gradient Boosting**
    - URL: Competition-winning algorithm
+
+20. **Video: XGBoost vs LightGBM comparison**
+   - URL: https://www.youtube.com/watch?v=n3SQyW8YRmY
