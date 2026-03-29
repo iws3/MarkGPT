@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Why SVMs work**
    - URL: Structural risk minimization
+
+16. **Interview Question: Multi-class SVM**
+   - URL: One-vs-rest strategy
