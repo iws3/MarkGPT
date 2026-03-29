@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Fashion MNIST**
    - URL: https://www.kaggle.com/datasets/zalando-research/fashionmnist
+
+9. **Interview Question: Computational complexity**
+   - URL: O(n) prediction time
