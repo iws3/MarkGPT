@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Ensemble performance comparison**
    - URL: Which combination works
+
+15. **Interview Question: Adding diversity**
+   - URL: Different algorithms
