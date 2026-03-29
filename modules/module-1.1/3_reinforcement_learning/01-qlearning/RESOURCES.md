@@ -124,3 +124,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Q-Learning from Scratch**
    - URL: Step-by-step guide
+
+20. **Video: Value Iteration Algorithm**
+   - URL: https://www.youtube.com/watch?v=ORM1jZI0ayk
