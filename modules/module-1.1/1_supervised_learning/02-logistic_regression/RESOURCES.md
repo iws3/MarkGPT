@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: ROC-AUC understanding**
    - URL: Threshold-independent evaluation
+
+10. **Practice: Implement sigmoid function**
+   - URL: Mathematical foundation
