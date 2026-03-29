@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: TreeViz - Tree Visualization**
    - URL: Interpret decision paths
+
+15. **Interview Question: Gini vs Entropy**
+   - URL: Different impurity measures
