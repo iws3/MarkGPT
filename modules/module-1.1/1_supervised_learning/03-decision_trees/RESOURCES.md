@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Minimum samples split**
    - URL: Hyperparameter effects
+
+18. **Resource: scikit-learn DecisionTreeClassifier**
+   - URL: https://scikit-learn.org/stable/modules/tree.html
