@@ -10,3 +10,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Naive Bayes Explanation**
    - URL: https://www.youtube.com/watch?v=l3dZ6ZNFIu0
+
+2. **Video: Bayes Theorem Fundamentals**
+   - URL: https://www.youtube.com/watch?v=HZGCoVwiada
