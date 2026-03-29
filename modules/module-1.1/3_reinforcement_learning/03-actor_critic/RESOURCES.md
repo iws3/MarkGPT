@@ -70,3 +70,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Actor-Critic Explained**
    - URL: https://www.youtube.com/watch?v=4rD3sKS-Yuk
+
+2. **Video: A3C Algorithm**
+   - URL: https://www.youtube.com/watch?v=n-1pmk9bPIg
