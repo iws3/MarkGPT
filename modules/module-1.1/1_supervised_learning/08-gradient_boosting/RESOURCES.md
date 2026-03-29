@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Boosting visualization**
    - URL: Understand ensemble process
+
+15. **Interview Question: Number of estimators**
+   - URL: Overfitting risk
