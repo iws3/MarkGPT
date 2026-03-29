@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: DQN performance tracker**
    - URL: Visualize learning
+
+15. **Interview Question: Epsilon decay**
+   - URL: Exploration schedule
