@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Multi-modal Distribution**
    - URL: https://scikit-learn.org/stable/modules/mixture.html
+
+9. **Interview Question: Model selection**
+   - URL: AIC and BIC criteria
