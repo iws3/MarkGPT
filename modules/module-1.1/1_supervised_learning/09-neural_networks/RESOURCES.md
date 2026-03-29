@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Dropout regularization**
    - URL: Prevent overfitting
+
+16. **Interview Question: Batch normalization**
+   - URL: Training stability
