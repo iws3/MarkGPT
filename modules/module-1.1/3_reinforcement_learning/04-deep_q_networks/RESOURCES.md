@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Hyperparameter effects**
    - URL: Learning rate, batch size
+
+18. **Resource: OpenAI Baselines**
+   - URL: https://github.com/openai/baselines
