@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn SVM**
    - URL: https://scikit-learn.org/stable/modules/svm.html
+
+19. **Blog: SVM Advantages and Disadvantages**
+   - URL: When SVMs excel
