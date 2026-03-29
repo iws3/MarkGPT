@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Different linkage methods**
    - URL: Compare results
+
+18. **Resource: scikit-learn Agglomerative**
+   - URL: https://scikit-learn.org/stable/modules/clustering.html
