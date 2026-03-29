@@ -124,3 +124,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Tree Interpretability Advantage**
    - URL: Human-readable rules
+
+20. **Video: ID3 Algorithm Details**
+   - URL: https://www.youtube.com/watch?v=sVNtKrWTKm4
