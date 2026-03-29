@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Wrapper methods**
    - URL: Model-dependent selection
+
+7. **Dataset: High-dimensional features**
+   - URL: https://www.kaggle.com/datasets
