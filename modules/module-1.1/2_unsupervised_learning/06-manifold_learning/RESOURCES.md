@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: 64-dimensional digits**
    - URL: https://www.kaggle.com/datasets/oddrationale/mnist-784
+
+9. **Interview Question: Perplexity parameter**
+   - URL: t-SNE tuning
