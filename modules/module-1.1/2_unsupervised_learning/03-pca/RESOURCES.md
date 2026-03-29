@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Optimal components**
    - URL: Validation approach
+
+18. **Resource: scikit-learn PCA**
+   - URL: https://scikit-learn.org/stable/modules/decomposition.html#pca
