@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn GradientBoosting**
    - URL: https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting
+
+19. **Blog: When to use Gradient Boosting**
+   - URL: Competition-winning algorithm
