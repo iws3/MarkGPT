@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Feature importance calculation**
    - URL: Mean decrease impurity
+
+7. **Dataset: Kaggle Housing Prices**
+   - URL: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
