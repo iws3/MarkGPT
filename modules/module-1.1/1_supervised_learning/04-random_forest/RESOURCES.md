@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Feature Importance Visualization**
    - URL: Which features matter
+
+15. **Interview Question: Max features parameter**
+   - URL: Reduce correlation
