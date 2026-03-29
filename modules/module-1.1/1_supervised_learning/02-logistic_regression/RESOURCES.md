@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Cross-entropy loss explained**
    - URL: https://www.youtube.com/watch?v=ErfnhcEV1O8
+
+1. **Video: Logistic Regression Explained**
+   - URL: https://www.youtube.com/watch?v=yIYKR4sgglY
