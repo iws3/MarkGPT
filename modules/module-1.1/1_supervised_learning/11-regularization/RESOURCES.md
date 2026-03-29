@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Regularization strength tuner**
    - URL: Find optimal lambda
+
+15. **Interview Question: Dropout regularization**
+   - URL: Neural network pruning
