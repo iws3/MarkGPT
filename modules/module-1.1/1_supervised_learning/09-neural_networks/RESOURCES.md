@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Vanishing gradient problem**
    - URL: Deep network training
+
+7. **Dataset: MNIST Handwritten Digits**
+   - URL: https://www.kaggle.com/datasets/oddrationale/mnist-784
