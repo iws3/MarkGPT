@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: When to use K-Means**
    - URL: Limitations and strengths
+
+20. **Video: Mini-Batch K-Means**
+   - URL: https://www.youtube.com/watch?v=Kf-f2pAHCh8
