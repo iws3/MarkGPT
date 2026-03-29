@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement A2C**
    - URL: Advantage Actor-Critic
+
+11. **Article: Understanding A3C**
+   - URL: https://towardsdatascience.com
