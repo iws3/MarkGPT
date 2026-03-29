@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Regularization in Machine Learning**
    - URL: https://arxiv.org/abs/1908.02029
+
+5. **Interview Question: L1 penalty**
+   - URL: Lasso regression
