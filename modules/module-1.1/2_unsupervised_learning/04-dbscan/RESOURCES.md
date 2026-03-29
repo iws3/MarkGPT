@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: DBSCAN: A Density-Based Algorithm**
    - URL: https://arxiv.org/abs/1910.02306
+
+5. **Interview Question: Epsilon parameter**
+   - URL: Neighborhood radius
