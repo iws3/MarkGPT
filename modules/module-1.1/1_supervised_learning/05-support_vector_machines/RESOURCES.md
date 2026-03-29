@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Kernel trick explanation**
    - URL: Non-linear transformations
+
+7. **Dataset: MNIST Digits**
+   - URL: https://www.kaggle.com/datasets/oddrationale/mnist-784
