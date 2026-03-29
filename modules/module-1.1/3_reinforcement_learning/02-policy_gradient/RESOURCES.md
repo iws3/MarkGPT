@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Policy Gradient Algorithms**
    - URL: TRPO, PPO, A3C
+
+20. **Video: Trust Region Policy Optimization**
+   - URL: https://www.youtube.com/watch?v=sj_OoQC8cGQ
