@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Custom feature engineering**
    - URL: Improve performance
+
+18. **Resource: scikit-learn NaiveBayes**
+   - URL: https://scikit-learn.org/stable/modules/naive_bayes.html
