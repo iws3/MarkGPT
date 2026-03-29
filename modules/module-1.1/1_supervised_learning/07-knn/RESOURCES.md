@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: KNN Visualization**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Curse of Dimensionality**
+   - URL: https://www.youtube.com/watch?v=BBLBb9p7SJo
