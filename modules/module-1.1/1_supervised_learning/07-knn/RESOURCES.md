@@ -70,3 +70,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: KNN Fundamentals**
    - URL: https://www.youtube.com/watch?v=MDniRwXEdu4
+
+2. **Video: Distance Metrics Comparison**
+   - URL: https://www.youtube.com/watch?v=3VrtKxBhQ0A
