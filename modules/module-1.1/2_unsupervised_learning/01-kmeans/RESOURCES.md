@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Silhouette Score Explained**
    - URL: https://www.youtube.com/watch?v=WH0_5dVj4W4
+
+14. **Tool: Cluster visualization**
+   - URL: 2D/3D plots
