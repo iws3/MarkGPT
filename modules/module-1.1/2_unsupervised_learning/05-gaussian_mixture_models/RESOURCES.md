@@ -1,0 +1,9 @@
+# Gaussian Mixture Models - Learning Resources
+
+A comprehensive collection of resources to deepen your understanding of this algorithm.
+
+
+## Learning Resources
+
+1. **Video: Gaussian Mixture Models**
+   - URL: https://www.youtube.com/watch?v=qMTuMa386t8
