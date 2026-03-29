@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement sigmoid function**
    - URL: Mathematical foundation
+
+11. **Article: Logistic Regression for classification**
+   - URL: https://towardsdatascience.com
