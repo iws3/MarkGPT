@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Tree-based KNN Search**
    - URL: https://www.youtube.com/watch?v=7vLbQlzfAEA
+
+1. **Video: KNN Fundamentals**
+   - URL: https://www.youtube.com/watch?v=MDniRwXEdu4
