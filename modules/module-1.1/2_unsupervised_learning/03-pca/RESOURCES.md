@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Iris Dimensionality**
    - URL: https://www.kaggle.com/datasets/uciml/iris
+
+8. **Dataset: Breast Cancer Features**
+   - URL: https://www.kaggle.com/datasets/uci-ml-breast-cancer-wisconsin-diagnostic
