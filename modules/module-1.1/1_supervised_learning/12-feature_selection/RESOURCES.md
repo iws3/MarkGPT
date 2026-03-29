@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Univariate selection**
    - URL: Statistical tests
+
+17. **Practice Problem: SelectKBest**
+   - URL: Keep best k features
