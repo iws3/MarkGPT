@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Explain residuals**
    - URL: Residuals measure prediction error
+
+7. **Interview Question: When to use regularization**
+   - URL: To prevent overfitting
