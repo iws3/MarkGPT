@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: DBSCAN vs K-Means**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: DBSCAN with visualization**
+   - URL: https://www.kaggle.com/code
