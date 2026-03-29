@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Bagging concept**
    - URL: Bootstrap sampling
+
+6. **Interview Question: Feature importance calculation**
+   - URL: Mean decrease impurity
