@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Document Similarity**
    - URL: https://www.kaggle.com/datasets
+
+9. **Interview Question: Dendrogram reading**
+   - URL: Cut height for clusters
