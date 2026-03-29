@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: K-Means Clustering Algorithm**
    - URL: https://arxiv.org/abs/1212.5701
+
+5. **Interview Question: Centroid initialization**
+   - URL: Lloyd's algorithm
