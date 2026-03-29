@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Bayes theorem application**
    - URL: Posterior calculation
+
+7. **Dataset: SMS Spam Collection**
+   - URL: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
