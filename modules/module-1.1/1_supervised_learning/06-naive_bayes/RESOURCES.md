@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Text preprocessing impact**
    - URL: Feature engineering
+
+16. **Interview Question: Multinomial vs Gaussian**
+   - URL: Distribution choice
