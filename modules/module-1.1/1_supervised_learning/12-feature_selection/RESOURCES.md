@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Feature Selection Best Practices**
    - URL: Avoid overfitting
+
+20. **Video: SHAP for Feature Importance**
+   - URL: https://www.youtube.com/watch?v=gLeVJ2PGVaU
