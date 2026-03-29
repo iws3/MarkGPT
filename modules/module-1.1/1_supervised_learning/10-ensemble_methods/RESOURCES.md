@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Voting vs Stacking**
    - URL: https://www.youtube.com/watch?v=w2D5Hl_2XRk
+
+3. **Book: Ensemble Methods for Machine Learning**
+   - URL: https://www.cambridge.org/9781108269841
