@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: OpenAI Baselines**
    - URL: https://github.com/openai/baselines
+
+19. **Blog: DQN Stabilization Tricks**
+   - URL: Practical tips
