@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: GMM Applications**
    - URL: Speech recognition, speaker identification
+
+20. **Video: Bayesian GMM**
+   - URL: https://www.youtube.com/watch?v=yMLGBTuY18A
