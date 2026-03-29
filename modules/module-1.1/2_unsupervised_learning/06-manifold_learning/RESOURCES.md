@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Non-linear reduction**
    - URL: vs PCA
+
+6. **Interview Question: t-SNE applications**
+   - URL: Visualization tool
