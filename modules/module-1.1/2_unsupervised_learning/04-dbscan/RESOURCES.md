@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Epsilon parameter**
    - URL: Neighborhood radius
+
+6. **Interview Question: MinPts parameter**
+   - URL: Core point threshold
