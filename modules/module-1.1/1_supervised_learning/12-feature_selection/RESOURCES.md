@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Feature Selection Pipeline**
    - URL: https://www.kaggle.com/code
+
+13. **Video: RFE - Recursive Elimination**
+   - URL: https://www.youtube.com/watch?v=qKfXXcYWsho
