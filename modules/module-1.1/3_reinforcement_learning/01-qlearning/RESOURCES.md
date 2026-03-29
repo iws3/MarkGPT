@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Reinforcement Learning: An Introduction**
    - URL: https://mitpress.mit.edu/9780262039246/reinforcement-learning/
+
+4. **Paper: Learning to Predict by the Methods of Temporal Differences**
+   - URL: https://arxiv.org/abs/cs/0412014
