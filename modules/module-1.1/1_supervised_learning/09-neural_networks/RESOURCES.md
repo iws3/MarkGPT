@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Tune learning rate**
    - URL: Find optimal convergence
+
+18. **Resource: TensorFlow Documentation**
+   - URL: https://www.tensorflow.org/api_docs
