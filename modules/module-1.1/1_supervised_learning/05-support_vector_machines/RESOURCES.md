@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Support Vector Machines**
    - URL: https://www.springer.com/gp/book/9783540002258
+
+4. **Paper: Support Vector Networks Vapnik**
+   - URL: https://doi.org/10.1023/A:1022627411411
