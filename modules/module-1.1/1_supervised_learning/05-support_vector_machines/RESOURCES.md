@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Soft margin vs hard margin**
    - URL: C parameter control
+
+10. **Practice: Implement margin calculation**
+   - URL: Geometric understanding
