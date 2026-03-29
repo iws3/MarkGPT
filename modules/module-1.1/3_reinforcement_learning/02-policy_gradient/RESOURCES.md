@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Policy parameterization**
    - URL: Neural network policy
+
+6. **Interview Question: Return discounting**
+   - URL: Monte Carlo rollout
