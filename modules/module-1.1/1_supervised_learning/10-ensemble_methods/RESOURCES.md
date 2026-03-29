@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Ensemble Methods Survey**
    - URL: https://arxiv.org/abs/1809.09618
+
+5. **Interview Question: Ensemble diversity**
+   - URL: Uncorrelated predictions
