@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn PCA**
    - URL: https://scikit-learn.org/stable/modules/decomposition.html#pca
+
+19. **Blog: PCA Applications**
+   - URL: Image compression, visualization
