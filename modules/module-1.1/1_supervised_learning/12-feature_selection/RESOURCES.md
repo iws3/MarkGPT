@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: SelectKBest**
    - URL: Keep best k features
+
+18. **Resource: scikit-learn Selection**
+   - URL: https://scikit-learn.org/stable/modules/feature_selection.html
