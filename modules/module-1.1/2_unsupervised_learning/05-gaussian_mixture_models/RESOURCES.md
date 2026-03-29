@@ -115,3 +115,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: soft assignments**
    - URL: Probability of membership
+
+17. **Practice Problem: Convergence criteria**
+   - URL: When to stop EM
