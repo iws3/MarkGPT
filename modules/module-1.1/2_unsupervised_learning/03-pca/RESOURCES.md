@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Data preprocessing**
    - URL: Standardization importance
+
+16. **Interview Question: Reconstruction error**
+   - URL: Information loss
