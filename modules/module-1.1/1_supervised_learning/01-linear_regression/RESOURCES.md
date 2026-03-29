@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Feature normalization**
    - URL: Z-score and min-max scaling
+
+18. **Resource: scikit-learn LinearRegression docs**
+   - URL: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
