@@ -124,3 +124,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: SVM Advantages and Disadvantages**
    - URL: When SVMs excel
+
+20. **Video: Lagrange Multipliers in SVM**
+   - URL: https://www.youtube.com/watch?v=9yGVhgCB35A
