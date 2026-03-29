@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement distance calculation**
    - URL: Vectorized operations
+
+11. **Article: KNN Advantages and Disadvantages**
+   - URL: https://towardsdatascience.com
