@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Covariance matrix**
    - URL: Data transformation
+
+7. **Dataset: Iris Dimensionality**
+   - URL: https://www.kaggle.com/datasets/uciml/iris
