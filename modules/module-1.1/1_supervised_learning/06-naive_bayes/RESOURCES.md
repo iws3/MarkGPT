@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Naive Bayes for Text Classification**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Spam Detection Example**
+   - URL: https://www.kaggle.com/code
