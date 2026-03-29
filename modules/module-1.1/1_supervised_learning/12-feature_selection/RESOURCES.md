@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Calculate correlation**
    - URL: Feature relationships
+
+11. **Article: Feature Selection Methods**
+   - URL: https://towardsdatascience.com
