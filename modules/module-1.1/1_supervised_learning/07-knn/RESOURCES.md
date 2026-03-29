@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Nearest Neighbor Methods**
    - URL: https://arxiv.org/abs/1904.01746
+
+5. **Interview Question: K value impact**
+   - URL: Bias-variance tradeoff
