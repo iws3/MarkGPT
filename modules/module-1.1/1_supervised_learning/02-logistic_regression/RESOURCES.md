@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Threshold tuning**
    - URL: Trade-off between precision and recall
+
+16. **Interview Question: Class imbalance handling**
+   - URL: SMOTE and class weights
