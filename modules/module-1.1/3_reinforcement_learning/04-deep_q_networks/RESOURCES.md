@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Experience replay buffer**
    - URL: Break correlations
+
+6. **Interview Question: Target network**
+   - URL: Separate networks
