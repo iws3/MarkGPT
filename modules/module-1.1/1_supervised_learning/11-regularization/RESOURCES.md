@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Calculate penalty term**
    - URL: Regularization strength
+
+11. **Article: Regularization Methods**
+   - URL: https://towardsdatascience.com
