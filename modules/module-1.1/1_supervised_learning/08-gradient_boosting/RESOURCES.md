@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Learning rate tuning**
    - URL: Shrinkage parameter
+
+10. **Practice: Implement basic boosting**
+   - URL: From decision stumps
