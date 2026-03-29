@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: DQN Deep Dive**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Atari DQN Training**
+   - URL: https://www.kaggle.com/code
