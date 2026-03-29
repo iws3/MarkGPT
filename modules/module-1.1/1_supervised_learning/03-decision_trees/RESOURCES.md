@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Splitting Criteria Comparison**
    - URL: https://www.youtube.com/watch?v=lj6sdfLXoFI
+
+14. **Tool: TreeViz - Tree Visualization**
+   - URL: Interpret decision paths
