@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Parallel workers**
    - URL: Distributed training
+
+18. **Resource: TensorFlow RL Agents**
+   - URL: https://github.com/tensorflow/agents
