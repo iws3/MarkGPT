@@ -115,3 +115,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Decision boundary shape**
    - URL: Non-linear boundaries
+
+17. **Practice Problem: Optimal K tuning**
+   - URL: Cross-validation
