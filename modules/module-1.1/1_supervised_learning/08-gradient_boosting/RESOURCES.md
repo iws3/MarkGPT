@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Loss function role**
    - URL: Guide boosting process
+
+7. **Dataset: Kaggle Titanic**
+   - URL: https://www.kaggle.com/competitions/titanic
