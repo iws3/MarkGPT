@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn Manifold**
    - URL: https://scikit-learn.org/stable/modules/manifold.html
+
+19. **Blog: UMAP Introduction**
+   - URL: Better than t-SNE
