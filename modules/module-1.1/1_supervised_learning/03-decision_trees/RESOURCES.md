@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Entropy definition**
    - URL: Measure of disorder/impurity
+
+6. **Interview Question: Information gain calculation**
+   - URL: Entropy reduction
