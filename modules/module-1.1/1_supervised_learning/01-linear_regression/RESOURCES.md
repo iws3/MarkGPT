@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Elements of Statistical Learning (ESL)**
    - URL: https://web.stanford.edu/~hastie/ElemStatLearn/
+
+4. **Book: Pattern Recognition and Machine Learning**
+   - URL: https://www.microsoft.com/en-us/research/people/cmbishop/
