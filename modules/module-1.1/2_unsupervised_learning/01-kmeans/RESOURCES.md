@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Customer Segmentation Data**
    - URL: https://www.kaggle.com/datasets//c/customer-segmentation
+
+8. **Dataset: Iris Clustering**
+   - URL: https://www.kaggle.com/datasets/uciml/iris
