@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Distance distribution plot**
    - URL: Choose epsilon
+
+15. **Interview Question: Outlier detection**
+   - URL: Noise points identification
