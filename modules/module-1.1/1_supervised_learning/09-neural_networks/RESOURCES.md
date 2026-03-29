@@ -115,3 +115,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Batch normalization**
    - URL: Training stability
+
+17. **Practice Problem: Tune learning rate**
+   - URL: Find optimal convergence
