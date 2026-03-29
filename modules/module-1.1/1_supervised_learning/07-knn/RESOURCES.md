@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Distance metric comparison**
    - URL: Which metric for my data
+
+15. **Interview Question: Feature scaling importance**
+   - URL: Normalize features
