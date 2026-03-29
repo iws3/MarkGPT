@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: MinPts parameter**
    - URL: Core point threshold
+
+7. **Dataset: Circular Clusters**
+   - URL: https://www.kaggle.com/datasets
