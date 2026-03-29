@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Identify core/border/noise**
    - URL: Understanding DBSCAN
+
+11. **Article: DBSCAN vs K-Means**
+   - URL: https://towardsdatascience.com
