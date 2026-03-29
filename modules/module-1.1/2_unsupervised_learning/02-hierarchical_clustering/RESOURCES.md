@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Agglomerative vs divisive**
    - URL: Bottom-up vs top-down
+
+6. **Interview Question: Linkage criteria**
+   - URL: Single, complete, average
