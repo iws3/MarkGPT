@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: DBSCAN and Variants**
    - URL: https://springer.com
+
+4. **Paper: DBSCAN: A Density-Based Algorithm**
+   - URL: https://arxiv.org/abs/1910.02306
