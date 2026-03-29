@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: When to use DBSCAN**
    - URL: Advantages and disadvantages
+
+20. **Video: HDBSCAN Extension**
+   - URL: https://www.youtube.com/watch?v=gKBOYjXnuXU
