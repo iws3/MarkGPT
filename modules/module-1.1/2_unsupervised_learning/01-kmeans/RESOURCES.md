@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn KMeans**
    - URL: https://scikit-learn.org/stable/modules/clustering.html#k-means
+
+19. **Blog: When to use K-Means**
+   - URL: Limitations and strengths
