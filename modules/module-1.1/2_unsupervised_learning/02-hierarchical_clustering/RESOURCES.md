@@ -115,3 +115,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Hierarchical vs K-Means**
    - URL: Choose the right method
+
+20. **Video: Cophenetic Correlation Coefficient**
+   - URL: https://www.youtube.com/watch?v=C5V9eVHy2-0
