@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Gaussian Mixture Fitting**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Covariance Matrix Types**
+   - URL: https://www.youtube.com/watch?v=4pU8kflYvFo
