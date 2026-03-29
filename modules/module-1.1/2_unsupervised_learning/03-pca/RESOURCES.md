@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Variance explanation**
    - URL: Scree plot interpretation
+
+6. **Interview Question: Covariance matrix**
+   - URL: Data transformation
