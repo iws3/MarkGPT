@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: KNN Real-World Applications**
    - URL: Recommendation systems
+
+20. **Video: Tree-based KNN Search**
+   - URL: https://www.youtube.com/watch?v=7vLbQlzfAEA
