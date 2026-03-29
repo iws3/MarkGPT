@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn Agglomerative**
    - URL: https://scikit-learn.org/stable/modules/clustering.html
+
+19. **Blog: Hierarchical vs K-Means**
+   - URL: Choose the right method
