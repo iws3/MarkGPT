@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: MNIST Handwritten Digits**
    - URL: https://www.kaggle.com/datasets/oddrationale/mnist-784
+
+8. **Dataset: CIFAR-10 Images**
+   - URL: https://www.kaggle.com/datasets/kritikseth/cifar-10
