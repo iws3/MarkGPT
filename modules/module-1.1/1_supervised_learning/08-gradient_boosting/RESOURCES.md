@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Sequential training**
    - URL: Learn from errors
+
+6. **Interview Question: Loss function role**
+   - URL: Guide boosting process
