@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Kernel PCA**
    - URL: https://www.youtube.com/watch?v=XmJ09xVEZGU
+
+1. **Video: PCA Fundamentals**
+   - URL: https://www.youtube.com/watch?v=FgakZw6K1QQ
