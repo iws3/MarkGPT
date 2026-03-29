@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn DBSCAN**
    - URL: https://scikit-learn.org/stable/modules/clustering.html#dbscan
+
+19. **Blog: When to use DBSCAN**
+   - URL: Advantages and disadvantages
