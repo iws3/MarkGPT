@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Dimensionality Reduction vs Selection**
    - URL: https://www.youtube.com/watch?v=jGeLv-eU3PM
+
+3. **Book: Feature Engineering for ML**
+   - URL: https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/
