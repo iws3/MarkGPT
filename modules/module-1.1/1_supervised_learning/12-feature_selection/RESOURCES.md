@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Multicollinearity**
    - URL: VIF calculation
+
+16. **Interview Question: Univariate selection**
+   - URL: Statistical tests
