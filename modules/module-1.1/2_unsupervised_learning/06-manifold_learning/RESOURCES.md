@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Computational cost**
    - URL: Large datasets
+
+16. **Interview Question: Metric preservation**
+   - URL: Distance preservation
