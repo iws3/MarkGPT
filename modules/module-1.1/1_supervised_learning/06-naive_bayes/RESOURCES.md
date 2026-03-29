@@ -13,3 +13,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Bayes Theorem Fundamentals**
    - URL: https://www.youtube.com/watch?v=HZGCoVwiada
+
+3. **Book: Probabilistic Graphical Models**
+   - URL: https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/
