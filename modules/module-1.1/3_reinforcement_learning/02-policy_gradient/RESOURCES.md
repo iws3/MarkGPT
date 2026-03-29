@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Gradient estimation**
    - URL: REINFORCE algorithm
+
+10. **Practice: Implement REINFORCE**
+   - URL: Vanilla policy gradient
