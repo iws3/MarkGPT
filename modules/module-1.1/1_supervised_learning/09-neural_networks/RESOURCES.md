@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement forward pass**
    - URL: Matrix multiplications
+
+11. **Article: Neural Networks from Scratch**
+   - URL: https://towardsdatascience.com
