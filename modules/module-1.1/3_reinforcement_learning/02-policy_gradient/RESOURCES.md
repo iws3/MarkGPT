@@ -103,3 +103,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: PG Agent Implementation**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Advantage Functions**
+   - URL: https://www.youtube.com/watch?v=Tol_jw5hWnI
