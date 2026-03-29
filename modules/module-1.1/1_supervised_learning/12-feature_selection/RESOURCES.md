@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Relevant vs irrelevant**
    - URL: https://www.kaggle.com/datasets
+
+9. **Interview Question: Embedded methods**
+   - URL: Feature importance
