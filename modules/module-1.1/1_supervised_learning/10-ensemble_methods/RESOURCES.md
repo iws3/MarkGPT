@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Adding diversity**
    - URL: Different algorithms
+
+16. **Interview Question: Weighted averaging**
+   - URL: Model confidence
