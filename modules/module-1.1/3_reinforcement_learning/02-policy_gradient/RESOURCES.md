@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Continuous Control**
    - URL: https://gym.openai.com/envs/
+
+8. **Dataset: Atari Games**
+   - URL: https://gym.openai.com/envs/
