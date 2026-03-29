@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: When to use Regularization**
    - URL: Preventing overfitting
+
+20. **Video: Cross-Validation for Lambda**
+   - URL: https://www.youtube.com/watch?v=sSrDVBvgrss
