@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Information gain calculation**
    - URL: Entropy reduction
+
+7. **Dataset: Titanic Dataset**
+   - URL: https://www.kaggle.com/datasets/tedllh/titanic-data
