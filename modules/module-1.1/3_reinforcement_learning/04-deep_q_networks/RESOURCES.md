@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Double DQN Improvement**
    - URL: https://www.youtube.com/watch?v=23Xt2yM1QpI
+
+14. **Tool: DQN performance tracker**
+   - URL: Visualize learning
