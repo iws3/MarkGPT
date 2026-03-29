@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Cluster visualization**
    - URL: 2D/3D plots
+
+15. **Interview Question: Inertia interpretation**
+   - URL: Within-cluster sum of squares
