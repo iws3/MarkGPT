@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: PCA Explained Simply**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: PCA Visualization**
+   - URL: https://www.kaggle.com/code
