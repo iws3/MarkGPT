@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement TableQLearning**
    - URL: Discrete state space
+
+11. **Article: Deep Q-Networks**
+   - URL: https://towardsdatascience.com
