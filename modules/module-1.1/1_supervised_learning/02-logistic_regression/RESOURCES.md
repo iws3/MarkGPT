@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Iris Dataset**
    - URL: https://www.kaggle.com/datasets/uciml/iris
+
+8. **Dataset: Breast Cancer Dataset**
+   - URL: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
