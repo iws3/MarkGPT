@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Circular Clusters**
    - URL: https://www.kaggle.com/datasets
+
+8. **Dataset: Outlier Detection**
+   - URL: https://www.kaggle.com/datasets
