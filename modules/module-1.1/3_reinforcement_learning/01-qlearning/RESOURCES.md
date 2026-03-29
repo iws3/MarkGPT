@@ -43,3 +43,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Q-Learning Tutorial**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Temporal Difference Learning**
+   - URL: https://www.youtube.com/watch?v=0OMM-7J9c0s
