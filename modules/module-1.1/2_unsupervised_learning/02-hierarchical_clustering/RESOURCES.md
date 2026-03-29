@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Hierarchical Cluster Analysis**
    - URL: https://springer.com
+
+4. **Paper: A Comparison of Clustering Algorithms**
+   - URL: https://arxiv.org/abs/1812.00509
