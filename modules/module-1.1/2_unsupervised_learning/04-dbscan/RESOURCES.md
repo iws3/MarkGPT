@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Different distance metrics**
    - URL: Mahalanobis distance
+
+18. **Resource: scikit-learn DBSCAN**
+   - URL: https://scikit-learn.org/stable/modules/clustering.html#dbscan
