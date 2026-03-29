@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Return discounting**
    - URL: Monte Carlo rollout
+
+7. **Dataset: Continuous Control**
+   - URL: https://gym.openai.com/envs/
