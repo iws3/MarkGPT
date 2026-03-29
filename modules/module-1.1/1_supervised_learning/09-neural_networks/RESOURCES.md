@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Deep Learning (Goodfellow, Bengio, Courville)**
    - URL: https://deeplearningbook.org/
+
+4. **Paper: A Brief Introduction to Neural Networks**
+   - URL: https://arxiv.org/abs/1803.08055
