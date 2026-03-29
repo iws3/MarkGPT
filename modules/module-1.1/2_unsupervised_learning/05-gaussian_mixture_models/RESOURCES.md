@@ -7,3 +7,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Gaussian Mixture Models**
    - URL: https://www.youtube.com/watch?v=qMTuMa386t8
+
+1. **Video: Gaussian Mixture Models**
+   - URL: https://www.youtube.com/watch?v=qMTuMa386t8
