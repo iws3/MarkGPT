@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Gini vs Entropy**
    - URL: Different impurity measures
+
+16. **Interview Question: Pruning strategies**
+   - URL: Reduce complexity
