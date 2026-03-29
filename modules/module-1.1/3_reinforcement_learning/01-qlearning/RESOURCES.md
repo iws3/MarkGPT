@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Deep Q-Networks**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Q-Learning Tutorial**
+   - URL: https://www.kaggle.com/code
