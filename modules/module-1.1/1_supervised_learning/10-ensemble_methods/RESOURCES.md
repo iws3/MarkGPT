@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Multi-class Classification**
    - URL: https://www.kaggle.com/datasets
+
+9. **Interview Question: Stacking meta-learner**
+   - URL: Combine predictions
