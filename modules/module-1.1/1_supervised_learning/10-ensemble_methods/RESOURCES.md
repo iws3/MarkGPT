@@ -115,3 +115,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Weighted averaging**
    - URL: Model confidence
+
+17. **Practice Problem: Hyperparameter per model**
+   - URL: Individual tuning
