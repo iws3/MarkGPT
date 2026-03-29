@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: On the Optimality of the Simple Bayesian Classifier**
    - URL: https://arxiv.org/abs/1504.04143
+
+5. **Interview Question: Independence assumption**
+   - URL: Why it's naive
