@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Ensemble diversity**
    - URL: Uncorrelated predictions
+
+6. **Interview Question: Voting strategies**
+   - URL: Hard vs soft voting
