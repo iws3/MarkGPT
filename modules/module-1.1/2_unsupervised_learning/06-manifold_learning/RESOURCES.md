@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: UMAP vs t-SNE**
    - URL: https://www.youtube.com/watch?v=nq6iPZVUxZU
+
+14. **Tool: Manifold comparison tool**
+   - URL: Visualize embeddings
