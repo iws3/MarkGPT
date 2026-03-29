@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: TensorFlow Documentation**
    - URL: https://www.tensorflow.org/api_docs
+
+19. **Blog: Deep Learning Best Practices**
+   - URL: Modern techniques
