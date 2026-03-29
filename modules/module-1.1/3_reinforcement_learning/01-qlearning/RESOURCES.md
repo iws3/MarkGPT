@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Exploration vs exploitation**
    - URL: Epsilon-greedy
+
+7. **Dataset: CartPole Environment**
+   - URL: https://gym.openai.com/envs/CartPole-v0/
