@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Deep Learning Best Practices**
    - URL: Modern techniques
+
+20. **Video: Adam Optimizer Explained**
+   - URL: https://www.youtube.com/watch?v=JXQT_vxqS-0
