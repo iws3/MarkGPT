@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Max features parameter**
    - URL: Reduce correlation
+
+16. **Interview Question: Number of trees effects**
+   - URL: Convergence analysis
