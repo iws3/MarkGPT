@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Memory efficiency**
    - URL: Circular buffer
+
+17. **Practice Problem: Hyperparameter effects**
+   - URL: Learning rate, batch size
