@@ -70,3 +70,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Decision Trees Fundamentals**
    - URL: https://www.youtube.com/watch?v=7VeUPUSoHU8
+
+2. **Video: Information Gain and Entropy**
+   - URL: https://www.youtube.com/watch?v=ZfWBfJn6RVQ
