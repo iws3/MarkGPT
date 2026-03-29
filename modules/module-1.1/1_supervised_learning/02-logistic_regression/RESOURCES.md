@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Logistic Regression for classification**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Logistic Regression Classification**
+   - URL: https://www.kaggle.com/code
