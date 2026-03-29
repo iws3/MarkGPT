@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Reinforcement Learning State-of-the-Art**
    - URL: https://springer.com
+
+4. **Paper: Asynchronous Methods for Deep RL**
+   - URL: https://arxiv.org/abs/1602.01783
