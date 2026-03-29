@@ -10,3 +10,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Manifold Learning Basics**
    - URL: https://www.youtube.com/watch?v=Nko7_5wPj0w
+
+2. **Video: t-SNE Visualization**
+   - URL: https://www.youtube.com/watch?v=RJVL80Gg3lA
