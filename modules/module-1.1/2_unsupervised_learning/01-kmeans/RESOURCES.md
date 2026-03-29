@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Centroid initialization**
    - URL: Lloyd's algorithm
+
+6. **Interview Question: K-means++ improvement**
+   - URL: Better initialization
