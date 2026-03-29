@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Kernel Methods Deep Dive**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: SVM with different kernels**
+   - URL: https://www.kaggle.com/code
