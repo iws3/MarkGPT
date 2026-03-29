@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Q-value interpretation**
    - URL: Expected future reward
+
+10. **Practice: Implement TableQLearning**
+   - URL: Discrete state space
