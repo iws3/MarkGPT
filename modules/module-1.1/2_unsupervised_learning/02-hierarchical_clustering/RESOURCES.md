@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Dendrogram reading**
    - URL: Cut height for clusters
+
+10. **Practice: Calculate linkage matrix**
+   - URL: Distance computation
