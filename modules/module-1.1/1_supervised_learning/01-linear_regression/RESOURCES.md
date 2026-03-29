@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Interview Question: When to use regularization**
    - URL: To prevent overfitting
+
+8. **Dataset: Boston Housing Dataset**
+   - URL: https://www.kaggle.com/datasets/altruistdelhite04/boston-housing-dataset
