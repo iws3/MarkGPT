@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Deep Reinforcement Learning Hands-On**
    - URL: https://www.packtpub.com/product/deep-reinforcement-learning-hands-on/
+
+4. **Paper: Policy Gradient Methods Sutton**
+   - URL: https://arxiv.org/abs/1509.02971
