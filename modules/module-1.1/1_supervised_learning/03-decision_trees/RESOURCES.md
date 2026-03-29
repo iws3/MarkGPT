@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Tree depth implications**
    - URL: Overfitting with deeper trees
+
+10. **Practice: Calculate entropy**
+   - URL: Shannon entropy formula
