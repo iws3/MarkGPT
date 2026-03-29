@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: TensorFlow RL Agents**
    - URL: https://github.com/tensorflow/agents
+
+19. **Blog: Actor-Critic in Practice**
+   - URL: Real implementations
