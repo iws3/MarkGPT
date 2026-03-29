@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn KNeighborsClassifier**
    - URL: https://scikit-learn.org/stable/modules/neighbors.html
+
+19. **Blog: KNN Real-World Applications**
+   - URL: Recommendation systems
