@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Actor-Critic Methods**
    - URL: https://www.youtube.com/watch?v=Ye0Wry4SnFo
+
+3. **Book: Deep Reinforcement Learning Hands-On**
+   - URL: https://www.packtpub.com/product/deep-reinforcement-learning-hands-on/
