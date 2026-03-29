@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Dataset: California Housing Data**
    - URL: https://www.kaggle.com/datasets/camnugent/california-housing-prices
+
+10. **Practice: Gradient Descent Implementation**
+   - URL: Implement from scratch
