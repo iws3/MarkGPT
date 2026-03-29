@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Human-level Control through DRL Mnih**
    - URL: https://arxiv.org/abs/1312.5602
+
+5. **Interview Question: Experience replay buffer**
+   - URL: Break correlations
