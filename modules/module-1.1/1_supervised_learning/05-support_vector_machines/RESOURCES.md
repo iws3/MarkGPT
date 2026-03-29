@@ -13,3 +13,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Kernel Methods Explained**
    - URL: https://www.youtube.com/watch?v=VAMR6lshV4s
+
+3. **Book: Support Vector Machines**
+   - URL: https://www.springer.com/gp/book/9783540002258
