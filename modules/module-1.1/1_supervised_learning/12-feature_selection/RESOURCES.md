@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Feature Engineering for ML**
    - URL: https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/
+
+4. **Paper: Feature Selection Techniques**
+   - URL: https://arxiv.org/abs/1908.09681
