@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: RL environment simulator**
    - URL: Test your agent
+
+15. **Interview Question: Learning rate alpha**
+   - URL: Update magnitude
