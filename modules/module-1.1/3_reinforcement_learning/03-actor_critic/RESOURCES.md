@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Asynchronous Training**
    - URL: https://www.youtube.com/watch?v=j02brgg8eK0
+
+14. **Tool: Agent performance dashboard**
+   - URL: Monitor training
