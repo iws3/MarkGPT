@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Laplace smoothing**
    - URL: Handle zero probabilities
+
+10. **Practice: Calculate posterior probability**
+   - URL: Bayesian inference
