@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: RFE - Recursive Elimination**
    - URL: https://www.youtube.com/watch?v=qKfXXcYWsho
+
+14. **Tool: Feature importance visualizer**
+   - URL: See most important features
