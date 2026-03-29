@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Kernel selection**
    - URL: Linear, RBF, polynomial
+
+18. **Resource: scikit-learn SVM**
+   - URL: https://scikit-learn.org/stable/modules/svm.html
