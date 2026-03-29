@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Probabilistic Graphical Models**
    - URL: https://mitpress.mit.edu/9780262013192/probabilistic-graphical-models/
+
+4. **Paper: On the Optimality of the Simple Bayesian Classifier**
+   - URL: https://arxiv.org/abs/1504.04143
