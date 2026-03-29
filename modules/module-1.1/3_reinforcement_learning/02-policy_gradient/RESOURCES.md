@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: PPO algorithm**
    - URL: Trust region optimization
+
+17. **Practice Problem: Continuous action spaces**
+   - URL: Gaussian policy
