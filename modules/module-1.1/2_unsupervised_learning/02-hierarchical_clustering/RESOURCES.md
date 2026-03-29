@@ -13,3 +13,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Dendrograms Interpretation**
    - URL: https://www.youtube.com/watch?v=OP-qDT7Zm0s
+
+3. **Book: Hierarchical Cluster Analysis**
+   - URL: https://springer.com
