@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: CIFAR-10 Images**
    - URL: https://www.kaggle.com/datasets/kritikseth/cifar-10
+
+9. **Interview Question: Backpropagation mechanics**
+   - URL: Chain rule application
