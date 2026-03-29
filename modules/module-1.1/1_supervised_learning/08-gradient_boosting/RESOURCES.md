@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Tree depth in boosting**
    - URL: Interaction effects
+
+17. **Practice Problem: Hyperparameter tuning**
+   - URL: Grid or random search
