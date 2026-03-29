@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Dendrogram plotter**
    - URL: Visualize hierarchies
+
+15. **Interview Question: Computational complexity**
+   - URL: O(n²) memory
