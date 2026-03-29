@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Book: Pattern Recognition and Machine Learning**
    - URL: https://www.microsoft.com/en-us/research/people/cmbishop/
+
+5. **Paper: A Tutorial on Linear Regression**
+   - URL: https://arxiv.org/abs/1509.02871
