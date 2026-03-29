@@ -13,3 +13,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: DQN Explained**
    - URL: https://www.youtube.com/watch?v=wrBUkpiRvCA
+
+2. **Video: Atari Games with DQN**
+   - URL: https://www.youtube.com/watch?v=V1eYniJ0Rnk
