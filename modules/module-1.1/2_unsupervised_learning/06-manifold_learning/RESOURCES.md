@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: t-SNE explained**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Manifold Learning Comparison**
+   - URL: https://www.kaggle.com/code
