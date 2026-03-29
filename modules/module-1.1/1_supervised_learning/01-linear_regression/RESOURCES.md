@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Course: Andrew Ng Machine Learning Course**
    - URL: https://www.coursera.org/learn/machine-learning
+
+14. **Tool: Create correlation matrix**
+   - URL: Compare feature importance
