@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Decision Trees for Classification and Regression**
    - URL: https://mitpress.mit.edu/9780262033848/the-elements-of-statistical-learning/
+
+4. **Paper: Learning Classification Trees**
+   - URL: https://arxiv.org/abs/1908.03192
