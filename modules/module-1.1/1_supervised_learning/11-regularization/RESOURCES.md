@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: L1 penalty**
    - URL: Lasso regression
+
+6. **Interview Question: L2 penalty**
+   - URL: Ridge regression
