@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Embedded methods**
    - URL: Feature importance
+
+10. **Practice: Calculate correlation**
+   - URL: Feature relationships
