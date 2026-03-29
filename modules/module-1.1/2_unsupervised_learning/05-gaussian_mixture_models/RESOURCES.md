@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Pattern Recognition & Machine Learning**
    - URL: https://www.microsoft.com/en-us/research/people/cmbishop/
+
+4. **Paper: Gaussian Mixture Models Tutorial**
+   - URL: https://arxiv.org/abs/1710.00635
