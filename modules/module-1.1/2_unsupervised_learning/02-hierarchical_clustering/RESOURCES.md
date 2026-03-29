@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Calculate linkage matrix**
    - URL: Distance computation
+
+11. **Article: Hierarchical Clustering Deep Dive**
+   - URL: https://towardsdatascience.com
