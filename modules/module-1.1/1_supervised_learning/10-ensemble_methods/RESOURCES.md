@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Winning Kaggle with Ensembles**
    - URL: Proven techniques
+
+20. **Video: Mixture of Experts**
+   - URL: https://www.youtube.com/watch?v=cjFaVQJdIAk
