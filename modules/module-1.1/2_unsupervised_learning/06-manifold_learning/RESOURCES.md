@@ -103,3 +103,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Manifold Learning Comparison**
    - URL: https://www.kaggle.com/code
+
+13. **Video: UMAP vs t-SNE**
+   - URL: https://www.youtube.com/watch?v=nq6iPZVUxZU
