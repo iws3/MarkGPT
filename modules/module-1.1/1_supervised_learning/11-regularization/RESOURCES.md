@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Deep Learning Regularization**
    - URL: https://deeplearningbook.org/
+
+4. **Paper: Regularization in Machine Learning**
+   - URL: https://arxiv.org/abs/1908.02029
