@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Gradient Descent Implementation**
    - URL: Implement from scratch
+
+11. **Article: Linear Regression from Scratch**
+   - URL: https://towardsdatascience.com
