@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Swiss Roll Dataset**
    - URL: https://scikit-learn.org/stable/modules/manifold.html
+
+8. **Dataset: 64-dimensional digits**
+   - URL: https://www.kaggle.com/datasets/oddrationale/mnist-784
