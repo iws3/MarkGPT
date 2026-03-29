@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Policy Gradient Methods Sutton**
    - URL: https://arxiv.org/abs/1509.02971
+
+5. **Interview Question: Policy parameterization**
+   - URL: Neural network policy
