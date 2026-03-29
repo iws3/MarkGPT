@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: OpenAI Gym Environments**
    - URL: https://gym.openai.com/
+
+19. **Blog: Q-Learning from Scratch**
+   - URL: Step-by-step guide
