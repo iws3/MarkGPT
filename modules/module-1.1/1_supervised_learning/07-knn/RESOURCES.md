@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Nearest Neighbors Methods**
    - URL: https://springer.com
+
+4. **Paper: Nearest Neighbor Methods**
+   - URL: https://arxiv.org/abs/1904.01746
