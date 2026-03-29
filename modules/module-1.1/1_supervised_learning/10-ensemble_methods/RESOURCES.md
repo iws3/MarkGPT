@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Blending vs Stacking**
    - URL: https://www.youtube.com/watch?v=qWRjRVLEhFE
+
+14. **Tool: Ensemble performance comparison**
+   - URL: Which combination works
