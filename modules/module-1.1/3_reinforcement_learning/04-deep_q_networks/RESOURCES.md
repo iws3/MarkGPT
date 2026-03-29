@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Target network**
    - URL: Separate networks
+
+7. **Dataset: Atari 2600 games**
+   - URL: https://github.com/openai/gym
