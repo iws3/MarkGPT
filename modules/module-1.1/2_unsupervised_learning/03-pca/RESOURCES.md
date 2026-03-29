@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: PCA Applications**
    - URL: Image compression, visualization
+
+20. **Video: Kernel PCA**
+   - URL: https://www.youtube.com/watch?v=XmJ09xVEZGU
