@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Ensemble Learning Techniques**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Stacking Implementation**
+   - URL: https://www.kaggle.com/code
