@@ -103,3 +103,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 12. **Notebook: Clustering Visualization**
    - URL: https://www.kaggle.com/code
+
+13. **Video: Silhouette Score Explained**
+   - URL: https://www.youtube.com/watch?v=WH0_5dVj4W4
