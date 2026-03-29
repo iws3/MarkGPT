@@ -61,3 +61,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn Regularization**
    - URL: https://scikit-learn.org/stable/modules/linear_model.html
+
+19. **Blog: When to use Regularization**
+   - URL: Preventing overfitting
