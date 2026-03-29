@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Titanic Dataset**
    - URL: https://www.kaggle.com/datasets/tedllh/titanic-data
+
+8. **Dataset: Diabetes Dataset**
+   - URL: https://www.kaggle.com/datasets/albuquerque/diabetes
