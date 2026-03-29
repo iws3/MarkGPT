@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Number of trees effects**
    - URL: Convergence analysis
+
+17. **Practice Problem: Grid search parameters**
+   - URL: Hyperparameter optimization
