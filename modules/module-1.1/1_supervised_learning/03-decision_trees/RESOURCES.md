@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Pruning strategies**
    - URL: Reduce complexity
+
+17. **Practice Problem: Minimum samples split**
+   - URL: Hyperparameter effects
