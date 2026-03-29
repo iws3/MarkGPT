@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Advantage Functions**
    - URL: https://www.youtube.com/watch?v=Tol_jw5hWnI
+
+14. **Tool: Policy visualization**
+   - URL: See learned policy
