@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Policy Gradient Intuition**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: PG Agent Implementation**
+   - URL: https://www.kaggle.com/code
