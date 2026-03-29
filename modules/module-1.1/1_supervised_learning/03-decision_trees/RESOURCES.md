@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn DecisionTreeClassifier**
    - URL: https://scikit-learn.org/stable/modules/tree.html
+
+19. **Blog: Tree Interpretability Advantage**
+   - URL: Human-readable rules
