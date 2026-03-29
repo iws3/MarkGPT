@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Distance Metrics in Clustering**
    - URL: https://www.youtube.com/watch?v=7vLbQlzfAEA
+
+14. **Tool: Dendrogram plotter**
+   - URL: Visualize hierarchies
