@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Parallel training**
    - URL: https://github.com/openai/gym
+
+9. **Interview Question: Bias-variance tradeoff**
+   - URL: Actor-critic balance
