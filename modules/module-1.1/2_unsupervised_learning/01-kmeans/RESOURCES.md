@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Elbow method**
    - URL: Find optimal K
+
+10. **Practice: Implement K-means**
+   - URL: From scratch
