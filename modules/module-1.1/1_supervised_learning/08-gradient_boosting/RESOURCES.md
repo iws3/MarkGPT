@@ -112,3 +112,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Number of estimators**
    - URL: Overfitting risk
+
+16. **Interview Question: Tree depth in boosting**
+   - URL: Interaction effects
