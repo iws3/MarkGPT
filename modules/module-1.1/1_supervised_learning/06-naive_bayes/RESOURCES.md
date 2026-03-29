@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Probability calculation tool**
    - URL: Understand distributions
+
+15. **Interview Question: Text preprocessing impact**
+   - URL: Feature engineering
