@@ -52,3 +52,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: Baseline subtraction**
    - URL: Variance reduction
+
+16. **Interview Question: PPO algorithm**
+   - URL: Trust region optimization
