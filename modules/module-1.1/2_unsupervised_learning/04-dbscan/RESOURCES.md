@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Density-Based Clustering**
    - URL: https://www.youtube.com/watch?v=a-tMZDxljxo
+
+3. **Book: DBSCAN and Variants**
+   - URL: https://springer.com
