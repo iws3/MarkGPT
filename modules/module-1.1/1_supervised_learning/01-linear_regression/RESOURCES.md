@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 15. **Interview Question: R-squared interpretation**
    - URL: Proportion of variance explained
+
+16. **Interview Question: Multicollinearity issues**
+   - URL: Use VIF to detect
