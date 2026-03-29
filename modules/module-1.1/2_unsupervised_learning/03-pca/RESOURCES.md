@@ -76,3 +76,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: The Elements of Statistical Learning**
    - URL: https://web.stanford.edu/~hastie/ElemStatLearn/
+
+4. **Paper: PCA Tutorial**
+   - URL: https://arxiv.org/abs/1404.1100
