@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Naive Bayes in Practice**
    - URL: Fast and effective
+
+20. **Video: Conditional Probability Review**
+   - URL: https://www.youtube.com/watch?v=sZkAAsMmwK0
