@@ -25,3 +25,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Covariance types**
    - URL: Full, tied, diagonal, spherical
+
+7. **Dataset: Synthetic GMM Data**
+   - URL: https://www.kaggle.com/datasets
