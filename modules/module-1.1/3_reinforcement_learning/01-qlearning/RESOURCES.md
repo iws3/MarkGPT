@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Optimal policy convergence**
    - URL: Check convergence
+
+18. **Resource: OpenAI Gym Environments**
+   - URL: https://gym.openai.com/
