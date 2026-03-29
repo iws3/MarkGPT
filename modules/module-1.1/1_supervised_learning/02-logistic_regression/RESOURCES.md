@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Class imbalance handling**
    - URL: SMOTE and class weights
+
+17. **Practice Problem: Imbalanced dataset**
+   - URL: Handle minority class
