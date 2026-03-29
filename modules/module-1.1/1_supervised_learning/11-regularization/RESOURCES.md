@@ -100,3 +100,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Regularization Methods**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Regularization Comparison**
+   - URL: https://www.kaggle.com/code
