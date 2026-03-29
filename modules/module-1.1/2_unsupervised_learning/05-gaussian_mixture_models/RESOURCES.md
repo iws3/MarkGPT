@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Synthetic GMM Data**
    - URL: https://www.kaggle.com/datasets
+
+8. **Dataset: Multi-modal Distribution**
+   - URL: https://scikit-learn.org/stable/modules/mixture.html
