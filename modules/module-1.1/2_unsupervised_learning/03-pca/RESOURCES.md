@@ -106,3 +106,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Geometric Interpretation**
    - URL: https://www.youtube.com/watch?v=N9EFxCRruRY
+
+14. **Tool: PCA component visualizer**
+   - URL: See principal axes
