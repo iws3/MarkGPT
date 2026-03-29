@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Elastic Net**
    - URL: Combining L1 and L2
+
+10. **Practice: Calculate penalty term**
+   - URL: Regularization strength
