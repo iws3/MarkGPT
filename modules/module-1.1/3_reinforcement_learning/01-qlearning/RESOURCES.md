@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Value Iteration Algorithm**
    - URL: https://www.youtube.com/watch?v=ORM1jZI0ayk
+
+1. **Video: Q-Learning Fundamentals**
+   - URL: https://www.youtube.com/watch?v=5YcTdL8iUOg
