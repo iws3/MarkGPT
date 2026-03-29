@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Choosing K Value**
    - URL: https://www.youtube.com/watch?v=1ZwITQyWG-U
+
+3. **Book: Clustering Algorithms**
+   - URL: https://springer.com
