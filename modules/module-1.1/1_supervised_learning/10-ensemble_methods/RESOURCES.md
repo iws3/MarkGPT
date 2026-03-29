@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Mixture of Experts**
    - URL: https://www.youtube.com/watch?v=cjFaVQJdIAk
+
+1. **Video: Ensemble Methods Overview**
+   - URL: https://www.youtube.com/watch?v=Un9zObFjIH0
