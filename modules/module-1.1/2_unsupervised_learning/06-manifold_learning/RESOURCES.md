@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Local vs global structure**
    - URL: MDS and Isomap
+
+11. **Article: t-SNE explained**
+   - URL: https://towardsdatascience.com
