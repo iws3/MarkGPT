@@ -64,3 +64,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: Logistic vs Linear Regression**
    - URL: When and why to use each
+
+20. **Video: Cross-entropy loss explained**
+   - URL: https://www.youtube.com/watch?v=ErfnhcEV1O8
