@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Expectation-Maximization**
    - URL: Iterative algorithm
+
+6. **Interview Question: Covariance types**
+   - URL: Full, tied, diagonal, spherical
