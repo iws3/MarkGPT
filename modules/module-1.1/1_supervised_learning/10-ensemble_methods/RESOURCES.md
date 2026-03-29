@@ -16,3 +16,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 3. **Book: Ensemble Methods for Machine Learning**
    - URL: https://www.cambridge.org/9781108269841
+
+4. **Paper: Ensemble Methods Survey**
+   - URL: https://arxiv.org/abs/1809.09618
