@@ -28,3 +28,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Gene Expression Data**
    - URL: https://www.kaggle.com/datasets/uciml/iris
+
+8. **Dataset: Document Similarity**
+   - URL: https://www.kaggle.com/datasets
