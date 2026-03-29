@@ -7,3 +7,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Ensemble Methods Overview**
    - URL: https://www.youtube.com/watch?v=Un9zObFjIH0
+
+1. **Video: Ensemble Methods Overview**
+   - URL: https://www.youtube.com/watch?v=Un9zObFjIH0
