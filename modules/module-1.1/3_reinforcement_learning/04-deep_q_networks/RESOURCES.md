@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Custom environments**
    - URL: https://gym.openai.com/
+
+9. **Interview Question: DQN extensions**
+   - URL: Double, Dueling, Rainbow
