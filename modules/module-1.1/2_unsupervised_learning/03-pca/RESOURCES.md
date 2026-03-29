@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Number of components**
    - URL: Explained variance ratio
+
+10. **Practice: Compute covariance matrix**
+   - URL: SVD decomposition
