@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Scalability**
    - URL: Approximate algorithms
+
+17. **Practice Problem: Different distance metrics**
+   - URL: Mahalanobis distance
