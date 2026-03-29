@@ -34,3 +34,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: OOB error estimation**
    - URL: Out-of-bag variance
+
+10. **Practice: Implement bagging**
+   - URL: From decision trees
