@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Data augmentation**
    - URL: More training samples
+
+17. **Practice Problem: Weight decay**
+   - URL: Gradient penalty
