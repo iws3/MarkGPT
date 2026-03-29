@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Lagrange Multipliers in SVM**
    - URL: https://www.youtube.com/watch?v=9yGVhgCB35A
+
+1. **Video: SVM Introduction**
+   - URL: https://www.youtube.com/watch?v=Y6RRuP6mN4E
