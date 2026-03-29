@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Hyperparameter per model**
    - URL: Individual tuning
+
+18. **Resource: scikit-learn Ensemble**
+   - URL: https://scikit-learn.org/stable/modules/ensemble.html
