@@ -124,3 +124,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 19. **Blog: When to use Random Forests**
    - URL: Strengths and limitations
+
+20. **Video: Out-of-Bag Error Explained**
+   - URL: https://www.youtube.com/watch?v=k_FrFn_Kz4U
