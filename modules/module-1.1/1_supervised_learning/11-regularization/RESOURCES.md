@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Weight decay**
    - URL: Gradient penalty
+
+18. **Resource: scikit-learn Regularization**
+   - URL: https://scikit-learn.org/stable/modules/linear_model.html
