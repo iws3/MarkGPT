@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: PCA component visualizer**
    - URL: See principal axes
+
+15. **Interview Question: Data preprocessing**
+   - URL: Standardization importance
