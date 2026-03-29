@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: HDBSCAN Extension**
    - URL: https://www.youtube.com/watch?v=gKBOYjXnuXU
+
+1. **Video: DBSCAN Explained**
+   - URL: https://www.youtube.com/watch?v=pt2wW9bPYEQ
