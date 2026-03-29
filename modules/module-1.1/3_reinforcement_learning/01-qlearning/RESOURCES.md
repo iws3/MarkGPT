@@ -22,3 +22,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Bellman equation**
    - URL: Value function update
+
+6. **Interview Question: Exploration vs exploitation**
+   - URL: Epsilon-greedy
