@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: t-SNE Visualization**
    - URL: https://www.youtube.com/watch?v=RJVL80Gg3lA
+
+3. **Book: Dimensionality Reduction for ML**
+   - URL: https://springer.com
