@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Component visualization**
    - URL: Gaussian ellipses
+
+15. **Interview Question: number of components**
+   - URL: Information criteria
