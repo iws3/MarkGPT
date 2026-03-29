@@ -91,3 +91,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Outlier Detection**
    - URL: https://www.kaggle.com/datasets
+
+9. **Interview Question: Arbitrary shapes**
+   - URL: Handle non-globular clusters
