@@ -7,3 +7,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: PCA Fundamentals**
    - URL: https://www.youtube.com/watch?v=FgakZw6K1QQ
+
+1. **Video: PCA Fundamentals**
+   - URL: https://www.youtube.com/watch?v=FgakZw6K1QQ
