@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement K-means**
    - URL: From scratch
+
+11. **Article: K-Means Clustering Guide**
+   - URL: https://towardsdatascience.com
