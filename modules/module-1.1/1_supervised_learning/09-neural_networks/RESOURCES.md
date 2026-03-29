@@ -46,3 +46,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 13. **Video: Gradient Descent Visualization**
    - URL: https://www.youtube.com/watch?v=IHZwWFHWa-w
+
+14. **Tool: Network architecture visualizer**
+   - URL: Understand layers
