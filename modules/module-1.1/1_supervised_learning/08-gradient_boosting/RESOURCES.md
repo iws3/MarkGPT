@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Hyperparameter tuning**
    - URL: Grid or random search
+
+18. **Resource: scikit-learn GradientBoosting**
+   - URL: https://scikit-learn.org/stable/modules/ensemble.html#gradient-boosting
