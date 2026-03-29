@@ -121,3 +121,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 18. **Resource: scikit-learn RandomForestClassifier**
    - URL: https://scikit-learn.org/stable/modules/ensemble.html#random-forests
+
+19. **Blog: When to use Random Forests**
+   - URL: Strengths and limitations
