@@ -55,3 +55,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 16. **Interview Question: Discount factor gamma**
    - URL: Future importance
+
+17. **Practice Problem: Optimal policy convergence**
+   - URL: Check convergence
