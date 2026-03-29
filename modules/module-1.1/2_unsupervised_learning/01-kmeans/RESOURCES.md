@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Feature scaling impact**
    - URL: Normalize before clustering
+
+18. **Resource: scikit-learn KMeans**
+   - URL: https://scikit-learn.org/stable/modules/clustering.html#k-means
