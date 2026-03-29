@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: MNIST Digits**
    - URL: https://www.kaggle.com/datasets/oddrationale/mnist-784
+
+8. **Dataset: Wine Classification**
+   - URL: https://www.kaggle.com/datasets/uciml/wine-classification
