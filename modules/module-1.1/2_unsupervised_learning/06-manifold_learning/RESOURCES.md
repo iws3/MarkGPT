@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Different metrics**
    - URL: Euclidean vs cosine
+
+18. **Resource: scikit-learn Manifold**
+   - URL: https://scikit-learn.org/stable/modules/manifold.html
