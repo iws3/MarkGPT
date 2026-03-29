@@ -79,3 +79,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Learning to Predict by the Methods of Temporal Differences**
    - URL: https://arxiv.org/abs/cs/0412014
+
+5. **Interview Question: Bellman equation**
+   - URL: Value function update
