@@ -40,3 +40,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 11. **Article: Hierarchical Clustering Deep Dive**
    - URL: https://towardsdatascience.com
+
+12. **Notebook: Dendrogram Visualization**
+   - URL: https://www.kaggle.com/code
