@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 8. **Dataset: Breast Cancer Dataset**
    - URL: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+
+9. **Interview Question: ROC-AUC understanding**
+   - URL: Threshold-independent evaluation
