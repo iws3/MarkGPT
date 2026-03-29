@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: The Logistic Map: History and Applications**
    - URL: https://arxiv.org/abs/1111.1134
+
+5. **Interview Question: Sigmoid function properties**
+   - URL: Maps output to 0-1 range
