@@ -88,3 +88,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Multi-agent environments**
    - URL: https://gym.openai.com/envs/
+
+8. **Dataset: Parallel training**
+   - URL: https://github.com/openai/gym
