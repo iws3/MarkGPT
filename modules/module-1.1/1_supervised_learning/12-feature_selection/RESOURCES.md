@@ -7,3 +7,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Feature Selection Fundamentals**
    - URL: https://www.youtube.com/watch?v=6g8_kDRwY2k
+
+1. **Video: Feature Selection Fundamentals**
+   - URL: https://www.youtube.com/watch?v=6g8_kDRwY2k
