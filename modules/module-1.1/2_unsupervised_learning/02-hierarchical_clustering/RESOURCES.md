@@ -70,3 +70,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: A Comparison of Clustering Algorithms**
    - URL: https://arxiv.org/abs/1812.00509
+
+5. **Interview Question: Agglomerative vs divisive**
+   - URL: Bottom-up vs top-down
