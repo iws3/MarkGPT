@@ -58,3 +58,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Different linkage methods**
    - URL: Compare results
+
+1. **Video: Hierarchical Clustering Explained**
+   - URL: https://www.youtube.com/watch?v=IJiEeRDHzIo
