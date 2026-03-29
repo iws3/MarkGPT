@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Binary Classification Fundamentals**
    - URL: https://www.youtube.com/watch?v=NzxPY8J8xeY
+
+3. **Book: Logistic Regression: A Self-Learning Text**
+   - URL: https://www.springer.com/gp/book/9781441917851
