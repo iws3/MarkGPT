@@ -85,3 +85,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 6. **Interview Question: Voting strategies**
    - URL: Hard vs soft voting
+
+7. **Dataset: Kaggle Competition Data**
+   - URL: https://www.kaggle.com/competitions
