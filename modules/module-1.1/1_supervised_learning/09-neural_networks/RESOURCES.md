@@ -109,3 +109,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Network architecture visualizer**
    - URL: Understand layers
+
+15. **Interview Question: Dropout regularization**
+   - URL: Prevent overfitting
