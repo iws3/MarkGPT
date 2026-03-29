@@ -94,3 +94,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 9. **Interview Question: Bias-variance tradeoff**
    - URL: Actor-critic balance
+
+10. **Practice: Implement A2C**
+   - URL: Advantage Actor-Critic
