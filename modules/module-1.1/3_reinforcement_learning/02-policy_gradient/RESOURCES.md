@@ -37,3 +37,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement REINFORCE**
    - URL: Vanilla policy gradient
+
+11. **Article: Policy Gradient Intuition**
+   - URL: https://towardsdatascience.com
