@@ -97,3 +97,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 10. **Practice: Implement basic boosting**
    - URL: From decision stumps
+
+11. **Article: Gradient Boosting vs Random Forest**
+   - URL: https://towardsdatascience.com
