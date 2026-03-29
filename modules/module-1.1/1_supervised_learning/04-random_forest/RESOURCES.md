@@ -19,3 +19,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 4. **Paper: Random Forests Breiman**
    - URL: https://doi.org/10.1023/A:1010933404324
+
+5. **Interview Question: Bagging concept**
+   - URL: Bootstrap sampling
