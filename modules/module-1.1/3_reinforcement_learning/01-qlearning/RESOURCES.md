@@ -7,3 +7,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Q-Learning Fundamentals**
    - URL: https://www.youtube.com/watch?v=5YcTdL8iUOg
+
+1. **Video: Q-Learning Fundamentals**
+   - URL: https://www.youtube.com/watch?v=5YcTdL8iUOg
