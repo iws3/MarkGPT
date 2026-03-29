@@ -82,3 +82,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 5. **Interview Question: Maximum margin concept**
    - URL: Generalization
+
+6. **Interview Question: Kernel trick explanation**
+   - URL: Non-linear transformations
