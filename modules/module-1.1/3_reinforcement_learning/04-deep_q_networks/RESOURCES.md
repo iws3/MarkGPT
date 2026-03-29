@@ -31,3 +31,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 7. **Dataset: Atari 2600 games**
    - URL: https://github.com/openai/gym
+
+8. **Dataset: Custom environments**
+   - URL: https://gym.openai.com/
