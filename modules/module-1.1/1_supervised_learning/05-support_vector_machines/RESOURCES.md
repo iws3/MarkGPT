@@ -49,3 +49,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 14. **Tool: Decision boundary visualization**
    - URL: Understand SVM geometry
+
+15. **Interview Question: Why SVMs work**
+   - URL: Structural risk minimization
