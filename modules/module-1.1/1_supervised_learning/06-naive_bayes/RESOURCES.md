@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Conditional Probability Review**
    - URL: https://www.youtube.com/watch?v=sZkAAsMmwK0
+
+1. **Video: Naive Bayes Explanation**
+   - URL: https://www.youtube.com/watch?v=l3dZ6ZNFIu0
