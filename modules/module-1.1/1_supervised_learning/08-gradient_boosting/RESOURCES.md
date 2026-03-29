@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: AdaBoost to Gradient Boosting**
    - URL: https://www.youtube.com/watch?v=zQIqNPfTjls
+
+3. **Book: Boosting Algorithms**
+   - URL: https://springer.com
