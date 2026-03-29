@@ -67,3 +67,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 20. **Video: Adam Optimizer Explained**
    - URL: https://www.youtube.com/watch?v=JXQT_vxqS-0
+
+1. **Video: Neural Networks Basics**
+   - URL: https://www.youtube.com/watch?v=aircAruvnKk
