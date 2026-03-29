@@ -118,3 +118,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 17. **Practice Problem: Optimal K tuning**
    - URL: Cross-validation
+
+18. **Resource: scikit-learn KNeighborsClassifier**
+   - URL: https://scikit-learn.org/stable/modules/neighbors.html
