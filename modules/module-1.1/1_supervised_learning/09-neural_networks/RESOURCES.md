@@ -7,3 +7,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 1. **Video: Neural Networks Basics**
    - URL: https://www.youtube.com/watch?v=aircAruvnKk
+
+1. **Video: Neural Networks Basics**
+   - URL: https://www.youtube.com/watch?v=aircAruvnKk
