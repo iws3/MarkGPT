@@ -73,3 +73,6 @@ A comprehensive collection of resources to deepen your understanding of this alg
 
 2. **Video: Information Gain and Entropy**
    - URL: https://www.youtube.com/watch?v=ZfWBfJn6RVQ
+
+3. **Book: Decision Trees for Classification and Regression**
+   - URL: https://mitpress.mit.edu/9780262033848/the-elements-of-statistical-learning/
