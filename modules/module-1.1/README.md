@@ -1946,3 +1946,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Probability spaces
 - Foundations of probability
 
+### Functional Analysis
+- Vector spaces: Infinite dimensional
+- Norms and metrics
+- Hilbert spaces: Inner product
+- Operator theory: Transformations
+
