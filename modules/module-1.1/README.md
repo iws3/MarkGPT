@@ -1540,3 +1540,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Cross-encoders: Joint scoring
 - Approximate nearest neighbor: Fast retrieval
 
+### Recommendation Systems
+- Content-based: Item features
+- Collaborative filtering: User-item interactions
+- Matrix factorization: Latent factors
+- Deep learning: User and item embeddings
+
