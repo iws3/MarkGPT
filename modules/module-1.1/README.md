@@ -1514,3 +1514,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Submodular optimization
 - Applications: Viral marketing, information diffusion
 
+### Random Walk Methods
+- DeepWalk, Node2Vec: Graph embeddings
+- Biased walks: Parameter p,q
+- Captures network proximity
+- Transfer to downstream tasks
+
