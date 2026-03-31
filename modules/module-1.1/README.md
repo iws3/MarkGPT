@@ -2068,3 +2068,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Biology: Protein folding, gene analysis
 - Climate: Weather forecasting
 
+### Manufacturing
+- Quality control: Defect detection
+- Predictive maintenance: Equipment health
+- Process optimization: Efficiency
+- Supply chain: Demand forecasting
+
