@@ -2198,3 +2198,13 @@ Before Deployment
 - [] Failure modes documented
 - [] Edge cases tested
 
+
+## Appendix D: Troubleshooting Guide
+
+Common Issues
+- NaN loss: Reduce learning rate, check data
+- Overfitting: Add regularization, get more data
+- Slow training: Profile code, reduce model size
+- Poor generalization: More data, simpler model
+- Instability: Batch normalize, gradient clip
+
