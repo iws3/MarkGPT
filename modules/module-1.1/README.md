@@ -928,3 +928,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Empirical evaluation essential
 - Benchmark multiple approaches
 
+## Evaluation Metrics Deep Dive
+
+### Regression Metrics Detailed
+- MAE: Robust to outliers, interpretable units
+- MSE/RMSE: Penalizes large errors more
+- R²: Proportion of variance explained [-∞, 1]
+- MAPE: Percentage error (watch for division by zero)
+
