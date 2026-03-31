@@ -1418,3 +1418,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Reduces overoptimistic values
 - Improved stability
 
+### Dueling DQN
+- Separate advantage and value streams
+- Better representation learning
+- Advantages add up to Q-value
+- Improves convergence
+
