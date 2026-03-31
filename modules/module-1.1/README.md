@@ -1000,3 +1000,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - InstanceNorm: Per instance per channel
 - Each suited to different architectures
 
+### Early Stopping
+- Monitor validation loss during training
+- Stop if no improvement for N epochs
+- Prevents overfitting naturally
+- Saves best model checkpoint
+
