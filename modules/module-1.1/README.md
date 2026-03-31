@@ -2239,3 +2239,13 @@ Recommended Setup
 - Jupyter for interactive development
 - GPU (CUDA) for deep learning
 
+
+## Appendix H: Glossary of Terms
+
+Important Definitions
+- Overfitting: Model memorizes training data
+- Generalization: Performance on new data
+- Hyperparameter: Parameter chosen before training
+- Parameter: Value learned during training
+- Regularization: Constraint preventing overfitting
+
