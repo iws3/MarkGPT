@@ -2126,3 +2126,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Fairness and accountability
 - Privacy and security
 
+### Opportunities
+- Scientific discovery acceleration
+- Healthcare advances
+- Climate and sustainability
+- Solving fundamental problems
+
