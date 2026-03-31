@@ -864,3 +864,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Version your code and models
 - Containerize dependencies (Docker)
 
+## Feature Engineering Techniques
+
+### Feature Scaling Importance
+- Normalization: Scale to [0,1]
+- Standardization: Zero mean, unit variance
+- Critical for: Distance-based (KNN, SVM, K-means), Gradient descent
+- Not needed for: Tree-based models
+
