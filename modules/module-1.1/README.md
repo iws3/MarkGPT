@@ -1778,3 +1778,5 @@ Create reproducible experiments with systematic comparison of approaches.
 - SimCLR, MoCo, BYOL
 - Pretext tasks
 
+## Practical Case Studies
+
