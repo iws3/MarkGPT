@@ -2229,3 +2229,13 @@ Websites
 - Papers with Code: Code for papers
 - Kaggle: Competitions and datasets
 
+
+## Appendix G: Setup and Environment
+
+Recommended Setup
+- Python 3.8+
+- Virtual environment (venv or conda)
+- scikit-learn, pandas, numpy
+- Jupyter for interactive development
+- GPU (CUDA) for deep learning
+
