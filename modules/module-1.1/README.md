@@ -1534,3 +1534,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Listwise: Ranking metrics
 - Neural Networks: Deep ranking
 
+### Semantic Search
+- Dense representations: Embeddings
+- Bi-encoders: Query and document
+- Cross-encoders: Joint scoring
+- Approximate nearest neighbor: Fast retrieval
+
