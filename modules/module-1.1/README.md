@@ -2082,3 +2082,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Generalization: Performance on new data
 - Robustness: Stability under perturbations
 
+### The Unreasonable Effectiveness of Data
+- Scaling laws: More data = better
+- Empirical success without theory
+- Limits of theory
+- Future of ML
+
