@@ -910,3 +910,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Clustering: Random assignment
 - Establish performance floor
 
+### Simple to Complex Progression
+- Start: Linear models, shallow trees
+- Middle: Ensemble methods, kernel methods
+- Advanced: Deep learning, custom models
+- Each adds complexity, not necessarily performance
+
