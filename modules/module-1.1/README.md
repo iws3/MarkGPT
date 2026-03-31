@@ -1334,3 +1334,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - GRU: Gated Recurrent Unit, simpler LSTM
 - Bidirectional: Forward and backward passes
 
+### Transformer Architecture
+- Self-attention mechanism
+- No recurrence, parallelizable
+- Positional encoding: Position information
+- Foundation of modern NLP models
+
