@@ -1966,3 +1966,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - ImageNet: Large-scale visual recognition
 - COCO: Object detection and segmentation
 
+### Text Datasets
+- SQuAD: Question answering
+- WikiText: Language modeling
+- GLUE: Natural language understanding
+- SUPERGLUE: Advanced NLU benchmark
+
