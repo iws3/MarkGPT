@@ -2177,3 +2177,13 @@ Next Steps: Progress to Module 2 for specialized topics and advanced techniques.
 - Clustering: K-means (simple), DBSCAN (arbitrary shapes)
 - Dimensionality: PCA (linear), t-SNE/UMAP (visualization)
 
+
+## Appendix B: Common Hyperparameter Ranges
+
+### Reasonable Starting Ranges
+- Learning rate: [1e-5, 1e-1], try log scale
+- Batch size: [16, 128, 256], powers of 2
+- Dropout: [0.1, 0.5], usually 0.5
+- Regularization: [1e-5, 1e-2], log scale
+- Tree depth: [3, 20], depends on data
+
