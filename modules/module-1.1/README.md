@@ -936,3 +936,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - R²: Proportion of variance explained [-∞, 1]
 - MAPE: Percentage error (watch for division by zero)
 
+### Classification for Imbalanced Data
+- Precision: Minimize false positives
+- Recall: Minimize false negatives
+- F1-Score: Harmonic mean, balanced view
+- PR-AUC: Better than ROC-AUC for imbalance
+
