@@ -1690,3 +1690,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Infer goals and intentions
 - Applications: Learning human preferences
 
+### GAIL (Generative Adversarial Imitation Learning)
+- Adversarial framework
+- Generator: Policy
+- Discriminator: Real vs fake
+- Direct policy learning
+
