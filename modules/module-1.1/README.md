@@ -2094,3 +2094,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Recurrence: Temporal dependencies
 - Matching bias to problem structure
 
+### The Role of Luck
+- Random seed effects
+- Initialization sensitivity
+- Randomness in data splitting
+- Statistical significance
+
