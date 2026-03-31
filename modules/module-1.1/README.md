@@ -1366,3 +1366,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Dense instance masks
 - Applications: Crowd counting, cell segmentation
 
+### Pose Estimation
+- Human skeleton detection
+- Joint localization
+- Applications: Sports analysis, VR
+- Video: Temporal consistency
+
