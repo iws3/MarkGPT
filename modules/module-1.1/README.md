@@ -1444,3 +1444,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Moving average: Past errors
 - Parameter selection: ACF/PACF plots
 
+### Exponential Smoothing
+- Simple: Constant level
+- Holt: Trend component
+- Holt-Winters: Seasonality
+- Adaptive: Learn smoothing factors
+
