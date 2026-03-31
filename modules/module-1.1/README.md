@@ -1360,3 +1360,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - U-Net: Encoder-decoder with skip connections
 - Important for: Medical imaging, autonomous vehicles
 
+### Instance Segmentation
+- Separate individual objects
+- Mask R-CNN: Extends Faster R-CNN
+- Dense instance masks
+- Applications: Crowd counting, cell segmentation
+
