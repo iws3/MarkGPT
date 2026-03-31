@@ -1606,3 +1606,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Inference: Exact or approximate
 - Parameter learning: MLE or MAP
 
+### Hidden Markov Models
+- States: Hidden layer
+- Observations: Visible output
+- Transitions: State dynamics
+- Emissions: Observation likelihood
+
