@@ -1238,3 +1238,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Degree of membership indicates certainty
 - Generalization of k-means
 
+### Self-Organizing Maps (SOM)
+- Topology-preserving dimensionality reduction
+- Neurons organized in grid
+- Adjacent neurons respond to similar inputs
+- Visualization of high-dimensional data
+
