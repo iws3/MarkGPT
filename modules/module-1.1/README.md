@@ -1284,3 +1284,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Probability thresholding: Known distributions
 - GAD: Generalized Anomaly Detection
 
+### Isolation Forest
+- Trees isolate anomalies
+- Anomalies need fewer splits
+- No distance computation
+- Efficient for high dimensions
+
