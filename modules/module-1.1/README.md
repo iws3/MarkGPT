@@ -1710,3 +1710,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Adapt to new domains
 - Debug systematically
 
+### Stay Updated
+- Follow ML research
+- Papers with Code
+- Conference proceedings (NeurIPS, ICML)
+- Community forums and blogs
+
