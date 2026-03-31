@@ -994,3 +994,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Allows higher learning rates
 - Slight regularization effect
 
+### Layer Normalization and Variants
+- LayerNorm: Normalize per sample
+- GroupNorm: Normalize within groups
+- InstanceNorm: Per instance per channel
+- Each suited to different architectures
+
