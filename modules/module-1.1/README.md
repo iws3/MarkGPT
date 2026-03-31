@@ -1404,3 +1404,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Beam search: Generate multiple hypotheses
 - BLEU score: Evaluation metric
 
+## Reinforcement Learning Advanced
+
+### Deep Q-Networks (DQN)
+- Q-learning with neural network
+- Experience replay: Decorrelate training
+- Target network: Stable targets
+- Convolutional input processing
+
