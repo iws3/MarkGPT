@@ -1859,3 +1859,8 @@ Create reproducible experiments with systematic comparison of approaches.
 - Solution: Invest time in data exploration
 - Lesson: Data quality > algorithm sophistication
 
+### Pitfall 3: Context Switch Overload
+- Problem: Too many algorithms, no mastery
+- Solution: Deep dive into few approaches
+- Lesson: Breadth comes after depth
+
