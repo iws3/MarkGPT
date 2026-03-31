@@ -1026,3 +1026,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Back-translation: Translate then back
 - Paraphrase generation
 
+### Time Series Augmentation
+- Jittering: Add small noise
+- Scaling: Multiply by random factor
+- Rotation: Circular shift in time
+- Window slicing: Take subsequences
+
