@@ -1188,3 +1188,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Mirrors human learning
 - Better convergence, generalization
 
+### Multi-Task Learning
+- Learn multiple related tasks jointly
+- Share representations
+- Improve generalization
+- Learn better features
+
