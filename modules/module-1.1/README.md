@@ -1794,3 +1794,10 @@ Create reproducible experiments with systematic comparison of approaches.
 - Solution: Cost-sensitive learning, SMOTE
 - Trade-off: False positives vs negatives
 
+### Case Study 3: Medical Image Analysis
+- Problem: Detect disease in medical images
+- Data: Labeled by radiologists
+- Approach: CNN, transfer learning
+- Validation: Cross-validation on large dataset
+- Deployment: Clinical integration
+
