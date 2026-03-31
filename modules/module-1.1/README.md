@@ -1554,3 +1554,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Confounding: Third variable affects both
 - Simpson's Paradox: Reverse in subgroups
 
+### Randomized Controlled Trials
+- Gold standard: Unbiased treatment effect
+- Randomization: Balance confounders
+- A/B testing: Online experiments
+- Sample size: Power analysis
+
