@@ -1638,3 +1638,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Expected improvement: Information gain
 - Batch selection: Multiple queries
 
+### Pool vs Stream
+- Pool: Choose from available set
+- Stream: Decide on each new example
+- Streaming more natural
+- Pool: Batch selection possible
+
