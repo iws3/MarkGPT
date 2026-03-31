@@ -922,3 +922,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Large data (>1M): Scalable algorithms, sampling
 - High dimensions: Feature selection, PCA, kernels
 
+### No Free Lunch Theorem
+- No algorithm best for all problems
+- Context-dependent performance
+- Empirical evaluation essential
+- Benchmark multiple approaches
+
