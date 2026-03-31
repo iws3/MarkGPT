@@ -1766,3 +1766,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Transfer through embeddings
 - Generalization to unseen classes
 
+### Continual Learning
+- Learning from non-stationary data
+- Catastrophic forgetting
+- Replay mechanisms
+- Task-aware learning
+
