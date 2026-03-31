@@ -1624,3 +1624,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Posterior: Updated belief
 - Uncertainty quantification
 
+### Variational Inference
+- Approximate posterior
+- KL divergence minimization
+- Amortized: Inference network
+- Scalable alternative to sampling
+
