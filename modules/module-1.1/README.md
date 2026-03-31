@@ -2220,3 +2220,12 @@ Common Symbols
 - y: Target variable
 - h(x): Hypothesis/prediction
 
+
+## Appendix F: Resource Links and Further Reading
+
+Websites
+- Distill.pub: Clear ML explanations
+- Colah's Blog: Neural network intuition
+- Papers with Code: Code for papers
+- Kaggle: Competitions and datasets
+
