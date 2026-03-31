@@ -1520,3 +1520,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Captures network proximity
 - Transfer to downstream tasks
 
+## Information Retrieval
+
+### Information Retrieval Fundamentals
+- TF-IDF: Classic ranking
+- BM25: Probabilistic model
+- Language models: Probability of relevance
+- Query expansion: Additional terms
+
