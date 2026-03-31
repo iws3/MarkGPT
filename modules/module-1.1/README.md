@@ -962,3 +962,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Check prediction confidence distributions
 - Compare to baseline model failures
 
+### Sanity Checks
+- Predictions on extreme inputs (test robustness)
+- Permutation test: Shuffle feature, performance drops?
+- Synthetic data: Create data, model should fit perfectly
+- Invariance tests: Model robust to irrelevant changes
+
