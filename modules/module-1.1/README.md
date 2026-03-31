@@ -1380,3 +1380,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Character-level: Handles OOV
 - Sentencepiece: Language agnostic
 
+### Word Embeddings
+- Word2Vec: Context prediction
+- GloVe: Global vectors
+- FastText: Subword information
+- ELMo: Contextual embeddings
+
