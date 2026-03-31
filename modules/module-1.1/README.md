@@ -2187,3 +2187,14 @@ Next Steps: Progress to Module 2 for specialized topics and advanced techniques.
 - Regularization: [1e-5, 1e-2], log scale
 - Tree depth: [3, 20], depends on data
 
+
+## Appendix C: Evaluation Checklist
+
+Before Deployment
+- [] Cross-validation performed
+- [] Hyperparameters tuned on validation set
+- [] Final evaluation on held-out test set
+- [] Performance degradation understood
+- [] Failure modes documented
+- [] Edge cases tested
+
