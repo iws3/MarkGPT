@@ -1156,3 +1156,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Enable rollback to previous versions
 - Track feature changes
 
+### Batch vs Online Prediction
+- Batch: Process large volumes periodically
+- Online/Real-time: Single predictions at request
+- Caching: Pre-compute common requests
+- Fallback: Graceful degradation
+
