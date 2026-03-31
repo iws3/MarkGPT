@@ -1940,3 +1940,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Mutual information: Shared information
 - Information gain: Reduction in uncertainty
 
+### Measure Theory Foundations
+- Sets and sigma-algebras
+- Measures: Generalized probability
+- Probability spaces
+- Foundations of probability
+
