@@ -954,3 +954,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Legal/ethical constraints
 - Domain-specific evaluation
 
+## Debugging Techniques
+
+### Examining Predictions
+- Visualize decision boundaries
+- Analyze misclassified examples
+- Check prediction confidence distributions
+- Compare to baseline model failures
+
