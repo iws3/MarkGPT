@@ -2012,3 +2012,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Emerging Research Areas
 
+### Multimodal Learning
+- Vision + Language integration
+- Cross-modal retrieval
+- CLIP: Contrastive vision-language
+- Applications: Image captioning, VQA
+
