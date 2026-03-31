@@ -1220,3 +1220,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Works well with complex geometries
 - Three steps: Laplacian, eigenvectors, k-means
 
+### Affinity Propagation
+- No need to specify cluster count
+- Sends messages between points
+- Exemplars: Representative points
+- Let data tell you cluster count
+
