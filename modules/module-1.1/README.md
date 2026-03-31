@@ -2036,3 +2036,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Fairness: Unbiased predictions
 - Privacy: Data protection
 
+### Human-in-the-Loop ML
+- Active learning with human feedback
+- Interactive model building
+- Explanation for human understanding
+- Collaborative learning
+
