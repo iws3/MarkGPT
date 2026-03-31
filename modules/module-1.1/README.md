@@ -1864,3 +1864,8 @@ Create reproducible experiments with systematic comparison of approaches.
 - Solution: Deep dive into few approaches
 - Lesson: Breadth comes after depth
 
+### Pitfall 4: Ignoring Business Context
+- Problem: Optimize wrong metric
+- Solution: Understand business objectives
+- Lesson: Technical metrics serve business goals
+
