@@ -1676,3 +1676,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Assumes smoothness on manifold
 - Effective with small label set
 
+## Imitation Learning
+
+### Behavioral Cloning
+- Learn from expert demonstrations
+- Supervised learning: Predict actions
+- Distribution shift: Test differs from train
+- Requires many expert trajectories
+
