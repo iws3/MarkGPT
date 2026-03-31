@@ -2114,3 +2114,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Green computing
 - Environmental responsibility
 
+### Human-Centric AI
+- Augmenting human capabilities
+- Collaboration with humans
+- Ethical deployment
+- User-centered design
+
