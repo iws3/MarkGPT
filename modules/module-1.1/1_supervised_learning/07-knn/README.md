@@ -1,46 +1,240 @@
-# K-Nearest Neighbors (KNN)
+# 🏠 Lesson 07 — K-Nearest Neighbours (KNN)
 
-## Fundamentals
-
-K-Nearest Neighbors (KNN) is a simple yet effective instance-based learning algorithm that makes predictions based on the proximity of training samples to the query point. KNN is a lazy learning algorithm that stores training data and makes predictions at query time, making it inherently flexible for both classification and regression. Despite its simplicity, KNN can capture complex non-linear patterns and handles multi-class problems naturally. However, it requires careful distance metric selection and feature scaling, and its computational cost grows with dataset size. KNN is commonly used as a baseline algorithm and in cases where interpretability through similar examples is valuable.
-
-## Key Concepts
-
-- **Distance Metrics**: Euclidean, Manhattan, Minkowski
-- **Value of K**: Determines neighborhood size
-- **Distance Weighting**: Weighted vs. uniform voting
-- **Lazy Learning**: No training phase
-
-## Applications
-
-- Image recognition
-- Recommendation systems
-- Medical diagnosis
-- Anomaly detection
-- Document classification
+> **Core Idea**: To classify a new point, look at the K most similar training examples and take a majority vote. To predict a value, take the average of the K nearest neighbours. No model is trained — you simply remember all training data and consult it at prediction time.
 
 ---
 
-[Go to Exercises](exercises.md) | [Answer the Question](question.md)
+## 📋 Table of Contents
 
+1. [The "Lazy Learning" Philosophy](#1-lazy-learning)
+2. [How Similarity Is Measured — Distance Metrics](#2-distance-metrics)
+3. [Choosing K — The Central Hyperparameter](#3-choosing-k)
+4. [Weighted KNN](#4-weighted-knn)
+5. [The Curse of Dimensionality](#5-curse-of-dimensionality)
+6. [Python Implementation](#6-python-implementation)
+7. [Visual Summary](#7-visual-summary)
+8. [When to Use](#8-when-to-use)
 
+---
 
-### Distance Metrics Beyond Euclidean
+## 1. The "Lazy Learning" Philosophy
 
-While Euclidean distance is most common, other metrics suit different data types. Manhattan distance (L1) |x-y| sum uses coordinate differences; it's often more robust to outliers. Chebyshev distance (L-infinity) max(|x-y|) uses maximum coordinate difference; useful for bounded spaces. For high-dimensional data, Euclidean distances become less meaningful (curse of dimensionality); Manhattan or Chebyshev sometimes perform better. For text, cosine similarity (angle between vectors) is standard; it ignores magnitude, focusing on direction. For categorical data, Hamming distance (number of differing coordinates) applies. Domain-specific distances exist: edit distance (Levenshtein) for strings, dynamic time warping for time series, geodesic distance for data on manifolds. Choosing metric requires domain knowledge: geometric intuition in Euclidean space doesn't apply in all domains. k-NN performance is sensitive to metric choice; trying multiple metrics via cross-validation is worthwhile. Custom distances can be plugged into scikit-learn's k-NN.
+Most ML algorithms train a model upfront (compute weights, build a tree, etc.) and then use that compact model for predictions. KNN does the opposite: there is no training phase at all. Instead, all training data is stored in memory, and every prediction requires searching through the entire training set to find the nearest neighbours.
 
-### KD-Trees and Ball-Trees for Efficiency
+This is called **lazy learning** — the algorithm defers all computation to prediction time.
 
-Brute-force k-NN searches through all training points; O(n) per query. For large n (1M+), this is slow. KD-trees (k-dimensional trees) and ball-trees recursively partition space hierarchically. Search via these structures is O(log n) on average, massively faster. However, trees' efficiency degrades in high dimensions (curse of dimensionality); for d > 20, brute-force sometimes outperforms tree search. Scikit-learn automatically selects: if n < 30 or d > 16, it uses brute-force; otherwise, KD-tree or ball-tree depending on metrics. For production systems requiring fast queries, building trees once and querying many times is efficient. Approximate nearest neighbor methods (locality-sensitive hashing, learned indices) further improve speed, trading accuracy for extreme speed. Understanding these data structures helps practitioners: for thousands of queries on large data, preprocessing via tree construction is worthwhile.
+```
+Training phase:  Just store all (X, y) pairs in memory.
+                 Time: O(1)  ← instant!
 
-### Feature Scaling and Dimensionality
+Prediction for a new point x_new:
+  1. Compute distance(x_new, xᵢ) for ALL training points xᵢ
+  2. Sort by distance
+  3. Take the K closest points
+  4. Classification: majority vote among their labels
+  5. Regression: average of their target values
+  Time: O(n × d)  ← slow for large n (samples) or d (features)
 
-k-NN's reliance on distances makes feature scaling critical. A feature with range [0, 1000] overshadows features with range [0, 1]; StandardScaler handles this. Without scaling, k-NN is biased toward high-variance features. Dimensionality reduction (PCA) before k-NN sometimes improves performance: noise in high dimensions is reduced, and computational cost decreases. However, be careful: dimensionality reduction loses information; if information is relevant to the task, performance drops. Feature selection (removing irrelevant features) is often better than reduction. Irrelevant features add noise; selecting relevant features improves k-NN significantly. In text classification with thousands of words, filtering to top 100 features via mutual information often helps. Domain knowledge guides selection: in healthcare, medical features matter; in text, stop words (the, a, is) don't. The number of features should be much smaller than the number of samples; d << n avoids the curse of dimensionality.
+n = 10 million training examples, d = 100 features:
+  Each prediction = 10 million × 100 multiplications → very slow!
+  (Data structures like KD-trees and ball trees speed this up significantly)
+```
 
-### Local Decision Boundaries and Confidence
+---
 
-k-NN creates local decision boundaries around each query point. Unlike global models, k-NN decisions depend only on nearby neighbors, useful for capturing local patterns and discontinuities. However, boundaries are discontinuous: moving a query point slightly can completely change the k nearest neighbors, causing prediction changes. This is problematic for confidence: slight perturbations cause different predictions. To quantify confidence, use soft predictions: proportion of neighbors in the positive class. If k=5 and 4 neighbors are positive, predicted probability is 0.8. Probabilities near 0.5 indicate low confidence (neighbors split). This enables ranking predictions by confidence. For critical applications (medical diagnosis), using only high-confidence predictions improves reliability. In risk-sensitive settings, abstaining on low-confidence predictions is better than guessing.
+## 2. Distance Metrics
 
-### k-NN Limitations and When to Use
+"Similar" means "close" in feature space. The most common distance measure is Euclidean distance — straight-line distance — but there are others:
 
-k-NN's main limitation is computational cost: O(n) per prediction is prohibitive for real-time large-scale applications. It doesn't learn feature importance; all features contribute equally after scaling. It's prone to overfitting with small k (tight fit to training data); large k smooths predictions but loses detail. Memory requirements are huge (storing all training data); not feasible for billions of samples. It extrapolates poorly: predictions outside training data range are unprincipled. It assumes all neighbors are equally reliable; outliers influence predictions just like normal points. Despite limitations, k-NN excels in exploratory analysis: examining nearest neighbors reveals structure. It's useful for semi-supervised learning: using unlabeled neighbors. When to use: (1) exploratory analysis; (2) when instances themselves are important; (3) irregular decision boundaries; (4) datasets < 100k samples. When not: (1) real-time systems; (2) high-dimensional data (d > 50); (3) memory-constrained systems; (4) need for interpretability. k-NN's simplicity and flexibility make it valuable despite computational limitations.
+```
+Euclidean distance (default, works for continuous features):
+  d(a, b) = √[ Σ (aᵢ - bᵢ)² ]
+  = straight-line distance in n-dimensional space
+
+Manhattan distance (L1, robust to outliers):
+  d(a, b) = Σ |aᵢ - bᵢ|
+  = "city block" distance — sum of absolute differences
+  Imagine walking on a grid of city streets
+
+Minkowski distance (generalisation):
+  d(a, b) = (Σ |aᵢ - bᵢ|^p)^(1/p)
+  p=1 → Manhattan,  p=2 → Euclidean,  p→∞ → Chebyshev (max absolute difference)
+
+Hamming distance (for categorical/binary features):
+  d(a, b) = proportion of positions where aᵢ ≠ bᵢ
+
+⚠️ Critical: ALWAYS scale features before using KNN!
+   Without scaling, a feature with range 0–10,000 (like salary)
+   dominates a feature with range 0–1 (like probability score).
+   The large-range feature completely controls the distance computation.
+```
+
+---
+
+## 3. Choosing K — The Central Hyperparameter
+
+K is the most important hyperparameter. It controls the bias-variance tradeoff directly:
+
+```
+K=1 (nearest neighbour only):
+  Every training point becomes its own region.
+  Perfect training accuracy (0 error) → overfit!
+  Very sensitive to noise and outliers.
+  HIGH VARIANCE.
+
+K=N (all training points vote):
+  Every query gets the same answer: the majority class.
+  This is the simplest possible model — just predict the most common class.
+  HIGH BIAS. (Unless the dataset is nicely balanced.)
+
+K somewhere in the middle:
+  Balance between memorising noise (small K) and ignoring local structure (large K).
+
+Visualisation of decision boundaries:
+  K=1: ██░░░░░██░   Jagged, complex boundaries
+  K=5: ███░░░░███   Smoother boundaries
+  K=15:████░░░████  Very smooth, almost linear boundaries
+
+Rule of thumb: Start with K = √n (square root of training examples).
+Always use odd K for binary classification to avoid ties.
+Find optimal K using cross-validation.
+```
+
+---
+
+## 4. Weighted KNN
+
+A natural improvement: give closer neighbours more influence. Instead of each neighbour getting one equal vote, weight each vote by the inverse of its distance:
+
+```
+Uniform weights (standard KNN):  Each of K neighbours contributes equally.
+Distance weights:                  Closer neighbours contribute more.
+  weight(xᵢ) = 1 / distance(x_new, xᵢ)
+  → A neighbour at distance 0.1 has 10× more influence than one at distance 1.0.
+
+sklearn parameter: KNeighborsClassifier(weights='distance')
+```
+
+Weighted KNN is almost always better than uniform KNN, especially near class boundaries.
+
+---
+
+## 5. The Curse of Dimensionality
+
+This is the most important theoretical limitation of KNN, and of many distance-based algorithms. As the number of features (dimensions) grows, the concept of "nearest neighbour" breaks down:
+
+```
+In 2D: K nearest neighbours are geometrically close → they're truly similar
+In 100D: Even the "nearest" neighbour may be quite far away
+In 1000D: All points become nearly equidistant from each other!
+
+Proof by intuition:
+  In 1D with 1,000 points uniformly distributed in [0,1]:
+    Expected distance to nearest neighbour ≈ 0.001  (very close!)
+
+  In 100D with 1,000 points:
+    Expected distance to nearest neighbour ≈ 0.52  (over HALF the range!)
+
+  → You'd need 2^100 ≈ 10^30 training points to maintain the same density.
+    Completely infeasible.
+
+Practical implication: KNN degrades badly as feature count grows.
+Fix: Apply PCA or feature selection to reduce to < 20 dimensions before KNN.
+```
+
+---
+
+## 6. Python Implementation
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
+from sklearn.datasets import load_iris, load_diabetes
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import classification_report
+
+# ─── Classification example ─────────────────────────────────────────────
+iris = load_iris()
+X, y = iris.data, iris.target
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
+                                                     random_state=42, stratify=y)
+
+# ALWAYS scale for KNN!
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)
+X_test_s  = scaler.transform(X_test)
+
+# ─── Find optimal K ──────────────────────────────────────────────────────
+k_values = range(1, 31)
+cv_scores = []
+for k in k_values:
+    knn = KNeighborsClassifier(n_neighbors=k, weights='distance', metric='euclidean')
+    scores = cross_val_score(knn, X_train_s, y_train, cv=5)
+    cv_scores.append(scores.mean())
+
+optimal_k = k_values[np.argmax(cv_scores)]
+print(f"Optimal K: {optimal_k}")
+
+plt.plot(k_values, cv_scores, 'b-o', markersize=4)
+plt.axvline(optimal_k, color='red', linestyle='--', label=f'Best K={optimal_k}')
+plt.xlabel('K (number of neighbours)')
+plt.ylabel('5-fold CV Accuracy')
+plt.title('K vs Cross-Validation Accuracy')
+plt.legend()
+plt.show()
+
+# ─── Final model ─────────────────────────────────────────────────────────
+final_knn = KNeighborsClassifier(n_neighbors=optimal_k, weights='distance')
+final_knn.fit(X_train_s, y_train)
+y_pred = final_knn.predict(X_test_s)
+print(f"\nTest accuracy: {final_knn.score(X_test_s, y_test):.4f}")
+print(classification_report(y_test, y_pred, target_names=iris.target_names))
+
+# ─── Regression example ──────────────────────────────────────────────────
+diabetes = load_diabetes()
+X_r, y_r = diabetes.data, diabetes.target
+X_r_train, X_r_test, y_r_train, y_r_test = train_test_split(
+    X_r, y_r, test_size=0.2, random_state=42)
+scaler_r = StandardScaler()
+X_r_train_s = scaler_r.fit_transform(X_r_train)
+X_r_test_s  = scaler_r.transform(X_r_test)
+
+from sklearn.metrics import mean_squared_error
+for k in [1, 5, 10, 20]:
+    knnr = KNeighborsRegressor(n_neighbors=k, weights='distance')
+    knnr.fit(X_r_train_s, y_r_train)
+    rmse = np.sqrt(mean_squared_error(y_r_test, knnr.predict(X_r_test_s)))
+    print(f"K={k:2d}: RMSE = {rmse:.2f}")
+```
+
+---
+
+## 7. Visual Summary
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                     KNN — OVERVIEW                              ║
+╠══════════════════════════════════════════════════════════════════╣
+║  TRAINING:   Store all (X, y) pairs. Nothing else. Instant!     ║
+║  PREDICTION: Find K closest training points → vote/average.     ║
+║                                                                  ║
+║  KEY HYPERPARAMETER: K                                           ║
+║    Small K → complex, noisy boundary (high variance)            ║
+║    Large K → smooth boundary (high bias)                        ║
+║    Optimal K → find via cross-validation                        ║
+║                                                                  ║
+║  MUST DO: Scale features before training/predicting!            ║
+║  WATCH FOR: Slow prediction on large datasets                   ║
+║  AVOID: High-dimensional data (curse of dimensionality)         ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 8. When to Use
+
+KNN is excellent as a non-parametric baseline when you don't know the shape of your data's decision boundary, for anomaly detection (an outlier will have no close neighbours), and for recommendation systems (find K users most similar to this user, recommend what they liked). Avoid it for large datasets (prediction is slow), high-dimensional data without prior dimensionality reduction, and real-time applications where latency matters.
+
+> 📂 Next: [exercises.md](exercises.md)

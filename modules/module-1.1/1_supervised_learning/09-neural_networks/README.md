@@ -1,62 +1,314 @@
-# Neural Networks for Supervised Learning
+# 🧠 Lesson 09 — Neural Networks
 
-## Fundamentals
-
-Neural Networks are powerful deep learning models inspired by biological neurons that can learn complex non-linear transformations through multiple layers. In supervised learning, neural networks can be trained with backpropagation to optimize weights and biases, making them highly flexible for both classification and regression tasks. Modern neural networks with multiple hidden layers (deep learning) have revolutionized fields like computer vision, natural language processing, and speech recognition. Understanding neural network fundamentals is crucial for modern machine learning practitioners, although their black-box nature can make interpretability challenging.
-
-## Key Concepts
-
-- **Neurons and Layers**: Architecture design
-- **Activation Functions**: ReLU, Sigmoid, Tanh
-- **Backpropagation**: Gradient computation and weight updates
-- **Learning Rate and Optimization**: SGD, Adam, RMSprop
-
-## Applications
-
-- Image classification
-- Text classification and NLP
-- Time series prediction
-- Speech recognition
-- Recommendation systems
+> **Core Idea**: Neural networks are loosely inspired by the brain — layers of interconnected "neurons" that transform inputs through a sequence of non-linear functions. They can learn extraordinarily complex patterns from data, making them the engine behind modern AI.
 
 ---
 
-[Go to Exercises](exercises.md) | [Answer the Question](question.md)
+## 📋 Table of Contents
 
+1. [From a Single Neuron to a Network](#1-single-neuron)
+2. [Activation Functions — Introducing Non-Linearity](#2-activation-functions)
+3. [The Forward Pass — Making a Prediction](#3-forward-pass)
+4. [The Loss Function](#4-loss-function)
+5. [Backpropagation — How the Network Learns](#5-backpropagation)
+6. [Gradient Descent Variants](#6-gradient-descent-variants)
+7. [Regularisation for Neural Networks](#7-regularisation)
+8. [Architecture Choices](#8-architecture)
+9. [Python Implementation (Keras)](#9-python-implementation)
+10. [Visual Summary](#10-visual-summary)
 
+---
 
-### Neural Network Fundamentals
+## 1. From a Single Neuron to a Network
 
-Neural networks are computational models loosely inspired by biological neural networks, consisting of interconnected layers of artificial neurons. Each neuron computes a weighted sum of inputs plus a bias term, then applies a non-linear activation function. The network learns by adjusting weights and biases through backpropagation, which computes gradients of the loss function with respect to each parameter. Neural networks can approximate any continuous function to arbitrary precision (universal approximation theorem), making them extremely flexible. The depth (number of layers) and width (neurons per layer) are hyperparameters controlling model capacity. Deep networks can learn hierarchical representations where early layers detect simple patterns, middle layers combine them into complex patterns, and final layers make predictions.
+A single artificial neuron takes multiple inputs, multiplies each by a weight, sums them up, adds a bias, and passes the result through an activation function:
 
-### Activation Functions and Network Architecture
+```
+                w₁
+    input x₁ ──────┐
+                w₂  │
+    input x₂ ──────┤──► z = w₁x₁ + w₂x₂ + w₃x₃ + b ──► a = f(z) ──► output
+                w₃  │
+    input x₃ ──────┘
+    bias b   ──────┘
 
-Activation functions introduce non-linearity, without which stacking layers would be equivalent to a single linear layer. Common choices include sigmoid σ(z) = 1/(1+e^-z), tanh, and ReLU f(z) = max(0, z). ReLU is preferred in modern networks due to training speed and simplicity. The network architecture—number of layers, neurons per layer, and connections—determines parameters and computational cost. Fully connected networks have each neuron connected to all previous layer neurons. Convolutional networks use weight sharing and local connections for images. Recurrent networks use temporal connections for sequences. Choosing appropriate architecture for the problem dramatically impacts performance and efficiency.
+z = the linear combination (pre-activation)
+f = the activation function (introduces non-linearity)
+a = the neuron's output (activation)
+```
 
-### Training Challenges and Advanced Techniques
+A **neural network** arranges these neurons in layers:
 
-Training deep networks presents challenges: vanishing/exploding gradients (gradients become very small/large during backpropagation), overfitting (learning noise instead of signal), and slow convergence. Batch normalization normalizes layer inputs, stabilizing training and allowing higher learning rates. Dropout randomly deactivates neurons during training, providing regularization. Residual connections (skip connections) enable training of extremely deep networks by alleviating gradient flow problems. Adam optimizer adapts learning rates per-parameter, often outperforming standard SGD. Weight initialization affects training speed; recent techniques like He initialization consider activation functions when initializing. Modern deep learning prioritizes debugging networks, understanding what they learn, and using regularization to prevent overfitting.
+```
+INPUT LAYER      HIDDEN LAYER 1    HIDDEN LAYER 2    OUTPUT LAYER
+                   (neurons)          (neurons)
+   x₁ ●──────────────● ────────────────● ────────── ŷ₁ (output)
+   x₂ ●──────────────● ────────────────●
+   x₃ ●──────────────● ────────────────●
+                      ●                ●
+The inputs are passed through successive transformations.
+Each hidden layer learns increasingly abstract representations of the input.
+```
 
-### From Theory to Practice
+A network with at least one hidden layer is a **universal function approximator** — given enough neurons, it can approximate any continuous function to arbitrary precision (Universal Approximation Theorem). This is the theoretical foundation of deep learning.
 
-While neural network theory provides insights, practical success relies on engineering. Careful data preprocessing, feature scaling, and train/validation/test splitting are essential. Hyperparameter tuning—learning rate schedules, batch sizes, regularization strength, architecture choices—significantly impacts performance. Pre-trained models from ImageNet, BERT, and other datasets provide excellent starting points, avoiding training from scratch. Understanding computational requirements is crucial; modern networks often require GPUs for practical training speed. Despite their power and popularity, neural networks are not panaceas; simpler models often suffice and provide interpretability advantages when performance is comparable.
+---
 
-### Network Depth, Width, and Expressiveness
+## 2. Activation Functions — Introducing Non-Linearity
 
-Network architecture determines what functions can be learned. Shallow networks (1-2 hidden layers) are universal function approximators but require exponential neurons for complex functions. Deep networks (many layers) learn hierarchical representations; early layers detect simple features, middle layers combine them, final layers make predictions. This suggests deep is better, but training deep networks is harder: vanishing gradients (gradients diminish through layers) make early layers learn slowly. Modern techniques (ReLU, batch normalization, residual connections) enable training very deep networks (100+ layers). Width (neurons per layer) affects capacity: wider networks learn faster but are more prone to overfitting. Architecture design is crucial: for images, convolutional networks are appropriate; for sequences, RNNs or Transformers; for tabular data, fully-connected networks or tree-based methods. Overly complex architectures (too deep/wide) overfit; select complexity matching dataset size and task difficulty. Starting simple and progressively increasing complexity is wise.
+Without an activation function, stacking linear layers produces... another linear function. Non-linear activations are what make neural networks powerful:
 
-### Optimization and Learning Dynamics
+```
+Sigmoid: σ(z) = 1/(1+e^{-z})          Output: (0, 1)
+  Pros: Outputs probabilities. Smooth derivative.
+  Cons: Vanishing gradient for very large/small z. Slow convergence.
+  Use: Output layer for binary classification only.
 
-Gradient descent iteratively updates weights to minimize loss. Challenges arise from non-convex loss landscapes: many local minima exist, learning can get stuck. Momentum (keeping previous gradient direction) helps escape shallow minima. Adam (adaptive learning rates per parameter) adapts step sizes based on gradient history; very effective in practice. Learning rate scheduling starts high (fast progress) and decreases (fine-tuning); exponential decay, step decay, and cosine annealing are common. Batch normalization normalizes layer outputs, stabilizing training and allowing higher learning rates. Dropout prevents co-adaptation (over-reliance on specific neurons). Early stopping monitors validation loss and stops when it increases, preventing overfitting. Convergence is probabilistic: different random initializations and batch orders lead to different final weights; ensemble of final weights sometimes improves performance. Understanding optimization landscape (loss surface visualization) helps: narrow local minima (sharp) generalize worse than broad minima (flat). Search for flat minima via SAM (Sharpness Aware Minimization).
+Tanh: tanh(z) = (e^z - e^{-z})/(e^z + e^{-z})  Output: (-1, 1)
+  Pros: Zero-centred (better gradient flow than sigmoid).
+  Cons: Still suffers from vanishing gradients at extremes.
+  Use: Occasionally in RNNs.
 
-### Regularization Techniques and Overfitting
+ReLU: f(z) = max(0, z)                Output: [0, ∞)
+  Pros: Simple, fast, no vanishing gradient for positive z.
+  Cons: "Dying ReLU" — neurons can get stuck outputting 0 forever.
+  Use: DEFAULT CHOICE for hidden layers in most networks.
 
-Neural networks easily overfit; extensive regularization is necessary. L1/L2 penalties on weights encourage small weights, reducing model capacity. Dropout randomly deactivates neurons; the network must learn redundant representations, preventing over-reliance on specific neurons. Data augmentation (adding noise, rotating images, paraphrasing text) increases training data effectively. Batch normalization provides regularization through its stochastic nature. Early stopping is the simplest: stop training when validation performance decreases. Learning rate controls training speed; smaller learning rates provide a form of implicit regularization. Architecture constraints (fewer neurons) reduce capacity. A practical approach: start with modest architecture (underfitting), gradually increase until overfitting appears, then regularize. Monitoring training vs. validation loss reveals overfitting: training loss continues decreasing but validation loss increases. In this regime, regularization or stopping is needed. Weight decay (L2 penalty) is typically essential; often set to 1e-4 or 1e-5.
+Leaky ReLU: f(z) = max(0.01z, z)     Output: (-∞, ∞)
+  Pros: Fixes dying ReLU by allowing small negative gradients.
+  Use: When dying ReLU is a problem.
 
-### Transfer Learning and Pre-trained Models
+Softmax: σ(z)ᵢ = e^{zᵢ} / Σe^{zⱼ}   Output: probability distribution
+  Use: OUTPUT LAYER for multi-class classification only.
 
-Training large neural networks from scratch requires enormous data and computation. Transfer learning reuses networks trained on massive datasets (ImageNet for images, Wikipedia for text). Early layers learn general features (edges for images, word meanings for text); final layers are task-specific. Fine-tuning: keep early layers frozen (or train slowly) and retrain late layers on new data. This requires little new data; even 1000 samples can work. Pre-trained models are standard practice: ResNet, VGG, BERT, GPT are publicly available. For images, ImageNet pre-training is universal. For text, BERT (trained on Wikipedia and Books) is standard. Fine-tuning involves lower learning rates (0.0001-0.001) because pre-trained weights are already good. Often, early layers stay frozen while only final layers train. This reduces training time from months to hours and data requirements from millions to thousands. Transfer learning enables practitioners without massive resources to build powerful models.
+RULE OF THUMB:
+  Hidden layers → ReLU (or Leaky ReLU, GELU for transformers)
+  Output: binary classification → sigmoid
+  Output: multi-class classification → softmax
+  Output: regression → linear (no activation)
+```
 
-### Debugging and Interpretability
+---
 
-Neural networks are opaque; understanding why they predict is hard. Techniques for interpretability include: gradients (input gradients show feature sensitivity), saliency maps (highlight input regions affecting predictions), attention weights (in Transformers, show focus regions), and layer activation visualization. For debugging, check: (1) training curves (training/validation loss) for overfitting and divergence; (2) weight distributions (should be roughly Gaussian; very wide indicates exploding gradients); (3) activation distributions (should be non-zero to ensure learning); (4) gradient norms (should decrease appropriately). Common issues: vanishing gradients (gradients near zero), causing early layers to learn slowly; exploding gradients (gradients very large), causing weight divergence. Batch normalization, careful initialization, and gradient clipping address these. Numerical instability in loss computation (e.g., log(0) in cross-entropy) requires careful implementation. Using stable loss formulations (combining softmax and cross-entropy into single stable operation) prevents this. Testing on toy datasets (e.g., fitting a single sample) quickly reveals bugs: if the model can't fit a single sample to perfect loss, implementation is wrong. Debugging neural networks requires patience and systematic checking.
+## 3. The Forward Pass — Making a Prediction
+
+For a network with two hidden layers, the forward pass computes:
+
+```
+Layer 1: z¹ = X W¹ + b¹,    a¹ = ReLU(z¹)
+Layer 2: z² = a¹ W² + b²,   a² = ReLU(z²)
+Output:  z³ = a² W³ + b³,   ŷ = softmax(z³)  (for multi-class)
+
+Where:
+  X    = input matrix (batch_size × n_features)
+  W^l  = weight matrix for layer l
+  b^l  = bias vector for layer l
+  a^l  = activations of layer l (the layer's output)
+```
+
+Each weight matrix contains the learnable parameters. A network is trained by adjusting these weights to minimise the loss function.
+
+---
+
+## 4. The Loss Function
+
+The loss function measures how wrong the current predictions are:
+
+```
+Regression:              MSE = (1/m) Σ (yᵢ - ŷᵢ)²
+
+Binary classification:   Binary Cross-Entropy = −(1/m) Σ [yᵢ log(ŷᵢ) + (1−yᵢ) log(1−ŷᵢ)]
+
+Multi-class:             Categorical Cross-Entropy = −(1/m) Σₛ Σₖ yₛₖ log(ŷₛₖ)
+                         (sum over all samples s and classes k)
+```
+
+The total loss is averaged over a mini-batch of examples, then gradients are computed and weights updated.
+
+---
+
+## 5. Backpropagation — How the Network Learns
+
+Backpropagation is the algorithm that computes the gradient of the loss with respect to every weight in the network. It uses the **chain rule** of calculus, propagating error signals backwards from the output to the input:
+
+```
+Forward pass:  X → Layer 1 → Layer 2 → Output → Loss L
+
+Backprop:      ∂L/∂W³ = ∂L/∂ŷ × ∂ŷ/∂z³ × ∂z³/∂W³      ← output layer gradient
+               ∂L/∂W² = ∂L/∂a² × ∂a²/∂z² × ∂z²/∂W²     ← hidden layer 2 gradient
+               ∂L/∂W¹ = ∂L/∂a¹ × ∂a¹/∂z¹ × ∂z¹/∂W¹     ← hidden layer 1 gradient
+
+Each arrow is an application of the chain rule.
+The process is called "backprop" because gradients flow backwards through the network.
+
+Update: W^l ← W^l − α × ∂L/∂W^l   (gradient descent step for each layer)
+```
+
+Modern deep learning frameworks (PyTorch, TensorFlow/Keras) handle backprop automatically via **automatic differentiation** — you just define the forward pass and the framework computes all gradients for you.
+
+---
+
+## 6. Gradient Descent Variants
+
+```
+Batch Gradient Descent:    Compute gradient on ENTIRE dataset before updating.
+                            Very slow for large data. Stable convergence.
+
+Stochastic GD (SGD):       Update after EACH example.
+                            Fast but very noisy — loss bounces around.
+
+Mini-batch GD:             Update after each BATCH of (typically 32-256) examples.
+  ← THE STANDARD            Best of both worlds: fast + stable enough.
+
+Popular optimisers:
+  SGD + Momentum:  Remember previous gradient direction, smooths out noise.
+  RMSprop:         Adaptive learning rate per parameter (divide by moving avg of gradient²).
+  Adam:            Combines momentum AND RMSprop. Currently the most popular default.
+    θ ← θ − α × m̂ / (√v̂ + ε)
+    where m̂ = bias-corrected momentum, v̂ = bias-corrected second moment
+
+  Adam defaults: lr=0.001, β₁=0.9, β₂=0.999, ε=1e-8
+```
+
+---
+
+## 7. Regularisation for Neural Networks
+
+Neural networks can have millions of parameters — overfitting is a serious concern. Key regularisation techniques:
+
+```
+Dropout: Randomly "drop" (set to zero) a fraction of neurons during each training step.
+  Layer(Dropout(rate=0.5)) → 50% of neurons disabled per training step.
+  At test time: all neurons active, but outputs scaled by (1-rate).
+  Effect: Prevents neurons from co-adapting → forces redundant representations.
+  Use on dense layers, not on output layer.
+
+L2 Regularisation (Weight Decay):
+  Add λΣw² to the loss → penalises large weights.
+  kernel_regularizer=regularizers.l2(0.001)
+
+Batch Normalisation: Normalise the inputs to each layer.
+  Stabilises training, allows larger learning rates.
+  Reduces dependence on careful weight initialisation.
+  Add between the linear transformation and activation function.
+
+Early Stopping: Monitor validation loss. Stop training when it starts increasing.
+  Prevents overfitting without explicit penalty terms.
+```
+
+---
+
+## 8. Architecture Choices
+
+```
+Number of hidden layers:
+  0 → linear model (same as logistic/linear regression)
+  1 → can approximate most functions (but may need many neurons)
+  2-5 → good for most tabular data problems
+  10+ → "deep" network; needed for images, audio, text
+
+Number of neurons per layer:
+  Start with 64 or 128. Use the same for all hidden layers as a baseline.
+  Decrease going deeper: e.g., 256 → 128 → 64.
+  Too few: underfitting. Too many: overfitting + slow training.
+
+Rule of thumb for tabular data: 2-4 layers, 64-512 neurons per layer.
+For images: use CNNs. For sequences: use RNNs, LSTMs, or Transformers.
+```
+
+---
+
+## 9. Python Implementation (Keras)
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers, regularizers
+
+# ─── Data ────────────────────────────────────────────────────────────────
+data = load_breast_cancer()
+X, y = data.data, data.target
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
+                                                     random_state=42, stratify=y)
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)
+X_test_s  = scaler.transform(X_test)
+
+# ─── Build the model ─────────────────────────────────────────────────────
+model = keras.Sequential([
+    layers.Input(shape=(30,)),                  # 30 features
+    layers.Dense(128, activation='relu',        # hidden layer 1
+                 kernel_regularizer=regularizers.l2(0.001)),
+    layers.BatchNormalization(),                 # stabilise training
+    layers.Dropout(0.3),                        # prevent overfitting
+    layers.Dense(64, activation='relu',         # hidden layer 2
+                 kernel_regularizer=regularizers.l2(0.001)),
+    layers.Dropout(0.3),
+    layers.Dense(1, activation='sigmoid')       # binary output
+])
+
+model.compile(
+    optimizer=keras.optimizers.Adam(learning_rate=0.001),
+    loss='binary_crossentropy',
+    metrics=['accuracy']
+)
+
+model.summary()  # prints total parameters
+
+# ─── Train ───────────────────────────────────────────────────────────────
+early_stop = keras.callbacks.EarlyStopping(
+    monitor='val_loss', patience=15, restore_best_weights=True
+)
+history = model.fit(
+    X_train_s, y_train,
+    epochs=200,
+    batch_size=32,
+    validation_split=0.2,
+    callbacks=[early_stop],
+    verbose=0
+)
+
+# ─── Plot learning curves ─────────────────────────────────────────────────
+fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+axes[0].plot(history.history['loss'], label='Train loss')
+axes[0].plot(history.history['val_loss'], label='Val loss')
+axes[0].set_title('Loss Curve'); axes[0].legend()
+axes[1].plot(history.history['accuracy'], label='Train accuracy')
+axes[1].plot(history.history['val_accuracy'], label='Val accuracy')
+axes[1].set_title('Accuracy Curve'); axes[1].legend()
+plt.show()
+
+# ─── Evaluate ────────────────────────────────────────────────────────────
+y_prob = model.predict(X_test_s).flatten()
+y_pred = (y_prob >= 0.5).astype(int)
+print(f"Test accuracy: {(y_pred == y_test).mean():.4f}")
+```
+
+---
+
+## 10. Visual Summary
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                  NEURAL NETWORKS — OVERVIEW                     ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  INPUT → [Dense+ReLU] → [Dropout] → [Dense+ReLU] → [Output]    ║
+║                                                                  ║
+║  FORWARD PASS: Input flows forward through layers → prediction  ║
+║  LOSS:         Measure error (cross-entropy or MSE)             ║
+║  BACKPROP:     Compute ∂Loss/∂W for every weight (chain rule)   ║
+║  UPDATE:       W ← W − α × ∂Loss/∂W  (gradient descent)        ║
+║  REPEAT:       Until validation loss stops improving            ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║  KEY REGULARISATION: Dropout + L2 + BatchNorm + Early Stopping  ║
+║  KEY OPTIMISER: Adam (lr=0.001 is a great starting point)       ║
+║  KEY RULE: Always scale inputs; monitor both train and val loss  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
