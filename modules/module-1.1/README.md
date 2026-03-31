@@ -1398,3 +1398,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Sequence labeling problem
 - CRF layer: Enforces constraints
 
+### Machine Translation
+- Sequence-to-sequence: Encoder-decoder
+- Attention: Align source to target
+- Beam search: Generate multiple hypotheses
+- BLEU score: Evaluation metric
+
