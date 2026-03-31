@@ -1847,3 +1847,5 @@ Create reproducible experiments with systematic comparison of approaches.
 - line_profiler: Line-by-line analysis
 - Memory profiling: GPU and RAM usage
 
+## Common Pitfalls and How to Avoid Them
+
