@@ -2088,3 +2088,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Limits of theory
 - Future of ML
 
+### Inductive Bias in Learning
+- Architecture choices encode assumptions
+- Convolution: Spatial locality
+- Recurrence: Temporal dependencies
+- Matching bias to problem structure
+
