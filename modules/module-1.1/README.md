@@ -1174,3 +1174,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Knowledge distillation: Train small model on large
 - Matrix factorization: Decompose weight matrices
 
+### Fairness in Production
+- Monitor predictions across demographic groups
+- Detect performance disparities
+- Implement debiasing if needed
+- Legal/ethical requirements
+
