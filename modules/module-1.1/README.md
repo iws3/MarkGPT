@@ -1072,3 +1072,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Expensive: O(n^k) for k parameters
 - Parallelizable across combinations
 
+### Random Search
+- Random sampling from parameter distributions
+- More efficient than grid for high dimensions
+- Can find good solutions with fewer evaluations
+- Uses sequential sampling
+
