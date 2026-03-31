@@ -2167,3 +2167,13 @@ This comprehensive module covered supervised learning, unsupervised learning, an
 
 Next Steps: Progress to Module 2 for specialized topics and advanced techniques.
 
+
+## Appendix A: Quick Reference Guide
+
+### Algorithm Selection Cheat Sheet
+- Small data + Speed needed: Logistic Regression, SVM
+- Medium data + Accuracy needed: Random Forest, XGBoost
+- Large data: Linear models, Neural Networks
+- Clustering: K-means (simple), DBSCAN (arbitrary shapes)
+- Dimensionality: PCA (linear), t-SNE/UMAP (visualization)
+
