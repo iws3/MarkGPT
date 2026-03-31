@@ -1322,3 +1322,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Multi-head attention: Multiple representations
 - Fundamental to transformers
 
+### Graph Neural Networks
+- Learn on graph-structured data
+- Node features + Edge information
+- Message passing between neighbors
+- Applications: Social networks, Molecules
+
