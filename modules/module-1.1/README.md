@@ -1742,3 +1742,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Mechanisms: Laplace, Gaussian
 - Application to deep learning
 
+### Efficient ML
+- Model compression for deployment
+- Knowledge distillation
+- Quantization techniques
+- Pruning and sparsity
+
