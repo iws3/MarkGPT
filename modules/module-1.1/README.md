@@ -1502,3 +1502,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Label propagation: Message passing
 - Overlapping communities: Multiple memberships
 
+### Link Prediction
+- Predict missing edges
+- Common neighbors: Similarity
+- Embedding-based: Distance in latent space
+- Temporal dynamics: Evolution of graph
+
