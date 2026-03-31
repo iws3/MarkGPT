@@ -1122,3 +1122,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Identify essential components
 - Ground truth for feature importance
 
+## Handling Data Imbalance
+
+### Synthetic Data Generation (SMOTE)
+- Create synthetic minority examples
+- Interpolate between existing minority points
+- Effectively creates decision boundary
+- Variants: ADASYN, Borderline-SMOTE
+
