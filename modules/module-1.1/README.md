@@ -1162,3 +1162,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Caching: Pre-compute common requests
 - Fallback: Graceful degradation
 
+### Feature Store
+- Centralized feature management
+- Consistency between training and serving
+- Reuse features across teams
+- Versioning and lineage tracking
+
