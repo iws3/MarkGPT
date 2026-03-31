@@ -1392,3 +1392,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Transformer-based: BERT, GPT
 - Large: Scaling improves performance
 
+### Named Entity Recognition
+- Entity type classification
+- BIO tagging scheme
+- Sequence labeling problem
+- CRF layer: Enforces constraints
+
