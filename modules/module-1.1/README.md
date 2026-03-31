@@ -1316,3 +1316,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Enables much deeper networks
 - Error from skipped path added back
 
+### Attention Mechanisms
+- Query-Key-Value framework
+- Soft weights for aggregation
+- Multi-head attention: Multiple representations
+- Fundamental to transformers
+
