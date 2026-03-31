@@ -1136,3 +1136,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - No data duplication, computational efficient
 - Works with most algorithms
 
+### Threshold Optimization
+- Default threshold 0.5 often suboptimal
+- Adjust to minimize business cost
+- Use ROC curve to find optimal
+- Trade precision for recall
+
