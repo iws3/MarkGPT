@@ -1142,3 +1142,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Use ROC curve to find optimal
 - Trade precision for recall
 
+### Cost-Sensitive Learning
+- Assign costs to different error types
+- False negative expensive -> optimize recall
+- False positive expensive -> optimize precision
+- Train-time cost-sensitiveness
+
