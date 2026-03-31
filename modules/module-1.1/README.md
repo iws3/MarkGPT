@@ -1252,3 +1252,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Can't extrapolate to new data
 - Slow: O(n²) time complexity
 
+### UMAP: Scalable Alternative
+- Preserves local and global structure
+- Much faster than t-SNE
+- Can map new data
+- Works well in practice
+
