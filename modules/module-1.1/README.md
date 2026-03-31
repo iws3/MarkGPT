@@ -1730,3 +1730,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Hybrid classical-quantum
 - Current limitations and opportunities
 
+### Federated Learning at Scale
+- Privacy-first training
+- Communication efficiency
+- Client selection strategies
+- Convergence guarantees
+
