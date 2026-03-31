@@ -890,3 +890,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Isolation Forest: Anomaly detection algorithm
 - Winsorization: Cap values at percentiles
 
+### Temporal Feature Extraction
+- From timestamps: Year, month, day, hour, weekday
+- Lag features: Previous timestep values
+- Rolling statistics: Moving averages
+- Fourier features: Capture seasonality
+
