@@ -2062,3 +2062,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Planning: Path and motion planning
 - Control: Decision making
 
+### Natural Sciences
+- Physics: Simulation, optimization
+- Chemistry: Molecular properties
+- Biology: Protein folding, gene analysis
+- Climate: Weather forecasting
+
