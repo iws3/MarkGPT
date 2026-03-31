@@ -896,3 +896,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Rolling statistics: Moving averages
 - Fourier features: Capture seasonality
 
+### Text Feature Engineering
+- Bag of Words: Word frequency counts
+- TF-IDF: Term frequency-inverse document frequency
+- Word embeddings: Word2Vec, GloVe, FastText
+- Subword tokens: BPE, SentencePiece
+
