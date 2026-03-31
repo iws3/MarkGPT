@@ -1148,3 +1148,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - False positive expensive -> optimize precision
 - Train-time cost-sensitiveness
 
+## Deployment Considerations
+
+### Model Versioning
+- Version models like code
+- Store metrics and hyperparameters
+- Enable rollback to previous versions
+- Track feature changes
+
