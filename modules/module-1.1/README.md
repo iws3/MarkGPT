@@ -1296,3 +1296,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Identifies local anomalies
 - DBSCAN residuals: Noise points
 
+### DNN-Based Anomaly Detection
+- Autoencoder reconstruction error
+- One-class SVM with RBF kernel
+- GAN-based detection
+- Deep learning captures complex patterns
+
