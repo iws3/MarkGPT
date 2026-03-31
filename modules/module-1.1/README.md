@@ -1841,3 +1841,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - README: Project overview
 - Comments: Explain non-obvious logic
 
+### Performance Profiling
+- Identify bottlenecks
+- cProfile: Function-level timing
+- line_profiler: Line-by-line analysis
+- Memory profiling: GPU and RAM usage
+
