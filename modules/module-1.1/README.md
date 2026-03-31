@@ -1038,3 +1038,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Overfitting symptoms: Augmentation regularizes
 - Domain shifts: Augmentation increases robustness
 
+## Ensemble Methods Advanced
+
+### Voting Strategies
+- Uniform voting: Equal weights
+- Weighted voting: By individual accuracy
+- Ranked voting: Ranking preference matters
+- Combiners: Neural network to combine
+
