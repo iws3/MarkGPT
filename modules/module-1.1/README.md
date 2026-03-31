@@ -1592,3 +1592,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Proximal gradient: Generalized gradient
 - Handle non-smooth regularization
 
+### Second-Order Methods
+- Newton: Quadratic convergence
+- Quasi-Newton: BFGS, L-BFGS
+- Hessian: Second derivative matrix
+- Expensive but faster convergence
+
