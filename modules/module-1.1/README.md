@@ -1264,3 +1264,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Flexible architecture
 - Reversible transformation
 
+### Variational Autoencoders (VAE)
+- Probabilistic latent representation
+- Gaussian prior over latent space
+- Can generate new data
+- Balances reconstruction and regularization
+
