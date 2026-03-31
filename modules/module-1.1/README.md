@@ -1052,3 +1052,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Careful cross-validation prevents overfitting
 - Often outperforms simple averaging
 
+### Blending Implementation
+- Split data: Train on portion, predict on rest
+- Create meta-features from predictions
+- Train meta-learner on meta-features
+- Simpler than stacking, avoids k-fold
+
