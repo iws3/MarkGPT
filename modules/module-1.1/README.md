@@ -1436,3 +1436,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Helps in sparse-reward environments
 - Predict future states as exploration signal
 
+## Time Series Forecasting
+
+### ARIMA Models
+- Autoregressive: Past values
+- Integrated: Differencing for stationarity
+- Moving average: Past errors
+- Parameter selection: ACF/PACF plots
+
