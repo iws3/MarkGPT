@@ -1630,3 +1630,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Amortized: Inference network
 - Scalable alternative to sampling
 
+## Active Learning
+
+### Query Strategies
+- Uncertainty sampling: Least confident
+- Query by committee: Disagreement
+- Expected improvement: Information gain
+- Batch selection: Multiple queries
+
