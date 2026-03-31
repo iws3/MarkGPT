@@ -1772,3 +1772,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Replay mechanisms
 - Task-aware learning
 
+### Self-Supervised Learning
+- Learn from unlabeled data
+- Contrastive learning
+- SimCLR, MoCo, BYOL
+- Pretext tasks
+
