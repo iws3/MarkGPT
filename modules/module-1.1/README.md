@@ -1482,3 +1482,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Adaptation: Retrain/update models
 - Domain adaptation techniques
 
+### Seasonal Anomalies
+- Expected seasonality: Known pattern
+- Residual-based: After removing seasonality
+- Multi-scale: Different timescales
+- Wavelet analysis: Time-frequency decomposition
+
