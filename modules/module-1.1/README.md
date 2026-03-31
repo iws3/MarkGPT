@@ -1670,3 +1670,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - MixMatch: Mixing strategy
 - Recent: ReMixMatch, FixMatch
 
+### Graph-Based Semi-Supervised
+- Label propagation: Smooth on graph
+- Graph Laplacian regularization
+- Assumes smoothness on manifold
+- Effective with small label set
+
