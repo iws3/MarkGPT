@@ -1869,3 +1869,8 @@ Create reproducible experiments with systematic comparison of approaches.
 - Solution: Understand business objectives
 - Lesson: Technical metrics serve business goals
 
+### Pitfall 5: Premature Optimization
+- Problem: Complex solution to simple problem
+- Solution: Start simple, optimize if needed
+- Lesson: Clarity beats cleverness
+
