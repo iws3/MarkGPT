@@ -1110,3 +1110,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Feature contributions for single prediction
 - Works with any black-box model
 
+### Attention Mechanism Visualization
+- Heatmaps: Which inputs matter most
+- Alignment: Show attention weights
+- Works well for sequential data
+- Provides interpretability for free
+
