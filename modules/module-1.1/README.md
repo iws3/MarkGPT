@@ -1450,3 +1450,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Holt-Winters: Seasonality
 - Adaptive: Learn smoothing factors
 
+### Prophet (Facebook)
+- Trend + Seasonality + Holidays
+- Changepoint detection
+- Handles missing data
+- Interpretable components
+
