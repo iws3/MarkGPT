@@ -1232,3 +1232,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Density-based, arbitrary shapes
 - Suitable for multimodal distributions
 
+### Fuzzy C-Means
+- Soft membership in multiple clusters
+- Every point belongs to all clusters
+- Degree of membership indicates certainty
+- Generalization of k-means
+
