@@ -1572,3 +1572,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Constraint-based: PC algorithm
 - Score-based: Search over graphs
 
+## Optimization Theory
+
+### Convex vs Non-Convex
+- Convex: Single global optimum
+- Non-convex: Multiple local optima
+- Gradient descent: Guaranteed for convex
+- Neural networks: Non-convex landscape
+
