@@ -1078,3 +1078,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Can find good solutions with fewer evaluations
 - Uses sequential sampling
 
+### Bayesian Optimization
+- Probabilistic model (Gaussian Process) of objective
+- Acquisition function balances exploration/exploitation
+- Efficient for expensive-to-evaluate functions
+- Finds optimum with fewer evaluations
+
