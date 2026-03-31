@@ -1618,3 +1618,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Documents = mixture of topics
 - Topics = mixture of words
 
+### Gaussian Processes
+- Function-space distribution
+- Flexible non-parametric
+- Posterior: Updated belief
+- Uncertainty quantification
+
