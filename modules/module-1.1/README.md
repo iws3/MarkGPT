@@ -1650,3 +1650,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Leverage similarity
 - Efficient label acquisition
 
+## Semi-Supervised Learning
+
+### Self-Training
+- Label confident predictions
+- Use as training data
+- Iterative process
+- Danger: Error amplification
+
