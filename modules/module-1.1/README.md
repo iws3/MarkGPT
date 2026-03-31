@@ -1340,3 +1340,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Positional encoding: Position information
 - Foundation of modern NLP models
 
+## Computer Vision Tasks
+
+### Image Classification
+- CNN architectures: VGG, ResNet, EfficientNet
+- Pre-trained models: ImageNet fine-tuning
+- Data augmentation critical
+- Transfer learning effective
+
