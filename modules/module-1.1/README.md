@@ -1748,3 +1748,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Quantization techniques
 - Pruning and sparsity
 
+### AutoML and Neural Architecture Search
+- Automated hyperparameter optimization
+- NAS: Evolutionary algorithms
+- ENAS: Efficient architecture search
+- Meta-learning for fast adaptation
+
