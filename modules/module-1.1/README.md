@@ -1920,3 +1920,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Applied: Domain-specific (healthcare, finance)
 - Leadership: Management, strategy
 
+### Networking and Community
+- Conferences: NeurIPS, ICML, KDD
+- Meetups: Local ML communities
+- Online: Twitter, Reddit, Discord
+- Mentorship: Find and be mentors
+
