@@ -1724,3 +1724,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Advanced Topics and Future Directions
 
+### Quantum Machine Learning
+- Quantum algorithms for ML
+- Variational quantum circuits
+- Hybrid classical-quantum
+- Current limitations and opportunities
+
