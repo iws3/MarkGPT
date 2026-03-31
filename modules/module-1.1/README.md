@@ -1226,3 +1226,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Exemplars: Representative points
 - Let data tell you cluster count
 
+### Mean Shift Clustering
+- Mode-seeking algorithm
+- No parameters: Bandwidth selection critical
+- Density-based, arbitrary shapes
+- Suitable for multimodal distributions
+
