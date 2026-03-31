@@ -1835,3 +1835,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Visualization: Plot intermediate results
 - Logging: Track execution flow
 
+### Documentation Standards
+- Docstrings: Function documentation
+- Type hints: Python 3.5+
+- README: Project overview
+- Comments: Explain non-obvious logic
+
