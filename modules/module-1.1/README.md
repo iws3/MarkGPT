@@ -1908,3 +1908,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - GitHub: Public code repositories
 - Blog: Share learnings and insights
 
+### Learning Continuously
+- Papers: Read 1-2 per week
+- Courses: Take online, formal education
+- Conferences: Attend, present
+- Community: Engage with peers
+
