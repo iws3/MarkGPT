@@ -2044,3 +2044,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Industry Applications by Domain
 
+### Healthcare
+- Diagnosis assistance: CT/MRI analysis
+- Drug discovery: Molecular simulation
+- Personalized medicine: Patient profiling
+- Clinical predictions: Mortality, readmission
+
