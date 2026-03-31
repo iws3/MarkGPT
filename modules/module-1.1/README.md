@@ -1328,3 +1328,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Message passing between neighbors
 - Applications: Social networks, Molecules
 
+### Sequence Models
+- RNN: Recurrent connections for sequences
+- LSTM: Memory cells, multiplicative gates
+- GRU: Gated Recurrent Unit, simpler LSTM
+- Bidirectional: Forward and backward passes
+
