@@ -1,76 +1,561 @@
-# Linear Regression
+# 📈 Lesson 01 — Linear Regression
 
-## Fundamentals
-
-Linear Regression is one of the most fundamental and widely used algorithms in machine learning. It models the relationship between one or more input features (independent variables) and a continuous target variable (dependent variable) by fitting a linear equation to the observed data. The algorithm assumes that there exists a linear relationship between inputs and outputs, and it aims to find the best-fit line (or hyperplane in multiple dimensions) that minimizes the prediction error. Linear regression serves as the foundation for understanding more complex regression techniques and is extensively used in economics, physics, engineering, and business analytics for forecasting and trend analysis.
-
-## Key Concepts
-
-- **Hypothesis**: $h(x) = \theta_0 + \theta_1 x$
-- **Cost Function**: Mean Squared Error (MSE)
-- **Optimization**: Closed-form solution or Gradient Descent
-- **Assumptions**: Linearity, Independence, Homoscedasticity, Normality of errors
-
-## Applications
-
-- Stock price prediction
-- Real estate valuation
-- Sales forecasting
-- Temperature prediction
-- Risk assessment
-
-## When to Use
-
-Use linear regression when:
-- You need a simple, interpretable model
-- Relationship appears linear
-- Speed of prediction is critical
-- You have limited computational resources
-
-## When NOT to Use
-
-- Clear non-linear patterns in data
-- Categorical relationships
-- When interpretability is not important and accuracy is paramount
+> **Core Idea**: Find the best-fit straight line through your data so you can predict a number for any new input.
 
 ---
 
-[Go to Exercises](exercises.md) | [Answer the Question](question.md)
+## 📋 Table of Contents
 
+1. [The Big Picture — What Problem Are We Solving?](#1-the-big-picture)
+2. [Intuition Before Equations](#2-intuition-before-equations)
+3. [The Hypothesis Function](#3-the-hypothesis-function)
+4. [The Cost Function (How Wrong Are We?)](#4-the-cost-function)
+5. [Gradient Descent — How We Learn](#5-gradient-descent)
+6. [The Closed-Form Solution](#6-the-closed-form-solution)
+7. [Multiple Linear Regression](#7-multiple-linear-regression)
+8. [Feature Scaling — Why It Matters](#8-feature-scaling)
+9. [Evaluating Your Model](#9-evaluating-your-model)
+10. [Regularisation — Ridge & Lasso](#10-regularisation)
+11. [Assumptions of Linear Regression](#11-assumptions)
+12. [Python Implementation](#12-python-implementation)
+13. [Visual Summary](#13-visual-summary)
+14. [Common Mistakes](#14-common-mistakes)
+15. [When to Use (and When Not To)](#15-when-to-use)
 
+---
 
-### Mathematical Foundations
+## 1. The Big Picture
 
-Linear regression is fundamentally based on the principle of minimizing the sum of squared errors between predicted and actual values. The cost function, also known as the Mean Squared Error (MSE), is defined as J(θ) = 1/(2m) * Σ(h(x) - y)², where h(x) represents the hypothesis function and m is the number of training examples. This quadratic cost function creates a convex optimization landscape, ensuring that any local minimum found is also the global minimum. Understanding this mathematical foundation is crucial for implementing optimization algorithms like gradient descent effectively.
+**The problem**: You have data where you know the input (e.g., house size in m²) and the output (e.g., house price in dollars). You want to predict the price of a *new* house you haven't seen before.
 
-### Gradient Descent Optimization
+**The solution**: Draw the best possible straight line through your data. Once you have that line, predicting for a new house is as simple as plugging its size into the line equation.
 
-Gradient descent is the iterative optimization algorithm used to find the parameters that minimize the cost function. The algorithm works by computing the partial derivatives of the cost function with respect to each parameter and moving in the direction of steepest descent. The learning rate (alpha) is a critical hyperparameter that controls the size of each step taken during optimization. A learning rate that is too small will result in slow convergence, while a learning rate that is too large may cause the algorithm to overshoot the optimal solution. Choosing an appropriate learning rate requires careful consideration and often involves experimentation with different values.
+```
+House Price ($)
+     │
+ 500k│         ●
+     │       ●   ←── actual data points
+ 400k│     ●       ●
+     │   ●  ●
+ 300k│ ●       ←── best-fit line goes through here
+     │
+ 200k│────────────────────────────────────────► House Size (m²)
+     50   100   150   200   250   300
+```
 
-### Feature Scaling and Normalization
+This is the essence of linear regression: **find the line, use the line**.
 
-When features have vastly different scales, gradient descent can converge slowly and may struggle to find optimal parameters. Feature scaling techniques such as standardization (z-score normalization) and mean normalization help ensure that all features contribute equally to the optimization process. Standardization transforms features to have zero mean and unit variance, computed as (x - mean) / standard_deviation. Without proper feature scaling, features with larger numerical ranges can dominate the learningprocess, leading to a model that does not properly utilize all available information in the training data.
+---
 
-### Regularization and Model Complexity
+## 2. Intuition Before Equations
 
-Overfitting occurs when a linear regression model learns the noise in the training data rather than the underlying pattern, resulting in poor performance on new, unseen data. Regularization techniques add a penalty term to the cost function to discourage overly complex models. Ridge regression adds an L2 penalty proportional to the square of the coefficients, while Lasso regression adds an L1 penalty proportional to the absolute value of the coefficients. The regularization parameter (lambda) controls the strength of the penalty; higher values lead to smaller coefficients and simpler models, while lower values allow for more complex models. Cross-validation can be used to find the optimal regularization parameter that balances model complexity and generalization performance.
+Imagine you're trying to balance a ruler so it sits as close as possible to all the dots on a scatter plot. You can tilt it (change slope) or slide it up and down (change intercept). The goal is to minimise the total "distance" between the ruler and all the dots.
 
-### Python Implementation and Scikit-learn
+That's it. That's linear regression.
 
-Python's scikit-learn library provides LinearRegression: `from sklearn.linear_model import LinearRegression; model = LinearRegression().fit(X_train, y_train); predictions = model.predict(X_test)`. The model object provides coefficients (β parameters) as `model.coef_` and intercept as `model.intercept_`. For large datasets, stochastic gradient descent via SGDRegressor provides memory-efficient training. The fit method internally handles centering and scaling. Key consideration: features should be scaled using StandardScaler before fitting ridge/lasso regression, as these regularization techniques are sensitive to feature magnitudes. Cross-validation with cross_val_score assesses model generalization. Visualization of predictions vs. actuals reveals systematic biases.
+The two questions we need to answer are:
+1. **What does "best" mean?** (How do we measure how good our line is?)
+2. **How do we find the best line?** (How do we actually search for it?)
 
-### Feature Engineering for Linear Regression
+We'll answer both below.
 
-Linear relationships between raw features and targets are rare; feature engineering improves linear models significantly. Polynomial features expand input dimension: if x=[x1, x2], polynomial features of degree 2 create [1, x1, x2, x1^2, x1*x2, x2^2]. Logarithmic transformations handle exponential relationships. Interaction terms capture multiplicative effects: price might depend on size*location. Binning continuous variables creates categorical features, useful for capturing non-linear thresholds. Domain knowledge guides feature engineering: in real estate, features like square footage, number of bedrooms, and proximity to transit are meaningful. Feature scaling via standardization ensures coefficients are comparable in magnitude. One-hot encoding converts categorical variables to binary features, with care taken to avoid multicollinearity through dropping one category.
+---
 
-### Multicollinearity and Coefficient Interpretation
+## 3. The Hypothesis Function
 
-Multicollinearity occurs when predictor variables are highly correlated, making individual coefficients unstable and hard to interpret. High correlation between features inflates variance of coefficient estimates; small data changes cause large coefficient changes. Detection uses variance inflation factors (VIF); VIF > 10 indicates problematic multicollinearity. Solutions include removing correlated features, combining them via PCA, or using regularization (ridge/lasso). Ridge regression is particularly effective: it handles multicollinearity by distributing weight across correlated features. When multicollinearity exists, coefficient magnitudes are no longer reliable indicators of feature importance. This is critical in interpretability: a feature with small coefficient might be important but overshadowed by highly correlated features. Always check correlations between features via correlation matrices.
+The straight line we're fitting is described mathematically by:
 
-### Ridge vs Lasso Trade-offs
+```
+ŷ = θ₀ + θ₁ × x
 
-Ridge and lasso regularization differ in how they constrain coefficients. Ridge penalizes sum of squares: ||β||^2, keeping all features with smaller coefficients. Lasso penalizes sum of absolute values: ||β||_1, forcing some coefficients exactly to zero, performing automatic feature selection. Ridge is preferred when all features are likely relevant; lasso when many features are irrelevant. Elastic Net combines both, controlled by parameter α ∈ [0,1]. In practice, lasso often provides more interpretable models through feature selection, while ridge handles multicollinearity better. For categorical variables with many categories, lasso's sparsity is beneficial. The regularization strength λ is crucial: use cross-validation to find optimal λ. Very large λ shrinks all coefficients to zero; very small λ behaves like unregularized regression.
+Where:
+  ŷ      = predicted value (what our model says the output should be)
+  x      = input feature (e.g., house size)
+  θ₀     = intercept (the y-value when x = 0)
+  θ₁     = slope (how much ŷ changes when x increases by 1)
+  θ      = "theta" — parameters, or "weights" — what we're trying to learn
+```
 
-### Common Pitfalls and Debugging
+For example, if we learn `θ₀ = 50,000` and `θ₁ = 200`, our model says:
 
-Common issues in linear regression include: (1) Forgetting to scale features before regularized regression, leading to incorrect solutions where large-magnitude features are penalized more; (2) Not centering the data, causing intercept interpretation issues; (3) Ignoring regression assumptions (linearity, constant variance, normality of errors), leading to inefficient or biased estimates; (4) Using just R² for model evaluation, ignoring residual patterns; (5) Extrapolating beyond training data range, where linear relationships often break. Residual analysis via qq-plots and residual plots reveals assumption violations. Heteroscedasticity (non-constant variance) appears as fan-shaped residual patterns; log-transformations often help. Outliers visible in residual plots warrant investigation. Cross-validation helps detect overfitting: training error much lower than validation error signals regularization is needed. Always plot data before fitting to verify linearity assumptions.
+```
+House price = 50,000 + 200 × (house size)
+
+So for a 150 m² house:
+  price = 50,000 + 200 × 150 = 50,000 + 30,000 = $80,000
+```
+
+For **multiple features** (more than one input), we simply extend this:
+
+```
+ŷ = θ₀ + θ₁x₁ + θ₂x₂ + ... + θₙxₙ
+
+→ Instead of a line, we now have a HYPERPLANE in n-dimensional space
+→ Same idea, just more variables
+```
+
+---
+
+## 4. The Cost Function
+
+### Why do we need a cost function?
+
+We need a way to measure "how bad" any particular line is. Then we can search for the line that minimises this "badness".
+
+### Mean Squared Error (MSE)
+
+For each data point, we calculate the **residual**: the difference between what the model predicted and what the actual answer was.
+
+```
+Residual for point i:  eᵢ = yᵢ - ŷᵢ   (actual minus predicted)
+
+  Actual price:   $300k
+  Predicted price: $270k
+  Residual:        $30k  ← we were off by $30k
+```
+
+We **square** each residual (to make all errors positive and penalise large errors more heavily) and take the average:
+
+```
+MSE  = (1/m) × Σ(yᵢ - ŷᵢ)²
+J(θ) = (1/2m) × Σ(h_θ(xᵢ) - yᵢ)²
+
+Where:
+  m        = number of training examples
+  yᵢ       = actual output for example i
+  h_θ(xᵢ) = model's prediction for example i
+  The ½ is added for mathematical convenience (cancels when we differentiate)
+```
+
+**Visual: What we're minimising**
+
+```
+Price error
+    │
+    │  ●              residual = vertical gap
+    │  ↕ ←── we want to minimise these gaps
+    ├──●─────────── predicted line
+    │        ↕
+    │        ●
+    │              ●
+    │────────────────────────────────► Size
+```
+
+### Why square the errors?
+
+There are three reasons: (1) Negative and positive errors cancel if you just sum them — squaring prevents that. (2) Larger errors are penalised much more than small errors — a prediction that is off by 10 gets penalised 100x more than one off by 1. (3) The MSE function is smooth and convex, which makes it easy to optimise with gradient descent.
+
+---
+
+## 5. Gradient Descent
+
+### The Idea
+
+Imagine you're blindfolded on a hilly landscape and you need to find the lowest valley. Your strategy: feel which way is downhill, take a small step in that direction, repeat.
+
+That's gradient descent. The "landscape" is our cost function, and we're looking for the lowest point (minimum MSE).
+
+```
+Cost J(θ)
+    │
+    │   ╲              ╱
+    │    ╲            ╱
+    │     ╲          ╱
+    │      ╲        ╱
+    │       ╲      ╱
+    │        ╲    ╱
+    │         ╲  ╱
+    │          ╲╱  ←── minimum! This is where our best θ lives
+    │
+    └────────────────────────────────────────────► θ₁ (slope)
+       The algorithm rolls "downhill" by following the gradient
+```
+
+### The Update Rule
+
+```
+Repeat until convergence:
+  θⱼ := θⱼ - α × (∂/∂θⱼ) J(θ)
+
+For our linear regression:
+  θ₀ := θ₀ - α × (1/m) × Σ(h_θ(xᵢ) - yᵢ)
+  θ₁ := θ₁ - α × (1/m) × Σ(h_θ(xᵢ) - yᵢ) × xᵢ
+
+Where:
+  α (alpha) = learning rate — how big each step is
+  ∂J/∂θⱼ   = the gradient (which direction is "uphill"?)
+  We subtract because we want to go DOWNHILL
+```
+
+### The Learning Rate α — Critical Hyperparameter
+
+```
+Learning rate too SMALL:          Learning rate too LARGE:
+  ●                                   ●         ●
+    ●                               ↗   ↘     ↗   (bounces, never converges)
+      ●                                   ●
+        ●   (converges, but slowly)
+          ●
+            ●                       Just right α:
+              ●─── minimum              ●
+                                          ●
+                                            ●
+                                              ●── minimum
+```
+
+**Rule of thumb**: Try α = 0.001, 0.01, 0.1 and plot the cost vs iteration curve. If the cost goes down smoothly and levels off, your α is good. If it oscillates or increases, your α is too large.
+
+---
+
+## 6. The Closed-Form Solution
+
+For linear regression specifically, there's a mathematical shortcut — you don't have to iterate at all. The optimal θ can be computed directly:
+
+```
+θ = (XᵀX)⁻¹ Xᵀy
+
+Where:
+  X = design matrix of shape (m × n+1)  [features + bias column of 1s]
+  y = target vector of shape (m × 1)
+  Xᵀ = transpose of X
+  (XᵀX)⁻¹ = matrix inverse
+
+In Python:
+  theta = np.linalg.inv(X.T @ X) @ X.T @ y
+```
+
+**When to use each approach:**
+
+```
+┌─────────────────────┬────────────────────┬─────────────────────┐
+│                     │ Gradient Descent   │ Normal Equation      │
+├─────────────────────┼────────────────────┼─────────────────────┤
+│ Need to tune α?     │ Yes                │ No                  │
+│ Iterations needed?  │ Yes (many)         │ No (one shot)       │
+│ Scales to big data? │ ✅ Yes (use SGD)   │ ❌ No (slow for n>10k)│
+│ Works when n large? │ ✅ Yes             │ ❌ (XᵀX becomes huge)│
+│ Always works?       │ Yes (with right α) │ Needs XᵀX invertible│
+└─────────────────────┴────────────────────┴─────────────────────┘
+```
+
+**Use the Normal Equation** when you have fewer than ~10,000 features and a dataset that fits in memory. **Use Gradient Descent** for large datasets, neural networks, and any other model where a closed form doesn't exist.
+
+---
+
+## 7. Multiple Linear Regression
+
+When you have more than one input feature, we simply add more terms. Each feature gets its own weight θⱼ.
+
+```
+ŷ = θ₀ + θ₁x₁ + θ₂x₂ + θ₃x₃ + ... + θₙxₙ
+
+Example: predicting house price from multiple features
+  ŷ = 10,000 + 200×(size) + 5000×(bedrooms) - 1000×(age)
+              ↑              ↑                   ↑
+       θ₁ for size    θ₂ for bedrooms    θ₃ for age
+```
+
+The mathematics is exactly the same as simple linear regression — just more dimensions. Gradient descent and the Normal Equation both extend naturally.
+
+---
+
+## 8. Feature Scaling
+
+### The Problem Without Scaling
+
+Imagine your features are house size (range: 50–500 m²) and number of bedrooms (range: 1–10). The cost function landscape becomes very elongated:
+
+```
+                   θ (bedrooms)
+Without scaling:      │
+                      │        ╱─── Very elongated "bowl"
+         ╱────────────│───────╱     Gradient descent zigzags inefficiently
+        │             │      │
+         ╲────────────│───────╲
+                      └──────────────────────────► θ (size)
+                         Takes MANY iterations
+
+With scaling (both features 0–1):
+         ╭─────────╮
+        ╱           ╲       Nice circular bowl
+       │      ★      │      Gradient descent goes straight to minimum
+        ╲           ╱
+         ╰─────────╯
+                            Takes FAR FEWER iterations
+```
+
+### How to Scale
+
+```python
+# Method 1: Min-Max Scaling (rescales to [0, 1])
+x_scaled = (x - x.min()) / (x.max() - x.min())
+
+# Method 2: Standardisation / Z-score (mean=0, std=1) ← most common
+x_scaled = (x - x.mean()) / x.std()
+
+# ⚠️ CRITICAL RULE: Fit the scaler ONLY on training data!
+#   Then use THOSE parameters to scale validation and test data.
+#   Never compute mean/std from validation or test data.
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)   # fit AND transform
+X_test_scaled  = scaler.transform(X_test)        # transform ONLY (no fit!)
+```
+
+---
+
+## 9. Evaluating Your Model
+
+You need more than one number to understand how well your model is working. Always look at at least these three:
+
+```
+MSE  (Mean Squared Error)   = (1/m) × Σ(y - ŷ)²
+RMSE (Root MSE)             = √MSE         ← same units as y, more interpretable
+MAE  (Mean Absolute Error)  = (1/m) × Σ|y - ŷ|  ← less sensitive to outliers
+R²   (R-squared)            = 1 - SS_res/SS_tot   ← between 0 and 1 (1 = perfect)
+
+R² interpretation:
+  R² = 0.0  → Model does no better than predicting the mean every time
+  R² = 0.7  → Model explains 70% of the variance in y
+  R² = 1.0  → Perfect fit (usually means overfitting on training data!)
+```
+
+**Always plot residuals** — a residual plot reveals patterns your metrics can't:
+
+```
+Good residuals:             Bad residuals (pattern remains):
+    ●  ●                        ●                      ←── curving up
+  ●      ●                   ●     ●                       means linear
+──────────────── 0 line    ──────────────── 0 line         assumption
+  ●      ●                ●          ●                    violated!
+    ●  ●                           ●
+                                              ●
+Random scatter ✅           Systematic curve ❌
+```
+
+---
+
+## 10. Regularisation — Ridge & Lasso
+
+### The Overfitting Problem
+
+A high-degree polynomial can fit any training data perfectly — but it will be terrible on new data because it memorised the noise:
+
+```
+Degree 1 (underfit):     Degree 10 (overfit):      Degree 3 (just right):
+   /                         ╱╲    ╱╲   ╱              /
+  /    ●  ●                 ╱  ╲  ╱  ╲ ╱           ╱─╱  ●
+ / ●                       ╱    ╲╱    ╱       ●──╱   ●
+/ ●                       ╱           ╱       ●
+Too simple               Memorises noise      Generalises well
+```
+
+### Ridge Regression (L2)
+
+Add a penalty to the cost function that discourages large coefficients:
+
+```
+J(θ) = MSE + λ × Σθⱼ²
+               ↑
+        Ridge penalty: sum of squared weights
+        λ controls how strong the penalty is:
+          λ = 0  → regular linear regression (no penalty)
+          λ large → all θ shrink toward 0 (simpler model)
+```
+
+### Lasso Regression (L1)
+
+Similar idea, but uses absolute values instead of squares:
+
+```
+J(θ) = MSE + λ × Σ|θⱼ|
+               ↑
+        Lasso penalty: sum of absolute weights
+        Key difference: Lasso can shrink weights ALL THE WAY to 0
+        → Automatic feature selection! Irrelevant features get θ = 0
+```
+
+```
+┌──────────────────┬──────────────────────┬──────────────────────┐
+│                  │ Ridge (L2)           │ Lasso (L1)           │
+├──────────────────┼──────────────────────┼──────────────────────┤
+│ Penalty          │ λ × Σθⱼ²             │ λ × Σ|θⱼ|           │
+│ Effect           │ Shrinks all θ small  │ Sets some θ = 0 exactly│
+│ Feature select?  │ No (keeps all feats) │ Yes (sparse model)   │
+│ Best when        │ All features relevant│ Many irrelevant feats │
+│ Multicollinearity│ Handles well         │ Picks one, drops rest│
+└──────────────────┴──────────────────────┴──────────────────────┘
+
+Elastic Net = Ridge + Lasso (controlled by α parameter between 0 and 1)
+```
+
+---
+
+## 11. Assumptions
+
+Linear regression makes 4 key assumptions. When violated, the model can still work but becomes less reliable:
+
+```
+Assumption 1 — LINEARITY
+  The relationship between X and y is actually linear.
+  Check: scatter plot of y vs each feature; residual vs fitted plot
+
+Assumption 2 — INDEPENDENCE
+  Each data point is independent of the others.
+  Violated by: time series data without accounting for autocorrelation
+
+Assumption 3 — HOMOSCEDASTICITY (constant variance)
+  The spread of residuals is the same across all predicted values.
+  Violated when: errors are larger for large predictions (fan shape)
+  Check: scale-location plot
+
+Assumption 4 — NORMALITY OF ERRORS
+  Residuals are roughly normally distributed.
+  Check: Q-Q plot (should be close to diagonal line)
+  (Less important for large datasets due to Central Limit Theorem)
+```
+
+---
+
+## 12. Python Implementation
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
+
+# ─── 1. Load data ──────────────────────────────────────────────────────────
+from sklearn.datasets import fetch_california_housing
+data = fetch_california_housing()
+X = pd.DataFrame(data.data, columns=data.feature_names)
+y = data.target  # house price (in $100,000s)
+
+# ─── 2. Split ──────────────────────────────────────────────────────────────
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42  # always set random_state for reproducibility!
+)
+
+# ─── 3. Scale features ─────────────────────────────────────────────────────
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)  # fit on train only!
+X_test_s  = scaler.transform(X_test)       # apply same transformation to test
+
+# ─── 4. Train ──────────────────────────────────────────────────────────────
+model = LinearRegression()
+model.fit(X_train_s, y_train)
+
+# ─── 5. Predict & evaluate ─────────────────────────────────────────────────
+y_pred = model.predict(X_test_s)
+mse  = mean_squared_error(y_test, y_pred)
+rmse = np.sqrt(mse)
+r2   = r2_score(y_test, y_pred)
+
+print(f"RMSE: {rmse:.3f}")        # e.g. RMSE: 0.726
+print(f"R²:   {r2:.3f}")          # e.g. R²:   0.612
+
+# ─── 6. Inspect coefficients ───────────────────────────────────────────────
+coef_df = pd.DataFrame({
+    'Feature': data.feature_names,
+    'Coefficient': model.coef_
+}).sort_values('Coefficient', ascending=False)
+print(coef_df)  # positive coef = feature increases price; negative = decreases
+
+# ─── 7. Plot residuals ─────────────────────────────────────────────────────
+residuals = y_test - y_pred
+plt.figure(figsize=(8, 4))
+plt.scatter(y_pred, residuals, alpha=0.3)
+plt.axhline(y=0, color='red', linestyle='--')
+plt.xlabel('Predicted Values')
+plt.ylabel('Residuals')
+plt.title('Residual Plot — should be random scatter around 0')
+plt.show()
+
+# ─── 8. With regularisation ────────────────────────────────────────────────
+ridge = Ridge(alpha=1.0)   # alpha here is λ in our formula
+ridge.fit(X_train_s, y_train)
+print(f"Ridge R²: {r2_score(y_test, ridge.predict(X_test_s)):.3f}")
+
+lasso = Lasso(alpha=0.1)
+lasso.fit(X_train_s, y_train)
+print(f"Lasso R²: {r2_score(y_test, lasso.predict(X_test_s)):.3f}")
+print(f"Lasso kept {np.sum(lasso.coef_ != 0)} features")  # feature selection!
+```
+
+---
+
+## 13. Visual Summary
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                   LINEAR REGRESSION — OVERVIEW                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  INPUT            MODEL              OUTPUT                      ║
+║  Features X  ──►  ŷ = θ₀ + θ₁x₁  ──►  Predicted number ŷ       ║
+║  (numbers)         + θ₂x₂ + ...        (house price, temp...)   ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  TRAINING:  Find θ that minimises  J(θ) = (1/2m)Σ(ŷ - y)²      ║
+║                                                                  ║
+║  Method 1 — Gradient Descent (iterative):                        ║
+║    θ ← θ - α∇J(θ)    ← repeat until convergence                ║
+║                                                                  ║
+║  Method 2 — Normal Equation (direct):                            ║
+║    θ = (XᵀX)⁻¹Xᵀy    ← one-shot, works for small datasets      ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  REGULARISATION (to prevent overfitting):                        ║
+║    Ridge:  J(θ) + λΣθⱼ²    ← shrinks all weights               ║
+║    Lasso:  J(θ) + λΣ|θⱼ|   ← zeros out irrelevant weights      ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  METRICS:  RMSE (interpretable error) + R² (explained variance) ║
+║  ALWAYS:   Plot residuals to check assumptions                   ║
+║  ALWAYS:   Scale features before training                        ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 14. Common Mistakes
+
+**Mistake 1**: Not scaling features before gradient descent. Result: slow convergence or divergence. Fix: always use `StandardScaler` before distance- or gradient-based training.
+
+**Mistake 2**: Scaling the test set with its own statistics. Result: data leakage — your test set evaluation is now unrealistic. Fix: fit the scaler on training data only, then `transform()` (not `fit_transform()`) on test data.
+
+**Mistake 3**: Reporting only R² without plotting residuals. A high R² can hide systematic errors that residual plots make obvious.
+
+**Mistake 4**: Interpreting coefficients without scaling. Raw coefficients are not comparable across features if those features have very different units (e.g., temperature in °C vs population in millions). Scale first.
+
+**Mistake 5**: Extrapolating far beyond your training data range. Linear regression assumes linearity holds everywhere — but a relationship that is linear for house sizes 50–300 m² may not be linear for a 2,000 m² mansion.
+
+---
+
+## 15. When to Use (and When Not To)
+
+**Use linear regression when:**
+- Your target variable is continuous (a number)
+- You suspect a roughly linear relationship between features and target
+- Interpretability matters — stakeholders want to understand the model
+- You want a fast baseline to compare other models against
+- Computational resources are limited
+
+**Don't use it when:**
+- The relationship is clearly non-linear (try polynomial features, or a tree model)
+- Your target is a category, not a number (use logistic regression instead)
+- Features are images, audio, or raw text (use deep learning)
+- You have very few data points relative to the number of features (use regularisation at minimum)
+
+---
+
+> 📂 **Next step**: Work through the [exercises](exercises.md) to practise what you've learned. Start with Exercise 1 (simple linear regression) and work your way up to Exercise 10 (real-world project).
+>
+> 📌 **Coming up next**: [02 — Logistic Regression](../02-logistic_regression/README.md) — the same ideas, adapted for classification problems.

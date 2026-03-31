@@ -1,62 +1,197 @@
-# Naive Bayes
+# 🎲 Lesson 06 — Naive Bayes
 
-## Fundamentals
-
-Naive Bayes is a probabilistic classifier based on Bayes' theorem with the assumption of feature independence conditional on the class label. Despite this strong assumption often being violated in practice, Naive Bayes is surprisingly effective due to its simplicity, computational efficiency, and strong bias that can lead to good generalization. It's particularly suited for high-dimensional data and categorical features, making it the go-to algorithm for text classification, spam detection, and sentiment analysis. The algorithm's interpretability comes from its probabilistic framework, where model decisions can be explained through probability calculations.
-
-## Key Concepts
-
-- **Bayes' Theorem**: Posterior probability calculation
-- **Conditional Independence**: Naive assumption
-- **Feature Likelihood**: Probability of features given class
-- **Variants**: Multinomial, Gaussian, Bernoulli
-
-## Applications
-
-- Spam email detection
-- Sentiment analysis
-- Text classification
-- Spam filtering
-- Medical diagnosis
+> **Core Idea**: Use Bayes' theorem to calculate the probability that an input belongs to each class, making the "naive" assumption that all features are independent of each other. Despite this oversimplification, it works surprisingly well in practice — especially for text.
 
 ---
 
-[Go to Exercises](exercises.md) | [Answer the Question](question.md)
+## 📋 Table of Contents
 
+1. [Bayes' Theorem — The Foundation](#1-bayes-theorem)
+2. [The Naive Assumption](#2-the-naive-assumption)
+3. [Three Flavours of Naive Bayes](#3-three-flavours)
+4. [Laplace Smoothing](#4-laplace-smoothing)
+5. [Python Implementation](#5-python-implementation)
+6. [Visual Summary](#6-visual-summary)
+7. [When to Use](#7-when-to-use)
 
+---
 
-### Bayes' Theorem and Probabilistic Classification
+## 1. Bayes' Theorem — The Foundation
 
-Naive Bayes classifiers are based on Bayes' theorem, which describes how to update probabilities based on evidence. Bayes' theorem states: P(y|x) = P(x|y)·P(y) / P(x), where P(y|x) is the posterior probability of class y given features x, P(x|y) is the likelihood, P(y) is the prior probability, and P(x) is the evidence. For classification, we want to find the class y that maximizes P(y|x). Since P(x) is constant across classes, we need to maximize P(x|y)·P(y). The prior P(y) is estimated from the proportion of training examples in each class. The likelihood P(x|y) requires computing the joint probability of all features given a class, which becomes problematic in high dimensions due to sparse data. This is where the naive assumption becomes crucial.
+Naive Bayes is built entirely on one formula: Bayes' theorem. Let's decode it:
 
-### The Naive Conditional Independence Assumption
+```
+P(class | features) = P(features | class) × P(class)
+                      ─────────────────────────────
+                              P(features)
 
-The naive assumption is that features are conditionally independent given the class label, meaning P(x₁, x₂, ..., xₚ|y) = ∏P(xᵢ|y). This assumption is rarely true in practice—features are often correlated—but it drastically simplifies the model and computation. Instead of estimating a complex high-dimensional distribution, we only need to estimate p univariate distributions. For each feature and class combination, we estimate P(xᵢ|y) from training data. For discrete features, this is simply the proportion of class y examples where feature i takes value xᵢ. For continuous features, we typically assume a Gaussian distribution and estimate the mean and variance for each feature-class combination. The strong independence assumption, while often violated, frequently leads to effective classifiers because it reduces variance through model simplification, sometimes outperforming more complex models despite the unrealistic assumptions.
+In words:
+  P(class | features) = "Given I see these features, what's the probability of this class?"
+                        This is what we want to compute. Called the POSTERIOR.
 
-### Gaussian, Multinomial, and Bernoulli Variants
+  P(features | class) = "If I were in this class, how likely are these features?"
+                        The LIKELIHOOD. We estimate this from training data.
 
-The choice of how to model feature distributions leads to different Naive Bayes variants. Gaussian Naive Bayes assumes continuous features follow a normal distribution, computing P(xᵢ|y) = (1/√(2π·σ²ᵧᵢ))·exp(-(xᵢ-μᵧᵢ)²/(2σ²ᵧᵢ)). Multinomial Naive Bayes is designed for discrete count data and is commonly used in text classification, where features represent word frequencies or term frequencies. Bernoulli Naive Bayes is used when features are binary (present or absent), appropriate for document classification with binary feature vectors indicating word presence. Each variant models feature distributions appropriately for the data type, yet all follow the same classification principle of selecting the class with maximum posterior probability. Understanding which variant matches your data type and problem domain is crucial for effective implementation.
+  P(class) = "How common is this class in the training data?"
+              The PRIOR. Easy to compute: count(class) / count(total examples).
 
-### Advantages, Limitations, and Practical Applications
+  P(features) = A constant (the same for all classes). We ignore it because we
+                only need to compare P(class|features) across classes, not compute it exactly.
+```
 
-Naive Bayes offers several practical advantages: it is computationally efficient, training is linear in the number of features and training examples, and it requires relatively small amounts of training data compared to more complex models. The algorithm produces calibrated probability estimates and naturally handles missing data by ignoring missing features during inference. However, Naive Bayes struggles with correlated features due to the independence assumption and may underperform complex models on problems with intricate feature interactions. The assumption that class priors remain constant can be problematic with imbalanced datasets. Despite its simplicity, Naive Bayes remains highly effective for text classification, spam detection, and sentiment analysis. Many practitioners use it as a baseline model; if more sophisticated algorithms achieve only marginally better performance, the simplicity and interpretability of Naive Bayes make it the preferred choice.
+**Example: Is this email spam?**
 
-### Laplace Smoothing and Handling Zero Probabilities
+```
+Training data shows:
+  40% of emails are spam (P(spam) = 0.4)
+  60% are not spam (P(not spam) = 0.6)
 
-A critical issue in Naive Bayes: if a feature value never appears with a class in training data, P(feature_value|class) = 0. This causes problems: multiplication by zero makes posterior zero regardless of other features. Laplace smoothing adds a constant α to numerator and α*|values| to denominator: P(value|class) = (count + α) / (total + α*|values|). With α=1, it's called Laplace smoothing; α > 1 is Lidstone smoothing. This prevents zero probabilities and accounts for unseen feature-class combinations. Even with Laplace smoothing, rare feature values in training might not appear with certain classes; smoothing assumes uniform priors for unseen combinations. For categorical features with many values (e.g., vocabulary in text classification), smoothing is essential. The strength α is a hyperparameter: α=1 is common; sometimes α ∈ {0.01, 0.1, 1, 10} is tested via cross-validation. Without smoothing, single missing combinations can ruin classification.
+The word "FREE" appears in:
+  80% of spam emails → P("FREE" | spam) = 0.8
+  10% of normal emails → P("FREE" | not spam) = 0.1
 
-### Naive Bayes for Text Classification
+New email contains "FREE". Which class is more likely?
 
-Naive Bayes is canonical for text classification (spam detection, sentiment analysis, topic classification). Text is vectorized via TF-IDF (term frequency-inverse document frequency) or one-hot encoding (word presence). Each word is a feature; word frequencies or presence/absence are values. Naive Bayes assumes word independence given class (violates reality but works well). Multinomial Naive Bayes models word counts; Bernoulli Naive Bayes models word presence. For spam detection: P(spam | words) ∝ P(words | spam) * P(spam). Words like 'buy', 'free', 'prize' have high P(word | spam), leading to spam classification. Laplace smoothing handles new words (not in training) by assigning them base probability. Feature engineering (removing stop words, stemming, n-grams) improves performance. Naive Bayes is fast, requires little data, and is highly interpretable: feature probabilities directly show information flow. These advantages make it dominant in text applications.
+  P(spam | "FREE") ∝ P("FREE" | spam) × P(spam)     = 0.8 × 0.4 = 0.32
+  P(not spam | "FREE") ∝ P("FREE" | not spam) × P(not spam) = 0.1 × 0.6 = 0.06
 
-### Continuous vs Discrete Features
+  Normalise: 0.32 / (0.32 + 0.06) = 84% probability this email is spam.
+  → Classify as spam.
+```
 
-Gaussian Naive Bayes assumes continuous features follow Gaussian distributions within classes: P(x|class) ~ N(μ_class, σ_class). Parameters μ and σ are estimated from training data. For each class, mean and variance of each feature are computed; predictions use these Gaussians. An alternative for discrete features: assume multinomial distributions (feature values are counts). Binary features use Bernoulli distributions. Mixing feature types (some discrete, some continuous) requires different distributions. Kernel density estimation can model continuous features non-parametrically (no Gaussian assumption), but adds computational cost. In practice, discretizing continuous features (binning) enables using discrete Naïve Bayes, avoiding Gaussian assumptions that might not hold. Feature transformation (log-transform for skewed features) can better satisfy Gaussian assumptions. The choice depends on data: visualize feature distributions within classes; if Gaussian is a reasonable fit, Gaussian Naive Bayes is appropriate.
+---
 
-### Advantages in Low-Data Regimes
+## 2. The Naive Assumption
 
-Naive Bayes requires minimal data: with n samples and p features, estimating parameters needs only p values per class (p * |C| parameters total). In contrast, discriminative models often require O(n) samples; complex models worse. This makes Naive Bayes valuable when data is scarce. In medical diagnosis with rare diseases, Naive Bayes can work with few positive examples. In new domains, Naive Bayes quickly gets reasonable results. The naive independence assumption, despite being false, actually helps: by reducing parameters, it reduces variance. This is similar to regularization: adding bias to reduce variance. As more data becomes available, less-naive models (capturing feature dependencies) typically improve. But Naive Bayes remains competitive on limited data. This data efficiency explains its popularity in emerging applications; practitioners can prototype quickly without large data collection efforts.
+In reality, features are not independent. The word "FREE" and the phrase "WIN NOW" often appear together in spam emails — they're correlated. The "naive" assumption pretends they're independent:
 
-### Practical Tuning and Limitations
+```
+P(features | class) = P(feature₁ | class) × P(feature₂ | class) × ... × P(featureₙ | class)
 
-Naive Bayes has few hyperparameters: Laplace smoothing strength α is the main one. Prior class probabilities P(class) can be uniform or reflect training data class proportions (`prior` parameter in scikit-learn). For imbalanced data, matching training proportions or using balanced priors helps. Feature selection before Naive Bayes sometimes improves accuracy: irrelevant features add noise, particularly when they're uncorrelated with dependent features (violating the assumption). Naive Bayes doesn't directly handle continuous numerical target values (requires classification, though extensions exist). It assumes feature independence strongly: if features are highly dependent, performance degrades. Word order is ignored in text (bag-of-words), losing sequential information. N-grams (pairs/triples of words) capture some sequential patterns. Overall, Naive Bayes is simple, fast, interpretable, and sometimes surprisingly effective. It's excellent as a baseline; if other algorithms only marginally outperform, the simplicity of Naive Bayes often wins in production.
+"Naive" because assuming independence is almost certainly wrong.
+But in practice, this simplification is harmless for *ranking* classes
+because we only care which class scores highest, not the exact probabilities.
+```
+
+This assumption turns an exponentially complex joint probability into a simple product of individual probabilities — making it extremely fast to compute even with thousands of features.
+
+---
+
+## 3. Three Flavours of Naive Bayes
+
+```
+┌─────────────────────┬─────────────────────────────┬───────────────────────┐
+│ Variant             │ Feature Type                 │ When to Use           │
+├─────────────────────┼─────────────────────────────┼───────────────────────┤
+│ GaussianNB          │ Continuous real-valued       │ Numeric features,     │
+│                     │ Assumes P(xᵢ|class) follows  │ where Gaussian        │
+│                     │ a Gaussian (bell curve)       │ assumption is OK      │
+├─────────────────────┼─────────────────────────────┼───────────────────────┤
+│ MultinomialNB       │ Integer counts (e.g., word   │ Text classification   │
+│                     │ frequency in a document)      │ with bag-of-words     │
+├─────────────────────┼─────────────────────────────┼───────────────────────┤
+│ BernoulliNB         │ Binary features (0 or 1)     │ Text with binary      │
+│                     │ "Does this word appear?"      │ word presence/absence │
+└─────────────────────┴─────────────────────────────┴───────────────────────┘
+```
+
+---
+
+## 4. Laplace Smoothing
+
+What if a feature never appears with a certain class in training? Then P(feature | class) = 0, which makes the entire product 0 — the model becomes completely certain about one class, which is wrong.
+
+Laplace (additive) smoothing adds a small count (alpha) to every possibility, preventing zero probabilities:
+
+```
+P(xᵢ | class) = (count(xᵢ, class) + α) / (count(class) + α × |vocabulary|)
+
+With α = 1 (default "Laplace smoothing"):
+  Even words never seen in spam get a small non-zero probability.
+  This prevents the model from confidently making decisions based on absence.
+```
+
+---
+
+## 5. Python Implementation
+
+```python
+from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB
+from sklearn.datasets import load_iris, fetch_20newsgroups
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import classification_report
+import numpy as np
+
+# ─── GaussianNB for numeric features (Iris dataset) ─────────────────────
+iris = load_iris()
+X_train, X_test, y_train, y_test = train_test_split(
+    iris.data, iris.target, test_size=0.2, random_state=42, stratify=iris.target)
+
+gnb = GaussianNB()
+gnb.fit(X_train, y_train)
+print(f"GaussianNB accuracy: {gnb.score(X_test, y_test):.4f}")
+# After training, model stores:
+# gnb.theta_   → mean of each feature for each class
+# gnb.sigma_   → variance of each feature for each class
+print("Class means (theta):", gnb.theta_)
+
+# ─── MultinomialNB for text classification ───────────────────────────────
+categories = ['sci.space', 'talk.politics.guns', 'rec.autos', 'comp.graphics']
+train_data = fetch_20newsgroups(subset='train', categories=categories)
+test_data  = fetch_20newsgroups(subset='test',  categories=categories)
+
+# Build pipeline: raw text → word counts → Naive Bayes
+text_pipeline = Pipeline([
+    ('vect', CountVectorizer(stop_words='english', max_features=10000)),
+    ('clf',  MultinomialNB(alpha=1.0))   # alpha is Laplace smoothing
+])
+text_pipeline.fit(train_data.data, train_data.target)
+y_pred = text_pipeline.predict(test_data.data)
+print(f"\nText classification accuracy: {text_pipeline.score(test_data.data, test_data.target):.4f}")
+print(classification_report(test_data.target, y_pred, target_names=categories))
+
+# ─── What words most predict each category? ──────────────────────────────
+vectorizer = text_pipeline.named_steps['vect']
+clf        = text_pipeline.named_steps['clf']
+feature_names = vectorizer.get_feature_names_out()
+
+for class_idx, class_name in enumerate(categories):
+    top_words = np.argsort(clf.feature_log_prob_[class_idx])[-10:]
+    words = [feature_names[i] for i in top_words]
+    print(f"\nTop words for '{class_name}': {words}")
+```
+
+---
+
+## 6. Visual Summary
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                   NAIVE BAYES — OVERVIEW                        ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  Training:                                                       ║
+║    For each class: compute prior P(class) = count/total         ║
+║    For each feature: compute P(feature | class) from counts     ║
+║    → Very fast! Just counting and dividing.                     ║
+║                                                                  ║
+║  Prediction:                                                     ║
+║    Score(class) = P(class) × Π P(featureᵢ | class)             ║
+║    Predict the class with the highest score                      ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║  STRENGTHS: Extremely fast, works great for text, handles         ║
+║             high-dimensional data, robust to irrelevant features ║
+║  WEAKNESS: Independence assumption often violated in practice    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 7. When to Use
+
+Naive Bayes is ideal for text classification tasks (spam detection, sentiment analysis, topic classification), real-time prediction where speed is critical, and situations where you have a very small training dataset but many features. It serves as an excellent baseline for any classification problem. Its main limitation is the independence assumption — when features are highly correlated (e.g., medical symptoms that tend to occur together), more sophisticated models like logistic regression or random forests will outperform it.
+
+> 📂 Next: [exercises.md](exercises.md)
