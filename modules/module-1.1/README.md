@@ -1801,3 +1801,10 @@ Create reproducible experiments with systematic comparison of approaches.
 - Validation: Cross-validation on large dataset
 - Deployment: Clinical integration
 
+### Case Study 4: Natural Language Understanding
+- Problem: Text classification
+- Data: Labeled documents
+- Approach: BERT, fine-tuning
+- Optimization: Batch size, learning rate
+- Evaluation: Precision, recall, F1
+
