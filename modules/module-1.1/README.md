@@ -1058,3 +1058,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Train meta-learner on meta-features
 - Simpler than stacking, avoids k-fold
 
+### Cascade Ensembles
+- Sequential: Output of one feeds to next
+- Early rejection: Stop if confident
+- Cost-aware: Reject based on cost-benefit
+- Useful for expensive predictions
+
