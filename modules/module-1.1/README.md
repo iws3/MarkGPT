@@ -1902,3 +1902,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Career Development in ML
 
+### Building ML Portfolio
+- Projects: Personal, open source, competitions
+- Documentation: Clear explanations
+- GitHub: Public code repositories
+- Blog: Share learnings and insights
+
