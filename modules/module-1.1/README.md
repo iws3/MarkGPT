@@ -2024,3 +2024,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Local vs. global trade-offs
 - Applications: Long sequence modeling
 
+### Neural-Symbolic Integration
+- Combine neural and symbolic AI
+- Neuro-symbolic reasoning
+- Explainability from integration
+- Knowledge graphs + neural networks
+
