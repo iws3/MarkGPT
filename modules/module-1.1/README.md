@@ -1566,3 +1566,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Stratification: Balance within strata
 - Doubly robust: Combine methods
 
+### Causal Discovery from Data
+- DAG: Directed acyclic graph
+- d-separation: Independence from graph
+- Constraint-based: PC algorithm
+- Score-based: Search over graphs
+
