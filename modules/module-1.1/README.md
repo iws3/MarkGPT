@@ -1244,3 +1244,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Adjacent neurons respond to similar inputs
 - Visualization of high-dimensional data
 
+## Advanced Dimensionality Reduction
+
+### t-SNE Features and Limitations
+- Excellent for visualization
+- Preserves local structure well
+- Can't extrapolate to new data
+- Slow: O(n²) time complexity
+
