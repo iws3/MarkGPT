@@ -1348,3 +1348,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Data augmentation critical
 - Transfer learning effective
 
+### Object Detection
+- Localization + Classification
+- YOLO: Single-shot detection
+- R-CNN variants: Region-based
+- Anchor boxes, NMS post-processing
+
