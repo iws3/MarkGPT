@@ -1986,3 +1986,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Tools and Libraries Ecosystem
 
+### Data Processing
+- Pandas: Tabular data manipulation
+- Dask: Distributed computing
+- Spark MLlib: Large-scale ML
+- Polars: High-performance dataframes
+
