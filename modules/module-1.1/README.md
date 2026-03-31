@@ -1116,3 +1116,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Works well for sequential data
 - Provides interpretability for free
 
+### Ablation Studies
+- Systematically remove features
+- Measure performance impact
+- Identify essential components
+- Ground truth for feature importance
+
