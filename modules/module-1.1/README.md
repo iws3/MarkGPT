@@ -1308,3 +1308,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Change point detection
 - Sliding window approaches
 
+## Deep Learning Architecture Patterns
+
+### Residual Connections (ResNets)
+- Skip connections around layers
+- Identity mapping helps gradient flow
+- Enables much deeper networks
+- Error from skipped path added back
+
