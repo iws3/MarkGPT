@@ -1488,3 +1488,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Multi-scale: Different timescales
 - Wavelet analysis: Time-frequency decomposition
 
+### Privacy-Preserving Anomaly Detection
+- Federated learning: Local models
+- Differential privacy: Add noise
+- Homomorphic encryption: Compute on encrypted
+- Data minimization: Aggregate at source
+
