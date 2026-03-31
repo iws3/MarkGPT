@@ -916,3 +916,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Advanced: Deep learning, custom models
 - Each adds complexity, not necessarily performance
 
+### Problem-Specific Selection
+- Small data (<10k): Simple models, regularization
+- Medium data (10k-1M): Ensemble methods
+- Large data (>1M): Scalable algorithms, sampling
+- High dimensions: Feature selection, PCA, kernels
+
