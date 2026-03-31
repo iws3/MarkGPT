@@ -858,3 +858,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Stratification critical for imbalanced data
 - Time-series: Respect temporal ordering
 
+### Creating Reproducible Pipelines
+- Set random seeds everywhere
+- Document data preprocessing exactly
+- Version your code and models
+- Containerize dependencies (Docker)
+
