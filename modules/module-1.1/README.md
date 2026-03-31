@@ -1787,3 +1787,10 @@ Create reproducible experiments with systematic comparison of approaches.
 - Optimization: Real-time serving
 - Metrics: Click-through rate, conversion
 
+### Case Study 2: Fraud Detection
+- Problem: Detect fraudulent transactions
+- Data: Historical transaction patterns
+- Challenge: Severe class imbalance
+- Solution: Cost-sensitive learning, SMOTE
+- Trade-off: False positives vs negatives
+
