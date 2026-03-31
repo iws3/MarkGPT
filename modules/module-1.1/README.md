@@ -1808,3 +1808,10 @@ Create reproducible experiments with systematic comparison of approaches.
 - Optimization: Batch size, learning rate
 - Evaluation: Precision, recall, F1
 
+### Case Study 5: Time Series Forecasting
+- Problem: Predict future values
+- Data: Historical time series
+- Challenge: Trend + seasonality + noise
+- Solution: LSTM, attention, ensembles
+- Evaluation: RMSE, MAE, MAPE
+
