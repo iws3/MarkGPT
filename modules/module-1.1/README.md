@@ -1032,3 +1032,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Rotation: Circular shift in time
 - Window slicing: Take subsequences
 
+### When Augmentation Helps
+- Limited data: More variations helpful
+- Complex patterns: Augmentation discovers them
+- Overfitting symptoms: Augmentation regularizes
+- Domain shifts: Augmentation increases robustness
+
