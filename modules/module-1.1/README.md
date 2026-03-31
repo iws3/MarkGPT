@@ -1560,3 +1560,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - A/B testing: Online experiments
 - Sample size: Power analysis
 
+### Observational Causal Inference
+- Propensity score: Probability of treatment
+- Matching: Similar treated/control
+- Stratification: Balance within strata
+- Doubly robust: Combine methods
+
