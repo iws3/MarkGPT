@@ -1424,3 +1424,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Advantages add up to Q-value
 - Improves convergence
 
+### Policy Gradient Improvements
+- Advantage normalization: Reduce variance
+- Trust region methods (TRPO): Natural gradient
+- PPO: Clipped surrogate objective
+- Whitelisting: On-policy, stable
+
