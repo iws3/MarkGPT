@@ -1130,3 +1130,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Effectively creates decision boundary
 - Variants: ADASYN, Borderline-SMOTE
 
+### Class Weight Adjustment
+- Penalize minority class misclassification more
+- Weight inversely proportional to class frequency
+- No data duplication, computational efficient
+- Works with most algorithms
+
