@@ -2010,3 +2010,5 @@ Create reproducible experiments with systematic comparison of approaches.
 - TensorFlow Serving: Model serving
 - Ray Serve: Distributed serving
 
+## Emerging Research Areas
+
