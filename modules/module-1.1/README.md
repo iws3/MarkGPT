@@ -1270,3 +1270,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Can generate new data
 - Balances reconstruction and regularization
 
+### Isomap and Locally Linear Embedding
+- Preserve geodesic distances (Isomap)
+- Local linear structure (LLE)
+- Non-linear manifold learning
+- Capture intrinsic dimensionality
+
