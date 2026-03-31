@@ -878,3 +878,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Target encoding: Mean of target by category
 - Binary encoding: Reduce dimensionality
 
+### Missing Data Imputation
+- Mean/median imputation: Simple but biased
+- Forward fill: Time-series data
+- KNN imputation: Use nearest neighbors
+- Iterative imputation: MICE algorithm
+
