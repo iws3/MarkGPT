@@ -1212,3 +1212,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Communication efficient: Send models, not data
 - Edge computing: On-device training
 
+## Advanced Clustering Methods
+
+### Spectral Clustering
+- Use graph Laplacian eigenvectors
+- Handles non-convex clusters
+- Works well with complex geometries
+- Three steps: Laplacian, eigenvectors, k-means
+
