@@ -1302,3 +1302,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - GAN-based detection
 - Deep learning captures complex patterns
 
+### Time Series Anomalies
+- Seasonal decomposition
+- ARIMA residuals
+- Change point detection
+- Sliding window approaches
+
