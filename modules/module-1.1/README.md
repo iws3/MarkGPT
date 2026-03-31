@@ -2004,3 +2004,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - MLflow: Model lifecycle management
 - DVC: Data version control
 
+### Deployment Infrastructure
+- Docker: Containerization
+- Kubernetes: Orchestration
+- TensorFlow Serving: Model serving
+- Ray Serve: Distributed serving
+
