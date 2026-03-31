@@ -1,62 +1,268 @@
-# Support Vector Machines (SVM)
+# ⚔️ Lesson 05 — Support Vector Machines (SVM)
 
-## Fundamentals
-
-Support Vector Machines (SVM) are powerful supervised learning algorithms that find the optimal hyperplane maximizing the margin between different classes in classification tasks. SVMs can handle both linear and non-linear classification through various kernel functions, and they are particularly effective in high-dimensional spaces. The algorithm focuses on support vectors—the critical data points near the decision boundary—making it efficient for sparse problems. SVMs have strong theoretical foundations rooted in statistical learning theory and have been successfully applied to image classification, text classification, bioinformatics, and financial prediction.
-
-## Key Concepts
-
-- **Margin Maximization**: Distance between hyperplane and nearest points
-- **Support Vectors**: Critical points defining the decision boundary
-- **Kernel Trick**: Non-linear mapping without explicit transformation
-- **Soft Margin**: Allowing some misclassification (C parameter)
-
-## Applications
-
-- Image classification
-- Text and document classification
-- DNA sequence classification
-- Financial data classification
-- Bioinformatics
+> **Core Idea**: Find the hyperplane that separates two classes with the **maximum possible margin** — the widest "road" between the two groups. Points closest to the boundary (support vectors) define this margin and are the only ones that matter.
 
 ---
 
-[Go to Exercises](exercises.md) | [Answer the Question](question.md)
+## 📋 Table of Contents
 
+1. [Intuition — The Widest Street](#1-intuition)
+2. [The Margin and Support Vectors](#2-margin-and-support-vectors)
+3. [The Optimisation Problem](#3-optimisation-problem)
+4. [The Kernel Trick — Non-Linear Boundaries](#4-kernel-trick)
+5. [Soft Margin — Handling Noise](#5-soft-margin)
+6. [SVM for Regression (SVR)](#6-svr)
+7. [Key Hyperparameters](#7-hyperparameters)
+8. [Python Implementation](#8-python-implementation)
+9. [Visual Summary](#9-visual-summary)
+10. [When to Use](#10-when-to-use)
 
+---
 
-### The Maximum Margin Principle
+## 1. Intuition — The Widest Street
 
-Support Vector Machines (SVMs) are based on the principle of finding the optimal separating hyperplane that maximizes the margin between classes. The margin is defined as the distance from the hyperplane to the nearest data points of either class. SVMs solve the optimization problem of finding the hyperplane W that maximizes this margin while correctly classifying all training examples. Mathematically, this is formulated as minimizing ||W||² subject to the constraint that y_i(W·x_i + b) ≥ 1 for all training examples. The maximum margin principle provides strong generalization guarantees; a larger margin means the hyperplane is more robust to small perturbations in the data. The data points closest to the hyperplane that define the margin are called support vectors, and only these points are needed to define the decision boundary, making SVMs memory-efficient for prediction.
+Imagine you're drawing a boundary between two groups of points. You could draw infinitely many lines that separate them correctly. But which is the *best* line? 
 
-### Handling Non-Linear Separability with Kernels
+SVM says: pick the line that has the largest "buffer zone" on each side — the widest possible road between the two groups. This makes the classifier most robust to slight variations in new data.
 
-Most real-world classification problems are not linearly separable in the input space. SVMs handle this through the kernel trick, which implicitly projects data into a higher-dimensional feature space where linear separation becomes possible. Common kernels include the polynomial kernel K(x, x') = (x·x' + c)^d, the radial basis function (RBF) kernel K(x, x') = exp(-γ||x - x'||²), and the sigmoid kernel. The key insight of the kernel trick is that the computation can be done in the original input space using kernel functions without explicitly computing the high-dimensional projection. The RBF kernel is particularly popular because it can handle complex non-linear patterns effectively without over-parameterization. The kernel parameter γ controls the reach of each training example; small γ leads to smooth boundaries while large γ creates more intricate patterns following individual data points.
+```
+Bad boundary (no margin):   SVM boundary (maximum margin):
 
-### Soft Margin Formulation and Regularization
+  ✗ ✗ |● ●                  ✗ ✗ ‖     ‖ ● ●
+  ✗   |  ●                  ✗   ‖     ‖   ●
+    ✗ |●                      ✗ ‖     ‖ ●
+                                  ^^^^^
+  Barely works             Margin: the wider the better
+                           Support vectors are on the ‖ lines
+```
 
-Strict maximum margin formulation assumes perfect linear (or kernel-induced) separability, which is unrealistic when classes overlap or noise is present. The soft margin formulation introduces slack variables ξ_i that allow some misclassification, leading to the optimization problem: minimize ||W||² + C·Σξ_i subject to y_i(W·x_i + b) ≥ 1 - ξ_i. The regularization parameter C controls the trade-off between maximizing the margin and minimizing classification error. Large C values penalize misclassifications heavily, leading to complex decision boundaries that fit training data closely, while small C values allow more training errors for a larger margin and simpler decision boundaries. Cross-validation is used to select an appropriate C value. The soft margin formulation also applies when using kernels, making SVMs practical for real-world noisy datasets.
+The boundary line is called the **decision hyperplane**. The gap on each side is the **margin**. SVM's job is to find the hyperplane with the maximum margin.
 
-### Multi-class Classification and Practical Considerations
+---
 
-SVMs are primarily designed for binary classification, but several strategies extend them to multi-class problems. One-vs-Rest creates |K| binary classifiers, each trained to separate one class from all others. One-vs-One creates |K|(|K|-1)/2 binary classifiers for each pair of classes. The predictions from multiple binary classifiers are combined through voting or probability calibration. In practice, implementing SVMs involves several considerations: feature scaling is critical since SVMs are sensitive to the magnitude of features, kernel selection requires domain knowledge or cross-validation, and training time complexity is O(n²) or O(n³) depending on the implementation, making SVMs less suitable for very large datasets. However, SVMs provide strong theoretical guarantees on generalization and remain competitive for medium-sized datasets, particularly in high-dimensional spaces where the margin principle provides substantial benefits.
+## 2. The Margin and Support Vectors
 
-### Kernel Selection and Parameter Tuning
+The margin is determined by the training examples that are *closest* to the decision boundary. These critical points are called **support vectors** — they literally "support" (define) the position and orientation of the boundary.
 
-Kernel choice dramatically affects SVM performance. Linear kernels suit linearly separable data; they're fast and interpretable (features multiply coefficients). RBF kernels suit non-linear data; they implicitly project to infinite-dimensional space, enabling complex boundaries. Polynomial kernels (degree 2-3) work for specific problems but are less common. Sigmoid kernels (similar to neural networks) are rarely used. In practice, try linear first; if performance is poor, try RBF. The γ (gamma) parameter in RBF controls influence range: small γ (smooth boundaries) considers distant points; large γ (wiggly boundaries) only near points matter. γ too large causes overfitting; too small causes underfitting. The C parameter (regularization strength) balances margin maximization and training error: large C fits training data tightly; small C emphasizes margin. Grid search over (C, γ) via cross-validation finds optimal values. Typically C in {0.1, 1, 10, 100} and γ in {0.001, 0.01, 0.1, 1} are tested.
+```
+Feature space:
+                  ●   ●
+              ● →[SV]←          Support vector of class +1
+   ───────── margin ─────────   ← Decision boundary (hyperplane)
+             →[SV]← ✗          Support vector of class -1
+               ✗   ✗
 
-### Feature Scaling and Numerical Stability
+Margin width = 2 / ||w||  where w is the weight vector (normal to boundary)
+Maximising margin = minimising ||w||²
 
-SVMs are significantly affected by feature scaling; features with large ranges dominate distance calculations. StandardScaler centers and scales to zero mean, unit variance. Without scaling, features with range [0, 1000] overshadow features with range [0, 1]. After fitting, scaling parameters (mean, std) must be stored for identical transformation during prediction. This is non-obvious but critical; skip it and predictions are meaningless. Numerical stability matters: RBF kernel computation involves exponentials; extreme feature values cause numerical overflow/underflow. Scaled features are typically in [-3, 3], avoiding numerical issues. SVM implementations use algorithms like SMO (Sequential Minimal Optimization) that work iteratively; they iterate until convergence (dual objective changes less than `tol`). Very tight tolerances increase computation but ensure precision. For large datasets (n > 100k), linear SVMs with SGDClassifier are more practical than kernel SVMs.
+Key insight: move a non-support-vector point and the boundary doesn't change.
+Move a support vector even slightly and the whole boundary shifts.
+```
 
-### Support Vector Counts and Model Complexity
+---
 
-Support vectors are training points closest to the decision boundary; only these points define the boundary (other points don't matter). The number of support vectors indicates model complexity: fewer SV means simpler, more generalizable model; many SVs indicate complex boundary closely fitting training data. With good hyperparameters (balanced C, appropriate γ), support vectors should be ~1-30% of training samples. Much higher fractions indicate underfitting (C too small) or overfitting (C too large). Examining which samples become support vectors provides insights: outliers often become SVs; samples in overlapping regions between classes become SVs. This information guides data cleaning: removing outliers might reduce SV count, improving generalization. SVs are the only samples needed at prediction time; sparse solutions (few SVs) enable fast prediction. This is advantageous for deployed models; if 5% of training data becomes SVs, prediction is fast.
+## 3. The Optimisation Problem
 
-### Multi-class SVM Strategies
+SVM finds the optimal boundary by solving a constrained optimisation problem:
 
-Standard SVM is binary; multi-class requires strategies. One-vs-Rest trains |K| binary classifiers; each separates one class from all others. Predictions combine via voting or probability estimates. One-vs-One trains |K|(|K|-1)/2 binary classifiers for each pair; again voting combines predictions. One-vs-Rest is more efficient (fewer classifiers) but often produces worse probability estimates. One-vs-One is more computation but sometimes generalizes better. In scikit-learn, `SVC(decision_function_shape='ovr')` uses one-vs-rest; default is one-vs-one. For imbalanced multi-class, class weights (`class_weight='balanced'`) help. Strategies differ: one-vs-rest trains each classifier to separate a class from everything. One-vs-one is symmetric (classifier for class A vs B is identical to B vs A). Empirically, both usually perform similarly; one-vs-rest is typical.
+```
+Minimise:   (1/2) ||w||²                     ← maximise margin (= minimise ||w||)
 
-### Real-world SVM Applications and Considerations
+Subject to: yᵢ(w·xᵢ + b) ≥ 1  for all i     ← all points correctly classified
+                                                 and outside the margin
 
-SVMs excel in text classification (via TF-IDF features), image recognition (with appropriate kernels), bioinformatics (protein classification), and other high-dimensional problems. The margin principle provides theoretical generalization guarantees independent of dimension, explaining SVMs' success in high-dimensional spaces. However, SVMs struggle with very large datasets (n > 100k with kernel, n > 1M for linear); training requires solving quadratic programs. They don't provide probability estimates directly (Platt scaling post-processes); for uncertainty quantification, other methods might be better. SVMs are also sensitive to outliers, especially with small C; outliers can shift the entire decision boundary. Robust SVM variants reduce outlier sensitivity. Overall, SVMs are powerful but complex: careful feature scaling, kernel selection, and hyperparameter tuning are necessary. For practitioners, tree-based methods (Random Forest, Gradient Boosting) often provide comparable performance with less tuning burden. SVMs remain valuable when domain knowledge guides kernel/feature choices or when theoretical guarantees matter.
+Where:
+  w = weight vector (direction of boundary)
+  b = bias (offset of boundary)
+  yᵢ = +1 or −1 (class label)
+  xᵢ = feature vector
+
+This is a quadratic programming problem with a unique global optimum.
+```
+
+---
+
+## 4. The Kernel Trick — Non-Linear Boundaries
+
+What if the classes are not linearly separable? The **kernel trick** maps data into a higher-dimensional space where it *is* linearly separable — without ever explicitly computing the transformation.
+
+```
+Original 2D space (not linearly separable):
+
+  ●●●●●           ← class 1 (surrounding ring)
+●         ●
+●  ✗✗✗✗  ●        ← class 0 (inside)
+●  ✗✗✗✗  ●
+  ●●●●●
+
+Impossible to draw a straight line between them.
+
+Map to 3D using kernel φ(x): z = x₁² + x₂²
+  ← class 1 projects to high z values (large radius)
+  ← class 0 projects to low z values (small radius)
+
+Now they're linearly separable by a horizontal plane in 3D!
+The kernel computes this inner product WITHOUT the expensive mapping.
+```
+
+**Common Kernels:**
+
+```
+┌───────────────┬──────────────────────────────────────┬───────────────┐
+│ Kernel        │ Formula K(xᵢ, xⱼ)                    │ When to use   │
+├───────────────┼──────────────────────────────────────┼───────────────┤
+│ Linear        │ xᵢ · xⱼ                               │ Linearly sep. │
+│ Polynomial    │ (γ xᵢ·xⱼ + r)^d                      │ Polynomial    │
+│ RBF/Gaussian  │ exp(−γ ||xᵢ − xⱼ||²)                 │ Most common   │
+│ Sigmoid       │ tanh(γ xᵢ·xⱼ + r)                    │ Neural-like   │
+└───────────────┴──────────────────────────────────────┴───────────────┘
+The RBF kernel is usually a great default choice.
+```
+
+---
+
+## 5. Soft Margin — Handling Noise
+
+Real data has noise and outliers. A **hard margin** SVM requires perfect separation, which often doesn't exist. The **soft margin** SVM (C-SVM) allows some misclassification, controlled by the C parameter:
+
+```
+Objective: Minimise (1/2)||w||² + C × Σ ξᵢ
+
+Where ξᵢ ≥ 0 are slack variables allowing points inside the margin or misclassified.
+
+C large:  penalise margin violations heavily → narrow margin, fits training closely
+          Risk: overfitting
+C small:  allow more violations → wider margin, more generalised
+          Risk: underfitting
+
+Intuition:
+  C = ∞  →  hard margin (no violations tolerated)
+  C = 0.1  →  lots of margin violations allowed, very wide margin
+```
+
+---
+
+## 6. SVM for Regression (SVR)
+
+SVR flips the margin idea: instead of keeping most points *outside* the margin (classification), SVR tries to fit as many points *inside* a tube of width ε around the predicted line:
+
+```
+SVR prediction tube:
+
+  ●        ●
+    ────────────── upper bound (y_pred + ε)
+  ○ ○ ○ ○ ○ ○      ← points INSIDE tube: no loss, counted as correct
+    ────────────── lower bound (y_pred − ε)
+            ●  ●
+Points outside the tube are penalised (support vectors for regression).
+```
+
+---
+
+## 7. Key Hyperparameters
+
+```
+┌───────────┬────────────────────────────────────────────────────────┐
+│ Parameter │ Effect                                                  │
+├───────────┼────────────────────────────────────────────────────────┤
+│ C         │ Regularisation strength (inverse).                     │
+│           │ Large C: harder margin, may overfit.                   │
+│           │ Small C: wider margin, may underfit.                   │
+│           │ Default: 1.0. Try: 0.001, 0.01, 0.1, 1, 10, 100.     │
+├───────────┼────────────────────────────────────────────────────────┤
+│ kernel    │ 'rbf' (default), 'linear', 'poly', 'sigmoid'.         │
+│           │ RBF works for most problems. Linear if n_features>>n.  │
+├───────────┼────────────────────────────────────────────────────────┤
+│ gamma     │ Kernel width for RBF. Controls radius of influence.    │
+│           │ 'scale' (default) = 1/(n_features × X.var()).         │
+│           │ Large γ: each point has local influence → overfit.    │
+│           │ Small γ: each point has global influence → underfit.  │
+├───────────┼────────────────────────────────────────────────────────┤
+│ degree    │ For polynomial kernel only. Degree of polynomial.      │
+│           │ Default: 3. Larger = more complex boundary.            │
+└───────────┴────────────────────────────────────────────────────────┘
+Always scale features before SVM — the algorithm is very sensitive to feature magnitudes!
+```
+
+---
+
+## 8. Python Implementation
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.svm import SVC, SVR
+from sklearn.datasets import load_breast_cancer, make_moons
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import classification_report
+
+# ─── Example 1: Linear SVM on breast cancer ─────────────────────────────
+data = load_breast_cancer()
+X, y = data.data, data.target
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,
+                                                     random_state=42, stratify=y)
+
+# CRITICAL: always scale before SVM!
+scaler = StandardScaler()
+X_train_s = scaler.fit_transform(X_train)
+X_test_s  = scaler.transform(X_test)
+
+svm = SVC(kernel='rbf', C=1.0, gamma='scale', probability=True, random_state=42)
+svm.fit(X_train_s, y_train)
+print(f"Test accuracy: {svm.score(X_test_s, y_test):.4f}")
+print(f"Support vectors: {svm.n_support_}")  # one count per class
+print(classification_report(y_test, svm.predict(X_test_s)))
+
+# ─── Example 2: Non-linear SVM on moons dataset ─────────────────────────
+X_m, y_m = make_moons(n_samples=300, noise=0.2, random_state=42)
+X_m_train, X_m_test, y_m_train, y_m_test = train_test_split(X_m, y_m, test_size=0.2)
+scaler_m = StandardScaler()
+X_m_s = scaler_m.fit_transform(X_m_train)
+
+# Compare linear vs RBF kernel
+for kernel in ['linear', 'rbf', 'poly']:
+    clf = SVC(kernel=kernel, C=1.0, random_state=42)
+    clf.fit(X_m_s, y_m_train)
+    acc = clf.score(scaler_m.transform(X_m_test), y_m_test)
+    print(f"Kernel={kernel}: test accuracy = {acc:.3f}")
+
+# ─── Hyperparameter tuning via GridSearchCV ──────────────────────────────
+param_grid = {'C': [0.1, 1, 10, 100], 'gamma': ['scale', 0.001, 0.01, 0.1]}
+grid = GridSearchCV(SVC(kernel='rbf', random_state=42), param_grid, cv=5, n_jobs=-1)
+grid.fit(X_train_s, y_train)
+print(f"\nBest params: {grid.best_params_}")
+print(f"Best CV accuracy: {grid.best_score_:.4f}")
+print(f"Test accuracy (best SVM): {grid.score(X_test_s, y_test):.4f}")
+```
+
+---
+
+## 9. Visual Summary
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    SVM — OVERVIEW                               ║
+╠══════════════════════════════════════════════════════════════════╣
+║  GOAL: Find the hyperplane with MAXIMUM MARGIN                   ║
+║        Only support vectors define the boundary                  ║
+║                                                                  ║
+║  FOR NON-LINEAR DATA: Use kernel trick (usually RBF)             ║
+║        Maps to higher dimensions implicitly                      ║
+║                                                                  ║
+║  TRADE-OFF:  Large C → narrow margin, fits data tightly         ║
+║              Small C → wide margin, more generalised            ║
+║              Large γ → local decisions, complex boundary        ║
+║              Small γ → global decisions, smooth boundary        ║
+║                                                                  ║
+║  ALWAYS scale features before training SVM!                      ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 10. When to Use
+
+SVM excels when the number of features is large relative to the number of training examples (such as text classification with TF-IDF features), when the classes are nearly linearly separable or become so in a higher-dimensional kernel space, and when you need good generalisation with a theoretically principled method. It struggles when you have more than about 100,000 training examples (training time is O(n²) to O(n³)), when you need fast online learning (training is a batch process), or when interpretability is critical (the decision boundary is hard to explain).
+
+> 📂 Next: [exercises.md](exercises.md) | Then: [06 — Naive Bayes](../06-naive_bayes/README.md)
