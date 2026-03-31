@@ -1200,3 +1200,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Domain adaptation: Source-target distribution
 - Few-shot learning: Learn from few examples
 
+### Meta-Learning (Learning to Learn)
+- Learn how to learn quickly
+- MAML: Model-Agnostic Meta-Learning
+- Prototypical networks: Few-shot
+- Rapid adaptation to new tasks
+
