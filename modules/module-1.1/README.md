@@ -1354,3 +1354,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - R-CNN variants: Region-based
 - Anchor boxes, NMS post-processing
 
+### Semantic Segmentation
+- Pixel-level classification
+- FCN: Fully convolutional networks
+- U-Net: Encoder-decoder with skip connections
+- Important for: Medical imaging, autonomous vehicles
+
