@@ -948,3 +948,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Mean Reciprocal Rank (MRR)
 - Hit Rate: Proportion of relevant in top-k
 
+### Custom Metrics for Business Problems
+- Monetary value of predictions
+- User satisfaction metrics
+- Legal/ethical constraints
+- Domain-specific evaluation
+
