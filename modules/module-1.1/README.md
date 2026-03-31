@@ -1386,3 +1386,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - FastText: Subword information
 - ELMo: Contextual embeddings
 
+### Language Models
+- Next word prediction
+- LSTM-based: Earlier approaches
+- Transformer-based: BERT, GPT
+- Large: Scaling improves performance
+
