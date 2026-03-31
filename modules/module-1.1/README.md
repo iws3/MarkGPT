@@ -2152,3 +2152,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Team impact: Knowledge sharing
 - Personal growth: Continuous development
 
+### Your Journey
+- Start somewhere: Pick a problem
+- Go deep: Master fundamentals
+- Go broad: Explore new areas
+- Give back: Share with community
+
