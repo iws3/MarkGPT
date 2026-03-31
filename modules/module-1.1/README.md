@@ -1754,3 +1754,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - ENAS: Efficient architecture search
 - Meta-learning for fast adaptation
 
+### Few-Shot Learning
+- Learning from limited examples
+- Prototypical networks
+- Matching networks
+- Model-agnostic meta-learning
+
