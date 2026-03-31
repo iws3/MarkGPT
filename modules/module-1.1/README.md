@@ -1888,3 +1888,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Aesthetics: Professional appearance
 - Accessibility: Color-blind friendly
 
+### Presenting Uncertainty
+- Confidence intervals: Range of plausible values
+- Error bars: Visual representation
+- Caveats: Acknowledge limitations
+- Uncertainty quantification: Probabilistic outputs
+
