@@ -872,3 +872,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Critical for: Distance-based (KNN, SVM, K-means), Gradient descent
 - Not needed for: Tree-based models
 
+### Categorical Feature Handling
+- One-hot encoding: Creates binary columns
+- Label encoding: Maps to integers (for ordinal)
+- Target encoding: Mean of target by category
+- Binary encoding: Reduce dimensionality
+
