@@ -1006,3 +1006,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Prevents overfitting naturally
 - Saves best model checkpoint
 
+### Regularization Schedules
+- Time-dependent regularization strength
+- Start heavy regularization, decrease
+- Warm-up then cool-down for learning rate
+- Curriculum learning: Easy to hard examples
+
