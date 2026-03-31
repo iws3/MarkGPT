@@ -1194,3 +1194,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Improve generalization
 - Learn better features
 
+### Transfer Learning Strategies
+- Pre-trained models: Fine-tune on target
+- Feature extraction: Frozen base, train head
+- Domain adaptation: Source-target distribution
+- Few-shot learning: Learn from few examples
+
