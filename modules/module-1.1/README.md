@@ -2050,3 +2050,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Personalized medicine: Patient profiling
 - Clinical predictions: Mortality, readmission
 
+### Finance
+- Credit scoring: Loan approval
+- Fraud detection: Transaction monitoring
+- Algorithmic trading: Price prediction
+- Portfolio optimization: Asset allocation
+
