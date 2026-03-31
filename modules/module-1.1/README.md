@@ -1456,3 +1456,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Handles missing data
 - Interpretable components
 
+### LSTM for Sequences
+- Memory cells: Long-term dependencies
+- Gates: Forget, input, output
+- Sequence-to-sequence: Many-to-many
+- Encoder-decoder: Flexible input-output
+
