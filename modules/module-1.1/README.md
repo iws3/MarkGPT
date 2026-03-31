@@ -1684,3 +1684,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Distribution shift: Test differs from train
 - Requires many expert trajectories
 
+### Inverse Reinforcement Learning
+- Recover reward function
+- Inverse: From behavior to reward
+- Infer goals and intentions
+- Applications: Learning human preferences
+
