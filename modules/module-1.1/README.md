@@ -1736,3 +1736,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Client selection strategies
 - Convergence guarantees
 
+### Differential Privacy
+- Privacy-utility tradeoff
+- Differential privacy definition
+- Mechanisms: Laplace, Gaussian
+- Application to deep learning
+
