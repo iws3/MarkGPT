@@ -1934,3 +1934,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Backpropagation chain rule
 - Jacobian and Hessian matrices
 
+### Information Theory
+- Entropy: Measure of uncertainty
+- KL divergence: Distance between distributions
+- Mutual information: Shared information
+- Information gain: Reduction in uncertainty
+
