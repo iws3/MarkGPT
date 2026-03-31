@@ -1876,3 +1876,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Communicating Results to Stakeholders
 
+### Telling the Data Story
+- Context: Why this analysis matters
+- Conflict: What questions we asked
+- Resolution: What we found
+- Action: What to do with findings
+
