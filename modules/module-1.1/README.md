@@ -988,3 +988,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Reduces co-adaptation of neurons
 - Applied at test time: Scale by (1-p)
 
+### Batch Normalization
+- Normalize layer inputs to zero mean, unit variance
+- Reduces internal covariate shift
+- Allows higher learning rates
+- Slight regularization effect
+
