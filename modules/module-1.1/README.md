@@ -2208,3 +2208,15 @@ Common Issues
 - Poor generalization: More data, simpler model
 - Instability: Batch normalize, gradient clip
 
+
+## Appendix E: Mathematical Notation Reference
+
+Common Symbols
+- θ: Model parameters
+- J(θ) or L: Loss/cost function
+- m: Number of training samples
+- n: Number of features
+- X: Feature matrix
+- y: Target variable
+- h(x): Hypothesis/prediction
+
