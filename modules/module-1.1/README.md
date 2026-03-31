@@ -1849,3 +1849,8 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Common Pitfalls and How to Avoid Them
 
+### Pitfall 1: p-hacking and Multiple Comparisons
+- Problem: Test many hypotheses, find false positives
+- Solution: Pre-register experiments, Bonferroni correction
+- Lesson: Look deeper than just p-values
+
