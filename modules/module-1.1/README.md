@@ -1992,3 +1992,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Spark MLlib: Large-scale ML
 - Polars: High-performance dataframes
 
+### Visualization
+- Matplotlib: Static plots
+- Seaborn: Statistical visualization
+- Plotly: Interactive visualizations
+- Altair: Declarative visualization
+
