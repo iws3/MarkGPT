@@ -1928,3 +1928,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Mathematical Deep Dives
 
+### Matrix Calculus for ML
+- Gradient with respect to vectors
+- Computation graphs
+- Backpropagation chain rule
+- Jacobian and Hessian matrices
+
