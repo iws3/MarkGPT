@@ -980,3 +980,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Monitor resource usage (memory, CPU)
 - Save checkpoints during long training
 
+## Advanced Regularization Techniques
+
+### Dropout
+- Randomly disable neurons during training
+- Probability p of keeping each neuron
+- Reduces co-adaptation of neurons
+- Applied at test time: Scale by (1-p)
+
