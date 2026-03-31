@@ -1258,3 +1258,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Can map new data
 - Works well in practice
 
+### Autoencoders for Dimensionality Reduction
+- Neural network: Encoder-Decoder
+- Learns non-linear transformation
+- Flexible architecture
+- Reversible transformation
+
