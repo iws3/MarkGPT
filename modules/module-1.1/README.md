@@ -1894,3 +1894,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Caveats: Acknowledge limitations
 - Uncertainty quantification: Probabilistic outputs
 
+### Handling Stakeholder Questions
+- Anticipate: Think ahead
+- Listen: Understand real concern
+- Clarify: Ask for specifics
+- Respond: Address directly
+
