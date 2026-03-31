@@ -1046,3 +1046,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Ranked voting: Ranking preference matters
 - Combiners: Neural network to combine
 
+### Stacking Architecture
+- Level-0: Base learners (diverse algorithms)
+- Level-1: Meta-learner (combines base outputs)
+- Careful cross-validation prevents overfitting
+- Often outperforms simple averaging
+
