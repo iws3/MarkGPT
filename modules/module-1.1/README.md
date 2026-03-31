@@ -1096,3 +1096,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Balances breadth and depth
 - Very efficient for many hyperparameters
 
+## Model Interpretation Methods
+
+### SHAP (SHapley Additive exPlanations)
+- Based on game theory (Shapley values)
+- Distributes prediction credit to features
+- Summary: Force plots, Dependence, Interaction
+- Theoretically principled approach
+
