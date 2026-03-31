@@ -1882,3 +1882,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Resolution: What we found
 - Action: What to do with findings
 
+### Visualizations That Communicate
+- Clarity: Simple, direct messages
+- Accuracy: Truthful representation
+- Aesthetics: Professional appearance
+- Accessibility: Color-blind friendly
+
