@@ -764,6 +764,54 @@ Ensemble methods combine multiple base learners to create a stronger model. By l
 - Create minimal reproducible examples
 - Incrementally add complexity
 
+## Handling Imbalanced Data
+
+### The Problem with Imbalanced Data
+
+**Challenges**
+- Minority class is underrepresented in training
+- Model biases toward majority class
+- Traditional accuracy metric becomes misleading
+- Important patterns in minority class missed
+
+**Identification**
+- Check class distribution in training data
+- Calculate class ratios and percentages
+- Visualize data imbalance with histograms
+- Understand if imbalance is inherent or artificial
+
+### Addressing Class Imbalance
+
+**Sampling-Based Approaches**
+- **Undersampling**: Reduce majority class samples
+  - Pro: Faster training
+  - Con: Loss of information
+- **Oversampling**: Duplicate minority class samples
+  - Pro: No information loss
+  - Con: Risk of overfitting
+- **SMOTE**: Generate synthetic minority samples
+  - Interpolates features between minority samples
+  - Balances without exact duplication
+
+**Algorithm-Based Approaches**
+- **Class Weights**: Penalize minority class misclassification more
+- **Threshold Adjustment**: Change decision threshold for minority class
+- **Ensemble Methods**: Combination of imbalanced sampling and multiple models
+- **Cost-Sensitive Learning**: Adjust learning objective by class costs
+
+**Evaluation Metrics for Imbalanced Data**
+- **Precision-Recall Curve**: Better than ROC for imbalanced
+- **F1-Score**: Harmonic mean of precision and recall
+- **ROC-AUC**: Still useful but less sensitive than PR-AUC
+- **Confusion Matrix**: Examine specific error types
+
+### Best Practices
+- Never split data stratified before addressing imbalance
+- Use cross-validation to assess stability
+- Try multiple approaches and compare results
+- Monitor both majority and minority class performance
+- Consider domain costs of different error types
+
 ---
 
 **Total Algorithms**: 30+
@@ -791,4 +839,7 @@ The algorithms covered in this module power countless real-world applications: s
 
 ## Module Completion Summary
 
-This comprehensive module has expanded through systematic content development. Each lesson now includes: (1) Mathematical foundations grounding algorithm principles; (2) Practical implementations in Python with scikit-learn/TensorFlow; (3) Hyperparameter tuning strategies from first principles; (4) Advanced techniques overcoming common limitations; (5) Real-world applications demonstrating practical impact; (6) Integration with other methods and ensemble strategies. Learners completing this module will understand fundamental machine learning algorithms deeply, recognize when each is appropriate, implement them correctly, and debug issues systematically. The progression from supervised to unsupervised to reinforcement learning mirrors practical problem-solving: start with labeled data, discover structure, then optimize sequential decisions. Mastery requires hands-on implementation; exercises and projects in this curriculum provide scaffolding for active learning.
+This comprehensive module has expanded through systematic content development. Each lesson now includes: (1) Mathematical foundations grounding algorithm principles; (2) Practical implementations in Python with scikit-learn/TensorFlow; (3) Hyperparameter tuning strategies from first principles; (4) Advanced techniques overcoming common limitations; (5) Real-world applications demonstrating practical impact; (6) Integration with other methods and ensemble strategies. Learners completing this module will understand fundamental machine learning algorithms deeply, recognize when each is appropriate, implement them correctly, and debug issues systematically. The progression from supervised to unsupervised to reinforcement learning mirrors practical problem-solving: start with labeled data, discover structure, then optimize sequential decisions. Mastery requires hands-on implementation; exercises and projects in this curriculum provide scaffolding for active learning.## Practical Experimentation Framework
+
+Create reproducible experiments with systematic comparison of approaches.
+
