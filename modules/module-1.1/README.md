@@ -1372,3 +1372,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Applications: Sports analysis, VR
 - Video: Temporal consistency
 
+## Natural Language Processing
+
+### Tokenization Approaches
+- Word tokenization: Split by space
+- Subword: BPE, WordPiece
+- Character-level: Handles OOV
+- Sentencepiece: Language agnostic
+
