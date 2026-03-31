@@ -884,3 +884,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - KNN imputation: Use nearest neighbors
 - Iterative imputation: MICE algorithm
 
+### Outlier Detection and Treatment
+- IQR method: Remove beyond Q1-1.5*IQR to Q3+1.5*IQR
+- Z-score: Threshold at 3 standard deviations
+- Isolation Forest: Anomaly detection algorithm
+- Winsorization: Cap values at percentiles
+
