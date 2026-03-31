@@ -1412,3 +1412,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Target network: Stable targets
 - Convolutional input processing
 
+### Double DQN
+- Overestimation in Q-learning
+- Separate networks: Selection vs evaluation
+- Reduces overoptimistic values
+- Improved stability
+
