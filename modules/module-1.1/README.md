@@ -1823,3 +1823,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Configuration files: Hyperparameters
 - Version control: Git for reproducibility
 
+### Testing Machine Learning Code
+- Unit tests: Individual functions
+- Integration tests: Pipeline validation
+- Property-based testing: Invariants
+- Test data: Separate validation set
+
