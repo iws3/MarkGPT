@@ -2042,3 +2042,5 @@ Create reproducible experiments with systematic comparison of approaches.
 - Explanation for human understanding
 - Collaborative learning
 
+## Industry Applications by Domain
+
