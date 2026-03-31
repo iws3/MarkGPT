@@ -1760,3 +1760,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Matching networks
 - Model-agnostic meta-learning
 
+### Zero-Shot Learning
+- Learning without target class examples
+- Semantic attributes
+- Transfer through embeddings
+- Generalization to unseen classes
+
