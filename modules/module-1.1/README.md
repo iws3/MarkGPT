@@ -1658,3 +1658,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Iterative process
 - Danger: Error amplification
 
+### Co-Training
+- Multiple views of data
+- Train separate models
+- Label confident predictions from each
+- Require view conditionality
+
