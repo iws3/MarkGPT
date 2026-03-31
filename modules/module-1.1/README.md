@@ -1104,3 +1104,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Summary: Force plots, Dependence, Interaction
 - Theoretically principled approach
 
+### LIME (Local Interpretable Model-agnostic Explanations)
+- Fit interpretable model locally around point
+- Approximates complex model in local region
+- Feature contributions for single prediction
+- Works with any black-box model
+
