@@ -1644,3 +1644,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Streaming more natural
 - Pool: Batch selection possible
 
+### Transfer Active Learning
+- Source domain: Lots of labeled data
+- Target domain: Few labeled data
+- Leverage similarity
+- Efficient label acquisition
+
