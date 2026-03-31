@@ -852,3 +852,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Use tools: MLflow, Weights & Biases, Neptune
 - Enable comparison across many runs
 
+### Cross-Validation Best Practices
+- Always use proper validation strategy
+- K-fold more reliable than single split
+- Stratification critical for imbalanced data
+- Time-series: Respect temporal ordering
+
