@@ -2030,3 +2030,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Explainability from integration
 - Knowledge graphs + neural networks
 
+### Trustworthy AI
+- Robustness: Adversarial attacks
+- Interpretability: Understanding decisions
+- Fairness: Unbiased predictions
+- Privacy: Data protection
+
