@@ -1430,3 +1430,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - PPO: Clipped surrogate objective
 - Whitelisting: On-policy, stable
 
+### Curiosity-Driven Exploration
+- Exploration bonus from prediction error
+- Intrinsic motivation
+- Helps in sparse-reward environments
+- Predict future states as exploration signal
+
