@@ -1780,3 +1780,10 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Practical Case Studies
 
+### Case Study 1: E-commerce Recommendation
+- Problem: Recommend products to users
+- Data: User-product interactions
+- Approach: Collaborative filtering + content
+- Optimization: Real-time serving
+- Metrics: Click-through rate, conversion
+
