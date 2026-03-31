@@ -1580,3 +1580,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Gradient descent: Guaranteed for convex
 - Neural networks: Non-convex landscape
 
+### Convergence Analysis
+- Step size: Controls stability
+- Momentum: Non-smooth function
+- Condition number: Difficulty of problem
+- Lower/upper bounds: Fundamental limits
+
