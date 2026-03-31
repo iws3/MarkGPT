@@ -1020,3 +1020,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Crop and flip transformations
 - Mixup: Blend images and labels
 
+### NLP Augmentation
+- Word replacement with synonyms
+- Random insertion/deletion/swap
+- Back-translation: Translate then back
+- Paraphrase generation
+
