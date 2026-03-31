@@ -1180,3 +1180,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Implement debiasing if needed
 - Legal/ethical requirements
 
+## Advanced Training Techniques
+
+### Curriculum Learning
+- Start with easy examples
+- Gradually increase difficulty
+- Mirrors human learning
+- Better convergence, generalization
+
