@@ -2018,3 +2018,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - CLIP: Contrastive vision-language
 - Applications: Image captioning, VQA
 
+### Efficient Transformers
+- Linear transformers: O(n) complexity
+- Sparse attention: Localized interactions
+- Local vs. global trade-offs
+- Applications: Long sequence modeling
+
