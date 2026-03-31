@@ -2076,3 +2076,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Philosophy and Fundamentals
 
+### What Makes Good ML?
+- Simplicity: Occam's razor
+- Interpretability: Understanding decisions
+- Generalization: Performance on new data
+- Robustness: Stability under perturbations
+
