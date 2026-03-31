@@ -1926,3 +1926,5 @@ Create reproducible experiments with systematic comparison of approaches.
 - Online: Twitter, Reddit, Discord
 - Mentorship: Find and be mentors
 
+## Mathematical Deep Dives
+
