@@ -1586,3 +1586,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Condition number: Difficulty of problem
 - Lower/upper bounds: Fundamental limits
 
+### Proximal Algorithms
+- Splitting: Decompose complicated problem
+- ADMM: Alternating direction method
+- Proximal gradient: Generalized gradient
+- Handle non-smooth regularization
+
