@@ -1829,3 +1829,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Property-based testing: Invariants
 - Test data: Separate validation set
 
+### Debugging Techniques
+- Print statements: Track variable values
+- Debuggers: pdb, IDE breakpoints
+- Visualization: Plot intermediate results
+- Logging: Track execution flow
+
