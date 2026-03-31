@@ -1914,3 +1914,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Conferences: Attend, present
 - Community: Engage with peers
 
+### Specialization Paths
+- Research: Academia, research labs
+- Engineering: Production systems
+- Applied: Domain-specific (healthcare, finance)
+- Leadership: Management, strategy
+
