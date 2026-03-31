@@ -902,3 +902,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Word embeddings: Word2Vec, GloVe, FastText
 - Subword tokens: BPE, SentencePiece
 
+## Model Selection Strategies
+
+### Baseline Models
+- Regression: Mean/median predictor
+- Classification: Random/majority class
+- Clustering: Random assignment
+- Establish performance floor
+
