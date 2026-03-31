@@ -1276,3 +1276,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Non-linear manifold learning
 - Capture intrinsic dimensionality
 
+## Anomaly Detection Methods
+
+### Statistical Approaches
+- Z-score: Standard deviations from mean
+- Mahalanobis distance: Account for correlations
+- Probability thresholding: Known distributions
+- GAD: Generalized Anomaly Detection
+
