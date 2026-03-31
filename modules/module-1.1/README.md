@@ -1290,3 +1290,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - No distance computation
 - Efficient for high dimensions
 
+### Density-Based Approaches
+- LOF: Local Outlier Factor
+- Compares local density to neighbors
+- Identifies local anomalies
+- DBSCAN residuals: Noise points
+
