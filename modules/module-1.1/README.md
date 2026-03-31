@@ -1612,3 +1612,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Transitions: State dynamics
 - Emissions: Observation likelihood
 
+### Latent Dirichlet Allocation
+- Topic modeling
+- Generative model
+- Documents = mixture of topics
+- Topics = mixture of words
+
