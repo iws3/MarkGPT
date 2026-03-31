@@ -942,3 +942,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - F1-Score: Harmonic mean, balanced view
 - PR-AUC: Better than ROC-AUC for imbalance
 
+### Ranking and Recommendation Metrics
+- Mean Average Precision (MAP)
+- Normalized Discounted Cumulative Gain (NDCG)
+- Mean Reciprocal Rank (MRR)
+- Hit Rate: Proportion of relevant in top-k
+
