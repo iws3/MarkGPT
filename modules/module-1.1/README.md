@@ -1494,3 +1494,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Homomorphic encryption: Compute on encrypted
 - Data minimization: Aggregate at source
 
+## Graph Mining and Analysis
+
+### Community Detection
+- Louvain algorithm: Modularity optimization
+- Spectral clustering: Graph Laplacian
+- Label propagation: Message passing
+- Overlapping communities: Multiple memberships
+
