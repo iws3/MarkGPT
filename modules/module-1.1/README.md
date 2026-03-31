@@ -1598,3 +1598,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Hessian: Second derivative matrix
 - Expensive but faster convergence
 
+## Probabilistic Models
+
+### Bayesian Networks
+- DAG structure
+- Conditional independence
+- Inference: Exact or approximate
+- Parameter learning: MLE or MAP
+
