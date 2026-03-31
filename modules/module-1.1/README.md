@@ -1854,3 +1854,8 @@ Create reproducible experiments with systematic comparison of approaches.
 - Solution: Pre-register experiments, Bonferroni correction
 - Lesson: Look deeper than just p-values
 
+### Pitfall 2: Ignoring Data Quality
+- Problem: Garbage in, garbage out
+- Solution: Invest time in data exploration
+- Lesson: Data quality > algorithm sophistication
+
