@@ -2108,3 +2108,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Research directions
 - Timelines and feasibility
 
+### Sustainable AI
+- Carbon footprint of training
+- Efficient architectures
+- Green computing
+- Environmental responsibility
+
