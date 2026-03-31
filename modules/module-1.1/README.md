@@ -1462,3 +1462,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Sequence-to-sequence: Many-to-many
 - Encoder-decoder: Flexible input-output
 
+### Attention-Based Forecasting
+- Transformer for time series
+- Multi-horizon prediction
+- Handles long sequences
+- Captures complex dependencies
+
