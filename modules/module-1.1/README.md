@@ -1952,3 +1952,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Hilbert spaces: Inner product
 - Operator theory: Transformations
 
+### Real Analysis
+- Limits and continuity
+- Derivatives and integrals
+- Sequences and series
+- Convergence theorems
+
