@@ -1960,3 +1960,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Datasets and Benchmarks
 
+### Classic Datasets
+- MNIST: Digit recognition
+- CIFAR-10/100: Image classification
+- ImageNet: Large-scale visual recognition
+- COCO: Object detection and segmentation
+
