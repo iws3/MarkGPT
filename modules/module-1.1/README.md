@@ -1090,3 +1090,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Differential evolution: Population differences
 - Population-based training: Training and tuning jointly
 
+### Hyperband Algorithm
+- Successive halving of configurations
+- Promote promising, eliminate poor
+- Balances breadth and depth
+- Very efficient for many hyperparameters
+
