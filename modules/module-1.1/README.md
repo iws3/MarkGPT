@@ -1528,3 +1528,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Language models: Probability of relevance
 - Query expansion: Additional terms
 
+### Learning to Rank
+- Pointwise: Relevance scoring
+- Pairwise: Ordering constraints
+- Listwise: Ranking metrics
+- Neural Networks: Deep ranking
+
