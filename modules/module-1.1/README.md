@@ -1168,3 +1168,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Reuse features across teams
 - Versioning and lineage tracking
 
+### Model Compression Techniques
+- Quantization: Reduce precision (float32 -> int8)
+- Pruning: Remove unimportant weights
+- Knowledge distillation: Train small model on large
+- Matrix factorization: Decompose weight matrices
+
