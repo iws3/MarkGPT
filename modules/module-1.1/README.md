@@ -2056,3 +2056,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Algorithmic trading: Price prediction
 - Portfolio optimization: Asset allocation
 
+### Autonomous Systems
+- Perception: Object detection, tracking
+- Prediction: Trajectory forecasting
+- Planning: Path and motion planning
+- Control: Decision making
+
