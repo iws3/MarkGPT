@@ -1476,3 +1476,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Latency critical: Fast inference
 - Resource constrained: Mobile/edge
 
+### Concept Drift Handling
+- Data distribution changes over time
+- Detection: Compare old vs new data
+- Adaptation: Retrain/update models
+- Domain adaptation techniques
+
