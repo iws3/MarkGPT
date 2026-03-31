@@ -1704,3 +1704,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Real projects: Tackle actual problems
 - Continuous learning: New papers, techniques
 
+### Build Your ML Toolkit
+- Master familiar libraries
+- Understand fundamentals
+- Adapt to new domains
+- Debug systematically
+
