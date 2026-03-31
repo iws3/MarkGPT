@@ -1012,3 +1012,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Warm-up then cool-down for learning rate
 - Curriculum learning: Easy to hard examples
 
+## Data Augmentation Strategies
+
+### Image Augmentation
+- Random rotation, scaling, shearing
+- Brightness/contrast adjustment
+- Crop and flip transformations
+- Mixup: Blend images and labels
+
