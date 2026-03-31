@@ -1084,3 +1084,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Efficient for expensive-to-evaluate functions
 - Finds optimum with fewer evaluations
 
+### Population-Based Methods
+- Genetic algorithms: Evolution-inspired
+- Particle swarm: Collective behavior
+- Differential evolution: Population differences
+- Population-based training: Training and tuning jointly
+
