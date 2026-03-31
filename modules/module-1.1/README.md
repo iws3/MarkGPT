@@ -2102,3 +2102,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## The Future of Machine Learning
 
+### Toward General Intelligence
+- Narrow vs. general AI
+- Current limitations
+- Research directions
+- Timelines and feasibility
+
