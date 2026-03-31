@@ -1064,3 +1064,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Cost-aware: Reject based on cost-benefit
 - Useful for expensive predictions
 
+## Hyperparameter Optimization
+
+### Grid Search
+- Test all combinations of parameters
+- Exhaustive, guaranteed to try all
+- Expensive: O(n^k) for k parameters
+- Parallelizable across combinations
+
