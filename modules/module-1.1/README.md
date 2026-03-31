@@ -1546,3 +1546,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Matrix factorization: Latent factors
 - Deep learning: User and item embeddings
 
+## Causal Inference
+
+### Causal vs Correlational
+- Correlation: X and Y move together
+- Causation: X causes Y
+- Confounding: Third variable affects both
+- Simpson's Paradox: Reverse in subgroups
+
