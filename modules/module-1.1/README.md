@@ -2134,3 +2134,9 @@ Create reproducible experiments with systematic comparison of approaches.
 
 ## Final Thoughts and Reflection
 
+### The ML Practitioner's Mindset
+- Curiosity: Continuous learning
+- Humility: Acknowledge limitations
+- Rigor: Systematic validation
+- Pragmatism: Get things done
+
