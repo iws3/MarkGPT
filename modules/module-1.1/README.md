@@ -1468,3 +1468,11 @@ Create reproducible experiments with systematic comparison of approaches.
 - Handles long sequences
 - Captures complex dependencies
 
+## Anomaly Detection in Production
+
+### Real-Time Detection
+- Streaming algorithms: One pass
+- Online learning: Update models continuously
+- Latency critical: Fast inference
+- Resource constrained: Mobile/edge
+
