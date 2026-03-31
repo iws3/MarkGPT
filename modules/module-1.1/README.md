@@ -2140,3 +2140,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Rigor: Systematic validation
 - Pragmatism: Get things done
 
+### Building Intuition
+- Theory: Understand foundations
+- Practice: Implement from scratch
+- Experimentation: Try variations
+- Failure: Learn from mistakes
+
