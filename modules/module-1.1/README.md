@@ -1508,3 +1508,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Embedding-based: Distance in latent space
 - Temporal dynamics: Evolution of graph
 
+### Influence Maximization
+- Maximize influenced nodes
+- Greedy approximation: 63% guarantee
+- Submodular optimization
+- Applications: Viral marketing, information diffusion
+
