@@ -1206,3 +1206,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Prototypical networks: Few-shot
 - Rapid adaptation to new tasks
 
+### Federated Learning
+- Train on decentralized data
+- Privacy-preserving: Data never leaves
+- Communication efficient: Send models, not data
+- Edge computing: On-device training
+
