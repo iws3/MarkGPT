@@ -1972,3 +1972,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - GLUE: Natural language understanding
 - SUPERGLUE: Advanced NLU benchmark
 
+### Domain-Specific Datasets
+- Medical: ImageNet, pneumonia detection
+- Finance: Stock prices, economic indicators
+- Time series: Weather, energy consumption
+- Graphs: Social networks, molecules
+
