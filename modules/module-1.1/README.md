@@ -1664,3 +1664,9 @@ Create reproducible experiments with systematic comparison of approaches.
 - Label confident predictions from each
 - Require view conditionality
 
+### Consistency Regularization
+- Perturbation invariance
+- Same output given perturbed input
+- MixMatch: Mixing strategy
+- Recent: ReMixMatch, FixMatch
+
