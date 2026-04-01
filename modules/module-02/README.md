@@ -1363,3 +1363,29 @@ c = a / b  # Result is float64
 d = a / 2  # float division, results float64
 ```
 
+### Pandas Pitfalls
+
+**Pitfall 1: Chained Indexing**
+```python
+# Can trigger SettingWithCopyWarning
+df[df['age'] > 25]['salary'] = 100000  # Don't do this
+
+# Better
+df.loc[df['age'] > 25, 'salary'] = 100000
+```
+
+**Pitfall 2: Index Alignment**
+```python
+ordering = pd.Series([3, 1, 2])
+avg_price = pd.Series([100, 101, 102], index=[1, 2, 3])
+ordering * avg_price  # Aligns by index!
+```
+
+**Pitfall 3: Modifying a View**
+```python
+df2 = df[df['age'] > 25]  # View or copy?
+df2['salary'] = 50000  # Modifies df? Sometimes.
+
+df2 = df[df['age'] > 25].copy()  # Force copy
+```
+
