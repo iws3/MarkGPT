@@ -1183,3 +1183,19 @@ $$\frac{\partial^2 f}{\partial x^2}, \quad \frac{\partial^2 f}{\partial x \parti
 - Hessian: Matrix of second derivatives
 - Used in optimization algorithms
 
+### Optimization
+
+**Finding Extrema**
+$$\nabla f = 0 \text{ at critical points}$$
+
+**Convexity**
+- Convex function: Single global minimum
+- Non-convex: Multiple local minima
+- Hessian positive semi-definite → Convex
+
+**Gradient Descent**
+$$x_{n+1} = x_n - \alpha \nabla f(x_n)$$
+- Iteratively move in direction of negative gradient
+- Step size α: Learning rate
+- Converges for convex, well-behaved functions
+
