@@ -1435,3 +1435,24 @@ cols = np.array([1, 3])
 a[rows, cols]  # Elements at (0,1) and (2,3)
 ```
 
+### Universal Functions (ufuncs)
+
+**Built-in Ufuncs**
+```python
+# Trigonometric
+np.sin, np.cos, np.tan
+
+# Exponential/logarithm
+np.exp, np.log, np.log10
+
+# Rounding
+np.floor, np.ceil, np.round
+
+# Element-wise comparison
+np.greater, np.less, np.equal
+```
+
+**Custom Ufuncs**
+- Vectorize functions for arrays
+- Broadcasting built-in
+
