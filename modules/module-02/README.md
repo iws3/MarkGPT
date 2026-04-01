@@ -1795,3 +1795,21 @@ z_scores = np.abs(StandardScaler().fit_transform(df))
 outliers = (z_scores > 3).any(axis=1)
 ```
 
+## Visualization with Matplotlib
+
+### Basic Plotting
+
+```python
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3], [1, 4, 9])
+plt.xlabel('X axis')
+plt.ylabel('Y axis')
+plt.title('Title')
+plt.show()
+
+plt.scatter(x, y)
+plt.hist(data, bins=20)
+plt.boxplot([data1, data2])
+```
+
