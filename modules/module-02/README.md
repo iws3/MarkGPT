@@ -1762,3 +1762,19 @@ df.dtypes
 df.describe()
 ```
 
+### Handling Missing Data
+
+**Strategies**
+1. Deletion: Remove rows/columns
+2. Mean/median imputation: Simple
+3. Forward/backward fill: Time series
+4. KNN imputation: Use neighbors
+5. Model-based: Learn imputation
+
+**Python Examples**
+```python
+df.dropna()           # Delete
+df.fillna(df.mean())  # Mean
+df.fillna(method='ffill')  # FF
+```
+
