@@ -1973,3 +1973,19 @@ X_new = selector.fit_transform(X, y)
 - Regularization (L1, L2)
 - Tree feature importance
 
+## Advanced Machine Learning Techniques
+
+### Ensemble Methods
+
+**Bagging (Bootstrap Aggregating)**
+- Random samples with replacement
+- Train independent models
+- Aggregate predictions (average/vote)
+- Reduces variance
+
+```python
+from sklearn.ensemble import BaggingClassifier
+bag = BaggingClassifier(estimator=DecisionTreeClassifier())
+bag.fit(X, y)
+```
+
