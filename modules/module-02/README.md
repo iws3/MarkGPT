@@ -1909,3 +1909,25 @@ import pdb; pdb.set_trace()
 # Now in debugger, can inspect variables
 ```
 
+## Machine Learning Preprocessing Pipeline
+
+### Feature Scaling
+
+**Standardization**
+$$x_{scaled} = \frac{x - \mu}{\sigma}$$
+
+```python
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+x_scaled = scaler.fit_transform(X)
+```
+
+**Normalization (Min-Max)**
+$$x_{scaled} = \frac{x - x_{min}}{x_{max} - x_{min}}$$
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+x_scaled = scaler.fit_transform(X)
+```
+
