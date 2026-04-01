@@ -1723,3 +1723,25 @@ $$\nabla f = \lambda \nabla g$$
 - Add constraint penalties to objective
 - Solve unconstrained problems
 
+## Working with Real Data
+
+### Data Loading and Format Conversions
+
+**CSV Files**
+```python
+df = pd.read_csv('data.csv')
+df.to_csv('output.csv', index=False)
+```
+
+**JSON**
+```python
+df = pd.read_json('data.json')
+df.to_json('output.json')
+```
+
+**Excel**
+```python
+df = pd.read_excel('data.xlsx', sheet_name='Sheet1')
+df.to_excel('output.xlsx')
+```
+
