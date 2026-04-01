@@ -2286,3 +2286,21 @@ vectorizer = TfidfVectorizer()
 X_tfidf = vectorizer.fit_transform(texts)
 ```
 
+### Word Embeddings
+
+**Dense Representations**
+- Capture semantic meaning
+- Lower dimensionality than one-hot
+- Can transfer across tasks
+
+**Word2Vec**
+- Skip-gram or CBOW architecture
+- Learned from context windows
+- Pre-trained models available
+
+```python
+from gensim.models import Word2Vec
+model = Word2Vec(sentences, vector_size=100, window=5)
+vector = model.wv['word']
+```
+
