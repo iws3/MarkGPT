@@ -110,3 +110,24 @@ def function_name(arg1, arg2=default_value, *args, **kwargs):
 - Use with map(), filter(), sorted()
 - Avoid complex logic
 
+### Error Handling
+
+**Try-Except Pattern**
+```python
+try:
+    # Code that might raise exception
+except SpecificError as e:
+    # Handle specific error
+except Exception as e:
+    # Catch all remaining
+finally:
+    # Always execute (cleanup)
+```
+
+**Common Exceptions**
+- ValueError: Invalid value
+- TypeError: Wrong type
+- IndexError: Invalid index
+- KeyError: Missing dictionary key
+- ZeroDivisionError: Division by zero
+
