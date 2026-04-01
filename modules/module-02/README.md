@@ -1353,3 +1353,13 @@ b = a[1:3]  # View, changes affect a
 c = a[1:3].copy()  # Copy, changes don't affect a
 ```
 
+**Pitfall 3: Data Type Mismatches**
+```python
+a = np.array([1, 2, 3])  # dtype int64
+b = np.array([1.5, 2.5])  # dtype float64
+c = a / b  # Result is float64
+
+# Integer division unexpected
+d = a / 2  # float division, results float64
+```
+
