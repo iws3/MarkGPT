@@ -2161,3 +2161,21 @@ Z = linkage(X, method='ward')
 dendrogram(Z)
 ```
 
+### DBSCAN
+
+**Algorithm**
+- Density-based
+- No need to specify k
+- Finds arbitrary shapes
+- Identifies outliers as noise points
+
+**Parameters**
+- eps: Neighborhood radius
+- min_samples: Min points in neighborhood
+
+```python
+from sklearn.cluster import DBSCAN
+dbscan = DBSCAN(eps=0.5, min_samples=5)
+labels = dbscan.fit_predict(X)
+```
+
