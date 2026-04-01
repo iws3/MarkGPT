@@ -2527,3 +2527,24 @@ for child in root:
     print(child.tag, child.attrib)
 ```
 
+### Web Scraping
+
+**BeautifulSoup**
+```python
+from bs4 import BeautifulSoup
+
+response = requests.get(url)
+soup = BeautifulSoup(response.content, 'html.parser')
+
+# Find elements
+titles = soup.find_all('h1')
+for title in titles:
+    print(title.text)
+```
+
+**Ethical Considerations**
+- Check robots.txt
+- Respect rate limits
+- Follow terms of service
+- Use APIs when available
+
