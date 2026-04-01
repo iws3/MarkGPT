@@ -1601,3 +1601,17 @@ from scipy.integrate import quad
 result, error = quad(f, a, b)
 ```
 
+### Taylor Series
+
+**Definition**
+$$f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + ...$$
+
+**Applications**
+- Function approximation
+- Error analysis
+- Asymptotic behavior
+
+**Example**
+- e^x ≈ 1 + x + x²/2! + x³/3! + ...
+- sin(x) ≈ x - x³/3! + x⁵/5! - ...
+
