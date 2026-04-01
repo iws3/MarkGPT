@@ -720,3 +720,16 @@ df2['salary'] = 50000  # Modifies df? Sometimes.
 df2 = df[df['age'] > 25].copy()  # Force copy
 ```
 
+## Python Essentials for Machine Learning
+
+### Python Fundamentals Review
+Python is the dominant language in ML due to its simplicity, readability, and ecosystem.
+
+**Core Concepts**
+- Variables: Store data in memory
+- Data types: int, float, str, bool, list, dict, tuple, set
+- Operators: Arithmetic, comparison, logical, membership
+- Control flow: if/elif/else, loops (for, while)
+- Functions: Reusable code blocks with parameters and returns
+- Classes: Object-oriented programming foundation
+
