@@ -3341,3 +3341,24 @@ shap.force_plot(explainer.expected_value,
 - Handles feature interactions
 - Model-agnostic explanations possible
 
+## Handling Imbalanced Datasets
+
+**Metrics for Imbalance**
+- Accuracy: Misleading (high majority class score)
+- Precision/Recall: More informative
+- F1-score: Harmonic mean
+- AUC-ROC: Threshold-independent
+
+```python
+from sklearn.metrics import classification_report
+print(classification_report(y_true, y_pred))
+```
+
+**Threshold Tuning**
+```python
+from sklearn.metrics import roc_curve, f1_score
+fpr, tpr, thresholds = roc_curve(y_true, y_proba)
+f1_scores = [f1_score(y_true, y_proba >= t) for t in thresholds]
+best_threshold = thresholds[np.argmax(f1_scores)]
+```
+
