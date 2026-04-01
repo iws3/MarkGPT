@@ -2427,3 +2427,26 @@ while # condition:
 out.release()
 ```
 
+## Natural Language Processing Basics
+
+### Preprocessing
+
+**Lowercasing and Punctuation**
+```python
+text = text.lower()
+import string
+text = text.translate(str.maketrans('', '', string.punctuation))
+```
+
+**Stopword Removal**
+```python
+import nltk
+from nltk.corpus import stopwords
+stop_words = set(stopwords.words('english'))
+words = [w for w in tokens if w not in stop_words]
+```
+
+**Stemming and Lemmatization**
+- Stemming: Reduce to root (running → run)
+- Lemmatization: Reduce to base form (better but slower)
+
