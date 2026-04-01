@@ -2228,3 +2228,21 @@ $$MAE = \frac{1}{n} \sum_i |y_i - \hat{y}_i|$$
 **R² (Coefficient of Determination)**
 $$R^2 = 1 - \frac{\sum_i(y_i - \hat{y}_i)^2}{\sum_i(y_i - \bar{y})^2}$$
 
+### Cross-Validation
+
+**Why Cross-Validation**
+- Better use of data
+- More reliable performance estimate
+- Detect overfitting
+
+**K-Fold Cross-Validation**
+```python
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(model, X, y, cv=5)
+print(f'Mean score: {scores.mean():.3f} (+- {scores.std():.3f})')
+```
+
+**Stratified K-Fold**
+- Maintains class distribution
+- Important for imbalanced datasets
+
