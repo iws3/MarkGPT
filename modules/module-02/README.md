@@ -1931,3 +1931,23 @@ scaler = MinMaxScaler()
 x_scaled = scaler.fit_transform(X)
 ```
 
+### Feature Engineering
+
+**Polynomial Features**
+```python
+from sklearn.preprocessing import PolynomialFeatures
+poly = PolynomialFeatures(degree=2)
+X_poly = poly.fit_transform(X)
+```
+
+**Interaction Terms**
+- Important for capturing relationships
+- Exponential growth in features
+- Use domain knowledge to select
+
+**Manual Feature Creation**
+```python
+df['log_income'] = np.log(df['income'])
+df['age_squared'] = df['age'] ** 2
+```
+
