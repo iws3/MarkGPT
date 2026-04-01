@@ -3362,3 +3362,22 @@ f1_scores = [f1_score(y_true, y_proba >= t) for t in thresholds]
 best_threshold = thresholds[np.argmax(f1_scores)]
 ```
 
+## Model Selection Strategy
+
+**Baseline Models**
+- Simple models first (Logistic Regression, Decision Tree)
+- Establish performance floor
+- Quick to train and interpret
+
+**Progression**
+1. Simple linear models
+2. Non-linear (trees, SVM)
+3. Ensemble methods
+4. Deep learning (if needed)
+
+**Considerations**
+- Interpretability requirements
+- Computational budget
+- Data size and dimensionality
+- Production constraints
+
