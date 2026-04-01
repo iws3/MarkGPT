@@ -954,3 +954,28 @@ import timeit
 timeit.timeit('x ** 2', 'x = np.array(range(1000))')
 ```
 
+## Pandas: Data Manipulation
+
+### Why Pandas?
+- Tabular data: Rows and columns like Excel
+- Missing data: Handles NaN gracefully
+- Data alignment: Automatic alignment by index
+- Flexibility: Mix numeric, string, categorical data
+
+### Creating DataFrames
+
+```python
+import pandas as pd
+
+# From dict
+df = pd.DataFrame({'name': ['Alice', 'Bob', 'Charlie'],
+                  'age': [25, 30, 35]})
+
+# From lists
+df = pd.DataFrame([['Alice', 25], ['Bob', 30]],
+                 columns=['name', 'age'])
+
+# From CSV
+df = pd.read_csv('data.csv')
+```
+
