@@ -3596,3 +3596,40 @@ assert df['age'].min() >= 0, 'Negative age'
 assert df['age'].max() <= 150, 'Unrealistic age'
 ```
 
+## Collaboration Practices
+
+**Code Style and Linting**
+```bash
+# Black: Code formatter
+black your_script.py
+
+# Flake8: Linter
+flake8 your_script.py
+
+# mypy: Type checking
+mypy your_script.py
+```
+
+**Documentation Standards**
+```python
+def train_model(X, y, learning_rate=0.001):
+    """
+    Train a neural network.
+    
+    Args:
+        X: Input features, shape (n_samples, n_features)
+        y: Target labels, shape (n_samples,)
+        learning_rate: Learning rate for optimization (default: 0.001)
+    
+    Returns:
+        model: Trained model object
+    
+    Raises:
+        ValueError: If X and y have different lengths
+    """
+    if len(X) != len(y):
+        raise ValueError('X and y must have same length')
+    # Implementation
+    return model
+```
+
