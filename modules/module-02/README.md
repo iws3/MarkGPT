@@ -3205,3 +3205,21 @@ $$x' = \frac{x - Q_2}{Q_3 - Q_1}$$
 - Uses median and IQR
 - Robust to outliers
 
+## Regularization Techniques
+
+### L1 and L2 Regularization
+
+**Ridge Regression (L2)**
+$$\min \sum_i(y_i - \hat{y}_i)^2 + \lambda \sum_j w_j^2$$
+- Shrinks coefficients proportionally
+- Never eliminates features
+
+**Lasso Regression (L1)**
+$$\min \sum_i(y_i - \hat{y}_i)^2 + \lambda \sum_j |w_j|$$
+- Can eliminate features (sparsity)
+- Feature selection
+
+**Elastic Net**
+$$\min \sum_i(y_i - \hat{y}_i)^2 + \lambda_1 \sum_j |w_j| + \lambda_2 \sum_j w_j^2$$
+- Combines L1 and L2
+
