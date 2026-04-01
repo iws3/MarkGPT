@@ -1850,3 +1850,22 @@ plt.show()
 ax.plot_surface(X, Y, Z)
 ```
 
+## Performance and Debugging
+
+### Timing and Profiling
+
+**Simple Timing**
+```python
+import time
+start = time.time()
+# Code
+end = time.time()
+print(f'Time: {end - start} seconds')
+```
+
+**Using timeit**
+```python
+import timeit
+result = timeit.timeit('x**2', 'x=np.array(range(1000))', number=1000)
+```
+
