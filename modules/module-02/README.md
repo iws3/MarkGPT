@@ -1049,3 +1049,23 @@ pd.merge(df1, df2, on='key')  # Inner join
 pd.merge(df1, df2, how='left', on='key')
 ```
 
+## Linear Algebra Fundamentals
+
+### Vectors and Matrices
+
+**Vectors**
+- 1D array of numbers
+- Direction and magnitude
+- Example: [1, 2, 3]
+- Notation: **v** or v⃗
+
+**Matrices**
+- 2D array: m rows × n columns
+- Example: [[1, 2], [3, 4]]
+- Notation: **A** or A_ij
+
+**Tensors**
+- Generalization to n dimensions
+- Images: 3D (height, width, channels)
+- Batches: 4D (batch, height, width, channels)
+
