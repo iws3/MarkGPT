@@ -2198,3 +2198,19 @@ $$\text{Precision} = \frac{TP}{TP + FP}$$
 **Recall**
 $$\text{Recall} = \frac{TP}{TP + FN}$$
 
+### F1-Score and ROC
+
+**F1-Score (Harmonic Mean of Precision and Recall)**
+$$F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
+
+**ROC Curve**
+- Plot TPR vs FPR
+- AUC (Area Under Curve): Probability of correct ranking
+- Higher AUC = Better discrimination
+
+```python
+from sklearn.metrics import roc_auc_score, roc_curve
+auc = roc_auc_score(y_true, y_proba)
+fpr, tpr, thresholds = roc_curve(y_true, y_proba)
+```
+
