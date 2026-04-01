@@ -3017,3 +3017,28 @@ df.groupby('category')['value'].agg(range_val)
 df['normalized'] = (df['value'] - df['value'].mean()) / df['value'].std()
 ```
 
+### Join and Merge Operations
+
+**Inner Join**
+```python
+left = pd.DataFrame({'key': ['a', 'b', 'c'], 'x': [1, 2, 3]})
+right = pd.DataFrame({'key': ['a', 'b', 'd'], 'y': [4, 5, 6]})
+
+result = pd.merge(left, right, on='key', how='inner')
+# Only 'a', 'b' matched
+```
+
+**Outer Join**
+```python
+result = pd.merge(left, right, on='key', how='outer')
+# All keys: 'a', 'b', 'c', 'd'
+# NaN where missing
+```
+
+**Concatenation**
+```python
+df1 = pd.DataFrame({'A': [1, 2]})
+df2 = pd.DataFrame({'A': [3, 4]})
+result = pd.concat([df1, df2], ignore_index=True)
+```
+
