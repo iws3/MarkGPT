@@ -2264,3 +2264,25 @@ print(f'Best params: {grid.best_params_}')
 - More efficient for large parameter spaces
 - Sample random combinations
 
+## Text Processing Fundamentals
+
+### Tokenization and Vectorization
+
+**Word Tokenization**
+```python
+from sklearn.feature_extraction.text import CountVectorizer
+vectorizer = CountVectorizer(max_features=1000)
+X = vectorizer.fit_transform(texts)
+vocab = vectorizer.get_feature_names_out()
+```
+
+**TF-IDF (Term Frequency-Inverse Document Frequency)**
+$$TF\text{-}IDF(t,d) = TF(t,d) \cdot IDF(t)$$
+$$IDF(t) = \log\frac{N}{n_t}$$
+
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer
+vectorizer = TfidfVectorizer()
+X_tfidf = vectorizer.fit_transform(texts)
+```
+
