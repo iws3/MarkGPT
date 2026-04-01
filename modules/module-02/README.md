@@ -192,3 +192,28 @@ np.log(a)   # Natural log
 - np.outer(a, b): Outer product
 - np.transpose(a) or a.T: Transpose
 
+### Indexing and Slicing
+
+**Single Index**
+```python
+a = np.array([0, 1, 2, 3, 4, 5])
+a[0]   # First element: 0
+a[-1]  # Last element: 5
+a[2:5] # Slice [2,3,4]
+```
+
+**Multi-dimensional**
+```python
+b = np.array([[1, 2, 3], [4, 5, 6]])
+b[0, 1]    # Row 0, column 1: 2
+b[0, :]    # First row: [1, 2, 3]
+b[:, 1]    # Second column: [2, 5]
+b[0:1, 1:2] # Subarray
+```
+
+**Boolean Indexing**
+```python
+mask = a > 2
+a[mask]  # Elements > 2
+```
+
