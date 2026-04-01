@@ -3428,3 +3428,23 @@ for i, row1 in df.iterrows():
             print(f'Potential duplicate: {row1}, {row2}')
 ```
 
+### Data Type Optimization
+
+```python
+# Check memory usage
+df.memory_usage(deep=True)
+
+# Optimize categorical
+df['category'] = df['category'].astype('category')
+
+# Optimize numeric
+df['age'] = df['age'].astype('int32')  # Instead of int64
+df['score'] = df['score'].astype('float32')  # Instead of float64
+
+# String to date
+df['date'] = pd.to_datetime(df['date'])
+
+# Results
+print(f'Original memory: {df.memory_usage(deep=True).sum() / (1024**2):.2f} MB')
+```
+
