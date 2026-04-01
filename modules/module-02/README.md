@@ -3058,3 +3058,25 @@ df['sqrt_value'] = np.sqrt(df['value'])
 df[['a', 'b']] = df[['a', 'b']].apply(np.log1p)
 ```
 
+## Statistical Distributions
+
+### Common Distributions
+
+**Normal Distribution**
+$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+
+**Exponential Distribution**
+- Models waiting times
+- Single parameter: λ (rate)
+
+**Poisson Distribution**
+- Counts of events
+- Parameter: λ (mean)
+
+```python
+from scipy.stats import norm, expon, poisson
+
+x = np.linspace(-4, 4, 100)
+pdf = norm.pdf(x, loc=0, scale=1)
+```
+
