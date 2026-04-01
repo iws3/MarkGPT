@@ -238,3 +238,25 @@ d = np.array([[1], [2]])  # Shape (2, 1)
 c + d  # Shape (2, 3)
 ```
 
+### Common NumPy Functions
+
+**Aggregation**
+- np.sum(): Sum all elements
+- np.mean(): Average
+- np.std(): Standard deviation
+- np.min(), np.max(): Minimum, maximum
+- np.argmin(), np.argmax(): Index of min/max
+
+**Linear Algebra**
+- np.linalg.inv(): Matrix inverse
+- np.linalg.det(): Determinant
+- np.linalg.eig(): Eigenvalues, eigenvectors
+- np.linalg.solve(): System of equations
+- np.linalg.norm(): Vector/matrix norm
+
+**Random**
+- np.random.rand(): Uniform [0, 1)
+- np.random.randn(): Standard normal
+- np.random.choice(): Sample from array
+- np.random.shuffle(): In-place shuffle
+
