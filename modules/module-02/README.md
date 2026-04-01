@@ -2048,3 +2048,23 @@ model.fit(X, y)
 - Lower memory usage
 - Handles large datasets well
 
+## Support Vector Machines
+
+**Mathematical Foundation**
+Maximize margin while minimizing misclassification:
+$$\min_{w,b} \frac{1}{2}||w||^2 + C \sum_i \xi_i$$
+
+Subject to: $y_i(w \cdot x_i + b) \geq 1 - \xi_i$
+
+**Kernels**
+- Linear: Simple, fast
+- RBF (Radial Basis Function): Non-linear, default
+- Polynomial: Degree control
+- Custom: Domain-specific
+
+```python
+from sklearn.svm import SVC
+svm = SVC(kernel='rbf', C=1.0)
+svm.fit(X, y)
+```
+
