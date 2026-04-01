@@ -1778,3 +1778,20 @@ df.fillna(df.mean())  # Mean
 df.fillna(method='ffill')  # FF
 ```
 
+### Outlier Detection
+
+**Statistical Methods**
+- Z-score: > 3 or < -3
+- IQR: Outside Q1 - 1.5*IQR to Q3 + 1.5*IQR
+
+**Distance-based**
+- Isolation Forest
+- Local Outlier Factor (LOF)
+
+**Python**
+```python
+from sklearn.preprocessing import StandardScaler
+z_scores = np.abs(StandardScaler().fit_transform(df))
+outliers = (z_scores > 3).any(axis=1)
+```
+
