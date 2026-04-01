@@ -2068,3 +2068,17 @@ svm = SVC(kernel='rbf', C=1.0)
 svm.fit(X, y)
 ```
 
+## Dimensionality Reduction
+
+### Why Reduce Dimensions
+
+- Curse of dimensionality
+- Computational efficiency
+- Visualization
+- Remove noise and multicollinearity
+- Better generalization
+
+**Trade-off**
+- Information loss
+- Interpretability
+
