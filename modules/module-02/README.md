@@ -574,3 +574,19 @@ $$\text{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])]$$
 - Measures relationship between variables
 - Correlation: Normalized covariance
 
+### Statistical Inference
+
+**Point Estimation**
+- Mean: μ̂ = (1/n)Σx_i
+- Variance: σ̂² = (1/n)Σ(x_i - μ̂)²
+- Maximum Likelihood Estimation (MLE)
+
+**Confidence Intervals**
+- Range of plausible parameter values
+- 95% CI: ±1.96σ for normal distribution
+
+**Hypothesis Testing**
+- Null hypothesis H₀: No effect
+- Alternative H₁: Effect exists
+- p-value: Probability of data given H₀
+
