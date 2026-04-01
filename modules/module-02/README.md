@@ -2246,3 +2246,21 @@ print(f'Mean score: {scores.mean():.3f} (+- {scores.std():.3f})')
 - Maintains class distribution
 - Important for imbalanced datasets
 
+### Hyperparameter Tuning
+
+**Grid Search**
+```python
+from sklearn.model_selection import GridSearchCV
+param_grid = {
+    'C': [0.1, 1, 10],
+    'kernel': ['linear', 'rbf']
+}
+grid = GridSearchCV(SVC(), param_grid, cv=5)
+grid.fit(X, y)
+print(f'Best params: {grid.best_params_}')
+```
+
+**Random Search**
+- More efficient for large parameter spaces
+- Sample random combinations
+
