@@ -434,3 +434,23 @@ $$C = AB \text{ where } c_{ij} = \sum_k a_{ik} b_{kj}$$
 $$A^T_{ij} = A_{ji}$$
 - Switch rows and columns
 
+### Matrix Decomposition
+
+**Eigendecomposition**
+$$Av = \lambda v$$
+- v: Eigenvector
+- λ: Eigenvalue
+- A must be square
+
+**Singular Value Decomposition (SVD)**
+$$A = U \Sigma V^T$$
+- U, V: Orthogonal matrices
+- Σ: Diagonal matrix of singular values
+- Works for any matrix
+
+**QR Decomposition**
+$$A = QR$$
+- Q: Orthogonal matrix
+- R: Upper triangular
+- Used in least squares
+
