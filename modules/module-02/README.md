@@ -2082,3 +2082,23 @@ svm.fit(X, y)
 - Information loss
 - Interpretability
 
+### Linear Dimensionality Reduction
+
+**Principal Component Analysis (PCA)**
+```python
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+X_reduced = pca.fit_transform(X)
+print(f'Explained variance: {pca.explained_variance_ratio_}')
+```
+
+**Linear Discriminant Analysis (LDA)**
+- Supervised (uses labels)
+- Finds directions that maximize class separation
+
+```python
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+lda = LinearDiscriminantAnalysis(n_components=2)
+X_reduced = lda.fit_transform(X, y)
+```
+
