@@ -886,3 +886,24 @@ mask = a > 2
 a[mask]  # Elements > 2
 ```
 
+### Broadcasting
+
+**Why Broadcasting?**
+Vectorized operations on arrays of different shapes
+
+**Broadcasting Rules**
+1. Dimensions align from right to left
+2. Dimensions are compatible if equal or one is 1
+3. Missing dimensions treated as 1
+
+**Examples**
+```python
+a = np.array([[1, 2, 3]])  # Shape (1, 3)
+b = np.array([[1], [2], [3]])  # Shape (3, 1)
+a + b  # Shape (3, 3), broadcasts both
+
+c = np.array([1, 2, 3])  # Shape (3,)
+d = np.array([[1], [2]])  # Shape (2, 1)
+c + d  # Shape (2, 3)
+```
+
