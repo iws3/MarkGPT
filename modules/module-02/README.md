@@ -2674,3 +2674,19 @@ for name, model in models.items():
     print(f'{name}: {scores.mean():.4f} (+- {scores.std():.4f})')
 ```
 
+## Case Study 3: Customer Segmentation
+
+**Business Problem**
+- Identify customer groups
+- Tailor marketing strategies
+- Improve customer retention
+
+**Data Features**
+- Demographics: Age, income, location
+- Behavior: Purchase history, frequency
+- RFM: Recency, Frequency, Monetary
+
+**Unsupervised Learning Approach**
+- No predefined customer categories
+- K-means or hierarchical clustering
+
