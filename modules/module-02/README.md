@@ -3633,3 +3633,32 @@ def train_model(X, y, learning_rate=0.001):
     return model
 ```
 
+## Performance Profiling
+
+**Line-by-Line Analysis**
+```python
+# Install: pip install line_profiler
+
+# In script (use @profile decorator)
+@profile
+def slow_function():
+    result = []
+    for i in range(1000):
+        result.append(i**2)  # Slow
+    return result
+
+# Run: kernprof -l -v script.py
+```
+
+**Memory Leaks**
+```python
+import tracemalloc
+
+tracemalloc.start()
+# Code
+current, peak = tracemalloc.get_traced_memory()
+print(f'Current: {current / 10**6}MB')
+print(f'Peak: {peak / 10**6}MB')
+tracemalloc.stop()
+```
+
