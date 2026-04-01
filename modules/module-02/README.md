@@ -2690,3 +2690,29 @@ for name, model in models.items():
 - No predefined customer categories
 - K-means or hierarchical clustering
 
+### Segmentation: Clustering
+
+```python
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+
+# Prepare data
+X = df[['income', 'spending', 'frequency']].values
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+
+# Elbow method
+inertias = []
+K = range(1, 11)
+for k in K:
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    kmeans.fit(X_scaled)
+    inertias.append(kmeans.inertia_)
+
+plt.plot(K, inertias)
+plt.xlabel('Number of clusters')
+plt.ylabel('Inertia')
+plt.show()
+```
+
