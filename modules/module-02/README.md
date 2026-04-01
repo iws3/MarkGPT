@@ -2029,3 +2029,22 @@ gb = GradientBoostingClassifier(learning_rate=0.1)
 gb.fit(X, y)
 ```
 
+### XGBoost and LightGBM
+
+**XGBoost Advantages**
+- Regularization built-in
+- Handles missing values
+- GPU acceleration available
+- Highly optimized implementation
+
+```python
+import xgboost as xgb
+model = xgb.XGBClassifier(learning_rate=0.1, max_depth=5)
+model.fit(X, y)
+```
+
+**LightGBM**
+- Faster training
+- Lower memory usage
+- Handles large datasets well
+
