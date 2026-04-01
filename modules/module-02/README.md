@@ -1951,3 +1951,25 @@ df['log_income'] = np.log(df['income'])
 df['age_squared'] = df['age'] ** 2
 ```
 
+### Feature Selection
+
+**Filter Methods**
+- Correlation with target
+- Chi-square for categorical
+- Fast, independent of model
+
+```python
+from sklearn.feature_selection import SelectKBest, f_classif
+selector = SelectKBest(f_classif, k=5)
+X_new = selector.fit_transform(X, y)
+```
+
+**Wrapper Methods**
+- RFE (Recursive Feature Elimination)
+- Forward/backward selection
+- Model-dependent, computationally expensive
+
+**Embedded Methods**
+- Regularization (L1, L2)
+- Tree feature importance
+
