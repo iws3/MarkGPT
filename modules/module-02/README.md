@@ -2142,3 +2142,22 @@ kmeans.fit(X)
 labels = kmeans.labels_
 ```
 
+### Hierarchical Clustering
+
+**Agglomerative (Bottom-up)**
+1. Start with each point as cluster
+2. Merge closest clusters
+3. Repeat until one cluster
+
+**Linkage Methods**
+- Single: Minimum distance
+- Complete: Maximum distance
+- Average: Mean distance
+- Ward: Minimize within-cluster variance
+
+```python
+from scipy.cluster.hierarchy import dendrogram, linkage
+Z = linkage(X, method='ward')
+dendrogram(Z)
+```
+
