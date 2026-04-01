@@ -2504,3 +2504,26 @@ response = requests.post('https://api.example.com/submit',
                         json={'key': 'value'})
 ```
 
+### JSON and Data Formats
+
+**JSON (JavaScript Object Notation)**
+```python
+import json
+
+# Parse JSON
+data = json.loads(json_string)
+
+# Create JSON
+json_string = json.dumps(data, indent=2)
+```
+
+**XML**
+```python
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('file.xml')
+root = tree.getroot()
+for child in root:
+    print(child.tag, child.attrib)
+```
+
