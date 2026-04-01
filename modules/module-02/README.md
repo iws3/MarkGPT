@@ -3042,3 +3042,19 @@ df2 = pd.DataFrame({'A': [3, 4]})
 result = pd.concat([df1, df2], ignore_index=True)
 ```
 
+### Apply and Vectorize
+
+```python
+# Element-wise function
+df['category'] = df['value'].apply(lambda x: 'high' if x > 25 else 'low')
+
+# Multiple columns
+df['ratio'] = df.apply(lambda row: row['x'] / row['y'], axis=1)
+
+# Vectorized (faster)
+df['sqrt_value'] = np.sqrt(df['value'])
+
+# Using numpy functions
+df[['a', 'b']] = df[['a', 'b']].apply(np.log1p)
+```
+
