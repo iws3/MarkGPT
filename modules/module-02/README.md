@@ -400,3 +400,17 @@ pd.merge(df1, df2, how='left', on='key')
 - Images: 3D (height, width, channels)
 - Batches: 4D (batch, height, width, channels)
 
+### Vector Operations
+
+**Magnitude (Norm)**
+$$||v|| = \sqrt{v_1^2 + v_2^2 + ... + v_n^2}$$
+
+**Dot Product (Inner Product)**
+$$v \cdot w = v_1 w_1 + v_2 w_2 + ... + v_n w_n$$
+
+**Geometric Interpretation**
+$$v \cdot w = ||v|| ||w|| \cos(\theta)$$
+- θ = 0: Parallel vectors
+- θ = 90°: Orthogonal (perpendicular)
+- θ = 180°: Opposite vectors
+
