@@ -2563,3 +2563,25 @@ for title in titles:
 5. Evaluate with cross-validation
 6. Visualize decision boundaries
 
+### Iris: Exploration and Visualization
+
+```python
+from sklearn.datasets import load_iris
+import pandas as pd
+
+iris = load_iris()
+df = pd.DataFrame(iris.data, columns=iris.feature_names)
+df['target'] = iris.target
+
+# Summary statistics
+print(df.describe())
+
+# Visualization
+import matplotlib.pyplot as plt
+plt.scatter(df['sepal length'], df['sepal width'],
+           c=df['target'], cmap='viridis')
+plt.xlabel('Sepal Length')
+plt.ylabel('Sepal Width')
+plt.show()
+```
+
