@@ -1487,3 +1487,16 @@ df.loc['2020-01-01':'2020-12-31']
 df.loc['2020-01']  # All January 2020
 ```
 
+### Categorical Data
+
+```python
+df['color'] = pd.Categorical(['red', 'blue', 'red', 'green'])
+df['color'].cat.categories
+df['color'].cat.codes  # Numeric representation
+```
+
+**Benefits**
+- Memory efficient (especially for many repeated values)
+- Enforces allowed values
+- Useful for ordinal data
+
