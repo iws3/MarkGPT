@@ -3509,3 +3509,32 @@ with open('metrics.jsonl', 'a') as f:
     f.write(json.dumps(metrics) + '\n')
 ```
 
+## Reproducibility
+
+**Setting Random Seeds**
+```python
+import random
+import numpy as np
+import tensorflow as tf
+
+seed = 42
+random.seed(seed)
+np.random.seed(seed)
+tf.random.set_seed(seed)
+```
+
+**Documenting Experiments**
+```python
+experiment = {
+    'date': datetime.now().isoformat(),
+    'model': 'RandomForest',
+    'hyperparameters': {'n_estimators': 100, 'max_depth': 10},
+    'data_version': '1.2.3',
+    'results': {'accuracy': 0.92, 'f1': 0.88}
+}
+
+import json
+with open(f'experiments/{model_name}.json', 'w') as f:
+    json.dump(experiment, f, indent=2)
+```
+
