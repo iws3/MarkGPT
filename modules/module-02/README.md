@@ -1389,3 +1389,17 @@ df2['salary'] = 50000  # Modifies df? Sometimes.
 df2 = df[df['age'] > 25].copy()  # Force copy
 ```
 
+## Advanced NumPy Concepts
+
+### Structured Arrays
+```python
+dt = np.dtype([('name', 'U10'), ('age', 'i4')])
+data = np.array([('Alice', 25), ('Bob', 30)], dtype=dt)
+data['name']  # Access by field
+```
+
+**Use Cases**
+- Database-like records
+- Mixed data types
+- Memory-efficient storage
+
