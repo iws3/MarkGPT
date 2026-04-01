@@ -3271,3 +3271,29 @@ data_gen.flow(X, y, batch_size=32)
 - Cropping: Use partial sequences
 - Rotation: Shift time series
 
+## Class Imbalance Solutions
+
+**Resampling**
+```python
+from imblearn.over_sampling import RandomOverSampler
+from imblearn.under_sampling import RandomUnderSampler
+
+over = RandomOverSampler(sampling_strategy=0.7)
+X_over, y_over = over.fit_resample(X, y)
+```
+
+**SMOTE (Synthetic Minority Oversampling)**
+```python
+from imblearn.over_sampling import SMOTE
+smote = SMOTE()
+X_balanced, y_balanced = smote.fit_resample(X, y)
+```
+
+**Class Weights**
+```python
+from sklearn.utils.class_weight import compute_class_weight
+weights = compute_class_weight('balanced', 
+                              classes=np.unique(y), y=y)
+model.fit(X, y, sample_weight=weights[y])
+```
+
