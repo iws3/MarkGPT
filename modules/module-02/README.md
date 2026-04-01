@@ -3145,3 +3145,24 @@ print(np.allclose(A @ x, b))
 - Fewer equations than unknowns
 - Infinite solutions exist
 
+## Optimization Deep Dive
+
+### Gradient-Based Methods
+
+**Momentum**
+$$v_t = \beta v_{t-1} + \nabla f(x_t)$$
+$$x_{t+1} = x_t - \alpha v_t$$
+
+- Accelerates convergence
+- β typically 0.9
+
+**Nesterov Momentum**
+- Look-ahead gradient
+- Better convergence properties
+
+```python
+# Without explicit momentum
+from scipy.optimize import minimize
+result = minimize(f, x0, method='BFGS')
+```
+
