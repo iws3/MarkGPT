@@ -1587,3 +1587,17 @@ def numerical_gradient(f, x, h=1e-5):
     return (f(x+h) - f(x-h)) / (2*h)
 ```
 
+### Numerical Integration
+
+**Trapezoidal Rule**
+$$\int_a^b f(x)dx \approx \sum_i \frac{f(x_i) + f(x_{i+1})}{2} \cdot h$$
+
+**Simpson's Rule**
+Higher accuracy using parabolic approximation
+
+**SciPy**
+```python
+from scipy.integrate import quad
+result, error = quad(f, a, b)
+```
+
