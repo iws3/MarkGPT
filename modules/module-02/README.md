@@ -2102,3 +2102,21 @@ lda = LinearDiscriminantAnalysis(n_components=2)
 X_reduced = lda.fit_transform(X, y)
 ```
 
+### Non-linear Dimensionality Reduction
+
+**t-SNE (t-Distributed Stochastic Neighbor Embedding)**
+- Preserves local structure
+- Great for visualization
+- Computationally expensive
+
+```python
+from sklearn.manifold import TSNE
+tsne = TSNE(n_components=2, perplexity=30)
+X_reduced = tsne.fit_transform(X)
+```
+
+**UMAP (Uniform Manifold Approximation and Projection)**
+- Faster than t-SNE
+- Preserves more global structure
+- Excellent for large datasets
+
