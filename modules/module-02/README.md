@@ -1416,3 +1416,22 @@ f = np.asfortranarray(a)  # F-order (column-major)
 - Column-major: Faster column iteration
 - NumPy default: C-contiguous
 
+### Advanced Slicing
+
+**Fancy Indexing**
+```python
+a = np.arange(10)
+indices = np.array([0, 2, 4])
+a[indices]  # [0, 2, 4]
+
+a[[0, 2, 4]]  # Same result
+```
+
+**Multidimensional Indexing**
+```python
+a = np.arange(12).reshape(3, 4)
+rows = np.array([0, 2])
+cols = np.array([1, 3])
+a[rows, cols]  # Elements at (0,1) and (2,3)
+```
+
