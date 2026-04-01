@@ -1650,3 +1650,18 @@ from scipy.stats import chi2_contingency
 chi2, p_value, dof, expected = chi2_contingency(contingency_table)
 ```
 
+### Correlation and Covariance
+
+**Pearson Correlation**
+$$r = \frac{\sum_i (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_i(x_i-\bar{x})^2 \sum_i(y_i-\bar{y})^2}}$$
+
+**Python**
+```python
+np.corrcoef(x, y)
+pd.DataFrame(data).corr()
+```
+
+**Spearman Correlation**
+- Rank-based (non-parametric)
+- Robust to outliers
+
