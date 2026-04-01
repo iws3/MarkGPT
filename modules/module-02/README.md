@@ -1557,3 +1557,17 @@ np.linalg.norm(A, ord=2)    # Spectral
 np.linalg.norm(A, ord='fro') # Frobenius
 ```
 
+### Condition Number
+
+**Definition**
+$$\kappa(A) = ||A|| \cdot ||A^{-1}||$$
+
+**Interpretation**
+- κ ≈ 1: Well-conditioned
+- κ → ∞: Ill-conditioned, numerically unstable
+
+**NumPy**
+```python
+np.linalg.cond(A)
+```
+
