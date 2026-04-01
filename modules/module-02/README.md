@@ -1500,3 +1500,17 @@ df['color'].cat.codes  # Numeric representation
 - Enforces allowed values
 - Useful for ordinal data
 
+### Pivot and Reshape
+
+```python
+# Pivot table
+df.pivot_table(values='sales', index='date', columns='product')
+
+# Unpivot (melt)
+pd.melt(df, id_vars=['id'], value_vars=['col1', 'col2'])
+
+# Stack/Unstack
+df.stack()    # Wide to long
+df.unstack()  # Long to wide
+```
+
