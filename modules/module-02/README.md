@@ -630,3 +630,22 @@ regardless of original distribution
 - Cross-entropy: Loss function for training
 - Beam search: Probabilistic sequence decoding
 
+## Common Pitfalls and Best Practices
+
+### Python Pitfalls
+
+**Pitfall 1: Mutable Default Arguments**
+```python
+# Bad
+def append_to_list(elem, to=[]):
+    to.append(elem)
+    return to
+
+# Good
+def append_to_list(elem, to=None):
+    if to is None:
+        to = []
+    to.append(elem)
+    return to
+```
+
