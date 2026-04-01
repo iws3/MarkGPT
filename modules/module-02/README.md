@@ -500,3 +500,17 @@ $$\frac{\partial f}{\partial x} = \sum_i \frac{\partial f}{\partial u_i} \frac{\
 - Compute ∂L/∂w for all weights
 - Foundation of neural network training
 
+### Partial Derivatives
+
+**Definition**
+- Derivative with respect to one variable
+- Hold others constant
+
+**Second Derivatives**
+$$\frac{\partial^2 f}{\partial x^2}, \quad \frac{\partial^2 f}{\partial x \partial y}$$
+
+**Jacobian and Hessian**
+- Jacobian: Matrix of first derivatives
+- Hessian: Matrix of second derivatives
+- Used in optimization algorithms
+
