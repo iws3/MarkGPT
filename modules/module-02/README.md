@@ -1275,3 +1275,27 @@ regardless of original distribution
 - Enables inference from samples
 - Justifies assuming normality
 
+## Connecting to MarkGPT
+
+### How These Fundamentals Power LLMs
+
+**Python & Numpy**
+- Matrix operations: Token embeddings multiplied by weight matrices
+- Broadcasting: Batch operations across multiple sequences
+- Vectorization: Efficient GPU computation
+
+**Linear Algebra**
+- Attention mechanism: Q·K^T matrix multiplication
+- Transformations: Embedding rotations (RoPE)
+- Decompositions: Low-rank approximations for efficiency
+
+**Calculus**
+- Gradients: Backpropagation through layers
+- Chain rule: Error signals through attention
+- Optimization: ADAM updates parameters
+
+**Probability**
+- Softmax: Convert logits to probabilities
+- Cross-entropy: Loss function for training
+- Beam search: Probabilistic sequence decoding
+
