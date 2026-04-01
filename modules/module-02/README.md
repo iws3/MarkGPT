@@ -1571,3 +1571,19 @@ $$\kappa(A) = ||A|| \cdot ||A^{-1}||$$
 np.linalg.cond(A)
 ```
 
+## Advanced Calculus
+
+### Numerical Differentiation
+
+**Forward Difference**
+$$f'(x) \approx \frac{f(x+h) - f(x)}{h}$$
+
+**Central Difference**
+$$f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$$
+
+**Python Example**
+```python
+def numerical_gradient(f, x, h=1e-5):
+    return (f(x+h) - f(x-h)) / (2*h)
+```
+
