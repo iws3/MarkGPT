@@ -1472,3 +1472,18 @@ df = pd.DataFrame(np.random.randn(3, 2), index=index)
 - Flexible grouping
 - Efficient storage
 
+### Time Series
+
+```python
+df = pd.read_csv('data.csv', parse_dates=['date'])
+df.set_index('date', inplace=True)
+
+# Resampling
+df.resample('D').sum()  # Daily
+df.resample('W').mean()  # Weekly
+
+# Time-based indexing
+df.loc['2020-01-01':'2020-12-31']
+df.loc['2020-01']  # All January 2020
+```
+
