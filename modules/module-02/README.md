@@ -1665,3 +1665,17 @@ pd.DataFrame(data).corr()
 - Rank-based (non-parametric)
 - Robust to outliers
 
+### Bayesian Statistics
+
+**Bayes Theorem**
+$$P(A|B) = \frac{P(B|A) P(A)}{P(B)}$$
+
+**Prior, Likelihood, Posterior**
+- Prior P(A): Belief before data
+- Likelihood P(B|A): Data given hypothesis
+- Posterior P(A|B): Updated belief
+
+**Conjugate Priors**
+- Simple closed-form updates
+- Normal-normal, beta-binomial
+
