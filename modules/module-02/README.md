@@ -2485,3 +2485,22 @@ blob = TextBlob(text)
 print(f'Polarity: {blob.sentiment.polarity}')
 ```
 
+## Working with APIs and Web Data
+
+### HTTP Requests
+
+```python
+import requests
+
+# GET request
+response = requests.get('https://api.example.com/data')
+if response.status_code == 200:
+    data = response.json()
+else:
+    print(f'Error: {response.status_code}')
+
+# POST request
+response = requests.post('https://api.example.com/submit',
+                        json={'key': 'value'})
+```
+
