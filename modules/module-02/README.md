@@ -2884,3 +2884,27 @@ python -m black .             # Format code
 - NumPy/Pandas tutorials: Official guides
 - TensorFlow/PyTorch guides: DL frameworks
 
+## Appendix I: Setting Up Your Python Environment
+
+**Virtual Environment**
+```bash
+python -m venv ml_env
+source ml_env/bin/activate      # Linux/Mac
+ml_env\Scripts\activate.bat    # Windows
+```
+
+**Essential Packages**
+```bash
+pip install numpy pandas matplotlib
+pip install scikit-learn scipy
+pip install jupyter notebook
+pip install tensorflow keras  # or pytorch
+```
+
+**Environment Management**
+```bash
+conda create -n myenv python=3.9
+conda activate myenv
+conda install -c conda-forge numpy pandas
+```
+
