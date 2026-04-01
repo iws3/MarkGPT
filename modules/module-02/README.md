@@ -2781,3 +2781,16 @@ plt.show()
 - CDF: Cumulative probability
 - Expectation: Mean/average
 
+## Appendix C: Common Pitfalls Summary
+
+1. Data leakage: Fitting scaler on test set
+2. Class imbalance: Not using stratified split
+3. Feature scaling: Forgetting for distance-based models
+4. Overfitting: Too complex models on small data
+5. Wrong metric: Using accuracy for imbalanced data
+6. NaN handling: Not checking for missing values
+7. Broadcasting: Unexpected behavior with shapes
+8. Mutable defaults: List comprehensions in loops
+9. Memorization: Testing on training data
+10. Correlation ≠ causation: Confounding variables
+
