@@ -487,3 +487,16 @@ $$\nabla f = \begin{bmatrix} \frac{\partial f}{\partial x_1} \\ \frac{\partial f
 - Vector of partial derivatives
 - Points in direction of steepest increase
 
+### Chain Rule
+
+**Single Variable**
+$$\frac{df}{dx} = \frac{df}{du} \cdot \frac{du}{dx}$$
+
+**Multivariable**
+$$\frac{\partial f}{\partial x} = \sum_i \frac{\partial f}{\partial u_i} \frac{\partial u_i}{\partial x}$$
+
+**Application: Backpropagation**
+- Propagate gradients backward through network
+- Compute ∂L/∂w for all weights
+- Foundation of neural network training
+
