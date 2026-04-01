@@ -3223,3 +3223,25 @@ $$\min \sum_i(y_i - \hat{y}_i)^2 + \lambda \sum_j |w_j|$$
 $$\min \sum_i(y_i - \hat{y}_i)^2 + \lambda_1 \sum_j |w_j| + \lambda_2 \sum_j w_j^2$$
 - Combines L1 and L2
 
+## Overfitting and Underfitting
+
+**Bias-Variance Tradeoff**
+$$Error = Bias^2 + Variance + Noise$$
+
+**Underfitting (High Bias)**
+- Model too simple
+- Poor training performance
+- Solution: More complex model
+
+**Overfitting (High Variance)**
+- Model too complex
+- Perfect training, poor test
+- Solutions: Regularization, more data, simpler model
+
+**Diagnosis**
+```python
+from sklearn.model_selection import learning_curve
+train_sizes, train_scores, val_scores = learning_curve(
+    model, X, y, cv=5)
+```
+
