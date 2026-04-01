@@ -2950,3 +2950,28 @@ a[mask] = -1
 result = np.where(a > 2, a, 0)
 ```
 
+### Einsum: Einstein Summation
+
+**Matrix Multiplication**
+```python
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+# Traditional
+C = A @ B
+
+# Using einsum
+C = np.einsum('ij,jk->ik', A, B)
+```
+
+**Trace and Diagonal**
+```python
+trace = np.einsum('ii->', A)  # Sum of diagonal
+diag = np.einsum('ii->i', A)  # Diagonal elements
+```
+
+**Benefits**
+- More readable for complex operations
+- Better memory efficiency
+- Automatic optimization
+
