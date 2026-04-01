@@ -3184,3 +3184,24 @@ $$v_t = \beta_2 v_{t-1} + (1-\beta_2) (\nabla f)^2$$
 - Default β₁=0.9, β₂=0.999
 - Widely used in deep learning
 
+## Feature Scaling Mathematics
+
+### Standardization vs Normalization
+
+**Standardization (Z-score)**
+$$z = \frac{x - \mu}{\sigma}$$
+- Output: mean=0, std=1
+- Unbounded range
+- Better for normal distributions
+
+**Min-Max Normalization**
+$$x' = \frac{x - x_{min}}{x_{max} - x_{min}}$$
+- Output: [0, 1]
+- Bounded range
+- Sensitive to outliers
+
+**Robust Scaling**
+$$x' = \frac{x - Q_2}{Q_3 - Q_1}$$
+- Uses median and IQR
+- Robust to outliers
+
