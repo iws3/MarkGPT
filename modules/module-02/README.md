@@ -2614,3 +2614,17 @@ print('RF:', rf.score(X_test, y_test))
 print(classification_report(y_test, svm.predict(X_test)))
 ```
 
+## Case Study 2: Housing Price Prediction
+
+**Problem Setup**
+- Regression task: Predict house prices
+- Multiple features: Size, location, age, etc.
+- Real-world data challenges:
+  - Missing values
+  - Outliers
+  - Multicollinearity
+  - Categorical features
+
+**Typical Data Source**
+- Boston Housing, Ames Housing, or Kaggle datasets
+
