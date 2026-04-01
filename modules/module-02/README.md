@@ -1834,3 +1834,19 @@ plt.annotate('Peak', xy=(1.5, 10), xytext=(2, 11),
              arrowprops=dict(arrowstyle='->'))
 ```
 
+### 3D Visualization
+
+```python
+from mpl_toolkits.mplot3d import Axes3D
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+ax.scatter(x, y, z)
+plt.show()
+```
+
+**Surface Plots**
+```python
+ax.plot_surface(X, Y, Z)
+```
+
