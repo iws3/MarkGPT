@@ -3569,3 +3569,30 @@ for idx in hard_indices:
     print(f'Actual: {y_true[idx]}')
 ```
 
+## Testing and Validation
+
+**Unit Tests**
+```python
+import unittest
+
+class TestPreprocessing(unittest.TestCase):
+    def test_scaling(self):
+        X = np.array([[1, 2], [3, 4]])
+        scaler = StandardScaler()
+        X_scaled = scaler.fit_transform(X)
+        self.assertAlmostEqual(X_scaled.mean(), 0, places=10)
+        self.assertAlmostEqual(X_scaled.std(), 1, places=10)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+**Data Validation**
+```python
+# Check for data issues
+assert df.isnull().sum().sum() == 0, 'Missing values found'
+assert df.dtypes['age'] == 'int64', 'Wrong dtype'
+assert df['age'].min() >= 0, 'Negative age'
+assert df['age'].max() <= 150, 'Unrealistic age'
+```
+
