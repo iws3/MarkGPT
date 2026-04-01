@@ -2652,3 +2652,25 @@ numeric_cols = df.select_dtypes(include=[np.number]).columns
 df[numeric_cols] = scaler.fit_transform(df[numeric_cols])
 ```
 
+### Housing: Model Selection
+
+```python
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import GradientBoostingRegressor
+import xgboost as xgb
+from sklearn.model_selection import cross_val_score
+
+X = df.drop('price', axis=1)
+y = df['price']
+
+models = {
+    'Linear': LinearRegression(),
+    'GBM': GradientBoostingRegressor(),
+    'XGB': xgb.XGBRegressor()
+}
+
+for name, model in models.items():
+    scores = cross_val_score(model, X, y, cv=5, scoring='r2')
+    print(f'{name}: {scores.mean():.4f} (+- {scores.std():.4f})')
+```
+
