@@ -3538,3 +3538,34 @@ with open(f'experiments/{model_name}.json', 'w') as f:
     json.dump(experiment, f, indent=2)
 ```
 
+## Error Analysis
+
+**Confusion Matrix Analysis**
+```python
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+
+cm = confusion_matrix(y_true, y_pred)
+sns.heatmap(cm, annot=True, fmt='d')
+plt.show()
+
+# Per-class analysis
+for i in range(n_classes):
+    tn = cm[i, i]
+    fp = cm[:, i].sum() - tn
+    fn = cm[i, :].sum() - tn
+    tp = cm[i, i]
+    print(f'Class {i}: Precision={tp/(tp+fp):.3f}, Recall={tp/(tp+fn):.3f}')
+```
+
+**Finding Hard Examples**
+```python
+# Samples with lowest confidence
+confidence = np.max(y_proba, axis=1)
+hard_indices = np.argsort(confidence)[:10]
+
+for idx in hard_indices:
+    print(f'Prediction: {y_pred[idx]}, Confidence: {confidence[idx]:.3f}')
+    print(f'Actual: {y_true[idx]}')
+```
+
