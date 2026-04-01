@@ -2585,3 +2585,32 @@ plt.ylabel('Sepal Width')
 plt.show()
 ```
 
+### Iris: Model Training
+
+```python
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report
+
+X_train, X_test, y_train, y_test = train_test_split(
+    iris.data, iris.target, test_size=0.3, random_state=42)
+
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+# Train multiple models
+svm = SVC(kernel='rbf')
+rf = RandomForestClassifier()
+
+svm.fit(X_train, y_train)
+rf.fit(X_train, y_train)
+
+# Evaluate
+print('SVM:', svm.score(X_test, y_test))
+print('RF:', rf.score(X_test, y_test))
+print(classification_report(y_test, svm.predict(X_test)))
+```
+
