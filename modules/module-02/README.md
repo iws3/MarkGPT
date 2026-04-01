@@ -3662,3 +3662,33 @@ print(f'Peak: {peak / 10**6}MB')
 tracemalloc.stop()
 ```
 
+## Advanced Visualization
+
+**Interactive Plots with Plotly**
+```python
+import plotly.express as px
+import plotly.graph_objects as go
+
+fig = px.scatter(df, x='x', y='y', color='category',
+                size='value', hover_name='name')
+fig.show()
+
+# 3D Scatter
+fig = go.Figure(data=[go.Scatter3d(x=x, y=y, z=z)])
+fig.show()
+```
+
+**Seaborn for Statistical Graphics**
+```python
+import seaborn as sns
+
+# Pairplot
+sns.pairplot(df, hue='target')
+
+# Heatmap
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+
+# Distribution
+sns.histplot(data=df, x='value', kde=True)
+```
+
