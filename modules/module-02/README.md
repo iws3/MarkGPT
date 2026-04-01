@@ -3080,3 +3080,26 @@ x = np.linspace(-4, 4, 100)
 pdf = norm.pdf(x, loc=0, scale=1)
 ```
 
+### Sampling and Simulation
+
+```python
+np.random.seed(42)
+
+# Generate samples
+normal_samples = np.random.normal(loc=0, scale=1, size=1000)
+uniform_samples = np.random.uniform(0, 1, size=1000)
+
+# Bootstrap resampling
+bootstrap_means = [np.random.choice(data, size=len(data)).mean()
+                   for _ in range(1000)]
+
+# Monte Carlo integration
+def f(x):
+    return x**2
+
+x_random = np.random.uniform(0, 1, 10000)
+y_random = np.random.uniform(0, 1, 10000)
+under_curve = np.sum(y_random < f(x_random))
+estimated_integral = under_curve / 10000
+```
+
