@@ -3319,3 +3319,25 @@ result = permutation_importance(model, X_test, y_test,
 print(result.importances_mean)
 ```
 
+### SHAP Values for Explainability
+
+```python
+import shap
+
+# Tree explanation
+explainer = shap.TreeExplainer(model)
+shap_values = explainer.shap_values(X)
+
+# Summary plot
+shap.summary_plot(shap_values, X, plot_type='bar')
+
+# Individual prediction
+shap.force_plot(explainer.expected_value, 
+               shap_values[0], X[0])
+```
+
+**Interpretation**
+- Shows feature contribution to prediction
+- Handles feature interactions
+- Model-agnostic explanations possible
+
