@@ -1403,3 +1403,16 @@ data['name']  # Access by field
 - Mixed data types
 - Memory-efficient storage
 
+### Memory Layout
+
+**C-Contiguous vs Fortran-Contiguous**
+```python
+a = np.array([[1, 2], [3, 4]])  # C-order (row-major)
+f = np.asfortranarray(a)  # F-order (column-major)
+```
+
+**Performance Implications**
+- Row-major: Faster row iteration
+- Column-major: Faster column iteration
+- NumPy default: C-contiguous
+
