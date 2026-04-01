@@ -2814,3 +2814,20 @@ plt.show()
 - Batch processing for large datasets
 - Cache expensive computations
 
+## Appendix E: Hyperparameter Ranges
+
+**Decision Trees**
+- max_depth: 3-30
+- min_samples_split: 2-20
+- min_samples_leaf: 1-10
+
+**Random Forest**
+- n_estimators: 100-1000
+- max_depth: 5-50
+- max_features: 'auto', 'sqrt', 'log2'
+
+**SVM**
+- C: 0.001-1000 (log scale)
+- kernel: 'linear', 'rbf', 'poly'
+- gamma: 0.0001-10 (for rbf)
+
