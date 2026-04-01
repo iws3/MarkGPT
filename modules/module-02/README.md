@@ -2120,3 +2120,25 @@ X_reduced = tsne.fit_transform(X)
 - Preserves more global structure
 - Excellent for large datasets
 
+## Clustering
+
+### K-Means Clustering
+
+**Algorithm**
+1. Initialize k centroids randomly
+2. Assign each point to nearest centroid
+3. Update centroids as cluster mean
+4. Repeat until convergence
+
+**Choosing k**
+- Elbow method: Plot inertia vs k
+- Silhouette score: Measure cluster quality
+- Domain knowledge
+
+```python
+from sklearn.cluster import KMeans
+kmeans = KMeans(n_clusters=3)
+kmeans.fit(X)
+labels = kmeans.labels_
+```
+
