@@ -3124,3 +3124,24 @@ $$A = U \Sigma V^T$$
 - Σ: Singular values
 - V: Right singular vectors
 
+### Systems of Linear Equations
+
+**Solving Ax = b**
+$$x = A^{-1}b$$
+
+```python
+# Avoid explicit inversion
+x = np.linalg.solve(A, b)  # More stable
+
+# Check solution
+print(np.allclose(A @ x, b))
+```
+
+**Overdetermined (least squares)**
+- More equations than unknowns
+- Find best approximate solution
+
+**Underdetermined**
+- Fewer equations than unknowns
+- Infinite solutions exist
+
