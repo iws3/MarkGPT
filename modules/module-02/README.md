@@ -840,3 +840,24 @@ np.linspace(0, 1, 5) # 5 points 0 to 1
 np.random.randn(3, 4) # Normal distribution
 ```
 
+### Array Operations
+
+**Element-wise Operations**
+```python
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+a + b  # [5, 7, 9]
+a * b  # [4, 10, 18]
+a ** 2 # [1, 4, 9]
+np.sqrt(a)  # Square root
+np.exp(a)   # Exponential
+np.log(a)   # Natural log
+```
+
+**Matrix Operations**
+- @ operator: Matrix multiplication
+- np.dot(a, b): Inner product
+- np.outer(a, b): Outer product
+- np.transpose(a) or a.T: Transpose
+
