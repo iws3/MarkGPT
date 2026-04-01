@@ -1514,3 +1514,18 @@ df.stack()    # Wide to long
 df.unstack()  # Long to wide
 ```
 
+## Linear Algebra Applications
+
+### Least Squares
+
+**Problem**
+Solve Ax = b when no exact solution exists
+
+**Solution**
+$$x = (A^T A)^{-1} A^T b$$
+
+**NumPy Implementation**
+```python
+x, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
+```
+
