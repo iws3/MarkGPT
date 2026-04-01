@@ -2450,3 +2450,22 @@ words = [w for w in tokens if w not in stop_words]
 - Stemming: Reduce to root (running → run)
 - Lemmatization: Reduce to base form (better but slower)
 
+### Named Entity Recognition (NER)
+
+**Task: Identify entities**
+- PERSON, ORG, LOCATION, DATE, etc.
+
+```python
+import spacy
+
+nlp = spacy.load('en_core_web_sm')
+doc = nlp('Apple is looking to hire in San Francisco.')
+for ent in doc.ents:
+    print(ent.text, ent.label_)
+```
+
+**Library Options**
+- spaCy: Fast, production-ready
+- NLTK: Educational
+- Transformers: State-of-the-art but slower
+
