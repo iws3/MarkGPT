@@ -2628,3 +2628,27 @@ print(classification_report(y_test, svm.predict(X_test)))
 **Typical Data Source**
 - Boston Housing, Ames Housing, or Kaggle datasets
 
+### Housing: Feature Engineering
+
+```python
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv('housing.csv')
+
+# Handle missing data
+df = df.dropna(subset=['critical_column'])
+df['numeric_col'].fillna(df['numeric_col'].mean(), inplace=True)
+
+# Categorical encoding
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+df['location'] = le.fit_transform(df['location'])
+
+# Feature scaling
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+numeric_cols = df.select_dtypes(include=[np.number]).columns
+df[numeric_cols] = scaler.fit_transform(df[numeric_cols])
+```
+
