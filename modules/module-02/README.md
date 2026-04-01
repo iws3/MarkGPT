@@ -1869,3 +1869,23 @@ import timeit
 result = timeit.timeit('x**2', 'x=np.array(range(1000))', number=1000)
 ```
 
+### Memory Profiling
+
+**Line Profiler**
+```python
+# Install: pip install line_profiler
+# Use: kernprof -l -v script.py
+@profile
+def my_function():
+    # Function body
+    pass
+```
+
+**Memory Usage**
+```python
+import tracemalloc
+tracemalloc.start()
+# Code
+current, peak = tracemalloc.get_traced_memory()
+```
+
