@@ -2992,3 +2992,28 @@ strides = (8, 8)  # 8 bytes apart
 windows = as_strided(np.arange(12), shape=shape, strides=strides)
 ```
 
+## Advanced Pandas Strategies
+
+### GroupBy Operations
+
+```python
+df = pd.DataFrame({
+    'category': ['A', 'B', 'A', 'B'],
+    'value': [10, 20, 30, 40]
+})
+
+# Aggregate multiple functions
+df.groupby('category').agg({
+    'value': ['sum', 'mean', 'std']
+})
+
+# Custom aggregation
+def range_val(x):
+    return x.max() - x.min()
+
+df.groupby('category')['value'].agg(range_val)
+
+# Transform
+df['normalized'] = (df['value'] - df['value'].mean()) / df['value'].std()
+```
+
