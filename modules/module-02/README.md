@@ -2322,3 +2322,21 @@ seasonal = decomposition.seasonal
 residual = decomposition.resid
 ```
 
+### Autoregressive Methods
+
+**AR (Autoregressive)**
+$$y_t = c + \phi_1 y_{t-1} + ... + \phi_p y_{t-p} + \epsilon_t$$
+
+**MA (Moving Average)**
+$$y_t = \mu + \epsilon_t + \theta_1 \epsilon_{t-1} + ... + \theta_q \epsilon_{t-q}$$
+
+**ARIMA (AutoRegressive Integrated Moving Average)**
+- I: Differencing for stationarity
+- ARIMA(p,d,q)
+
+```python
+from statsmodels.tsa.arima.model import ARIMA
+model = ARIMA(series, order=(1, 1, 1))
+results = model.fit()
+```
+
