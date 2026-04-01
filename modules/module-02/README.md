@@ -1529,3 +1529,16 @@ $$x = (A^T A)^{-1} A^T b$$
 x, residuals, rank, s = np.linalg.lstsq(A, b, rcond=None)
 ```
 
+### Principal Component Analysis (PCA)
+
+**Mathematical Basis**
+1. Compute covariance matrix: Σ = (1/n) X^T X
+2. Find eigenvalues/eigenvectors of Σ
+3. Project X onto principal components
+
+**Python Using SVD**
+```python
+U, S, V = np.linalg.svd(X, full_matrices=False)
+# S contains singular values (related to variance)
+```
+
