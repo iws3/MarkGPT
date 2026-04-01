@@ -800,3 +800,17 @@ finally:
 - KeyError: Missing dictionary key
 - ZeroDivisionError: Division by zero
 
+### Modules and Packages
+
+**Importing**
+- import numpy: Full module namespace
+- from numpy import array: Specific items
+- from numpy import * : All items (avoid, causes conflicts)
+- import numpy as np: Aliasing
+
+**Creating Modules**
+- File with .py extension is module
+- Packages: Folders with __init__.py
+- Relative imports: from . import sibling
+- Absolute imports: from package.module import item
+
