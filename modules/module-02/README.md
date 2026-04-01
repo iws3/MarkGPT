@@ -2716,3 +2716,31 @@ plt.ylabel('Inertia')
 plt.show()
 ```
 
+### Segmentation: Analysis
+
+```python
+# Train final model
+kmeans = KMeans(n_clusters=3, random_state=42)
+df['cluster'] = kmeans.fit_predict(X_scaled)
+
+# Analyze segments
+for i in range(3):
+    segment = df[df['cluster'] == i]
+    print(f'Segment {i}:')
+    print(segment[['income', 'spending', 'frequency']].describe())
+    print()
+
+# Visualization
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+for i in range(3):
+    segment = df[df['cluster'] == i]
+    ax.scatter(segment['income'], segment['spending'],
+              segment['frequency'], label=f'Segment {i}')
+ax.legend()
+plt.show()
+```
+
