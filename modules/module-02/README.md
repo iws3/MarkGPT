@@ -733,3 +733,28 @@ Python is the dominant language in ML due to its simplicity, readability, and ec
 - Functions: Reusable code blocks with parameters and returns
 - Classes: Object-oriented programming foundation
 
+### Data Structures
+
+**Lists**
+- Ordered, mutable collections
+- Index: 0-based access
+- Methods: append(), extend(), insert(), remove(), pop()
+- List comprehension: Concise creation [x*2 for x in range(10)]
+
+**Dictionaries**
+- Key-value pairs, unordered (Python 3.7+ ordered)
+- Efficient lookup by key
+- Methods: keys(), values(), items(), get(), pop()
+- Use case: Storing mapped data
+
+**Tuples**
+- Ordered, immutable sequences
+- Hashable: Can be dict keys
+- Unpacking: a, b, c = (1, 2, 3)
+- Use case: Fixed collections, function returns
+
+**Sets**
+- Unordered, unique elements
+- Operations: union, intersection, difference
+- Use case: Removing duplicates, membership testing
+
