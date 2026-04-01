@@ -3475,3 +3475,37 @@ result = ddf.groupby('category')['value'].mean().compute()
 - Handles billions of rows
 - RDD/DataFrame API
 
+## Monitoring and Logging
+
+**Basic Logging**
+```python
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+log = logging.getLogger(__name__)
+log.info('Model training started')
+log.warning('Learning rate very high')
+log.error('Failed to load data')
+```
+
+**Metrics Tracking**
+```python
+from datetime import datetime
+
+metrics = {
+    'timestamp': datetime.now(),
+    'train_loss': loss,
+    'val_accuracy': acc,
+    'learning_rate': lr
+}
+
+# Save to file or database
+import json
+with open('metrics.jsonl', 'a') as f:
+    f.write(json.dumps(metrics) + '\n')
+```
+
