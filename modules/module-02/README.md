@@ -3297,3 +3297,25 @@ weights = compute_class_weight('balanced',
 model.fit(X, y, sample_weight=weights[y])
 ```
 
+## Feature Importance and Interpretation
+
+**Tree-based Feature Importance**
+```python
+rf = RandomForestClassifier()
+rf.fit(X, y)
+importances = rf.feature_importances_
+indices = np.argsort(importances)[::-1]
+
+plt.barh(range(10), importances[indices])
+plt.xlabel('Importance')
+plt.show()
+```
+
+**Permutation Importance**
+```python
+from sklearn.inspection import permutation_importance
+result = permutation_importance(model, X_test, y_test,
+                               n_repeats=10)
+print(result.importances_mean)
+```
+
