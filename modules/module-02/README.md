@@ -1745,3 +1745,20 @@ df = pd.read_excel('data.xlsx', sheet_name='Sheet1')
 df.to_excel('output.xlsx')
 ```
 
+### Data Validation
+
+**Checking Data Quality**
+```python
+# Duplicates
+df[df.duplicated()].shape[0]
+
+# Missing values
+df.isnull().sum()
+
+# Data types
+df.dtypes
+
+# Statistical summary
+df.describe()
+```
+
