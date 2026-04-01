@@ -310,3 +310,25 @@ df = pd.DataFrame([['Alice', 25], ['Bob', 30]],
 df = pd.read_csv('data.csv')
 ```
 
+### Accessing Data
+
+**Column Access**
+```python
+df['name']      # Series
+df[['name', 'age']]  # DataFrame
+df.name         # Attribute access (if no spaces)
+```
+
+**Row Access**
+```python
+df.loc[0]       # By label
+df.iloc[0]      # By position
+df.loc[0, 'name']  # Specific cell
+```
+
+**Conditional Selection**
+```python
+df[df['age'] > 25]
+df[(df['age'] > 25) & (df['name'] == 'Bob')]
+```
+
