@@ -1199,3 +1199,17 @@ $$x_{n+1} = x_n - \alpha \nabla f(x_n)$$
 - Step size α: Learning rate
 - Converges for convex, well-behaved functions
 
+## Probability and Statistics
+
+### Basic Probability
+
+**Definitions**
+- Probability P(A): Likelihood of event A
+- Sample space: All possible outcomes
+- Event: Subset of sample space
+
+**Rules**
+- Sum rule: P(A) = 1 - P(not A)
+- Product rule: P(A and B) = P(A|B)P(B)
+- Bayes theorem: $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
+
