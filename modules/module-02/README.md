@@ -3448,3 +3448,30 @@ df['date'] = pd.to_datetime(df['date'])
 print(f'Original memory: {df.memory_usage(deep=True).sum() / (1024**2):.2f} MB')
 ```
 
+## Working with Big Data
+
+**Chunking**
+```python
+# Read large CSV in chunks
+for chunk in pd.read_csv('large_file.csv', chunksize=10000):
+    # Process chunk
+    df_processed = chunk[chunk['value'] > 10]
+    # Do something with df_processed
+```
+
+**Dask for Parallel Processing**
+```python
+import dask.dataframe as dd
+
+# Read distributed
+ddf = dd.read_csv('large_*.csv')
+
+# Operations
+result = ddf.groupby('category')['value'].mean().compute()
+```
+
+**Spark (PySpark)**
+- Distributed computing framework
+- Handles billions of rows
+- RDD/DataFrame API
+
