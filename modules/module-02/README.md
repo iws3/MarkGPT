@@ -2357,3 +2357,26 @@ from sklearn.metrics import mean_absolute_error
 mae = mean_absolute_error(y_true, y_pred)
 ```
 
+## Image Processing Basics
+
+### Loading and Manipulating Images
+
+```python
+from PIL import Image
+import cv2
+
+# PIL
+img = Image.open('image.jpg')
+img_array = np.array(img)
+
+# OpenCV
+img = cv2.imread('image.jpg')
+# Returns BGR (not RGB)
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+```
+
+**Image Properties**
+- Shape: (height, width, channels)
+- Dtype: uint8 (0-255) or float (0-1)
+- Channels: Grayscale (1), RGB (3), RGBA (4)
+
