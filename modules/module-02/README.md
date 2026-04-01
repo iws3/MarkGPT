@@ -260,3 +260,28 @@ c + d  # Shape (2, 3)
 - np.random.choice(): Sample from array
 - np.random.shuffle(): In-place shuffle
 
+### Performance Tips
+
+**Avoid Loops**
+Replace Python loops with vectorized NumPy code
+```python
+# Slow
+result = []
+for x in array:
+    result.append(x ** 2)
+
+# Fast
+result = array ** 2
+```
+
+**Memory Efficiency**
+- Use .astype() for appropriate dtypes
+- Avoid unnecessary copies
+- Use views when possible (slicing)
+
+**Benchmarking**
+```python
+import timeit
+timeit.timeit('x ** 2', 'x = np.array(range(1000))')
+```
+
