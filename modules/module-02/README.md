@@ -2179,3 +2179,22 @@ dbscan = DBSCAN(eps=0.5, min_samples=5)
 labels = dbscan.fit_predict(X)
 ```
 
+## Model Evaluation
+
+### Classification Metrics
+
+**Confusion Matrix**
+- True Positives (TP)
+- True Negatives (TN)
+- False Positives (FP)
+- False Negatives (FN)
+
+**Accuracy**
+$$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
+
+**Precision**
+$$\text{Precision} = \frac{TP}{TP + FP}$$
+
+**Recall**
+$$\text{Recall} = \frac{TP}{TP + FN}$$
+
