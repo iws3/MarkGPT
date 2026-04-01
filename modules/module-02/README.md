@@ -3716,3 +3716,20 @@ specialized applications in:
 - Time Series Analysis
 - Reinforcement Learning
 
+## Additional Resources
+
+**Recommended Reading**
+- Goodfellow et al. 'Deep Learning'
+- Bishop 'Pattern Recognition and ML'
+- Murphy 'Machine Learning: A Probabilistic Perspective'
+
+**Online Platforms**
+- Kaggle: Datasets, competitions, notebooks
+- Papers with Code: Papers + implementations
+- Hugging Face: Pre-trained models
+
+**Community**
+- Stack Overflow for Q&A
+- GitHub for code sharing
+- Reddit /r/MachineLearning
+
