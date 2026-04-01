@@ -1336,3 +1336,20 @@ data = [1, 2, 3]
 total = sum(data)
 ```
 
+### NumPy Pitfalls
+
+**Pitfall 1: Unintended Broadcasting**
+```python
+# Unexpected shape change
+a = np.array([1, 2, 3])  # Shape (3,)
+b = np.array([[1], [2]])  # Shape (2, 1)
+c = a + b  # Shape (2, 3) - broadcasts both!
+```
+
+**Pitfall 2: View vs Copy**
+```python
+a = np.array([1, 2, 3, 4])
+b = a[1:3]  # View, changes affect a
+c = a[1:3].copy()  # Copy, changes don't affect a
+```
+
