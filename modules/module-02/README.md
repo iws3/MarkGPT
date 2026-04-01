@@ -145,3 +145,29 @@ finally:
 - Relative imports: from . import sibling
 - Absolute imports: from package.module import item
 
+## NumPy: Numerical Computing
+
+### Why NumPy?
+- Speed: ~100x faster than Python lists
+- Memory: Efficient data storage
+- Broadcasting: Vectorized operations
+- Integration: Foundation for pandas, scikit-learn, etc.
+
+### Creating Arrays
+
+```python
+import numpy as np
+
+# From Python lists
+np.array([1, 2, 3])
+np.array([[1, 2], [3, 4]])  # 2D array
+
+# Special arrays
+np.zeros((3, 4))  # 3x4 zeros
+np.ones((2, 3))   # 2x3 ones
+np.eye(3)         # 3x3 identity
+np.arange(0, 10, 2)  # [0, 2, 4, 6, 8]
+np.linspace(0, 1, 5) # 5 points 0 to 1
+np.random.randn(3, 4) # Normal distribution
+```
+
