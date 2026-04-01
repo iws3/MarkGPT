@@ -1813,3 +1813,24 @@ plt.hist(data, bins=20)
 plt.boxplot([data1, data2])
 ```
 
+### Styling and Customization
+
+**Subplots**
+```python
+fig, axes = plt.subplots(2, 2, figsize=(10, 8))
+axes[0, 0].plot(x, y)
+axes[0, 1].scatter(x, y)
+```
+
+**Colors and Styles**
+```python
+plt.plot(x, y, 'r-', linewidth=2)  # Red line
+plt.plot(x, y, 'b.', markersize=10)  # Blue dots
+```
+
+**Annotations**
+```python
+plt.annotate('Peak', xy=(1.5, 10), xytext=(2, 11),
+             arrowprops=dict(arrowstyle='->'))
+```
+
