@@ -1679,3 +1679,17 @@ $$P(A|B) = \frac{P(B|A) P(A)}{P(B)}$$
 - Simple closed-form updates
 - Normal-normal, beta-binomial
 
+## Optimization Algorithms
+
+### Gradient Descent Variants
+
+**Batch vs Stochastic**
+- Batch: Update on full dataset
+- Stochastic: Update on single sample
+- Mini-batch: Update on small batch
+
+**Convergence Analysis**
+- Learning rate: α controls step size
+- Too small: Slow convergence
+- Too large: Divergence or oscillation
+
