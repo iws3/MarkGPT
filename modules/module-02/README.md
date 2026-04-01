@@ -2400,3 +2400,30 @@ dilated = cv2.dilate(img, kernel)
 eroded = cv2.erode(img, kernel)
 ```
 
+## Video Processing
+
+### Reading and Writing Videos
+
+```python
+import cv2
+
+# Read video
+cap = cv2.VideoCapture('video.mp4')
+while cap.isOpened():
+    ret, frame = cap.read()
+    if not ret:
+        break
+    # Process frame
+    cv2.imshow('Frame', frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+cap.release()
+
+# Write video
+out = cv2.VideoWriter('output.mp4', fourcc, fps, (width, height))
+while # condition:
+    # get or create frame
+    out.write(frame)
+out.release()
+```
+
