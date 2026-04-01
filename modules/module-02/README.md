@@ -2975,3 +2975,20 @@ diag = np.einsum('ii->i', A)  # Diagonal elements
 - Better memory efficiency
 - Automatic optimization
 
+### Strides and Strided Arrays
+
+```python
+a = np.arange(12).reshape(3, 4)
+print(f'Strides: {a.strides}')  # (16, 4) bytes
+
+# Create stride view without copying
+every_other = a[::2, ::2]
+print(every_other.strides)  # (32, 8)
+
+# Rolling window
+from numpy.lib.stride_tricks import as_strided
+shape = (10, 3)
+strides = (8, 8)  # 8 bytes apart
+windows = as_strided(np.arange(12), shape=shape, strides=strides)
+```
+
