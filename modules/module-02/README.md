@@ -1989,3 +1989,23 @@ bag = BaggingClassifier(estimator=DecisionTreeClassifier())
 bag.fit(X, y)
 ```
 
+### Random Forests
+
+**Algorithm**
+1. Bootstrap samples
+2. Train decision tree on random subset of features
+3. Repeat many times
+4. Aggregate predictions
+
+**Advantages**
+- Reduces overfitting
+- Handles non-linearity well
+- Feature importance built-in
+- Parallelizable
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+rf = RandomForestClassifier(n_estimators=100)
+rf.fit(X, y)
+```
+
