@@ -1615,3 +1615,18 @@ $$f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + ...$$
 - e^x ≈ 1 + x + x²/2! + x³/3! + ...
 - sin(x) ≈ x - x³/3! + x⁵/5! - ...
 
+## Statistics Applications
+
+### Distribution Fitting
+
+**Parametric Fitting**
+```python
+from scipy import stats
+
+# Fit normal distribution
+mu, sigma = stats.norm.fit(data)
+
+# Fit exponential
+lambda_param = stats.expon.fit(data)[1]
+```
+
