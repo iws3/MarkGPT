@@ -1630,3 +1630,23 @@ mu, sigma = stats.norm.fit(data)
 lambda_param = stats.expon.fit(data)[1]
 ```
 
+### Hypothesis Testing
+
+**t-test: Compare Two Means**
+```python
+from scipy.stats import ttest_ind
+t_stat, p_value = ttest_ind(group1, group2)
+```
+
+**ANOVA: Multiple Groups**
+```python
+from scipy.stats import f_oneway
+f_stat, p_value = f_oneway(group1, group2, group3)
+```
+
+**Chi-square: Categorical**
+```python
+from scipy.stats import chi2_contingency
+chi2, p_value, dof, expected = chi2_contingency(contingency_table)
+```
+
