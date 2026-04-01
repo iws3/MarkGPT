@@ -2469,3 +2469,19 @@ for ent in doc.ents:
 - NLTK: Educational
 - Transformers: State-of-the-art but slower
 
+### Sentiment Analysis
+
+**Task: Classify text emotion/sentiment**
+
+**Approaches**
+1. Rule-based: Lexicon of positive/negative words
+2. Machine learning: Trained on labeled data
+3. Deep learning: Neural networks
+
+```python
+from textblob import TextBlob
+text = 'This movie is absolutely fantastic!'
+blob = TextBlob(text)
+print(f'Polarity: {blob.sentiment.polarity}')
+```
+
