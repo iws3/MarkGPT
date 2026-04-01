@@ -3103,3 +3103,24 @@ under_curve = np.sum(y_random < f(x_random))
 estimated_integral = under_curve / 10000
 ```
 
+## Linear Algebra Deep Dives
+
+### Matrix Decompositions
+
+**QR Decomposition**
+$$A = QR$$
+- Q: Orthogonal matrix
+- R: Upper triangular matrix
+
+```python
+Q, R = np.linalg.qr(A)
+print(np.allclose(A, Q @ R))  # True
+```
+
+**Singular Value Decomposition**
+$$A = U \Sigma V^T$$
+
+- U: Left singular vectors
+- Σ: Singular values
+- V: Right singular vectors
+
