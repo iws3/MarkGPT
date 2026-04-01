@@ -1142,3 +1142,17 @@ $$Ax = b$$
 - Numerical stability: Avoid near-singular matrices
 - Sparse systems: Use specialized algorithms
 
+## Calculus for Machine Learning
+
+### Derivatives and Gradients
+
+**Derivative**
+$$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
+- Rate of change
+- Slope of tangent line
+
+**Gradient (Multivariable)**
+$$\nabla f = \begin{bmatrix} \frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \end{bmatrix}$$
+- Vector of partial derivatives
+- Points in direction of steepest increase
+
