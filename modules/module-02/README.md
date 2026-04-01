@@ -2867,3 +2867,20 @@ python -m black .             # Format code
 **Vectorization**: Operating on arrays without explicit loops
 **Whitening**: Normalizing to zero mean and unit variance
 
+## Appendix H: Learning Resources
+
+**Online Courses**
+- Coursera: ML Specialization
+- Fast.ai: Practical DL
+- Andrew Ng's courses: Fundamentals
+
+**Books**
+- 'Hands-On ML' by Aurélien Géron
+- 'The Hundred-Page ML Book'
+- 'ISLR' for statistics
+
+**Documentation**
+- scikit-learn docs: Examples for every algorithm
+- NumPy/Pandas tutorials: Official guides
+- TensorFlow/PyTorch guides: DL frameworks
+
