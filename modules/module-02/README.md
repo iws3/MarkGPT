@@ -1542,3 +1542,18 @@ U, S, V = np.linalg.svd(X, full_matrices=False)
 # S contains singular values (related to variance)
 ```
 
+### Matrix Norms
+
+**Frobenius Norm**
+$$||A||_F = \sqrt{\sum_{ij} A_{ij}^2}$$
+
+**Spectral Norm (L2)**
+$$||A||_2 = \sigma_{max}(A)$$
+
+**NumPy**
+```python
+np.linalg.norm(A)           # Frobenius
+np.linalg.norm(A, ord=2)    # Spectral
+np.linalg.norm(A, ord='fro') # Frobenius
+```
+
