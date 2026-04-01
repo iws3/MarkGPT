@@ -758,3 +758,24 @@ Python is the dominant language in ML due to its simplicity, readability, and ec
 - Operations: union, intersection, difference
 - Use case: Removing duplicates, membership testing
 
+### Functions and Scope
+
+**Function Definition**
+```python
+def function_name(arg1, arg2=default_value, *args, **kwargs):
+    '''Docstring explaining function'''
+    # Function body
+    return result
+```
+
+**Scope Rules (LEGB)**
+- Local: Inside function
+- Enclosing: In outer function
+- Global: Module level
+- Built-in: Python built-ins
+
+**Lambda Functions**
+- Anonymous functions: lambda x: x**2
+- Use with map(), filter(), sorted()
+- Avoid complex logic
+
