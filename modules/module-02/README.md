@@ -1456,3 +1456,19 @@ np.greater, np.less, np.equal
 - Vectorize functions for arrays
 - Broadcasting built-in
 
+## Advanced Pandas
+
+### MultiIndex DataFrames
+
+```python
+arrays = [['bar', 'bar', 'baz'],
+          ['one', 'two', 'one']]
+index = pd.MultiIndex.from_arrays(arrays)
+df = pd.DataFrame(np.random.randn(3, 2), index=index)
+```
+
+**Advantages**
+- Hierarchical indexing
+- Flexible grouping
+- Efficient storage
+
