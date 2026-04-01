@@ -2794,3 +2794,23 @@ plt.show()
 9. Memorization: Testing on training data
 10. Correlation ≠ causation: Confounding variables
 
+## Appendix D: Performance Optimization Checklist
+
+**Code Level**
+- Use vectorized operations (NumPy, Pandas)
+- Avoid Python loops when possible
+- Use list comprehensions over loops
+- Profile before optimizing
+
+**Data Level**
+- Subsample for exploration
+- Select relevant features
+- Use appropriate data types
+- Index large DataFrames
+
+**Computation Level**
+- Parallelize (joblib, Dask)
+- Use GPU acceleration (CuPy, RAPIDS)
+- Batch processing for large datasets
+- Cache expensive computations
+
