@@ -2927,3 +2927,26 @@ Apply these fundamentals to real-world projects in modules 1.2+
 Combine concepts: e.g., feature engineering + ensemble methods
 Deepen specialization: NLP, CV, timeseries, or RL
 
+## Advanced NumPy Patterns
+
+### Masking and Boolean Indexing
+
+```python
+a = np.array([1, 2, 3, 4, 5])
+mask = a > 2
+print(a[mask])  # [3 4 5]
+
+a[a > 2] = 0  # Modify in place
+print(a)  # [1 2 0 0 0]
+```
+
+**Complex Masks**
+```python
+# Multiple conditions
+mask = (a > 2) & (a < 5)
+a[mask] = -1
+
+# Using np.where
+result = np.where(a > 2, a, 0)
+```
+
