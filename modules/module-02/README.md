@@ -332,3 +332,25 @@ df[df['age'] > 25]
 df[(df['age'] > 25) & (df['name'] == 'Bob')]
 ```
 
+### Data Cleaning
+
+**Missing Values**
+```python
+df.isnull()      # Check for NaN
+df.dropna()      # Remove rows with NaN
+df.fillna(0)     # Replace with value
+df.fillna(method='ffill')  # Forward fill
+```
+
+**Duplicates**
+```python
+df.duplicated()  # Find duplicates
+df.drop_duplicates()  # Remove duplicates
+```
+
+**Data Types**
+```python
+df.dtypes        # Check types
+df.astype({'age': 'int32'})  # Convert
+```
+
