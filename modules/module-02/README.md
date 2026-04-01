@@ -1227,3 +1227,19 @@ $$x_{n+1} = x_n - \alpha \nabla f(x_n)$$
   $$f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$$
 - Exponential: Waiting times
 
+### Expectation and Variance
+
+**Expected Value**
+$$E[X] = \sum_i x_i P(x_i)$$ (discrete)
+$$E[X] = \int x f(x) dx$$ (continuous)
+
+**Variance**
+$$\text{Var}(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2$$
+- Measures spread of distribution
+- Standard deviation: σ = √Var(X)
+
+**Covariance**
+$$\text{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])]$$
+- Measures relationship between variables
+- Correlation: Normalized covariance
+
