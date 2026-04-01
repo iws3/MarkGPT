@@ -2380,3 +2380,23 @@ img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 - Dtype: uint8 (0-255) or float (0-1)
 - Channels: Grayscale (1), RGB (3), RGBA (4)
 
+### Filters and Transformations
+
+**Convolution (2D Filtering)**
+- Blur: Average neighboring pixels
+- Edge detection: Sobel, Canny
+- Sharpening: Enhance edges
+
+```python
+# Blur
+blurred = cv2.GaussianBlur(img, (5, 5), 0)
+
+# Edge detection
+edges = cv2.Canny(img, 100, 200)
+
+# Morphological operations
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+dilated = cv2.dilate(img, kernel)
+eroded = cv2.erode(img, kernel)
+```
+
