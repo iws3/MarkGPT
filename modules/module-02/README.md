@@ -1693,3 +1693,20 @@ $$P(A|B) = \frac{P(B|A) P(A)}{P(B)}$$
 - Too small: Slow convergence
 - Too large: Divergence or oscillation
 
+### Second-Order Methods
+
+**Newton's Method**
+$$x_{n+1} = x_n - \frac{f'(x_n)}{f''(x_n)}$$
+
+**Advantages**
+- Quadratic convergence (faster)
+- Uses Hessian information
+
+**Disadvantages**
+- Hessian expensive to compute
+- May not converge if Hessian singular
+
+**Quasi-Newton (BFGS)**
+- Approximate Hessian
+- Practical alternative
+
