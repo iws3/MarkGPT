@@ -2764,3 +2764,20 @@ plt.show()
 - PyTorch: Research-friendly
 - JAX: NumPy-like with autodiff
 
+## Appendix B: Mathematics Quick Reference
+
+**Calculus**
+- Derivative: Rate of change
+- Chain rule: d/dx f(g(x)) = f'(g(x)) · g'(x)
+- Gradient: Vector of partial derivatives
+
+**Linear Algebra**
+- Determinant: Volume scaling factor
+- Eigenvalue: Scaling factor under transformation
+- Rank: Dimension of column/row space
+
+**Probability**
+- PDF: Probability density
+- CDF: Cumulative probability
+- Expectation: Mean/average
+
