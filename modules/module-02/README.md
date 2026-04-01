@@ -1318,3 +1318,21 @@ def append_to_list(elem, to=None):
     return to
 ```
 
+**Pitfall 2: Integer Division**
+```python
+# Python 2: 3 / 2 = 1 (integer division)
+# Python 3: 3 / 2 = 1.5 (float division)
+# Always: 3 // 2 = 1 (integer division)
+```
+
+**Pitfall 3: Name Shadowing**
+```python
+# Avoid
+sum = [1, 2, 3]  # Shadows built-in sum()
+total = sum(sum)  # Error!
+
+# Good
+data = [1, 2, 3]
+total = sum(data)
+```
+
