@@ -1023,3 +1023,29 @@ df.dtypes        # Check types
 df.astype({'age': 'int32'})  # Convert
 ```
 
+### Data Transformation
+
+**Sorting**
+```python
+df.sort_values('age')  # Ascending
+df.sort_values('age', ascending=False)  # Descending
+```
+
+**Grouping**
+```python
+df.groupby('department').sum()
+df.groupby('department')['salary'].mean()
+```
+
+**Aggregation**
+```python
+df.agg({'age': 'mean', 'salary': 'sum'})
+df.describe()  # Summary statistics
+```
+
+**Merging**
+```python
+pd.merge(df1, df2, on='key')  # Inner join
+pd.merge(df1, df2, how='left', on='key')
+```
+
