@@ -3245,3 +3245,29 @@ train_sizes, train_scores, val_scores = learning_curve(
     model, X, y, cv=5)
 ```
 
+## Data Augmentation Strategies
+
+**For Images**
+```python
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+data_gen = ImageDataGenerator(
+    rotation_range=20,
+    width_shift_range=0.2,
+    height_shift_range=0.2,
+    horizontal_flip=True,
+    zoom_range=0.2
+)
+data_gen.flow(X, y, batch_size=32)
+```
+
+**For Text**
+- Back-translation: Translate to another language and back
+- Synonym replacement
+- Random insertion/deletion/swap
+
+**For Time Series**
+- Jittering: Add small random noise
+- Cropping: Use partial sequences
+- Rotation: Shift time series
+
