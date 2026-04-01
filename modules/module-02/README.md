@@ -2548,3 +2548,18 @@ for title in titles:
 - Follow terms of service
 - Use APIs when available
 
+## Case Study 1: Iris Dataset Classification
+
+**Dataset Overview**
+- 150 samples, 4 features (sepal length, width, petal length, width)
+- 3 classes (Setosa, Versicolor, Virginica)
+- Classic machine learning dataset
+
+**Pipeline**
+1. Load and explore data
+2. Train-test split
+3. Scale features
+4. Train classifier (e.g., SVM, Random Forest)
+5. Evaluate with cross-validation
+6. Visualize decision boundaries
+
