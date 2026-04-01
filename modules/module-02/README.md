@@ -2831,3 +2831,26 @@ plt.show()
 - kernel: 'linear', 'rbf', 'poly'
 - gamma: 0.0001-10 (for rbf)
 
+## Appendix F: Useful Command Line Tools
+
+**Jupyter**
+```bash
+jupyter notebook              # Start server
+jupyter lab                   # Modern interface
+jupyter nbconvert --help      # Convert notebooks
+```
+
+**Git**
+```bash
+git log --oneline             # View history
+git diff                      # Show changes
+git stash                     # Temporary save
+```
+
+**Python Development**
+```bash
+python -m pip install -r requirements.txt
+python -m pytest tests/        # Run tests
+python -m black .             # Format code
+```
+
