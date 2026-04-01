@@ -1123,3 +1123,22 @@ $$A = QR$$
 - R: Upper triangular
 - Used in least squares
 
+### Solving Linear Systems
+
+**System of Equations**
+$$Ax = b$$
+- A: Coefficient matrix
+- x: Unknown variables
+- b: Constants
+
+**Solution Methods**
+1. Matrix inverse: x = A^(-1)b (if invertible)
+2. Gaussian elimination: Direct computation
+3. Iterative methods: Gradient descent, conjugate gradient
+4. LU decomposition: Factorize A
+
+**Computational Considerations**
+- Computational cost: O(n³) for direct methods
+- Numerical stability: Avoid near-singular matrices
+- Sparse systems: Use specialized algorithms
+
