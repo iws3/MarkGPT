@@ -2009,3 +2009,23 @@ rf = RandomForestClassifier(n_estimators=100)
 rf.fit(X, y)
 ```
 
+### Gradient Boosting
+
+**Process**
+1. Start with initial prediction (mean/mode)
+2. Fit model to residuals
+3. Add scaled prediction to ensemble
+4. Repeat on new residuals
+
+**Key Differences from Bagging**
+- Sequential (not parallel)
+- Learns from errors (residuals)
+- Often better performance
+- More prone to overfitting
+
+```python
+from sklearn.ensemble import GradientBoostingClassifier
+gb = GradientBoostingClassifier(learning_rate=0.1)
+gb.fit(X, y)
+```
+
