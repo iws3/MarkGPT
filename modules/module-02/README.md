@@ -1213,3 +1213,17 @@ $$x_{n+1} = x_n - \alpha \nabla f(x_n)$$
 - Product rule: P(A and B) = P(A|B)P(B)
 - Bayes theorem: $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
 
+### Probability Distributions
+
+**Discrete Distributions**
+- Bernoulli: Binary (success/failure)
+  $$P(X=1) = p, \quad P(X=0) = 1-p$$
+- Binomial: n independent Bernoulli trials
+- Poisson: Events in fixed interval
+
+**Continuous Distributions**
+- Uniform: Constant probability over interval
+- Gaussian (Normal): Bell curve
+  $$f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$$
+- Exponential: Waiting times
+
