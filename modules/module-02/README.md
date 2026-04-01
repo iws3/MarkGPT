@@ -2854,3 +2854,16 @@ python -m pytest tests/        # Run tests
 python -m black .             # Format code
 ```
 
+## Appendix G: Glossary
+
+**Broadcasting**: Automatically expanding dimensions for operations
+**Epoch**: One complete pass through training data
+**Gradient**: Vector of partial derivatives
+**Hyperparameter**: Parameter set before training
+**Regularization**: Technique to prevent overfitting
+**Residual**: Difference between predicted and actual
+**Scalability**: Ability to handle growing data
+**Stationarity**: Statistical properties don't change over time
+**Vectorization**: Operating on arrays without explicit loops
+**Whitening**: Normalizing to zero mean and unit variance
+
