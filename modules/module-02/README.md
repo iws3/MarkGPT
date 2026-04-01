@@ -2340,3 +2340,20 @@ model = ARIMA(series, order=(1, 1, 1))
 results = model.fit()
 ```
 
+### Forecasting and Uncertainty
+
+**Point Forecasts vs Intervals**
+- Point forecast: Single predicted value
+- Confidence intervals: Range of likely values
+- Prediction intervals: Wider (include model error)
+
+**Evaluation**
+- MAE: Mean Absolute Error
+- RMSE: Root Mean Squared Error
+- MAPE: Mean Absolute Percentage Error
+
+```python
+from sklearn.metrics import mean_absolute_error
+mae = mean_absolute_error(y_true, y_pred)
+```
+
