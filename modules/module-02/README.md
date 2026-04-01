@@ -1259,3 +1259,19 @@ $$\text{Cov}(X, Y) = E[(X - E[X])(Y - E[Y])]$$
 - Alternative H₁: Effect exists
 - p-value: Probability of data given H₀
 
+### Central Limit Theorem
+
+**Statement**
+Distribution of sample means approaches normal as n→∞
+regardless of original distribution
+
+**Implications**
+- Normal approximation valid for large samples
+- Foundation of many statistical tests
+- z-scores and t-tests rely on this
+
+**Practical Significance**
+- Sample size ~30: Often sufficient
+- Enables inference from samples
+- Justifies assuming normality
+
