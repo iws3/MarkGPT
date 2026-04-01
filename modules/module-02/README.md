@@ -3381,3 +3381,31 @@ best_threshold = thresholds[np.argmax(f1_scores)]
 - Data size and dimensionality
 - Production constraints
 
+## Deployment Considerations
+
+**Model Serialization**
+```python
+import pickle
+import joblib
+
+# Pickle (simpler)
+with open('model.pkl', 'wb') as f:
+    pickle.dump(model, f)
+
+# joblib (better for large arrays)
+joblib.dump(model, 'model.joblib')
+```
+
+**Model Compression**
+```python
+# Quantization for neural networks
+from tensorflow.lite.python import lite
+converter = lite.TFLiteConverter.from_keras_model(model)
+quantized_model = converter.convert()
+```
+
+**API Serving**
+- Flask/FastAPI for REST
+- Docker for containerization
+- Cloud platforms (AWS SageMaker, GCP)
+
