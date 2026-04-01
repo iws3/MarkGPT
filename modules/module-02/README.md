@@ -1889,3 +1889,23 @@ tracemalloc.start()
 current, peak = tracemalloc.get_traced_memory()
 ```
 
+### Debugging Techniques
+
+**Print Debugging**
+```python
+print(f'Variable x: {x}, type: {type(x)}')
+print(f'Array shape: {arr.shape}, dtype: {arr.dtype}')
+```
+
+**Assertion Checks**
+```python
+assert len(data) > 0, 'Data cannot be empty'
+assert np.all(np.isfinite(X)), 'NaN or Inf in data'
+```
+
+**Using pdb**
+```python
+import pdb; pdb.set_trace()
+# Now in debugger, can inspect variables
+```
+
