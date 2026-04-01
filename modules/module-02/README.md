@@ -3166,3 +3166,21 @@ from scipy.optimize import minimize
 result = minimize(f, x0, method='BFGS')
 ```
 
+### Adaptive Learning Rates
+
+**AdaGrad**
+- Adapts learning rate per parameter
+- Larger gradients → smaller updates
+
+**RMSprop**
+- Exponential moving average of squared gradients
+- Prevents learning rate from becoming too small
+
+**Adam (Adaptive Moment Estimation)**
+$$m_t = \beta_1 m_{t-1} + (1-\beta_1) \nabla f$$
+$$v_t = \beta_2 v_{t-1} + (1-\beta_2) (\nabla f)^2$$
+
+- Combines momentum and RMSprop
+- Default β₁=0.9, β₂=0.999
+- Widely used in deep learning
+
