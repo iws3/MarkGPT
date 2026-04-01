@@ -2304,3 +2304,21 @@ model = Word2Vec(sentences, vector_size=100, window=5)
 vector = model.wv['word']
 ```
 
+## Time Series Analysis
+
+### Decomposition
+
+$$Y_t = T_t + S_t + R_t$$
+
+- Trend (T): Long-term direction
+- Seasonality (S): Regular patterns
+- Residual (R): Random noise
+
+```python
+from statsmodels.tsa.seasonal import seasonal_decompose
+decomposition = seasonal_decompose(series, model='additive')
+trend = decomposition.trend
+seasonal = decomposition.seasonal
+residual = decomposition.resid
+```
+
