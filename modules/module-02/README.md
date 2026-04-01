@@ -1710,3 +1710,16 @@ $$x_{n+1} = x_n - \frac{f'(x_n)}{f''(x_n)}$$
 - Approximate Hessian
 - Practical alternative
 
+### Constrained Optimization
+
+**Lagrange Multipliers**
+$$\nabla f = \lambda \nabla g$$
+
+**KKT Conditions**
+- Generalization to inequalities
+- Necessary conditions for optimality
+
+**Penalty Methods**
+- Add constraint penalties to objective
+- Solve unconstrained problems
+
