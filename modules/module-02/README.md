@@ -2744,3 +2744,23 @@ ax.legend()
 plt.show()
 ```
 
+## Appendix A: Python Ecosystem Overview
+
+**Numerical Computing**
+- NumPy: Arrays, linear algebra
+- SciPy: Scientific computing, optimization
+
+**Data Manipulation**
+- Pandas: DataFrames, data cleaning
+- Dask: Parallel processing
+
+**Machine Learning**
+- scikit-learn: Classical ML
+- XGBoost, LightGBM: Gradient boosting
+- statsmodels: Statistical modeling
+
+**Deep Learning**
+- TensorFlow/Keras: Neural networks
+- PyTorch: Research-friendly
+- JAX: NumPy-like with autodiff
+
