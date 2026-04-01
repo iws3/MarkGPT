@@ -1083,3 +1083,23 @@ $$v \cdot w = ||v|| ||w|| \cos(\theta)$$
 - θ = 90°: Orthogonal (perpendicular)
 - θ = 180°: Opposite vectors
 
+### Matrix Operations
+
+**Addition and Subtraction**
+- Element-wise: A + B
+- Same shape required
+
+**Scalar Multiplication**
+- Each element multiplied by scalar
+- c * A = [c*a_ij]
+
+**Matrix Multiplication**
+$$C = AB \text{ where } c_{ij} = \sum_k a_{ik} b_{kj}$$
+- Not commutative: AB ≠ BA
+- Associative: (AB)C = A(BC)
+- A: shape (m, n), B: shape (n, p) → C: shape (m, p)
+
+**Transpose**
+$$A^T_{ij} = A_{ji}$$
+- Switch rows and columns
+
