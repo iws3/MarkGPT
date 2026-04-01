@@ -3409,3 +3409,22 @@ quantized_model = converter.convert()
 - Docker for containerization
 - Cloud platforms (AWS SageMaker, GCP)
 
+## Advanced Data Cleaning
+
+### Handling Duplicates
+
+```python
+# Identify duplicates
+df[df.duplicated(subset=['id'])]
+
+# Remove duplicates
+df.drop_duplicates(subset=['id'], keep='first', inplace=True)
+
+# Advanced: fuzzy matching for near-duplicates
+from fuzzywuzzy import fuzz
+for i, row1 in df.iterrows():
+    for j, row2 in df.iterrows():
+        if i < j and fuzz.ratio(row1['name'], row2['name']) > 90:
+            print(f'Potential duplicate: {row1}, {row2}')
+```
+
