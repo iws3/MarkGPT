@@ -2214,3 +2214,17 @@ auc = roc_auc_score(y_true, y_proba)
 fpr, tpr, thresholds = roc_curve(y_true, y_proba)
 ```
 
+### Regression Metrics
+
+**Mean Squared Error (MSE)**
+$$MSE = \frac{1}{n} \sum_i (y_i - \hat{y}_i)^2$$
+
+**Root Mean Squared Error (RMSE)**
+$$RMSE = \sqrt{MSE}$$
+
+**Mean Absolute Error (MAE)**
+$$MAE = \frac{1}{n} \sum_i |y_i - \hat{y}_i|$$
+
+**R² (Coefficient of Determination)**
+$$R^2 = 1 - \frac{\sum_i(y_i - \hat{y}_i)^2}{\sum_i(y_i - \bar{y})^2}$$
+
