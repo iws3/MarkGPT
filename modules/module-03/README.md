@@ -2229,3 +2229,12 @@ Accept multiple tokens per forward pass.
 2-3x speedup for large models.
 Same outputs as standard decoding.
 
+## Model Merging
+
+### Simple Averaging
+
+Merge weights: W = αW1 + (1-α)W2
+Two fine-tuned models on alpha/beta.
+Surprisingly effective (task ensemble).
+Creates model good at both tasks.
+
