@@ -1125,3 +1125,20 @@ for param in grads:
 - Too many epochs
 - Solution: Regularization, dropout, early stopping
 
+
+## Convolutional Neural Networks (CNN)
+
+### Motivation: Local Connectivity
+
+**Problem with Dense Networks**
+- Image with 224x224x3 pixels: 150K input features
+- Dense hidden layer (1000 units): 150M weights
+- Computationally expensive
+- Doesn't leverage spatial structure
+
+**CNN Solution**
+- Local receptive fields (3x3, 5x5 kernels)
+- Weight sharing (same filter across image)
+- Sparse connectivity
+- Orders of magnitude fewer parameters
+
