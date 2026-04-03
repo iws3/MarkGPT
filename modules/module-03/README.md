@@ -1667,3 +1667,14 @@ Linear projection: Each patch to embedding.
 Then apply standard transformer.
 Competitive with CNNs on image classification.
 
+## MarkGPT Architecture
+
+### Model Scaling Laws
+
+Empirically observed relationships:
+- Loss decreases as O(N^-a) where N = model size
+- a typically around 0.07-0.1
+- Larger models learn faster
+- Compute optimal: Not always biggest model
+
+MarkGPT trained on 10T+ tokens to study scaling.
