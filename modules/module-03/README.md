@@ -2160,3 +2160,11 @@ Gradient scaling: Multiply by 2^16
 Result: 2-3x speedup, minimal accuracy loss.
 Essential for large models (7B+).
 
+### Gradient Checkpointing
+
+Re-compute activations instead of storing.
+Memory: O(√N) instead of O(N)
+Trade-off: Double computation, half memory.
+Enable for largest models (13B+).
+Slow but fits on single GPU.
+
