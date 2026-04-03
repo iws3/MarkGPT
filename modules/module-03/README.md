@@ -2279,3 +2279,11 @@ Performance on A drops to 10%.
 Weights optimized away from task A.
 Major challenge for sequential learning.
 
+### Elastic Weight Consolidation
+
+Compute importance of each parameter.
+Fisher information matrix: which params matter.
+Penalize changing important parameters.
+Loss = task_loss + λ * Σ F_i * (θ_i - θ_old)^2
+Achieves 80%+ on both tasks.
+
