@@ -1659,3 +1659,11 @@ Decoder generates output with causal constraints.
 Cross-attention connects both modules.
 State-of-the-art foundation for NLP tasks.
 
+### Vision Transformers
+
+Apply transformer to images by treating as sequences.
+Patch embeddings: Divide image into 16x16 patches.
+Linear projection: Each patch to embedding.
+Then apply standard transformer.
+Competitive with CNNs on image classification.
+
