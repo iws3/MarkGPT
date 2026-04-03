@@ -935,3 +935,25 @@ def softmax(z):
 - Solution: Subtract max from each row
 - Mathematically equivalent, numerically stable
 
+### Output Layer Design
+
+**Binary Classification**
+- Output: 1 neuron with sigmoid
+- Loss: Binary cross-entropy
+- Output interpretation: P(class=1)
+
+**Multi-class Classification**
+- Output: C neurons with softmax
+- Loss: Cross-entropy
+- Output interpretation: P(class=c) for each c
+
+**Regression**
+- Output: 1 or more neurons with linear
+- Loss: MSE or MAE
+- Output interpretation: Predicted value
+
+**Multi-task Learning**
+- Multiple output layers
+- Each with appropriate activation/loss
+- Shared hidden representations
+
