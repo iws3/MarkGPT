@@ -1176,3 +1176,37 @@ def convolve_2d(input_img, kernel, stride=1, padding=0):
     return output
 ```
 
+### Pooling Layers
+
+**Max Pooling**
+- Select maximum value in window
+- Typical window: 2x2 or 3x3
+- Provides translation invariance
+
+```python
+def max_pool_2d(input_img, pool_size=2, stride=2):
+    h, w = input_img.shape
+    out_h = (h - pool_size) // stride + 1
+    out_w = (w - pool_size) // stride + 1
+    
+    output = np.zeros((out_h, out_w))
+    
+    for i in range(out_h):
+        for j in range(out_w):
+            window = input_img[i*stride:i*stride+pool_size,
+                              j*stride:j*stride+pool_size]
+            output[i, j] = np.max(window)
+    
+    return output
+```
+
+**Average Pooling**
+- Mean instead of max
+- Smoother downsampling
+- Less common than max pooling
+
+**Benefits**
+- Reduces spatial dimensions
+- Decreases computation
+- Makes features robust to small shifts
+
