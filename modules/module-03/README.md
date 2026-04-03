@@ -2082,3 +2082,11 @@ SmoothGrad: Average over noise samples.
 DeepLIFT: Backpropagation with reference points.
 
 Use: Explain why model made prediction.
+### SHAP Values
+
+Game theory approach to feature importance.
+Contribution of each feature to prediction.
+SHAP = Shapley value (from cooperative game theory).
+Fair allocation of credit among features.
+Computational cost: Expensive for large models.
+
