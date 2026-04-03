@@ -422,3 +422,47 @@ def softmax(z):
 - Each with appropriate activation/loss
 - Shared hidden representations
 
+## Forward Pass Implementation from Scratch
+
+**Simple 3-Layer Network**
+```python
+class SimpleNN:
+    def __init__(self, layer_sizes, learning_rate=0.01):
+        self.lr = learning_rate
+        self.params = {}
+        
+        # Initialize weights and biases
+        for i in range(len(layer_sizes) - 1):
+            self.params[f'W{i+1}'] = np.random.randn(
+                layer_sizes[i], layer_sizes[i+1]
+            ) * 0.01
+            self.params[f'b{i+1}'] = np.zeros((1, layer_sizes[i+1]))
+    
+    def relu(self, z):
+        return np.maximum(0, z)
+    
+    def sigmoid(self, z):
+        return 1 / (1 + np.exp(-np.clip(z, -500, 500)))
+    
+    def forward(self, X):
+        self.cache = {}
+        A = X
+        
+        # Hidden layers
+        for i in range(1, 3):
+            Z = A @ self.params[f'W{i}'] + self.params[f'b{i}']
+            self.cache[f'Z{i}'] = Z
+            self.cache[f'A{i-1}'] = A
+            A = self.relu(Z)
+            self.cache[f'A{i}'] = A
+        
+        # Output layer
+        Z3 = A @ self.params['W3'] + self.params['b3']
+        self.cache['Z3'] = Z3
+        self.cache['A2'] = A
+        A3 = self.sigmoid(Z3)
+        self.cache['A3'] = A3
+        
+        return A3
+```
+
