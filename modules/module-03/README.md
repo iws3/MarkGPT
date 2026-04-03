@@ -2041,3 +2041,17 @@ Instead of ΔW (huge matrix):
 Use A @ B where A and B are small.
 MarkGPT-7B LoRA: 4M params (0.06% of model).
 
+### Implementation Details
+
+For each weight matrix W:
+Output = Wx + αABx
+A: N x r (initialized N(0, std)
+B: r x d (initialized zeros)
+r: Rank (typically 8-64)
+α: Scaling factor (16-32)
+
+Benefits:
+- Tiny parameters (stack modules)
+- Merge with original weights (no inference overhead)
+- Compatible with quantization
+
