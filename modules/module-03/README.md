@@ -2287,3 +2287,11 @@ Penalize changing important parameters.
 Loss = task_loss + λ * Σ F_i * (θ_i - θ_old)^2
 Achieves 80%+ on both tasks.
 
+### Parameter Isolation
+
+Different tasks use different parameters.
+Adapter modules (low-rank).
+Sparse masks: Select parameters per task.
+Complete isolation: No interference.
+But requires more storage.
+
