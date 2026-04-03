@@ -1001,3 +1001,40 @@ class SimpleNN:
         return A3
 ```
 
+## Backward Pass Implementation from Scratch
+
+**Computing Gradients**
+```python
+def backward(self, y):
+    m = y.shape[0]
+    grads = {}
+    
+    # Output layer error
+    dA3 = self.cache['A3'] - y
+    dZ3 = dA3  # Sigmoid derivative built into CE loss
+    
+    # Backprop through weights
+    grads['W3'] = self.cache['A2'].T @ dZ3 / m
+    grads['b3'] = np.sum(dZ3, axis=0) / m
+    
+    # Hidden layer 2
+    dA2 = dZ3 @ self.params['W3'].T
+    dZ2 = dA2 * (self.cache['Z2'] > 0)  # ReLU derivative
+    
+    grads['W2'] = self.cache['A1'].T @ dZ2 / m
+    grads['b2'] = np.sum(dZ2, axis=0) / m
+    
+    # Hidden layer 1
+    dA1 = dZ2 @ self.params['W2'].T
+    dZ1 = dA1 * (self.cache['Z1'] > 0)  # ReLU derivative
+    
+    grads['W1'] = self.cache['A0'].T @ dZ1 / m
+    grads['b1'] = np.sum(dZ1, axis=0) / m
+    
+    return grads
+
+def update_params(self, grads):
+    for key in self.params:
+        self.params[key] -= self.lr * grads[key]
+```
+
