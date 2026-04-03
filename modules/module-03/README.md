@@ -1287,3 +1287,24 @@ class SimpleRNN:
         return outputs
 ```
 
+### Vanishing Gradient in RNNs
+
+**The Problem**
+$$\frac{\partial h_t}{\partial h_0} = \prod_{i=0}^{t-1} \frac{\partial h_{i+1}}{\partial h_i}$$
+
+When $\frac{\partial h_{i+1}}{\partial h_i} < 1$ (tanh derivative ≤ 1):
+$$\frac{\partial h_t}{\partial h_0} \approx 0.9^t$$
+
+For t=100: $0.9^{100} \approx 0.0000027$ (essentially zero)
+
+**Consequences**
+- Early layers don't learn
+- Long-range dependencies lost
+- Network only learns short-term patterns
+
+**Solutions**
+1. Better initialization (identity matrix for Whh)
+2. Better activation (ReLU instead of tanh)
+3. LSTM/GRU cells (explicit gates)
+4. Gradient clipping
+
