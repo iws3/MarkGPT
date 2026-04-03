@@ -1813,3 +1813,18 @@ Human evaluation: 4.1/5 (good quality)
 Inference speed: 80 tokens/sec
 Outperforms SMT baseline by 15 BLEU points.
 
+## Question Answering: Case Study
+
+### SQuAD Dataset
+
+100K questions on Wikipedia passages
+Task: Extract answer span from context
+Generative approach (generate answer text)
+
+### Results
+
+Exact Match: 78%
+F1 Score: 85%
+Inference: 200 questions/sec
+10x more efficient than BERT-large.
+
