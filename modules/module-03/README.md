@@ -200,3 +200,26 @@ class Perceptron:
                     self.b += self.lr * yi
 ```
 
+### Perceptron Limitations
+
+**XOR Problem**
+Single perceptron cannot solve XOR:
+- XOR not linearly separable
+- Minsky and Papert (1969) proved this
+- Led to "AI Winter"
+
+**Visualization**
+```python
+X_xor = np.array([[0,0], [0,1], [1,0], [1,1]])
+y_xor = np.array([0, 1, 1, 0])  # XOR labels
+
+# Single perceptron fails
+percep = Perceptron()
+percep.fit(X_xor, y_xor)
+print(percep.predict(X_xor))  # Cannot get all correct
+```
+
+**Solution: Hidden Layers**
+- Multi-layer perceptron (MLP) needed
+- Hidden layers create non-linear decision boundaries
+
