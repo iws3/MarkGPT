@@ -1332,3 +1332,22 @@ $$h_t = o_t \odot \tanh(C_t)$$
 - Gradient flows without multiplication
 - Avoids vanishing gradient
 
+### Gated Recurrent Unit (GRU)
+
+**Simplifed LSTM**
+- 2 gates instead of 3
+- No separate cell state
+- Similar performance, fewer params
+
+**Gate Equations**
+$$r_t = \sigma(W_r [h_{t-1}, x_t] + b_r)  \text{ (reset gate)}$$
+$$z_t = \sigma(W_z [h_{t-1}, x_t] + b_z)  \text{ (update gate)}$$
+$$\tilde{h}_t = \tanh(W_h [r_t \odot h_{t-1}, x_t] + b_h)$$
+$$h_t = (1 - z_t) \odot h_{t-1} + z_t \odot \tilde{h}_t$$
+
+**Comparison to LSTM**
+- Fewer parameters (20% less)
+- Faster computation
+- Similar accuracy on most tasks
+- Easier to understand
+
