@@ -2355,3 +2355,11 @@ BLEU: Machine translation (automatic metric)
 ROUGE: Summarization (lexical overlap)
 Human evaluation: Always gold standard
 
+### Emergent Abilities
+
+Small models: Can't do in-context learning
+Medium models: Few-shot breaks through
+Large models: Chain-of-thought emerges
+Scaling laws predict when they appear
+Example: 62B model = 1000x better at math
+
