@@ -543,3 +543,24 @@ def train(self, X, y, epochs=100, batch_size=32):
     return losses
 ```
 
+## Debugging Neural Networks
+
+### Gradient Checking
+
+**Why Check?**
+- Backprop has many operations
+- Easy to make mistakes in implementation
+- Off-by-one errors, transpose mistakes
+
+**Numerical Gradient**
+$$\frac{\partial f}{\partial w} \approx \frac{f(w + \epsilon) - f(w - \epsilon)}{2\epsilon}$$
+
+**Verification**
+```python
+edsilon = 1e-5
+numerical_grad = (loss(params + epsilon) - loss(params - epsilon)) / (2 * epsilon)
+analytical_grad = compute_gradient(params)
+diff = np.linalg.norm(numerical_grad - analytical_grad) / np.linalg.norm(numerical_grad + analytical_grad)
+assert diff < 1e-7, 'Gradient check failed!'
+```
+
