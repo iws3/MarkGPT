@@ -1921,3 +1921,25 @@ Faster inference on limited hardware
 Reduced bandwidth requirements
 Trade-off between size and quality
 
+## Distributed Training
+
+### Data Parallelism
+
+Multiple GPUs, same model
+Each GPU different batch
+Synchronize gradients
+Linear speedup (mostly)
+
+### Pipeline Parallelism
+
+Different layers on different GPUs
+Fill pipeline with multiple batches
+Reduces GPU idle time
+Pipeline bubbles at boundaries
+
+### Tensor Parallelism
+
+Split single layer across GPUs
+Highest communication overhead
+Used for largest models (1T+ parameters)
+
