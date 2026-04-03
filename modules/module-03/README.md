@@ -836,3 +836,30 @@ $$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \frac{\partial a
 4. Update parameters:
    $$W^{(l)} \leftarrow W^{(l)} - \alpha \frac{\partial L}{\partial W^{(l)}}$$
 
+### Computational Complexity of Backprop
+
+**Forward Pass Cost**
+- Deep network: O(L × N²) where L=layers, N=units per layer
+- Must compute all activations
+
+**Backward Pass Cost**
+- Similar to forward pass
+- But includes transpose operations
+- Typically 2x forward pass cost
+
+**Efficiency**
+```python
+n_params = sum(layers)  # E.g., millions
+forward_cost = O(n_params)
+backward_cost = 2 * O(n_params)
+total_per_step = 3 * O(n_params)
+
+# 1000 training steps
+total = 3000 * O(n_params)
+```
+
+**Tricks to Speed Up**
+- Batch processing (vectorization)
+- GPU acceleration
+- Mixed precision (float32 instead of float64)
+
