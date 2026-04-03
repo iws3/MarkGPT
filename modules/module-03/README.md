@@ -2024,3 +2024,11 @@ Down-project to 64d, process, up-project back.
 Achieves 99% of fine-tuning performance.
 Only 10MB per task (stores cheaply).
 
+### Prompt Tuning
+
+Learn virtual prompt tokens (32 tokens).
+Learnable parameters: 32 * 4096 ≈ 130K
+Incredibly efficient (65x better than adapters).
+Task performance: 98% of full fine-tuning.
+Challenge: Less effective for very different tasks.
+
