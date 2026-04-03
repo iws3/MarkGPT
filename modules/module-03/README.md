@@ -1544,3 +1544,72 @@ $$\theta_t = \theta_{t-1} - \alpha \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
 - Robust across different problems
 - Most used in practice
 
+## Implementation: Complete Neural Network from Scratch
+
+**Full Training Pipeline**
+```python
+class NeuralNetwork:
+    def __init__(self, input_size, hidden_size, output_size):
+        self.input_size = input_size
+        self.hidden_size = hidden_size
+        self.output_size = output_size
+        
+        # Xavier initialization
+        limit = np.sqrt(6 / (input_size + hidden_size))
+        self.W1 = np.random.uniform(-limit, limit, 
+                                   (input_size, hidden_size))
+        self.b1 = np.zeros((1, hidden_size))
+        
+        limit = np.sqrt(6 / (hidden_size + output_size))
+        self.W2 = np.random.uniform(-limit, limit,
+                                   (hidden_size, output_size))
+        self.b2 = np.zeros((1, output_size))
+    
+    def forward(self, X):
+        self.z1 = X @ self.W1 + self.b1
+        self.a1 = np.tanh(self.z1)  # Hidden layer
+        self.z2 = self.a1 @ self.W2 + self.b2
+        self.a2 = 1 / (1 + np.exp(-self.z2))  # Sigmoid
+        return self.a2
+    
+    def backward(self, X, y, output):
+        m = X.shape[0]
+        
+        # Output layer
+        dz2 = output - y
+        dW2 = self.a1.T @ dz2 / m
+        db2 = np.sum(dz2, axis=0) / m
+        
+        # Hidden layer
+        da1 = dz2 @ self.W2.T
+        dz1 = da1 * (1 - self.a1**2)  # tanh derivative
+        dW1 = X.T @ dz1 / m
+        db1 = np.sum(dz1, axis=0) / m
+        
+        return dW1, db1, dW2, db2
+    
+    def train(self, X, y, epochs=1000, learning_rate=0.01):
+        for epoch in range(epochs):
+            # Forward
+            output = self.forward(X)
+            
+            # Loss
+            loss = -np.mean(y * np.log(output) + 
+                           (1-y) * np.log(1-output))
+            
+            # Backward
+            dW1, db1, dW2, db2 = self.backward(X, y, output)
+            
+            # Update
+            self.W1 -= learning_rate * dW1
+            self.b1 -= learning_rate * db1
+            self.W2 -= learning_rate * dW2
+            self.b2 -= learning_rate * db2
+            
+            if (epoch + 1) % 100 == 0:
+                print(f'Epoch {epoch+1}, Loss: {loss:.4f}')
+    
+    def predict(self, X):
+        return self.forward(X) > 0.5
+```
+
