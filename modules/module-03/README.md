@@ -1943,3 +1943,13 @@ Split single layer across GPUs
 Highest communication overhead
 Used for largest models (1T+ parameters)
 
+## Appendix A: Activation Functions
+
+Sigmoid: (0,1), vanishing gradient
+Tanh: (-1,1), better centered
+ReLU: [0,∞), no vanishing, simple
+Leaky ReLU: No dying neurons
+ELU: Smooth, better near zero
+GELU: Smooth approximation of ReLU
+Swish: Learned by AutoML, very effective
+
