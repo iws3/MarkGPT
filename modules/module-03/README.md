@@ -1998,3 +1998,12 @@ Recommendation: Adam default, AdamW for fine-tuning.
 - Interpret models
 - Deploy efficiently
 
+## Fine-tuning Large Language Models
+
+### Transfer Learning Context
+
+Pre-training: Learn general language on 10T tokens
+Fine-tuning: Adapt to specific task on 10K tokens
+Parameter efficiency: Only 0.1% of parameters as trainable
+Result: State-of-the-art task performance
+
