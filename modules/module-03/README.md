@@ -2195,3 +2195,11 @@ GShard: 600B sparse model on 16 TPUs.
 Switch transformers: Using single expert (K=1).
 Much more efficient than dense models.
 
+### Load Balancing
+
+Challenge: Some experts used more.
+Loss term: Penalize imbalanced routing.
+Auxiliary loss: 0.01 * (balance_loss)
+Expert utilization target: Equal distribution.
+Important for training stability.
+
