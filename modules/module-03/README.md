@@ -2090,3 +2090,14 @@ SHAP = Shapley value (from cooperative game theory).
 Fair allocation of credit among features.
 Computational cost: Expensive for large models.
 
+## Knowledge Distillation - Advanced
+
+### Conventional Distillation
+
+Student learns from soft targets.
+Temperature = 3-5 softens distribution.
+Combine two losses:
+- Task loss: Hard labels
+- Distillation loss: Teacher soft targets
+Ratio: 0.1 task + 0.9 distillation
+
