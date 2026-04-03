@@ -2015,3 +2015,12 @@ MarkGPT-Nano: 12 hours on 1 GPU for SQuAD.
 Requires 30GB+ GPU for large models.
 Not practical for most practitioners.
 
+### Adapter Modules
+
+Original: model size 7B
+Adapter: 0.01B (0.15% parameters)
+Add small bottleneck between layers.
+Down-project to 64d, process, up-project back.
+Achieves 99% of fine-tuning performance.
+Only 10MB per task (stores cheaply).
+
