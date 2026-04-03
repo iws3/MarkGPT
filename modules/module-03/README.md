@@ -1689,3 +1689,17 @@ Optimizations:
 - Sliding window: Fixed context size
 - Linear attention: Kernel-based methods
 
+## Recurrent vs Attention Trade-offs
+
+### RNN Advantages
+- Inherently handles sequences
+- State size independent of sequence length
+- Can process streaming data
+
+### Attention Advantages
+- Parallelizable (transformers)
+- Better long-range modeling
+- More expressiveness
+- Interpretable (visualize weights)
+
+Modern trend: Transformers dominate due to scale.
