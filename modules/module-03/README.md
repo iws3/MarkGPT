@@ -564,3 +564,29 @@ diff = np.linalg.norm(numerical_grad - analytical_grad) / np.linalg.norm(numeric
 assert diff < 1e-7, 'Gradient check failed!'
 ```
 
+### Common Issues and Fixes
+
+**Issue: Loss doesn't decrease**
+- Check 1: Learning rate (too high/low)
+- Check 2: Gradient sign (should be negative)
+- Check 3: Batch size effects
+
+**Issue: Gradient explosion**
+- Deep networks amplify gradients
+- Solution: Gradient clipping
+```python
+clip_value = 1.0
+for param in grads:
+    grads[param] = np.clip(grads[param], -clip_value, clip_value)
+```
+
+**Issue: Gradient vanishing**
+- Sigmoid derivative < 0.25
+- Combines with chain rule → exponential decay
+- Solution: ReLU activation, batch normalization
+
+**Issue: Overfitting**
+- Too many parameters
+- Too many epochs
+- Solution: Regularization, dropout, early stopping
+
