@@ -223,3 +223,24 @@ print(percep.predict(X_xor))  # Cannot get all correct
 - Multi-layer perceptron (MLP) needed
 - Hidden layers create non-linear decision boundaries
 
+## Multi-Layer Perceptron (MLP)
+
+### Architecture
+
+**Layer Composition**
+- Input layer: Raw features
+- Hidden layers: Learn representations
+- Output layer: Final predictions
+
+**Forward Pass Example (3-layer network)**
+$$h^{(1)} = \sigma(W^{(1)} x + b^{(1)})$$
+$$h^{(2)} = \sigma(W^{(2)} h^{(1)} + b^{(2)})$$
+$$\hat{y} = f(W^{(3)} h^{(2)} + b^{(3)})$$
+
+Where:
+- $h^{(i)}$: Hidden layer activation
+- $W^{(i)}$: Weight matrix for layer i
+- $b^{(i)}$: Bias vector for layer i
+- $\sigma$: Activation function (hidden)
+- $f$: Output activation (sigmoid for binary, softmax for multi-class)
+
