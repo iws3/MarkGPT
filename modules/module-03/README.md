@@ -1678,3 +1678,14 @@ Empirically observed relationships:
 - Compute optimal: Not always biggest model
 
 MarkGPT trained on 10T+ tokens to study scaling.
+### Efficient Attention
+
+Standard attention: O(N^2) complexity
+Problematic for long sequences (N=4096)
+
+Optimizations:
+- Flash attention: Efficient CUDA kernels
+- Grouped query: Share KV heads
+- Sliding window: Fixed context size
+- Linear attention: Kernel-based methods
+
