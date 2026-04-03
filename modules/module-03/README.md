@@ -1760,3 +1760,13 @@ Works even without examples (zero-shot).
 Forces intermediate reasoning.
 Increases inference time but improves quality.
 
+## Generation Strategies
+
+### Beam Search
+
+Keep top-K hypotheses at each step.
+K=1: Greedy (fast, mediocre)
+K=5: Balance speed and quality
+K=100: Slow but better quality
+Finds better solutions than greedy.
+
