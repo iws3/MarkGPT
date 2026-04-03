@@ -1862,3 +1862,19 @@ Slow convergence: Bad initialization
 4. Monitor activation statistics
 5. Visualize learned features
 
+## Interpretability Techniques
+
+### Attention Visualization
+
+Heatmap: What each token attends to.
+Early layers: Syntactic patterns
+Late layers: Semantic relationships
+Not always meaningful (some noise)
+
+### Probing Tasks
+
+Train binary classifier on hidden states
+Task: Predict grammatical property
+If classifier succeeds: Representation encodes information
+Reveals what model learns at each layer
+
