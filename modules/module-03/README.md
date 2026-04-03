@@ -909,3 +909,29 @@ def cross_entropy_loss(y_true, y_pred, epsilon=1e-10):
     return -np.mean(y_true * np.log(y_pred + epsilon))
 ```
 
+## Softmax and Output Layers
+
+### Softmax Activation
+
+**Definition**
+$$\text{softmax}(z_i) = \frac{e^{z_i}}{\sum_j e^{z_j}}$$
+
+**Properties**
+- Outputs sum to 1 (valid probability distribution)
+- Differentiable everywhere
+- Emphasizes maximum (winner-take-all)
+
+```python
+def softmax(z):
+    # Numerical stability: subtract max
+    z = z - np.max(z, axis=1, keepdims=True)
+    exp_z = np.exp(z)
+    return exp_z / exp_z.sum(axis=1, keepdims=True)
+```
+
+**Numerical Stability**
+- $e^z$ grows very fast
+- Large $z$ values → overflow
+- Solution: Subtract max from each row
+- Mathematically equivalent, numerically stable
+
