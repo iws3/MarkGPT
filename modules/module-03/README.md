@@ -1351,3 +1351,25 @@ $$h_t = (1 - z_t) \odot h_{t-1} + z_t \odot \tilde{h}_t$$
 - Similar accuracy on most tasks
 - Easier to understand
 
+## Batch Normalization
+
+### Internal Covariate Shift
+
+**Problem**
+- Parameter updates change input distribution to next layer
+- Each layer must adapt to new distribution
+- Slows learning
+- Requires lower learning rate
+
+**Visualization**
+```python
+# Without batch norm: Distributions shift
+for epoch in range(100):
+    # Layer 1 param update
+    W1 -= alpha * grad_W1
+    
+    # Now layer 2 sees different input distribution!
+    # Must retrain
+    output = layer2(layer1(X))
+```
+
