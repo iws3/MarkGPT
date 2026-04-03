@@ -2176,3 +2176,14 @@ Update after N steps.
 Simulate larger batch on limited GPU.
 Helps with batch-size optimization.
 
+## Mixture of Experts
+
+### Architecture
+
+Multiple expert networks (12 experts typical).
+Router network: Selects top-K experts.
+Each token routed independently.
+Parameters: Total = dense + routing overhead
+12 experts * 300M params = 3.6B params
+But activate only 300M per token (efficient).
+
