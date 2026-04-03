@@ -2373,3 +2373,12 @@ Dropout: 0.0 to 0.3
 Attention heads: 8 to 32
 Hidden size: 256 to 4096
 
+## Appendix E: Architecture Reference
+
+BERT: 12 layers, 768 hidden, 12 heads
+RoBERTa: Same but better pre-training
+T5: Encoder-decoder, 12 layers each
+GPT-2: 1.5B, 12 layers, 1024 hidden
+GPT-3: 175B, 96 layers, 12288 hidden
+MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
+
