@@ -1408,3 +1408,23 @@ def batch_norm(x, gamma, beta, momentum=0.9, epsilon=1e-5):
     return gamma * x_norm + beta
 ```
 
+### Benefits of Batch Normalization
+
+**Advantages**
+1. Allows higher learning rates
+2. Reduces sensitivity to weight initialization
+3. Acts as regularizer (slight noise from batch statistics)
+4. Accelerates training
+5. Can allow deeper networks
+
+**Empirical Results**
+- Training time reduced by 10-50%
+- Final accuracy often improves by 1-5%
+- More stable training
+
+**When to Use**
+- Deep networks (>10 layers)
+- When convergence is slow
+- GPU memory available (batch size important)
+- Before ReLU or other activations
+
