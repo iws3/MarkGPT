@@ -1428,3 +1428,35 @@ def batch_norm(x, gamma, beta, momentum=0.9, epsilon=1e-5):
 - GPU memory available (batch size important)
 - Before ReLU or other activations
 
+## Dropout Regularization
+
+### How Dropout Works
+
+**Training**
+1. Randomly drop units with probability p
+2. Forward pass with subset of units
+3. Backpropagation only through active units
+4. Different units dropped each iteration
+
+**Test Time**
+- Use all units
+- Scale by (1-p) to match training
+
+
+**Mathematical Intuition**
+- Training ensemble of thinned networks
+- Each presents obstacle to co-adaptation
+- Final prediction: weighted average of subnetworks
+
+```python
+def dropout(x, p=0.5, training=True):
+    if not training:
+        return x
+    
+    # Create mask
+    mask = np.random.binomial(1, 1-p, x.shape)
+    
+    # Apply mask and scale
+    return x * mask / (1 - p)
+```
+
