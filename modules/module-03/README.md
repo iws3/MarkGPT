@@ -590,3 +590,19 @@ for param in grads:
 - Too many epochs
 - Solution: Regularization, dropout, early stopping
 
+
+
+## Neuron Architecture and Fundamentals
+
+### The Biological Perspective
+
+Artificial neurons are inspired by biological neurons:
+- **Dendrites**: Receive signals (inputs)
+- **Cell Body**: Process information (weighted sum)
+- **Axon**: Send output signal
+- **Synapse**: Connection strength (weights)
+
+**Firing Mechanism**
+Biological neuron fires when activation exceeds threshold.
+Artificial neuron: Apply activation function to weighted sum.
+
