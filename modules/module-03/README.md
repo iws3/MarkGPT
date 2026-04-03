@@ -2246,3 +2246,12 @@ More interpretable than direct merge.
 Better capacity allocation.
 Can scale task contributions.
 
+## Retrieval Augmented Generation
+
+### Motivation
+
+LLM memorizes training data.
+Not effective for retrieval of facts.
+RAG: Retrieve relevant docs, then generate.
+Combines retriever + reader model.
+
