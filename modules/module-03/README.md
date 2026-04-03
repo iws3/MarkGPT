@@ -1878,3 +1878,25 @@ Task: Predict grammatical property
 If classifier succeeds: Representation encodes information
 Reveals what model learns at each layer
 
+## Knowledge Distillation
+
+### Idea
+
+Large teacher model (7B params)
+Small student model (100M params)
+Transfer knowledge via soft targets
+
+### Process
+
+1. Train teacher normally
+2. Get soft probabilities on unlabeled data
+3. Student learns to match teacher
+4. Use temperature to soften distributions
+5. Combine with task loss
+
+### Results
+
+100M student with distillation: 90% of teacher
+Without distillation: 75% of teacher
+Dramatic improvement for small models.
+
