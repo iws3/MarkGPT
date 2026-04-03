@@ -2238,3 +2238,11 @@ Two fine-tuned models on alpha/beta.
 Surprisingly effective (task ensemble).
 Creates model good at both tasks.
 
+### Task Vector Approach
+
+Task vector = fine-tuned_weights - base_weights
+Merge: base + α*task1 + β*task2
+More interpretable than direct merge.
+Better capacity allocation.
+Can scale task contributions.
+
