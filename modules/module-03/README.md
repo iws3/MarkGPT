@@ -2312,3 +2312,12 @@ Task-adaptive pre-training: Fine-tune task data.
 TAPT: 100 steps on task training set.
 Combined: 5-10% improvement on downstream tasks.
 
+## Multilingual Models
+
+### Challenges
+
+100+ languages, different scripts.
+Vocabulary: mBERT has 110K tokens!
+Resource imbalance: English 1000x more data.
+Zero-shot cross-lingual transfer.
+
