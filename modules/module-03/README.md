@@ -2416,3 +2416,13 @@ MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
 - Batch requests (dynamic batching)
 - KV-cache, etc.
 
+## Appendix H: Useful Libraries
+
+**Transformers**: HuggingFace (SOTA models)
+**PyTorch**: Deep learning framework
+**JAX**: Functional deep learning
+**TensorFlow**: Alternative framework
+**Weights & Biases**: Experiment tracking
+**Ray Tune**: Hyperparameter optimization
+**ONNX**: Model export format
+
