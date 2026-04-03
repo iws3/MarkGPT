@@ -2345,3 +2345,13 @@ GraphCodeBERT: Use data flow graph.
 Results: Code-to-code search, clone detection.
 Foundation for code understanding.
 
+## Evaluation Benchmarks
+
+### Standard Benchmarks
+
+GLUE: 9 language understanding tasks
+SQuAD: Reading comprehension (100K examples)
+BLEU: Machine translation (automatic metric)
+ROUGE: Summarization (lexical overlap)
+Human evaluation: Always gold standard
+
