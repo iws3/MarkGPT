@@ -2438,3 +2438,20 @@ MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
 - "QLoRA" (Dettmers et al)
 - "Flash Attention" (Dao et al)
 
+## Appendix J: Next Steps
+
+**Continue Learning**
+- Project: Build chatbot with LoRA
+- Research: Read recent papers
+- Competition: Kaggle NLP tasks
+
+**Go Deeper**
+- Module 4: Advanced architectures
+- Module 5: Research frontiers
+- Capstone: End-to-end project
+
+**Production Skills**
+- Deployment: FastAPI, Docker
+- Monitoring: Log loss, latency
+- Optimization: Profiling, benchmarking
+
