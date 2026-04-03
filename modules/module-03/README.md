@@ -1515,3 +1515,32 @@ def lr_schedule(epoch, initial_lr=0.1):
     return initial_lr * (0.5 ** (epoch // 10))
 ```
 
+### Adaptive Methods: Adam, RMSprop
+
+**Momentum**
+$$v_t = \beta v_{t-1} + (1 - \beta) \nabla L$$
+$$\theta_t = \theta_{t-1} - \alpha v_t$$
+
+- Accumulates gradient direction
+- Accelerates convergence
+- Dampens oscillations
+
+**RMSprop**
+$$m_t = \beta m_{t-1} + (1 - \beta) (\nabla L)^2$$
+$$\theta_t = \theta_{t-1} - \alpha \frac{\nabla L}{\sqrt{m_t} + \epsilon}$$
+
+- Divides by RMS of gradient
+- Per-parameter learning rate
+- Handles sparse gradients
+
+**Adam (Adaptive Moment Estimation)**
+$$m_t = \beta_1 m_{t-1} + (1 - \beta_1) \nabla L$$
+$$v_t = \beta_2 v_{t-1} + (1 - \beta_2) (\nabla L)^2$$
+$$\hat{m}_t = \frac{m_t}{1 - \beta_1^t}, \quad \hat{v}_t = \frac{v_t}{1 - \beta_2^t}$$
+$$\theta_t = \theta_{t-1} - \alpha \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}$$
+
+- Combines momentum and RMSprop
+- Default β₁=0.9, β₂=0.999
+- Robust across different problems
+- Most used in practice
+
