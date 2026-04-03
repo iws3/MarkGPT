@@ -140,3 +140,27 @@ $$f(z) = \begin{cases} z & \text{if } z > 0 \\ \alpha(e^z - 1) & \text{if } z \l
 - Closer to zero-mean outputs
 - Smoother near origin
 
+### Weight Initialization
+
+**Zero Initialization (Bad!)**
+- All neurons identical
+- Cannot break symmetry
+- Network remains linear
+
+**Xavier/Glorot Initialization**
+$$W \sim \text{Uniform}\left(-\sqrt{\frac{6}{n + m}}, \sqrt{\frac{6}{n + m}}\right)$$
+- For sigmoid/tanh
+- Maintains gradient magnitude
+
+```python
+fanin = prev_layer_size
+fanout = current_layer_size
+limit = np.sqrt(6 / (fanin + fanout))
+W = np.random.uniform(-limit, limit, size=(fanin, fanout))
+```
+
+**He Initialization**
+$$W \sim \text{Normal}\left(0, \sqrt{\frac{2}{n}}\right)$$
+- For ReLU networks
+- Works better with ReLU activation
+
