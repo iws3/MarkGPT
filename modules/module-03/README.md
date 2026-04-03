@@ -2382,3 +2382,14 @@ GPT-2: 1.5B, 12 layers, 1024 hidden
 GPT-3: 175B, 96 layers, 12288 hidden
 MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
 
+## Appendix F: Debugging Checklist
+
+[ ] Data loading: Print sample data
+[ ] Baseline: Random baseline performance
+[ ] Overfit: Train on N=32 samples
+[ ] Learning rate: Plot loss vs LR
+[ ] Gradients: Check for NaN/explosions
+[ ] Validation: Compare to train loss
+[ ] Metrics: Verify metric implementation
+[ ] Seeds: Reproducibility with fixed seeds
+
