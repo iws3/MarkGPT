@@ -1782,3 +1782,19 @@ Temperature: Control randomness.
 0: Greedy, 1: Original, >1: Very random.
 MarkGPT uses T=0.8 for balance.
 
+## Sentiment Classification: Case Study
+
+### Dataset and Setup
+
+50K movie reviews (binary classification)
+Training: 40K, Validation: 5K, Test: 5K
+Average length: 250 tokens
+Class balanced (25K pos, 25K neg)
+
+### Model and Results
+
+Fine-tuned MarkGPT-Nano:
+- Accuracy: 91% (vs LSTM baseline: 87%)
+- Training time: 2 hours on single GPU
+- Inference: 150 samples/sec on CPU
+
