@@ -2255,3 +2255,11 @@ Not effective for retrieval of facts.
 RAG: Retrieve relevant docs, then generate.
 Combines retriever + reader model.
 
+### Architecture
+
+1. Query embedding: Dense encoder
+2. Retriever: Top-K passages from index
+3. Reader: Generate answer conditioned on passages
+Index: Dense passage retrieval (DPR)
+Reader: BART or T5
+
