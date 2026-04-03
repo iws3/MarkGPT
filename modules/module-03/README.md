@@ -1900,3 +1900,24 @@ Transfer knowledge via soft targets
 Without distillation: 75% of teacher
 Dramatic improvement for small models.
 
+## Model Quantization
+
+### Motivation
+
+7B model in FP32: 28 GB
+7B model in INT8: 7 GB (4x smaller)
+7B model in INT4: 3.5 GB (fits on GPU!)
+
+### Methods
+
+Post-training: Quantize after training
+Quantization-aware: Simulate during training
+INT8: ~5% accuracy drop
+INT4: ~15% drop with techniques
+
+### Impact
+
+Faster inference on limited hardware
+Reduced bandwidth requirements
+Trade-off between size and quality
+
