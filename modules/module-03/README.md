@@ -2329,3 +2329,12 @@ mBERT trained on 104 languages jointly.
 Magic: Shared representation space.
 Enabled by shared tokenizer (WordPiece).
 
+## Code Generation
+
+### Why Hard
+
+Syntax is strict (wrong bracket = error).
+Long-range dependencies (matching braces).
+Variable naming conventions.
+Semantic correctness harder to define.
+
