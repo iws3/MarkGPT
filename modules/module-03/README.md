@@ -1254,3 +1254,36 @@ plt.show()
 - Process one step at a time
 - State carries information forward
 
+### RNN Architecture
+
+**Unfolding in Time**
+$$h_t = \sigma(W_{hh} h_{t-1} + W_{xh} x_t + b_h)$$
+$$y_t = W_{hy} h_t + b_y$$
+
+Where:
+- $x_t$: Input at time t
+- $h_t$: Hidden state at time t
+- $y_t$: Output at time t
+- $W_{hh}$: Recurrent weights
+- $W_{xh}$: Input weights
+- $W_{hy}$: Output weights
+
+**Example: Text Processing**
+```python
+class SimpleRNN:
+    def __init__(self, input_size, hidden_size):
+        self.Wxh = np.random.randn(input_size, hidden_size) * 0.01
+        self.Whh = np.random.randn(hidden_size, hidden_size) * 0.01
+        self.bh = np.zeros((1, hidden_size))
+    
+    def forward(self, x_sequence):
+        h = np.zeros((1, self.Whh.shape[0]))
+        outputs = []
+        
+        for t in range(len(x_sequence)):
+            h = np.tanh(x_sequence[t] @ self.Wxh + h @ self.Whh + self.bh)
+            outputs.append(h)
+        
+        return outputs
+```
+
