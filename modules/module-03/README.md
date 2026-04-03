@@ -1713,3 +1713,11 @@ Synchronize gradients after backward pass.
 Linear speedup (approximately).
 Used for MarkGPT training.
 
+### Model Parallelism
+
+Split model layers across GPUs.
+MarkGPT-Large: 32 layers on 8 GPUs.
+Pipeline parallelism: Overlap computation.
+Enables training larger models.
+But introduces pipeline bubbles.
+
