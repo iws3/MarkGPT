@@ -2116,3 +2116,13 @@ Diverse models capture different patterns.
 Weight teacher outputs by confidence.
 Significantly better student than single teacher.
 
+## Model Quantization - Deep Dive
+
+### Symmetric Quantization
+
+Map [min, max] to [Qmin, Qmax]
+INT8: [-128, 127] typically
+Scale factor s = max(|min|, |max|) / 128
+Q(x) = round(x / s)
+Reverse: x' = Q(x) * s
+
