@@ -2168,3 +2168,11 @@ Trade-off: Double computation, half memory.
 Enable for largest models (13B+).
 Slow but fits on single GPU.
 
+### Gradient Accumulation
+
+Effective batch = real batch * accumulation
+Process N real batches, accumulate gradients.
+Update after N steps.
+Simulate larger batch on limited GPU.
+Helps with batch-size optimization.
+
