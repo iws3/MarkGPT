@@ -1210,3 +1210,26 @@ def max_pool_2d(input_img, pool_size=2, stride=2):
 - Decreases computation
 - Makes features robust to small shifts
 
+### CNN Feature Extraction
+
+**Layer Progression**
+- Early layers: Low-level features (edges, colors)
+- Middle layers: Mid-level features (shapes, textures)
+- Deep layers: High-level features (objects, scenes)
+
+**Visualization**
+```python
+# Early layer filters (edge detection)
+fig, axes = plt.subplots(2, 3)
+for i, ax in enumerate(axes.flat):
+    ax.imshow(weights[:, :, 0, i], cmap='gray')
+    ax.set_title(f'Filter {i}')
+plt.show()
+```
+
+**Receptive Field Growth**
+- Layer 1: 3x3 field
+- Layer 2: 5x5 effective field
+- Layer 3: 7x7 effective field
+- Grows with depth
+
