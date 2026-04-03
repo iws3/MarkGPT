@@ -1963,3 +1963,14 @@ Contrastive loss: For similarity learning
 Triplet loss: For metric learning
 Info-NCE: For self-supervised learning
 
+## Appendix C: Optimization Algorithms
+
+SGD: Simple, effective baseline
+SGD + Momentum: Accelerated convergence
+AdaGrad: Per-parameter learning rate
+RMSprop: Exponential moving average
+Adam: Momentum + RMSprop (most used)
+AdamW: Adam with weight decay
+LAMB: For large batch training
+
+Recommendation: Adam default, AdamW for fine-tuning.
