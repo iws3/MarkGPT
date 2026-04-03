@@ -2295,3 +2295,12 @@ Sparse masks: Select parameters per task.
 Complete isolation: No interference.
 But requires more storage.
 
+## Domain Adaptation
+
+### Distribution Shift Problem
+
+Train: General text (Wikipedia, CommonCrawl)
+Test: Medical documents (MedBench)
+Performance drops significantly.
+Vocabulary mismatch, style differences.
+
