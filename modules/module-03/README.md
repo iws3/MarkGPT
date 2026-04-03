@@ -2213,3 +2213,11 @@ Avoids recomputing past positions.
 Reduce compute from O(N^2) per token to O(N).
 7B model: 30GB cache for batch=32, length=2048.
 
+### Continuous Batching
+
+Traditional: Wait for all sequences to finish.
+Continuous: Remove finished, add new in-flight.
+GPU utilization: 90%+ vs 60%.
+Throughput increases but latency varies.
+Critical for serving systems.
+
