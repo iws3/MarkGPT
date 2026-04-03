@@ -886,3 +886,26 @@ def mse_gradient(y_true, y_pred):
     return -2 * (y_true - y_pred) / len(y_true)
 ```
 
+### Cross-Entropy Loss
+
+**For Classification**
+$$\text{CE} = -\frac{1}{m} \sum_{i=1}^m \sum_{c=1}^C y_c^{(i)} \log(\hat{y}_c^{(i)})$$
+
+Where:
+- $C$: Number of classes
+- $y_c^{(i)}$: True label (one-hot)
+- $\hat{y}_c^{(i)}$: Predicted probability
+
+**Binary Cross-Entropy**
+$$\text{BCE} = -\frac{1}{m} \sum_{i=1}^m [y^{(i)} \log(\hat{y}^{(i)}) + (1 - y^{(i)}) \log(1 - \hat{y}^{(i)})]$$
+
+**Properties**
+- Specific to probability outputs
+- Penalizes confident mistakes heavily
+- Natural for softmax output
+
+```python
+def cross_entropy_loss(y_true, y_pred, epsilon=1e-10):
+    return -np.mean(y_true * np.log(y_pred + epsilon))
+```
+
