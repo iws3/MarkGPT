@@ -71,3 +71,19 @@ Artificial neurons are inspired by biological neurons:
 Biological neuron fires when activation exceeds threshold.
 Artificial neuron: Apply activation function to weighted sum.
 
+### Mathematical Definition of a Neuron
+
+**Linear Combination**
+$$z = w_1 x_1 + w_2 x_2 + ... + w_n x_n + b$$
+
+Where:
+- $x_i$: Input features
+- $w_i$: Weights (synaptic strengths)
+- $b$: Bias (threshold shift)
+- $z$: Pre-activation (logit)
+
+**Activation**
+$$a = \sigma(z)$$
+
+Where $\sigma$ is activation function (ReLU, sigmoid, tanh, etc.)
+
