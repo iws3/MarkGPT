@@ -817,3 +817,22 @@ $$\nabla L = \left[\frac{\partial L}{\partial w_1}, ..., \frac{\partial L}{\part
 - Points toward steepest increase
 - Move opposite direction to decrease loss
 
+### Backpropagation Algorithm
+
+**Chain Rule Foundation**
+$$\frac{\partial L}{\partial w} = \frac{\partial L}{\partial a} \frac{\partial a}{\partial z} \frac{\partial z}{\partial w}$$
+
+**Forward Pass**
+- Compute all activations layer by layer
+- Store intermediate values for backward pass
+
+**Backward Pass**
+1. Compute output layer error: $\delta^{(L)} = \nabla_a L \odot \sigma'(z^{(L)})$
+2. Propagate backwards:
+   $$\delta^{(l)} = (W^{(l+1)})^T \delta^{(l+1)} \odot \sigma'(z^{(l)})$$
+3. Compute gradients:
+   $$\frac{\partial L}{\partial W^{(l)}} = \delta^{(l)} (a^{(l-1)})^T$$
+   $$\frac{\partial L}{\partial b^{(l)}} = \delta^{(l)}$$
+4. Update parameters:
+   $$W^{(l)} \leftarrow W^{(l)} - \alpha \frac{\partial L}{\partial W^{(l)}}$$
+
