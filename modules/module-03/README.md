@@ -2101,3 +2101,11 @@ Combine two losses:
 - Distillation loss: Teacher soft targets
 Ratio: 0.1 task + 0.9 distillation
 
+### Feature-based Distillation
+
+Match intermediate representations.
+Compare hidden layers directly.
+Better for compression (larger models).
+Attention maps matching:
+Loss = ||StudentAttention - TeacherAttention||^2
+
