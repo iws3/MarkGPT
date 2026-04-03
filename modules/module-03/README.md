@@ -1828,3 +1828,19 @@ F1 Score: 85%
 Inference: 200 questions/sec
 10x more efficient than BERT-large.
 
+## Overfitting Prevention
+
+### Regularization Techniques
+
+L1/L2 regularization: Penalize large weights
+Dropout: Randomly drop neurons
+Early stopping: Stop when val loss plateaus
+Data augmentation: Expand training set
+Batch normalization: Stabilize training
+
+### Diagnosis
+
+Train loss ≈ val loss: Good generalization
+Train loss << val loss: Overfitting
+Train loss >> val loss: Underfitting
+
