@@ -645,3 +645,33 @@ $$\tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}$$
 - Centered at zero
 - Also has vanishing gradient issue
 
+### ReLU and Modern Activations
+
+**Rectified Linear Unit (ReLU)**
+$$f(z) = \max(0, z)$$
+- Advantages:
+  - Simple computation
+  - No vanishing gradient for positive values
+  - Speeds up convergence
+- Disadvantages:
+  - Dying ReLU (zero output for negative inputs)
+  - Not smooth at z=0
+
+```python
+def relu(z):
+    return np.maximum(0, z)
+
+def relu_derivative(z):
+    return (z > 0).astype(float)
+```
+
+**Leaky ReLU**
+$$f(z) = \max(\alpha z, z)$$
+- $\alpha$ small (0.01): Allows small negative gradient
+- Prevents dying ReLU
+
+**ELU (Exponential Linear Unit)**
+$$f(z) = \begin{cases} z & \text{if } z > 0 \\ \alpha(e^z - 1) & \text{if } z \leq 0 \end{cases}$$
+- Closer to zero-mean outputs
+- Smoother near origin
+
