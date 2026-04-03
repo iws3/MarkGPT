@@ -1634,3 +1634,12 @@ Idea: Split convolution into spatial and channel dimensions.
 - Result: 8-9x fewer parameters
 - Used in MobileNet for efficiency
 
+## Attention Mechanisms - Deep Dive
+
+### Self-Attention
+
+Query, Key, Value framework enables comparing all positions.
+Each position attends to all other positions simultaneously.
+Allows modeling long-range dependencies efficiently.
+
+Mathematical foundation for transformers.
