@@ -2126,3 +2126,11 @@ Scale factor s = max(|min|, |max|) / 128
 Q(x) = round(x / s)
 Reverse: x' = Q(x) * s
 
+### Asymmetric Quantization
+
+Map [min, max] to [0, 255] for INT8
+Scale: (max - min) / 255
+Zero-point offset: min value
+Better for skewed distributions.
+3% better accuracy on typical weights.
+
