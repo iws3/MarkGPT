@@ -503,3 +503,43 @@ def update_params(self, grads):
         self.params[key] -= self.lr * grads[key]
 ```
 
+## Training Loop and Convergence
+
+**Complete Training**
+```python
+def train(self, X, y, epochs=100, batch_size=32):
+    losses = []
+    
+    for epoch in range(epochs):
+        epoch_loss = 0
+        n_batches = len(X) // batch_size
+        
+        for batch in range(n_batches):
+            start = batch * batch_size
+            end = start + batch_size
+            
+            X_batch = X[start:end]
+            y_batch = y[start:end]
+            
+            # Forward pass
+            output = self.forward(X_batch)
+            
+            # Compute loss
+            loss = -np.mean(y_batch * np.log(output + 1e-10))
+            epoch_loss += loss
+            
+            # Backward pass
+            grads = self.backward(y_batch)
+            
+            # Update weights
+            self.update_params(grads)
+        
+        avg_loss = epoch_loss / n_batches
+        losses.append(avg_loss)
+        
+        if (epoch + 1) % 10 == 0:
+            print(f'Epoch {epoch+1}/{epochs}, Loss: {avg_loss:.4f}')
+    
+    return losses
+```
+
