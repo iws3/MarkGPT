@@ -863,3 +863,26 @@ total = 3000 * O(n_params)
 - GPU acceleration
 - Mixed precision (float32 instead of float64)
 
+## Loss Functions for Different Tasks
+
+### Mean Squared Error (MSE)
+
+**For Regression**
+$$\text{MSE} = \frac{1}{m} \sum_{i=1}^m (\hat{y}^{(i)} - y^{(i)})^2$$
+
+**Gradient**
+$$\frac{\partial \text{MSE}}{\partial \hat{y}} = -2(y - \hat{y})$$
+
+**Properties**
+- Convex (single global minimum)
+- Larger errors penalized more
+- Sensitive to outliers
+
+```python
+def mse_loss(y_true, y_pred):
+    return np.mean((y_true - y_pred) ** 2)
+
+def mse_gradient(y_true, y_pred):
+    return -2 * (y_true - y_pred) / len(y_true)
+```
+
