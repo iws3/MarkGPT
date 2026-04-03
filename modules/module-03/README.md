@@ -2134,3 +2134,11 @@ Zero-point offset: min value
 Better for skewed distributions.
 3% better accuracy on typical weights.
 
+### Quantization-Aware Training
+
+Simulate quantization during training.
+Gradients flow through fake quantization.
+Model learns robust representations.
+INT4 with QAT: 10% drop vs 25% without.
+Training cost: 2x but worth the improvement.
+
