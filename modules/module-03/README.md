@@ -1740,3 +1740,15 @@ Standard procedure for language models:
 5. Report mean and confidence intervals
 
 Dimensions: Fluency, relevance, factuality, completeness.
+## Prompt Engineering
+
+### Few-Shot Learning
+
+Providing examples to steer model behavior.
+4 examples often as good as fine-tuning.
+Order and quality of examples matter.
+Can dramatically improve performance.
+
+Example:
+Task: Sentiment -> "+1: positive, 0: negative"
+Examples given in prompt improve accuracy.
