@@ -2270,3 +2270,12 @@ Natural questions: 60% vs 45% without
 Reduces hallucination significantly.
 Enables fact-checking (cite sources).
 
+## Continual Learning
+
+### Catastrophic Forgetting
+
+Model trained on task A then task B.
+Performance on A drops to 10%.
+Weights optimized away from task A.
+Major challenge for sequential learning.
+
