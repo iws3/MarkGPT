@@ -1460,3 +1460,33 @@ def dropout(x, p=0.5, training=True):
     return x * mask / (1 - p)
 ```
 
+### Regularization Techniques Comparison
+
+**L1/L2 Regularization**
+- Penalizes weight magnitude
+- Simple but limited
+- Works with any model
+
+**Dropout**
+- Kills neurons probabilistically
+- Very effective for overfitting
+- Efficient (slight computational cost)
+- Works for any architecture
+
+**Early Stopping**
+- Monitor validation loss
+- Stop when no improvement
+- Simple, always works
+- Requires separate validation set
+
+**Data Augmentation**
+- Increase dataset diversity
+- Domain-specific
+- Very effective
+- Requires domain knowledge
+
+**Best Practice**
+- Combine multiple techniques
+- Use validation set to monitor
+- Adjust based on overfitting degree
+
