@@ -1953,3 +1953,13 @@ ELU: Smooth, better near zero
 GELU: Smooth approximation of ReLU
 Swish: Learned by AutoML, very effective
 
+## Appendix B: Loss Functions
+
+MSE: For regression, simple
+MAE: Robust to outliers
+Cross-entropy: Classification, natural choice
+Focal loss: For imbalanced data
+Contrastive loss: For similarity learning
+Triplet loss: For metric learning
+Info-NCE: For self-supervised learning
+
