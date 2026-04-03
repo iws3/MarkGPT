@@ -1844,3 +1844,21 @@ Train loss ≈ val loss: Good generalization
 Train loss << val loss: Overfitting
 Train loss >> val loss: Underfitting
 
+## Debugging Neural Networks
+
+### Common Issues
+
+Loss diverges: Learning rate too high
+Loss plateaus: Learning rate too low
+NaN values: Numerical overflow
+Gradient vanishing: Deep networks need fixes
+Slow convergence: Bad initialization
+
+### Systematic Approach
+
+1. Check loss on tiny batch (N=32)
+2. Verify data loading
+3. Gradient checking (numerical vs analytical)
+4. Monitor activation statistics
+5. Visualize learned features
+
