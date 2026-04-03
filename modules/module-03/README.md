@@ -2074,3 +2074,11 @@ Late layers: Semantic grouping.
 Multi-head: Different attention patterns.
 
 Insight: Models learn to structure information.
+### Gradient-based Attribution
+
+Input gradient ∂L/∂x shows feature importance.
+Integrated gradients: Baseline-based method.
+SmoothGrad: Average over noise samples.
+DeepLIFT: Backpropagation with reference points.
+
+Use: Explain why model made prediction.
