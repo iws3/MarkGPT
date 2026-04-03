@@ -2187,3 +2187,11 @@ Parameters: Total = dense + routing overhead
 12 experts * 300M params = 3.6B params
 But activate only 300M per token (efficient).
 
+### Sparse Activation
+
+Only K experts active per token (K=2 typical).
+Compute increases slowly with model size.
+GShard: 600B sparse model on 16 TPUs.
+Switch transformers: Using single expert (K=1).
+Much more efficient than dense models.
+
