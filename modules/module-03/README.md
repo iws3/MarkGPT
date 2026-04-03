@@ -2304,3 +2304,11 @@ Test: Medical documents (MedBench)
 Performance drops significantly.
 Vocabulary mismatch, style differences.
 
+### Domain-Adaptive Pre-training
+
+Continued pre-training on domain data.
+DAPT: Additional 10K steps on medical texts.
+Task-adaptive pre-training: Fine-tune task data.
+TAPT: 100 steps on task training set.
+Combined: 5-10% improvement on downstream tasks.
+
