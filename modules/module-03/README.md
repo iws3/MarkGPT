@@ -1643,3 +1643,10 @@ Each position attends to all other positions simultaneously.
 Allows modeling long-range dependencies efficiently.
 
 Mathematical foundation for transformers.
+### Cross-Attention
+
+Query from one source, Key/Value from another.
+Connects encoder output to decoder.
+Essential for sequence-to-sequence models.
+Enables knowledge transfer between modalities.
+
