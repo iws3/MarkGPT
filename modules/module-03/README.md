@@ -1490,3 +1490,28 @@ def dropout(x, p=0.5, training=True):
 - Use validation set to monitor
 - Adjust based on overfitting degree
 
+## Learning Rate Schedules
+
+### Fixed vs Adaptive Learning Rate
+
+**Fixed Learning Rate**
+- Simple: $\alpha = 0.001$
+- Problem: Too high early, too low late
+- May oscillate or not converge
+
+**Decay Schedule**
+$$\alpha_t = \alpha_0 \cdot (1 + \text{decay\_rate} \cdot t)^{-1}$$
+
+**Step Decay**
+$$\alpha_t = \alpha_0 \cdot \gamma^{\lfloor t / \text{steps} \rfloor}$$
+
+Example: Reduce by 0.5 every 10 epochs
+
+**Exponential Decay**
+$$\alpha_t = \alpha_0 \cdot e^{-\text{decay\_rate} \cdot t}$$
+
+```python
+def lr_schedule(epoch, initial_lr=0.1):
+    return initial_lr * (0.5 ** (epoch // 10))
+```
+
