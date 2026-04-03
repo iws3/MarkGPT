@@ -1233,3 +1233,24 @@ plt.show()
 - Layer 3: 7x7 effective field
 - Grows with depth
 
+## Recurrent Neural Networks (RNN)
+
+### Sequence Modeling Problem
+
+**Why RNNs?**
+- Sequential data: Text, audio, time series
+- Variable length inputs
+- Temporal dependencies
+- Context from previous steps
+
+**Standard NN Problem**
+- Fixed input/output size
+- No way to process sequences
+- Loses temporal information
+
+**RNN Solution**
+- Recurrent connections
+- Maintain hidden state
+- Process one step at a time
+- State carries information forward
+
