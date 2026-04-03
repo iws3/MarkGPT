@@ -2032,3 +2032,12 @@ Incredibly efficient (65x better than adapters).
 Task performance: 98% of full fine-tuning.
 Challenge: Less effective for very different tasks.
 
+## Low-Rank Adaptation (LoRA)
+
+### Motivation
+
+Hypothesis: Weight updates are low-rank.
+Instead of ΔW (huge matrix):
+Use A @ B where A and B are small.
+MarkGPT-7B LoRA: 4M params (0.06% of model).
+
