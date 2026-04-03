@@ -2109,3 +2109,10 @@ Better for compression (larger models).
 Attention maps matching:
 Loss = ||StudentAttention - TeacherAttention||^2
 
+### Multi-Teacher Distillation
+
+Combine knowledge from multiple teachers.
+Diverse models capture different patterns.
+Weight teacher outputs by confidence.
+Significantly better student than single teacher.
+
