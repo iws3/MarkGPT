@@ -2321,3 +2321,11 @@ Vocabulary: mBERT has 110K tokens!
 Resource imbalance: English 1000x more data.
 Zero-shot cross-lingual transfer.
 
+### Cross-lingual Transfer
+
+Train on English, test on Hindi.
+mBERT trained on 104 languages jointly.
+33 language pairs show >80% transfer.
+Magic: Shared representation space.
+Enabled by shared tokenizer (WordPiece).
+
