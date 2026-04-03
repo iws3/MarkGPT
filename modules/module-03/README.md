@@ -1613,3 +1613,14 @@ class NeuralNetwork:
         return self.forward(X) > 0.5
 ```
 
+
+## ResNets and Skip Connections
+
+### Why Skip Connections?
+
+One of the key innovations: Residual networks allow very deep training.
+Skip connections enable gradients to flow directly through layers.
+
+$$y = F(x) + x$$
+
+Benefits: Enables 152+ layer networks, better generalization.
