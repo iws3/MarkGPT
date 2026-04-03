@@ -2405,3 +2405,14 @@ MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
 - Longer training, lower LR
 - Check data quality
 
+**Model overfits (big train-val gap)**
+- Solution: Add regularization (dropout, L2)
+- Reduce model capacity
+- Data augmentation
+- Early stopping
+
+**Inference slow**
+- Solution: Use quantization (INT8)
+- Batch requests (dynamic batching)
+- KV-cache, etc.
+
