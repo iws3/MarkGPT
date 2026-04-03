@@ -2363,3 +2363,13 @@ Large models: Chain-of-thought emerges
 Scaling laws predict when they appear
 Example: 62B model = 1000x better at math
 
+## Appendix D: Hyperparameter Ranges
+
+Learning rate: 1e-5 to 1e-3
+Batch size: 8 to 512
+Warmup: 0.1 to 0.3 of training
+Weight decay: 0.0 to 0.1
+Dropout: 0.0 to 0.3
+Attention heads: 8 to 32
+Hidden size: 256 to 4096
+
