@@ -798,3 +798,22 @@ A feedforward network with single hidden layer can approximate:
 - Combinations create complex decision regions
 - Non-linearity essential (linear layers compose to linear)
 
+## Gradient Descent and Backpropagation
+
+### Why Gradient Descent?
+
+**Optimization Problem**
+Minimize: $$L(W, b) = \frac{1}{m} \sum_{i=1}^m \ell(\hat{y}^{(i)}, y^{(i)})$$
+
+Where:
+- $L$: Total loss
+- $\ell$: Loss per sample
+- $m$: Number of training samples
+- Dimensions: Thousands to billions of parameters
+- Cannot solve analytically
+
+**Gradient Direction**
+$$\nabla L = \left[\frac{\partial L}{\partial w_1}, ..., \frac{\partial L}{\partial w_n}\right]$$
+- Points toward steepest increase
+- Move opposite direction to decrease loss
+
