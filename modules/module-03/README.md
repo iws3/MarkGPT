@@ -2064,3 +2064,13 @@ MarkGPT-7B with LoRA on GLUE:
 - Inference: Identical speed (weights merged)
 
 Scales to LoRA composition (multiple adapters).
+## Interpretability Methods
+
+### Attention Visualization
+
+Heatmap: Query-key interactions.
+Early layers: Attend to neighboring tokens.
+Late layers: Semantic grouping.
+Multi-head: Different attention patterns.
+
+Insight: Models learn to structure information.
