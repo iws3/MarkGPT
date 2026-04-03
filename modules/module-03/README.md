@@ -1373,3 +1373,38 @@ for epoch in range(100):
     output = layer2(layer1(X))
 ```
 
+### Batch Normalization Algorithm
+
+**Training Time**
+1. Compute mean: $\mu_B = \frac{1}{m} \sum_i x_i$
+2. Compute variance: $\sigma_B^2 = \frac{1}{m} \sum_i (x_i - \mu_B)^2$
+3. Normalize: $\hat{x}_i = \frac{x_i - \mu_B}{\sqrt{\sigma_B^2 + \epsilon}}$
+4. Scale and shift: $y_i = \gamma \hat{x}_i + \beta$
+
+Where:
+- $\gamma$: Learnable scale parameter
+- $\beta$: Learnable offset parameter
+- $\epsilon$: Small value for numerical stability
+
+**Test Time**
+- Use running statistics (moving average)
+- Not per-mini-batch statistics
+- Accumulated during training
+
+```python
+def batch_norm(x, gamma, beta, momentum=0.9, epsilon=1e-5):
+    # Training
+    mean = x.mean(axis=0)
+    var = x.var(axis=0)
+    
+    # Update running statistics
+    running_mean = momentum * running_mean + (1 - momentum) * mean
+    running_var = momentum * running_var + (1 - momentum) * var
+    
+    # Normalize
+    x_norm = (x - mean) / np.sqrt(var + epsilon)
+    
+    # Scale and shift
+    return gamma * x_norm + beta
+```
+
