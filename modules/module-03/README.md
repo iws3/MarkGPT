@@ -2150,3 +2150,13 @@ Method 2: Percentile (0.1%, 99.9%)
 Method 3: KL divergence alignment
 Higher clip = info loss, lower = outlier issue.
 
+## Advanced Training Techniques
+
+### Mixed Precision Training
+
+Master weights: FP32 (for stability)
+Computation: FP16 (for speed)
+Gradient scaling: Multiply by 2^16
+Result: 2-3x speedup, minimal accuracy loss.
+Essential for large models (7B+).
+
