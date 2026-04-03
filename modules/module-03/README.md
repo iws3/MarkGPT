@@ -2221,3 +2221,11 @@ GPU utilization: 90%+ vs 60%.
 Throughput increases but latency varies.
 Critical for serving systems.
 
+### Speculative Decoding
+
+Small model generates candidate tokens.
+Large model verifies (parallel).
+Accept multiple tokens per forward pass.
+2-3x speedup for large models.
+Same outputs as standard decoding.
+
