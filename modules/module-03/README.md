@@ -2203,3 +2203,13 @@ Auxiliary loss: 0.01 * (balance_loss)
 Expert utilization target: Equal distribution.
 Important for training stability.
 
+## Inference Optimization
+
+### KV-Cache
+
+Store computed K, V from previous steps.
+Attention(Q_new, K_cache, V_cache).
+Avoids recomputing past positions.
+Reduce compute from O(N^2) per token to O(N).
+7B model: 30GB cache for batch=32, length=2048.
+
