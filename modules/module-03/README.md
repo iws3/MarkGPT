@@ -1308,3 +1308,27 @@ For t=100: $0.9^{100} \approx 0.0000027$ (essentially zero)
 3. LSTM/GRU cells (explicit gates)
 4. Gradient clipping
 
+### Long Short-Term Memory (LSTM)
+
+**The Cell State**
+LSTM has explicit memory (cell state $C_t$):
+$$C_t = f_t \odot C_{t-1} + i_t \odot \tilde{C}_t$$
+
+Where:
+- $f_t$: Forget gate (what to discard)
+- $i_t$: Input gate (what to add)
+- $\tilde{C}_t$: Candidate values
+- $\odot$: Element-wise multiplication
+
+**Gate Equations**
+$$f_t = \sigma(W_f [h_{t-1}, x_t] + b_f)$$
+$$i_t = \sigma(W_i [h_{t-1}, x_t] + b_i)$$
+$$\tilde{C}_t = \tanh(W_C [h_{t-1}, x_t] + b_C)$$
+$$o_t = \sigma(W_o [h_{t-1}, x_t] + b_o)$$
+$$h_t = o_t \odot \tanh(C_t)$$
+
+**Key Insight**
+- Cell state has straight connections (highway)
+- Gradient flows without multiplication
+- Avoids vanishing gradient
+
