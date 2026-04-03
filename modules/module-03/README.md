@@ -622,3 +622,26 @@ $$a = \sigma(z)$$
 
 Where $\sigma$ is activation function (ReLU, sigmoid, tanh, etc.)
 
+### Activation Functions Deep Dive
+
+**Sigmoid Function**
+$$\sigma(z) = \frac{1}{1 + e^{-z}}$$
+- Output: (0, 1)
+- Smooth gradient
+- Vanishing gradient problem
+
+```python
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+def sigmoid_derivative(z):
+    s = sigmoid(z)
+    return s * (1 - s)
+```
+
+**Hyperbolic Tangent**
+$$\tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}}$$
+- Output: (-1, 1)
+- Centered at zero
+- Also has vanishing gradient issue
+
