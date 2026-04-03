@@ -1721,3 +1721,12 @@ Pipeline parallelism: Overlap computation.
 Enables training larger models.
 But introduces pipeline bubbles.
 
+## Evaluation Metrics Deep Dive
+
+### Perplexity
+
+Average branching factor of next token.
+Lower is better (model less confused).
+Perplexity 10: Like choosing from 10 equally likely tokens.
+MarkGPT achieves perplexity of 8-15 depending on domain.
+
