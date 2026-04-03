@@ -1142,3 +1142,37 @@ for param in grads:
 - Sparse connectivity
 - Orders of magnitude fewer parameters
 
+### Convolution Operation
+
+**Mathematical Definition**
+$$\text{out}[i,j] = \sum_{a,b} \text{kernel}[a,b] \cdot \text{input}[i+a, j+b] + \text{bias}$$
+
+**Kernel (Filter)**
+- Small matrix (3x3, 5x5)
+- Learnable weights
+- Detects patterns (edges, corners, textures)
+
+**Forward Pass Example**
+```python
+def convolve_2d(input_img, kernel, stride=1, padding=0):
+    # Zero-pad if needed
+    if padding > 0:
+        input_img = np.pad(input_img, padding)
+    
+    h, w = input_img.shape
+    k_h, k_w = kernel.shape
+    
+    out_h = (h - k_h) // stride + 1
+    out_w = (w - k_w) // stride + 1
+    
+    output = np.zeros((out_h, out_w))
+    
+    for i in range(out_h):
+        for j in range(out_w):
+            window = input_img[i*stride:i*stride+k_h, 
+                              j*stride:j*stride+k_w]
+            output[i, j] = np.sum(window * kernel)
+    
+    return output
+```
+
