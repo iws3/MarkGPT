@@ -1770,3 +1770,15 @@ K=5: Balance speed and quality
 K=100: Slow but better quality
 Finds better solutions than greedy.
 
+### Sampling vs Greedy
+
+Greedy: Always pick most likely next token.
+Deterministic, boring, sometimes repetitive.
+
+Top-K sampling: Sample from K most likely.
+More diverse, sometimes nonsensical.
+
+Temperature: Control randomness.
+0: Greedy, 1: Original, >1: Very random.
+MarkGPT uses T=0.8 for balance.
+
