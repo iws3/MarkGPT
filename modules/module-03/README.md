@@ -779,3 +779,22 @@ Where:
 - $\sigma$: Activation function (hidden)
 - $f$: Output activation (sigmoid for binary, softmax for multi-class)
 
+### Universal Approximation Theorem
+
+**Key Theorem**
+A feedforward network with single hidden layer can approximate:
+- Any continuous function on compact domain
+- With sufficient hidden units
+- Using non-linear activation functions
+
+**Implications**
+- Hidden layers provide expressiveness
+- One hidden layer theoretically sufficient
+- In practice: Deeper networks generalize better
+- Empirical evidence: Deep > shallow for many tasks
+
+**Mathematical Intuition**
+- Each hidden unit learns a feature
+- Combinations create complex decision regions
+- Non-linearity essential (linear layers compose to linear)
+
