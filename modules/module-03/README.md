@@ -1703,3 +1703,13 @@ Optimizations:
 - Interpretable (visualize weights)
 
 Modern trend: Transformers dominate due to scale.
+## Training Large Models
+
+### Data Parallelism
+
+Replicate model on N GPUs.
+Each GPU processes different batch.
+Synchronize gradients after backward pass.
+Linear speedup (approximately).
+Used for MarkGPT training.
+
