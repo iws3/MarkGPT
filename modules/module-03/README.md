@@ -1650,3 +1650,12 @@ Connects encoder output to decoder.
 Essential for sequence-to-sequence models.
 Enables knowledge transfer between modalities.
 
+## Transformer Architecture
+
+### Encoder-Decoder Design
+
+Encoder processes input without causal masking.
+Decoder generates output with causal constraints.
+Cross-attention connects both modules.
+State-of-the-art foundation for NLP tasks.
+
