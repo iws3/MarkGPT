@@ -2142,3 +2142,11 @@ Model learns robust representations.
 INT4 with QAT: 10% drop vs 25% without.
 Training cost: 2x but worth the improvement.
 
+### Calibration and Clipping
+
+Min/max statistics from calibration set.
+Method 1: Use actual min/max
+Method 2: Percentile (0.1%, 99.9%)
+Method 3: KL divergence alignment
+Higher clip = info loss, lower = outlier issue.
+
