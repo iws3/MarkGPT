@@ -2426,3 +2426,15 @@ MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
 **Ray Tune**: Hyperparameter optimization
 **ONNX**: Model export format
 
+## Appendix I: Literature Recommendations
+
+**Foundational**
+- "Attention is All You Need" (Vaswani et al)
+- "BERT" (Devlin et al)
+- "GPT-3" (Brown et al)
+
+**Recent**
+- "LLaMA" (Touvron et al)
+- "QLoRA" (Dettmers et al)
+- "Flash Attention" (Dao et al)
+
