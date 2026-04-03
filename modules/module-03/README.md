@@ -2263,3 +2263,10 @@ Combines retriever + reader model.
 Index: Dense passage retrieval (DPR)
 Reader: BART or T5
 
+### Results
+
+SQuAD with RAG: 92% F1 vs 85% without
+Natural questions: 60% vs 45% without
+Reduces hallucination significantly.
+Enables fact-checking (cite sources).
+
