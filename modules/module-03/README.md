@@ -2007,3 +2007,11 @@ Fine-tuning: Adapt to specific task on 10K tokens
 Parameter efficiency: Only 0.1% of parameters as trainable
 Result: State-of-the-art task performance
 
+### Full Fine-tuning
+
+Update all model parameters.
+High quality but computationally expensive.
+MarkGPT-Nano: 12 hours on 1 GPU for SQuAD.
+Requires 30GB+ GPU for large models.
+Not practical for most practitioners.
+
