@@ -1752,3 +1752,11 @@ Can dramatically improve performance.
 Example:
 Task: Sentiment -> "+1: positive, 0: negative"
 Examples given in prompt improve accuracy.
+### Chain-of-Thought
+
+Ask model to reason step-by-step.
+Improves accuracy on math problems by 40%+.
+Works even without examples (zero-shot).
+Forces intermediate reasoning.
+Increases inference time but improves quality.
+
