@@ -1624,3 +1624,13 @@ Skip connections enable gradients to flow directly through layers.
 $$y = F(x) + x$$
 
 Benefits: Enables 152+ layer networks, better generalization.
+## Convolutional Neural Networks - Advanced
+
+### Depthwise Separable Convolution
+
+Idea: Split convolution into spatial and channel dimensions.
+- Depthwise: Apply per channel (h x w x 1)
+- Pointwise: 1x1 conv to mix channels
+- Result: 8-9x fewer parameters
+- Used in MobileNet for efficiency
+
