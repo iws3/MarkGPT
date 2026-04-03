@@ -164,3 +164,39 @@ $$W \sim \text{Normal}\left(0, \sqrt{\frac{2}{n}}\right)$$
 - For ReLU networks
 - Works better with ReLU activation
 
+## Perceptron Learning Rule
+
+### Single Neuron Classification
+
+**Perceptron**
+- Simplest neural network unit
+- Separates linearly separable data
+- History: Rosenblatt (1958)
+
+**Algorithm**
+1. Initialize weights randomly
+2. For each training example:
+   - Compute prediction: $\hat{y} = \text{sign}(w \cdot x + b)$
+   - If error: Update $w \leftarrow w + y \cdot x$
+3. Repeat until convergence
+
+```python
+class Perceptron:
+    def __init__(self, learning_rate=0.01):
+        self.lr = learning_rate
+        self.w = None
+        self.b = 0
+    
+    def predict(self, X):
+        return np.sign(X @ self.w + self.b)
+    
+    def fit(self, X, y, epochs=100):
+        self.w = np.zeros(X.shape[1])
+        for epoch in range(epochs):
+            for xi, yi in zip(X, y):
+                pred = np.sign(xi @ self.w + self.b)
+                if pred != yi:
+                    self.w += self.lr * yi * xi
+                    self.b += self.lr * yi
+```
+
