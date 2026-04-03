@@ -2393,3 +2393,15 @@ MarkGPT-7B: 32 layers, 4096 hidden, 32 heads
 [ ] Metrics: Verify metric implementation
 [ ] Seeds: Reproducibility with fixed seeds
 
+## Appendix G: Common Issues and Solutions
+
+**Loss diverges to NaN**
+- Solution: Lower learning rate by 10x
+- Check for unused parameters
+- Try gradient clipping (max_norm=1.0)
+
+**Model underfits (train/val both high)**
+- Solution: Increase model capacity
+- Longer training, lower LR
+- Check data quality
+
