@@ -1730,3 +1730,13 @@ Lower is better (model less confused).
 Perplexity 10: Like choosing from 10 equally likely tokens.
 MarkGPT achieves perplexity of 8-15 depending on domain.
 
+### Human Evaluation Protocol
+
+Standard procedure for language models:
+1. Sample 100-500 examples
+2. Multiple raters (3-5) per example
+3. Blind evaluation (no model info)
+4. Compute inter-rater agreement
+5. Report mean and confidence intervals
+
+Dimensions: Fluency, relevance, factuality, completeness.
