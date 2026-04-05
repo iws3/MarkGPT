@@ -1531,3 +1531,12 @@ Quality: User feedback
 Errors: Failure rate
 Bias: Check for outputs
 
+### Scaling
+
+Load balancer: Distribute requests
+Caching: Cache frequent prompts
+Batching: Combine requests
+Sharding: Split model across GPUs
+Replication: Multiple copies
+Auto-scaling: Add GPUs under load
+
