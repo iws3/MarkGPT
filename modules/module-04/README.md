@@ -417,3 +417,12 @@ Context: c_t = Σ α_t,j @ h_j
 
 Output: decoder processes [s_t; c_t]
 
+### Multiplicative Attention
+
+Simpler form (used in transformers):
+Score: e_t,j = (s_t @ h_j) / sqrt(d)
+No learned parameters in scoring
+Just dot product + softmax
+Scale by 1/sqrt(d) for stability
+Very efficient!
+
