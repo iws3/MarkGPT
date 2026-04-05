@@ -1540,3 +1540,12 @@ Sharding: Split model across GPUs
 Replication: Multiple copies
 Auto-scaling: Add GPUs under load
 
+### Cost Optimization
+
+GPU hours: $1-2 per hour
+Quantization: 4x faster, 4x cheaper
+Batching: Better utilization
+Spot instances: 70% cheaper (interruptible)
+Caching: Reduce redundant computation
+Distillation: Smaller model for simple queries
+
