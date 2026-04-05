@@ -685,3 +685,12 @@ Encoder-Decoder Transformer
 2048 FFN dimension
 Total: 65M parameters
 
+### Training
+
+Batch size: 4096 tokens
+Learning rate: 0.0001 (with warmup)
+Optimizer: Adam (β1=0.9, β2=0.98)
+Training: 5 days on 8 GPUs
+Dropout: 0.1
+Label smoothing: 0.1
+
