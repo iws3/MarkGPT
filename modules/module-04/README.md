@@ -459,3 +459,13 @@ outputs = lstm(x)  # x: (batch, T, input_size)
 # Bidirectional: Bidirectional(LSTM(...))
 ```
 
+## Encoder-Decoder with Attention
+
+### Architecture
+
+Encoder: Bi-LSTM reads input sequence
+Outputs: h_1, h_2, ..., h_T
+Decoder: LSTM generates output
+Each step: Attends to encoder outputs
+Completely parallelizable (replaced by Transformers)
+
