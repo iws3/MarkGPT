@@ -1465,3 +1465,13 @@ Transformers for speech: Conformer
 Combined with text: Encoder-decoder
 End-to-end speech recognition
 
+## MarkGPT Implementation Details
+
+### Tokenizer
+
+Custom BPE (Byte-Pair Encoding)
+100K vocabulary
+Trained on entire corpus
+Preserves rare words
+Balanced subword lengths
+
