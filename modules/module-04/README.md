@@ -436,3 +436,16 @@ Outputs: [fwd_h_t; bwd_h_t]
 Cannot be used for generation (needs input sequence end)
 Great for tagging, classification
 
+## PyTorch/TensorFlow LSTM Usage
+
+### PyTorch
+
+```python
+lstm = nn.LSTM(input_size, hidden_size, num_layers,
+               batch_first=True, bidirectional=True)
+outputs, (h_n, c_n) = lstm(x)  # x: (batch, T, input_size)
+# outputs: (batch, T, 2*hidden if bidirectional)
+# h_n: (num_layers*2, batch, hidden) if bidirectional
+# c_n: (num_layers*2, batch, hidden)
+```
+
