@@ -848,3 +848,13 @@ Accuracy: 1-5% loss (varies)
 INT4: More aggressive, ~10% loss
 Worth exploring for deployment
 
+## Multi-GPU Training
+
+### Data Parallelism
+
+Same model on N GPUs
+Each GPU: Different batch
+Sync gradients after backward
+Linear speedup (mostly)
+Easy to implement
+
