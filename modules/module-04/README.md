@@ -713,3 +713,12 @@ Train: 80K, Test: 10K
 Avg passage: 150 tokens, Avg question: 10 tokens
 Avg answer span: 3 tokens
 
+### Model Architecture
+
+BERT: 12 layers, 768 hidden
+Encoder only (no decoder)
+Add task-specific layers:
+- Start span prediction
+- End span prediction
+Span = argmax(start) to argmax(end)
+
