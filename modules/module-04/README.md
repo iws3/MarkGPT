@@ -1308,3 +1308,11 @@ Simple: Just replay
 Effective: Prevents catastrophic forgetting
 Memory-efficient: Store embeddings not raw data
 
+### Parameter Isolation
+
+Different tasks: Different parameters
+Adapters: Task-specific modules
+Sparse masks: Select per task
+Complete isolation: No interference
+Trade-off: More storage (LoRA helps)
+
