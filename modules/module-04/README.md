@@ -1503,3 +1503,11 @@ RoPE positional encoding
 Pre-normalization (LayerNorm before)
 Total: 7B parameters
 
+### Inference System
+
+vLLM: Efficient batching
+FlashAttention: Fast attention kernel
+KV-cache: Avoid recomputation
+Continuous batching: Remove finished sequences
+Result: 100x speedup vs naive
+
