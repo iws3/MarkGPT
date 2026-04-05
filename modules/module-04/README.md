@@ -572,3 +572,12 @@ Repeat 12-96 times (layers)
 Each layer increases semantic understanding
 Lower: Syntax, Upper: Semantics
 
+### Postional Encoding
+
+Problem: Attention doesn't know position
+Solution: Add positional pattern
+PE(pos, 2i) = sin(pos / 10000^(2i/d_model))
+PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
+Encodes both absolute and relative position
+Allows extrapolation to longer sequences
+
