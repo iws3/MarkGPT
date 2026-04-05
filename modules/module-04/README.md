@@ -1173,3 +1173,12 @@ Weight decay ≠ L2 with adaptive optimizers!
 Typical λ: 0.01-0.1
 Prevents overfitting
 
+### Label Smoothing
+
+One-hot target: [0, 1, 0, 0]
+Smoothed: [0.01, 0.91, 0.01, 0.01] (with ε=0.1)
+Prevents overconfidence
+Regularization effect
+Typical ε: 0.1
+Improves generalization
+
