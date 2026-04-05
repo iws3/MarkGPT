@@ -1292,3 +1292,11 @@ Performance on A: Drops to 10%
 Weights: Optimized away from A
 Challenge: Maintain both
 
+### Elastic Weight Consolidation
+
+Compute parameter importance
+Fisher information matrix
+Penalize changing important params
+Loss = task_loss + λ * Σ F_i * (θ_i - θ_old)^2
+Achieves 80%+ on both tasks
+
