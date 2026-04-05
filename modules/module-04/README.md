@@ -1225,3 +1225,12 @@ Computationally expensive
 Useful for data debugging
 Find adversarial examples
 
+## Domain Adaptation
+
+### Covariate Shift
+
+Train and test: Different input distribution
+Example: Medical text differs from typical
+Solution: Importance reweighting
+Or: Continued pre-training on target
+
