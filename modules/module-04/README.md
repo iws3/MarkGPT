@@ -1132,3 +1132,11 @@ Memory: O(√N) instead of O(N)
 Speed: ~30% slower
 Worth it for batch_size doubling
 
+### Lookahead Optimizer
+
+Keep K slow weights, N fast weights
+Fast updates: Normal gradient descent
+Slow updates: Every K fast steps
+Benefits: More stable, better generalization
+Less sensitive to learning rate
+
