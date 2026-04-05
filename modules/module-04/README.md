@@ -937,3 +937,21 @@ Warmup: 5-10% of total steps
 Weight decay: 0.0-0.1
 Dropout: 0.0-0.3
 
+## Common Pitfalls
+
+1. **Learning rate too high**
+   → loss diverges to NaN
+   → reduce by 10x
+
+2. **Learning rate too low**
+   → loss barely decreases
+   → increase, use warmup
+
+3. **Sequence length too long**
+   → OOM (out of memory)
+   → reduce, use gradient checkpointing
+
+4. **Batch size too small**
+   → noisy gradients, unstable
+   → increase if memory allows
+
