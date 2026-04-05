@@ -1217,3 +1217,11 @@ Expensive to compute (combinatorial)
 Approximations exist (SHAPATTY)
 Gold standard for interpretability
 
+### Influence Functions
+
+Which training examples help/hurt?
+Trace gradient backward in Hessian
+Computationally expensive
+Useful for data debugging
+Find adversarial examples
+
