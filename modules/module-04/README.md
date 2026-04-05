@@ -626,3 +626,15 @@ Stop: Until EOS token
 Beam search: Track multiple hypotheses
 Temperature: Control randomness
 
+## Attention Analysis
+
+### Visualization
+
+Heatmap: Attention weights
+X-axis: Keys (what to attend to)
+Y-axis: Queries (who's attending)
+Color: Weight magnitude
+Reveals learned patterns
+Early layers: Local patterns
+Late layers: Long-range dependencies
+
