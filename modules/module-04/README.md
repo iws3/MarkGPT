@@ -303,3 +303,13 @@ h_t: Hidden state (external output)
 Cell state acts like "conveyor belt"
 Gradient can flow without vanishing.
 
+### Gates: Forget, Input, Output
+
+Three gating mechanisms:
+1. Forget gate: f_t = sigmoid(W_f @ [h_{t-1}; x_t] + b_f)
+   Controls what to discard from c_{t-1}
+2. Input gate: i_t = sigmoid(W_i @ [h_{t-1}; x_t] + b_i)
+   Controls what new info to add
+3. Output gate: o_t = sigmoid(W_o @ [h_{t-1}; x_t] + b_o)
+   Controls what to expose from c_t
+
