@@ -350,3 +350,17 @@ Can we simplify?
 GRU: 2 gates, simpler, 3x fewer parameters
 Similar performance on most tasks
 
+### GRU Gates
+
+Reset gate: r_t = sigmoid(W_r @ [h_{t-1}; x_t] + b_r)
+Controls how much of h_{t-1} to use
+
+Update gate: z_t = sigmoid(W_z @ [h_{t-1}; x_t] + b_z)
+Controls how much of new info vs old
+
+Candidate state:
+h̃_t = tanh(W @ [r_t ⊙ h_{t-1}; x_t] + b)
+
+Final state:
+h_t = (1 - z_t) ⊙ h_{t-1} + z_t ⊙ h̃_t
+
