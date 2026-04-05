@@ -1431,3 +1431,11 @@ Methods: Lottery ticket, fisher pruning
 Result: 40-60% speed improvement
 Can achieve 10:1 compression
 
+### Lottery Ticket Hypothesis
+
+Initialize, train, prune, reset
+Pruned network (lottery ticket) ≈ trained!
+Key: Right initialization + pruning mask
+Explains why networks over-parameterized
+Can prune 90%+ and still work
+
