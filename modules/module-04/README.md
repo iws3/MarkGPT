@@ -1655,3 +1655,15 @@ User consent: Transparent about data
 9. Safety and bias are mandatory, not optional
 10. This field moves fast: stay updated!
 
+**What's Next**
+
+✓ Module-04: Complete (you are here!)
+→ Module-05: Advanced architectures
+→ Module-06: Capstone projects
+→ Research papers (weekly reading)
+→ Contribute to open-source
+→ Publish your own work
+
+You've learned the fundamentals.
+Now build something amazing!
+
