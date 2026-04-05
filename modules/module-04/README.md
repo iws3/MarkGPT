@@ -93,3 +93,11 @@ Output: Generate caption word by word
 h_0 from CNN → fed to RNN
 Each RNN step outputs word token.
 
+### Many-to-Many (e.g., NER, machine translation)
+
+Input: Sequence of N tokens
+Process: RNN processes all
+Output: Sequence of N predictions
+Each time step has input and output.
+Examples: Sequence labeling, translation.
+
