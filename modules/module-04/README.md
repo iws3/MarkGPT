@@ -240,3 +240,13 @@ Standard: h_t = f(W @ [x_t; h_{t-1}])
 No dependency on cell state (in basic RNN).
 Gradient flow during forward pass constrained.
 
+## Sequence Padding and Masking
+
+### Variable Length Sequences
+
+Real sequences: Different lengths
+Batch processing: Need same length
+Solution: Pad short sequences
+Padding token: 0 (special index)
+Sequence lengths: Store actual lengths
+
