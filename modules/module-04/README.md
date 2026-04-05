@@ -1248,3 +1248,11 @@ Only 100 steps sufficient
 Very effective for low-resource tasks
 Can beat full fine-tuning of generic model
 
+### Few-Shot Learning
+
+Meta-learning: Learn to learn
+MAML: Model-agnostic meta-learning
+Update parameters for few examples
+Learn good initialization
+Enables fast adaptation
+
