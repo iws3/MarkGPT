@@ -426,3 +426,13 @@ Just dot product + softmax
 Scale by 1/sqrt(d) for stability
 Very efficient!
 
+## Bidirectional LSTM
+
+### Design
+
+Forward LSTM: Process left to right
+Backward LSTM: Process right to left
+Outputs: [fwd_h_t; bwd_h_t]
+Cannot be used for generation (needs input sequence end)
+Great for tagging, classification
+
