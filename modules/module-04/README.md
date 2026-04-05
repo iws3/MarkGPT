@@ -1371,3 +1371,11 @@ Temperature: Soften distribution
 T=3-20 typical
 Result: 100M student = 90% of 7B teacher
 
+### Architecture Distillation
+
+Distill BERT-large → BERT-small
+6 layers instead of 12
+Result: 40% smaller, 90% accuracy
+Student matches teacher logits + attention
+ALBERT: Parameter sharing in layers
+
