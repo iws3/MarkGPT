@@ -1200,3 +1200,12 @@ Visualization: Color heat map
 Interpretation: Which tokens matter
 Caveat: Not always meaningful for text
 
+### Attention Head Analysis
+
+Query-key dot products
+Visualize as heatmap
+Pattern 1: Attending to next token
+Pattern 2: Attending to same position
+Pattern 3: Positional patterns
+Interpretable but not complete story
+
