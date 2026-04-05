@@ -1156,3 +1156,12 @@ Helps optimization stability
 Alternatives: Square root, exponential
 Important for transformers especially
 
+### Learning Rate Scheduling
+
+Constant: Simple baseline
+Linear decay: Decrease linearly
+Cosine: cos(π * t / T) shaped
+Step: Decay every N steps
+Exponential: Exponential decay
+Empirically: Cosine ≈ linear, both good
+
