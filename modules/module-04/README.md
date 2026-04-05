@@ -839,3 +839,12 @@ Trade-off: Memory for compute
 7B model: ~30GB cache for batch=32
 Worth it: 10x speedup
 
+### Quantization
+
+FP32 → INT8 or INT4
+Model size: 4x smaller
+Inference: 2-3x faster
+Accuracy: 1-5% loss (varies)
+INT4: More aggressive, ~10% loss
+Worth exploring for deployment
+
