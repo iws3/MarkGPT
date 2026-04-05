@@ -489,3 +489,11 @@ Apply to:
 Typical rate: 0.3-0.5
 Prevents overfitting on small datasets
 
+### Learning Rate
+
+RNNs very sensitive to learning rate
+Start with 1e-3
+If diverges: Lower to 1e-4
+Use gradient clipping (max_norm=5.0)
+Warmup beneficial: Linear increase first 5% steps
+
