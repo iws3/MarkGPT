@@ -373,3 +373,18 @@ Use GRU: When compute is limited
 Use LSTM: When data is abundant
 Modern trend: Transformers replace both
 
+## Stacked RNNs
+
+### Multiple Layers
+
+1D: Single RNN layer
+2D: Stack 2 RNN layers
+Output of layer 1 → input of layer 2
+
+Deep encoders: 2-4 layers beneficial
+Each layer computes higher-level features
+Example: Word embeddings → syntax → semantics
+
+Parameters: L * layers
+Training time: ~L * slower
+
