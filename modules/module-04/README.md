@@ -1449,3 +1449,11 @@ Apply standard transformer
 Comparable to CNNs for classification
 Better for downstream tasks
 
+### CLIP: Image-Text
+
+Contrastive learning
+Image encoder and text encoder
+Maximize: sim(image, caption)
+Result: Zero-shot classification
+Foundation for image search
+
