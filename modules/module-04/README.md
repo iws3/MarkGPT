@@ -1006,3 +1006,15 @@ Example: spaCy, BERT
 Typical GPU: 24GB
 So must use quantization or LoRA
 
+## Practical Deployment
+
+### Production Considerations
+
+1. Inference latency: <100ms typical
+2. Throughput: 100+ req/sec
+3. Cost: GPU hours, model storage
+4. Reliability: 99.9% uptime
+5. Monitoring: Accuracy, latency, errors
+6. Updates: New model versions
+7. Compliance: Data privacy, bias
+
