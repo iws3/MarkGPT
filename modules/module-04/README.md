@@ -776,3 +776,11 @@ Output for each token → 4 classes
 CRF layer (optional): Enforce valid tag sequences
 Total params: 110M
 
+### Results
+
+F1 score: 92.4% (strong)
+vs baseline BiLSTM-CRF: 90.2%
+vs rule-based NLP tools: 87%
+Transformers great for structured output
+Context modeling crucial
+
