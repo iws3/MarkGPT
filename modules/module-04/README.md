@@ -811,3 +811,12 @@ Label smoothing: 0.1 (soften targets)
 Data augmentation: Back-translation
 Early stopping: Monitor validation
 
+### Checkpointing
+
+Save model every N steps
+Keep best (by validation metric)
+Enable recovery from failure
+A/B testing different configs
+Typical: Save every 1000 steps
+Keep 3-5 recent checkpoints
+
