@@ -955,3 +955,13 @@ Dropout: 0.0-0.3
    → noisy gradients, unstable
    → increase if memory allows
 
+## ResNets in Transformers
+
+### Residual Connections
+
+x → block_1 → + → LayerNorm → block_2 → +
+Enables very deep networks (96 layers)
+Gradient flows through skip connection
+Each layer: Additive update
+Without residuals: Very hard to train deep
+
