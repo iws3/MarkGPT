@@ -581,3 +581,12 @@ PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
 Encodes both absolute and relative position
 Allows extrapolation to longer sequences
 
+### Feed-Forward Network
+
+2-layer MLP between attention
+Expands: d_model → d_ff → d_model
+d_ff = 4 * d_model typical
+Applied position-wise (all tokens independently)
+ReLU activation
+Adds non-linearity, capacity
+
