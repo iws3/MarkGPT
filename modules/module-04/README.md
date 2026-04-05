@@ -388,3 +388,11 @@ Example: Word embeddings → syntax → semantics
 Parameters: L * layers
 Training time: ~L * slower
 
+### Residual Connections in RNNs
+
+Very deep RNNs: Training becomes hard
+Add skip connections: x_{l+2} = f(x_{l+1}) + x_l
+Enables training 4+ layer RNNs
+Helps gradient flow
+Used in cutting-edge models.
+
