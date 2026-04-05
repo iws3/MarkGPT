@@ -1165,3 +1165,11 @@ Step: Decay every N steps
 Exponential: Exponential decay
 Empirically: Cosine ≈ linear, both good
 
+### Weight Decay & L2 Regularization
+
+Standard L2: Add 0.5 * λ * ||w||^2 to loss
+AdamW: Decouple weight decay from gradient
+Weight decay ≠ L2 with adaptive optimizers!
+Typical λ: 0.01-0.1
+Prevents overfitting
+
