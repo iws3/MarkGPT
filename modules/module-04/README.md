@@ -638,3 +638,12 @@ Reveals learned patterns
 Early layers: Local patterns
 Late layers: Long-range dependencies
 
+### Interpretability
+
+What does attention attend to?
+Head 1: Syntactic relationships
+Head 2: Semantic relationships
+Head 3: Position information
+Useful but not ground truth
+Single value doesn't explain decision
+
