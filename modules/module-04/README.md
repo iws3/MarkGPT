@@ -867,3 +867,13 @@ Scaling: 8 GPUs → 8x speedup (95%)
 Scaling: 64 GPUs → 50x speedup (78%)
 Communication overhead increases
 
+## Debugging Guide
+
+### Check Data Loading
+
+Print sample batch
+Verify shapes
+Check for NaN/Inf
+Verify tokenization
+Look for label issues
+
