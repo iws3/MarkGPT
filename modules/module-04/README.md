@@ -1079,3 +1079,29 @@ Module-05 continues:
 - PyTorch Lightning
 - TensorFlow Hub
 
+## Module 04 Summary
+
+**What You Learned**
+- RNN fundamentals and limitations
+- LSTMs and GRUs for long-term memory
+- Attention mechanisms and their power
+- Transformers: The breakthrough architecture
+- How to train and deploy sequence models
+- Real-world case studies
+- Production best practices
+
+**What You Can Now Build**
+- Machine translation systems
+- Question answering
+- Chatbots with context
+- Text generation
+- Named entity recognition
+- Any NLP task!
+
+**How This Connects**
+Module-03: Neural networks
+Module-04: Sequence models (this module)
+Module-05: Advanced topics
+Module-06: Capstone (put it all together)
+
+You're ready for production NLP work!
