@@ -1361,3 +1361,13 @@ Mahalanobis distance: Distance from training
 Useful for safety-critical systems
 Important for production deployment
 
+## Efficiency: Model Distillation
+
+### Knowledge Distillation
+
+Large teacher → small student
+Student learns soft targets from teacher
+Temperature: Soften distribution
+T=3-20 typical
+Result: 100M student = 90% of 7B teacher
+
