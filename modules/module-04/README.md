@@ -607,3 +607,13 @@ Causality: Can't attend to future tokens
 Masked attention: Mask future positions to -inf
 Enables generation one token at a time
 
+## Sequence-to-Sequence with Transformers
+
+### Training
+
+Encoder: Process full source
+Decoder: Process full target (during training)
+Loss: Cross-entropy on target tokens
+Efficiency: Fully parallel, train in hours not days
+MarkGPT: Uses this architecture
+
