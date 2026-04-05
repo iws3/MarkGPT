@@ -1334,3 +1334,13 @@ Train on both natural + adversarial
 Result: Robust to perturbations
 Cost: ~3x slower training
 
+## Uncertainty Quantification
+
+### Model Confidence
+
+Max softmax: Simple but miscalibrated
+Better use: Temperature scaling
+Output prob / T where T ≈ 1.5
+Helps calibration
+On OOD data: Confidence no good
+
