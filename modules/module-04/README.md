@@ -449,3 +449,13 @@ outputs, (h_n, c_n) = lstm(x)  # x: (batch, T, input_size)
 # c_n: (num_layers*2, batch, hidden)
 ```
 
+### TensorFlow
+
+```python
+lstm = tf.keras.layers.LSTM(hidden_size, return_sequences=True)
+outputs = lstm(x)  # x: (batch, T, input_size)
+# outputs: (batch, T, hidden_size)
+# For last output: outputs[:, -1, :]
+# Bidirectional: Bidirectional(LSTM(...))
+```
+
