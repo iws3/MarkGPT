@@ -313,3 +313,15 @@ Three gating mechanisms:
 3. Output gate: o_t = sigmoid(W_o @ [h_{t-1}; x_t] + b_o)
    Controls what to expose from c_t
 
+### Cell State Update
+
+Candidate cell state:
+c̃_t = tanh(W_c @ [h_{t-1}; x_t] + b_c)
+
+Cell state update:
+c_t = f_t ⊙ c_{t-1} + i_t ⊙ c̃_t
+⊙ denotes element-wise multiplication
+
+Hidden state:
+h_t = o_t ⊙ tanh(c_t)
+
