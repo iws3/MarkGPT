@@ -1148,3 +1148,11 @@ BERT fine-tuning: 0.1-0.5 ratio
 Example: Lower LR 1e-5, upper LR 1e-4
 Better transfer learning
 
+### Warmup Strategies
+
+Linear warmup: 0 → LR over fraction of steps
+Helps optimization stability
+10% of total steps typical
+Alternatives: Square root, exponential
+Important for transformers especially
+
