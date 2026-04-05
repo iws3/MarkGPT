@@ -268,3 +268,11 @@ Decoder: Initialize with h_T, generate output
 Limitation: All info in single vector
 Better approach: Use attention (module-05).
 
+### Autoregressive Generation
+
+At test time: Generate one token at a time
+Use own output as next input
+Temperature: Control randomness
+Sampling vs beam search tradeoffs
+Exposure bias: Train vs test mismatch.
+
