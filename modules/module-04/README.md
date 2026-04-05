@@ -232,3 +232,11 @@ Backward pass: ← ← ← ←
 Output at t: [fwd_h_t; bwd_h_t]
 Dimension: 2 * hidden_dim
 
+## Peephole Connections
+
+### With RNN
+
+Standard: h_t = f(W @ [x_t; h_{t-1}])
+No dependency on cell state (in basic RNN).
+Gradient flow during forward pass constrained.
+
