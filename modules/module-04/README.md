@@ -676,3 +676,12 @@ English: 80K vocab, German: 80K vocab
 Average length: 25 tokens
 Test: 3000 sentences
 
+### Model Architecture
+
+Encoder-Decoder Transformer
+6 layers each
+512 hidden dimension
+8 attention heads
+2048 FFN dimension
+Total: 65M parameters
+
