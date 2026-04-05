@@ -1353,3 +1353,11 @@ Forward pass N times, average
 Get uncertainty from variance
 Expensive but principled
 
+### Out-of-Distribution Detection
+
+Detect when input unusual
+Methods: Max probability, energy-based
+Mahalanobis distance: Distance from training
+Useful for safety-critical systems
+Important for production deployment
+
