@@ -111,3 +111,11 @@ Each ∂h_t/∂h_{t-1} < 1 typically
 Product of T < 1 terms → exponentially small
 Gradient for h_0 becomes nearly 0.
 
+### Why This Matters
+
+Early inputs get negligible gradients.
+Model forgets distant past (effective window ~5-20 steps).
+Long-range dependencies can't be learned.
+Example: Pronoun in position 1, reference at position 50.
+RNN unlikely to learn this dependency.
+
