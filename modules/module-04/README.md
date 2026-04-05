@@ -551,3 +551,13 @@ Captures positional relationships
 Foundation for Transformers
 Used in BERT, GPT, etc.
 
+## Transformers: The Game Changer
+
+### Motivation
+
+RNN/LSTM: Sequential, hard to parallelize
+Transformers: Fully parallelizable
+2017: "Attention is All You Need" paper
+Became foundation of modern NLP
+100x more efficient training
+
