@@ -741,3 +741,12 @@ Average length: 250 tokens
 Train: 25K, Test: 5K, Val: 10K
 Very imbalanced words (stop words common)
 
+### Fine-tuning Approach
+
+Start with pre-trained BERT
+Remove language modeling head
+Add classification head: [CLS] → dense → 2 classes
+Fine-tune 2-5 epochs
+Learning rate: 2e-5 (small!)
+Batch size: 32
+
