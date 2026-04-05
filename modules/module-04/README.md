@@ -1105,3 +1105,13 @@ Module-05: Advanced topics
 Module-06: Capstone (put it all together)
 
 You're ready for production NLP work!
+## Advanced Optimization Techniques
+
+### Gradient Accumulation
+
+Simulate larger batch without OOM
+Process N small batches, accumulate gradients
+Update every N steps
+Effect: Same as batch_size * N
+Ideal for sequences with large token count
+
