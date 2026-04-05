@@ -1326,3 +1326,11 @@ Example: Change 1-2 words
 Model thinks should change sentiment
 Shows model brittleness
 
+### Defense: Adversarial Training
+
+Generate adversarial examples
+Augment training data
+Train on both natural + adversarial
+Result: Robust to perturbations
+Cost: ~3x slower training
+
