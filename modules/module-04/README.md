@@ -1140,3 +1140,11 @@ Slow updates: Every K fast steps
 Benefits: More stable, better generalization
 Less sensitive to learning rate
 
+### Layer-wise Learning Rates
+
+Lower layers learn slower (foundation)
+Higher layers learn faster (task-specific)
+BERT fine-tuning: 0.1-0.5 ratio
+Example: Lower LR 1e-5, upper LR 1e-4
+Better transfer learning
+
