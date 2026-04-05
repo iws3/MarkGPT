@@ -1256,3 +1256,13 @@ Update parameters for few examples
 Learn good initialization
 Enables fast adaptation
 
+## Multilingual Models
+
+### mBERT Design
+
+104 languages in single model
+Shared vocabulary across languages
+WordPiece tokenization
+110K tokens total (vs 30K monolingual)
+Trade-off: More tokens, covers more
+
