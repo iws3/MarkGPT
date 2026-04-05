@@ -497,3 +497,13 @@ If diverges: Lower to 1e-4
 Use gradient clipping (max_norm=5.0)
 Warmup beneficial: Linear increase first 5% steps
 
+## Practical Tips
+
+- Start with 2 layers, expand if needed
+- Hidden size: 128-512 typical
+- Sequence length: 32-256 for NLP
+- Longer = more memory, smaller batches
+- Check gradient flow: norms should be O(0.1-1.0)
+- Monitor validation loss during training
+- Save checkpoint with best validation
+
