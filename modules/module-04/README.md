@@ -666,3 +666,13 @@ PP=100: Like choosing from ~100 equally likely tokens
 MarkGPT: Achieves 8-15 on different domains
 Baseline: 50-100 typical
 
+## Machine Translation: Case Study
+
+### Dataset
+
+WMT14 English-German
+4.5M sentence pairs
+English: 80K vocab, German: 80K vocab
+Average length: 25 tokens
+Test: 3000 sentences
+
