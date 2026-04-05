@@ -703,3 +703,13 @@ vs phrase-based SMT: 23 BLEU
 5 point improvement!
 Transformers surpassed SMT in 2017
 
+## Question Answering: Case Study
+
+### SQuAD Dataset
+
+100K questions on Wikipedia passages
+Answer: Span in passage
+Train: 80K, Test: 10K
+Avg passage: 150 tokens, Avg question: 10 tokens
+Avg answer span: 3 tokens
+
