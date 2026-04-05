@@ -1629,3 +1629,16 @@ User consent: Transparent about data
 9. Interpretability methods
 10. Production deployment
 
+**Practical Skills**
+
+✓ Implement RNN/LSTM from scratch
+✓ Debug sequence model training
+✓ Fine-tune transformers
+✓ Implement beam search
+✓ Analyze attention patterns
+✓ Apply gradient clipping
+✓ Use batch normalization
+✓ Optimize for deployment
+✓ Monitor in production
+✓ Mitigate bias
+
