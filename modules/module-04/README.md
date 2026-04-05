@@ -101,3 +101,13 @@ Output: Sequence of N predictions
 Each time step has input and output.
 Examples: Sequence labeling, translation.
 
+## The Vanishing Gradient Problem
+
+### The Issue
+
+BPTT: Chain rule multiplies gradients
+∂L/∂h_0 = (∂L/∂h_T) * (∂h_T/∂h_{T-1}) * ... * (∂h_1/∂h_0)
+Each ∂h_t/∂h_{t-1} < 1 typically
+Product of T < 1 terms → exponentially small
+Gradient for h_0 becomes nearly 0.
+
