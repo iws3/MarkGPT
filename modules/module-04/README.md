@@ -1549,3 +1549,13 @@ Spot instances: 70% cheaper (interruptible)
 Caching: Reduce redundant computation
 Distillation: Smaller model for simple queries
 
+## Safety and Bias
+
+### Bias Detection
+
+Stereotype tests: Bias-in-Bios
+Template-based: Check output variance
+Manual review: Human evaluation
+Demographic parity: Similar across groups
+Equalized odds: Similar errors across groups
+
