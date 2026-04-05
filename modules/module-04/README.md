@@ -731,3 +731,13 @@ Model actually beats humans slightly!
 SQuAD v2: Adds unanswerable questions
 Model performance: 83%
 
+## Sentiment Classification: Case Study
+
+### Dataset Setup
+
+40K movie reviews (binary)
+Positive: 20K, Negative: 20K
+Average length: 250 tokens
+Train: 25K, Test: 5K, Val: 10K
+Very imbalanced words (stop words common)
+
