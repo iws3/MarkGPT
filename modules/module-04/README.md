@@ -599,3 +599,11 @@ Post-LN: Slightly better final performance
 Modern: Usually Pre-LN
 Normalizes each sample independently
 
+### Decoder with Cross-Attention
+
+Self-attention: On target sequence
+Cross-attention: On encoder outputs
+Causality: Can't attend to future tokens
+Masked attention: Mask future positions to -inf
+Enables generation one token at a time
+
