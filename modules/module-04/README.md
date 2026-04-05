@@ -1115,3 +1115,11 @@ Update every N steps
 Effect: Same as batch_size * N
 Ideal for sequences with large token count
 
+### Mixed Precision Training
+
+Master weights in FP32 (stability)
+Computation in FP16 (speed)
+Loss scaling: Multiply by 2^16 (prevent underflow)
+Result: 2-3x speedup, <1% accuracy loss
+Essential for large models
+
