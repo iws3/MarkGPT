@@ -909,3 +909,16 @@ Train ≈ val: Good generalization
 - Easy to scale to billions parameters
 
 Winner: Transformers for 2017-2026
+## State-of-Art Timeline
+
+2016: Seq2seq + Attention
+2017: Transformers published
+2018: BERT pre-training
+2019: GPT-2 shows scaling laws
+2020: GPT-3 (175B parameters)
+2022: ChatGPT (fine-tuned GPT-3)
+2023: GPT-4, Claude, Gemini
+2024: Open weights: LLaMA, Mistral
+2025: Trillion parameter models emerging
+
+Module-04 foundation for all modern NLP!
