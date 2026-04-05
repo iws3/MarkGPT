@@ -1036,3 +1036,15 @@ Test end-to-end pipeline
 From raw text to predictions
 Verify post-processing
 
+## Module 04 Capstone Project
+
+**Build a Chatbot**
+
+1. Fine-tune seq2seq model on dialogue data
+2. Implement beam search decoding
+3. Add context management (remember past)
+4. Evaluate with human raters
+5. Deploy as API
+6. Write report analyzing errors
+
+Challenge: Make it coherent and engaging!
