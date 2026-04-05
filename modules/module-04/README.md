@@ -478,3 +478,14 @@ Each decoder step:
 4. Concatenate with decoder input for next step
 Very powerful (translation baseline ~30 BLEU).
 
+## Common Practices
+
+### Dropout
+
+Apply to:
+- Input x_t
+- Between LSTM layers
+- NOT between time steps (breaks temporal coherence)
+Typical rate: 0.3-0.5
+Prevents overfitting on small datasets
+
