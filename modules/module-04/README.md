@@ -1123,3 +1123,12 @@ Loss scaling: Multiply by 2^16 (prevent underflow)
 Result: 2-3x speedup, <1% accuracy loss
 Essential for large models
 
+### Gradient Checkpointing
+
+Trade: Compute for memory
+Forward: Don't save activations
+Backward: Recompute as needed
+Memory: O(√N) instead of O(N)
+Speed: ~30% slower
+Worth it for batch_size doubling
+
