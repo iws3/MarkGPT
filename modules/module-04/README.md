@@ -976,3 +976,14 @@ Independent of batch size
 Works better for variable lengths
 More stable numerically
 
+## Vocabulary and Tokenization
+
+### Byte-Pair Encoding (BPE)
+
+Start: All bytes (256 tokens)
+Merge: Most frequent pair
+Repeat: Until vocab size reached
+Result: Subword tokens
+Typical vocab: 50K tokens
+MarkGPT: Uses custom BPE
+
