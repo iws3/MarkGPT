@@ -214,3 +214,13 @@ Eigenvalues = 1 (no growth/decay)
 Prevents gradient explosion/vanishing initially.
 Recommended for RNNs.
 
+## Bidirectional RNNs
+
+### Motivation
+
+Forward RNN: Process left to right
+Backward RNN: Process right to left
+Concatenate outputs: [h_fwd; h_bwd]
+Access context from both directions.
+Improves performance on tagging tasks.
+
