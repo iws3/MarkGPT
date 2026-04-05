@@ -768,3 +768,11 @@ Sequence labeling task
 Dataset: 15K training sentences
 Average: 15 tokens per sentence
 
+### Model Architecture
+
+BERT encoder: 12 layers
+Token classification head:
+Output for each token → 4 classes
+CRF layer (optional): Enforce valid tag sequences
+Total params: 110M
+
