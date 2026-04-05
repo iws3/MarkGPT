@@ -1397,3 +1397,11 @@ Fastest: No retraining
 Accuracy: 0.5-2% loss (INT8), 10%+ (INT4)
 Easy to implement
 
+### Quantization-Aware Training
+
+Simulate quantization during training
+Model learns robust representations
+INT4 with QAT: 5% loss vs 25% PTQ
+Training time: 2x
+Worth it for deployment
+
