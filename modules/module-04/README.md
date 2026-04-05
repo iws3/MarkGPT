@@ -803,3 +803,11 @@ Warmup prevents divergence
 Decay helps convergence
 Half life: 50K steps typical
 
+### Regularization
+
+Dropout: 0.1 in attention, FFN
+Weight decay: 0.01 typical
+Label smoothing: 0.1 (soften targets)
+Data augmentation: Back-translation
+Early stopping: Monitor validation
+
