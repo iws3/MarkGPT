@@ -119,3 +119,11 @@ Long-range dependencies can't be learned.
 Example: Pronoun in position 1, reference at position 50.
 RNN unlikely to learn this dependency.
 
+### Exploding Gradients (Opposite Problem)
+
+If ∂h_t/∂h_{t-1} > 1:
+Product of T > 1 terms → exponentially large
+Gradients overflow to NaN/Inf
+Training becomes unstable.
+Less common than vanishing but worse when it happens.
+
