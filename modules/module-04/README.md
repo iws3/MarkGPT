@@ -333,3 +333,11 @@ Much better gradient flow than standard RNN
 Allows gradients to propagate 100+ steps
 Solves vanishing gradient problem!
 
+### LSTM Advantages
+
+Long-range dependencies: Can learn 100-200 step dependencies
+Forget gate: Can selectively discard info
+Input gate: Can control what to remember
+Output gate: Can control what to reveal
+Trade-off: 4x parameters vs standard RNN
+
