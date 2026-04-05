@@ -250,3 +250,11 @@ Solution: Pad short sequences
 Padding token: 0 (special index)
 Sequence lengths: Store actual lengths
 
+### Masking
+
+During forward: Process padded positions
+During loss: Ignore padded positions
+Loss = sum(loss[i] * mask[i]) / sum(mask)
+Prevents gradients from padding tokens.
+Attention:  Mask with -inf (softmax → 0).
+
