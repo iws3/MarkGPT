@@ -258,3 +258,13 @@ Loss = sum(loss[i] * mask[i]) / sum(mask)
 Prevents gradients from padding tokens.
 Attention:  Mask with -inf (softmax → 0).
 
+## Common RNN Patterns
+
+### Encoder-Decoder (No Attention)
+
+Encoder: Process input → final h_T
+h_T: Summary of entire input
+Decoder: Initialize with h_T, generate output
+Limitation: All info in single vector
+Better approach: Use attention (module-05).
+
