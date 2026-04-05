@@ -146,3 +146,13 @@ If norm > max_norm: rescale.
 Apply update.
 Handles both explosion and (partially) vanishing.
 
+## Solutions: Better Activation Functions
+
+### ReLU in RNNs
+
+tanh: Saturates, derivative → 0
+ReLU: Linear on positive side, derivative = 1
+Helps gradients flow better.
+But can have dying ReLU problem.
+ELU/GELU: Smooth, no saturation.
+
