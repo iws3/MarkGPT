@@ -85,3 +85,11 @@ Output: Only use final h_T for classification
 Loss computes only on last output.
 Gradient flows backward through all steps.
 
+### One-to-Many (e.g., image captioning)
+
+Input: Single image
+Process: Encode to h_0
+Output: Generate caption word by word
+h_0 from CNN → fed to RNN
+Each RNN step outputs word token.
+
