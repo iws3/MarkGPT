@@ -66,3 +66,12 @@ Hidden state carries information from past.
 
 Processing sequences: One element at a time
 Weights shared across time steps (parameter efficiency).
+### Hidden State and Time Unrolling
+
+h_t = tanh(W_h @ h_{t-1} + W_x @ x_t + b)
+o_t = W_o @ h_t + b_o
+
+Time unrolling: Unfold RNN for T time steps
+Creates deep feedforward network (depth = sequence length)
+Backprop through time (BPTT): Chain rule across time.
+
