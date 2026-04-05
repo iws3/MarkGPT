@@ -794,3 +794,12 @@ Typical: 16-64 for classification
 Typical: 32-256 for LM
 Memory: Scales with batch_size * seq_len
 
+### Learning Rate Schedules
+
+Linear warmup: 0 → LR over 10% steps
+Then constant: Stay at LR
+Or decay: cos(...) decreasing
+Warmup prevents divergence
+Decay helps convergence
+Half life: 50K steps typical
+
