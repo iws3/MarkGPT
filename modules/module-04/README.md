@@ -138,3 +138,11 @@ Rescales large gradients.
 Prevents explosion.
 Threshold: 1.0 or 5.0 typical.
 
+### Implementation
+
+Compute gradients as usual.
+Compute L2 norm: sqrt(sum of g^2).
+If norm > max_norm: rescale.
+Apply update.
+Handles both explosion and (partially) vanishing.
+
