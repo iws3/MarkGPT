@@ -1182,3 +1182,13 @@ Regularization effect
 Typical ε: 0.1
 Improves generalization
 
+## Interpretability Deep Dive
+
+### Probing Tasks
+
+Train classifier on hidden states
+If high accuracy: Layer encodes feature
+Example: Predict POS from h_t
+Result: Earlier layers = syntax, later = semantics
+Reveals learned representations
+
