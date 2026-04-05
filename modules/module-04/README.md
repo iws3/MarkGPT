@@ -1457,3 +1457,11 @@ Maximize: sim(image, caption)
 Result: Zero-shot classification
 Foundation for image search
 
+### Speech-to-Text
+
+Wav2Vec: Self-supervised speech
+HuBERT: Discrete speech units
+Transformers for speech: Conformer
+Combined with text: Encoder-decoder
+End-to-end speech recognition
+
