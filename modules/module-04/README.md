@@ -1274,3 +1274,11 @@ Magic: Shared embedding space
 Better with similar languages
 Enables low-resource NLP
 
+### Language-specific Fine-tuning
+
+Start: mBERT (multilingual)
+Fine-tune: On target language data
+Effect: Specialize to language
+Performance: Often better than monolingual
+Due to multilingual pre-training signal
+
