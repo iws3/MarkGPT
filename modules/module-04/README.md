@@ -396,3 +396,12 @@ Enables training 4+ layer RNNs
 Helps gradient flow
 Used in cutting-edge models.
 
+## Attention in RNNs
+
+### Problem: Bottleneck
+
+Encoder outputs h_T (single vector)
+Must contain all input information
+Problematic for long sequences (100+ tokens)
+Solution: Use all h_1, h_2, ..., h_T
+
