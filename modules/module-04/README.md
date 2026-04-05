@@ -276,3 +276,12 @@ Temperature: Control randomness
 Sampling vs beam search tradeoffs
 Exposure bias: Train vs test mismatch.
 
+## Practical Considerations
+
+### Sequence Length
+
+Very long sequences: Truncated BPTT
+Typical: 50-512 tokens
+Maximum: GPU memory constraint
+Tradeoff: Longer = more context, slower training
+
