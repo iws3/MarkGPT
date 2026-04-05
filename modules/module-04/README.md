@@ -1266,3 +1266,11 @@ WordPiece tokenization
 110K tokens total (vs 30K monolingual)
 Trade-off: More tokens, covers more
 
+### Cross-lingual Transfer
+
+Train on English, test on Hindi
+Transfer quality: 80%+ on many pairs
+Magic: Shared embedding space
+Better with similar languages
+Enables low-resource NLP
+
