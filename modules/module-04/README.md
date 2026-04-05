@@ -1413,3 +1413,13 @@ FFN: INT4
 Balance: (int4 gradual decrement)
 Result: Optimal size-accuracy trade-off
 
+## Efficiency: Pruning
+
+### Magnitude Pruning
+
+Remove weights with small magnitude
+Simple to implement
+Result: 30-50% sparsity
+Inference: Hard to accelerate (unstructured)
+Better with hardware support
+
