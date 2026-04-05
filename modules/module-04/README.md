@@ -1595,3 +1595,22 @@ User consent: Transparent about data
 6. Steering: Control model behavior
 7. Hardware: Custom chips for LLMs
 
+## Capstone: End-to-End System
+
+**Project Requirements**
+
+1. Data collection: Scrape or download
+2. Preprocessing: Tokenization, cleaning
+3. Training: Fine-tune on domain
+4. Evaluation: Metrics + human eval
+5. Optimization: Quantize, distill, or prune
+6. Deployment: API with monitoring
+7. Documentation: Write clear guide
+
+**Suggested Tasks**
+- Chatbot fine-tuned on your domain
+- Code generation from docstrings
+- Summarization of long documents
+- Translation to low-resource language
+- Question answering on custom knowledge base
+
