@@ -987,3 +987,12 @@ Result: Subword tokens
 Typical vocab: 50K tokens
 MarkGPT: Uses custom BPE
 
+### Sentence Piece
+
+Similar to BPE
+Works directly on text
+No need for initial word split
+Better for non-Latin scripts
+Used in many models
+Example: spaCy, BERT
+
