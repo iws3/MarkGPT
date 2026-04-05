@@ -617,3 +617,12 @@ Loss: Cross-entropy on target tokens
 Efficiency: Fully parallel, train in hours not days
 MarkGPT: Uses this architecture
 
+### Inference
+
+Encoder: Process source (once)
+Decoder: Generate token by token
+Feed own output as next input
+Stop: Until EOS token
+Beam search: Track multiple hypotheses
+Temperature: Control randomness
+
