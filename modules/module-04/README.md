@@ -1567,3 +1567,11 @@ Constraints: Fairness-aware objectives
 Post-processing: Adjust predictions
 Better: Combine approaches
 
+### Harmful Content
+
+Filter: Block known harmful patterns
+Classifiers: Detect unsafe outputs
+Human review: High-risk cases
+Rate limiting: Prevent attack sequences
+Logging: Track for improvement
+
