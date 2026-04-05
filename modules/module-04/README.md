@@ -1423,3 +1423,11 @@ Result: 30-50% sparsity
 Inference: Hard to accelerate (unstructured)
 Better with hardware support
 
+### Structured Pruning
+
+Remove entire neurons/channels
+Hard to determine importance
+Methods: Lottery ticket, fisher pruning
+Result: 40-60% speed improvement
+Can achieve 10:1 compression
+
