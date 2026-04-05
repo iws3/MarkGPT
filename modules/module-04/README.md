@@ -1559,3 +1559,11 @@ Manual review: Human evaluation
 Demographic parity: Similar across groups
 Equalized odds: Similar errors across groups
 
+### Bias Mitigation
+
+Data: Balance training set
+Sampling: Over/under-sample groups
+Constraints: Fairness-aware objectives
+Post-processing: Adjust predictions
+Better: Combine approaches
+
