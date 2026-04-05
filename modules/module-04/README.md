@@ -1642,3 +1642,16 @@ User consent: Transparent about data
 ✓ Monitor in production
 ✓ Mitigate bias
 
+**Key Insights**
+
+1. Sequence models need careful gradient management
+2. Attention is more powerful than we expected
+3. Transformers: Fully parallelizable = game changer
+4. Transfer learning works remarkably well
+5. Scaling laws predict future progress
+6. Data quality matters more than size
+7. Interpretability is hard but important
+8. Production is 10x harder than research
+9. Safety and bias are mandatory, not optional
+10. This field moves fast: stay updated!
+
