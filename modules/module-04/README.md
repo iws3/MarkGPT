@@ -1300,3 +1300,11 @@ Penalize changing important params
 Loss = task_loss + λ * Σ F_i * (θ_i - θ_old)^2
 Achieves 80%+ on both tasks
 
+### Replay Methods
+
+Keep some examples from task A
+Mix with task B during training
+Simple: Just replay
+Effective: Prevents catastrophic forgetting
+Memory-efficient: Store embeddings not raw data
+
