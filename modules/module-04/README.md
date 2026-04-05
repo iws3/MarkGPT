@@ -647,3 +647,13 @@ Head 3: Position information
 Useful but not ground truth
 Single value doesn't explain decision
 
+## Language Modeling
+
+### Task Definition
+
+Predict next token given context
+P(w_t | w_1, ..., w_{t-1})
+Unsupervised pretraining
+Foundation for fine-tuning
+GPT trained this way
+
