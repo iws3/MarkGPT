@@ -364,3 +364,12 @@ h̃_t = tanh(W @ [r_t ⊙ h_{t-1}; x_t] + b)
 Final state:
 h_t = (1 - z_t) ⊙ h_{t-1} + z_t ⊙ h̃_t
 
+### LSTM vs GRU
+
+LSTM: Better with complex patterns
+GRU: Faster, fewer parameters
+Empirically: Often similar performance
+Use GRU: When compute is limited
+Use LSTM: When data is abundant
+Modern trend: Transformers replace both
+
