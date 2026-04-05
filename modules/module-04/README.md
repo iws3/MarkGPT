@@ -722,3 +722,12 @@ Add task-specific layers:
 - End span prediction
 Span = argmax(start) to argmax(end)
 
+### Results
+
+EM (Exact Match): 85.1%
+F1 Score: 91.8%
+vs human performance: 91.2% F1
+Model actually beats humans slightly!
+SQuAD v2: Adds unanswerable questions
+Model performance: 83%
+
