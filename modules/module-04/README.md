@@ -561,3 +561,14 @@ Transformers: Fully parallelizable
 Became foundation of modern NLP
 100x more efficient training
 
+### Encoder Architecture
+
+1. Multi-head self-attention
+2. Feed-forward network
+3. Layer normalization
+4. Residual connections
+Repeat 12-96 times (layers)
+
+Each layer increases semantic understanding
+Lower: Syntax, Upper: Semantics
+
