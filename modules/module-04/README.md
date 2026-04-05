@@ -750,3 +750,11 @@ Fine-tune 2-5 epochs
 Learning rate: 2e-5 (small!)
 Batch size: 32
 
+### Results
+
+Accuracy: 91.3% (vs LSTM: 87%)
+Training: 2 hours (vs LSTM: 6 hours)
+Inference: 500 samples/sec GPU
+Transfer learning wins!
+Pre-training on 3B tokens helps
+
