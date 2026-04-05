@@ -1511,3 +1511,14 @@ KV-cache: Avoid recomputation
 Continuous batching: Remove finished sequences
 Result: 100x speedup vs naive
 
+## Production Deployment
+
+### API Design
+
+POST /generate
+Input: prompt, max_tokens, temperature
+Output: text, tokens, metadata
+Rate limiting: Prevent abuse
+Auth: API key validation
+Versioning: Multiple model versions
+
