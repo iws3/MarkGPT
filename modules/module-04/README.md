@@ -341,3 +341,12 @@ Input gate: Can control what to remember
 Output gate: Can control what to reveal
 Trade-off: 4x parameters vs standard RNN
 
+## GRU: A Simpler Alternative
+
+### Motivation
+
+LSTM: 4 gates, complex, many parameters
+Can we simplify?
+GRU: 2 gates, simpler, 3x fewer parameters
+Similar performance on most tasks
+
