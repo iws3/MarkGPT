@@ -1493,3 +1493,13 @@ Batch size: 512 tokens * 64
 Learning rate: 0.0001 with warmup
 Gradient accumulation: Steps=8
 
+### Model Architecture
+
+32 transformer layers
+4096 hidden dimension
+32 attention heads
+16384 FFN dimension
+RoPE positional encoding
+Pre-normalization (LayerNorm before)
+Total: 7B parameters
+
