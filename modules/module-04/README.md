@@ -75,3 +75,13 @@ Time unrolling: Unfold RNN for T time steps
 Creates deep feedforward network (depth = sequence length)
 Backprop through time (BPTT): Chain rule across time.
 
+## Sequence to Output
+
+### Many-to-One (e.g., sentiment)
+
+Input: Sequence of 100 words
+Process: Apply RNN at each step
+Output: Only use final h_T for classification
+Loss computes only on last output.
+Gradient flows backward through all steps.
+
