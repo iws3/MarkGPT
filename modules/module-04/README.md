@@ -285,3 +285,11 @@ Typical: 50-512 tokens
 Maximum: GPU memory constraint
 Tradeoff: Longer = more context, slower training
 
+### Batch Size
+
+Standard: 32-128
+Affects gradient estimate quality
+Memory per sequence * batch_size
+Typical GPU: batch_size=64 for seq_len=512
+Larger batch = noisier gradients
+
