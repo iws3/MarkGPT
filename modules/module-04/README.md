@@ -55,3 +55,14 @@ resources/     - Additional readings and links
 ## Next Module
 
 See ../module-0$((i+1))/README.md for the next module.
+## Recurrent Neural Networks - Fundamentals
+
+### What is a Recurrent Network?
+
+Standard feedforward: x → h → output
+Recurrent: x_t → h_t → output_t
+h_t depends on x_t AND h_{t-1}
+Hidden state carries information from past.
+
+Processing sequences: One element at a time
+Weights shared across time steps (parameter efficiency).
