@@ -922,3 +922,18 @@ Winner: Transformers for 2017-2026
 2025: Trillion parameter models emerging
 
 Module-04 foundation for all modern NLP!
+## Hyperparameter Reference
+
+**Model Size**
+Hidden: 256-4096
+Layers: 2-96
+Heads: 4-32
+FFN: 4*hidden typical
+
+**Training**
+Learning rate: 1e-5 to 1e-3
+Batch size: 8-4096
+Warmup: 5-10% of total steps
+Weight decay: 0.0-0.1
+Dropout: 0.0-0.3
+
