@@ -1344,3 +1344,12 @@ Output prob / T where T ≈ 1.5
 Helps calibration
 On OOD data: Confidence no good
 
+### Bayesian Deep Learning
+
+Uncertainty over weights
+Variational inference
+Approximation: MC Dropout
+Forward pass N times, average
+Get uncertainty from variance
+Expensive but principled
+
