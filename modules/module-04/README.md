@@ -1379,3 +1379,11 @@ Result: 40% smaller, 90% accuracy
 Student matches teacher logits + attention
 ALBERT: Parameter sharing in layers
 
+### Task-specific Distillation
+
+Distill-BERT: Fine-tune then distill
+Results: 2-4x faster inference
+Minimal accuracy loss
+Great for production
+Can stack multiple distillations
+
