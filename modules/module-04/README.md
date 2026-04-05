@@ -325,3 +325,11 @@ c_t = f_t ⊙ c_{t-1} + i_t ⊙ c̃_t
 Hidden state:
 h_t = o_t ⊙ tanh(c_t)
 
+### Gradient Flow Through Cell State
+
+∂c_t / ∂c_{t-1} = f_t (Hadamard product)
+f_t values in (0, 1) but not multiplication of many terms
+Much better gradient flow than standard RNN
+Allows gradients to propagate 100+ steps
+Solves vanishing gradient problem!
+
