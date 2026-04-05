@@ -172,3 +172,18 @@ class SimpleRNN:
     return stack(outputs)
 ```
 
+### Backpropagation Through Time
+
+```python
+def backward(self, grad_output):  # (T, batch, out_dim)
+  dWx, dWh, dWo = 0, 0, 0
+  dh_next = 0
+  for t in reversed(range(T)):
+    dh = (grad_output[t] @ Wo.T + dh_next)
+    dWo += h[t].T @ grad_output[t]
+    dh = dh * (1 - h[t]**2)  # tanh derivative
+    dWx += X[t].T @ dh
+    dWh += h[t-1].T @ dh
+    dh_next = dh @ Wh.T
+```
+
