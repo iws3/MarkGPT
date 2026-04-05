@@ -657,3 +657,12 @@ Unsupervised pretraining
 Foundation for fine-tuning
 GPT trained this way
 
+### Perplexity
+
+Measures model uncertainty
+PP = 2^(cross-entropy)
+Lower is better
+PP=100: Like choosing from ~100 equally likely tokens
+MarkGPT: Achieves 8-15 on different domains
+Baseline: 50-100 typical
+
