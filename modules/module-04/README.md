@@ -507,3 +507,13 @@ Warmup beneficial: Linear increase first 5% steps
 - Monitor validation loss during training
 - Save checkpoint with best validation
 
+## Attention Variants
+
+### Additive (Bahdanau) Attention
+
+Score: e = v^T @ tanh(W @ concat([query, key]))
+Learnable combining function
+More expressive than dot-product
+Higher computational cost
+Earlier method (2014), still effective
+
