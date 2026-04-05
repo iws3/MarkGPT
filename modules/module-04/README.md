@@ -1522,3 +1522,12 @@ Rate limiting: Prevent abuse
 Auth: API key validation
 Versioning: Multiple model versions
 
+### Monitoring
+
+Latency: p50, p95, p99
+Throughput: tokens/sec
+Cost: $/request
+Quality: User feedback
+Errors: Failure rate
+Bias: Check for outputs
+
