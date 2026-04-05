@@ -1234,3 +1234,10 @@ Example: Medical text differs from typical
 Solution: Importance reweighting
 Or: Continued pre-training on target
 
+### Domain-Adaptive Pre-training
+
+DAPT: Further pre-train on target domain
+10K-100K steps on unlabeled target
+Then fine-tune on task
+Improves +5-10% on small fine-tuning sets
+
