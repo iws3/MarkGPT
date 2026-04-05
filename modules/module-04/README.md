@@ -469,3 +469,12 @@ Decoder: LSTM generates output
 Each step: Attends to encoder outputs
 Completely parallelizable (replaced by Transformers)
 
+### Context Vector
+
+Each decoder step:
+1. Query from decoder state
+2. Compute attention weights over all encoder outputs
+3. Weighted sum of encoder outputs
+4. Concatenate with decoder input for next step
+Very powerful (translation baseline ~30 BLEU).
+
