@@ -1475,3 +1475,12 @@ Trained on entire corpus
 Preserves rare words
 Balanced subword lengths
 
+### Pre-training Data
+
+CommonCrawl: 400B tokens
+Books: 100B tokens
+Wikipedia: 50B tokens
+Code: 50B tokens (improves math)
+Total: 600B tokens (MarkGPT-7B)
+Ratio: 60% CC, 17% books, 8% wiki, 8% code, 7% other
+
