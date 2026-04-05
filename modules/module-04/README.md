@@ -1209,3 +1209,11 @@ Pattern 2: Attending to same position
 Pattern 3: Positional patterns
 Interpretable but not complete story
 
+### SHAP Values
+
+Game theory approach
+Shapley value: Fair feature contribution
+Expensive to compute (combinatorial)
+Approximations exist (SHAPATTY)
+Gold standard for interpretability
+
