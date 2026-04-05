@@ -820,3 +820,13 @@ A/B testing different configs
 Typical: Save every 1000 steps
 Keep 3-5 recent checkpoints
 
+## Inference Optimization
+
+### Batching
+
+Process multiple samples simultaneously
+GPU utilization: 5% → 90%
+Batch size: Trade-off latency vs throughput
+Typical: Batch 32-64 for low latency
+Batch 256+ for throughput
+
