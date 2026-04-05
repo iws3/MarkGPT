@@ -877,3 +877,11 @@ Check for NaN/Inf
 Verify tokenization
 Look for label issues
 
+### Check Model Forward Pass
+
+Pass single batch
+Print all activation shapes
+Check for NaN/Inf
+Monitor gradient flow
+Gradient should be O(0.001 - 0.1)
+
