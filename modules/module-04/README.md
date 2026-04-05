@@ -293,3 +293,13 @@ Memory per sequence * batch_size
 Typical GPU: batch_size=64 for seq_len=512
 Larger batch = noisier gradients
 
+## Long Short-Term Memory (LSTM)
+
+### The Cell State Innovation
+
+Key insight: Separate cell state from hidden state
+c_t: Cell state (internal memory)
+h_t: Hidden state (external output)
+Cell state acts like "conveyor belt"
+Gradient can flow without vanishing.
+
