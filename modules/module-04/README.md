@@ -1583,3 +1583,15 @@ Federated learning: Train on device
 Secure enclaves: Trusted execution
 User consent: Transparent about data
 
+## Research Directions
+
+### Emerging Topics
+
+1. Mixture of Experts: Sparse scaling
+2. Retrieval Augmentation: Fact checking
+3. Multimodal: Text + Vision + Audio
+4. Fast inference: Sub-millisecond
+5. Continual learning: Learn new tasks
+6. Steering: Control model behavior
+7. Hardware: Custom chips for LLMs
+
