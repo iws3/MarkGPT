@@ -858,3 +858,12 @@ Sync gradients after backward
 Linear speedup (mostly)
 Easy to implement
 
+### Distributed Training
+
+Multiple nodes, multiple GPUs
+NCCL: Efficient GPU communication
+NVLink: Fast inter-GPU bandwidth
+Scaling: 8 GPUs → 8x speedup (95%)
+Scaling: 64 GPUs → 50x speedup (78%)
+Communication overhead increases
+
