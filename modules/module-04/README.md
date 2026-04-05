@@ -885,3 +885,11 @@ Check for NaN/Inf
 Monitor gradient flow
 Gradient should be O(0.001 - 0.1)
 
+### Training Diagnostics
+
+Loss not decreasing: LR too small
+Loss diverges: LR too large
+NaN in loss: Overflow, reduce LR
+Train >> val: Overfitting
+Train ≈ val: Good generalization
+
