@@ -1316,3 +1316,13 @@ Sparse masks: Select per task
 Complete isolation: No interference
 Trade-off: More storage (LoRA helps)
 
+## Adversarial Training
+
+### Adversarial Examples
+
+Small input perturbation
+Flips model prediction
+Example: Change 1-2 words
+Model thinks should change sentiment
+Shows model brittleness
+
