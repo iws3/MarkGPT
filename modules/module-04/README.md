@@ -197,3 +197,12 @@ Practical compromise: Efficient + reasonably good
 k values: 20-50 steps typical
 Still captures local temporal dependencies.
 
+## Weight Initialization
+
+### Why It Matters
+
+Poor init: Gradients vanish/explode from start
+Good init: Preserve signal variance across layers
+Key: Keep ||h_t|| roughly constant
+Var(h_t) ≈ Var(h_{t-1})
+
