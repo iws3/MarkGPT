@@ -1064,3 +1064,18 @@ Module-05 continues:
 - Research frontiers
 - Your own research ideas!
 
+## Resources and References
+
+**Papers**
+- Sequence to Sequence Learning (Sutskever et al, 2014)
+- Neural Machine Translation (Bahdanau et al, 2014)
+- Attention is All You Need (Vaswani et al, 2017)
+- BERT (Devlin et al, 2018)
+- GPT-2 (Radford et al, 2019)
+- GPT-3 (Brown et al, 2020)
+
+**Implementations**
+- HuggingFace Transformers
+- PyTorch Lightning
+- TensorFlow Hub
+
