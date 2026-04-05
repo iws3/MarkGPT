@@ -1048,3 +1048,19 @@ Verify post-processing
 6. Write report analyzing errors
 
 Challenge: Make it coherent and engaging!
+## Next Steps: Module 05
+
+Module-04 covers:
+- RNNs, LSTMs, GRUs
+- Attention mechanisms
+- Transformers
+- Case studies
+- Production techniques
+
+Module-05 continues:
+- Advanced architectures
+- Vision transformers
+- Multimodal models
+- Research frontiers
+- Your own research ideas!
+
