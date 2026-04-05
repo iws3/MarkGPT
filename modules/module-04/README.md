@@ -893,3 +893,19 @@ NaN in loss: Overflow, reduce LR
 Train >> val: Overfitting
 Train ≈ val: Good generalization
 
+## Comparison: RNN vs Transformer
+
+### RNN Advantages
+- Constant memory (no KV cache)
+- Streaming (process online)
+- Good for very long sequences
+- Simpler to understand
+
+### Transformer Advantages
+- Parallel computation
+- Better scalability
+- Attention interpretable
+- Empirically stronger
+- Easy to scale to billions parameters
+
+Winner: Transformers for 2017-2026
