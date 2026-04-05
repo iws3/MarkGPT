@@ -1387,3 +1387,13 @@ Minimal accuracy loss
 Great for production
 Can stack multiple distillations
 
+## Efficiency: Quantization
+
+### Post-training Quantization
+
+Train: FP32
+Quantize: INT8/INT4 after
+Fastest: No retraining
+Accuracy: 0.5-2% loss (INT8), 10%+ (INT4)
+Easy to implement
+
