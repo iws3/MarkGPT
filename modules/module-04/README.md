@@ -187,3 +187,13 @@ def backward(self, grad_output):  # (T, batch, out_dim)
     dh_next = dh @ Wh.T
 ```
 
+## Truncated Backpropagation
+
+### Motivation
+
+Full BPTT through entire sequence → slow
+Backprop only through last k steps
+Practical compromise: Efficient + reasonably good
+k values: 20-50 steps typical
+Still captures local temporal dependencies.
+
