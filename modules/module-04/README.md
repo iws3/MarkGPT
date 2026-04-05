@@ -996,3 +996,13 @@ Better for non-Latin scripts
 Used in many models
 Example: spaCy, BERT
 
+## Memory Efficiency
+
+### Model Size
+
+7B params in FP32: 28GB
+7B params in FP16: 14GB
+7B params in INT8: 7GB
+Typical GPU: 24GB
+So must use quantization or LoRA
+
