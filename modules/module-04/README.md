@@ -1282,3 +1282,13 @@ Effect: Specialize to language
 Performance: Often better than monolingual
 Due to multilingual pre-training signal
 
+## Continual Learning
+
+### Catastrophic Forgetting
+
+Train on task A
+Fine-tune on task B
+Performance on A: Drops to 10%
+Weights: Optimized away from A
+Challenge: Maintain both
+
