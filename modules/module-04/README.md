@@ -830,3 +830,12 @@ Batch size: Trade-off latency vs throughput
 Typical: Batch 32-64 for low latency
 Batch 256+ for throughput
 
+### KV-Cache
+
+During generation, recompute all steps
+KV-cache: Store K, V from previous
+Compute only for latest token
+Trade-off: Memory for compute
+7B model: ~30GB cache for batch=32
+Worth it: 10x speedup
+
