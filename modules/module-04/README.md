@@ -1484,3 +1484,12 @@ Code: 50B tokens (improves math)
 Total: 600B tokens (MarkGPT-7B)
 Ratio: 60% CC, 17% books, 8% wiki, 8% code, 7% other
 
+### Training Infrastructure
+
+8 GPUs (V100): ~1 month
+16 GPUs (A100): ~1 week
+128 GPUs (TPU): ~1 day
+Batch size: 512 tokens * 64
+Learning rate: 0.0001 with warmup
+Gradient accumulation: Steps=8
+
