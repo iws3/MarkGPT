@@ -694,3 +694,12 @@ Training: 5 days on 8 GPUs
 Dropout: 0.1
 Label smoothing: 0.1
 
+### Results
+
+BLEU: 28.4 (very competitive)
+Inference speed: 100 tokens/sec GPU
+Inference speed: 2 tokens/sec CPU
+vs phrase-based SMT: 23 BLEU
+5 point improvement!
+Transformers surpassed SMT in 2017
+
