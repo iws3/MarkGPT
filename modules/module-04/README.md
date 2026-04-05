@@ -758,3 +758,13 @@ Inference: 500 samples/sec GPU
 Transfer learning wins!
 Pre-training on 3B tokens helps
 
+## Named Entity Recognition: Case Study
+
+### Task Definition
+
+Tag each token with entity type
+Categories: PERSON, LOCATION, ORG, O (other)
+Sequence labeling task
+Dataset: 15K training sentences
+Average: 15 tokens per sentence
+
