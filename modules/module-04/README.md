@@ -543,3 +543,11 @@ Block-sparse: Attend to blocks
 Enables longer sequences
 Trade-off: Some long-range dependencies lost
 
+### Self-Attention
+
+Query, Key, Value all from same sequence
+Each position attends to all positions
+Captures positional relationships
+Foundation for Transformers
+Used in BERT, GPT, etc.
+
