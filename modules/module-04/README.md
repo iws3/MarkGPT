@@ -1192,3 +1192,11 @@ Example: Predict POS from h_t
 Result: Earlier layers = syntax, later = semantics
 Reveals learned representations
 
+### Saliency Maps
+
+∇ L / ∇ x: Input gradient
+Magnitude: How much input affects output
+Visualization: Color heat map
+Interpretation: Which tokens matter
+Caveat: Not always meaningful for text
+
