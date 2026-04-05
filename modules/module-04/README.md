@@ -1439,3 +1439,13 @@ Key: Right initialization + pruning mask
 Explains why networks over-parameterized
 Can prune 90%+ and still work
 
+## Multimodal Architecture
+
+### Vision Transformers
+
+Split image into patches
+Linear projection to embeddings
+Apply standard transformer
+Comparable to CNNs for classification
+Better for downstream tasks
+
