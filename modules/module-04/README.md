@@ -1405,3 +1405,11 @@ INT4 with QAT: 5% loss vs 25% PTQ
 Training time: 2x
 Worth it for deployment
 
+### Mixed-bit Quantization
+
+Different bits per layer
+Attention: INT8
+FFN: INT4
+Balance: (int4 gradual decrement)
+Result: Optimal size-accuracy trade-off
+
