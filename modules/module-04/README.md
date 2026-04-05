@@ -517,3 +517,12 @@ More expressive than dot-product
 Higher computational cost
 Earlier method (2014), still effective
 
+### Scaled Dot-Product Attention
+
+Score: e = query @ key / sqrt(d_k)
+No learned parameters
+O(n^2) complexity (acceptable for n<512)
+Scaling prevents saturation in softmax
+Foundation of Transformer architecture
+Preferred in modern systems
+
