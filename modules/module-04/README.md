@@ -535,3 +535,11 @@ Typical: 8-16 heads
 Total params same as single head
 h(Q,K,V) = concat(head_1, ..., head_h) @ W^O
 
+### Sparse Attention
+
+Full attention: O(n^2) memory
+Sparse: Attend only to local window
+Block-sparse: Attend to blocks
+Enables longer sequences
+Trade-off: Some long-range dependencies lost
+
