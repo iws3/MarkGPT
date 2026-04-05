@@ -224,3 +224,11 @@ Concatenate outputs: [h_fwd; h_bwd]
 Access context from both directions.
 Improves performance on tagging tasks.
 
+### Architecture
+
+Input sequence: [w1, w2, w3, w4]
+Forward pass: → → → →
+Backward pass: ← ← ← ←
+Output at t: [fwd_h_t; bwd_h_t]
+Dimension: 2 * hidden_dim
+
