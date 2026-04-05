@@ -127,3 +127,14 @@ Gradients overflow to NaN/Inf
 Training becomes unstable.
 Less common than vanishing but worse when it happens.
 
+## Solutions: Gradient Clipping
+
+### The Fix
+
+Gradient norm clipping:
+if ||∇|| > threshold:
+  ∇ = ∇ * (threshold / ||∇||)
+Rescales large gradients.
+Prevents explosion.
+Threshold: 1.0 or 5.0 typical.
+
