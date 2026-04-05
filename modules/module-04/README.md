@@ -1575,3 +1575,11 @@ Human review: High-risk cases
 Rate limiting: Prevent attack sequences
 Logging: Track for improvement
 
+### Privacy
+
+Data anonymization: Remove identifiers
+Differential privacy: Probabilistic guarantee
+Federated learning: Train on device
+Secure enclaves: Trusted execution
+User consent: Transparent about data
+
