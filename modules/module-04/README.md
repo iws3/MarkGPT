@@ -156,3 +156,19 @@ Helps gradients flow better.
 But can have dying ReLU problem.
 ELU/GELU: Smooth, no saturation.
 
+## Simple RNN Implementation
+
+### Core Loop
+
+```python
+class SimpleRNN:
+  def forward(self, X):  # X: (T, batch, input_dim)
+    h = zeros((batch, hidden_dim))
+    outputs = []
+    for t in range(T):
+      h = tanh(X[t] @ Wx + h @ Wh + bh)
+      out = h @ Wo + bo
+      outputs.append(out)
+    return stack(outputs)
+```
+
