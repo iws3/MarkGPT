@@ -1241,3 +1241,10 @@ DAPT: Further pre-train on target domain
 Then fine-tune on task
 Improves +5-10% on small fine-tuning sets
 
+### Task-Adaptive Pre-training
+
+TAPT: Pre-train further on task data
+Only 100 steps sufficient
+Very effective for low-resource tasks
+Can beat full fine-tuning of generic model
+
