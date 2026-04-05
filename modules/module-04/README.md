@@ -526,3 +526,12 @@ Scaling prevents saturation in softmax
 Foundation of Transformer architecture
 Preferred in modern systems
 
+### Multi-Head Attention
+
+Concatenate multiple attention heads
+Head i: Attend to different feature subsets
+Benefits: Attend to different positions, semantic meanings
+Typical: 8-16 heads
+Total params same as single head
+h(Q,K,V) = concat(head_1, ..., head_h) @ W^O
+
