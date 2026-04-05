@@ -1018,3 +1018,21 @@ So must use quantization or LoRA
 6. Updates: New model versions
 7. Compliance: Data privacy, bias
 
+## Testing and Evaluation
+
+### Unit Tests
+
+```python
+def test_model_shapes():
+  x = torch.randn(2, 10, 768)
+  model = Transformer()
+  y = model(x)
+  assert y.shape == (2, 10, 4)
+```
+
+### Integration Tests
+
+Test end-to-end pipeline
+From raw text to predictions
+Verify post-processing
+
