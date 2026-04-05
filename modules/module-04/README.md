@@ -784,3 +784,13 @@ vs rule-based NLP tools: 87%
 Transformers great for structured output
 Context modeling crucial
 
+## Common Training Tips
+
+### Batch Size
+
+Larger batch: Better gradient estimate
+Smaller batch: Faster feedback loop
+Typical: 16-64 for classification
+Typical: 32-256 for LM
+Memory: Scales with batch_size * seq_len
+
