@@ -206,3 +206,11 @@ Good init: Preserve signal variance across layers
 Key: Keep ||h_t|| roughly constant
 Var(h_t) ≈ Var(h_{t-1})
 
+### Orthogonal Initialization
+
+Initialize Wh as orthogonal matrix
+Properties: Preserves vector norm
+Eigenvalues = 1 (no growth/decay)
+Prevents gradient explosion/vanishing initially.
+Recommended for RNNs.
+
