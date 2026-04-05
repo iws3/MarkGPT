@@ -590,3 +590,12 @@ Applied position-wise (all tokens independently)
 ReLU activation
 Adds non-linearity, capacity
 
+### Layer Normalization
+
+Before 2020: Pre-LN (norm before sublayer)
+After 2020: Post-LN (norm after)
+Pre-LN: Easier to train deep networks
+Post-LN: Slightly better final performance
+Modern: Usually Pre-LN
+Normalizes each sample independently
+
