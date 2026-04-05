@@ -405,3 +405,15 @@ Must contain all input information
 Problematic for long sequences (100+ tokens)
 Solution: Use all h_1, h_2, ..., h_T
 
+### Attention Mechanism
+
+Query: Decoder state s_t
+Keys: Encoder states h_1, ..., h_T
+Values: Encoder states h_1, ..., h_T
+
+Score: e_t,j = v^T @ tanh(W_s @ [s_t; h_j])
+Weights: α_t,j = softmax(e_t,j)
+Context: c_t = Σ α_t,j @ h_j
+
+Output: decoder processes [s_t; c_t]
+
