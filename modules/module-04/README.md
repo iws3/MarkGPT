@@ -965,3 +965,14 @@ Gradient flows through skip connection
 Each layer: Additive update
 Without residuals: Very hard to train deep
 
+## Layer Normalization Details
+
+### Why LN not BatchNorm
+
+BatchNorm: Normalize across batch
+LayerNorm: Normalize across features
+Transformers use LayerNorm
+Independent of batch size
+Works better for variable lengths
+More stable numerically
+
