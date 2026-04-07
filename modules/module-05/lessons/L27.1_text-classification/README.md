@@ -55,3 +55,13 @@ Zero-shot learning classifies without labeled examples.
 
 Multi-label classification assigns multiple categories.
 
+## Classification Architectures
+
+### TextCNN
+
+CNN on text sequences
+1D convolution over words
+Multiple filter sizes: 2, 3, 4
+Max-over-time pooling
+Simple, fast, effective
+
