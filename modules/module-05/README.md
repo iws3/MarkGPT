@@ -174,3 +174,12 @@ Trade-off: Memory vs speed
 </s>: End of sequence
 <s>: Start of sequence
 
+### Custom Tokens
+
+Task-specific: [QUESTION], [ANSWER]
+Entity types: [PER], [LOC], [ORG]
+Domain-specific: [CODE], [EQUATION]
+Improves performance
+Requires fine-tuning
+Common in production systems
+
