@@ -1324,3 +1324,14 @@ Expected gradient length: Big gradient
 Committee: Ensemble disagreement
 Typical: Start with diverse, refine uncertain
 
+## Interpretability
+
+### Feature Attribution
+
+Which words matter for prediction?
+Gradient-based: ∂L/∂x
+Attention: Which words attended?
+LIME: Local explanations
+SHAP: Game theory-based
+Understanding models is crucial
+
