@@ -1265,3 +1265,13 @@ Requires good embeddings
 Prompt-based approach
 Emerging with large models
 
+## Handling Imbalanced Data
+
+### Class Imbalance
+
+90% negative, 10% positive
+Accuracy misleading
+Always predict majority
+Accuracy: 90% but useless!
+Need: Balanced metrics
+
