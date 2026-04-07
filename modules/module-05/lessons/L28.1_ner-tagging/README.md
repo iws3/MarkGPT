@@ -81,3 +81,11 @@ Distinguishes single vs multi
 Better for some tasks
 Slightly higher accuracy
 
+### Nested NER
+
+Overlapping entities
+"United States" inside "United"
+Rare, harder
+Different schemes
+Research area
+
