@@ -914,3 +914,14 @@ Baseline: Unigram LM (~1000)
 LSTM: ~100-200
 Good metric for LM quality
 
+## Text Similarity
+
+### Cosine Similarity
+
+For embeddings or TF-IDF vectors
+cos(u, v) = (u . v) / (||u|| ||v||)
+Range: [-1, 1], typically [0, 1]
+1: Identical direction
+0: Orthogonal
+-1: Opposite
+
