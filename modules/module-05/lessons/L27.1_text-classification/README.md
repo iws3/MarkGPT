@@ -97,3 +97,13 @@ Not mutually exclusive
 Different loss (cross-entropy per label)
 Different evaluation metrics
 
+## Classification Loss Functions
+
+### Cross-Entropy
+
+-Σ y_i * log(p_i)
+Single label setting
+Standard for classification
+Differentiable
+Numerically stable variants
+
