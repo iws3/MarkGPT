@@ -604,3 +604,12 @@ Diminishing returns after 1B
 Typical: Train on crawled web text
 Wikipedia (3.5B words): Excellent base
 
+### Computational Efficiency
+
+Word2Vec: O(V) with negative sampling
+Can train on single machine
+100M words: Minutes
+1B words: Hours
+Parallel training: Multiple threads
+Fast compared to deep learning
+
