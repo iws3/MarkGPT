@@ -123,3 +123,11 @@ Should be semantically similar
 Reveals embedding quality
 Most interpretable
 
+### Alignment to Human Judgments
+
+Human rate word pairs
+1-10 similarity scale
+RareWord-353, SimLex
+Spearman correlation
+Standard benchmarks
+
