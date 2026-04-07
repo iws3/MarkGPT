@@ -156,3 +156,11 @@ Social media: Hashtags, @mentions
 Customize for domain
 Improves downstream
 
+### Character n-gram Fallback
+
+No exact match?
+Use character n-grams
+Can represent anything
+Slow but complete
+Hybrid systems
+
