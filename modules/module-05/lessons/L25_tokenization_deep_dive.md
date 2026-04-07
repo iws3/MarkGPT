@@ -204,3 +204,11 @@ Multilingual: Language mixing
 HTML: Tag handling
 Context matters
 
+### Tokenizer Speed and Memory
+
+Lookup time: O(log vocab) if sorted
+Memory: vocab_size * embedding_dim
+Trie: Fast prefix matching
+Hash table: O(1) lookup
+Production: 1ms latency budgets
+
