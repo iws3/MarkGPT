@@ -63,3 +63,11 @@ Language-independent tags
 Standard benchmark
 Simplifies cross-lingual
 
+### Language-Specific Tags
+
+Penn Treebank: English specific
+47 tags (vs 17 UD)
+More fine-grained
+Better for downstream
+Less portable
+
