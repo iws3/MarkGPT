@@ -129,3 +129,11 @@ Unigram^0.75: Balance
 Affects convergence
 Task dependent
 
+### Initialization Impact
+
+Random small values
+Xavier initialization
+Affects convergence speed
+Final quality similar
+Early iterations differ
+
