@@ -1228,3 +1228,11 @@ Preserves label but varies text
 Simple baseline
 Works surprisingly well
 
+### Mixup and Cutoff
+
+Mixup: Linear combination of embeddings
+Cutoff: Drop random tokens/subwords
+Regularization via augmentation
+Helps with small datasets
+Modern practice
+
