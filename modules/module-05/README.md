@@ -762,3 +762,12 @@ TF-IDF(t, d) = TF(t, d) * IDF(t)
 Downweights common words
 Simple but effective baseline
 
+### Bag of Words
+
+Simplest representation
+Count each word occurrence
+Create feature vector
+Loses word order
+High-dimensional but sparse
+Still baseline for many tasks
+
