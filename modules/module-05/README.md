@@ -1023,3 +1023,12 @@ Unsupervised discovery
 Remarkable regularities
 Foundation of modern NLP
 
+### Locality Sensitive Hashing
+
+Fast nearest neighbor search
+Hash similar vectors together
+Approximate but efficient
+Million vector queries: Milliseconds
+Used in production systems
+Scales to web
+
