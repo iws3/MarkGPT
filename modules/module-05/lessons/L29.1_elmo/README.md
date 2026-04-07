@@ -113,3 +113,11 @@ More layers: Better
 Depth enables abstraction
 Computational cost
 
+### Task-Specific Weighting
+
+Different tasks use different layers
+NER: Maybe layer 1
+Sentiment: Maybe layer 2
+Learned weights per layer
+Adaptive representation
+
