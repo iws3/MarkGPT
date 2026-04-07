@@ -137,3 +137,11 @@ Top-p: Sample from top p prob
 Nucleus sampling: Balanced
 Controls output diversity
 
+### Tokenizer Impact
+
+Different tokenizers = different results
+BPE variants: GPT uses BPE
+Token count affects length
+Encoding efficiency
+Multilingual challenges
+
