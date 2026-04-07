@@ -147,3 +147,13 @@ Different losses
 Different evaluation
 Both common
 
+## Advanced Classification Techniques
+
+### Ensemble Methods
+
+Combine multiple classifiers
+Bagging: Different subsets
+Boosting: Reweight hard examples
+Stacking: Meta-classifier
+Usually improves performance
+
