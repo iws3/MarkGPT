@@ -66,3 +66,12 @@ Typical values:
 - Sennrich et al. (2016): "Neural Machine Translation of Rare Words with Subword Units"
 - Kudo & Richardson (2018): "SentencePiece: A simple and language independent subword tokenizer"
 - Bostrom & Durrett (2020): "Byte Pair Encoding is Suboptimal for Language Model Pretraining"
+## Deep Dive: Tokenization Algorithms
+
+### Longest Match First
+
+Greedy: Always take longest token
+Efficient: O(1) lookup
+Problem: Suboptimal ("hello" as char)
+Used in: Early systems
+
