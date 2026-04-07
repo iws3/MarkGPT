@@ -148,3 +148,11 @@ Preserves linguistic structure
 Better for low-resource
 Multilingual advantage
 
+### Domain-Specific Tokenization
+
+Medical: Keep domain terms
+Programming: Split operators
+Social media: Hashtags, @mentions
+Customize for domain
+Improves downstream
+
