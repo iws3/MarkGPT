@@ -555,3 +555,12 @@ Stability: Better than random init
 Typical: Download from model zoos
 Fine-tune on task data
 
+### Domain Specificity
+
+Generic (Wikipedia): Good baseline
+Medical (PubMed): Better for medical
+Code (GitHub): Better for code
+Domain adaptation: Fine-tune
+Task-specific: Train from scratch if big data
+Usually: Domain > task-specific
+
