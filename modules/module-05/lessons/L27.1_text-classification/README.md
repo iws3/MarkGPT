@@ -157,3 +157,11 @@ Boosting: Reweight hard examples
 Stacking: Meta-classifier
 Usually improves performance
 
+### Active Learning
+
+Query most informative examples
+Reduces labeling cost
+Uncertainty sampling
+Query-by-committee
+BALD: Bayesian Active
+
