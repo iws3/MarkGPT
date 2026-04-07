@@ -613,3 +613,14 @@ Can train on single machine
 Parallel training: Multiple threads
 Fast compared to deep learning
 
+## Contextualized Embeddings
+
+### Static vs Dynamic
+
+Static (Word2Vec): Same vector for all contexts
+Dynamic (ELMo, BERT): Different per context
+Problem with static: "bank" is ambiguous
+ELMo: First dynamic method (2018)
+Revolution in NLP
+Transition to transformers
+
