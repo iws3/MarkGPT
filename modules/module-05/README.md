@@ -74,3 +74,12 @@ Cons: Sequences very long, harder to learn
 Example: "Hello" → [H,e,l,l,o]
 Used in: Character-level language models
 
+### Word-level Tokenization
+
+Split on whitespace and punctuation
+Vocab size: 10K-100K typical
+Pros: Interpretable, reasonable length
+Cons: OOV problem (unknown words)
+Example: "Hello world!" → ["Hello", "world", "!"]
+Problem: "hello" vs "Hello" = different tokens
+
