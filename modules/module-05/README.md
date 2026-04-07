@@ -1247,3 +1247,12 @@ Much better than training from scratch
 Modern necessity
 Enables low-resource work
 
+### Few-Shot Learning
+
+Learn from very few examples
+5-10 labeled examples
+Meta-learning approaches
+MAML: Model-agnostic meta-learning
+Prototypical networks
+Enables rapid adaptation
+
