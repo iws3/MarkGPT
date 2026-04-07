@@ -418,3 +418,12 @@ Shows semantic structure
 Not always perfect
 Remarkable emergent property
 
+### Why it Works
+
+Skip-gram objective: Embed words
+Minimize distance for similar contexts
+Words in similar positions → close vectors
+Unsupervised learning from corpus statistics
+No manual annotations needed
+Scales to huge corpora
+
