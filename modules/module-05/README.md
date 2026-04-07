@@ -447,3 +447,12 @@ Huge and sparse: V x V
 Solution: Only store non-zeros
 Factorize: X ≈ W @ W^T
 
+### GloVe Objective
+
+Weighted least squares:
+L = Σ_ij f(X_ij) (w_i . w_j - log X_ij)^2
+f(X_ij): Weight function
+Prevents rare co-occurrences dominating
+Closed form optimization possible
+Faster convergence than Word2Vec
+
