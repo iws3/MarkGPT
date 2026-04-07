@@ -1256,3 +1256,12 @@ MAML: Model-agnostic meta-learning
 Prototypical networks
 Enables rapid adaptation
 
+### Zero-Shot Learning
+
+No labeled examples
+Use class descriptions
+Match to class semantic vectors
+Requires good embeddings
+Prompt-based approach
+Emerging with large models
+
