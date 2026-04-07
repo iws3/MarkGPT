@@ -1054,3 +1054,14 @@ Context vector: Weighted sum
 Huge improvement for translation
 Next: Make entire model attention
 
+## Embedding Analysis
+
+### Bias in Embeddings
+
+man:programmer ≈ woman:homemaker
+Reflects training data bias
+Problematic for applications
+Detection: Analogy tests
+Mitigation: Debias embeddings
+Ongoing research
+
