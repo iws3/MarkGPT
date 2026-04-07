@@ -99,3 +99,11 @@ No OOV!
 Very long sequences
 Used in: GPT-2
 
+### Unicode Normalization
+
+é = e + combining accent
+Different byte sequences, same character
+NFC vs NFD formats
+Should normalize first
+Affects tokenization
+
