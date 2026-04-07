@@ -684,3 +684,12 @@ Backward LSTM: Right to left
 Each token: Multiple representation options
 Combine all: Weighted sum of layers
 
+### Training
+
+Language modeling task:
+Predict next token given context
+Unsupervised: Only need text
+Scale: 1B token corpus
+Result: Rich contextual representations
+Weights: Learned task-specifically
+
