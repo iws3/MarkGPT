@@ -329,3 +329,14 @@ Adapt to domain
 Example: Train on Wikipedia → Reddit
 Learn Reddit-specific slang
 
+## Word Embeddings Fundamentals
+
+### What are Word Embeddings?
+
+Dense vectors representing words
+Dimension: 50-300 typical
+Learned from large text corpus
+Similar words → similar vectors
+Foundation of modern NLP
+Input to neural networks
+
