@@ -1236,3 +1236,14 @@ Regularization via augmentation
 Helps with small datasets
 Modern practice
 
+## Low-Resource NLP
+
+### Transfer Learning
+
+Pre-train on general (billions tokens)
+Fine-tune on task (thousands examples)
+Much better than training from scratch
+50-story/0-shot with good model
+Modern necessity
+Enables low-resource work
+
