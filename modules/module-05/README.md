@@ -963,3 +963,14 @@ Helps question answering
 5. Fine-tuned transformer: Best
 Modern: >> 95% accuracy
 
+## Machine Translation (Pre-Seq2seq)
+
+### Statistical Machine Translation
+
+P(t|s) = P(t) * P(s|t) / P(s)
+Language model: P(t)
+Translation model: P(s|t)
+Phrase-based capturing
+Reordering models
+Dominated until 2016
+
