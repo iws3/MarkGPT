@@ -53,3 +53,13 @@ Simple architecture enables scalability.
 
 Fasttext extends word2vec with character n-grams.
 
+## Word2Vec Implementation Details
+
+### Skip-gram Objective
+
+Maximize: Σ log P(context|word)
+Use Softmax or Negative Sampling
+Gradient updates embeddings
+Simple but effective
+Parallelizable
+
