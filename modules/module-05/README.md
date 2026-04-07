@@ -1065,3 +1065,12 @@ Detection: Analogy tests
 Mitigation: Debias embeddings
 Ongoing research
 
+### Word Sense Disambiguation
+
+"Bank" = financial vs river
+Single embedding fails
+Solution: Contextualized (ELMo+)
+Different vectors per context
+Better semantic understanding
+Jumping off point to BERT
+
