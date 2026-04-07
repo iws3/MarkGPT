@@ -132,3 +132,14 @@ Similar results to BPE
 Slightly different algorithm
 Both work well in practice
 
+## SentencePiece
+
+### Language Agnostic
+
+Works on raw text (no preprocessing)
+No language-specific logic
+Combines BPE and unigram language model
+Treats space as token
+Great for non-Latin scripts
+Used in: T5, mBERT, many recent models
+
