@@ -1099,3 +1099,14 @@ BERT: Unified space
 - Machine translation and seq2seq
 - Production systems
 
+## Advanced Text Representations
+
+### Contextual vs Non-contextual
+
+Non-contextual: "Hello" always same vec
+Contextual: "Hello" different per context
+ELMo: First contextual (2018)
+BERT: Bidirectional contextual
+GPT: Autoregressive contextual
+Modern requirement
+
