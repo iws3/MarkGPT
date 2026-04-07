@@ -1199,3 +1199,12 @@ Generic embeddings miss domain
 Solution: Adapt embeddings
 Or train model on domain
 
+### Approaches
+
+1. Retrain on domain corpus
+2. Fine-tune general embeddings
+3. Domain-specific vocabulary
+4. Combine with domain knowledge
+5. Active learning: Query hard examples
+Typically: Fine-tune + domain vocab
+
