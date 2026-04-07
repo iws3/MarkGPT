@@ -79,3 +79,11 @@ Bidirectional context
 Allows both directions
 BERT pre-training task
 
+### Next Sentence Prediction
+
+Predict if B follows A
+Related sentences: Yes
+Random sentences: No
+Binary classification
+BERT auxiliary task
+
