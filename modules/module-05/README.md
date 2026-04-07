@@ -233,3 +233,17 @@ Morphologically: Same
 Solution: Same token, different embeddings
 Transformers learn contextual meaning
 
+## Tokenization in Code
+
+### Using HuggingFace
+
+```python
+from transformers import AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained('bert-base')
+tokens = tokenizer.encode('Hello world')
+# [101, 7592, 2088, 102]
+text = tokenizer.decode(tokens)
+# 'Hello world'
+```
+
