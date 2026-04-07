@@ -369,3 +369,12 @@ Loss: Cross-entropy
 Objective: Maximize P(context|word)
 Simple but powerful
 
+### CBOW (Continuous Bag of Words)
+
+Opposite of Skip-gram
+Input: Context words
+Output: Center word
+Faster to train
+Better for frequent words
+Generally worse performance than Skip-gram
+
