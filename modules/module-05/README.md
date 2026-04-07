@@ -943,3 +943,14 @@ Standard evaluation benchmark
 Predicts perceptual similarity
 Challenging: Requires understanding
 
+## Paraphrase Detection
+
+### Problem
+
+Identify if sentences mean same
+Binary classification
+Different words, same meaning
+Or: Similarity rating
+Useful for plagiarism detection
+Helps question answering
+
