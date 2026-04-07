@@ -427,3 +427,14 @@ Unsupervised learning from corpus statistics
 No manual annotations needed
 Scales to huge corpora
 
+## GloVe (Global Vectors)
+
+### Motivation
+
+Word2Vec: Local context only
+GloVe: Combine local and global
+Use word co-occurrence matrix
+Factor matrix → embeddings
+Linear transformation
+Faster training than Word2Vec
+
