@@ -1179,3 +1179,12 @@ Embeddings somewhat capture
 More explicit: Morphological models
 Helps low-resource languages
 
+### Morphologically Rich Languages
+
+Turkish: Agglutinative (many suffixes)
+Finnish: Very complex
+Czech: Many cases
+Arabic: Root patterns
+Challenges: Many word forms
+fastText helps via subword
+
