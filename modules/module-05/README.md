@@ -876,3 +876,12 @@ Handles dependencies
 Can't predict impossible sequences
 Good baseline for labeling
 
+### BiLSTM-CRF
+
+BiLSTM: Encode sequence
+CRF: Decode with constraints
+State-of-art pre-Transformer
+High performance
+Good for structured prediction
+Popular in industry
+
