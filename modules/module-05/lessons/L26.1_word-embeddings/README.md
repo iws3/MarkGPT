@@ -107,3 +107,11 @@ Fast to compute
 Extrinsic: Downstream tasks
 Real application performance
 
+### Analogy Evaluation
+
+"king" - "man" + "woman" = "queen"
+Semantic + syntactic
+Google word test
+Often not reliable
+Debate on validity
+
