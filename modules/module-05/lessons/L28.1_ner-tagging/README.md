@@ -55,3 +55,13 @@ Distant supervision generates training data automatically.
 
 Transfer learning improves low-resource NER.
 
+## NER Tagging Schemes
+
+### IOB1
+
+I-tag for continuation
+Simpler than BIO
+B only when adjacent to same
+Less common
+Historic
+
