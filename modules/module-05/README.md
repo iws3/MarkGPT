@@ -720,3 +720,15 @@ Large model size
 Replaced by BERT (bidirectional)
 But: Key insight remains (contextual)
 
+## Pre-Transformer Context
+
+### Timeline
+
+2013: Word2Vec
+2014: GloVe
+2016: fastText
+2018: ELMo (game changer)
+2018: BERT (even better)
+2018: GPT (autoregressive)
+2019: Beyond
+
