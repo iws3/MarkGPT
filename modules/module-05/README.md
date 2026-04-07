@@ -378,3 +378,13 @@ Faster to train
 Better for frequent words
 Generally worse performance than Skip-gram
 
+### Negative Sampling
+
+Problem: Softmax over entire vocabulary
+Huge vocabulary: 1M+ words
+Computing softmax: O(V)
+Solution: Negative sampling
+Sample K negative examples
+Loss: Binary classification (positive vs negatives)
+10-15x speedup!
+
