@@ -1480,3 +1480,12 @@ Federated learning: Train on device
 Data retention: Keep only needed
 Regulation: GDPR, local laws
 
+### Transparency
+
+Model cards: Document model
+Data sheets: Document data
+Limitations: Be honest
+Failure cases: When it breaks
+Bias statement: Known issues
+Good practice
+
