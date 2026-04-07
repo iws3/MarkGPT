@@ -79,3 +79,11 @@ Document length normalization
 Very effective for IR
 Standard in Lucene
 
+### Sublinear TF Scaling
+
+Raw frequency overpowers
+log() dampens
+sqrt() alternative
+Balance term and doc length
+Empirically better
+
