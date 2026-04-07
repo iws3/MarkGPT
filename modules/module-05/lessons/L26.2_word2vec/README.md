@@ -79,3 +79,11 @@ Smaller window: More local
 Trade-off: Task-dependent
 Typical: 5-10
 
+### Multi-word Phrases
+
+Identify phrases: "new york"
+Treat as single token
+Improves semantic quality
+Statistic-based detection
+Multiple passes
+
