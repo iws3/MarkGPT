@@ -65,3 +65,12 @@ Required step for all NLP models
 Quality crucial: Affects downstream tasks
 Trade-off: Granularity vs vocabulary size
 
+### Character-level Tokenization
+
+Simplest: Each character = token
+Alphabet size: 26 + digits + punct ≈ 100
+Pros: Handles any text (misspellings, OOV)
+Cons: Sequences very long, harder to learn
+Example: "Hello" → [H,e,l,l,o]
+Used in: Character-level language models
+
