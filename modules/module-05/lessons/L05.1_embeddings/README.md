@@ -34,3 +34,11 @@ Preserve similarity structure
 Add external knowledge
 Better semantic alignment
 
+### Morphological Composition
+
+"unhappy" = "un" + "happy"
+Compositional model
+Predicts morphologically rich
+Helps low-resource
+Shares structure
+
