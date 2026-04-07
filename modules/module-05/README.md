@@ -624,3 +624,23 @@ ELMo: First dynamic method (2018)
 Revolution in NLP
 Transition to transformers
 
+## Common Mistakes
+
+### Don't
+
+- Train on tiny corpus (<100K words)
+- Use embedding size > 500 without need
+- Ignore OOV problem
+- Fine-tune randomly (use pre-trained)
+- Ignore domain mismatch
+- Train embeddings from scratch if data limited
+
+### Do
+
+- Use pre-trained when possible
+- Match embedding dim to task
+- Fine-tune on task data
+- Evaluate on downstream tasks
+- Consider subword (fastText) for OOV
+- Use contextualized for modern tasks
+
