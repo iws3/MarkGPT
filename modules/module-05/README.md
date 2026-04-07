@@ -409,3 +409,12 @@ Used in some implementations
 4. Repeat multiple epochs
 Convergence: ~10-20 billion words
 
+### Analogies: Additive Property
+
+"king - man + woman ≈ queen"
+Vector arithmetic works!
+v(king) - v(man) + v(woman) ≈ v(queen)
+Shows semantic structure
+Not always perfect
+Remarkable emergent property
+
