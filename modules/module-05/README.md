@@ -584,3 +584,14 @@ Sentiment analysis
 Best predictor of real usefulness
 But: Slower and task-dependent
 
+## Embedding Training Tips
+
+### Hyperparameters
+
+Size (dimension): 100-300 typical
+Window size: 2-15 (larger = preserves syntax)
+Negative samples: 5-15
+Epochs: 5-30 (more if larger corpus)
+Learning rate: Usually 0.025 default
+Minimum count: 5, drop rare words
+
