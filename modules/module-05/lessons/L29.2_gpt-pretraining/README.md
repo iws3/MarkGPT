@@ -171,3 +171,11 @@ Transformers use LayerNorm
 More stable training
 Better for variable lengths
 
+### Gradient Checkpointing
+
+Memory vs compute trade-off
+Recompute forward passes
+Reduce memory by ~33%
+Slightly slower
+Essential for large models
+
