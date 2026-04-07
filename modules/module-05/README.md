@@ -1139,3 +1139,12 @@ Slow for large datasets
 Parameter sensitive
 Best for exploration
 
+### UMAP Advantages
+
+Preserves both local and global
+Much faster than t-SNE
+Scales to millions
+Theoretically principled
+Better for production
+Modern choice
+
