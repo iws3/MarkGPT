@@ -925,3 +925,12 @@ Range: [-1, 1], typically [0, 1]
 0: Orthogonal
 -1: Opposite
 
+### Word Movers Distance
+
+Treat documents as distributions
+Distance between word clouds
+Uses word embeddings
+More semantic than BoW
+Computationally expensive
+Good for short documents
+
