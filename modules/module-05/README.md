@@ -112,3 +112,12 @@ Step 2: "h" "e" frequent → [he,ll,o, ,he,ll,o]
 Step 3: "he" "ll" frequent → [hell,o, ,hell,o]
 Result: [hell, o, </s>, hell, o]
 
+### BPE Advantages
+
+Handles misspellings: "helo" → ["he", "lo"]
+Compression: Frequent words = single token
+Vocabulary: Finite size (predictable memory)
+Language independent: Works on any language
+Reversible: Can decode back
+Reproducible: Same text → same tokens
+
