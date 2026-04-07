@@ -702,3 +702,12 @@ Weights: Learned task-specifically
 5. Fine-tune weights on task
 Simple layer-weighting learned
 
+### Results
+
+NER: +2% F1 on CoNLL
+Sentiment: +1-2% accuracy
+QA: +2-3% on SQuAD
+Consistent improvements
+Modest but reliable gains
+Foundation for BERT
+
