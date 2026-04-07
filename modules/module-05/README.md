@@ -1382,3 +1382,14 @@ Gradual rollout: 1% → 10% → 100%
 Rollback: If issues detected
 Continuous improvement
 
+## Dataset Construction
+
+### Annotation Guidelines
+
+Clear definitions
+Examples with explanations
+Disagreement resolution
+Quality control
+Inter-annotator agreement
+Cohen's kappa metric
+
