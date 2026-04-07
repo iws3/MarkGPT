@@ -155,3 +155,11 @@ Triangular attention matrix
 Efficient in Transformer
 Enables generation
 
+### Positional Encodings
+
+Sinusoidal: sin/cos patterns
+Learnable: From scratch
+RoPE: Rotation-based
+Relative position: Many variants
+Affects position sensitivity
+
