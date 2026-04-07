@@ -18,3 +18,11 @@ Embeddings capture era language
 Temporal analysis possible
 Historical text vs modern
 
+### Sense Embeddings
+
+Multiple senses per word
+"bank": financial/river
+Mixture model approach
+Per-sense embeddings
+Disambiguate from context
+
