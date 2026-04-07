@@ -456,3 +456,12 @@ Prevents rare co-occurrences dominating
 Closed form optimization possible
 Faster convergence than Word2Vec
 
+### GloVe vs Word2Vec
+
+GloVe: Explicit global statistics
+Word2Vec: Implicit via optimization
+GloVe: Typically better (slightly)
+Word2Vec: Simpler, faster
+Both: Great in practice
+Modern: Transformers replace both
+
