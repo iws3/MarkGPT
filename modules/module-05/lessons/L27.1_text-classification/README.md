@@ -107,3 +107,11 @@ Standard for classification
 Differentiable
 Numerically stable variants
 
+### Focal Loss
+
+Down-weight easy examples
+PT = probability of true label
+Loss = -alpha * (1-PT)^gamma * log(PT)
+Focus on hard negatives
+Helps imbalanced data
+
