@@ -105,3 +105,11 @@ Fine-tune all or last layers
 Much faster than pre-training
 Works with limited data
 
+### Domain Adaptation
+
+Further pre-train on domain
+Medical text on medical papers
+Code on code repositories
+Cheap pre-training phase
+Significant quality improvement
+
