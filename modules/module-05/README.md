@@ -1411,3 +1411,14 @@ Can affect model fairness
 Audit datasets routinely
 Better: Diversify sources
 
+## Benchmarking
+
+### Important Benchmarks
+
+GLUE: 9 language understanding tasks
+SQuAD: Reading comprehension
+MNIST: Classic (simple now)
+ImageNet: Huge vision benchmark
+Common measures: Compare fairly
+Leaderboards: Competitive drive
+
