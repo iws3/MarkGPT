@@ -595,3 +595,12 @@ Epochs: 5-30 (more if larger corpus)
 Learning rate: Usually 0.025 default
 Minimum count: 5, drop rare words
 
+### Dataset Size
+
+Small (1M words): Overfitting risk
+Medium (100M words): Good quality
+Large (1B+ words): Best quality
+Diminishing returns after 1B
+Typical: Train on crawled web text
+Wikipedia (3.5B words): Excellent base
+
