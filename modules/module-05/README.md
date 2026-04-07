@@ -214,3 +214,12 @@ Average tokens per word
 Impact: Memory and compute
 Typical: 1.1-1.3 for English
 
+### Vocabulary Coverage
+
+% of corpus tokens that are in-vocabulary
+BERT (30K vocab): 98%+
+GPT-2 (50K vocab): 99%+
+Smaller vocab: Lower coverage
+Affects performance
+Trade-off: Size vs coverage
+
