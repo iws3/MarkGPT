@@ -711,3 +711,12 @@ Consistent improvements
 Modest but reliable gains
 Foundation for BERT
 
+### Limitations
+
+Unidirectional for future context
+Backward pass separate
+Slow to compute
+Large model size
+Replaced by BERT (bidirectional)
+But: Key insight remains (contextual)
+
