@@ -196,3 +196,11 @@ UTF-8 BPE: Can represent bytes
 String reconstruction
 Handle edge cases
 
+### Tokenization for Different Modalities
+
+Text: Subword, char, word
+Code: Operator sensitivity
+Multilingual: Language mixing
+HTML: Tag handling
+Context matters
+
