@@ -121,3 +121,11 @@ Shares similarity structure
 Helps morphologically similar
 Factorizes meaning
 
+### Sampling Strategies
+
+Uniform negative sampling
+High-frequency negatives: More common
+Unigram^0.75: Balance
+Affects convergence
+Task dependent
+
