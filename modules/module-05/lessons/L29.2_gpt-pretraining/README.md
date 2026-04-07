@@ -113,3 +113,11 @@ Code on code repositories
 Cheap pre-training phase
 Significant quality improvement
 
+### Few-shot Learning
+
+Show examples in context
+No parameter updates
+In-context learning
+Larger models better
+GPT-3: Few-shot phenomena
+
