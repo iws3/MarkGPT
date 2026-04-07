@@ -1344,3 +1344,14 @@ Typos: Should be robust
 Adversarial training helps
 Data augmentation helps
 
+## Production Deployment
+
+### Model Serving
+
+Model trained - now what?
+API endpoint for predictions
+Batch processing for bulk
+Real-time requirements
+Infrastructure: Docker, Kubernetes
+Monitoring: Accuracy, latency
+
