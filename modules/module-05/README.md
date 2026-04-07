@@ -162,3 +162,15 @@ Parameter count: Very high
 Typical: BERT, GPT
 Trade-off: Memory vs speed
 
+## Special Tokens
+
+### Standard Special Tokens
+
+[CLS]: Classification token (start)
+[SEP]: Separator (between sentences)
+[PAD]: Padding (fill short sequences)
+[UNK]: Unknown (OOV words)
+[MASK]: Masked token (BERT pre-training)
+</s>: End of sequence
+<s>: Start of sequence
+
