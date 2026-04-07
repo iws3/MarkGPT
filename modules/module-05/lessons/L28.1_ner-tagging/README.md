@@ -139,3 +139,11 @@ Multilingual embeddings
 Shared structure
 Growing area
 
+### Slot-filling vs NER
+
+NER: Identify entities
+Slot-filling: Find specific values
+"CEO of X": Extract X
+More structured
+Relation-aware
+
