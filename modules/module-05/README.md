@@ -564,3 +564,14 @@ Domain adaptation: Fine-tune
 Task-specific: Train from scratch if big data
 Usually: Domain > task-specific
 
+## Embedding Evaluation
+
+### Intrinsic Evaluation
+
+Word analogies: King - man + woman = queen
+Similarity correlation: Compare to human ratings
+Relatedness tasks: RareWord, SimLex
+Direct measure of embedding quality
+Fast to compute
+Not always predictive of downstream
+
