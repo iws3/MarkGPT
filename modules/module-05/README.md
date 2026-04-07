@@ -1524,3 +1524,13 @@ Few-shot learning: Rapid adaptation
 8. Monitor performance
 9. Write thorough report
 
+## Suggested Capstones
+
+1. Sentiment analysis (movie reviews)
+2. Spam detection (emails)
+3. Intent classification (chatbot)
+4. Toxicity detection (comments)
+5. Topic classification (news)
+6. Language detection (multilingual)
+7. Domain-specific classifier (your domain)
+
