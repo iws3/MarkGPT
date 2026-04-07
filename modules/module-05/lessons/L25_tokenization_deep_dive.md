@@ -75,3 +75,11 @@ Efficient: O(1) lookup
 Problem: Suboptimal ("hello" as char)
 Used in: Early systems
 
+### Maximum Likelihood
+
+Probability of tokenization
+P(t1, t2, ..., tn) = P(t1)*P(t2|t1)*...
+Viterbi: Find maximum path
+Better quality
+Computationally expensive
+
