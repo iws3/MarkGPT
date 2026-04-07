@@ -63,3 +63,11 @@ Dampens frequency effect
 Often better than raw
 Standard choice
 
+### Probabilistic IDF
+
+IDF(t) = log((N - count) / count)
+Probabilistic interpretation
+Different from standard
+Sometimes useful
+Less common
+
