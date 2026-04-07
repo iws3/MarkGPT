@@ -83,3 +83,11 @@ Viterbi: Find maximum path
 Better quality
 Computationally expensive
 
+### Unigram Language Model
+
+Simplest LM
+P(token) = count(token) / total
+Works surprisingly well
+Very fast
+Foundation of many systems
+
