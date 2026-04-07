@@ -153,3 +153,12 @@ Training time: Slow
 Parameter count: Lower (embedding matrix)
 Typical: Character-level models
 
+### Large Vocab (100K)
+
+Sequence length: Short
+Memory per sample: Low
+Training time: Fast
+Parameter count: Very high
+Typical: BERT, GPT
+Trade-off: Memory vs speed
+
