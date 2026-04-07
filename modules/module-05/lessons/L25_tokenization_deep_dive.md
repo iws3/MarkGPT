@@ -132,3 +132,11 @@ Entropy measures uncertainty
 High entropy: Fewer good options
 Evaluates tokenizer quality
 
+### Dynamic Programming
+
+Optimal substructure
+Best(0..n) = min over splits
+Viterbi-like algorithm
+Guaranteed optimal
+O(n^2) time
+
