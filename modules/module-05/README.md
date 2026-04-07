@@ -1402,3 +1402,12 @@ Platforms: Mechanical Turk, Upwork
 Worker qualification
 Often enables large-scale
 
+### Dataset Biases
+
+Selection bias: Who collected?
+Labeler bias: Subjective decisions
+Distribution: Representative sample?
+Can affect model fairness
+Audit datasets routinely
+Better: Diversify sources
+
