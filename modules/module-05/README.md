@@ -791,3 +791,12 @@ Many real applications
 Sentiment, spam, topic, intent
 Foundation for NLP
 
+### Simple Baseline
+
+1. TF-IDF vectorization
+2. Logistic regression
+3. Get predictions
+4. Evaluate on test set
+Often surprisingly good
+Fast, interpretable, reliable
+
