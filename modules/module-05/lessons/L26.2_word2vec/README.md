@@ -71,3 +71,11 @@ Binary classification task
 10-15x speedup typical
 Practical necessity
 
+### Context Window
+
+Window size = 5: Look ±5 words
+Larger window: More context
+Smaller window: More local
+Trade-off: Task-dependent
+Typical: 5-10
+
