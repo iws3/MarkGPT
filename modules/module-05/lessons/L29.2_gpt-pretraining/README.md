@@ -163,3 +163,11 @@ RoPE: Rotation-based
 Relative position: Many variants
 Affects position sensitivity
 
+### Batch Normalization vs LayerNorm
+
+BatchNorm: Across batch dimension
+LayerNorm: Across features
+Transformers use LayerNorm
+More stable training
+Better for variable lengths
+
