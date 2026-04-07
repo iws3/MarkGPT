@@ -544,3 +544,14 @@ model = fasttext.train_unsupervised('data.txt')
 vec = model.get_word_vector('hello')
 ```
 
+## Pre-trained Embeddings
+
+### When to Use Pre-trained
+
+Limited data: Always use
+Data on same domain: Cold-start faster
+Transfer learning: Few examples needed
+Stability: Better than random init
+Typical: Download from model zoos
+Fine-tune on task data
+
