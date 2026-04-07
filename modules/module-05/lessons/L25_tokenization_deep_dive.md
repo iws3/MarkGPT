@@ -107,3 +107,12 @@ NFC vs NFD formats
 Should normalize first
 Affects tokenization
 
+### Language-Specific Tokenization
+
+Chinese: No spaces (use jieba)
+Arabic: Right-to-left
+Vietnamese: Diacritics important
+Thai: No word boundaries
+Japanese: Kanji vs hiragana
+Language matters!
+
