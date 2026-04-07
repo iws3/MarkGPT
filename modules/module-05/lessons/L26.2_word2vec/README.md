@@ -87,3 +87,11 @@ Improves semantic quality
 Statistic-based detection
 Multiple passes
 
+### Training Tips
+
+Learning rate: 0.025 starting
+Decay over time
+Multiple epochs: 5-10
+Larger corpus: Better
+Parallelization on cores
+
