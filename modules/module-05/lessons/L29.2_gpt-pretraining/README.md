@@ -63,3 +63,11 @@ Natural: Text generation
 Can't see future
 Used by GPT, GPT-2, GPT-3
 
+### Bidirectional (BERT)
+
+P(w_t | all words except w_t)
+Can see both directions
+Better for classification
+Can't generate naturally
+Used by BERT, RoBERTa
+
