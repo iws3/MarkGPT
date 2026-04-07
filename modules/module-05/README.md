@@ -655,3 +655,12 @@ Remarkable: Works surprisingly well
 Emergent property of vector space
 Not always accurate but conceptually rich
 
+### Semantic Relationships
+
+Synonyms: Similar vectors
+Antonyms: Opposite vectors
+Hypernyms: Generalization direction
+Part-of: Also somewhat reflected
+Relational properties: Encoded implicitly
+Remarkable unsupervised learning!
+
