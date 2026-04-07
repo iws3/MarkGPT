@@ -92,3 +92,14 @@ Balances word and character levels
 Standard in modern NLP
 "Hello" → ["He", "llo"] or ["Hel", "lo"]
 
+## Byte-Pair Encoding (BPE)
+
+### Algorithm
+
+1. Start with characters + special symbols
+2. Count all adjacent pairs
+3. Merge most frequent pair
+4. Repeat until vocab size reached
+Simple greedy algorithm
+Very effective in practice
+
