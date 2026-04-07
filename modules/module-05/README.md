@@ -838,3 +838,12 @@ BIO tagging scheme
 B: Begin, I: Inside, O: Outside
 Fundamental IE task
 
+### Relation Extraction
+
+Identify relationships between entities
+Example: Company_X founded_in Year_Y
+Given: Named entities
+Find: Relationship type
+Applications: Knowledge base construction
+Harder than NER
+
