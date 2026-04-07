@@ -95,3 +95,13 @@ Not practical for real-time
 Became BERT's problem
 BERT 12x more expensive!
 
+## Contextualized Embeddings Theory
+
+### Why Contextualization?
+
+Same word, different contexts
+"bank" financial vs river
+Fixed embeddings lose sense
+Context -> sense-specific
+Dynamic representation
+
