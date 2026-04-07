@@ -1471,3 +1471,12 @@ Bias detection: Audit models
 Mitigation: Better data, constraints
 Ongoing work
 
+### Privacy
+
+Memorization: Models can memorize
+Membership inference: Can extract training data?
+Differential privacy: Formal guarantee
+Federated learning: Train on device
+Data retention: Keep only needed
+Regulation: GDPR, local laws
+
