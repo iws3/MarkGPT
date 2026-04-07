@@ -165,3 +165,11 @@ Uncertainty sampling
 Query-by-committee
 BALD: Bayesian Active
 
+### Zero-shot Classification
+
+No task-specific training
+Use class descriptions
+Semantic similarity
+Generative: "This is"
+Emerging capability
+
