@@ -129,3 +129,11 @@ Huge impact on output
 Task description format
 Active research
 
+### Temperature and Sampling
+
+Temperature: Higher = more random
+Top-k: Sample from top k
+Top-p: Sample from top p prob
+Nucleus sampling: Balanced
+Controls output diversity
+
