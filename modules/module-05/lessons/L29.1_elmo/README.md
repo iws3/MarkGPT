@@ -79,3 +79,11 @@ Task-specific combination
 Different tasks use different layers
 Adaptive representation
 
+### Evaluation Results
+
+NER: +1-2% F1
+SQuAD: +2-3% F1
+Sentiment: +1% accuracy
+Consistent but modest
+Foundation, not solution
+
