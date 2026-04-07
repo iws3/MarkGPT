@@ -113,3 +113,11 @@ P(sequence) not independent
 Viterbi decoding optimal
 Better than independent labels
 
+### Structured Prediction
+
+Output: Constrained structure
+"E" after "B" required
+Parse trees: More complex
+Dynamic programming
+Hard inference
+
