@@ -73,3 +73,11 @@ Hierarchical softmax
 Extremely fast
 Decent accuracy
 
+### Attention-based
+
+Attend to important words
+Learn weights per word
+Context-dependent importance
+Interpretable decisions
+Better performance
+
