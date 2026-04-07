@@ -905,3 +905,12 @@ Much better than n-grams
 Training: Backprop through time
 Slow but powerful
 
+### Perplexity
+
+How surprised model is
+PP = 2^(cross-entropy)
+Lower is better
+Baseline: Unigram LM (~1000)
+LSTM: ~100-200
+Good metric for LM quality
+
