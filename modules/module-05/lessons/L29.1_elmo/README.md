@@ -63,3 +63,11 @@ Diverse language
 Large-scale pre-training
 Weeks to train
 
+### Bidirectional Processing
+
+Forward LSTM: Left-to-right
+Backward LSTM: Right-to-left
+Concatenate: Both directions
+Context from both sides
+Better than forward only
+
