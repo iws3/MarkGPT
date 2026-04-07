@@ -71,3 +71,11 @@ Better for classification
 Can't generate naturally
 Used by BERT, RoBERTa
 
+### Masked Language Model
+
+[MASK] token in input
+Predict what's masked
+Bidirectional context
+Allows both directions
+BERT pre-training task
+
