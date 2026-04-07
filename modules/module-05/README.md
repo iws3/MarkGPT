@@ -318,3 +318,14 @@ Pre-tokenize for speed
 4. **Whitespace**: Multiple spaces
    Solution: Normalize whitespace
 
+## Vocabulary Learning
+
+### From Unlabeled Data
+
+Train on large corpus
+No labels needed
+Learn frequent patterns
+Adapt to domain
+Example: Train on Wikipedia → Reddit
+Learn Reddit-specific slang
+
