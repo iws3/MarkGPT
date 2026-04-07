@@ -26,3 +26,11 @@ Mixture model approach
 Per-sense embeddings
 Disambiguate from context
 
+### Retrofitting
+
+Post-hoc refinement
+Adjust embeddings to resources
+Preserve similarity structure
+Add external knowledge
+Better semantic alignment
+
