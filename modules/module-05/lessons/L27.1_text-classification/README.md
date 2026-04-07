@@ -89,3 +89,11 @@ SMOTE: Synthetic examples
 Adjust decision threshold
 Multiple strategies
 
+### Multi-label Classification
+
+Multiple labels per document
+"Action" and "adventure"
+Not mutually exclusive
+Different loss (cross-entropy per label)
+Different evaluation metrics
+
