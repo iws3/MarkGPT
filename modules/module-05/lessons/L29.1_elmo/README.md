@@ -87,3 +87,11 @@ Sentiment: +1% accuracy
 Consistent but modest
 Foundation, not solution
 
+### Computational Cost
+
+Large model: 93.6M params
+Slow inference: 100ms per sentence
+Not practical for real-time
+Became BERT's problem
+BERT 12x more expensive!
+
