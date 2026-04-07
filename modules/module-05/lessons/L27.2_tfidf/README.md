@@ -71,3 +71,11 @@ Different from standard
 Sometimes useful
 Less common
 
+### BM25
+
+Refinement of TF-IDF
+Saturation term: Caps TF
+Document length normalization
+Very effective for IR
+Standard in Lucene
+
