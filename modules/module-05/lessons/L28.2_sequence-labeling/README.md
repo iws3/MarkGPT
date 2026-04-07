@@ -87,3 +87,11 @@ Universal Features schema
 Richer representation
 Harder annotation
 
+### Tagging with Context
+
+"saw" could be NOUN or VERB
+Context disambiguates
+RNN/attention exploit context
+Much better than dict-based
+Neural models: 97%+ accuracy
+
