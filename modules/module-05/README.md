@@ -1316,3 +1316,11 @@ Reduces annotation cost
 20% labels → 90% of full accuracy
 Smart data collection
 
+### Query Strategies
+
+Uncertainty: Model least confident
+Diversity: Examples unlike labeled
+Expected gradient length: Big gradient
+Committee: Ensemble disagreement
+Typical: Start with diverse, refine uncertain
+
