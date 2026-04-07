@@ -780,3 +780,14 @@ Encodes local word order
 Partially solves word order loss
 Increase dimensionality
 
+## Text Classification
+
+### Problem Definition
+
+Input: Document (text)
+Output: Category label (discrete)
+Task: Learn function mapping
+Many real applications
+Sentiment, spam, topic, intent
+Foundation for NLP
+
