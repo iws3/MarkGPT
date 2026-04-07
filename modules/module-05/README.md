@@ -1393,3 +1393,12 @@ Quality control
 Inter-annotator agreement
 Cohen's kappa metric
 
+### Crowdsourcing
+
+Hire many annotators
+Low cost per example
+Redundancy for quality
+Platforms: Mechanical Turk, Upwork
+Worker qualification
+Often enables large-scale
+
