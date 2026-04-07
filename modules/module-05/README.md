@@ -867,3 +867,12 @@ Examples: POS, NER, chunking
 More complex than classification
 Order and structure matter
 
+### CRF (Conditional Random Fields)
+
+Probabilistic sequence model
+Conditions on observations
+Globally normalized
+Handles dependencies
+Can't predict impossible sequences
+Good baseline for labeling
+
