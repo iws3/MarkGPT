@@ -349,3 +349,12 @@ Learning principle: Co-occurrence statistics
 Basis for all embedding methods
 Remarkably effective!
 
+### Embedding Dimension
+
+50D: Very small, fast, limited expressiveness
+100D: Minimal, basic tasks
+300D: Standard for word embeddings
+1000D: Large, rich, slow
+Larger: More expressive, more parameters
+Typical: 300D word2vec, 768D BERT
+
