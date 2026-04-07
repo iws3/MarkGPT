@@ -476,3 +476,12 @@ v(hello) = v(he) + v(el) + v(ll) + v(lo) + ...
 Handles unseen words!
 Handles morphology
 
+### Character N-grams
+
+Typical: 3-6 character n-grams
+"hello" (n=3): [hel, ell, llo]
+"hello" (n=4): [hell, ello]
+"hello" (n=5): [hello]
+Plus special markers for word start/end
+Sum: Gives word embedding
+
