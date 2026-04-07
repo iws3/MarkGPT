@@ -91,3 +91,11 @@ Works surprisingly well
 Very fast
 Foundation of many systems
 
+### Byte-Level Tokenization
+
+UTF-8 bytes: 0-255 vocab
+Can represent any text
+No OOV!
+Very long sequences
+Used in: GPT-2
+
