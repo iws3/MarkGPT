@@ -1460,3 +1460,14 @@ Hardware: GPU if available
 Serving: TensorFlow Serving, triton
 Startup cost matters sometimes
 
+## Responsible AI
+
+### Fairness
+
+Demographic parity: Same accuracy
+Equalized odds: Similar errors
+Calibration: Confidence = accuracy
+Bias detection: Audit models
+Mitigation: Better data, constraints
+Ongoing work
+
