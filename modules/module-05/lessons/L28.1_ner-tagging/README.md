@@ -97,3 +97,13 @@ Sequential dependency
 CRF handles well
 Important for real data
 
+## NER System Architecture
+
+### Feature Engineering
+
+Lexical: word, case, digits
+Syntactic: POS tags
+Semantic: word embeddings
+External: gazetteers, wikipeda
+Combined into feature vector
+
