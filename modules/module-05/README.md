@@ -771,3 +771,12 @@ Loses word order
 High-dimensional but sparse
 Still baseline for many tasks
 
+### N-grams
+
+Unigrams: Individual words
+Bigrams: Two consecutive words
+Trigrams: Three consecutive
+Encodes local word order
+Partially solves word order loss
+Increase dimensionality
+
