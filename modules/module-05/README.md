@@ -1510,3 +1510,17 @@ Mixture of experts: Specialized models
 Prompt engineering: Better queries
 Few-shot learning: Rapid adaptation
 
+## Capstone: End-to-End Project
+
+**Build a Text Classification System**
+
+1. Find dataset (download or create)
+2. Explore data distribution
+3. Baseline: TF-IDF + Logistic Regression
+4. Embeddings: Word2Vec or fastText
+5. Deep model: CNN/RNN
+6. Error analysis and debugging
+7. Optimize and deploy
+8. Monitor performance
+9. Write thorough report
+
