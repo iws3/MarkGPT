@@ -63,3 +63,11 @@ Gradient updates embeddings
 Simple but effective
 Parallelizable
 
+### Negative Sampling Benefits
+
+Avoids expensive softmax
+K = 5-15 negative samples
+Binary classification task
+10-15x speedup typical
+Practical necessity
+
