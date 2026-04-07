@@ -124,3 +124,11 @@ Efficient matching
 Works with variable vocab
 Used in BERT
 
+### Entropy-Based Analysis
+
+Tokenization ambiguity
+Multiple valid segmentations
+Entropy measures uncertainty
+High entropy: Fewer good options
+Evaluates tokenizer quality
+
