@@ -1188,3 +1188,14 @@ Arabic: Root patterns
 Challenges: Many word forms
 fastText helps via subword
 
+## Domain Adaptation
+
+### The Problem
+
+Train on Wikipedia (general)
+Test on biomedical (specific)
+Distribution shift
+Generic embeddings miss domain
+Solution: Adapt embeddings
+Or train model on domain
+
