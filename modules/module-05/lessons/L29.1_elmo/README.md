@@ -121,3 +121,11 @@ Sentiment: Maybe layer 2
 Learned weights per layer
 Adaptive representation
 
+### Computational Efficiency
+
+ELMo: Expensive forward pass
+Cache embeddings: Pre-compute
+BERT: Also slow
+Quantization helps
+Distillation: Compression
+
