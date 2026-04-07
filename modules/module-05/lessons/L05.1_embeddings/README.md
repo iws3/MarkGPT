@@ -42,3 +42,11 @@ Predicts morphologically rich
 Helps low-resource
 Shares structure
 
+### Frequency Band Analysis
+
+Common words: Stable embeddings
+Rare words: Noisy embeddings
+Frequency affects quality
+Regularization helps rare
+Inverse frequency weighting
+
