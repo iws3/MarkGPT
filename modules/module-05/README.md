@@ -1451,3 +1451,12 @@ Practical in production
 Libraries: TensorFlow Lite, ONNX
 Worth doing
 
+### Inference Optimization
+
+Batch requests: 10x speedup
+Cache: Precompute embeddings
+Model selection: Right size for task
+Hardware: GPU if available
+Serving: TensorFlow Serving, triton
+Startup cost matters sometimes
+
