@@ -260,3 +260,14 @@ tokenizer.train_from_iterator(texts, vocab_size=50000)
 encoding = tokenizer.encode('Your text')
 ```
 
+## Multilingual Tokenization
+
+### Challenges
+
+100+ languages, different scripts
+Chinese: Words not separated
+Arabic: Right-to-left
+Agglutinative: Turkish, Finnish
+Solution: Universal tokenizers
+SentencePiece: Language-agnostic
+
