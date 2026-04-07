@@ -140,3 +140,11 @@ Viterbi-like algorithm
 Guaranteed optimal
 O(n^2) time
 
+### Morphologically-Aware
+
+Segment respecting morphology
+"running" = "run" + "ing"
+Preserves linguistic structure
+Better for low-resource
+Multilingual advantage
+
