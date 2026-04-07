@@ -116,3 +116,11 @@ Thai: No word boundaries
 Japanese: Kanji vs hiragana
 Language matters!
 
+### Trie-Based Tokenization
+
+Prefix tree structure
+O(n) tokenization
+Efficient matching
+Works with variable vocab
+Used in BERT
+
