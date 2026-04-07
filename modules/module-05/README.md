@@ -1305,3 +1305,14 @@ TN: True Negative
 Reveals what model struggles with
 Guides data collection
 
+## Active Learning
+
+### Selective Labeling
+
+Don't label everything
+Label most informative examples
+Model-uncertain examples
+Reduces annotation cost
+20% labels → 90% of full accuracy
+Smart data collection
+
