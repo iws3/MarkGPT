@@ -53,3 +53,13 @@ Multi-task learning improves generalization.
 
 Pointer networks learn attention-based selection.
 
+## POS Tagging
+
+### Universal Dependencies
+
+NOUN, VERB, ADJ, ADP, ...
+Language-independent tags
+100+ languages annotated
+Standard benchmark
+Simplifies cross-lingual
+
