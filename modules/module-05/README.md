@@ -438,3 +438,12 @@ Factor matrix → embeddings
 Linear transformation
 Faster training than Word2Vec
 
+### Co-occurrence Matrix
+
+Count how often words co-occur
+X_ij = count(word_i near word_j)
+Huge and sparse: V x V
+100K vocab: 10 billion entries!
+Solution: Only store non-zeros
+Factorize: X ≈ W @ W^T
+
