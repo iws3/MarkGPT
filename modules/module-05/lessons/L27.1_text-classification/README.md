@@ -115,3 +115,11 @@ Loss = -alpha * (1-PT)^gamma * log(PT)
 Focus on hard negatives
 Helps imbalanced data
 
+### Contrastive Loss
+
+Triplet: anchor, positive, negative
+Margin-based ranking
+min(sim(a,p) - sim(a,n) + margin)
+Forces semantic structure
+Better embeddings
+
