@@ -388,3 +388,13 @@ Sample K negative examples
 Loss: Binary classification (positive vs negatives)
 10-15x speedup!
 
+### Hierarchical Softmax
+
+Alternative to negative sampling
+Binary tree of vocabulary
+Log depth ≈ log(V)
+Each path: Binary decisions
+Faster than full softmax
+Slower than negative sampling
+Used in some implementations
+
