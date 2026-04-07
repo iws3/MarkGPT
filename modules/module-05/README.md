@@ -340,3 +340,12 @@ Similar words → similar vectors
 Foundation of modern NLP
 Input to neural networks
 
+### Distributional Hypothesis
+
+"You shall know a word by the company it keeps"
+Context determines meaning
+Words in similar contexts → similar meanings
+Learning principle: Co-occurrence statistics
+Basis for all embedding methods
+Remarkably effective!
+
