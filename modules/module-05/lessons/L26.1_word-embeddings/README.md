@@ -55,3 +55,13 @@ Retrofitting embeddings to external knowledge bases.
 
 Cross-lingual embeddings enable multilingual transfer.
 
+## Embedding Properties
+
+### Compositionality
+
+Can combine embeddings?
+"new" + "york" ≈ "new york"
+Sometimes works, sometimes not
+Non-linear: Addition too simple
+Better: Learn composition
+
