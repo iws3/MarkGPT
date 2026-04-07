@@ -675,3 +675,12 @@ Different representation per context
 Solves word sense disambiguation
 Revolutionized NLP in 2018
 
+### Architecture
+
+Bidirectional LSTM language model
+Forward LSTM: Left to right
+Backward LSTM: Right to left
+3 layers: Input + 2 hidden
+Each token: Multiple representation options
+Combine all: Weighted sum of layers
+
