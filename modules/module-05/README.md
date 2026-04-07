@@ -1296,3 +1296,12 @@ Need: Balanced metrics
 Better than tuning:
 Understanding > parameters
 
+### Confusion Matrix
+
+TP: True Positive
+FN: False Negative (missed)
+FP: False Positive (false alarm)
+TN: True Negative
+Reveals what model struggles with
+Guides data collection
+
