@@ -1219,3 +1219,12 @@ Double data size
 Improves robustness
 Common for small datasets
 
+### Synonym Replacement
+
+Replace words with synonyms
+EDA: Easy Data Augmentation
+Random and controlled
+Preserves label but varies text
+Simple baseline
+Works surprisingly well
+
