@@ -129,3 +129,11 @@ BERT: Also slow
 Quantization helps
 Distillation: Compression
 
+### Combining with Static Embeddings
+
+ELMo + Word2Vec
+Concatenate representations
+Double embedding size
+Complementary information
+Boosts simple models
+
