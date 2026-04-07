@@ -1431,3 +1431,14 @@ Solution: New datasets, real applications
 Better metric: Few-shot on new task
 Robust evaluation needed
 
+## Computational Efficiency
+
+### Model Size
+
+BERT-base: 110M parameters
+BERT-large: 340M parameters
+Inference: Larger = slower
+Mobile: Need lightweight
+DistilBERT: 40% smaller, 97% accuracy
+Pruning: Remove unimportant weights
+
