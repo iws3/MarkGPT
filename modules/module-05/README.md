@@ -1422,3 +1422,12 @@ ImageNet: Huge vision benchmark
 Common measures: Compare fairly
 Leaderboards: Competitive drive
 
+### Benchmark Gaming
+
+Overfitting to benchmark
+Not generalizing
+Contamination: Test in training?
+Solution: New datasets, real applications
+Better metric: Few-shot on new task
+Robust evaluation needed
+
