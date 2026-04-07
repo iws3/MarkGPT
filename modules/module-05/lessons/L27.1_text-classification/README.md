@@ -123,3 +123,11 @@ min(sim(a,p) - sim(a,n) + margin)
 Forces semantic structure
 Better embeddings
 
+### Metrics for Classification
+
+Accuracy: %correct
+Precision: TP/(TP+FP)
+Recall: TP/(TP+FN)
+F1: Harmonic mean
+ROC-AUC: Ranking metric
+
