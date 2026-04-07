@@ -131,3 +131,11 @@ Recall: TP/(TP+FN)
 F1: Harmonic mean
 ROC-AUC: Ranking metric
 
+### Threshold Optimization
+
+Default: 0.5
+Move for cost-sensitive
+Optimize F1 or custom metric
+Search threshold
+Data-dependent
+
