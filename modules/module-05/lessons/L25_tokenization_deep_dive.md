@@ -164,3 +164,11 @@ Can represent anything
 Slow but complete
 Hybrid systems
 
+### Reversibility and Reconstruction
+
+Can we reconstruct original text?
+Tokenization is lossy
+Some tokens merge forever
+"New" vs "Ne" + "w"
+Important for applications
+
