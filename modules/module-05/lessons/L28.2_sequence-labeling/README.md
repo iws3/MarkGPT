@@ -105,3 +105,11 @@ Parallel computation
 Better long-range dependencies
 State-of-the-art
 
+### Conditional Random Fields Deep Dive
+
+Global normalization
+Consider tag transitions
+P(sequence) not independent
+Viterbi decoding optimal
+Better than independent labels
+
