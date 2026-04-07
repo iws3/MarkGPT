@@ -1012,3 +1012,14 @@ Amazon reviews: Large scale
 Twitter: Informal, sarcasm
 Different difficulty levels
 
+## Vector Space Models
+
+### Distributional Similarity
+
+Words as points in space
+Distance encodes similarity
+Clusters emerge automatically
+Unsupervised discovery
+Remarkable regularities
+Foundation of modern NLP
+
