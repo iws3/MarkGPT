@@ -1208,3 +1208,14 @@ Or train model on domain
 5. Active learning: Query hard examples
 Typically: Fine-tune + domain vocab
 
+## Data Augmentation
+
+### Backtranslation
+
+Translate to another language
+Translate back to original
+Creates paraphrases
+Double data size
+Improves robustness
+Common for small datasets
+
