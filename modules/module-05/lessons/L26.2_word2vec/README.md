@@ -113,3 +113,11 @@ Dynamic sampling: More variety
 Trade exploration vs stability
 Empirically better
 
+### Subword Patterns
+
+Word2vec on subword tokens
+"beautiful" = "beau" + "tiful"
+Shares similarity structure
+Helps morphologically similar
+Factorizes meaning
+
