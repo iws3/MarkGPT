@@ -398,3 +398,14 @@ Faster than full softmax
 Slower than negative sampling
 Used in some implementations
 
+### Word2Vec Training
+
+1. Initialize embeddings randomly
+2. Iterate through corpus
+3. For each word-context pair:
+   - Compute output probability
+   - Compute loss
+   - Update embeddings
+4. Repeat multiple epochs
+Convergence: ~10-20 billion words
+
