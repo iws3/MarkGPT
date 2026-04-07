@@ -1284,3 +1284,15 @@ Need: Balanced metrics
 5. Threshold tuning: Adjust decision
 6. Use better metrics: F1, RoC-AUC
 
+## Error Analysis
+
+### Systematic Analysis
+
+1. Look at wrong predictions
+2. Categorize error types
+3. Count by category
+4. Focus on top errors
+5. Address root causes
+Better than tuning:
+Understanding > parameters
+
