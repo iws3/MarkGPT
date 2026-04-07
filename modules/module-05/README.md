@@ -809,3 +809,12 @@ Fast, interpretable, reliable
 5. Softmax for class probs
 Better with large labeled data
 
+### Datasets
+
+20 newsgroups: 20 categories
+Movie reviews: Sentiment (2 class)
+AG News: News categorization
+DBpedia: Wikipedia categories
+TREC: Question type classification
+Standard benchmarks for evaluation
+
