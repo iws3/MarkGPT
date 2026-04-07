@@ -644,3 +644,14 @@ Transition to transformers
 - Consider subword (fastText) for OOV
 - Use contextualized for modern tasks
 
+## Embedding Arithmetic
+
+### Word Analogies
+
+Task: a is to b as c is to d
+Find d: d ≈ b - a + c
+Example: Paris - France + Germany = Berlin
+Remarkable: Works surprisingly well
+Emergent property of vector space
+Not always accurate but conceptually rich
+
