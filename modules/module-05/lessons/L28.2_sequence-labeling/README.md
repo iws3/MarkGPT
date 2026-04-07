@@ -95,3 +95,13 @@ RNN/attention exploit context
 Much better than dict-based
 Neural models: 97%+ accuracy
 
+## Advanced Sequence Modeling
+
+### Transformer for Tagging
+
+Self-attention over sequence
+No recurrence needed
+Parallel computation
+Better long-range dependencies
+State-of-the-art
+
