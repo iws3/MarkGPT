@@ -95,3 +95,13 @@ Doubling size: ~5% better
 10x compute: ~30% better
 Drives gigantic models
 
+## Fine-tuning Strategies
+
+### Task-Specific Fine-tuning
+
+Adapt general model to task
+Add task-specific head
+Fine-tune all or last layers
+Much faster than pre-training
+Works with limited data
+
