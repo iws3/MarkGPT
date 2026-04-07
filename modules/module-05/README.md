@@ -664,3 +664,14 @@ Part-of: Also somewhat reflected
 Relational properties: Encoded implicitly
 Remarkable unsupervised learning!
 
+## ELMo: Embeddings from Language Models
+
+### The Great Insight (2018)
+
+Language modeling captures context
+Hidden states encode rich information
+Use as embeddings instead of words
+Different representation per context
+Solves word sense disambiguation
+Revolutionized NLP in 2018
+
