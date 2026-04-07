@@ -1074,3 +1074,14 @@ Different vectors per context
 Better semantic understanding
 Jumping off point to BERT
 
+## Cross-lingual Transfer
+
+### Multilingual Embeddings
+
+Single space across languages
+Similar concepts align
+Zero-shot translation
+mBERT enables this
+Word2Vec: Language-specific
+BERT: Unified space
+
