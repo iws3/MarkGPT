@@ -1275,3 +1275,12 @@ Always predict majority
 Accuracy: 90% but useless!
 Need: Balanced metrics
 
+### Solutions
+
+1. Oversampling: Duplicate minority
+2. Undersampling: Drop majority
+3. Cost-sensitive: Penalize errors
+4. SMOTE: Synthetic minority examples
+5. Threshold tuning: Adjust decision
+6. Use better metrics: F1, RoC-AUC
+
