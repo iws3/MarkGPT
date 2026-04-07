@@ -753,3 +753,12 @@ Semantic: Entity types, meanings
 Contextual: Surrounding words
 External: Knowledge bases
 
+### TF-IDF
+
+Term Frequency-Inverse Document Freq
+TF(t, d) = count(t in d) / |d|
+IDF(t) = log(N / count(docs with t))
+TF-IDF(t, d) = TF(t, d) * IDF(t)
+Downweights common words
+Simple but effective baseline
+
