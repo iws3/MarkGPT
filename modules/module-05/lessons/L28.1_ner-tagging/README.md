@@ -65,3 +65,11 @@ B only when adjacent to same
 Less common
 Historic
 
+### IOB2 (BIO)
+
+B: Begin tag
+I: Inside tag
+O: Outside
+Most common
+Standard scheme
+
