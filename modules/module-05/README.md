@@ -203,3 +203,14 @@ Preserves information!
 5. Back-off smoothing (pre-training trick)
 Best: Combine approaches
 
+## Tokenization Quality Metrics
+
+### Compression Ratio
+
+Average tokens per word
+1.0: Perfect (1 token per word)
+1.3: Good (3 tokens per 10 words)
+2.0: Poor (half as many words)
+Impact: Memory and compute
+Typical: 1.1-1.3 for English
+
