@@ -896,3 +896,12 @@ Smoothing: Unseen n-grams
 Fast inference
 Limited by sparsity
 
+### RNN Language Models
+
+Recurrent: Process token by token
+Hidden state: Encodes context
+Unbounded context
+Much better than n-grams
+Training: Backprop through time
+Slow but powerful
+
