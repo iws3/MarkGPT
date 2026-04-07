@@ -1355,3 +1355,12 @@ Real-time requirements
 Infrastructure: Docker, Kubernetes
 Monitoring: Accuracy, latency
 
+### Edge Cases
+
+Empty input: Handle gracefully
+Very long text: Truncate intelligently
+OOV words: Use subword fallback
+Multiple languages: Route to language-specific
+Malformed: Preprocess carefully
+Production requirement
+
