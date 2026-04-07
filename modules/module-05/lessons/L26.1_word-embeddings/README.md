@@ -89,3 +89,11 @@ Reflects training data bias
 Problematic for applications
 Debias methods exist
 
+### Dimensionality Sweet Spot
+
+50D: Too small, poor quality
+100D: Decent for small tasks
+300D: Standard, good balance
+1000D: Overkill for most
+Find empirically
+
