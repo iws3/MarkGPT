@@ -81,3 +81,11 @@ Embeddings reflect hierarchy
 Vector direction matters
 Emergent property
 
+### Cultural Bias
+
+"doctor" more similar to "he"
+"nurse" more similar to "she"
+Reflects training data bias
+Problematic for applications
+Debias methods exist
+
