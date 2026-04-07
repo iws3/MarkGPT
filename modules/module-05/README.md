@@ -1364,3 +1364,12 @@ Multiple languages: Route to language-specific
 Malformed: Preprocess carefully
 Production requirement
 
+### Monitoring and Metrics
+
+Accuracy: Baseline metric
+Latency: Response time
+Throughput: Requests/sec
+Cost: Computational efficiency
+Drift: Does performance degrade?
+User feedback: Ground truth check
+
