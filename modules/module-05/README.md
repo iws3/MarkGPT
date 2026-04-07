@@ -183,3 +183,14 @@ Improves performance
 Requires fine-tuning
 Common in production systems
 
+## Handling OOV Words
+
+### Problem
+
+Word not in vocabulary → [UNK]
+Loses information
+Subword tokenization helps
+"unrecognizable" → ["unrecognizable"]
+BPE: ["unrecogniz", "able"]
+Preserves information!
+
