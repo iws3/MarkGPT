@@ -53,3 +53,13 @@ Multi-field documents separate component weights.
 
 Semantic search uses embeddings for retrieval.
 
+## TF-IDF Variants
+
+### Log-TF
+
+TF(t,d) = 1 + log(count)
+Sublinear scaling
+Dampens frequency effect
+Often better than raw
+Standard choice
+
