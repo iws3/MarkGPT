@@ -358,3 +358,14 @@ Remarkably effective!
 Larger: More expressive, more parameters
 Typical: 300D word2vec, 768D BERT
 
+## Word2Vec
+
+### Skip-gram Model
+
+Predict context from word
+Input: Center word
+Output: Surrounding words (window)
+Loss: Cross-entropy
+Objective: Maximize P(context|word)
+Simple but powerful
+
