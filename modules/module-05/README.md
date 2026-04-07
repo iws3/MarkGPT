@@ -1335,3 +1335,12 @@ LIME: Local explanations
 SHAP: Game theory-based
 Understanding models is crucial
 
+### Adversarial Robustness
+
+Small input changes flip prediction
+Spelling errors: "resteraunt"
+Paraphrases: Change wording
+Typos: Should be robust
+Adversarial training helps
+Data augmentation helps
+
