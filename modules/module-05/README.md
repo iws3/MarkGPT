@@ -1003,3 +1003,12 @@ Multi-class: Fine-grained opinions
 Domain: Language varies by domain
 More complex than it seems
 
+### Datasets
+
+Movie reviews: Binary, straightforward
+IMDB: 25K training examples
+SemEval: Multiple languages
+Amazon reviews: Large scale
+Twitter: Informal, sarcasm
+Different difficulty levels
+
