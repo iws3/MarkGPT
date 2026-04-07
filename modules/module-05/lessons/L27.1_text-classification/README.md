@@ -65,3 +65,11 @@ Multiple filter sizes: 2, 3, 4
 Max-over-time pooling
 Simple, fast, effective
 
+### FastText Classifier
+
+Bag-of-words embeddings
+Average word vectors
+Hierarchical softmax
+Extremely fast
+Decent accuracy
+
