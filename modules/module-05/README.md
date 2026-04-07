@@ -55,3 +55,13 @@ resources/     - Additional readings and links
 ## Next Module
 
 See ../module-0$((i+1))/README.md for the next module.
+## Tokenization Fundamentals
+
+### What is Tokenization?
+
+Converting text → tokens (numbers)
+Token: Smallest unit (word, subword, character)
+Required step for all NLP models
+Quality crucial: Affects downstream tasks
+Trade-off: Granularity vs vocabulary size
+
