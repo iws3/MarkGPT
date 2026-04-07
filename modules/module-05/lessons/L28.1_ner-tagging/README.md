@@ -73,3 +73,11 @@ O: Outside
 Most common
 Standard scheme
 
+### IOBES
+
+B, I, O, E (end), S (single)
+Most explicit
+Distinguishes single vs multi
+Better for some tasks
+Slightly higher accuracy
+
