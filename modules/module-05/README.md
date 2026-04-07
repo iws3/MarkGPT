@@ -121,3 +121,14 @@ Language independent: Works on any language
 Reversible: Can decode back
 Reproducible: Same text → same tokens
 
+## WordPiece Tokenization
+
+### Differences from BPE
+
+Merge criterion: Likelihood maximization
+Not just frequency
+Used in: BERT, RoBERTa
+Similar results to BPE
+Slightly different algorithm
+Both work well in practice
+
