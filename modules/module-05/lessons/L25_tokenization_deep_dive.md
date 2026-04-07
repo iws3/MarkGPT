@@ -188,3 +188,11 @@ BPE: Start with characters
 Vocab size: Hyperparameter
 Affects text length
 
+### Decoding Ambiguity
+
+Same subword sequence: Different texts?
+Rare but possible
+UTF-8 BPE: Can represent bytes
+String reconstruction
+Handle edge cases
+
