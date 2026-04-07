@@ -79,3 +79,11 @@ Confusion matrix: Where errors
 Simple task: 97%+ accuracy
 Mostly solved
 
+### Morphological Analysis
+
+Fine-grained: POS + morphology
+"books" = NOUN + Numb:Plur
+Universal Features schema
+Richer representation
+Harder annotation
+
