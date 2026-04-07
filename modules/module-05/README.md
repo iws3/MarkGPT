@@ -485,3 +485,13 @@ Typical: 3-6 character n-grams
 Plus special markers for word start/end
 Sum: Gives word embedding
 
+### fastText Training
+
+1. Compute character n-gram vectors
+2. Word vector = sum of n-grams
+3. Train like Word2Vec (Skip-gram)
+4. Learn both: word vectors and n-grams
+5. At inference: Can compute for OOV
+
+Handling spelling: Similar n-grams
+
