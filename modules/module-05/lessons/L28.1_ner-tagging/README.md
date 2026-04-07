@@ -115,3 +115,11 @@ Wikipedia dumps, YAGO, DBpedia
 Signals but incomplete
 Noisy annotations
 
+### Boundary Detection
+
+Where does entity start/end?
+"New York City" = where to split
+Token boundaries help
+Sentence context
+Hard in noisy text
+
