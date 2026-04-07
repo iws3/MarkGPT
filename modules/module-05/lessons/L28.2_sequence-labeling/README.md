@@ -71,3 +71,11 @@ More fine-grained
 Better for downstream
 Less portable
 
+### Evaluation Metrics
+
+Accuracy: % correct
+Per-tag F1: Class-wise
+Confusion matrix: Where errors
+Simple task: 97%+ accuracy
+Mostly solved
+
