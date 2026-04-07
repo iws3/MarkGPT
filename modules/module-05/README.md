@@ -983,3 +983,14 @@ BLEU score: 35+ vs SMT 25+
 Simpler system
 Single model, not pipeline
 
+## Sentiment Analysis
+
+### Task Definition
+
+Classify positive vs negative
+Or: Rate on scale 1-5
+Common application
+Good benchmark problem
+Many datasets available
+Progression: BoW → embeddings → transformers
+
