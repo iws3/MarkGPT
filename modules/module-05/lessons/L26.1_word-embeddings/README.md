@@ -115,3 +115,11 @@ Google word test
 Often not reliable
 Debate on validity
 
+### Nearest Neighbor Analysis
+
+Find k-nearest neighbors
+Qualitative inspection
+Should be semantically similar
+Reveals embedding quality
+Most interpretable
+
