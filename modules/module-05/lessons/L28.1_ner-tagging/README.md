@@ -131,3 +131,11 @@ Hierarchical: Organization > Company
 Fine-grained often better
 Task-specific granularity
 
+### Cross-lingual NER
+
+Transfer to new language
+Low-resource languages
+Multilingual embeddings
+Shared structure
+Growing area
+
