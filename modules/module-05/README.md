@@ -885,3 +885,14 @@ High performance
 Good for structured prediction
 Popular in industry
 
+## Language Models (Pre-Transformer)
+
+### N-gram Language Models
+
+P(w_t | w_{t-n+1}, ..., w_{t-1})
+Count-based: Simple and effective
+Backoff: Handle OOV
+Smoothing: Unseen n-grams
+Fast inference
+Limited by sparsity
+
