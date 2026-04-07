@@ -856,3 +856,14 @@ Tree structure (mostly)
 Transition-based systems
 Graph-based systems
 
+## Sequence Labeling
+
+### Problem Setup
+
+Input: Sequence of tokens
+Output: Label per token
+Constraints: Local dependencies
+Examples: POS, NER, chunking
+More complex than classification
+Order and structure matter
+
