@@ -179,3 +179,11 @@ Reduce memory by ~33%
 Slightly slower
 Essential for large models
 
+### Mixed Precision Training
+
+FP32 for stability
+FP16 for speed/memory
+4x memory savings
+2-3x speedup
+Nvidia AMP implementation
+
