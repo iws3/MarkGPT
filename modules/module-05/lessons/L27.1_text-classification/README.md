@@ -181,3 +181,11 @@ Gradient-based: Saliency
 Perturbation: Remove and observe
 Interpretability crucial
 
+### Cost-Sensitive Learning
+
+Different error costs
+Miss spam worse than flag email
+Adjust loss weights
+Asymmetric penalties
+Improve real-world metrics
+
