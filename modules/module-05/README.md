@@ -827,3 +827,14 @@ F1: 2 * (P*R) / (P+R) (unbalanced)
 Macro F1: Average per class
 Choose based on use case
 
+## Information Extraction
+
+### Named Entity Recognition
+
+Identify entities: People, places, orgs
+Tag each token with entity type
+Sequence labeling task
+BIO tagging scheme
+B: Begin, I: Inside, O: Outside
+Fundamental IE task
+
