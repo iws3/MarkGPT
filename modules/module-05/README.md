@@ -847,3 +847,12 @@ Find: Relationship type
 Applications: Knowledge base construction
 Harder than NER
 
+### Dependency Parsing
+
+Identify grammatical structure
+Who depends on whom
+Arc labels: Subject, object, etc.
+Tree structure (mostly)
+Transition-based systems
+Graph-based systems
+
