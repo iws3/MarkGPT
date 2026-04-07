@@ -107,3 +107,11 @@ Semantic: word embeddings
 External: gazetteers, wikipeda
 Combined into feature vector
 
+### Gazetteer Resources
+
+Lists of known entities
+Person names, locations, orgs
+Wikipedia dumps, YAGO, DBpedia
+Signals but incomplete
+Noisy annotations
+
