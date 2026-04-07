@@ -1373,3 +1373,12 @@ Cost: Computational efficiency
 Drift: Does performance degrade?
 User feedback: Ground truth check
 
+### Updating Models
+
+Data changes over time
+Retraining schedule
+A/B test: New vs old model
+Gradual rollout: 1% → 10% → 100%
+Rollback: If issues detected
+Continuous improvement
+
