@@ -53,3 +53,13 @@ Integration with downstream models straightforward.
 
 BERT uses masked language modeling for deeper context.
 
+## ELMo Deep Dive
+
+### Training Data
+
+1B token corpus
+Wikipedia + news crawl
+Diverse language
+Large-scale pre-training
+Weeks to train
+
