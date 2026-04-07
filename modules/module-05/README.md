@@ -744,3 +744,12 @@ But: Key insight remains (contextual)
 6. Machine learning classifier
 Was state-of-art pre-deep learning
 
+### Feature Types
+
+Lexical: Word, lemma, stem
+Morphological: POS tag, suffixes
+Syntactic: Dependency relations
+Semantic: Entity types, meanings
+Contextual: Surrounding words
+External: Knowledge bases
+
