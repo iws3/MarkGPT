@@ -103,3 +103,12 @@ Standard in modern NLP
 Simple greedy algorithm
 Very effective in practice
 
+### BPE Example
+
+Text: "hello hello"
+Initial: [h,e,l,l,o, ,h,e,l,l,o]
+Step 1: "l" "l" frequent → [h,e,ll,o, ,h,e,ll,o]
+Step 2: "h" "e" frequent → [he,ll,o, ,he,ll,o]
+Step 3: "he" "ll" frequent → [hell,o, ,hell,o]
+Result: [hell, o, </s>, hell, o]
+
