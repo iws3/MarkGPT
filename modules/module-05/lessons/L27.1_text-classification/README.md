@@ -173,3 +173,11 @@ Semantic similarity
 Generative: "This is"
 Emerging capability
 
+### Explanation Importance
+
+Which words caused prediction?
+Attention weights
+Gradient-based: Saliency
+Perturbation: Remove and observe
+Interpretability crucial
+
