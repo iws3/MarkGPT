@@ -302,3 +302,19 @@ Pre-tokenize for speed
 5. Pad: Make same length for batching
 6. Convert to IDs: Vocabulary lookup
 
+## Tokenization Errors
+
+### Common Issues
+
+1. **Case sensitivity**: "Hello" ≠ "hello"
+   Solution: Lowercase before tokenizing
+
+2. **Punctuation**: Attached vs separate
+   Solution: Check tokenizer behavior
+
+3. **Contractions**: "don't" → [
+   Solution: Expand or handle in tokenizer
+
+4. **Whitespace**: Multiple spaces
+   Solution: Normalize whitespace
+
