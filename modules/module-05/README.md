@@ -818,3 +818,12 @@ DBpedia: Wikipedia categories
 TREC: Question type classification
 Standard benchmarks for evaluation
 
+### Evaluation Metrics
+
+Accuracy: % correct (balanced data)
+Precision: TP / (TP + FP)
+Recall: TP / (TP + FN)
+F1: 2 * (P*R) / (P+R) (unbalanced)
+Macro F1: Average per class
+Choose based on use case
+
