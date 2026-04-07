@@ -1442,3 +1442,12 @@ Mobile: Need lightweight
 DistilBERT: 40% smaller, 97% accuracy
 Pruning: Remove unimportant weights
 
+### Quantization Revisited
+
+FP32 → FP16: 2x faster
+FP32 → INT8: 4x faster, 1% loss
+TPU: INT8 only
+Practical in production
+Libraries: TensorFlow Lite, ONNX
+Worth doing
+
