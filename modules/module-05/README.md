@@ -1130,3 +1130,12 @@ Interpretable: Components are words
 Works okay for embeddings
 Ok visualization
 
+### t-SNE Deep Dive
+
+Non-linear dimension reduction
+Preserves local structure
+Clustered visualization
+Slow for large datasets
+Parameter sensitive
+Best for exploration
+
