@@ -172,3 +172,11 @@ Some tokens merge forever
 "New" vs "Ne" + "w"
 Important for applications
 
+### Token Embeddings vs Word Embeddings
+
+Subword tokens: Different embedding space
+Composition for words
+Average or max pooling
+Better OOV handling
+Trade-off: representation vs efficiency
+
