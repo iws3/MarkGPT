@@ -139,3 +139,11 @@ Optimize F1 or custom metric
 Search threshold
 Data-dependent
 
+### Multi-class vs Multi-label
+
+Mutually exclusive vs overlapping
+Softmax vs sigmoid
+Different losses
+Different evaluation
+Both common
+
