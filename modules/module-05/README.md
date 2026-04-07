@@ -575,3 +575,12 @@ Direct measure of embedding quality
 Fast to compute
 Not always predictive of downstream
 
+### Extrinsic Evaluation
+
+Downstream task performance
+Text classification
+Named entity recognition
+Sentiment analysis
+Best predictor of real usefulness
+But: Slower and task-dependent
+
