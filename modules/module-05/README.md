@@ -247,3 +247,16 @@ text = tokenizer.decode(tokens)
 # 'Hello world'
 ```
 
+### Custom Tokenizers
+
+```python
+from tokenizers import Tokenizer
+from tokenizers.models import BPE
+
+tokenizer = Tokenizer(BPE())
+# Train on your data
+tokenizer.train_from_iterator(texts, vocab_size=50000)
+# Use it
+encoding = tokenizer.encode('Your text')
+```
+
