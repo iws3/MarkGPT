@@ -123,3 +123,11 @@ Token boundaries help
 Sentence context
 Hard in noisy text
 
+### Type Disambiguation
+
+"New York" = location or org?
+Multiple types possible
+Hierarchical: Organization > Company
+Fine-grained often better
+Task-specific granularity
+
