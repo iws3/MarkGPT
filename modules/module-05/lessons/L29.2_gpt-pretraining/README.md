@@ -87,3 +87,11 @@ Random sentences: No
 Binary classification
 BERT auxiliary task
 
+### Scaling Laws
+
+Performance improves predictably
+Loss ∝ 1 / (model_size)
+Doubling size: ~5% better
+10x compute: ~30% better
+Drives gigantic models
+
