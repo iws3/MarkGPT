@@ -89,3 +89,11 @@ Rare, harder
 Different schemes
 Research area
 
+### Multi-token Entities
+
+Names span multiple tokens
+"John Smith" = 2 tokens
+Sequential dependency
+CRF handles well
+Important for real data
+
