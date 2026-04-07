@@ -139,3 +139,11 @@ Large embedding: Slow inference
 Need:Space tradeoff
 Application dependent
 
+### Embedding Scaling Laws
+
+Quality improves with corpus size
+Larger embedding dimension
+More training examples
+Predictable improvements
+Foundational for modern LLMs
+
