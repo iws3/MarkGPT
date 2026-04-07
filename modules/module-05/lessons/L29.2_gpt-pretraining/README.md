@@ -53,3 +53,13 @@ Scaling laws predict performance with size.
 
 Temperature and top-k sampling control generation diversity.
 
+## Autoregressive vs Bidirectional
+
+### Autoregressive (GPT)
+
+Generate left-to-right
+P(w_t | w_1, ..., w_{t-1})
+Natural: Text generation
+Can't see future
+Used by GPT, GPT-2, GPT-3
+
