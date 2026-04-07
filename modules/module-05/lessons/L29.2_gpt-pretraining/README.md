@@ -145,3 +145,13 @@ Token count affects length
 Encoding efficiency
 Multilingual challenges
 
+## Decoder-Only Models
+
+### Causal Attention Mask
+
+Can't see future tokens
+Preserves autoregressive property
+Triangular attention matrix
+Efficient in Transformer
+Enables generation
+
