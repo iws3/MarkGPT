@@ -934,3 +934,12 @@ More semantic than BoW
 Computationally expensive
 Good for short documents
 
+### Semantic Similarity Tasks
+
+STS Benchmark: Sentence pairs
+Rate 0-5 similarity
+450K+ sentence pairs
+Standard evaluation benchmark
+Predicts perceptual similarity
+Challenging: Requires understanding
+
