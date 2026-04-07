@@ -87,3 +87,11 @@ sqrt() alternative
 Balance term and doc length
 Empirically better
 
+### L2 Normalization
+
+Vectors sum to 1
+Removes document length bias
+Enables cosine similarity
+Standard preprocessing
+Improves classifier
+
