@@ -1159,3 +1159,12 @@ Lower layers: More syntactic
 Attention patterns reveal structure
 Can probe for structure
 
+### Probing Tasks
+
+Train classifier on hidden states
+Predict POS tags from embeddings
+If high accuracy: Encodes POS
+Multiple properties simultaneously
+Trade-off: Information vs capacity
+Reveals learned representations
+
