@@ -121,3 +121,11 @@ In-context learning
 Larger models better
 GPT-3: Few-shot phenomena
 
+### Prompt Engineering
+
+Design input prompts
+"Translate English to French:\n"
+Huge impact on output
+Task description format
+Active research
+
