@@ -95,3 +95,13 @@ Multiple epochs: 5-10
 Larger corpus: Better
 Parallelization on cores
 
+## Skip-Gram Model Deep Dive
+
+### Noise Contrastive Estimation
+
+Simplify softmax calculation
+Binary classification instead
+Real: true word, Fake: random
+log-sigmoid approximation
+Efficiency trick
+
