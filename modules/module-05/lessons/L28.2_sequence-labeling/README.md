@@ -121,3 +121,11 @@ Parse trees: More complex
 Dynamic programming
 Hard inference
 
+### Multi-task Learning
+
+Share representations
+POS + NER + parsing
+Auxiliary tasks help
+Lower-level tasks improve higher
+Regularization effect
+
