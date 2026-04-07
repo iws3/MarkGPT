@@ -465,3 +465,14 @@ Word2Vec: Simpler, faster
 Both: Great in practice
 Modern: Transformers replace both
 
+## fastText
+
+### Subword Vectors
+
+Problem: Word2Vec can't handle OOV
+Solution: Learn character n-gram embeddings
+Word = sum of character n-grams
+v(hello) = v(he) + v(el) + v(ll) + v(lo) + ...
+Handles unseen words!
+Handles morphology
+
