@@ -71,3 +71,11 @@ Concatenate: Both directions
 Context from both sides
 Better than forward only
 
+### Layer Combination
+
+Learned weights per layer
+γ * (w_input*input + w_fwd*fwd + w_bwd*bwd)
+Task-specific combination
+Different tasks use different layers
+Adaptive representation
+
