@@ -105,3 +105,11 @@ Real: true word, Fake: random
 log-sigmoid approximation
 Efficiency trick
 
+### Context Window Dynamics
+
+Variable window: Helps
+Weight by distance: Closer > farther
+Dynamic sampling: More variety
+Trade exploration vs stability
+Empirically better
+
