@@ -291,3 +291,14 @@ Bottleneck: Usually data loading
 Cache tokens during preprocessing
 Pre-tokenize for speed
 
+## Preprocessing Pipeline
+
+### Best Practices
+
+1. Normalize: Lowercasing (task-dependent)
+2. Remove: Accents, special chars (careful!)
+3. Tokenize: Use standard tokenizer
+4. Truncate: Limit length
+5. Pad: Make same length for batching
+6. Convert to IDs: Vocabulary lookup
+
