@@ -954,3 +954,12 @@ Or: Similarity rating
 Useful for plagiarism detection
 Helps question answering
 
+### Approaches
+
+1. Edit distance: Too simple
+2. TF-IDF similarity: Better
+3. Word embeddings: Much better
+4. ELMo/BERT: State-of-art
+5. Fine-tuned transformer: Best
+Modern: >> 95% accuracy
+
