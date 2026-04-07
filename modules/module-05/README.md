@@ -1119,3 +1119,14 @@ Transfer learning exploits this
 Fine-tune upper layers for task
 Freeze lower for general knowledge
 
+## Dimensionality Reduction
+
+### PCA (Principal Component Analysis)
+
+Linear projection to k dimensions
+Preserves variance maximum
+Fast: SVD computation
+Interpretable: Components are words
+Works okay for embeddings
+Ok visualization
+
