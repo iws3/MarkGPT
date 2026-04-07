@@ -97,3 +97,13 @@ Debias methods exist
 1000D: Overkill for most
 Find empirically
 
+## Embedding Quality Evaluation
+
+### Intrinsic vs Extrinsic
+
+Intrinsic: Standalone tests
+Word similarity datasets
+Fast to compute
+Extrinsic: Downstream tasks
+Real application performance
+
