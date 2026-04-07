@@ -1043,3 +1043,14 @@ Student learns from teacher
 Soft targets via temperature
 Pre-dates transformers
 
+## Attention Before Transformers
+
+### Attention for Seq2Seq
+
+Bottleneck: Single vector from encoder
+Attention: Look at all encoder states
+Different attention per decoder step
+Context vector: Weighted sum
+Huge improvement for translation
+Next: Make entire model attention
+
