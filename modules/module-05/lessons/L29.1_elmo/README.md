@@ -105,3 +105,11 @@ Fixed embeddings lose sense
 Context -> sense-specific
 Dynamic representation
 
+### Shallow vs Deep Contextualization
+
+2-layer LSTM: ELMo
+12-layer Transformer: BERT
+More layers: Better
+Depth enables abstraction
+Computational cost
+
