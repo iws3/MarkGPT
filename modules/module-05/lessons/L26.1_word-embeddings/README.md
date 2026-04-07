@@ -73,3 +73,11 @@ Contextualized embeddings help
 Or: Prototype + sense vectors
 Hard problem
 
+### Hypernym-Hyponym Relations
+
+"dog" is hyponym of "animal"
+Hierarchical semantic structure
+Embeddings reflect hierarchy
+Vector direction matters
+Emergent property
+
