@@ -65,3 +65,11 @@ Sometimes works, sometimes not
 Non-linear: Addition too simple
 Better: Learn composition
 
+### Polysemy (Multiple Meanings)
+
+"bank" = financial or river
+Single embedding loses info
+Contextualized embeddings help
+Or: Prototype + sense vectors
+Hard problem
+
