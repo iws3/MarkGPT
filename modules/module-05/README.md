@@ -495,3 +495,12 @@ Sum: Gives word embedding
 
 Handling spelling: Similar n-grams
 
+### fastText Language Support
+
+Multilingual: 176+ languages
+Pre-trained vectors available
+Works great for morphologically rich
+Turkish, Finnish, Czech, etc.
+Better than Word2Vec for these
+Practical advantage for low-resource
+
