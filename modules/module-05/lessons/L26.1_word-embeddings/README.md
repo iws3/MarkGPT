@@ -131,3 +131,11 @@ RareWord-353, SimLex
 Spearman correlation
 Standard benchmarks
 
+### Speed vs Quality Tradeoff
+
+Large embedding: Better quality
+Fast to compute
+Large embedding: Slow inference
+Need:Space tradeoff
+Application dependent
+
