@@ -194,3 +194,12 @@ Subword tokenization helps
 BPE: ["unrecogniz", "able"]
 Preserves information!
 
+### Solutions
+
+1. Subword tokenization (BPE, WordPiece)
+2. Character-level fallback
+3. Morphological analysis
+4. Expand vocabulary
+5. Back-off smoothing (pre-training trick)
+Best: Combine approaches
+
