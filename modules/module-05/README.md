@@ -974,3 +974,12 @@ Phrase-based capturing
 Reordering models
 Dominated until 2016
 
+### Seq2Seq Breakthrough
+
+Encoder-decoder RNNs
+End-to-end learning
+Outperformed SMT dramatically
+BLEU score: 35+ vs SMT 25+
+Simpler system
+Single model, not pipeline
+
