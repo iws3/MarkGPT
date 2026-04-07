@@ -693,3 +693,12 @@ Scale: 1B token corpus
 Result: Rich contextual representations
 Weights: Learned task-specifically
 
+### Usage
+
+1. Pre-train LSTM language model
+2. Extract hidden states for token
+3. Concatenate/weight combinations
+4. Use as features for downstream
+5. Fine-tune weights on task
+Simple layer-weighting learned
+
