@@ -732,3 +732,15 @@ But: Key insight remains (contextual)
 2018: GPT (autoregressive)
 2019: Beyond
 
+## Feature Engineering
+
+### Traditional NLP Pipeline
+
+1. Tokenization
+2. POS tagging
+3. Parsing
+4. Named entities
+5. Manual feature extraction
+6. Machine learning classifier
+Was state-of-art pre-deep learning
+
