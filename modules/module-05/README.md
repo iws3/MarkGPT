@@ -1110,3 +1110,12 @@ BERT: Bidirectional contextual
 GPT: Autoregressive contextual
 Modern requirement
 
+### Layer-wise Analysis
+
+Lower layers: Syntax (POS, chunking)
+Middle layers: Low-level semantics
+Upper layers: High-level (task-specific)
+Transfer learning exploits this
+Fine-tune upper layers for task
+Freeze lower for general knowledge
+
