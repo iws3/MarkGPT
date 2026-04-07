@@ -515,3 +515,12 @@ Shows word clusters
 Similar words close together
 Beautiful emergent structure
 
+### UMAP
+
+Uniform Manifold Approximation
+Faster than t-SNE
+Preserves global structure better
+Two parameters: n_neighbors, min_dist
+Good for large embedding sets
+Can scale to millions of vectors
+
