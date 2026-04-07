@@ -223,3 +223,13 @@ Smaller vocab: Lower coverage
 Affects performance
 Trade-off: Size vs coverage
 
+## Contextual Tokenization
+
+### Problem: Ambiguity
+
+"bank" = financial vs river bank
+Single tokenization misses context
+Morphologically: Same
+Solution: Same token, different embeddings
+Transformers learn contextual meaning
+
