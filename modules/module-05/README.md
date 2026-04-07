@@ -271,3 +271,12 @@ Agglutinative: Turkish, Finnish
 Solution: Universal tokenizers
 SentencePiece: Language-agnostic
 
+### mBERT Tokenization
+
+Shared tokenizer across 104 languages
+110K vocabulary
+WordPiece trained on multilingual corpus
+Works reasonably well
+Trade-off: Per-language quality
+Enables zero-shot cross-lingual transfer
+
