@@ -83,3 +83,12 @@ Cons: OOV problem (unknown words)
 Example: "Hello world!" → ["Hello", "world", "!"]
 Problem: "hello" vs "Hello" = different tokens
 
+### Subword Tokenization
+
+Middle ground: Parts of words
+Vocab size: 1K-100K
+Examples: Byte-Pair Encoding, WordPiece
+Balances word and character levels
+Standard in modern NLP
+"Hello" → ["He", "llo"] or ["Hel", "lo"]
+
