@@ -1168,3 +1168,14 @@ Multiple properties simultaneously
 Trade-off: Information vs capacity
 Reveals learned representations
 
+## Morphology
+
+### Morphological Analysis
+
+Words have structure
+Stems and affixes
+"Running" = "run" + "-ing"
+Embeddings somewhat capture
+More explicit: Morphological models
+Helps low-resource languages
+
