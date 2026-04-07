@@ -1085,3 +1085,17 @@ mBERT enables this
 Word2Vec: Language-specific
 BERT: Unified space
 
+## Module 05 Summary
+
+**Concepts Learned**
+- Tokenization methods and trade-offs
+- Word embeddings (Word2Vec, GloVe, fastText)
+- Static vs contextualized embeddings
+- ELMo and pre-Transformer models
+- Classical NLP features (TF-IDF, n-grams)
+- Text classification and sequence labeling
+- Information extraction
+- Language modeling
+- Machine translation and seq2seq
+- Production systems
+
