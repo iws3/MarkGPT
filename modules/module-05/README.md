@@ -280,3 +280,14 @@ Works reasonably well
 Trade-off: Per-language quality
 Enables zero-shot cross-lingual transfer
 
+## Tokenization Speed
+
+### Practical Performance
+
+BERT tokenizer: 10K tokens/s
+SentencePiece: 100K tokens/s
+Character-level: 1M tokens/s
+Bottleneck: Usually data loading
+Cache tokens during preprocessing
+Pre-tokenize for speed
+
