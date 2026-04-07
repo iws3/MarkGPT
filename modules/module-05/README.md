@@ -800,3 +800,12 @@ Foundation for NLP
 Often surprisingly good
 Fast, interpretable, reliable
 
+### Deep Learning Approach
+
+1. Tokenize text
+2. Lookup embeddings
+3. Pool/RNN over sequence
+4. Dense layers
+5. Softmax for class probs
+Better with large labeled data
+
