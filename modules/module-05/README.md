@@ -1032,3 +1032,14 @@ Million vector queries: Milliseconds
 Used in production systems
 Scales to web
 
+## Knowledge Distillation Pre-Transformers
+
+### Compressing Models
+
+Large model: Better performance
+Small model: Faster inference
+Distillation: Transfer knowledge
+Student learns from teacher
+Soft targets via temperature
+Pre-dates transformers
+
