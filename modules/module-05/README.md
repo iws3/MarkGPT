@@ -994,3 +994,12 @@ Good benchmark problem
 Many datasets available
 Progression: BoW → embeddings → transformers
 
+### Challenges
+
+Sarcasm: "This is great!" (negative)
+Negation: "not bad" = positive
+Aspect sentiment: "Good food, bad service"
+Multi-class: Fine-grained opinions
+Domain: Language varies by domain
+More complex than it seems
+
