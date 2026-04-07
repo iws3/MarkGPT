@@ -143,3 +143,13 @@ Treats space as token
 Great for non-Latin scripts
 Used in: T5, mBERT, many recent models
 
+## Vocabulary Size Impact
+
+### Small Vocab (1K)
+
+Sequence length: Very long
+Memory per sample: High
+Training time: Slow
+Parameter count: Lower (embedding matrix)
+Typical: Character-level models
+
