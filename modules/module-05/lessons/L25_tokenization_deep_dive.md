@@ -180,3 +180,11 @@ Average or max pooling
 Better OOV handling
 Trade-off: representation vs efficiency
 
+### Tokenizer Training
+
+Learn from corpus
+Iterative merge frequency
+BPE: Start with characters
+Vocab size: Hyperparameter
+Affects text length
+
