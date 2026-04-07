@@ -1489,3 +1489,15 @@ Failure cases: When it breaks
 Bias statement: Known issues
 Good practice
 
+## Research Frontiers
+
+### Open Problems
+
+1. Longer context: Transformers limited
+2. Reasoning: Models don't reason well
+3. Grounding: Connect to reality
+4. Efficiency: Smaller models
+5. Multimodal: Text + images + audio
+6. Interpretability: Why decisions?
+7. Fairness: Autonomous bias
+
