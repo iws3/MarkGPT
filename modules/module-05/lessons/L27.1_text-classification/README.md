@@ -81,3 +81,11 @@ Context-dependent importance
 Interpretable decisions
 Better performance
 
+### Class Imbalance Handling
+
+Reweight by class frequency
+Oversampling minority
+SMOTE: Synthetic examples
+Adjust decision threshold
+Multiple strategies
+
