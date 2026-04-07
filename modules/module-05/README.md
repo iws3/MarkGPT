@@ -504,3 +504,14 @@ Turkish, Finnish, Czech, etc.
 Better than Word2Vec for these
 Practical advantage for low-resource
 
+## Embedding Visualization
+
+### t-SNE Projection
+
+300D embedding → 2D visualization
+Non-linear dimensional reduction
+Preserves local structure
+Shows word clusters
+Similar words close together
+Beautiful emergent structure
+
