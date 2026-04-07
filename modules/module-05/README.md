@@ -1148,3 +1148,14 @@ Theoretically principled
 Better for production
 Modern choice
 
+## Linguistic Structure
+
+### Syntax vs Semantics
+
+Syntax: Grammar, word order
+Semantics: Meaning
+Embeddings capture both
+Lower layers: More syntactic
+Attention patterns reveal structure
+Can probe for structure
+
