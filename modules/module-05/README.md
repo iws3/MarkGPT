@@ -524,3 +524,23 @@ Two parameters: n_neighbors, min_dist
 Good for large embedding sets
 Can scale to millions of vectors
 
+## Training Embeddings
+
+### Using gensim
+
+```python
+from gensim.models import Word2Vec
+
+model = Word2Vec(sentences, size=300, window=5)
+vec = model.wv['hello']
+similar = model.wv.most_similar('king')
+```
+
+### Using fastText
+
+```python
+import fasttext
+model = fasttext.train_unsupervised('data.txt')
+vec = model.get_word_vector('hello')
+```
+
