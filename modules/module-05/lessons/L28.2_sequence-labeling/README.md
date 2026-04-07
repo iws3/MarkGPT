@@ -129,3 +129,11 @@ Auxiliary tasks help
 Lower-level tasks improve higher
 Regularization effect
 
+### Transfer Learning for Tagging
+
+Pre-trained language models
+Fine-tune for labeling
+BERT: State-of-the-art
+RoBERTa: Improvements
+ELECTRA: Efficient
+
