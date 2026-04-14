@@ -1,4 +1,4 @@
-# Lesson 5 Exercises: Statistical Foundations
+]\# Lesson 5 Exercises: Statistical Foundations
 
 ## Questions
 
