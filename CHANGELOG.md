@@ -79,9 +79,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Exercises
 - 18 comprehensive exercise files across Modules 2-9
-- From-scratch implementations: backprop, Adam, BPE, tokenizers, attention
-- Ablation studies: regularization, learning rate schedules, model variants
-- Analysis notebooks with visualisation and interpretation tools
+- From-scratch implementations: backprop, Adam, BPE, tokenizers, attention, Trigram model (Day 5)
+- Ablation studies: regularization, learning rate schedules, model variants, Laplace smoothing (Day 5)
+- Analysis notebooks with visualisation and interpretation tools, including "Colorless green ideas" reflection (Day 5)
 - Solution directories with complete implementations
 
 #### Notebooks
