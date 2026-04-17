@@ -2,13 +2,9 @@ import os
 import json
 import logging
 
-from time import time
-from xml.parsers.expat import errors
-from openai import OpenAI, APIConnectionError, APIStatusError, APITimeoutError
+from openai import OpenAI
 from typing import Dict, List
 from dotenv import load_dotenv
-
-from typer import prompt
 
 load_dotenv()
 
@@ -26,6 +22,7 @@ Available tools:
 - recent_commits: last 20 commits with messages and changed files
 - uncommitted_changes: any staged or unstaged work in progress
 - last_diff: the full code diff introduced by the most recent commit
+- read_readme: reads the README file of the project
 
 Rules:
 - Return ONLY a raw JSON array. No explanation, no markdown, no prose.
@@ -41,6 +38,7 @@ Examples:
   "what am i currently working on?" -> ["uncommitted_changes"]
   "what does this project look like?" -> ["directory_tree", "recent_commits"]
   "what did the last commit change?" -> ["last_diff"]
+  "what is this project about?" -> ["read_readme"] and read other .md files if README is shallow  
 """.strip()
 
 
