@@ -116,6 +116,24 @@ def get_last_diff(path: str) -> str:
         print(f"Error getting last commit diff: {e}")
         return "Error retrieving last commit diff."
     
+def read_readme(path: str, filepath: str = "README.md") -> str:
+    """
+    Return the content of the README file if it exists.
+    This is often a critical source of high-level project information.
+    """
+    try:
+        full_path = os.path.join(path, filepath)
+        if not os.path.exists(full_path):
+            return f"README file '{filepath}' does not exist in the repository."
+        with open(full_path, 'r', errors='replace', encoding="utf-8") as f:
+            content = f.read().strip().replace('**', '').replace('#', '').replace('\r\n', '\n').replace('\r', '\n')
+        # handle empty
+        if not content:
+            return f"README file '{filepath}' is empty."
+        return content
+    except Exception as e:
+        print(f"Error reading README file: {e}")
+        return f"Error retrieving README content from '{filepath}'."
 
 TOOLS = {
     "directory_tree": get_directory_tree,
@@ -123,4 +141,5 @@ TOOLS = {
     "uncommitted_changes": get_uncommitted_changes,
     "file_content": get_file_content,
     "last_diff": get_last_diff,
+    "read_readme": read_readme,
 }
