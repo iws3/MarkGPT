@@ -1,1 +1,0 @@
-# This is the solution for exercise 1 
