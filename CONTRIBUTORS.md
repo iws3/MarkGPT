@@ -16,7 +16,7 @@ If you've made a contribution (whether large or small), please add yourself to t
 
 Contributors who started as students working through the curriculum:
 
-- **Your Name Here** — First PR contributions, lessons improvements
+- **Fonyuy-pounds** — Module 01 project completion, Module 02 PCA and co-occurrence implementation
 - *More names coming soon!*
 
 ---
