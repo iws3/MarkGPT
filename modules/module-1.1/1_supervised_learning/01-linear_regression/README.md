@@ -94,7 +94,7 @@ For **multiple features** (more than one input), we simply extend this:
 → Same idea, just more variables
 ```
 
----
+--- 
 
 ## 4. The Cost Function
 
