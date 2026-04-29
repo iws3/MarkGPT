@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 #### Module 02
 - Day 9: Implement PCA from scratch and word co-occurrence mapping for Biblical and Banso text (contributed by Fonyuy-pounds)
+- Day 10: Minimize f(x) using gradient descent and visualize trajectories with varying learning rates (contributed by Fonyuy-pounds)
+- Day 11: Implement Naive Bayes text classifier from scratch and evaluate on KJV vs. modern text (contributed by Fonyuy-pounds)
 
 ## [1.0.0] - 2026-03-15
 
