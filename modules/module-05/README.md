@@ -3447,3 +3447,13 @@ Specialized embeddings
 Lexicon-based approaches
 Hybrid methods
 
+## Social Media and Noisy Text
+
+### Challenges
+
+Misspellings
+Abbreviations
+Slang and informal
+Code-switching
+Short length
+
