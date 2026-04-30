@@ -3759,3 +3759,11 @@ Two-tier attention
 Reduces computation
 Maintains quality
 
+### Efficient Transformers
+
+Sparse attention patterns
+Strided attention
+Local windowed
+Combination patterns
+Longformer, BigBird
+
