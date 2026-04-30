@@ -3541,3 +3541,11 @@ RAG solves this
 Retrieve + generate
 Better factuality
 
+### Architecture
+
+Retriever: Find documents
+Reader: Extract answer
+Or generator: Condition on docs
+Two-stage pipeline
+End-to-end training
+
