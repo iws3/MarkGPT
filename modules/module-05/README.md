@@ -1682,3 +1682,12 @@ LSTM layers: 2 (original ELMo)
 Hidden size: 4096
 Fast: ~1B token corpus
 
+### Representation Extraction
+
+Layer 1: Character convolutions
+Layers 2-3: Biphone LSTM
+Extract: All 3 layer outputs
+Concatenate: [char, lstm1, lstm2]
+Weighted sum: λ * (γ * Σ s_k * h_k)
+λ, γ, s_k: Task-specific learnable
+
