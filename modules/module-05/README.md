@@ -1781,3 +1781,11 @@ GPT-2: 1.5B params, impressive
 GPT-3: 175B params, few-shot magic
 Emergent abilities at scale
 
+### Few-shot Learning
+
+GPT-3: No fine-tuning needed
+Task definition in prompt
+Examples: 0-shot, 1-shot, few-shot
+Works on translation, QA, reasoning
+Remarkable generalization
+
