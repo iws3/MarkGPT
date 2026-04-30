@@ -4232,3 +4232,11 @@ Policy gradient optimization
 Proximal policy optimization
 Iterative improvement
 
+### Safety and Alignment
+
+Reduce harmful outputs
+Encode human values
+Constitutional AI
+Self-improvement methods
+Evaluation frameworks
+
