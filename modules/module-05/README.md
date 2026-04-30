@@ -3793,3 +3793,11 @@ Occupational stereotypes
 Inherent in data
 Models amplify
 
+### Measurement
+
+Bias benchmarks
+WinoBias, StereoSet
+Embedding association tests
+Contextual word embeddings
+Coverage of demographics
+
