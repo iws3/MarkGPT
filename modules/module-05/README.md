@@ -3927,3 +3927,11 @@ Threshold adjustment
 Reweighting
 Data augmentation
 
+### Ambiguity and Annotator Agreement
+
+Subjective tasks
+Multiple valid answers
+Sentiment nuance
+Inter-annotator agreement
+Understand ceiling
+
