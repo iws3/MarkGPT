@@ -4156,3 +4156,11 @@ DistilBERT: Distilled smaller
 Comparison and selection
 Trade-offs
 
+### Analysis and Probing
+
+What does BERT learn?
+Probing linguistic knowledge
+Layer-wise analysis
+Attention head analysis
+Behavioral testing
+
