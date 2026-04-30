@@ -4248,3 +4248,13 @@ PPO implementation
 Monitoring training
 Evaluation metrics
 
+## Module-05 Capstone Project
+
+### Project Overview
+
+Build end-to-end NLP system
+Choose application domain
+Leverage learned techniques
+Deploy and evaluate
+Demonstrate mastery
+
