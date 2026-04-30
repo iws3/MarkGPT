@@ -4316,3 +4316,11 @@ OpenAI APIs
 LangChain
 Vector databases
 
+### Community and Forums
+
+HuggingFace forums
+NLP Reddit communities
+Twitter NLP researchers
+GitHub open source
+Collaborate and learn
+
