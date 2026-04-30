@@ -4300,3 +4300,11 @@ Language Models are Unsupervised Multitask Learners
 On the Opportunities and Risks of Foundation Models
 Read and understand
 
+### Online Courses
+
+Stanford CS224N: NLP with Deep Learning
+CMU CS11-711: Advanced NLP
+University of Edinburgh NLP
+DeepLearning.AI NLP specialization
+Comprehensive learning
+
