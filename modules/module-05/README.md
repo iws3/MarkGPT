@@ -2775,3 +2775,13 @@ Length penalty: Adjust output length
 Latency: Critical for production
 Batching increases throughput
 
+## Named Entity Recognition
+
+### Task Definition
+
+Tag each token with entity type
+Categories: PERSON, LOCATION, ORG, O
+Sequence labeling task
+Dataset: CoNLL, ACE
+Challenging for nested entities
+
