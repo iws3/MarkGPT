@@ -2398,3 +2398,12 @@ Datasets: SQuAD, MS MARCO
 BERT: 92.5% F1 (vs 91.5% human)
 Problem solved for RC!
 
+### Multi-hop QA
+
+Question requires multiple steps
+Example: "Who is the parent of X's child?"
+Harder: Needs reasoning
+Datasets: HotpotQA
+Current performance: 65-70% F1
+Open problem
+
