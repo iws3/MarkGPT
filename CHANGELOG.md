@@ -5,6 +5,15 @@ All notable changes to the MarkGPT LLM Curriculum project will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Added
+#### Module 02
+- Day 9: Implement PCA from scratch and word co-occurrence mapping for Biblical and Banso text (contributed by Fonyuy-pounds)
+- Day 10: Minimize f(x) using gradient descent and visualize trajectories with varying learning rates (contributed by Fonyuy-pounds)
+- Day 11: Implement Naive Bayes text classifier from scratch and evaluate on KJV vs. modern text (contributed by Fonyuy-pounds)
+- Day 12: Set up PyTorch, train a single neuron with autograd, and build a complete text preprocessing pipeline for Mini-Project 2 (contributed by Fonyuy-pounds)
+
+
 ## [1.0.0] - 2026-03-15
 
 ### Added
@@ -79,9 +88,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Exercises
 - 18 comprehensive exercise files across Modules 2-9
-- From-scratch implementations: backprop, Adam, BPE, tokenizers, attention
-- Ablation studies: regularization, learning rate schedules, model variants
-- Analysis notebooks with visualisation and interpretation tools
+- From-scratch implementations: backprop, Adam, BPE, tokenizers, attention, Trigram model (Day 5)
+- Ablation studies: regularization, learning rate schedules, model variants, Laplace smoothing (Day 5)
+- Analysis notebooks with visualisation and interpretation tools, including "Colorless green ideas" reflection (Day 5)
 - Solution directories with complete implementations
 
 #### Notebooks
