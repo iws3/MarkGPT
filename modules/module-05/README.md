@@ -2467,3 +2467,16 @@ Training time: Requires 1-2 weeks
 Next evolution: Transformers are faster, better
 But ELMo was breakthrough in 2018
 
+## BERT: Bidirectional Encoder Representations
+
+### Pre-training Objectives
+
+1. Masked Language Model (MLM)
+   Replace 15 percent tokens with MASK
+   Task: Predict original token
+   Distribution: 80 percent MASK, 10 percent random, 10 percent original
+2. Next Sentence Prediction (NSP)
+   Given two sentences
+   Predict if adjacent in corpus
+   Binary classification task
+
