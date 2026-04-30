@@ -2339,3 +2339,11 @@ FAISS: Fast similarity search
 100M documents: Milliseconds
 Much better than BM25 keyword matching
 
+### Bi-Encoders
+
+Query encoder and document encoder
+Independent (can batch both separately)
+Fast inference
+Similarity: Dot product or cosine
+Usually good enough
+
