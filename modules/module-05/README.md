@@ -3415,3 +3415,11 @@ Social media monitoring
 Earnings calls
 Financial-specific lexicon
 
+### Entity Extraction
+
+Company names
+Stock symbols
+Financial instruments
+Named entity recognition
+Domain-specific
+
