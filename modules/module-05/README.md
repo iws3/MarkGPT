@@ -4400,3 +4400,11 @@ Content generation
 Sentiment and classification
 Information extraction
 
+### Research Frontiers
+
+Efficiency and scaling
+Multimodal understanding
+Grounding and embodiment
+Reasoning and planning
+Alignment and safety
+
