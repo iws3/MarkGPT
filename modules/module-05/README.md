@@ -3321,3 +3321,13 @@ Layer-wise analysis
 Reveals learned structure
 Syntactic vs semantic
 
+## Biomedical NLP
+
+### Challenges
+
+Specialized vocabulary
+Domain-specific entities
+Complex syntax
+Limited labeled data
+High stakes
+
