@@ -3859,3 +3859,11 @@ Generate adversarial text
 Defense mechanisms
 Security critical
 
+### Watermarking and Attribution
+
+Detect AI-generated text
+Copyright protection
+Source attribution
+Statistical signatures
+Emerging challenge
+
