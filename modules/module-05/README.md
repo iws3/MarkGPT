@@ -2587,3 +2587,12 @@ Training speed: 1-2 hours one GPU
 Massive effect on model capability
 ChatGPT: Fine-tuned GPT-3.5
 
+### Reinforcement Learning from Human Feedback
+
+Step 1: Collect comparison annotations
+Step 2: Train reward model
+Step 3: Use PPO algorithm
+Step 4: Generate improved outputs
+Iterative improvement cycle
+ChatGPT uses this training approach
+
