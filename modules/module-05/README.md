@@ -3331,3 +3331,11 @@ Complex syntax
 Limited labeled data
 High stakes
 
+### Named Entity Recognition
+
+Disease, drug, gene entities
+Datasets: NCBI, BC5CDR
+Domain-specific embeddings
+BERT variants: SciBERT
+Much better than generic
+
