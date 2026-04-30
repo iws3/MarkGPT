@@ -2371,3 +2371,14 @@ Fast inference with quality
 Production approach
 Typical: 5x speedup, 90% quality
 
+## Question Answering: End-to-end Systems
+
+### Retrieval-Augmented QA
+
+1. Retrieve relevant passages
+2. Extract answer from passages
+3. Rank candidate answers
+Splits problem into modules
+Each can be optimized separately
+Very effective approach
+
