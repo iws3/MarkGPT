@@ -3641,3 +3641,11 @@ Shared representations
 Implicit alignment
 Surprisingly works
 
+### Machine Translation Directions
+
+High resource pairs: English-French
+Pivot approaches: Via English
+Back-translation scaling
+Low resource pairs
+Shared architecture helps
+
