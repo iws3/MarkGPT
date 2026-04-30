@@ -3305,3 +3305,11 @@ Around prediction
 Perturb inputs
 Fit linear model
 
+### SHAP
+
+Shapley values
+Game theory
+Fair feature contribution
+Expensive
+Gold standard
+
