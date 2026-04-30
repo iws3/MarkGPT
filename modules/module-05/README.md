@@ -3347,3 +3347,11 @@ Knowledge base construction
 Semi-supervised approaches
 Limited labeled data
 
+### Question Answering
+
+Biomedical literature QA
+BioASQ challenge
+Multi-document reasoning
+Retrieved documents
+Evidence extraction
+
