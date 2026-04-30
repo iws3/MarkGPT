@@ -2801,3 +2801,11 @@ Enforce valid tag sequences
 Example: No O after B
 Improves accuracy
 
+### Datasets
+
+CoNLL 2003: English, German
+ACE: Diverse text sources
+OntoNotes: Rich annotation
+WNUT: Noisy social media
+Cross-domain challenge
+
