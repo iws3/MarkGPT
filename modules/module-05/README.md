@@ -3045,3 +3045,11 @@ Decoder: Generate response
 Attention important
 Beam search for decoding
 
+### Evaluation
+
+Automatic metrics: BLEU, ROUGE
+Limitations: Imperfect correlation
+Human evaluation: Gold standard
+Dimensions: Relevance, coherence
+Informativeness
+
