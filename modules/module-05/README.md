@@ -3867,3 +3867,13 @@ Source attribution
 Statistical signatures
 Emerging challenge
 
+## Efficient and Sustainable NLP
+
+### Model Compression
+
+Reduce model size
+Faster inference
+Lower memory
+Quantization
+Pruning techniques
+
