@@ -4448,3 +4448,11 @@ Comprehensive curriculum
 Ready for mastery
 Keep practicing
 
+### Thank you for learning!
+
+This module represents
+Hours of research
+Curated knowledge
+Best practices
+Now it is your turn to excel
+
