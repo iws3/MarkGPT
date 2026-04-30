@@ -1772,3 +1772,12 @@ BERT: Encoder-only (no generation)
 GPT: Decoder-only (can generate)
 Different strengths for different tasks
 
+### Scaling Laws
+
+Compute = 6ND (N=params, D=data tokens)
+Loss ∝ N^(-a) where a ≈ 0.07-0.1
+Language model scaling shows predictable trends
+GPT-2: 1.5B params, impressive
+GPT-3: 175B params, few-shot magic
+Emergent abilities at scale
+
