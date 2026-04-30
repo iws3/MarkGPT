@@ -3271,3 +3271,11 @@ Guarantees within epsilon
 Expensive
 Research active
 
+### Out-of-distribution Detection
+
+Detect unusual inputs
+Maximum softmax
+Energy-based score
+Mahalanobis distance
+Safety-critical systems
+
