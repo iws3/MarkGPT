@@ -3003,3 +3003,11 @@ Multiple layers
 Captures local structure
 Used for semantic role labeling
 
+### Knowledge Graph Embeddings
+
+Represent entities and relations
+Triple-based: (h, r, t)
+Score function: Measure correctness
+TransE: Simple baseline
+Link prediction
+
