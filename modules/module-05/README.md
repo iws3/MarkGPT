@@ -3381,3 +3381,11 @@ Data: CASELAW database
 Feature extraction
 LSTM and transformers
 
+### Contract Analysis
+
+Clause extraction
+Risk identification
+Payment terms
+Liability clauses
+Automated review
+
