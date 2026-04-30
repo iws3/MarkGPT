@@ -4366,3 +4366,11 @@ Human evaluation setup
 Statistical significance
 Proper evaluation
 
+### Hyperparameter Tuning
+
+Learning rate selection
+Batch size effects
+Patience and early stopping
+Weight decay impact
+Systematic approach
+
