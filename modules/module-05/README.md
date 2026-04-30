@@ -2134,3 +2134,11 @@ Concatenate: [char, lstm1, lstm2]
 Weighted sum: λ * (γ * Σ s_k * h_k)
 λ, γ, s_k: Task-specific learnable
 
+### Fine-tuning Process
+
+Downstream task: NER, SRL, etc.
+Freeze ELMo weights
+Learn weights for layer combination
+Concatenate ELMo with task embeddings
+Results: +2-4% F1 improvement typical
+
