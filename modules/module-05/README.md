@@ -2869,3 +2869,11 @@ Toxic comment detection
 Emotion classification
 Intent prediction
 
+### Approaches
+
+Bag of words: Simple baseline
+TF-IDF: Weight important words
+RNN: Preserve order
+CNN: Local patterns
+Transformers: State of art
+
