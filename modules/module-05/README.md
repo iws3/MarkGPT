@@ -1870,3 +1870,11 @@ Forces explicit reasoning
 Slower inference (longer)
 But higher quality
 
+### Self-Consistency
+
+Generate multiple reasoning paths
+Take majority vote
+Improves accuracy on complex tasks
+Cost: K times slower inference
+K=5 typical (5x cost, 5-10% accuracy gain)
+
