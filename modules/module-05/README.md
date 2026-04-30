@@ -3129,3 +3129,11 @@ Expected to be informative
 Easy to implement
 Often effective
 
+### Query by Committee
+
+Ensemble of models
+Label examples where disagreement
+High information
+More expensive
+Better performance
+
