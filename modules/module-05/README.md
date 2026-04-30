@@ -2507,3 +2507,11 @@ Batch: 16-32
 Results: State of art on GLUE benchmark
 Simple yet effective approach
 
+### BERT Variants
+
+RoBERTa: Improved pretraining, plus 1-3 percent
+ALBERT: Shared parameters, smaller model
+DistilBERT: 40 percent smaller, 60 percent faster
+ELECTRA: Different pretraining objective
+Hundreds of variants available now
+
