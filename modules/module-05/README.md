@@ -1861,3 +1861,12 @@ Not actual fine-tuning
 In-context learning
 Often better than zero-shot
 
+### Chain-of-Thought
+
+Ask model to reason step-by-step
+Improves accuracy on math +40%
+Works with few examples
+Forces explicit reasoning
+Slower inference (longer)
+But higher quality
+
