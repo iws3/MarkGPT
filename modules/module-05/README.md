@@ -3851,3 +3851,11 @@ Privacy-preserving
 Communication overhead
 Convergence challenges
 
+### Adversarial Robustness
+
+Character-level perturbations
+Semantic equivalence
+Generate adversarial text
+Defense mechanisms
+Security critical
+
