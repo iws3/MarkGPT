@@ -3171,3 +3171,11 @@ Adversarial training
 Domain discriminator
 Make representations invariant
 
+### Task Similarity
+
+More similar tasks help more
+Source: Classification
+Target: Classification
+vs target: Generation
+Related tasks better
+
