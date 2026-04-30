@@ -4198,3 +4198,11 @@ Optimal allocation
 Data vs parameters
 Chinchilla scaling
 
+### Few-shot Learning
+
+In-context learning capability
+Example demonstrations
+Task specification
+Without fine-tuning
+Remarkable emergent ability
+
