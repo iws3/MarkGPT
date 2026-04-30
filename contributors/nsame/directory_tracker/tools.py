@@ -4,6 +4,7 @@ from gatherer import (
     get_uncommitted_changes,
     get_file_content,
     get_last_diff,
+    read_readme,
 )
 
 """
@@ -44,6 +45,16 @@ TOOLS = {
             "Use when you need to understand what specific code does."
         )
     },
+    "read_readme": {
+        "fn": read_readme,
+        "args": ["filepath"],
+        "desc": (
+            "Reads the README file of the project. "
+            "Provide filepath (relative to repo root, e.g. 'README.md'). "
+            "Use this to get an overview of the project, its purpose, and how to use it."
+        )
+    },
+
 }
 
 def run_tool (name: str, repo_path: str, args: dict) -> str:
