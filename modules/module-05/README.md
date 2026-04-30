@@ -3053,3 +3053,11 @@ Human evaluation: Gold standard
 Dimensions: Relevance, coherence
 Informativeness
 
+### Personalization
+
+User persona: Consistent personality
+Persona description
+Condition response generation
+PersonaChat dataset
+More engaging
+
