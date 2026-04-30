@@ -3607,3 +3607,11 @@ Type inference
 Data flow analysis
 Static analysis tools
 
+### Code Generation
+
+Generate from specification
+Copilot popularity
+Evaluation: Functional correctness
+Hallucinations
+Security and privacy concerns
+
