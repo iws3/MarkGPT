@@ -2615,3 +2615,11 @@ FAISS: Fast similarity search library
 100M documents: Milliseconds latency
 Much better than BM25 keyword matching
 
+### Bi-Encoders
+
+Query encoder and document encoder
+Independent networks (can batch separately)
+Fast inference at scale
+Similarity: Dot product or cosine
+Usually sufficient quality
+
