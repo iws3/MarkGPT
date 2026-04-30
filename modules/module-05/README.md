@@ -3573,3 +3573,13 @@ End-to-end metrics
 Human evaluation
 Trade-offs: Quality vs speed
 
+## Code Understanding and Generation
+
+### Models
+
+CodeBERT: Code and natural language
+GraphCodeBERT: Graph structure
+CodeT5: Code-aware T5
+GPT for code
+Specialized architectures
+
