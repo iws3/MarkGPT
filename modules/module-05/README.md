@@ -2851,3 +2851,11 @@ SST: Parse tree annotations
 Product reviews: Various domains
 Tweet sentiment: Noisy social media
 
+### Aspect-based Sentiment
+
+Sentiment toward specific aspect
+Example: Restaurant decor negative
+But service positive
+Joint extraction and classification
+Fine-grained analysis
+
