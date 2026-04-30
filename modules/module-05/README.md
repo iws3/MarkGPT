@@ -2480,3 +2480,11 @@ But ELMo was breakthrough in 2018
    Predict if adjacent in corpus
    Binary classification task
 
+### Why Masking Works
+
+Bidirectional context: Model sees all words
+Forces deep understanding of meaning
+Cannot cheat using position information
+Results in deeper learned representations
+Unlike GPT which uses causal masking
+
