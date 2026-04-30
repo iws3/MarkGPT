@@ -2433,3 +2433,12 @@ Weighted combination creates ELMo representation
 Context-dependent solves homonym problem
 Transfer learning improves downstream tasks
 
+### Bidirectional Language Model
+
+Forward pass: Predict word from left context
+Backward pass: Predict word from right context
+Combined: Use both directions for full context
+LSTM layers: 2 stacked layers
+Hidden size: 4096
+Train on 1B token corpus
+
