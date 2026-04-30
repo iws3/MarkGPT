@@ -2901,3 +2901,13 @@ Leverage hierarchy
 Constrain predictions
 Better with structure
 
+## Information Extraction
+
+### Relation Extraction
+
+Extract relationships between entities
+Example: Company founded by person
+Slot filling
+Knowledge base construction
+Can be supervised or distant
+
