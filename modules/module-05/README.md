@@ -3313,3 +3313,11 @@ Fair feature contribution
 Expensive
 Gold standard
 
+### Probing Tasks
+
+Train classifier on hidden states
+What information is encoded
+Layer-wise analysis
+Reveals learned structure
+Syntactic vs semantic
+
