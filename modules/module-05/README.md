@@ -3633,3 +3633,11 @@ Single shared vocabulary
 Cross-lingual transfer
 Emergent alignment
 
+### Zero-shot Language Transfer
+
+Train on source language
+Test on target language
+Shared representations
+Implicit alignment
+Surprisingly works
+
