@@ -3817,3 +3817,11 @@ Morphologically rich
 Translating bias
 Cross-lingual variation
 
+### Transparency and Documentation
+
+Model cards
+Dataset documentation
+Known limitations
+Stakeholder assessment
+Responsible AI
+
