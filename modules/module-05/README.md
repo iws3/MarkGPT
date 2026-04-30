@@ -4056,3 +4056,11 @@ Negative sampling approximation
 Hierarchical softmax alternative
 Training details
 
+### GloVe and FastText
+
+Global vectors for word representation
+Matrix factorization approach
+FastText: Subword units
+Character n-grams
+Handle OOV words
+
