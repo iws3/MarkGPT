@@ -4224,3 +4224,11 @@ Improve generalization
 Zero-shot capabilities
 Cross-task transfer
 
+### RLHF Process
+
+Reward model training
+Human preference data
+Policy gradient optimization
+Proximal policy optimization
+Iterative improvement
+
