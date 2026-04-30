@@ -2953,3 +2953,11 @@ Enables new capabilities
 Example: Image captioning
 Cross-modal retrieval
 
+### CLIP: Contrastive Learning
+
+Image encoder and text encoder
+Contrastive loss: Match image-text pairs
+Zero-shot image classification
+Remarkably effective
+Foundation for many models
+
