@@ -2717,3 +2717,11 @@ METEOR: Alignment-based metric
 Human evaluation: Gold standard
 Automatic metrics imperfect
 
+### Pre-trained Models
+
+BART: Denoising autoencoder
+T5: Text-to-text transfer transformer
+PEGASUS: Pre-trained for summarization
+PGN: Pointer generator networks
+Copy mechanism important
+
