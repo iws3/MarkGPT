@@ -1673,3 +1673,12 @@ Weighted combination = ELMo
 Context-dependent (solves homonym problem)
 Transfer learning: Improves downstream tasks
 
+### Bidirectional Language Model
+
+Forward: Predict word from left context
+Backward: Predict word from right context
+Both directions: Full context
+LSTM layers: 2 (original ELMo)
+Hidden size: 4096
+Fast: ~1B token corpus
+
