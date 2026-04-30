@@ -4038,3 +4038,13 @@ Future directions
 
 Congratulations on completing module-05!
 
+## Lesson-01: Foundational Concepts
+
+### Learning Objectives
+
+Understand word embeddings
+Learn distributed representations
+Explore Word2Vec algorithms
+Understand skip-gram model
+Complete practical exercises
+
