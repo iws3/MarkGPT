@@ -2995,3 +2995,11 @@ Knowledge graphs
 Entity relations
 GNNs capture structure
 
+### Graph Convolutional Networks
+
+Aggregate neighbor information
+h_i = sigma(sum_j W * h_j)
+Multiple layers
+Captures local structure
+Used for semantic role labeling
+
