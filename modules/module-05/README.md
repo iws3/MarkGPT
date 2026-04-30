@@ -3355,3 +3355,11 @@ Multi-document reasoning
 Retrieved documents
 Evidence extraction
 
+### Pre-training Domain
+
+SciBERT: Scientific text
+BioBERT: Biomedical focus
+Continue pre-training
+Better than generic
+Transfer to tasks
+
