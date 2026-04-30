@@ -3373,3 +3373,11 @@ Sections and subsections
 Cross-references
 Complex reasoning
 
+### Case Outcome Prediction
+
+Predict court decision
+Multiple factors
+Data: CASELAW database
+Feature extraction
+LSTM and transformers
+
