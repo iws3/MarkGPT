@@ -2163,3 +2163,11 @@ But ELMo was breakthrough (2018)
    - Predict if adjacent in corpus
    - Binary classification
 
+### Why Masking Works
+
+Bidirectional context: See all words
+Force model to understand meaning
+Not cheating with position info
+Deeper representations learned
+Unlike GPT (causal, left-to-right)
+
