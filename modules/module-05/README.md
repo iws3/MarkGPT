@@ -3363,3 +3363,13 @@ Continue pre-training
 Better than generic
 Transfer to tasks
 
+## Legal NLP
+
+### Document Understanding
+
+Long documents: 10K+ tokens
+Hierarchical structure
+Sections and subsections
+Cross-references
+Complex reasoning
+
