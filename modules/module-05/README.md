@@ -2551,3 +2551,11 @@ Examples: Zero-shot, one-shot, few-shot
 Works on translation, QA, reasoning
 Remarkable generalization shown
 
+### In-context Learning
+
+Implicit fine-tuning via prompt
+Model adapts to examples in context
+No gradient updates needed
+Pure in-context during forward pass
+Mechanism still under investigation
+
