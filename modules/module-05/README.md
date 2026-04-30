@@ -2743,3 +2743,11 @@ Attention: Focus on relevant parts
 Better than phrase-based SMT
 Transformers: Major breakthrough
 
+### Multilingual Translation
+
+Single model for many language pairs
+Language token: Mark source and target
+Shared vocabulary across languages
+Parameter sharing reduces model size
+Transfer between languages
+
