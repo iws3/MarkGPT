@@ -3179,3 +3179,11 @@ Target: Classification
 vs target: Generation
 Related tasks better
 
+### Catastrophic Forgetting
+
+Fine-tune on target
+Forget source task
+Problem in continual learning
+Elastic weight consolidation
+Parameter isolation
+
