@@ -2751,3 +2751,11 @@ Shared vocabulary across languages
 Parameter sharing reduces model size
 Transfer between languages
 
+### Back-translation
+
+Synthetic data augmentation
+Translate target to source
+Use as additional training
+Doubles training data
+Improves performance significantly
+
