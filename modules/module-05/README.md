@@ -4011,3 +4011,11 @@ Information extraction
 Vision-language models
 Graph neural networks
 
+### Practical Topics
+
+Zero-shot and few-shot learning
+Active learning and data augmentation
+Transfer learning and domain adaptation
+Robustness and adversarial learning
+Explainability and interpretability
+
