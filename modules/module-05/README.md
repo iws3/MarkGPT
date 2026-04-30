@@ -2423,3 +2423,13 @@ One vector cannot capture both meanings
 Solution: Contextualized embeddings via ELMo, BERT
 Modern approach: Dynamic based on surrounding context
 
+## ELMo: Embeddings from Language Models
+
+### Key Insight
+
+Train bidirectional LSTM language model
+Extract hidden states at each layer
+Weighted combination creates ELMo representation
+Context-dependent solves homonym problem
+Transfer learning improves downstream tasks
+
