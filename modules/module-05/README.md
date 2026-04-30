@@ -2189,3 +2189,11 @@ Batch: 16-32
 Results: SOTA on GLUE
 Simple but effective
 
+### Variants
+
+RoBERTa: Better pre-training (improved +1-3% accuracy)
+ALBERT: Shared parameters (smaller)
+DistilBERT: 40% smaller, 60% faster
+ELECTRA: Different pre-training objective
+Hundreds of variants now
+
