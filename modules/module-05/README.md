@@ -4308,3 +4308,11 @@ University of Edinburgh NLP
 DeepLearning.AI NLP specialization
 Comprehensive learning
 
+### Tools and Libraries
+
+HuggingFace Transformers
+PyTorch and TensorFlow
+OpenAI APIs
+LangChain
+Vector databases
+
