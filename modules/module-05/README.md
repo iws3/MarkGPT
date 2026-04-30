@@ -3339,3 +3339,11 @@ Domain-specific embeddings
 BERT variants: SciBERT
 Much better than generic
 
+### Relation Extraction
+
+Drug-disease interactions
+Protein-protein interactions
+Knowledge base construction
+Semi-supervised approaches
+Limited labeled data
+
