@@ -2691,3 +2691,13 @@ CoQA, QuAC datasets
 Harder than single-turn QA
 Context modeling is crucial
 
+## Abstractive and Extractive Summarization
+
+### Extractive Summarization
+
+Select important sentences
+Combine into summary
+Preserves original wording
+Simple: Score each sentence
+Fast and stable
+
