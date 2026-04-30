@@ -4216,3 +4216,11 @@ Implement RLHF training
 Improve model safety
 Evaluate alignment
 
+### Instruction Tuning
+
+Convert tasks to instructions
+Train on diverse tasks
+Improve generalization
+Zero-shot capabilities
+Cross-task transfer
+
