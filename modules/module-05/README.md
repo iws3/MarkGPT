@@ -3423,3 +3423,11 @@ Financial instruments
 Named entity recognition
 Domain-specific
 
+### Event Extraction
+
+Mergers and acquisitions
+Earnings announcements
+Regulatory filings
+Market events
+Impact prediction
+
