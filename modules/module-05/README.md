@@ -2927,3 +2927,11 @@ Noun phrases: The company
 Challenge: Ambiguity
 Graph-based and span-based methods
 
+### Dependency Parsing
+
+Extract grammatical structure
+Subject, object, modifiers
+Arc classification
+Dependency labels
+Useful for downstream tasks
+
