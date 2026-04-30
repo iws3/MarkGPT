@@ -3473,3 +3473,11 @@ Hard for humans
 Datasets: SemEval
 Contextual embeddings help
 
+### Hate Speech Detection
+
+Toxic content flagging
+Content moderation
+False positives costly
+Interpretability crucial
+Explainable AI needed
+
