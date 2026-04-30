@@ -2919,3 +2919,11 @@ Temporal information (when)
 Event type and subtypes
 Complex task
 
+### Coreference Resolution
+
+Link mentions to same entity
+Pronouns: He, she, it
+Noun phrases: The company
+Challenge: Ambiguity
+Graph-based and span-based methods
+
