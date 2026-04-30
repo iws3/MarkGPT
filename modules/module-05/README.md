@@ -2106,3 +2106,13 @@ One vector can't capture both
 Solution: Contextualized embeddings (ELMo, BERT)
 Modern approach: Dynamic based on context
 
+## ELMo: Embeddings from Language Models
+
+### Key Insight
+
+Train bidirectional LSTM language model
+Extract hidden states
+Weighted combination = ELMo
+Context-dependent (solves homonym problem)
+Transfer learning: Improves downstream tasks
+
