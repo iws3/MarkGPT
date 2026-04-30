@@ -2809,3 +2809,11 @@ OntoNotes: Rich annotation
 WNUT: Noisy social media
 Cross-domain challenge
 
+### Performance
+
+SOTA: 92-93 percent F1
+BERT: Much improvement
+Nested NER: Still harder
+Zero-shot: Transfer learning
+Language-specific variants
+
