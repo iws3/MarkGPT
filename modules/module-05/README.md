@@ -3825,3 +3825,13 @@ Known limitations
 Stakeholder assessment
 Responsible AI
 
+## Privacy and Security
+
+### Privacy Concerns
+
+Training data leakage
+Extracting examples
+Memorization
+Differential privacy
+Privacy-preserving NLP
+
