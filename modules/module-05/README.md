@@ -1584,3 +1584,12 @@ Output: Probability of context words
 Loss: Cross-entropy over context window
 Optimization: SGD with negative sampling
 
+### Continuous Bag of Words (CBOW)
+
+Opposite of Skip-gram
+Input: Context words
+Output: Predict center word
+Faster training than skip-gram
+Better for frequent words
+Trade-off: Slightly lower quality
+
