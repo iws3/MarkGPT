@@ -2089,3 +2089,12 @@ f(X_ij): Weighting function (dampens rare pairs)
 Global statistics captured
 Better on analogies than Word2Vec
 
+### Word Analogies
+
+Test: king - man + woman = queen
+Equation: w_king - w_man + w_woman ≈ w_queen
+Linear relationships in embedding space
+Remarkable property!
+GloVe better than Word2Vec on this
+But both still imperfect
+
