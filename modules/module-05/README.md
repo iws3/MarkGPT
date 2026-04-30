@@ -3583,3 +3583,11 @@ CodeT5: Code-aware T5
 GPT for code
 Specialized architectures
 
+### Code Search
+
+Find relevant code snippets
+Natural language query
+Dual encoders
+Github Copilot
+Developer productivity
+
