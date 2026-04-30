@@ -1574,3 +1574,13 @@ Ready for production systems.
 Ready to contribute to research.
 
 You know text as data. Excellent! 🎉
+## Word2Vec Architecture Deep Dive
+
+### Skip-gram Model
+
+Goal: Predict context words from target word
+Input: Word embedding
+Output: Probability of context words
+Loss: Cross-entropy over context window
+Optimization: SGD with negative sampling
+
