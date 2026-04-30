@@ -3885,3 +3885,11 @@ Similar performance
 Faster inference
 Knowledge transfer
 
+### Quantization Methods
+
+Post-training quantization
+Quantization-aware training
+Mixed precision
+8-bit, 4-bit, ternary
+Hardware acceleration
+
