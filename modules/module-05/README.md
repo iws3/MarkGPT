@@ -4019,3 +4019,11 @@ Transfer learning and domain adaptation
 Robustness and adversarial learning
 Explainability and interpretability
 
+### Specialized Domains
+
+Biomedical NLP
+Legal and financial NLP
+Social media and noisy text
+Prompt engineering
+Retrieval-augmented generation
+
