@@ -3667,3 +3667,11 @@ Wav2vec: Self-supervised
 Whisper: Robust recognition
 End-to-end approaches
 
+### Acoustic Features
+
+MFCCs: Classic features
+Spectrograms: Visual representation
+Log-mel features: Modern
+Feature learning: End-to-end
+Raw waveform approaches
+
