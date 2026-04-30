@@ -1886,3 +1886,13 @@ Manual: Human expertise
 Prompt templates: Reusable patterns
 Active research: AutoPrompt, etc.
 
+## Semantic Search and Dense Retrieval
+
+### Dense Passage Retrieval
+
+Encode queries and documents
+Retrieve by similarity
+FAISS: Fast similarity search
+100M documents: Milliseconds
+Much better than BM25 keyword matching
+
