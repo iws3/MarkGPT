@@ -2488,3 +2488,13 @@ Cannot cheat using position information
 Results in deeper learned representations
 Unlike GPT which uses causal masking
 
+### Pre-training Details
+
+Corpus: BookCorpus plus Wikipedia
+Total tokens: 3.3B tokens
+Vocabulary: 30K WordPiece tokens
+Training hardware: 16 TPUs
+Training time: Approximately 4 days
+Batch size: 256 (very large)
+Optimizer: Adam with LR=1e-4
+
