@@ -3809,3 +3809,11 @@ Adversarial debiasing
 Neutral pronoun use
 Model regularization
 
+### Gender and Languages
+
+Grammatical gender
+Language structure effects
+Morphologically rich
+Translating bias
+Cross-lingual variation
+
