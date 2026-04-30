@@ -3977,3 +3977,11 @@ Interpretability + learnability
 Knowledge graphs integration
 Hybrid architectures
 
+### Continual Learning
+
+Learn from streams
+Avoid catastrophic forgetting
+Task incremental learning
+Replay mechanisms
+Plasticity-stability
+
