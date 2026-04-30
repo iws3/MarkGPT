@@ -2451,3 +2451,11 @@ Concatenate: [char_embed, lstm1, lstm2]
 Weighted combination: gamma * (s0*h0 + s1*h1 + s2*h2)
 Task-specific learnable weights
 
+### Fine-tuning Process
+
+Downstream task: NER, SRL, classification
+Freeze ELMo weights from pretraining
+Learn layer combination weights
+Concatenate ELMo with task embeddings
+Results: Plus 2-4 percent F1 improvement typical
+
