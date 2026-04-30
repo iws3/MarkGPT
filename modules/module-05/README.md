@@ -3195,3 +3195,13 @@ Auxiliary tasks help
 Regularization effect
 Parameter sharing
 
+## Data Augmentation
+
+### Back-translation
+
+Translate to intermediate language
+Translate back
+Paraphrase created
+Preserves meaning
+Very effective
+
