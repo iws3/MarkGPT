@@ -4048,3 +4048,11 @@ Explore Word2Vec algorithms
 Understand skip-gram model
 Complete practical exercises
 
+### Word2Vec Detailed
+
+Skip-gram: Predict context from target
+CBOW: Predict target from context
+Negative sampling approximation
+Hierarchical softmax alternative
+Training details
+
