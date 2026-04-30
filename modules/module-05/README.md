@@ -3221,3 +3221,11 @@ Preserves context
 Higher quality
 More computationally expensive
 
+### Mixup and Cutoff
+
+Mix embeddings of two examples
+Interpolate in embedding space
+Cutoff: Drop random tokens
+Regularization
+Helps generalization
+
