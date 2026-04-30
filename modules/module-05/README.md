@@ -3741,3 +3741,13 @@ Incremental algorithms
 Computational efficiency
 Online active learning
 
+## Long Document Processing
+
+### Challenges
+
+Context window limits
+Attention quadratic complexity
+Information loss
+Coherence over long range
+Computational cost
+
