@@ -3187,3 +3187,11 @@ Problem in continual learning
 Elastic weight consolidation
 Parameter isolation
 
+### Multi-task Learning
+
+Shared representations
+Multiple task losses
+Auxiliary tasks help
+Regularization effect
+Parameter sharing
+
