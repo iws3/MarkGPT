@@ -3675,3 +3675,11 @@ Log-mel features: Modern
 Feature learning: End-to-end
 Raw waveform approaches
 
+### Speech Synthesis
+
+Text to speech
+Vocoder generation
+Tacotron architecture
+Neural vocoders: WaveGlow
+Natural sounding
+
