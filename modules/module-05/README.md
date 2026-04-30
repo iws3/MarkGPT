@@ -3751,3 +3751,11 @@ Information loss
 Coherence over long range
 Computational cost
 
+### Hierarchical Attention
+
+Document structure
+Sentence level then document
+Two-tier attention
+Reduces computation
+Maintains quality
+
