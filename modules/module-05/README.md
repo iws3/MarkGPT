@@ -3279,3 +3279,13 @@ Energy-based score
 Mahalanobis distance
 Safety-critical systems
 
+## Explainability and Interpretability
+
+### Attention Visualization
+
+Heatmap of weights
+What model attends to
+Interpretable but limited
+Not complete explanation
+Useful diagnostic
+
