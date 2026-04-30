@@ -3801,3 +3801,11 @@ Embedding association tests
 Contextual word embeddings
 Coverage of demographics
 
+### Mitigation Strategies
+
+Data balancing
+Debiasing embeddings
+Adversarial debiasing
+Neutral pronoun use
+Model regularization
+
