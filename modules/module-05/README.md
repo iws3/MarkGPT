@@ -4080,3 +4080,13 @@ Evaluate on similarity dataset
 Document methodology
 Submit implementation
 
+## Lesson-02: ELMo and Contextualized Models
+
+### Learning Objectives
+
+Understand contextualization
+Learn bidirectional models
+Explore ELMo architecture
+Fine-tune pre-trained models
+Implement transfer learning
+
