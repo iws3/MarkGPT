@@ -2415,3 +2415,11 @@ CoQA, QuAC datasets
 Harder than single-turn
 Context modeling crucial
 
+### Context-dependent vs Static
+
+Word2Vec and GloVe single vector per word
+Problem: Homonyms (bank = river vs institution)
+One vector cannot capture both meanings
+Solution: Contextualized embeddings via ELMo, BERT
+Modern approach: Dynamic based on surrounding context
+
