@@ -3507,3 +3507,11 @@ Output format specification
 Role-playing
 System and user prompts
 
+### Few-shot Prompting
+
+In-context learning
+Example demonstrations
+Format consistency
+Example selection matters
+Small data regime
+
