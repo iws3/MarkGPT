@@ -3549,3 +3549,11 @@ Or generator: Condition on docs
 Two-stage pipeline
 End-to-end training
 
+### Training
+
+Maximize relevance of retrieved docs
+Answer quality improves
+Hard negative mining
+Dense passage retrieval
+Joint optimization
+
