@@ -2347,3 +2347,11 @@ Fast inference
 Similarity: Dot product or cosine
 Usually good enough
 
+### Cross-Encoders
+
+Jointly encode query and document
+Higher quality than bi-encoder
+Slower: Must evaluate all pairs
+Use as re-ranker
+Workflow: Bi-encoder → cross-encoder
+
