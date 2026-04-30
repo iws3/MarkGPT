@@ -4072,3 +4072,11 @@ Exercise 3: Semantic similarity tasks
 Exercise 4: Analogy solving
 Expected completion time: 2 hours
 
+### Project Checkpoint
+
+Build custom word embedding
+Train on specific corpus
+Evaluate on similarity dataset
+Document methodology
+Submit implementation
+
