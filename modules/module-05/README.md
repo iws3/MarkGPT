@@ -4122,3 +4122,13 @@ Fine-tune on specific task
 Evaluate performance
 Documentation required
 
+## Lesson-03: BERT and Transformer Models
+
+### Learning Objectives
+
+Understand BERT architecture
+Learn self-attention mechanism
+Explore pre-training objectives
+Fine-tune on downstream tasks
+Analyze learned representations
+
