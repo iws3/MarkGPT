@@ -3515,3 +3515,11 @@ Format consistency
 Example selection matters
 Small data regime
 
+### Chain of Thought
+
+Intermediate reasoning steps
+Improve performance
+Explainability bonus
+Self-consistency
+Ensemble of prompts
+
