@@ -3993,3 +3993,13 @@ Concept-based explanation
 Mechanistic understanding
 Long-term goal
 
+## Module-05 Comprehensive Summary
+
+### What We Covered
+
+Word embeddings: Static and contextual
+Language models: From BERT to GPT
+Instruction tuning and alignment
+NLP applications: Semantic search, QA, summarization
+Machine translation and translation
+
