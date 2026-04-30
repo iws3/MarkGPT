@@ -3069,3 +3069,13 @@ State tracking
 Dialogue policy: What to say
 Task completion
 
+## Zero-shot and Few-shot Learning
+
+### Zero-shot Learning
+
+No examples for target task
+Use task description
+Transfer from pre-training
+GPT-3 does this
+Remarkable capability
+
