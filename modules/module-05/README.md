@@ -3901,3 +3901,11 @@ Lottery ticket hypothesis
 Iterative pruning
 Speed-accuracy tradeoff
 
+### Environmental Impact
+
+Training carbon footprint
+Large models expensive
+Green NLP
+Efficiency research
+Sustainable AI
+
