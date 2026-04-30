@@ -3289,3 +3289,11 @@ Interpretable but limited
 Not complete explanation
 Useful diagnostic
 
+### Feature Attribution
+
+Gradient-based
+Integrated gradients
+Path integration
+Baseline approach
+Accumulate gradients
+
