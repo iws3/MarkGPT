@@ -2045,3 +2045,12 @@ K typical values: 5-15
 Faster: O(K) vs O(V)
 Works surprisingly well!
 
+### Hierarchical Softmax
+
+Binary tree over vocabulary
+Depth: O(log V)
+Path probability product
+Better for rare words
+Slower than negative sampling
+Historical importance
+
