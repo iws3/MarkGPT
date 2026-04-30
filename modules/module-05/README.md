@@ -3919,3 +3919,11 @@ Label shift
 Degraded performance
 Domain adaptation help
 
+### Class Imbalance
+
+Skewed label distributions
+Rare minority class
+Threshold adjustment
+Reweighting
+Data augmentation
+
