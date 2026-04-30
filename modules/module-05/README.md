@@ -2442,3 +2442,12 @@ LSTM layers: 2 stacked layers
 Hidden size: 4096
 Train on 1B token corpus
 
+### Representation Extraction
+
+Layer 1: Character convolutions
+Layers 2-3: Biphone LSTM outputs
+Extract all 3 layer representations
+Concatenate: [char_embed, lstm1, lstm2]
+Weighted combination: gamma * (s0*h0 + s1*h1 + s2*h2)
+Task-specific learnable weights
+
