@@ -2666,3 +2666,11 @@ Extract: BERT span extraction
 Challenges: Scale and accuracy
 Modern: Dense plus BERT equals SOTA
 
+### Machine Reading Comprehension
+
+Given passage and question
+Extract answer span
+Datasets: SQuAD, MS MARCO
+BERT: 92.5 percent F1 (vs 91.5 human)
+Problem essentially solved
+
