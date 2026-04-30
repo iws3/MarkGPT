@@ -2877,3 +2877,11 @@ RNN: Preserve order
 CNN: Local patterns
 Transformers: State of art
 
+### BERT for Classification
+
+Add classification head
+CLS token: Document representation
+Fine-tune 2-5 epochs
+Learning rate: 2e-5
+Simple and effective
+
