@@ -2569,3 +2569,12 @@ Harmful outputs possible sometimes
 Solution: Fine-tune on instructions
 Instruction-following is learnable
 
+### Data Collection
+
+Human-written high-quality instructions
+Each with expected output response
+High quality: Approximately 100K examples
+Diversity: Many different task types
+Cost: USD 100K plus for good data
+Alternative: Use model-generated data
+
