@@ -3909,3 +3909,13 @@ Green NLP
 Efficiency research
 Sustainable AI
 
+## Edge Cases and Common Pitfalls
+
+### Domain Shift
+
+Train-test mismatch
+Covariate shift
+Label shift
+Degraded performance
+Domain adaptation help
+
