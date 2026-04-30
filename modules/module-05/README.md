@@ -2321,3 +2321,11 @@ Improves accuracy on complex tasks
 Cost: K times slower inference
 K=5 typical (5x cost, 5-10% accuracy gain)
 
+### Prompt Optimization
+
+Gradient-based: LLM-based optimization
+Discrete: Genetic algorithms
+Manual: Human expertise
+Prompt templates: Reusable patterns
+Active research: AutoPrompt, etc.
+
