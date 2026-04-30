@@ -4432,3 +4432,11 @@ Discuss challenges
 Contribute insights
 Build the community
 
+### Additional Resources
+
+arXiv.org for latest papers
+GitHub for implementations
+Kaggle for competitions
+HuggingFace for models
+Endless learning possibilities
+
