@@ -2843,3 +2843,11 @@ Transfer learning: Domain adaptation
 Ensemble: Multiple models
 Results: 90+ percent accuracy
 
+### Datasets
+
+Stanford Sentiment: Movie reviews
+SemEval: Shared tasks
+SST: Parse tree annotations
+Product reviews: Various domains
+Tweet sentiment: Noisy social media
+
