@@ -3843,3 +3843,11 @@ Language models vulnerable
 Memorization issue
 Quantify leakage
 
+### Federated Learning
+
+Decentralized training
+Data stays local
+Privacy-preserving
+Communication overhead
+Convergence challenges
+
