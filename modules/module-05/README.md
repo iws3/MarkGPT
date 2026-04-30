@@ -1947,3 +1947,12 @@ Faster training than skip-gram
 Better for frequent words
 Trade-off: Slightly lower quality
 
+### Negative Sampling
+
+Full softmax: O(V) expensive
+Negative sampling: Sample K negative examples
+Binary logistic regression instead
+K typical values: 5-15
+Faster: O(K) vs O(V)
+Works surprisingly well!
+
