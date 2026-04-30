@@ -3457,3 +3457,11 @@ Slang and informal
 Code-switching
 Short length
 
+### Text Normalization
+
+Correct spellings
+Expand abbreviations
+Neural approaches
+Rule-based methods
+Hybrid systems
+
