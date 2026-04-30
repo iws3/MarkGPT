@@ -4182,3 +4182,11 @@ Left-to-right generation
 Token prediction
 Differences from BERT
 
+### Generation Strategies
+
+Greedy decoding
+Beam search
+Top-k sampling
+Nucleus sampling (top-p)
+Temperature scaling
+
