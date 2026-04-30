@@ -3087,3 +3087,11 @@ Classify by attribute
 Semantic bridge
 Limited to known attributes
 
+### Few-shot Learning
+
+K examples per class
+K=1: One-shot
+K=5: Few-shot
+Meta-learning: Learn to learn
+MAML popular method
+
