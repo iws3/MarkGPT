@@ -2759,3 +2759,11 @@ Use as additional training
 Doubles training data
 Improves performance significantly
 
+### Evaluation of Translation
+
+BLEU: Automatic metric
+Limitations: Not perfect
+Human evaluation: Best
+TER: Translation edit rate
+METEOR: Better alignment
+
