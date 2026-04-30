@@ -3683,3 +3683,11 @@ Tacotron architecture
 Neural vocoders: WaveGlow
 Natural sounding
 
+### Speaker Recognition
+
+Identify who is speaking
+Speaker embedding
+Verification vs identification
+i-vectors and x-vectors
+Deep learning approaches
+
