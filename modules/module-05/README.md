@@ -2578,3 +2578,12 @@ Diversity: Many different task types
 Cost: USD 100K plus for good data
 Alternative: Use model-generated data
 
+### Training Process
+
+Fine-tune base model on instructions
+Epochs: 2-5 typical
+Learning rate: 1e-5 (very small)
+Training speed: 1-2 hours one GPU
+Massive effect on model capability
+ChatGPT: Fine-tuned GPT-3.5
+
