@@ -3893,3 +3893,11 @@ Mixed precision
 8-bit, 4-bit, ternary
 Hardware acceleration
 
+### Pruning
+
+Remove unnecessary weights
+Structured vs unstructured
+Lottery ticket hypothesis
+Iterative pruning
+Speed-accuracy tradeoff
+
