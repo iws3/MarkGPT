@@ -3405,3 +3405,13 @@ Data license restrictions
 Domain shift
 Emerging field
 
+## Financial NLP
+
+### Sentiment Analysis
+
+Stock price prediction
+News sentiment
+Social media monitoring
+Earnings calls
+Financial-specific lexicon
+
