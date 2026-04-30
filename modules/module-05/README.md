@@ -3019,3 +3019,11 @@ GNNs improve over linear models
 Example: Improved NER
 Structure helps
 
+### Message Passing
+
+Nodes exchange information
+Learnable message functions
+Aggregation of messages
+Update node representations
+Flexible framework
+
