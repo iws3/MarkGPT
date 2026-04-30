@@ -3599,3 +3599,11 @@ Abstract syntax tree
 Comment generation
 Aids maintenance
 
+### Bug Detection
+
+Identify vulnerabilities
+Security critical
+Type inference
+Data flow analysis
+Static analysis tools
+
