@@ -3489,3 +3489,13 @@ Evidence retrieval
 Fact-checking
 Emerging challenge
 
+## Prompt Engineering
+
+### Introduction
+
+Instructions to language model
+Quality impacts output
+Art and science
+Counter-intuitive patterns
+Rapidly evolving field
+
