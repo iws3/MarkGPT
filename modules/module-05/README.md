@@ -2605,3 +2605,13 @@ Ongoing research challenge
 No silver bullet solution yet
 Critical active research area
 
+## Semantic Search and Dense Retrieval
+
+### Dense Passage Retrieval
+
+Encode queries and documents
+Retrieve by similarity in embedding space
+FAISS: Fast similarity search library
+100M documents: Milliseconds latency
+Much better than BM25 keyword matching
+
