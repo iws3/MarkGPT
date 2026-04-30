@@ -2911,3 +2911,11 @@ Slot filling
 Knowledge base construction
 Can be supervised or distant
 
+### Event Extraction
+
+Extract event mentions
+Participants (who, what, where)
+Temporal information (when)
+Event type and subtypes
+Complex task
+
