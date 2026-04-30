@@ -4027,3 +4027,14 @@ Social media and noisy text
 Prompt engineering
 Retrieval-augmented generation
 
+### Advanced and Emerging Topics
+
+Code understanding and generation
+Multilingual and cross-lingual
+Speech and audio processing
+Long document understanding
+Privacy, fairness, efficiency
+Future directions
+
+Congratulations on completing module-05!
+
