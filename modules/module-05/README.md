@@ -4190,3 +4190,11 @@ Top-k sampling
 Nucleus sampling (top-p)
 Temperature scaling
 
+### Scaling Laws
+
+Model size and performance
+Power law relationships
+Optimal allocation
+Data vs parameters
+Chinchilla scaling
+
