@@ -3011,3 +3011,11 @@ Score function: Measure correctness
 TransE: Simple baseline
 Link prediction
 
+### Text as Graphs
+
+Dependency parsing: Syntactic structure
+Semantic graphs: Meaning
+GNNs improve over linear models
+Example: Improved NER
+Structure helps
+
