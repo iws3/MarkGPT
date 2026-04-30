@@ -3699,3 +3699,13 @@ Prosody modeling
 End-to-end pipeline
 Speech-to-semantics
 
+## Temporal and Dynamic Language
+
+### Temporal Relation Extraction
+
+When did events occur?
+TimeML annotation
+Temporal reasoning
+Event ordering
+Challenging task
+
