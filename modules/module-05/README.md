@@ -4266,3 +4266,11 @@ Training and evaluation
 Error analysis
 Performance documentation
 
+### Suggested Projects
+
+Multi-task learning system
+Domain-specific QA system
+Multilingual translation pipeline
+Information extraction system
+Chat bot with persona
+
