@@ -2063,3 +2063,13 @@ Example: "running" = run + ing + ...n-grams
 Better performance on morphologically rich languages
 Handle misspellings gracefully
 
+## GloVe: Global Vectors
+
+### Motivation
+
+Word2Vec: Local context only
+GloVe: Global corpus statistics + local context
+Matrix factorization approach
+Combine benefits of both
+Excellent empirical results
+
