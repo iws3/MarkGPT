@@ -2674,3 +2674,12 @@ Datasets: SQuAD, MS MARCO
 BERT: 92.5 percent F1 (vs 91.5 human)
 Problem essentially solved
 
+### Multi-hop QA
+
+Question requires multiple reasoning steps
+Example: Who is parent of someone's child?
+Harder: Requires chained reasoning
+Datasets: HotpotQA
+Current performance: 65-70 percent F1
+Still open problem
+
