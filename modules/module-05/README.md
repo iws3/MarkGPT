@@ -3499,3 +3499,11 @@ Art and science
 Counter-intuitive patterns
 Rapidly evolving field
 
+### Prompt Design Patterns
+
+Task description
+Few-shot examples
+Output format specification
+Role-playing
+System and user prompts
+
