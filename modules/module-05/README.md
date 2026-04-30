@@ -3037,3 +3037,11 @@ Open-domain chitchat
 Task-oriented dialogue
 Different challenges
 
+### Response Generation
+
+Sequence-to-sequence models
+Encoder: Conversation context
+Decoder: Generate response
+Attention important
+Beam search for decoding
+
