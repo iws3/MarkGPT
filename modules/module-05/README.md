@@ -1825,3 +1825,12 @@ Quick: 1-2 hours on single GPU
 Huge effect on capability
 ChatGPT: Fine-tuned GPT-3.5
 
+### Reinforcement Learning from Human Feedback
+
+Step 1: Collect comparisons
+Step 2: Train reward model
+Step 3: Use PPO to optimize
+Step 4: Generate better outputs
+Iterative improvement
+ChatGPT training approach
+
