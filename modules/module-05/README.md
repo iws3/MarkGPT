@@ -3709,3 +3709,11 @@ Temporal reasoning
 Event ordering
 Challenging task
 
+### Time-aware Embeddings
+
+Temporal word embeddings
+Meaning shifts over time
+Track language evolution
+Multiple snapshots
+Alignment across time
+
