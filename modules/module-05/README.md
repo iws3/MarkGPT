@@ -3389,3 +3389,11 @@ Payment terms
 Liability clauses
 Automated review
 
+### Legal Information Retrieval
+
+Find relevant case law
+Precedent search
+Dense retrieval helps
+Legal-specific models
+LegalBERT
+
