@@ -3943,3 +3943,11 @@ Concept drift
 Seasonal patterns
 Continuous monitoring
 
+### Out-of-Distribution Examples
+
+Unusual inputs
+Distribution far from training
+Confidence inflation
+Uncertainty quantification
+Abstention mechanisms
+
