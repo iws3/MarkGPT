@@ -3615,3 +3615,13 @@ Evaluation: Functional correctness
 Hallucinations
 Security and privacy concerns
 
+## Multilingual and Cross-lingual NLP
+
+### Challenges
+
+Language diversity
+Resource variation
+Script differences
+Morphology variation
+Different structures
+
