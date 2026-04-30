@@ -2533,3 +2533,13 @@ BERT: Encoder-only, cannot generate sequences
 GPT: Decoder-only, can generate text
 Different strengths for different tasks
 
+### Scaling Laws
+
+Compute budget: 6ND where N params, D data
+Loss curve: Decreases as N to power negative-a
+a value: Approximately 0.07 to 0.1
+Predictable scaling trends observed
+GPT-2: 1.5B params very impressive
+GPT-3: 175B params shows few-shot abilities
+Emergent abilities appear at scale
+
