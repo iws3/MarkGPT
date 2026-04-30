@@ -4274,3 +4274,11 @@ Multilingual translation pipeline
 Information extraction system
 Chat bot with persona
 
+### Evaluation Criteria
+
+Functionality: Does it work?
+Code quality and documentation
+Evaluation metrics
+Error analysis and insights
+Deployment readiness
+
