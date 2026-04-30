@@ -4064,3 +4064,11 @@ FastText: Subword units
 Character n-grams
 Handle OOV words
 
+### Implementation Exercises
+
+Exercise 1: Train Word2Vec model
+Exercise 2: Explore embedding space
+Exercise 3: Semantic similarity tasks
+Exercise 4: Analogy solving
+Expected completion time: 2 hours
+
