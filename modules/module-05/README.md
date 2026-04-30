@@ -3717,3 +3717,11 @@ Track language evolution
 Multiple snapshots
 Alignment across time
 
+### News Summarization
+
+Recent events
+Update summarization
+Progressive disclosure
+Timeline generation
+Temporal coherence
+
