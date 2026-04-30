@@ -3465,3 +3465,11 @@ Neural approaches
 Rule-based methods
 Hybrid systems
 
+### Sarcasm Detection
+
+Binary classification
+Context dependent
+Hard for humans
+Datasets: SemEval
+Contextual embeddings help
+
