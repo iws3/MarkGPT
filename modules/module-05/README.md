@@ -3691,3 +3691,11 @@ Verification vs identification
 i-vectors and x-vectors
 Deep learning approaches
 
+### Speech Understanding
+
+Intent detection from speech
+Emotion recognition
+Prosody modeling
+End-to-end pipeline
+Speech-to-semantics
+
