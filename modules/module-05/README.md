@@ -3969,3 +3969,11 @@ Emerges with scale
 Mechanism unclear
 Theoretical understanding needed
 
+### Neurosymbolic AI
+
+Combine neural and symbolic
+Best of both worlds
+Interpretability + learnability
+Knowledge graphs integration
+Hybrid architectures
+
