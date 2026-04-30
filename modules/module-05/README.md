@@ -2885,3 +2885,11 @@ Fine-tune 2-5 epochs
 Learning rate: 2e-5
 Simple and effective
 
+### Multi-label Classification
+
+Each document multiple labels
+Example: Movie has comedy and drama
+Loss: Binary cross-entropy per label
+Threshold per label
+More complex than single-label
+
