@@ -3951,3 +3951,13 @@ Confidence inflation
 Uncertainty quantification
 Abstention mechanisms
 
+## Current Research Directions
+
+### Multimodality
+
+Beyond text
+Vision, audio, text
+Unified representations
+Grounding in reality
+Next frontier
+
