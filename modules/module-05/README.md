@@ -4140,3 +4140,11 @@ Next sentence prediction
 Joint objectives
 Pre-training details
 
+### Fine-tuning for Tasks
+
+Classification: Add linear layer
+Tagging: Per-token classification
+QA: Span extraction
+Similarities: Use CLS token
+Task-specific adapters
+
