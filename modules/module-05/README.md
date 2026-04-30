@@ -3137,3 +3137,11 @@ High information
 More expensive
 Better performance
 
+### Expected Model Change
+
+Will example change model?
+Gradient-based
+Computationally expensive
+Principled approach
+Highest quality
+
