@@ -3767,3 +3767,11 @@ Local windowed
 Combination patterns
 Longformer, BigBird
 
+### Recurrence and Memory
+
+Maintain state across chunks
+Transformer-XL
+Recurrence without RNNs
+Segment-level recurrence
+Relative position encoding
+
