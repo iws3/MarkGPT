@@ -3565,3 +3565,11 @@ Latency matters
 Batch retrieval
 Production challenges
 
+### Evaluation
+
+Retrieval accuracy
+Answer correctness
+End-to-end metrics
+Human evaluation
+Trade-offs: Quality vs speed
+
