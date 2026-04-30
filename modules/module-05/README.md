@@ -3531,3 +3531,13 @@ System prompt tuning
 Instruction engineering
 Best practices evolving
 
+## Retrieval-Augmented Generation
+
+### Motivation
+
+Language models hallucinate
+Lack current information
+RAG solves this
+Retrieve + generate
+Better factuality
+
