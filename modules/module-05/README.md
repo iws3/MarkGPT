@@ -3591,3 +3591,11 @@ Dual encoders
 Github Copilot
 Developer productivity
 
+### Code Summarization
+
+Generate docstrings
+Seq2seq approaches
+Abstract syntax tree
+Comment generation
+Aids maintenance
+
