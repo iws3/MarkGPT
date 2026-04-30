@@ -2596,3 +2596,12 @@ Step 4: Generate improved outputs
 Iterative improvement cycle
 ChatGPT uses this training approach
 
+### Safety and Alignment
+
+Constitutional AI: Principles-based approach
+Red-teaming: Test for failures
+Adversarial examples: Find weaknesses
+Ongoing research challenge
+No silver bullet solution yet
+Critical active research area
+
