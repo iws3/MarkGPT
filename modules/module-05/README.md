@@ -3835,3 +3835,11 @@ Memorization
 Differential privacy
 Privacy-preserving NLP
 
+### Membership Inference
+
+Was example in training?
+Privacy attack
+Language models vulnerable
+Memorization issue
+Quantify leakage
+
