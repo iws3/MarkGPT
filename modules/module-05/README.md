@@ -2515,3 +2515,13 @@ DistilBERT: 40 percent smaller, 60 percent faster
 ELECTRA: Different pretraining objective
 Hundreds of variants available now
 
+## GPT: Generative Pre-trained Transformer
+
+### Causal Language Modeling
+
+Task: Predict next token given history
+Formula: P(word_t given word_1 through word_{t-1})
+Autoregressive: Generate one token at a time
+Masked attention: Cannot see future tokens
+Simple objective but very powerful
+
