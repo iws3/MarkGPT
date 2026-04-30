@@ -3557,3 +3557,11 @@ Hard negative mining
 Dense passage retrieval
 Joint optimization
 
+### Practical Implementation
+
+Vector database
+FAISS or Pinecone
+Latency matters
+Batch retrieval
+Production challenges
+
