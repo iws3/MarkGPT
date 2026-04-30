@@ -2207,3 +2207,11 @@ Autoregressive: Generate token by token
 Masked attention: Can't see future
 Simple but powerful objective
 
+### Differences from BERT
+
+BERT: Masked, bidirectional (understand)
+GPT: Causal, left-to-right (generate)
+BERT: Encoder-only (no generation)
+GPT: Decoder-only (can generate)
+Different strengths for different tasks
+
