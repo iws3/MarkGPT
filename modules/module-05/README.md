@@ -2296,3 +2296,11 @@ Works surprisingly often
 Baseline for comparison
 Limits: Complex tasks fail
 
+### Few-shot Prompting
+
+Provide 1-5 examples
+Model learns pattern from examples
+Not actual fine-tuning
+In-context learning
+Often better than zero-shot
+
