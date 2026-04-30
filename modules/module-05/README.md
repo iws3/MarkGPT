@@ -2407,3 +2407,11 @@ Datasets: HotpotQA
 Current performance: 65-70% F1
 Open problem
 
+### Conversational QA
+
+Keep context from previous turns
+Coreference resolution needed
+CoQA, QuAC datasets
+Harder than single-turn
+Context modeling crucial
+
