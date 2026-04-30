@@ -2961,3 +2961,11 @@ Zero-shot image classification
 Remarkably effective
 Foundation for many models
 
+### Vision Transformers
+
+Apply transformers to images
+Patch embedding: 16x16 patches
+Linear projection to embeddings
+Then standard transformer
+Competitive with CNNs
+
