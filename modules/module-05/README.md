@@ -2701,3 +2701,11 @@ Preserves original wording
 Simple: Score each sentence
 Fast and stable
 
+### Abstractive Summarization
+
+Generate new summary text
+Paraphrase and compress
+More flexible than extractive
+Seq2seq models: Encode-decode
+Transformers: Much better than RNNs
+
