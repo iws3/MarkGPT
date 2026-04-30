@@ -3657,3 +3657,13 @@ Switch point detection
 Task-specific challenges
 Growing research area
 
+## Speech and Audio NLP
+
+### Speech Recognition
+
+Acoustic to text
+Transformers revolutionized
+Wav2vec: Self-supervised
+Whisper: Robust recognition
+End-to-end approaches
+
