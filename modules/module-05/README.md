@@ -4164,3 +4164,13 @@ Layer-wise analysis
 Attention head analysis
 Behavioral testing
 
+## Lesson-04: GPT and Autoregressive Models
+
+### Learning Objectives
+
+Understand autoregressive generation
+Learn GPT architecture
+Explore scaling laws
+Implement prompt engineering
+Build generation pipelines
+
