@@ -2785,3 +2785,11 @@ Sequence labeling task
 Dataset: CoNLL, ACE
 Challenging for nested entities
 
+### Models
+
+BiLSTM-CRF: Previous SOTA
+BERT: Better with fine-tuning
+RoBERTa: Even better
+Character embeddings help
+Contextualization crucial
+
