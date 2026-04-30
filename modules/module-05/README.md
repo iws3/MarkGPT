@@ -3229,3 +3229,11 @@ Cutoff: Drop random tokens
 Regularization
 Helps generalization
 
+### Self-training
+
+Use model on unlabeled data
+High confidence predictions
+Add to training set
+Iterative
+Semi-supervised approach
+
