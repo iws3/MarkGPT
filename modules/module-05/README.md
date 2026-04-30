@@ -2943,3 +2943,13 @@ Per predicate
 Proposition banks
 Improved by contextualized embeddings
 
+## Vision-Language Models
+
+### Motivation
+
+Images and text often together
+Single model for both modalities
+Enables new capabilities
+Example: Image captioning
+Cross-modal retrieval
+
