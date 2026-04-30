@@ -1912,3 +1912,11 @@ Slower: Must evaluate all pairs
 Use as re-ranker
 Workflow: Bi-encoder → cross-encoder
 
+### Contrastive Learning
+
+Positive: Query with relevant doc
+Negative: Query with irrelevant doc
+Loss: Maximize positive, minimize negative
+SimCLR: Self-supervised version
+Data efficient
+
