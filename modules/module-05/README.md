@@ -3439,3 +3439,11 @@ Ensemble approaches
 Challenge: Market efficiency
 Limited predictability
 
+### Domain Resources
+
+FinBERT: Financial text
+Financial corpora
+Specialized embeddings
+Lexicon-based approaches
+Hybrid methods
+
