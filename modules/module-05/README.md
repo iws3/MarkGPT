@@ -2232,3 +2232,11 @@ Examples: 0-shot, 1-shot, few-shot
 Works on translation, QA, reasoning
 Remarkable generalization
 
+### In-context Learning
+
+Implicit fine-tuning in prompt
+Model adapts to examples
+No gradient updates
+Purely in-context (during forward pass)
+Mysterious mechanism (active research)
+
