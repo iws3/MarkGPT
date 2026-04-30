@@ -3725,3 +3725,11 @@ Progressive disclosure
 Timeline generation
 Temporal coherence
 
+### Conversational Turns
+
+Context is dynamic
+Reference resolution
+Dialogue history modeling
+Sequential processing
+RNNs vs transformer position
+
