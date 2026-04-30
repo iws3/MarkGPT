@@ -3153,3 +3153,13 @@ Minimize coverage
 Geometric approach
 Works well
 
+## Transfer Learning
+
+### Pre-training Strategy
+
+Large unlabeled data
+Learn general representations
+Fine-tune on target task
+Huge improvement
+Modern default approach
+
