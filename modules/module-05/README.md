@@ -2985,3 +2985,13 @@ Fusion of modalities
 VQA dataset
 Challenging task
 
+## Graph Neural Networks for NLP
+
+### Motivation
+
+Text has graph structure
+Dependency trees
+Knowledge graphs
+Entity relations
+GNNs capture structure
+
