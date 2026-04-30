@@ -2835,3 +2835,11 @@ Implicit sentiment
 Neutral/mixed reviews
 Context dependency
 
+### Models
+
+BERT fine-tuning: Simple, effective
+Aspect-based: Target-specific
+Transfer learning: Domain adaptation
+Ensemble: Multiple models
+Results: 90+ percent accuracy
+
