@@ -2180,3 +2180,12 @@ Training: 16 TPUs, 4 days
 Batch: 256 (large!)
 Optimizer: Adam, LR=1e-4
 
+### Fine-tuning
+
+Add task-specific head
+Train 2-4 epochs
+Learning rate: 2e-5 (small!)
+Batch: 16-32
+Results: SOTA on GLUE
+Simple but effective
+
