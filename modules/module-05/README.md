@@ -3297,3 +3297,11 @@ Path integration
 Baseline approach
 Accumulate gradients
 
+### LIME
+
+Local interpretable model
+Approximate with simple model
+Around prediction
+Perturb inputs
+Fit linear model
+
