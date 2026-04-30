@@ -3255,3 +3255,11 @@ Step in gradient direction
 Simple and effective
 Baseline attack
 
+### Adversarial Training
+
+Generate adversarial examples
+Train on both original and adv
+More robust model
+Cost: Slower training
+Better generalization
+
