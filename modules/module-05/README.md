@@ -4174,3 +4174,11 @@ Explore scaling laws
 Implement prompt engineering
 Build generation pipelines
 
+### GPT Architecture
+
+Decoder-only transformers
+Causal self-attention
+Left-to-right generation
+Token prediction
+Differences from BERT
+
