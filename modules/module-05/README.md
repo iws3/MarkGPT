@@ -3111,3 +3111,13 @@ Pre-training helps
 Multi-domain training
 Open challenge
 
+## Active Learning
+
+### Motivation
+
+Labeling is expensive
+Which examples to label?
+Active learning answers this
+Iterative process
+Select informative examples
+
