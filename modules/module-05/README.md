@@ -3247,3 +3247,11 @@ Text: Word level
 Shows brittleness
 Security concern
 
+### FGSM Attack
+
+Fast gradient sign method
+Gradient of loss wrt input
+Step in gradient direction
+Simple and effective
+Baseline attack
+
