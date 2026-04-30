@@ -3145,3 +3145,11 @@ Computationally expensive
 Principled approach
 Highest quality
 
+### Core-set Approach
+
+Select diverse examples
+Represent data distribution
+Minimize coverage
+Geometric approach
+Works well
+
