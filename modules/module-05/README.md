@@ -2009,3 +2009,11 @@ Remarkable property!
 GloVe better than Word2Vec on this
 But both still imperfect
 
+### Context-dependent vs Static
+
+Word2Vec/GloVe: Single vector per word
+Problem: Homonyms (bank = river vs institution)
+One vector can't capture both
+Solution: Contextualized embeddings (ELMo, BERT)
+Modern approach: Dynamic based on context
+
