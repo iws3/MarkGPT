@@ -3103,3 +3103,11 @@ Classify by distance to prototype
 Simple and effective
 Works surprisingly well
 
+### Domain Generalization
+
+Zero-shot to unseen domain
+Different text distribution
+Pre-training helps
+Multi-domain training
+Open challenge
+
