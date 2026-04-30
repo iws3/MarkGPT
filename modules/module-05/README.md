@@ -2969,3 +2969,11 @@ Linear projection to embeddings
 Then standard transformer
 Competitive with CNNs
 
+### Image Captioning
+
+Encoder-decoder architecture
+CNN or ViT encoder
+Transformer decoder
+Generates image description
+Datasets: COCO, Flickr30K
+
