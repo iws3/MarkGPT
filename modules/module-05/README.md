@@ -1816,3 +1816,12 @@ Diversity: Many task types
 Costs: $100K+ for good data
 Or use model-generated (weaker)
 
+### Training Process
+
+Fine-tune base model on instructions
+2-5 epochs typical
+Learning rate: 1e-5 (small)
+Quick: 1-2 hours on single GPU
+Huge effect on capability
+ChatGPT: Fine-tuned GPT-3.5
+
