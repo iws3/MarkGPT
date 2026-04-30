@@ -4003,3 +4003,11 @@ Instruction tuning and alignment
 NLP applications: Semantic search, QA, summarization
 Machine translation and translation
 
+### Continued Coverage
+
+Named entity recognition
+Sentiment and text classification
+Information extraction
+Vision-language models
+Graph neural networks
+
