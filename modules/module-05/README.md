@@ -2277,3 +2277,12 @@ Step 4: Generate better outputs
 Iterative improvement
 ChatGPT training approach
 
+### Safety and Alignment
+
+Constitutional AI: Principles-based
+Red-teaming: Test for failures
+Adversarial examples: Find weaknesses
+Ongoing challenge
+No silver bullet yet
+Active research area (critical!)
+
