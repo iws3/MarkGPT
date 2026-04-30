@@ -2935,3 +2935,11 @@ Arc classification
 Dependency labels
 Useful for downstream tasks
 
+### Semantic Role Labeling
+
+Identify semantic roles
+Agent, patient, location
+Per predicate
+Proposition banks
+Improved by contextualized embeddings
+
