@@ -2827,3 +2827,11 @@ Fine-grained: Aspect-based
 Multi-label: Multiple sentiments
 Task selection matters
 
+### Challenges
+
+Sarcasm and irony
+Domain transfer: Product to movie
+Implicit sentiment
+Neutral/mixed reviews
+Context dependency
+
