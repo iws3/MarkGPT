@@ -2733,3 +2733,13 @@ Beam search: K=4 typical
 Length penalties: Prevent too short
 Results: SOTA on standard benchmarks
 
+## Neural Machine Translation
+
+### Sequence-to-Sequence Architecture
+
+Encoder: Read source sentence
+Decoder: Generate target sentence
+Attention: Focus on relevant parts
+Better than phrase-based SMT
+Transformers: Major breakthrough
+
