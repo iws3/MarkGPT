@@ -3649,3 +3649,11 @@ Back-translation scaling
 Low resource pairs
 Shared architecture helps
 
+### Code-switching
+
+Multiple languages in text
+Common in multilingual regions
+Switch point detection
+Task-specific challenges
+Growing research area
+
