@@ -2017,3 +2017,13 @@ One vector can't capture both
 Solution: Contextualized embeddings (ELMo, BERT)
 Modern approach: Dynamic based on context
 
+## Word2Vec Architecture Deep Dive
+
+### Skip-gram Model
+
+Goal: Predict context words from target word
+Input: Word embedding
+Output: Probability of context words
+Loss: Cross-entropy over context window
+Optimization: SGD with negative sampling
+
