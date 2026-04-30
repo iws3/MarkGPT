@@ -3205,3 +3205,11 @@ Paraphrase created
 Preserves meaning
 Very effective
 
+### EDA: Easy Data Augmentation
+
+Random insertion
+Random deletion
+Random swap
+Synonym replacement
+Simple but surprisingly effective
+
