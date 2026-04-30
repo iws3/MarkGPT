@@ -3523,3 +3523,11 @@ Explainability bonus
 Self-consistency
 Ensemble of prompts
 
+### Advanced Techniques
+
+Temperature and top-k
+Decoding strategies
+System prompt tuning
+Instruction engineering
+Best practices evolving
+
