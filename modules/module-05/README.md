@@ -2709,3 +2709,11 @@ More flexible than extractive
 Seq2seq models: Encode-decode
 Transformers: Much better than RNNs
 
+### Evaluation Metrics
+
+ROUGE: Recall-oriented understudy
+BLEU: Machine translation metric
+METEOR: Alignment-based metric
+Human evaluation: Gold standard
+Automatic metrics imperfect
+
