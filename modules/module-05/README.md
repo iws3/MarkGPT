@@ -3263,3 +3263,11 @@ More robust model
 Cost: Slower training
 Better generalization
 
+### Certified Robustness
+
+Provable robustness
+Randomized smoothing
+Guarantees within epsilon
+Expensive
+Research active
+
