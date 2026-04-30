@@ -4132,3 +4132,11 @@ Explore pre-training objectives
 Fine-tune on downstream tasks
 Analyze learned representations
 
+### BERT Pre-training
+
+Masked language modeling
+15 percent masking strategy
+Next sentence prediction
+Joint objectives
+Pre-training details
+
