@@ -1797,3 +1797,13 @@ No gradient updates
 Purely in-context (during forward pass)
 Mysterious mechanism (active research)
 
+## Instruction Tuning and Alignment
+
+### The Problem
+
+GPT-3: Powerful but unpredictable
+Can refuse tasks or be verbose
+Harmful outputs possible
+Solution: Fine-tune on instructions
+Instruction-following is learnable skill
+
