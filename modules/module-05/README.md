@@ -3213,3 +3213,11 @@ Random swap
 Synonym replacement
 Simple but surprisingly effective
 
+### Contextual Augmentation
+
+Language model based
+Replace words with LM predictions
+Preserves context
+Higher quality
+More computationally expensive
+
