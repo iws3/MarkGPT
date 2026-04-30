@@ -2171,3 +2171,12 @@ Not cheating with position info
 Deeper representations learned
 Unlike GPT (causal, left-to-right)
 
+### Pre-training Details
+
+Corpus: BookCorpus + Wikipedia
+3.3B tokens total
+Vocab: 30K WordPiece tokens
+Training: 16 TPUs, 4 days
+Batch: 256 (large!)
+Optimizer: Adam, LR=1e-4
+
