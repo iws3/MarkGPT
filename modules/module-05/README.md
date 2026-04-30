@@ -1638,3 +1638,11 @@ X_ij = count of word i with word j in context
 Sparse: ~0.1% non-zero typical
 Compress via SVD (but loses info)
 
+### GloVe Loss Function
+
+Weighted least squares
+Loss = Σ f(X_ij) * (w_i · w_j + b_i + b_j - log X_ij)^2
+f(X_ij): Weighting function (dampens rare pairs)
+Global statistics captured
+Better on analogies than Word2Vec
+
