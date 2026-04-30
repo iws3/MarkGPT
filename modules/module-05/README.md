@@ -2817,3 +2817,13 @@ Nested NER: Still harder
 Zero-shot: Transfer learning
 Language-specific variants
 
+## Sentiment Analysis
+
+### Binary vs Multi-class
+
+Binary: Positive or negative
+Multi-class: 5-point scale
+Fine-grained: Aspect-based
+Multi-label: Multiple sentiments
+Task selection matters
+
