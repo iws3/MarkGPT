@@ -3397,3 +3397,11 @@ Dense retrieval helps
 Legal-specific models
 LegalBERT
 
+### Dataset and Challenges
+
+SCOTUS: Supreme Court
+CASELAW: Large corpus
+Data license restrictions
+Domain shift
+Emerging field
+
