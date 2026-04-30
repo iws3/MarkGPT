@@ -3237,3 +3237,13 @@ Add to training set
 Iterative
 Semi-supervised approach
 
+## Robustness and Adversarial Examples
+
+### Adversarial Attacks
+
+Small perturbation
+Fool model
+Text: Word level
+Shows brittleness
+Security concern
+
