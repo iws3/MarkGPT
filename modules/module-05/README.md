@@ -3783,3 +3783,13 @@ QA over long documents
 Key-phrase extraction
 Hierarchical methods
 
+## Bias and Fairness in NLP
+
+### Types of Bias
+
+Gender bias
+Racial bias
+Occupational stereotypes
+Inherent in data
+Models amplify
+
