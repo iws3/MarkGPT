@@ -4358,3 +4358,11 @@ Label noise
 Distribution shift
 Data cleaning tips
 
+### Evaluation Challenges
+
+Metric mismatch
+Dataset bias
+Human evaluation setup
+Statistical significance
+Proper evaluation
+
