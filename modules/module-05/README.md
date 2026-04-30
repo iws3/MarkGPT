@@ -2793,3 +2793,11 @@ RoBERTa: Even better
 Character embeddings help
 Contextualization crucial
 
+### CRF Layer
+
+Conditional random field
+Sequence-level modeling
+Enforce valid tag sequences
+Example: No O after B
+Improves accuracy
+
