@@ -4148,3 +4148,11 @@ QA: Span extraction
 Similarities: Use CLS token
 Task-specific adapters
 
+### BERT Variants
+
+RoBERTa: Improved training
+ALBERT: Parameter reduction
+DistilBERT: Distilled smaller
+Comparison and selection
+Trade-offs
+
