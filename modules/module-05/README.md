@@ -3431,3 +3431,11 @@ Regulatory filings
 Market events
 Impact prediction
 
+### Price Movement Prediction
+
+Text features for regression
+Sentiment + technical indicators
+Ensemble approaches
+Challenge: Market efficiency
+Limited predictability
+
