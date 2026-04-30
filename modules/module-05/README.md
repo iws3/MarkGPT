@@ -3481,3 +3481,11 @@ False positives costly
 Interpretability crucial
 Explainable AI needed
 
+### Rumor and Misinformation
+
+Identify false claims
+Verification
+Evidence retrieval
+Fact-checking
+Emerging challenge
+
