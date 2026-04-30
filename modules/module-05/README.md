@@ -1630,3 +1630,11 @@ Matrix factorization approach
 Combine benefits of both
 Excellent empirical results
 
+### Co-occurrence Matrix
+
+Count word co-occurrences in context window
+V x V matrix (V = vocab size)
+X_ij = count of word i with word j in context
+Sparse: ~0.1% non-zero typical
+Compress via SVD (but loses info)
+
