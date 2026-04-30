@@ -2498,3 +2498,12 @@ Training time: Approximately 4 days
 Batch size: 256 (very large)
 Optimizer: Adam with LR=1e-4
 
+### Fine-tuning
+
+Add task-specific layer
+Training: 2-4 epochs
+Learning rate: 2e-5 (very small)
+Batch: 16-32
+Results: State of art on GLUE benchmark
+Simple yet effective approach
+
