@@ -4106,3 +4106,11 @@ Larger rates for task layer
 Discriminative fine-tuning
 Gradual unfreezing
 
+### Benchmarking Tasks
+
+Sentiment analysis benchmark
+Text classification benchmark
+Compare with baselines
+Measure improvements
+Error analysis
+
