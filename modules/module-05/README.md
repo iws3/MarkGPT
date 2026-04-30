@@ -2859,3 +2859,13 @@ But service positive
 Joint extraction and classification
 Fine-grained analysis
 
+## Text Classification
+
+### Categories
+
+Topic classification
+Spam detection
+Toxic comment detection
+Emotion classification
+Intent prediction
+
