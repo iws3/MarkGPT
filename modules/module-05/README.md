@@ -2363,3 +2363,11 @@ Loss: Maximize positive, minimize negative
 SimCLR: Self-supervised version
 Data efficient
 
+### Knowledge Distillation for Search
+
+Large cross-encoder → small bi-encoder
+Student learns from teacher
+Fast inference with quality
+Production approach
+Typical: 5x speedup, 90% quality
+
