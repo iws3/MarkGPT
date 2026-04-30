@@ -3935,3 +3935,11 @@ Sentiment nuance
 Inter-annotator agreement
 Understand ceiling
 
+### Temporal Degradation
+
+Model performance drops
+New data distribution
+Concept drift
+Seasonal patterns
+Continuous monitoring
+
