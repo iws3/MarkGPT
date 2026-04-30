@@ -2767,3 +2767,11 @@ Human evaluation: Best
 TER: Translation edit rate
 METEOR: Better alignment
 
+### Deployment
+
+Inference: Left-to-right generation
+Beam search: K=5 typical
+Length penalty: Adjust output length
+Latency: Critical for production
+Batching increases throughput
+
