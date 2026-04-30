@@ -4098,3 +4098,11 @@ Layer representation fusion
 Context-dependent embeddings
 Application to NLP tasks
 
+### Fine-tuning Techniques
+
+Layer-wise learning rates
+Small learning rates for pre-trained
+Larger rates for task layer
+Discriminative fine-tuning
+Gradual unfreezing
+
