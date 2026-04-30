@@ -3163,3 +3163,11 @@ Fine-tune on target task
 Huge improvement
 Modern default approach
 
+### Domain Adaptation
+
+Source and target different
+Continued pre-training helps
+Adversarial training
+Domain discriminator
+Make representations invariant
+
