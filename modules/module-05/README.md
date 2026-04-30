@@ -3877,3 +3877,11 @@ Lower memory
 Quantization
 Pruning techniques
 
+### Distillation
+
+Student learns from teacher
+Smaller model
+Similar performance
+Faster inference
+Knowledge transfer
+
