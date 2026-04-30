@@ -3985,3 +3985,11 @@ Task incremental learning
 Replay mechanisms
 Plasticity-stability
 
+### Interpretable Machine Learning
+
+Understand models
+Probing and analysis
+Concept-based explanation
+Mechanistic understanding
+Long-term goal
+
