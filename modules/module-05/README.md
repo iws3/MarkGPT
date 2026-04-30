@@ -2382,3 +2382,11 @@ Splits problem into modules
 Each can be optimized separately
 Very effective approach
 
+### Open-domain QA
+
+Answer using entire Wikipedia
+Retrieve: BM25 or dense
+Extract: BERT span extraction
+Challenge: Scale and accuracy
+Modern: Dense + BERT = SOTA
+
