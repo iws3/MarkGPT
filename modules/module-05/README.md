@@ -2977,3 +2977,11 @@ Transformer decoder
 Generates image description
 Datasets: COCO, Flickr30K
 
+### Visual Question Answering
+
+Answer questions about images
+Both image and text reasoning
+Fusion of modalities
+VQA dataset
+Challenging task
+
