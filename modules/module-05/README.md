@@ -3079,3 +3079,11 @@ Transfer from pre-training
 GPT-3 does this
 Remarkable capability
 
+### Attribute-based Approach
+
+Define attributes of classes
+Example: Birds have feathers, wings
+Classify by attribute
+Semantic bridge
+Limited to known attributes
+
