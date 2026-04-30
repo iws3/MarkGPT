@@ -4290,3 +4290,13 @@ Discuss limitations
 Future improvements
 Code repository link
 
+## Advanced Learning Resources
+
+### Key Papers
+
+Attention is All You Need
+BERT: Pre-training of Deep Bidirectional Transformers
+Language Models are Unsupervised Multitask Learners
+On the Opportunities and Risks of Foundation Models
+Read and understand
+
