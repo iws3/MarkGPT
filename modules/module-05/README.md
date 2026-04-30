@@ -2658,3 +2658,11 @@ Splits into modular components
 Each can be optimized separately
 Very effective approach
 
+### Open-domain QA
+
+Answer using entire Wikipedia
+Retrieve: BM25 or dense retrieval
+Extract: BERT span extraction
+Challenges: Scale and accuracy
+Modern: Dense plus BERT equals SOTA
+
