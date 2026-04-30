@@ -4408,3 +4408,11 @@ Grounding and embodiment
 Reasoning and planning
 Alignment and safety
 
+### Your Next Steps
+
+Choose a specialization
+Build portfolio projects
+Contribute to open source
+Stay updated with research
+Never stop learning
+
