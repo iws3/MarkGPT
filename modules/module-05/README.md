@@ -3027,3 +3027,13 @@ Aggregation of messages
 Update node representations
 Flexible framework
 
+## Conversational AI and Dialogue
+
+### Task Definition
+
+Generate relevant responses
+Given conversation history
+Open-domain chitchat
+Task-oriented dialogue
+Different challenges
+
