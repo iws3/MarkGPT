@@ -1928,3 +1928,13 @@ Fast inference with quality
 Production approach
 Typical: 5x speedup, 90% quality
 
+## Word2Vec Architecture Deep Dive
+
+### Skip-gram Model
+
+Goal: Predict context words from target word
+Input: Word embedding
+Output: Probability of context words
+Loss: Cross-entropy over context window
+Optimization: SGD with negative sampling
+
