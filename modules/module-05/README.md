@@ -3095,3 +3095,11 @@ K=5: Few-shot
 Meta-learning: Learn to learn
 MAML popular method
 
+### Prototypical Networks
+
+Average embedding per class
+Prototype is class center
+Classify by distance to prototype
+Simple and effective
+Works surprisingly well
+
