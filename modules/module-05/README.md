@@ -4206,3 +4206,13 @@ Task specification
 Without fine-tuning
 Remarkable emergent ability
 
+## Lesson-05: Instruction Tuning and Alignment
+
+### Learning Objectives
+
+Understand instruction following
+Learn from human feedback
+Implement RLHF training
+Improve model safety
+Evaluate alignment
+
