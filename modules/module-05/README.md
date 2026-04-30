@@ -4240,3 +4240,11 @@ Constitutional AI
 Self-improvement methods
 Evaluation frameworks
 
+### Practical Training
+
+Dataset preparation
+Reward model construction
+PPO implementation
+Monitoring training
+Evaluation metrics
+
