@@ -3961,3 +3961,11 @@ Unified representations
 Grounding in reality
 Next frontier
 
+### In-context Learning
+
+Few-shot without gradient updates
+Remarkable capability
+Emerges with scale
+Mechanism unclear
+Theoretical understanding needed
+
