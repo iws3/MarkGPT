@@ -3121,3 +3121,11 @@ Active learning answers this
 Iterative process
 Select informative examples
 
+### Uncertainty Sampling
+
+Label most uncertain examples
+Model confidence low
+Expected to be informative
+Easy to implement
+Often effective
+
