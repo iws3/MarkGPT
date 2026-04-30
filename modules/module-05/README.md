@@ -2543,3 +2543,11 @@ GPT-2: 1.5B params very impressive
 GPT-3: 175B params shows few-shot abilities
 Emergent abilities appear at scale
 
+### Few-shot Learning
+
+GPT-3 needs no fine-tuning
+Task definition in prompt text
+Examples: Zero-shot, one-shot, few-shot
+Works on translation, QA, reasoning
+Remarkable generalization shown
+
