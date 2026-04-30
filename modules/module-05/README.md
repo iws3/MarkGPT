@@ -3775,3 +3775,11 @@ Recurrence without RNNs
 Segment-level recurrence
 Relative position encoding
 
+### Extraction from Long Docs
+
+Section-wise processing
+Aggregate results
+QA over long documents
+Key-phrase extraction
+Hierarchical methods
+
