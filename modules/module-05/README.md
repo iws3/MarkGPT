@@ -2725,3 +2725,11 @@ PEGASUS: Pre-trained for summarization
 PGN: Pointer generator networks
 Copy mechanism important
 
+### Fine-tuning for Summarization
+
+Datasets: CNN/DailyMail, Gigaword
+Learning rate: Small like classification
+Beam search: K=4 typical
+Length penalties: Prevent too short
+Results: SOTA on standard benchmarks
+
