@@ -4090,3 +4090,11 @@ Explore ELMo architecture
 Fine-tune pre-trained models
 Implement transfer learning
 
+### ELMo Deep Dive
+
+Bidirectional language models
+Forward and backward LSTMs
+Layer representation fusion
+Context-dependent embeddings
+Application to NLP tasks
+
