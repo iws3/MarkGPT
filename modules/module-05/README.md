@@ -1965,3 +1965,12 @@ Better for rare words
 Slower than negative sampling
 Historical importance
 
+### Subword Information
+
+FastText improvement
+Represent as sum of character n-grams
+Handle OOV words (morphology)
+Example: "running" = run + ing + ...n-grams
+Better performance on morphologically rich languages
+Handle misspellings gracefully
+
