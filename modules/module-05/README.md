@@ -2142,3 +2142,11 @@ Learn weights for layer combination
 Concatenate ELMo with task embeddings
 Results: +2-4% F1 improvement typical
 
+### Limitations
+
+Slow: 1100M parameters
+RNN-based: Sequential (not parallelizable)
+Training time: 1-2 weeks
+Next: Transformers (faster, better)
+But ELMo was breakthrough (2018)
+
