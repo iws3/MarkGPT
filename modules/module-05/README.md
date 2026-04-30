@@ -2893,3 +2893,11 @@ Loss: Binary cross-entropy per label
 Threshold per label
 More complex than single-label
 
+### Hierarchical Classification
+
+Labels form hierarchy
+Coarse and fine categories
+Leverage hierarchy
+Constrain predictions
+Better with structure
+
