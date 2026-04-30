@@ -1843,3 +1843,13 @@ Ongoing challenge
 No silver bullet yet
 Active research area (critical!)
 
+## Prompt Engineering
+
+### Zero-shot Prompting
+
+No examples, just instructions
+Simple case
+Works surprisingly often
+Baseline for comparison
+Limits: Complex tasks fail
+
