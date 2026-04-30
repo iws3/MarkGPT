@@ -3625,3 +3625,11 @@ Script differences
 Morphology variation
 Different structures
 
+### Multilingual Models
+
+mBERT: 104 languages
+XLM-R: 100+ languages
+Single shared vocabulary
+Cross-lingual transfer
+Emergent alignment
+
