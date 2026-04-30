@@ -1807,3 +1807,12 @@ Harmful outputs possible
 Solution: Fine-tune on instructions
 Instruction-following is learnable skill
 
+### Data Collection
+
+Human-written instructions
+Each with expected output
+High quality: ~100K examples
+Diversity: Many task types
+Costs: $100K+ for good data
+Or use model-generated (weaker)
+
