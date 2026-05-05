@@ -20,3 +20,8 @@ TF-IDF, bag-of-words, and representation learning.
 
 Document ranking, similarity measures, and IR metrics.
 
+
+## Machine Learning Fundamentals
+
+Classification, regression, and evaluation metrics.
+
