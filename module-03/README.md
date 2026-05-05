@@ -15,3 +15,8 @@ RNNs, LSTMs, and temporal sequence processing.
 
 Self-attention, multi-head attention, and focus mechanisms.
 
+
+## Transformer Architecture
+
+Core concepts, encoder-decoder, and scaled dot-product.
+
