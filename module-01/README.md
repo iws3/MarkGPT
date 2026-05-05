@@ -20,3 +20,8 @@ Cleaning, normalization, and preparation of text data.
 
 Grammar, syntax, semantics, and pragmatics overview.
 
+
+## Python NLP Tools & Libraries
+
+Introduction to NLTK, spaCy, and other essential libraries.
+
