@@ -10,3 +10,8 @@ Feed-forward, convolutional, and recurrent architectures.
 
 RNNs, LSTMs, and temporal sequence processing.
 
+
+## Attention Mechanisms
+
+Self-attention, multi-head attention, and focus mechanisms.
+
