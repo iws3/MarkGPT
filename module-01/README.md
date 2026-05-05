@@ -10,3 +10,8 @@ Fundamentals of natural language processing and text processing basics.
 
 Methods for breaking text into tokens and handling special cases.
 
+
+## Text Preprocessing Essentials
+
+Cleaning, normalization, and preparation of text data.
+
