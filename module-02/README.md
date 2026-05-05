@@ -15,3 +15,8 @@ Distributional semantics and vector representations.
 
 TF-IDF, bag-of-words, and representation learning.
 
+
+## Information Retrieval Basics
+
+Document ranking, similarity measures, and IR metrics.
+
