@@ -15,3 +15,8 @@ Methods for breaking text into tokens and handling special cases.
 
 Cleaning, normalization, and preparation of text data.
 
+
+## Linguistic Concepts Review
+
+Grammar, syntax, semantics, and pragmatics overview.
+
