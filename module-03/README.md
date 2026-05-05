@@ -20,3 +20,8 @@ Self-attention, multi-head attention, and focus mechanisms.
 
 Core concepts, encoder-decoder, and scaled dot-product.
 
+
+## Transfer Learning in NLP
+
+Pre-trained models and domain adaptation strategies.
+
