@@ -10,3 +10,8 @@ N-grams, Markov chains, and probability-based approaches.
 
 Distributional semantics and vector representations.
 
+
+## Feature Extraction Methods
+
+TF-IDF, bag-of-words, and representation learning.
+
