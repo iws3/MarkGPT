@@ -5,3 +5,8 @@
 
 Fundamentals of natural language processing and text processing basics.
 
+
+## Tokenization Techniques
+
+Methods for breaking text into tokens and handling special cases.
+
