@@ -3,10 +3,14 @@
 Welcome to my contributor folder! I'm using this space to improve the MarkGPT LLM Curriculum.
 
 ## Current Focus
-- [x] Setting up the workspace
-- [x] Exploring Module 01 lessons
-- [/] Completing Module 02 (Linear Algebra & Calculus) - Day 9 in progress
+- [x] Module 01: AI Foundations & BansoGram
+- [x] Module 02: Math for ML (PCA & Word Mappings)
+- [x] Module 03: Neural Networks (MLPs & Backprop)
+- [x] Module 04: Sequence Modeling (RNNs & LSTMs) - Day 21 Completed
 
 ## Contributions
-- **Module 01**: Completed BansoGram project.
-- **Module 02 (Day 9)**: Implemented PCA from scratch and word co-occurrence mapping for Biblical and Banso text.
+- **Module 01**: Built `banso_gram.py`, a Banso-English translation and grammar utility.
+- **Module 02**: Implemented custom PCA for word embedding visualization.
+- **Module 03**: Developed character-level MLP models for text generation.
+- **Module 04 (Day 20)**: Implemented vanilla RNN from scratch for character-level Bible text generation.
+- **Module 04 (Day 21)**: Built a full LSTM implementation in NumPy to solve vanishing gradients and improve memory.
