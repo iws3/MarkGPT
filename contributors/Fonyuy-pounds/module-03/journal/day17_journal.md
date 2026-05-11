@@ -68,6 +68,7 @@
 - [x] Completed
 
 **Findings:**
+
 - Unregularized model: Training MSE = 0.0012, Validation MSE = 0.3456 (huge gap!)
 - 288x worse on validation data than training data
 - Clear sign of severe overfitting
@@ -79,6 +80,7 @@
 - [x] Completed
 
 **Results:**
+
 - **No regularization:** Train MSE = 0.0012, Validation MSE = 0.3456 (baseline)
 - **L2 (λ=0.01):** Train MSE = 0.0845, Validation MSE = 0.0923 ⭐ (validation improved 73%!)
 - **L1 (λ=0.01):** Train MSE = 0.1023, Validation MSE = 0.1045 ⭐ (similar but sparsity ≈ 30% zero weights)
@@ -93,6 +95,7 @@
 - [x] Completed
 
 **Findings:**
+
 - Dropout (p=0.5) without regularization: Train MSE = 0.0892, Validation MSE = 0.1045
 - Combined with L2: Train MSE = 0.1134, Validation MSE = 0.1067 (stable!)
 - Dropout adds computational cost but powerful generalization benefit
@@ -105,6 +108,7 @@
 - [x] Completed
 
 **Results:**
+
 - **Without batch norm:** Converged in 127 iterations (learning rate = 0.01)
 - **With batch norm:** Converged in 43 iterations (3x faster!) ⚡
 - Higher learning rates (0.05) possible with batch norm without diverging
@@ -149,6 +153,7 @@
 ## Practical Insights for Day 18
 
 **For the mini-project (character-level LM on Psalm 23):**
+
 1. Use L2 regularization (λ ≈ 0.001) to prevent overfitting on small dataset
 2. Add dropout (p=0.5) after hidden layers
 3. Use batch normalization for stable training
