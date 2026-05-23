@@ -7,7 +7,7 @@ Welcome to my contributor folder! I'm using this space to improve the MarkGPT LL
 - [x] Module 02: Math for ML (PCA & Word Mappings)
 - [x] Module 03: Neural Networks (MLPs & Backprop)
 - [x] Module 04: Sequence Modeling (RNNs, LSTMs, Seq2Seq, Attention) - Day 24 Completed (Mini-Project 4)
-- [x] Module 05: NLP Foundations (Tokenization, Embeddings, Classification) - Day 26 Completed
+- [x] Module 05: NLP Foundations (Tokenization, Embeddings, Classification) - Day 27 Completed
 
 ## Contributions
 - **Module 01**: Built `banso_gram.py`, a Banso-English translation and grammar utility.
@@ -20,5 +20,4 @@ Welcome to my contributor folder! I'm using this space to improve the MarkGPT LL
 - **Module 04 (Day 24)**: Completed Mini-Project 4: MarkLSTM with Attention for character-level text generation on the Gospel of Mark.
 - **Module 05 (Day 25)**: Implemented Byte-Pair Encoding (BPE) from scratch and analyzed fertility on KJV Bible text.
 - **Module 05 (Day 26)**: Developed custom Skip-gram Word2Vec with Negative Sampling in PyTorch, aligned Banso term "nfor" with theological concepts, and exported t-SNE visualizations.
-
-
+- **Module 05 (Day 27)**: Built a full Text Classification pipeline from scratch (custom TF-IDF, Logistic Regression, and MLP in pure NumPy) to distinguish Psalms of Praise from Psalms of Lament, integrating Banso Kibor/Kighaa cultural phrases and achieving ≥80% accuracy.
