@@ -9,6 +9,7 @@ Welcome to my contributor folder! I'm using this space to improve the MarkGPT LL
 - [x] Module 03: Neural Networks (MLPs & Backprop)
 - [x] Module 04: Sequence Modeling (RNNs, LSTMs, Seq2Seq, Attention) - Day 24 Completed (Mini-Project 4)
 - [x] Module 05: NLP Foundations (Tokenization, Embeddings, Classification, NER, Contextual LMs) - Day 30 Completed (Module 05 Capstone)
+- [x] Module 06: The Transformer Architecture (Scaled Dot-Product Attention) - Day 32 Completed
 
 ## Contributions
 
@@ -26,3 +27,5 @@ Welcome to my contributor folder! I'm using this space to improve the MarkGPT LL
 - **Module 05 (Day 28)**: Implemented Named Entity Recognition with IOB tagging and Conditional Random Fields (CRF) from scratch using pure NumPy with Viterbi decoding. Annotated 50 Genesis verses with PERSON/PLACE/DEITY/TRIBE labels, computed span-level metrics, and validated with Banso entity classification patterns. Achieved ≥78% span-level F1-score on test set.
 - **Module 05 (Day 29)**: Explored contextual embeddings with ELMo (bidirectional LSTMs) and generative pretraining paradigm with GPT-1. Analyzed polysemy resolution—comparing embeddings of "right" across different semantic contexts. Demonstrated autoregressive language modeling, temperature-controlled text generation with GPT-2, and the paradigm shift from task-specific training to task-agnostic pretraining. Validated contextualization across Banso theological vocabulary.
 - **Module 05 (Day 30)**: Completed Module 05 capstone: semantic search engine integrating Days 25-29. Implemented TF-IDF and Word2Vec embedding-based retrieval, entity-aware hybrid search, and evaluation metrics (precision, recall, F1, MAP). Indexed Genesis corpus with Banso theological vocabulary. Demonstrated full IR pipeline: preprocessing → vectorization → similarity ranking → evaluation. Bridged isolated techniques into production-grade system. Achieved ≥80% retrieval precision on test queries.
+- **Module 06 (Day 32)**: Implemented Scaled Dot-Product Attention from scratch in PyTorch without high-level abstractions, including causal masking and verification tests (forward & gradient check with `atol=1e-5`/`1e-4` against PyTorch's native `F.scaled_dot_product_attention`). Resolved semantic polysemy of Lamnso' homograph "Nfor" (God vs. King) in conceptual embeddings using contextual self-attention dynamics.
+
