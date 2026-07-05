@@ -1,0 +1,1 @@
+<!-- learn alot about encoding and language vocabulary -->
