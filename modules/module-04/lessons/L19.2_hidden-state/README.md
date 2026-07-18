@@ -1,0 +1,61 @@
+# Hidden State and Recurrent Computation
+## Comprehensive Learning Guide
+
+## Hidden State Mechanics
+
+Hidden state vector encodes temporal context and memory.
+
+State is updated at each time step based on input and previous state.
+
+Hidden dimension determines capacity for information storage.
+
+State initialization affects early predictions and learning.
+
+State is shared across all time steps enabling parameter efficiency.
+
+Final state summarizes entire sequence information.
+
+## Recurrent Updates
+
+Recurrent equation combines previous state with new input.
+
+Non-linear activation enables complex temporal patterns.
+
+State update is deterministic function of input and previous state.
+
+Multiple layers stack recurrent computations for hierarchy.
+
+Bidirectional processing uses forward and backward passes.
+
+State reset between sequences separates independent examples.
+
+## Information Flow
+
+Information propagates forward through time in unfolded graph.
+
+Gradients propagate backward through time for learning.
+
+Early timesteps influence final prediction through state.
+
+Context mixing blends information from all time steps.
+
+Bottleneck state constrains information capacity.
+
+Attention mechanisms focus on relevant time steps.
+
+## Advanced State Representations
+
+Auxiliary task learning improves state representation quality.
+
+State clustering reveals emergent structure in learned representations.
+
+Adversarial state training hardens against perturbations.
+
+State importance reveals which dimensions encode information.
+
+Factorized representations decompose state into independent factors.
+
+Sparse state updates reduce computational overhead.
+
+State prediction losses improve feature learning.
+

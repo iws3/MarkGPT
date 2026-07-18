@@ -1,0 +1,24 @@
+# MarkGPT-Nano Training Config — for CPU training and quick experiments
+model_size: "nano"
+vocab_size: 8000
+data_path: "data/processed/kjv_tokenized.bin"
+val_split: 0.05
+block_size: 256
+batch_size: 16
+max_iters: 10000
+learning_rate: 0.0003
+min_lr: 0.00003
+warmup_iters: 500
+lr_decay_iters: 10000
+weight_decay: 0.1
+grad_clip: 1.0
+eval_interval: 200
+eval_iters: 50
+log_interval: 10
+checkpoint_interval: 500
+out_dir: "checkpoints"
+device: "auto"
+dtype: "float32"
+compile: false
+wandb_log: false
+run_name: "markgpt-nano-test"
