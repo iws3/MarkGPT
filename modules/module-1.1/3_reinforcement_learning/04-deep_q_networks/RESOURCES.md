@@ -1,0 +1,72 @@
+# Deep Q-Networks - Learning Resources
+
+A comprehensive collection of resources to deepen your understanding of this algorithm.
+
+
+## Learning Resources
+
+1. **Video: DQN Explained**
+   - URL: https://www.youtube.com/watch?v=wrBUkpiRvCA
+
+1. **Video: DQN Explained**
+   - URL: https://www.youtube.com/watch?v=wrBUkpiRvCA
+
+1. **Video: DQN Explained**
+   - URL: https://www.youtube.com/watch?v=wrBUkpiRvCA
+
+2. **Video: Atari Games with DQN**
+   - URL: https://www.youtube.com/watch?v=V1eYniJ0Rnk
+
+3. **Book: Mastering Reinforcement Learning**
+   - URL: https://packtpub.com
+
+4. **Paper: Human-level Control through DRL Mnih**
+   - URL: https://arxiv.org/abs/1312.5602
+
+5. **Interview Question: Experience replay buffer**
+   - URL: Break correlations
+
+6. **Interview Question: Target network**
+   - URL: Separate networks
+
+7. **Dataset: Atari 2600 games**
+   - URL: https://github.com/openai/gym
+
+8. **Dataset: Custom environments**
+   - URL: https://gym.openai.com/
+
+9. **Interview Question: DQN extensions**
+   - URL: Double, Dueling, Rainbow
+
+10. **Practice: Implement vanilla DQN**
+   - URL: CartPole environment
+
+11. **Article: DQN Deep Dive**
+   - URL: https://towardsdatascience.com
+
+12. **Notebook: Atari DQN Training**
+   - URL: https://www.kaggle.com/code
+
+13. **Video: Double DQN Improvement**
+   - URL: https://www.youtube.com/watch?v=23Xt2yM1QpI
+
+14. **Tool: DQN performance tracker**
+   - URL: Visualize learning
+
+15. **Interview Question: Epsilon decay**
+   - URL: Exploration schedule
+
+16. **Interview Question: Memory efficiency**
+   - URL: Circular buffer
+
+17. **Practice Problem: Hyperparameter effects**
+   - URL: Learning rate, batch size
+
+18. **Resource: OpenAI Baselines**
+   - URL: https://github.com/openai/baselines
+
+19. **Blog: DQN Stabilization Tricks**
+   - URL: Practical tips
+
+20. **Video: Rainbow DQN**
+   - URL: https://www.youtube.com/watch?v=0OMM-7J9c0s

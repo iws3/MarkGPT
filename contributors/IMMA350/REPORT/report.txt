@@ -1,0 +1,39 @@
+
+# Project Summary 1: AI Fault Detection System
+
+This project is an AI-based system that analyzes electrical maintenance reports to detect faults in power systems. It uses a combination of machine learning (DistilBERT NLP model) and rule-based keyword detection to classify reports as normal operation, possible fault, confirmed fault, or critical alert.
+
+The system processes text input, scans for electrical fault keywords, and uses an AI model to understand the context of the report. Both outputs are combined with a sensitivity setting to produce a final decision and recommendation.
+
+It is built using Python, Hugging Face Transformers, and Gradio to provide an interactive interface where engineers can input maintenance logs and receive real-time analysis.
+
+The system improves fault detection efficiency, reduces manual inspection effort, and enhances safety in electrical utility operations.
+
+
+Project Summary 2: PCB Visual Inspection System
+
+This project is an AI-based image classification system designed to inspect printed circuit boards (PCB) and electronic components for quality control in manufacturing environments.
+
+It uses a pre-trained Vision Transformer (ViT) model from Hugging Face to analyze uploaded images and classify them into likely categories based on visual features. The system allows users to upload images via file upload, webcam, or clipboard, and returns the top predictions with confidence scores.
+
+The application is built using Python, PyTorch, Hugging Face Transformers, and Gradio to provide an interactive interface for real-time inspection.
+
+The system processes the image, performs classification, and displays the top predicted labels along with confidence levels and a simple analysis message. It also supports multiple prediction outputs using a top-k selection slider.
+
+This tool demonstrates how AI can assist in electronics manufacturing and quality control by identifying components or potential defects from images. It is especially useful for small manufacturing and repair environments where automated inspection tools are limited.
+
+The model is pre-trained on general image datasets (ImageNet), but it is designed to be fine-tuned on PCB-specific defect datasets for production use.
+
+
+
+Project Summary 3: Smart Energy Consumption Anomaly Monitor
+
+This project is an AI-powered system designed to detect anomalies in electrical energy consumption data for smart metering and power distribution networks.
+
+It combines numerical analysis with natural language processing (NLP) to evaluate both structured meter readings and engineers’ written comments. The system uses a pre-trained DistilBERT model to analyze text sentiment while also calculating percentage deviation between actual and expected energy consumption.
+
+Based on these inputs, the system classifies feeder conditions into normal, minor deviation, warning, or critical anomaly. It also generates automated reports that summarize the status, numerical breakdown, and recommended actions for engineers.
+
+The application is built using Python, Hugging Face Transformers, and Gradio to provide an interactive dashboard for utility monitoring.
+
+This system helps utility companies detect abnormal energy usage patterns such as power theft, equipment faults, or meter errors, improving efficiency and reliability in power distribution networks.

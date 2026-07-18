@@ -1,0 +1,2220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Machine Learning: Regression & Classification</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0b1120;
+  --navy2: #111827;
+  --navy3: #1a2540;
+  --card: #1e2d4a;
+  --card2: #243357;
+  --accent: #4f8ef7;
+  --accent2: #6ee7b7;
+  --accent3: #f9c74f;
+  --accent4: #f77f6e;
+  --accent5: #c084fc;
+  --text: #e8eaf0;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.14);
+  --mono: 'DM Mono', monospace;
+  --serif: 'DM Serif Display', serif;
+  --sans: 'Outfit', sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--navy);
+  color: var(--text);
+  font-family: var(--sans);
+  font-weight: 400;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+}
+
+/* ─── SLIDE SHELL ─── */
+.deck { width: 100%; height: 100vh; position: relative; }
+
+.slide {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  padding: 52px 64px 44px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  transform: translateX(40px);
+  overflow: hidden;
+}
+.slide.active {
+  opacity: 1; pointer-events: all;
+  transform: translateX(0);
+}
+.slide.prev {
+  opacity: 0; transform: translateX(-40px);
+}
+
+/* ─── NAVIGATION ─── */
+.nav-bar {
+  position: fixed; bottom: 28px; left: 50%;
+  transform: translateX(-50%);
+  display: flex; align-items: center; gap: 14px;
+  background: rgba(17,24,39,0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border2);
+  border-radius: 40px;
+  padding: 10px 20px;
+  z-index: 999;
+}
+.nav-bar button {
+  background: none; border: none; cursor: pointer;
+  color: var(--text2); font-size: 18px;
+  padding: 4px 8px; border-radius: 6px;
+  transition: all .15s; font-family: var(--mono);
+}
+.nav-bar button:hover { color: var(--accent); background: rgba(79,142,247,.1); }
+.nav-bar .counter {
+  font-family: var(--mono); font-size: 12px;
+  color: var(--text3); min-width: 54px; text-align: center;
+}
+.progress-bar {
+  position: fixed; top: 0; left: 0; height: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  transition: width 0.35s ease; z-index: 1000;
+}
+
+/* ─── SECTION INDICATOR ─── */
+.section-tag {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--mono); font-size: 11px;
+  color: var(--accent); letter-spacing: 0.12em;
+  text-transform: uppercase; margin-bottom: 20px;
+  opacity: 0.85;
+}
+.section-tag::before {
+  content: ''; width: 22px; height: 1.5px;
+  background: var(--accent);
+}
+
+/* ─── TYPOGRAPHY ─── */
+.slide-title {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3.8vw, 52px);
+  line-height: 1.15;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.slide-title em { font-style: italic; color: var(--accent); }
+.slide-title .hi { color: var(--accent2); }
+.slide-title .hi2 { color: var(--accent3); }
+
+.subtitle {
+  font-size: 17px; color: var(--text2);
+  font-weight: 300; line-height: 1.65;
+  max-width: 640px;
+  margin-bottom: 28px;
+}
+
+h3 { font-size: 15px; font-weight: 500; color: var(--text); margin-bottom: 8px; }
+p, li { font-size: 15px; color: var(--text2); line-height: 1.72; }
+
+/* ─── CARDS ─── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 24px;
+}
+.card-accent {
+  border-color: var(--accent);
+  background: rgba(79,142,247,0.07);
+}
+.card-green {
+  border-color: var(--accent2);
+  background: rgba(110,231,183,0.07);
+}
+.card-amber {
+  border-color: var(--accent3);
+  background: rgba(249,199,79,0.07);
+}
+.card-red {
+  border-color: var(--accent4);
+  background: rgba(247,127,110,0.07);
+}
+.card-purple {
+  border-color: var(--accent5);
+  background: rgba(192,132,252,0.07);
+}
+
+/* ─── FORMULA BLOCKS ─── */
+.formula {
+  font-family: var(--mono);
+  font-size: 14px;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid var(--border2);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 14px 20px;
+  margin: 10px 0;
+  line-height: 2;
+  color: var(--text);
+  white-space: pre-wrap;
+}
+.formula .kw { color: var(--accent); }
+.formula .val { color: var(--accent3); }
+.formula .cm { color: var(--text3); }
+.formula .good { color: var(--accent2); }
+
+/* ─── ASCII ART ─── */
+.ascii {
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.55;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+  color: var(--text2);
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* ─── GRIDS ─── */
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.g4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+
+/* ─── BADGES ─── */
+.badge {
+  display: inline-block; font-size: 11px; font-family: var(--mono);
+  padding: 3px 10px; border-radius: 20px; margin-right: 6px;
+  font-weight: 500; letter-spacing: 0.04em;
+}
+.b-blue { background: rgba(79,142,247,.18); color: var(--accent); }
+.b-green { background: rgba(110,231,183,.18); color: var(--accent2); }
+.b-amber { background: rgba(249,199,79,.18); color: var(--accent3); }
+.b-red { background: rgba(247,127,110,.18); color: var(--accent4); }
+.b-purple { background: rgba(192,132,252,.18); color: var(--accent5); }
+
+/* ─── STEP LIST ─── */
+.steps { display: flex; flex-direction: column; gap: 12px; }
+.step { display: flex; gap: 14px; align-items: flex-start; }
+.step-num {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: var(--accent); color: white;
+  font-size: 12px; font-weight: 600;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; margin-top: 2px;
+  font-family: var(--mono);
+}
+.step-body { flex: 1; }
+.step-title { font-size: 14px; font-weight: 500; color: var(--text); margin-bottom: 2px; }
+.step-desc { font-size: 13px; color: var(--text2); line-height: 1.55; }
+
+/* ─── HIGHLIGHT ROW ─── */
+.hl { color: var(--accent3); font-weight: 500; }
+.hl-blue { color: var(--accent); font-weight: 500; }
+.hl-green { color: var(--accent2); font-weight: 500; }
+.hl-red { color: var(--accent4); font-weight: 500; }
+.hl-purple { color: var(--accent5); font-weight: 500; }
+
+/* ─── DIVIDER ─── */
+.divider { height: 1px; background: var(--border); margin: 16px 0; }
+
+/* ─── CODE ─── */
+.code {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.75;
+  background: #0a0f1e;
+  border: 1px solid var(--border2);
+  border-radius: 10px;
+  padding: 16px 20px;
+  overflow-x: auto;
+  white-space: pre;
+  color: var(--text);
+}
+.ck { color: #7aa2f7; }
+.cs { color: #9ece6a; }
+.cm { color: var(--text3); }
+.cf { color: #73daca; }
+.cn { color: var(--accent3); }
+
+/* ─── METRIC ─── */
+.metric {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 14px 16px; text-align: center;
+}
+.metric .lbl { font-size: 11px; color: var(--text3); margin-bottom: 4px; font-family: var(--mono); }
+.metric .val { font-size: 26px; font-weight: 500; }
+
+/* ─── TITLE SLIDE BG ─── */
+.slide-hero { justify-content: center; align-items: flex-start; }
+.hero-grid {
+  position: absolute; inset: 0; overflow: hidden;
+  opacity: 0.04; pointer-events: none;
+}
+.hero-grid svg { width: 100%; height: 100%; }
+
+/* ─── CANVAS ─── */
+canvas { display: block; width: 100%; border-radius: 8px; }
+
+/* ─── TABLE ─── */
+.tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+.tbl th {
+  font-weight: 500; text-align: left; padding: 9px 14px;
+  border-bottom: 1px solid var(--border2);
+  color: var(--text2); font-family: var(--mono); font-size: 11px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.tbl td { padding: 9px 14px; border-bottom: 1px solid var(--border); color: var(--text2); vertical-align: top; }
+.tbl tr:last-child td { border-bottom: none; }
+.tbl tr:hover td { background: rgba(255,255,255,0.02); }
+
+/* ─── CONFUSION MATRIX ─── */
+.cm-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 8px; max-width: 380px;
+}
+.cm-cell {
+  border-radius: 10px; padding: 16px;
+  text-align: center;
+}
+.cm-tp { background: rgba(110,231,183,.15); border: 1px solid rgba(110,231,183,.3); }
+.cm-fn { background: rgba(247,127,110,.15); border: 1px solid rgba(247,127,110,.3); }
+.cm-fp { background: rgba(249,199,79,.15); border: 1px solid rgba(249,199,79,.3); }
+.cm-tn { background: rgba(79,142,247,.15); border: 1px solid rgba(79,142,247,.3); }
+.cm-num { font-size: 28px; font-weight: 500; font-family: var(--mono); }
+.cm-lbl { font-size: 11px; margin-top: 4px; font-family: var(--mono); opacity: 0.8; }
+.cm-desc { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+/* scroll for content-heavy slides */
+.slide-scroll { overflow-y: auto; flex: 1; }
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progress"></div>
+
+<div class="deck" id="deck">
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 01 — HERO TITLE
+══════════════════════════════════════════════ -->
+<div class="slide slide-hero active" id="s1">
+  <div class="hero-grid">
+    <svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+      <defs><pattern id="g" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="0.5"/></pattern></defs>
+      <rect width="1200" height="700" fill="url(#g)"/>
+    </svg>
+  </div>
+  <div style="margin-top: auto; margin-bottom: auto; max-width: 740px;">
+    <div style="font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 28px; opacity: 0.8;">
+      Supervised Machine Learning · Days 1 & 2
+    </div>
+    <div class="slide-title" style="font-size: clamp(36px, 5vw, 68px); margin-bottom: 20px;">
+      Regression &amp;<br><em>Classification</em>
+    </div>
+    <div class="subtitle" style="max-width: 520px; font-size: 18px;">
+      A complete beginner's guide — from "what is a model?" to working code with real mathematical intuition built in every step.
+    </div>
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 32px;">
+      <span class="badge b-blue">Linear Regression</span>
+      <span class="badge b-amber">Polynomial Regression</span>
+      <span class="badge b-green">Logistic Regression</span>
+      <span class="badge b-purple">Decision Trees</span>
+      <span class="badge b-red">k-Nearest Neighbours</span>
+      <span class="badge b-blue">scikit-learn</span>
+      <span class="badge b-amber">MSE · R²</span>
+      <span class="badge b-red">Confusion Matrix</span>
+    </div>
+  </div>
+  <div style="position: absolute; bottom: 52px; right: 64px; font-family: var(--mono); font-size: 11px; color: var(--text3);">Use ← → keys or buttons to navigate</div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 02 — WHAT IS ML?
+══════════════════════════════════════════════ -->
+<div class="slide" id="s2">
+  <div class="section-tag">Foundation</div>
+  <div class="slide-title">What is Machine Learning?</div>
+  <div class="subtitle">Teaching computers to learn patterns from data, instead of programming every rule by hand.</div>
+  <div class="g2" style="gap: 18px; flex: 1; align-content: start;">
+    <div>
+      <div class="card card-red" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent4); margin-bottom: 6px;">Traditional programming</h3>
+        <div class="ascii" style="font-size: 11px;">You write:  IF email contains "free money"
+            AND sender unknown
+            THEN mark as spam
+
+Problem: impossible to write rules
+for every situation. World is complex.</div>
+      </div>
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 6px;">Machine Learning</h3>
+        <div class="ascii" style="font-size: 11px;">You show: 10,000 spam emails (labeled)
+          + 10,000 real emails (labeled)
+
+Model learns: the patterns itself.
+No manual rules needed.</div>
+      </div>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom: 14px;">
+        <h3 style="margin-bottom: 10px;">The three main types</h3>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num" style="background: var(--accent);">1</div>
+            <div class="step-body">
+              <div class="step-title">Supervised Learning <span class="badge b-blue">← we are here</span></div>
+              <div class="step-desc">You provide labeled examples. The model learns input → output mapping.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--text3);">2</div>
+            <div class="step-body">
+              <div class="step-title">Unsupervised Learning</div>
+              <div class="step-desc">No labels. Model finds hidden structure and clusters on its own.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--text3);">3</div>
+            <div class="step-body">
+              <div class="step-title">Reinforcement Learning</div>
+              <div class="step-desc">Agent learns by trial and error, receiving rewards or penalties.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 03 — SUPERVISED LEARNING
+══════════════════════════════════════════════ -->
+<div class="slide" id="s3">
+  <div class="section-tag">Foundation</div>
+  <div class="slide-title">Supervised Learning — <em>the core idea</em></div>
+  <div class="subtitle">You train a model on examples where the correct answer is already known. It learns the pattern, then applies it to new data.</div>
+  <div class="g2" style="flex: 1; align-content: start; gap: 18px;">
+    <div>
+      <div class="ascii">TRAINING PHASE — "learning from examples"
+══════════════════════════════════════
+ Email text → Label: SPAM
+ Email text → Label: NOT SPAM
+ Email text → Label: SPAM
+ ...
+ Email text → Label: NOT SPAM
+
+ Model studies ALL these pairs
+ ↓
+ Model learns: "these patterns = spam"
+
+PREDICTION PHASE — "using what was learned"
+══════════════════════════════════════
+ New email arrives (never seen before)
+ ↓
+ Model applies learned patterns
+ ↓
+ Output: "SPAM" — 96% confident</div>
+    </div>
+    <div>
+      <div class="card card-accent" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">The golden rule</h3>
+        <p>The "supervision" comes from the <span class="hl-blue">label</span> — the correct answer you attach to every training example. No labels = no supervised learning.</p>
+      </div>
+      <div class="card card-amber" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent3); margin-bottom: 6px;">Two flavours of supervised learning</h3>
+        <div style="display: flex; gap: 10px; margin-top: 10px;">
+          <div style="flex:1; background: rgba(79,142,247,.1); border-radius: 8px; padding: 12px;">
+            <div style="font-size: 13px; font-weight: 500; color: var(--accent); margin-bottom: 4px;">Regression</div>
+            <div style="font-size: 12px; color: var(--text2);">Answer is a number. "How much?" "How many?"</div>
+          </div>
+          <div style="flex:1; background: rgba(249,199,79,.1); border-radius: 8px; padding: 12px;">
+            <div style="font-size: 13px; font-weight: 500; color: var(--accent3); margin-bottom: 4px;">Classification</div>
+            <div style="font-size: 12px; color: var(--text2);">Answer is a category. "Which one?" "Is it A or B?"</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom: 6px;">Quality of labels matters most</h3>
+        <p style="font-size: 13px;">Garbage labels → garbage model, no matter how sophisticated your algorithm. Always clean and verify your training data first.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 04 — WHAT IS REGRESSION
+══════════════════════════════════════════════ -->
+<div class="slide" id="s4">
+  <div class="section-tag">Day 1 · Regression</div>
+  <div class="slide-title">What is <em>Regression?</em></div>
+  <div class="subtitle">Regression answers questions whose answer is a number on a continuous scale — price, temperature, salary, time.</div>
+  <div class="g2" style="flex: 1; align-content: start; gap: 18px;">
+    <div>
+      <div class="card card-green" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent2); margin-bottom: 8px;">Real-world regression questions</h3>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;">
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--accent3); background: rgba(249,199,79,.12); padding: 2px 8px; border-radius: 4px; white-space: nowrap;">House size → Price</span>
+            <span style="font-size: 13px; color: var(--text2);">$342,000</span>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--accent3); background: rgba(249,199,79,.12); padding: 2px 8px; border-radius: 4px; white-space: nowrap;">Weather data → Temperature</span>
+            <span style="font-size: 13px; color: var(--text2);">28.5°C</span>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--accent3); background: rgba(249,199,79,.12); padding: 2px 8px; border-radius: 4px; white-space: nowrap;">Age & experience → Salary</span>
+            <span style="font-size: 13px; color: var(--text2);">$78,500</span>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--accent3); background: rgba(249,199,79,.12); padding: 2px 8px; border-radius: 4px; white-space: nowrap;">Usage data → Machine lifetime</span>
+            <span style="font-size: 13px; color: var(--text2);">847 hours</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card-red">
+        <h3 style="color: var(--accent4); margin-bottom: 6px;">Not regression (these are classification)</h3>
+        <p style="font-size: 13px; color: var(--text2);">Is this email spam? → Yes/No<br>What breed is this dog? → Labrador/Poodle/Beagle<br>Will this patient recover? → Yes/No/Maybe</p>
+      </div>
+    </div>
+    <div>
+      <div class="ascii">House Price ($)
+   ↑
+400k│                              ★
+    │                         ★
+300k│                    ★  ★
+    │               ★  ★
+200k│          ★ ★
+    │     ★  ★
+100k│  ★ ★
+    │★ ★
+    └─────────────────────────────→
+     500  1000  1500  2000  2500
+                            House Size (sq ft)
+
+Each ★ = one real house with a known price
+The LINE through the dots = your regression model
+New house at 1800 sq ft?
+→ Find 1800 on x-axis → go up to the line → read price</div>
+      <div class="card card-accent" style="margin-top: 12px;">
+        <p style="font-size: 13px;"><span class="hl-blue">Core idea:</span> find the best curve through your data points, then use that curve to predict new values.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 05 — LINEAR REGRESSION MATH
+══════════════════════════════════════════════ -->
+<div class="slide" id="s5">
+  <div class="section-tag">Day 1 · Regression</div>
+  <div class="slide-title">Linear Regression — <em>the Mathematics</em></div>
+  <div class="subtitle">The model is a straight line. Training finds the two numbers that define the best possible line through your data.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="formula"><span class="kw">ŷ  =  w₁x  +  w₀</span>
+
+<span class="cm">ŷ  (y-hat)  =  our prediction</span>
+<span class="cm">x           =  input feature (e.g. house size)</span>
+<span class="cm">w₁          =  slope (price per extra sq ft)</span>
+<span class="cm">w₀          =  intercept (base price at size=0)</span></div>
+      <div class="formula"><span class="cm">Example:  w₁ = 150,  w₀ = 50,000</span>
+
+House 1000 sq ft → <span class="good">150×1000 + 50,000 = $200,000</span>
+House 1500 sq ft → <span class="good">150×1500 + 50,000 = $275,000</span>
+House 2000 sq ft → <span class="good">150×2000 + 50,000 = $350,000</span>
+
+<span class="cm">Training = figuring out w₁=150 and w₀=50,000</span></div>
+      <div class="card card-accent" style="margin-top: 12px;">
+        <h3 style="color: var(--accent); margin-bottom: 6px;">Multiple features</h3>
+        <div style="font-family: var(--mono); font-size: 13px; color: var(--text);">
+          ŷ = w₀ + w₁×size + w₂×beds + w₃×distance
+        </div>
+        <p style="font-size: 13px; margin-top: 6px;">Every new feature gets its own weight. Same math, more dimensions.</p>
+      </div>
+    </div>
+    <div>
+      <div class="ascii">HOW TRAINING WORKS — finding the best line
+
+For each training point, measure the ERROR:
+
+  Actual price:    $280,000
+  Predicted price: $260,000   ← our line says this
+                   ─────────
+  Residual:         $20,000   ← we were off by this
+
+Goal: find w₁, w₀ that make ALL
+      residuals as small as possible
+
+MSE landscape (loss surface):
+
+MSE ↑
+    │\                          /
+    │  \                      /
+    │    \                  /
+    │      \              /
+    │        \          /
+    │          \      /
+    │            \  /
+    │              ⟂  ← MINIMUM — best w₁!
+    └──────────────────────────→ w₁
+
+Training finds that valley (minimum MSE)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 06 — MSE & R² EXPLAINED
+══════════════════════════════════════════════ -->
+<div class="slide" id="s6">
+  <div class="section-tag">Day 1 · Evaluation</div>
+  <div class="slide-title">Measuring Error — <em>MSE &amp; R²</em></div>
+  <div class="subtitle">Two metrics. MSE tells you the size of the mistakes. R² tells you how much better you are than doing nothing.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="card card-accent" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">Mean Squared Error (MSE)</h3>
+        <div class="formula" style="margin: 0;">MSE = (1/n) × Σ (yᵢ − ŷᵢ)²
+
+<span class="cm">Square each error → average them</span>
+<span class="cm">Squaring: makes negatives positive
+         punishes big errors harder</span>
+<span class="good">Lower MSE = better model</span></div>
+        <p style="font-size: 13px; margin-top: 10px;">RMSE = √MSE — same unit as your target, easier to explain: "on average we're off by $5,200".</p>
+      </div>
+      <div class="card card-purple">
+        <h3 style="color: var(--accent5); margin-bottom: 8px;">R² Score (R-squared)</h3>
+        <div class="formula" style="margin: 0; border-left-color: var(--accent5);">R² = 1 − (Model MSE / Baseline MSE)
+
+<span class="cm">Baseline = always predict the mean
+R² = 1.0 → perfect predictions
+R² = 0.0 → no better than the mean
+R² < 0   → worse than guessing mean!</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="ascii">R² — what does each value mean?
+
+R² = 0.97  ██████████████████████▌░  Excellent!
+R² = 0.85  █████████████████░░░░░░░  Good
+R² = 0.70  ██████████████░░░░░░░░░░  Acceptable
+R² = 0.50  ██████████░░░░░░░░░░░░░░  Weak
+R² = 0.10  ██░░░░░░░░░░░░░░░░░░░░░░  Very poor
+R² = 0.00  ░░░░░░░░░░░░░░░░░░░░░░░░  Useless!
+R² < 0.00  ← Model is WORSE than guessing</div>
+      <div class="card card-amber" style="margin-top: 12px;">
+        <h3 style="color: var(--accent3); margin-bottom: 8px;">⚠ The overfitting warning</h3>
+        <div class="g2" style="gap: 8px; margin-top: 4px;">
+          <div style="background: rgba(110,231,183,.08); border-radius: 8px; padding: 10px; text-align:center;">
+            <div style="font-size: 11px; color: var(--text3); font-family: var(--mono);">Train R²</div>
+            <div style="font-size: 22px; color: var(--accent2); font-weight: 500;">0.98</div>
+          </div>
+          <div style="background: rgba(247,127,110,.08); border-radius: 8px; padding: 10px; text-align:center;">
+            <div style="font-size: 11px; color: var(--text3); font-family: var(--mono);">Test R²</div>
+            <div style="font-size: 22px; color: var(--accent4); font-weight: 500;">0.51</div>
+          </div>
+        </div>
+        <p style="font-size: 13px; margin-top: 10px;">This huge gap = overfitting. The model memorized training data instead of learning real patterns.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 07 — POLYNOMIAL REGRESSION
+══════════════════════════════════════════════ -->
+<div class="slide" id="s7">
+  <div class="section-tag">Day 1 · Regression</div>
+  <div class="slide-title">Polynomial Regression — <em>fitting curves</em></div>
+  <div class="subtitle">When your data curves, a straight line fails. Polynomial regression adds powers of x to capture the shape.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="formula"><span class="cm">Degree 1 (linear):</span>
+  ŷ = w₀ + <span class="kw">w₁x</span>
+
+<span class="cm">Degree 2 (quadratic):</span>
+  ŷ = w₀ + w₁x + <span class="kw">w₂x²</span>
+
+<span class="cm">Degree 3 (cubic):</span>
+  ŷ = w₀ + w₁x + w₂x² + <span class="kw">w₃x³</span>
+
+<span class="cm">The model is still linear in the WEIGHTS
+(w₀, w₁, w₂...) — same math applies.
+We just added x², x³ as new features.</span></div>
+      <div class="ascii" style="margin-top: 12px;">Example: crop yield vs temperature
+(too cold OR too hot = bad)
+
+Yield↑        ★ ★ ★
+              ★       ★
+             ★         ★
+            ★           ★
+          ★               ★
+        ★                   ★
+──────────────────────────────→ Temp
+10°  15°  20°  25°  30°  35°
+
+A straight line CANNOT fit this U-shape.
+A degree-2 polynomial (parabola) fits it!</div>
+    </div>
+    <div>
+      <div class="card card-red" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent4); margin-bottom: 8px;">The danger: overfitting</h3>
+        <div class="ascii" style="font-size: 11px;">Degree 1 (underfit)   Degree 2 (good)    Degree 9 (overfit)
+
+y↑  ★               y↑  ★             y↑  ★
+   ★  ★  ★  ★          ★  ★ ── ★ ★       ★ /\ ★_/\ ★★
+  ─────────────       ★ /        \       ★/ ★ ★  \/
+                      ★/          ★      ★/     ★
+                                        
+ Misses curve       Fits well!         Memorizes noise
+ R²: 0.45           R²: 0.94          Train R²: 1.0 ✓
+                                       Test R²: 0.28 ✗</div>
+      </div>
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 6px;">Rule of thumb</h3>
+        <p style="font-size: 13px;">Start simple (degree 1 or 2). Only add complexity when the simpler model clearly underfits. Always judge on <span class="hl-green">test data</span>, never training data alone.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 08 — SCIKIT-LEARN API
+══════════════════════════════════════════════ -->
+<div class="slide" id="s8">
+  <div class="section-tag">Day 1 · Code</div>
+  <div class="slide-title">The scikit-learn API — <em>one pattern for everything</em></div>
+  <div class="subtitle">Every algorithm in scikit-learn follows the exact same 3-step pattern. Learn it once, use it for hundreds of models.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">THE UNIVERSAL PATTERN:
+══════════════════════════════════
+  Step 1 — CREATE the model
+  ┌─────────────────────────────┐
+  │  model = LinearRegression() │
+  └─────────────────────────────┘
+            ↓
+  Step 2 — TRAIN (fit) on data
+  ┌─────────────────────────────┐
+  │  model.fit(X_train, y_train)│
+  └─────────────────────────────┘
+            ↓
+  Step 3 — PREDICT new values
+  ┌─────────────────────────────┐
+  │  y_pred = model.predict(X)  │
+  └─────────────────────────────┘
+
+Works identically for:
+  LinearRegression()
+  LogisticRegression()
+  DecisionTreeClassifier()
+  KNeighborsClassifier()
+  RandomForestClassifier()  ... and 50 more!</div>
+    </div>
+    <div>
+      <div class="code"><span class="ck">from</span> sklearn.linear_model <span class="ck">import</span> LinearRegression
+<span class="ck">from</span> sklearn.preprocessing <span class="ck">import</span> PolynomialFeatures
+<span class="ck">from</span> sklearn.pipeline <span class="ck">import</span> Pipeline
+<span class="ck">from</span> sklearn.model_selection <span class="ck">import</span> train_test_split
+<span class="ck">from</span> sklearn.metrics <span class="ck">import</span> mean_squared_error, r2_score
+
+<span class="cm"># 1. Split data FIRST — keep test set hidden</span>
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=<span class="cn">0.2</span>, random_state=<span class="cn">42</span>
+)
+
+<span class="cm"># 2. Create and train the model</span>
+model = LinearRegression()
+model.fit(X_train, y_train)      <span class="cm"># learns w₀ and w₁</span>
+
+<span class="cm"># 3. Predict and evaluate</span>
+y_pred = model.predict(X_test)
+mse = mean_squared_error(y_test, y_pred)
+r2  = r2_score(y_test, y_pred)
+
+<span class="cm"># Polynomial: chain steps with Pipeline</span>
+poly_model = Pipeline([
+    (<span class="cs">'poly'</span>, PolynomialFeatures(degree=<span class="cn">2</span>)),
+    (<span class="cs">'lr'</span>,   LinearRegression())
+])
+poly_model.fit(X_train, y_train)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 09 — TRAIN / TEST SPLIT
+══════════════════════════════════════════════ -->
+<div class="slide" id="s9">
+  <div class="section-tag">Day 1 · Core Concept</div>
+  <div class="slide-title">Train / Test Split — <em>the most important rule</em></div>
+  <div class="subtitle">Never test a model on data it was trained on. That's like giving students the exam answers before the test — the results mean nothing.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">YOUR FULL DATASET  (e.g. 500 rows)
+╔═══════════════════════════════════════╗
+║  • • • • • • • • • • • • • • • • •  ║
+║  • • • • • • • • • • • • • • • • •  ║
+║  • • • • • • • • • • • • • • • • •  ║
+╚═══════════════════════════════════════╝
+         ↓ train_test_split(test_size=0.2)
+         
+ TRAINING SET (80%)       TEST SET (20%)
+ ╔══════════════════╗    ╔════════════╗
+ ║ model learns     ║    ║ model      ║
+ ║ from these       ║    ║ tested on  ║
+ ║ 400 examples     ║    ║ these 100  ║
+ ╚══════════════════╝    ╚════════════╝
+         ↓                     ↓
+    model.fit()           model.predict()
+  "Model LEARNS here"   "Did it ACTUALLY learn?"
+
+⚠ The test set is NEVER shown to the model during training</div>
+    </div>
+    <div>
+      <div class="card card-amber" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent3); margin-bottom: 6px;">Key parameters</h3>
+        <div class="formula" style="margin: 0; border-left-color: var(--accent3);">test_size=0.2   <span class="cm"># 20% for testing (standard)</span>
+random_state=42 <span class="cm"># same split every run
+                # (reproducibility)</span>
+stratify=y      <span class="cm"># for classification:
+                # keeps class ratio equal
+                # in both train and test</span></div>
+      </div>
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 8px;">The analogy that makes it click</h3>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num" style="background: var(--accent2); font-size: 10px;">📚</div>
+            <div class="step-body">
+              <div class="step-title">Training data = past exam papers</div>
+              <div class="step-desc">The student (model) studies these to learn patterns.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent3); font-size: 10px;">📝</div>
+            <div class="step-body">
+              <div class="step-title">Test data = the actual exam</div>
+              <div class="step-desc">Sealed until the end. Performance here is the real score.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 10 — REGRESSION CODE COMPLETE
+══════════════════════════════════════════════ -->
+<div class="slide" id="s10">
+  <div class="section-tag">Day 1 · Full Code</div>
+  <div class="slide-title">Complete Regression Pipeline</div>
+  <div class="subtitle">Every step from raw data to evaluated model — copy and run this.</div>
+  <div class="code" style="flex: 1; font-size: 12px; overflow-y: auto;"><span class="ck">import</span> numpy <span class="ck">as</span> np
+<span class="ck">from</span> sklearn.linear_model <span class="ck">import</span> LinearRegression
+<span class="ck">from</span> sklearn.model_selection <span class="ck">import</span> train_test_split
+<span class="ck">from</span> sklearn.metrics <span class="ck">import</span> mean_squared_error, r2_score
+
+<span class="cm"># ── 1. Create house price data ──────────────────────────</span>
+np.random.seed(<span class="cn">42</span>)
+house_size = np.random.uniform(<span class="cn">500</span>, <span class="cn">3000</span>, <span class="cn">100</span>)
+price = <span class="cn">200</span> * house_size + <span class="cn">50000</span> + np.random.normal(<span class="cn">0</span>, <span class="cn">20000</span>, <span class="cn">100</span>)
+
+X = house_size.reshape(<span class="cn">-1</span>, <span class="cn">1</span>)   <span class="cm"># scikit-learn needs 2D array</span>
+y = price
+
+<span class="cm"># ── 2. Split ──────────────────────────────────────────</span>
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=<span class="cn">0.2</span>, random_state=<span class="cn">42</span>
+)
+
+<span class="cm"># ── 3. Create → Train → Predict ───────────────────────</span>
+model = LinearRegression()          <span class="cm"># create</span>
+model.fit(X_train, y_train)         <span class="cm"># train (finds w₀, w₁)</span>
+y_pred = model.predict(X_test)      <span class="cm"># predict on test set</span>
+
+<span class="cm"># ── 4. Evaluate ────────────────────────────────────────</span>
+mse  = mean_squared_error(y_test, y_pred)
+rmse = np.sqrt(mse)
+r2   = r2_score(y_test, y_pred)
+
+<span class="cf">print</span>(<span class="cs">f"Slope (w₁):       {model.coef_[0]:.2f}"</span>)    <span class="cm"># ≈ 200</span>
+<span class="cf">print</span>(<span class="cs">f"Intercept (w₀):   {model.intercept_:.2f}"</span>)  <span class="cm"># ≈ 50,000</span>
+<span class="cf">print</span>(<span class="cs">f"RMSE:             ${rmse:,.0f}"</span>)            <span class="cm"># avg error in $</span>
+<span class="cf">print</span>(<span class="cs">f"R² score:         {r2:.3f}"</span>)               <span class="cm"># closer to 1 = better</span></div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 11 — CLASSIFICATION INTRO
+══════════════════════════════════════════════ -->
+<div class="slide" id="s11">
+  <div class="section-tag">Day 2 · Classification</div>
+  <div class="slide-title">What is <em>Classification?</em></div>
+  <div class="subtitle">Classification puts things into buckets. The answer is always a label from a fixed set of options — not a number.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">REGRESSION vs CLASSIFICATION
+
+REGRESSION — output is a number:
+  House size → $342,000
+  Temperature data → 28.5°C
+  Experience → $78,500/yr
+  Output: any point on a number line
+
+CLASSIFICATION — output is a category:
+  Email text → SPAM or NOT SPAM
+  Patient data → DIABETIC or HEALTHY
+  Sensor reading → FAULT or NORMAL
+  Photo → CAT, DOG, or BIRD
+  Output: one label from a fixed list</div>
+      <div class="card card-accent" style="margin-top: 12px;">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">The decision boundary</h3>
+        <div class="ascii" style="font-size: 11px;">Every classifier draws a boundary
+separating classes in feature space:
+
+Vibration↑
+   ★ ★   ←  FAULT zone (above line)
+     ★ ★
+─────────────────── ← decision boundary
+         ○  ○  ○   ←  NORMAL zone (below)
+      ○  ○  ○
+→ Temperature</div>
+      </div>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom: 14px;">
+        <h3 style="margin-bottom: 10px;">Binary vs Multi-class</h3>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="background: rgba(79,142,247,.1); border-radius: 8px; padding: 12px;">
+            <div style="font-size: 13px; font-weight: 500; color: var(--accent); margin-bottom: 4px;">Binary classification</div>
+            <div style="font-size: 12px; color: var(--text2);">Exactly 2 classes: spam/not-spam, fault/normal, positive/negative. The simplest and most common case.</div>
+          </div>
+          <div style="background: rgba(249,199,79,.1); border-radius: 8px; padding: 12px;">
+            <div style="font-size: 13px; font-weight: 500; color: var(--accent3); margin-bottom: 4px;">Multi-class classification</div>
+            <div style="font-size: 12px; color: var(--text2);">3+ classes: handwritten digits 0–9, dog breeds, type of fault (bearing/electrical/overheating).</div>
+          </div>
+        </div>
+      </div>
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 6px;">Three algorithms we cover</h3>
+        <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 6px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+            <span>Logistic Regression</span>
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--text3);">straight boundary</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+            <span>Decision Tree</span>
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--text3);">rectangular regions</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; font-size: 13px;">
+            <span>k-Nearest Neighbours</span>
+            <span style="font-family: var(--mono); font-size: 11px; color: var(--text3);">any shape boundary</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 12 — LOGISTIC REGRESSION
+══════════════════════════════════════════════ -->
+<div class="slide" id="s12">
+  <div class="section-tag">Day 2 · Logistic Regression</div>
+  <div class="slide-title">Logistic Regression — <em>probabilities, not lines</em></div>
+  <div class="subtitle">Despite the name, it's a classification algorithm. It converts any number into a probability between 0 and 1 using the sigmoid function.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="formula"><span class="cm">The sigmoid function (the secret ingredient):</span>
+
+<span class="kw">σ(z) = 1 / (1 + e⁻ᶻ)</span>
+
+<span class="cm">z = w₀ + w₁x₁ + w₂x₂ + ...
+     (same linear equation as regression)</span>
+
+<span class="cm">But instead of outputting z directly,
+we pass it through σ, which squashes
+ANY number to a value between 0 and 1.</span>
+
+z = -100  →  σ ≈ 0.000  <span class="cm">← "definitely class 0"</span>
+z =   0   →  σ = 0.500  <span class="cm">← "uncertain"</span>
+z = +100  →  σ ≈ 1.000  <span class="cm">← "definitely class 1"</span></div>
+      <div class="formula" style="margin-top: 10px;"><span class="cm">Full prediction pipeline:</span>
+
+1. Compute <span class="kw">z = w₀ + w₁×temp + w₂×vibration</span>
+   e.g. z = −3 + 0.05×88 + 0.8×7.5 = 7.4
+
+2. Apply sigmoid: <span class="good">σ(7.4) ≈ 0.9994</span>
+   → 99.94% probability of FAULT
+
+3. Apply threshold (default = 0.5):
+   0.9994 > 0.5  →  predict <span class="good">FAULT</span></div>
+    </div>
+    <div>
+      <div class="ascii">THE SIGMOID CURVE
+Output
+  1.0│                      ──────────
+     │                   ──
+     │                 ─
+  0.5│ ─ ─ ─ ─ ─ ─ ─●─ ─ ─ ─ ─ ─ ─
+     │             ─            ↑
+     │           ─           decision
+  0.0│──────────              point
+     └──────────────────────────────→ z
+      -6  -4  -2   0   2   4   6
+
+Shape: an "S" curve — gradual, smooth
+No matter how large or small z is,
+σ always stays between 0 and 1.</div>
+      <div class="card card-red" style="margin-top: 12px;">
+        <h3 style="color: var(--accent4); margin-bottom: 6px;">Key limitation</h3>
+        <p style="font-size: 13px;">Logistic regression only draws a <span class="hl-red">straight</span> decision boundary. If classes are not linearly separable, it will struggle. That's when decision trees and k-NN become valuable.</p>
+      </div>
+      <div class="card card-amber" style="margin-top: 10px;">
+        <h3 style="color: var(--accent3); margin-bottom: 6px;">Loss function: Log Loss (not MSE!)</h3>
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--text);">
+          L = −[y·log(ŷ) + (1−y)·log(1−ŷ)]
+        </div>
+        <p style="font-size: 12px; margin-top: 6px;">Penalizes confident wrong predictions extremely heavily — being 99% sure of the wrong answer gets punished far more than being 51% sure of the wrong answer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 13 — DECISION TREES INTRO
+══════════════════════════════════════════════ -->
+<div class="slide" id="s13">
+  <div class="section-tag">Day 2 · Decision Trees</div>
+  <div class="slide-title">Decision Trees — <em>if this, then that</em></div>
+  <div class="subtitle">The most intuitive ML model. It mirrors how humans make decisions: ask a question, branch, ask another, reach a conclusion.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">Detecting machine faults from sensors:
+
+           ┌─────────────────────┐
+           │  Temperature > 85°C?│
+           └─────────────────────┘
+                /           \
+              YES             NO
+              /                 \
+  ┌────────────────┐     ┌────────────────┐
+  │  Vibration >6? │     │  Pressure >200?│
+  └────────────────┘     └────────────────┘
+      /       \               /       \
+    YES        NO           YES        NO
+    /            \           /           \
+ ╔═══════╗   ╔═══════╗  ╔═══════╗   ╔════════╗
+ ║ FAULT ║   ║ FAULT ║  ║ FAULT ║   ║ NORMAL ║
+ ╚═══════╝   ╚═══════╝  ╚═══════╝   ╚════════╝
+
+Internal node = a question about a feature
+Branch        = the answer (yes/no or range)
+Leaf          = the final prediction</div>
+    </div>
+    <div>
+      <div class="card card-accent" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">What makes decision trees special</h3>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num" style="background: var(--accent); width: 20px; height: 20px; font-size: 10px;">✓</div>
+            <div class="step-body">
+              <div class="step-desc"><span class="hl-blue">Interpretable</span> — you can read it like a flowchart and understand exactly why every prediction was made.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent2); width: 20px; height: 20px; font-size: 10px;">✓</div>
+            <div class="step-body">
+              <div class="step-desc"><span class="hl-green">No scaling needed</span> — raw features work. Tree splits don't care about the unit of measurement.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent3); width: 20px; height: 20px; font-size: 10px;">✓</div>
+            <div class="step-body">
+              <div class="step-desc"><span class="hl">Handles mixed data</span> — numerical and categorical features in the same tree, no problem.</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent4); width: 20px; height: 20px; font-size: 10px;">⚠</div>
+            <div class="step-body">
+              <div class="step-desc"><span class="hl-red">Overfits easily</span> — without depth limits, a tree will grow until it memorizes every training point.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 14 — GINI IMPURITY MATH
+══════════════════════════════════════════════ -->
+<div class="slide" id="s14">
+  <div class="section-tag">Day 2 · Decision Tree Math</div>
+  <div class="slide-title">Gini Impurity — <em>how the tree decides to split</em></div>
+  <div class="subtitle">The tree asks: "which question cleans up the data the most?" Gini impurity measures how mixed a group is. Lower is purer.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="formula"><span class="cm">Gini impurity formula:</span>
+
+<span class="kw">Gini(node) = 1 − Σ pᵢ²</span>
+
+<span class="cm">pᵢ = fraction of samples in class i</span>
+
+<span class="cm">For binary (two classes, p and 1−p):</span>
+  Gini = 1 − (p² + (1−p)²)
+       = 2p(1−p)
+
+<span class="good">Gini = 0.0 → perfectly pure (all one class)</span>
+<span class="cm">Gini = 0.5 → perfectly mixed (50/50)</span></div>
+      <div class="formula" style="margin-top: 10px; border-left-color: var(--accent3);"><span class="cm">Worked example — node with 7 FAULT, 3 NORMAL:</span>
+
+p(FAULT)  = 7/10 = <span class="val">0.70</span>
+p(NORMAL) = 3/10 = <span class="val">0.30</span>
+
+Gini = 1 − (0.70² + 0.30²)
+     = 1 − (0.49  + 0.09)
+     = 1 − 0.58
+     = <span class="kw">0.42</span>
+
+<span class="cm">Meaning: if we labeled randomly by the class
+distribution, we'd be wrong 42% of the time.
+This node needs more splitting.</span></div>
+    </div>
+    <div>
+      <div class="formula"><span class="cm">Gini GAIN — how the tree picks the best split:</span>
+
+Gini_gain = Gini(parent) − weighted_Gini(children)
+
+<span class="cm">weighted_Gini =</span>
+  (n_left/n) × Gini(left)
+  + (n_right/n) × Gini(right)
+
+<span class="cm">Example split result:</span>
+  Parent Gini       = 0.42
+  Left  Gini (2/10) = 0.08   weight = 0.4
+  Right Gini (1/5)  = 0.32   weight = 0.6
+
+  Weighted = 0.4×0.08 + 0.6×0.32 = <span class="val">0.224</span>
+  Gini gain = 0.42 − 0.224 = <span class="good">0.196</span>
+
+<span class="cm">The tree tests EVERY feature at EVERY
+possible threshold and picks the split
+with the HIGHEST Gini gain.</span></div>
+      <div class="card card-purple" style="margin-top: 10px;">
+        <h3 style="color: var(--accent5); margin-bottom: 6px;">Entropy — the alternative</h3>
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--text);">H = −Σ pᵢ × log₂(pᵢ)</div>
+        <p style="font-size: 12px; margin-top: 6px;">Same idea, uses logarithms instead. In practice, Gini and entropy produce almost identical trees. Gini is faster to compute — use it by default.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 15 — TREE OVERFITTING & PRUNING
+══════════════════════════════════════════════ -->
+<div class="slide" id="s15">
+  <div class="section-tag">Day 2 · Decision Trees</div>
+  <div class="slide-title">Controlling Trees — <em>depth &amp; pruning</em></div>
+  <div class="subtitle">An unconstrained tree memorizes training data perfectly but fails on new data. Three parameters control this.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">SHALLOW (max_depth=2)     DEEP (max_depth=20)
+
+Temp > 85?               Temp > 85?
+  Y→ Vib > 6?              Y→ Vib > 6.7321?
+       Y→ FAULT                 Y→ Press > 201.3?
+       N→ FAULT                      Y→ Vib > 7.01?
+  N→ Press > 200?                         Y→ Temp > 86.4?
+       Y→ FAULT                                (100 more nodes)
+       N→ NORMAL
+
+Simple, generalizes well   Memorized training data
+Train accuracy:  88%       Train accuracy:  100% ✓
+Test accuracy:   85% ✓     Test accuracy:    62% ✗</div>
+      <div class="ascii" style="margin-top: 12px;">BIAS vs VARIANCE — the core tradeoff
+
+Accuracy
+100%│                   ╭── train acc
+    │                 ╭╯
+ 80%│      ★  ──────╯       ← test acc peaks here
+    │    ╭╯  ╲ ─ ─ ─ ─ ╲
+ 60%│  ╭╯              ╲─ test acc drops
+    │╭╯
+    └──────────────────────────→ max_depth
+      1   2   3   4   5   6   7   8
+
+Pick depth at the peak of TEST accuracy.</div>
+    </div>
+    <div>
+      <div class="card card-amber" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent3); margin-bottom: 8px;">The three control levers</h3>
+        <div class="formula" style="margin: 0; border-left-color: var(--accent3);">max_depth = 4
+<span class="cm"># Hard limit on depth. Start 3–6.</span>
+<span class="cm"># Most important parameter.</span>
+
+min_samples_split = 20
+<span class="cm"># Node must have ≥ N samples to split.</span>
+<span class="cm"># Prevents splitting tiny groups.</span>
+
+min_samples_leaf = 5
+<span class="cm"># Every leaf must have ≥ N samples.</span>
+<span class="cm"># Prevents single-sample memorized leaves.</span></div>
+      </div>
+      <div class="card card-purple">
+        <h3 style="color: var(--accent5); margin-bottom: 6px;">Cost-complexity pruning</h3>
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--text);">ccp_alpha = 0.01</div>
+        <p style="font-size: 13px; margin-top: 6px;">Post-training pruning. Each node is penalized by alpha × complexity. Higher alpha = more pruning. Cross-validate to find the best alpha value rather than guessing.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 16 — K-NEAREST NEIGHBOURS
+══════════════════════════════════════════════ -->
+<div class="slide" id="s16">
+  <div class="section-tag">Day 2 · k-Nearest Neighbours</div>
+  <div class="slide-title">k-NN — <em>show me your neighbours</em></div>
+  <div class="subtitle">The laziest algorithm in ML — it does zero training. To classify a new point, it finds the k most similar training points and takes a majority vote.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">k-NN IDEA: "birds of a feather flock together"
+
+Feature space (temp vs vibration):
+
+Vib↑
+ 9│  ★ ★  ★           ★ = FAULT
+ 8│     ★   ★
+ 7│        ★    ★
+ 6│           ?        ← new reading
+ 5│              ○   ○    ○ = NORMAL
+ 4│           ○    ○
+ 3│        ○
+  └──────────────────────→ Temperature
+       75  80  85  90
+
+With k=3: find the 3 closest training points to ?
+  → Neighbours: ★ ★ ○
+  → 2 FAULT votes, 1 NORMAL vote
+  → Majority wins → predict: FAULT</div>
+      <div class="card card-accent" style="margin-top: 12px;">
+        <h3 style="color: var(--accent); margin-bottom: 6px;">Distance formula used</h3>
+        <div style="font-family: var(--mono); font-size: 13px; color: var(--text);">d = √((x₁−x₂)² + (y₁−y₂)²)</div>
+        <p style="font-size: 13px; margin-top: 6px;">Euclidean distance in feature space. The k points with the smallest distance to the new point are the "neighbours."</p>
+      </div>
+    </div>
+    <div>
+      <div class="card card-amber" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent3); margin-bottom: 8px;">How to choose k</h3>
+        <div class="ascii" style="font-size: 11px;">k = 1 → OVERFIT
+        Every training point is its own region.
+        Train acc: 100%   Test acc: often low
+
+k = 3 or 5 → USUALLY GOOD
+        Smooth boundary, generalizes well
+        Use odd k to avoid ties
+
+k = 50 → UNDERFIT
+        Everyone gets the majority class.
+        Too many voters = loses local detail
+
+Rule: try k = √(n_training_samples)
+      then tune with cross-validation</div>
+      </div>
+      <div class="card card-red">
+        <h3 style="color: var(--accent4); margin-bottom: 6px;">⚠ Critical: always scale features!</h3>
+        <div class="ascii" style="font-size: 11px; margin-top: 4px;">Temperature: 0–100 (range of 100)
+Vibration:   0–10  (range of 10)
+
+Without scaling:
+Distance dominated by temperature.
+A 10°C difference = same as crossing
+the entire vibration scale. WRONG!
+
+Fix: StandardScaler before k-NN
+  → zero mean, unit variance per feature</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 17 — CONFUSION MATRIX
+══════════════════════════════════════════════ -->
+<div class="slide" id="s17">
+  <div class="section-tag">Day 2 · Evaluation</div>
+  <div class="slide-title">The Confusion Matrix — <em>where did we go wrong?</em></div>
+  <div class="subtitle">Accuracy alone lies. The confusion matrix shows exactly which types of mistakes your model makes — and in safety-critical systems, the type of error matters enormously.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div style="margin-bottom: 12px;">
+        <div style="font-size: 12px; font-family: var(--mono); color: var(--text3); margin-bottom: 8px; text-align: center;">PREDICTED</div>
+        <div style="display: flex; gap: 8px; margin-bottom: 4px; padding-left: 72px;">
+          <div style="flex:1; text-align:center; font-size: 12px; font-family: var(--mono); color: var(--text3);">FAULT</div>
+          <div style="flex:1; text-align:center; font-size: 12px; font-family: var(--mono); color: var(--text3);">NORMAL</div>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: stretch;">
+          <div style="display: flex; flex-direction: column; justify-content: space-around; margin-right: 6px;">
+            <div style="font-size: 11px; font-family: var(--mono); color: var(--text3); transform: rotate(-90deg) translateX(-20px); white-space: nowrap; height: 64px; display: flex; align-items: center;">ACTUAL FAULT</div>
+            <div style="font-size: 11px; font-family: var(--mono); color: var(--text3); transform: rotate(-90deg) translateX(-24px); white-space: nowrap; height: 64px; display: flex; align-items: center;">ACTUAL NORMAL</div>
+          </div>
+          <div style="flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+            <div class="cm-cell cm-tp">
+              <div class="cm-num" style="color: var(--accent2);">45</div>
+              <div class="cm-lbl" style="color: var(--accent2);">TP</div>
+              <div class="cm-desc">True Positive</div>
+            </div>
+            <div class="cm-cell cm-fn">
+              <div class="cm-num" style="color: var(--accent4);">5</div>
+              <div class="cm-lbl" style="color: var(--accent4);">FN</div>
+              <div class="cm-desc">False Negative</div>
+            </div>
+            <div class="cm-cell cm-fp">
+              <div class="cm-num" style="color: var(--accent3);">8</div>
+              <div class="cm-lbl" style="color: var(--accent3);">FP</div>
+              <div class="cm-desc">False Positive</div>
+            </div>
+            <div class="cm-cell cm-tn">
+              <div class="cm-num" style="color: var(--accent);">42</div>
+              <div class="cm-lbl" style="color: var(--accent);">TN</div>
+              <div class="cm-desc">True Negative</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num" style="background: var(--accent2);">✓</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent2);">TP — True Positive</div>
+            <div class="step-desc">Model said FAULT. It really WAS a fault. Correct detection.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent);">✓</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent);">TN — True Negative</div>
+            <div class="step-desc">Model said NORMAL. It really WAS normal. Correct rejection.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent3);">✗</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent3);">FP — False Positive</div>
+            <div class="step-desc">Model said FAULT. Actually NORMAL. A false alarm — costly but not dangerous.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent4);">✗</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent4);">FN — False Negative</div>
+            <div class="step-desc">Model said NORMAL. Actually a FAULT. A missed detection — potentially catastrophic.</div>
+          </div>
+        </div>
+      </div>
+      <div class="card card-amber" style="margin-top: 12px;">
+        <p style="font-size: 13px;"><span class="hl">Accuracy = (TP + TN) / Total</span> — looks good at 87%, but hides the 5 missed faults. Never use accuracy alone for imbalanced or safety-critical problems.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 18 — PRECISION, RECALL, F1
+══════════════════════════════════════════════ -->
+<div class="slide" id="s18">
+  <div class="section-tag">Day 2 · Evaluation</div>
+  <div class="slide-title">Precision, Recall &amp; F1 — <em>the complete story</em></div>
+  <div class="subtitle">These three metrics reveal what accuracy hides — the quality of your positive predictions and your coverage of actual positives.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="formula"><span class="cm">Precision — "when I cry FAULT, am I right?"</span>
+
+<span class="kw">Precision = TP / (TP + FP)</span>
+
+<span class="cm">High precision = few false alarms.
+You only flag something when very sure.
+But you might miss some real faults.</span>
+
+<span class="cm">Recall — "did I catch every real fault?"</span>
+
+<span class="kw">Recall = TP / (TP + FN)</span>
+
+<span class="cm">High recall = catch almost every fault.
+But you might raise many false alarms.
+(Also called: sensitivity, true positive rate)</span>
+
+<span class="cm">F1 Score — "balanced single metric"</span>
+
+<span class="kw">F1 = 2 × (Precision × Recall) / (Precision + Recall)</span>
+
+<span class="cm">Harmonic mean — penalizes extreme imbalance.
+F1=0.9 means both P and R are reasonably high.</span></div>
+    </div>
+    <div>
+      <div class="ascii">THE TRADEOFF — they pull in opposite directions
+
+Lower threshold (e.g. 0.3 instead of 0.5):
+  → More things flagged as FAULT
+  → Recall ↑ (catch more real faults)
+  → Precision ↓ (more false alarms)
+
+Higher threshold (e.g. 0.7):
+  → Fewer things flagged as FAULT
+  → Precision ↑ (fewer false alarms)
+  → Recall ↓ (miss more real faults)
+
+You CHOOSE which trade-off to make
+based on the COST of each error type.</div>
+      <div class="two" style="margin-top: 12px;">
+        <div class="card card-red">
+          <h3 style="color: var(--accent4); margin-bottom: 6px; font-size: 13px;">Prioritise RECALL when...</h3>
+          <p style="font-size: 12px;">Missing a positive is catastrophic: cancer screening, fault detection, fraud. A missed fault = machine breaks = expensive/dangerous.</p>
+        </div>
+        <div class="card card-green">
+          <h3 style="color: var(--accent2); margin-bottom: 6px; font-size: 13px;">Prioritise PRECISION when...</h3>
+          <p style="font-size: 12px;">False alarms are expensive: spam filters (blocking real emails = angry users), bank fraud (freezing innocent accounts).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 19 — RANDOM FORESTS
+══════════════════════════════════════════════ -->
+<div class="slide" id="s19">
+  <div class="section-tag">Bonus · Ensemble Methods</div>
+  <div class="slide-title">Random Forests — <em>wisdom of the crowd</em></div>
+  <div class="subtitle">One decision tree overfits. A forest of hundreds of trees, each trained on slightly different data and features, votes together — and the majority almost always wins correctly.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">BUILD A RANDOM FOREST:
+
+Step 1: BOOTSTRAP SAMPLING
+For each of 100 trees:
+  → Sample 80% of training data (with replacement)
+  → Each tree sees a DIFFERENT random subset
+  → Called: "bagging" (bootstrap aggregating)
+
+Step 2: RANDOM FEATURE SELECTION
+At each split in each tree:
+  → Only consider √(n_features) random features
+  → NOT all features every time
+  → Forces trees to be different from each other
+  → Called: "feature randomness"
+
+Step 3: GROW each tree fully (no depth limit)
+
+Step 4: PREDICT — majority vote
+  New reading → all 100 trees predict
+  63 say FAULT, 37 say NORMAL
+  → Final prediction: FAULT (63% vote)</div>
+    </div>
+    <div>
+      <div class="card card-green" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent2); margin-bottom: 8px;">Why it works — the math intuition</h3>
+        <p style="font-size: 13px;">Each tree makes errors, but the errors are <span class="hl-green">uncorrelated</span> (different random data, different random features). When you average many uncorrelated noisy signals, the noise cancels and the signal remains. Like asking 100 people to estimate crowd size — the average is more accurate than any individual guess.</p>
+      </div>
+      <div class="card card-purple" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent5); margin-bottom: 8px;">Feature importance — a free bonus</h3>
+        <p style="font-size: 13px;">Random forests measure how much each feature contributes to reducing impurity across all trees. Use <span style="font-family: var(--mono); font-size: 12px; color: var(--accent5);">model.feature_importances_</span> to discover which inputs matter most. Invaluable for understanding your data.</p>
+      </div>
+      <div class="formula" style="font-size: 12px;">RandomForestClassifier(
+  n_estimators=<span class="val">100</span>,   <span class="cm"># number of trees</span>
+  max_depth=<span class="val">None</span>,    <span class="cm"># each tree grows deep</span>
+  random_state=<span class="val">42</span>   <span class="cm"># reproducibility</span>
+)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 20 — RANDOM FOREST MATH (OOB & IMPORTANCE)
+══════════════════════════════════════════════ -->
+<div class="slide" id="s20">
+  <div class="section-tag">Bonus · Ensemble Methods</div>
+  <div class="slide-title">Random Forest — <em>deeper mathematics</em></div>
+  <div class="subtitle">Two powerful properties emerge from the ensemble design: out-of-bag error estimation and feature importance scoring — both free with no extra computation.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="card card-accent" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">Out-of-Bag (OOB) Error</h3>
+        <div class="ascii" style="font-size: 11px;">Each tree is trained on ~63% of data
+(sampling with replacement, ~37% left out)
+
+The 37% not used = "out-of-bag" samples
+→ Use them to evaluate THAT tree!
+
+Aggregate OOB predictions across all trees:
+→ Free validation without needing a test set!
+→ Approximately equals 5-fold cross-validation accuracy
+
+Enable: RandomForestClassifier(oob_score=True)
+Read:   model.oob_score_</div>
+      </div>
+      <div class="card card-purple">
+        <h3 style="color: var(--accent5); margin-bottom: 8px;">Gini-based Feature Importance</h3>
+        <div class="formula" style="margin: 0; border-left-color: var(--accent5); font-size: 12px;">Importance(feature j) =
+  Σ over all nodes using feature j:
+    (n_samples / n_total) × Gini_gain
+
+<span class="cm">Features used early (near root) get
+higher importance: they split more data.
+Normalised to sum to 1.0 across all features.</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="ascii">Example: machine fault prediction
+Feature importances from trained forest:
+
+Temperature  ████████████████████ 0.41
+Vibration    ████████████████     0.33
+Pressure     █████████            0.18
+Runtime      ████                 0.08
+
+→ Temperature is by far the most
+  informative feature for fault detection.
+→ Runtime barely matters.
+→ You could remove it to simplify the model.</div>
+      <div class="g2" style="margin-top: 12px; gap: 8px;">
+        <div class="card card-green">
+          <h3 style="color: var(--accent2); font-size: 13px; margin-bottom: 4px;">Advantages</h3>
+          <p style="font-size: 12px;">Rarely overfits. Handles missing data. Works with raw features. Usually best out-of-the-box accuracy.</p>
+        </div>
+        <div class="card card-amber">
+          <h3 style="color: var(--accent3); font-size: 13px; margin-bottom: 4px;">Disadvantages</h3>
+          <p style="font-size: 12px;">Less interpretable (100 trees vs 1). Slower prediction. More memory. Not great for very high-dimensional sparse data.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 21 — LOGISTIC REGRESSION ERRORS
+══════════════════════════════════════════════ -->
+<div class="slide" id="s21">
+  <div class="section-tag">Theory Deep-Dive · Logistic Regression</div>
+  <div class="slide-title">Logistic Regression — <em>what causes its errors</em></div>
+  <div class="subtitle">Logistic regression fails for specific, understandable reasons. Knowing them helps you diagnose and fix problems before reaching for a more complex model.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="card card-red" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent4); margin-bottom: 8px;">Error Type 1: Non-linear decision boundary</h3>
+        <div class="ascii" style="font-size: 11px;">Your data:          Logistic regression draws:
+
+ Vib↑  ★ ★ ★ ★           Vib↑
+    ★ ○ ○ ○ ★             ★ ★ ★ ★
+   ★ ○     ○ ★           ★ ○ ○ ○ ★
+    ★ ○ ○ ○ ★            /         ← straight line!
+     ★ ★ ★ ★           ★ ○○○ ★
+   → Temp               → Temp
+
+FAULTS surround NORMALS in a ring.
+No straight line can separate them.
+Solution: use kernel SVM, decision tree,
+or add polynomial features manually.</div>
+      </div>
+      <div class="card card-amber">
+        <h3 style="color: var(--accent3); margin-bottom: 8px;">Error Type 2: Class imbalance</h3>
+        <p style="font-size: 13px;">If 95% of data is NORMAL and only 5% is FAULT, logistic regression often predicts NORMAL for everything — achieving 95% accuracy while being completely useless. Fix with <span style="font-family: var(--mono); font-size: 12px; color: var(--accent3);">class_weight='balanced'</span>.</p>
+      </div>
+    </div>
+    <div>
+      <div class="card card-purple" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent5); margin-bottom: 8px;">Error Type 3: Multicollinearity</h3>
+        <p style="font-size: 13px;">If two features are highly correlated (e.g. temperature in Celsius and Fahrenheit), the model can't decide how much weight to give each. Weights become unstable and unreliable. Fix: drop one of the correlated features.</p>
+      </div>
+      <div class="card card-accent" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">Error Type 4: Outliers in features</h3>
+        <p style="font-size: 13px;">Logistic regression is sensitive to extreme values because they heavily influence the learned weights. A single sensor reading of 10,000°C can corrupt the model. Fix: clip or remove outliers, use RobustScaler.</p>
+      </div>
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 6px;">Regularisation — the systematic fix</h3>
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--text);">LogisticRegression(C=1.0, penalty='l2')</div>
+        <p style="font-size: 12px; margin-top: 6px;">C controls regularisation strength (smaller C = stronger penalty on large weights). L2 (Ridge) shrinks all weights. L1 (Lasso) drives some weights to zero — automatic feature selection.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 22 — FAULT CLASSIFICATION WALKTHROUGH
+══════════════════════════════════════════════ -->
+<div class="slide" id="s22">
+  <div class="section-tag">Real-World Application</div>
+  <div class="slide-title">Fault Classification — <em>a complete walkthrough</em></div>
+  <div class="subtitle">Industrial machine monitoring: predict faults before they cause breakdowns, using temperature, vibration, and pressure sensor readings.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">THE PROBLEM:
+Factory machines produce sensor readings.
+Engineers label them: NORMAL or FAULT.
+Goal: catch faults automatically in real-time.
+
+SAMPLE DATA:
+Temp°C│Vibration│Pressure│Label
+──────┼─────────┼────────┼───────
+  72  │   3.2   │  195   │ NORMAL
+  88  │   7.8   │  218   │ FAULT  ← high all round
+  65  │   2.1   │  188   │ NORMAL
+  91  │   8.4   │  225   │ FAULT  ← high all round
+  79  │   4.5   │  201   │ NORMAL
+  85  │   6.9   │  215   │ FAULT
+
+CHALLENGE:
+→ Faults are RARE (class imbalance: ~5%)
+→ Missed fault (FN) = machine breaks = expensive
+→ False alarm (FP) = maintenance stop = also costly
+→ We need HIGH RECALL to catch real faults</div>
+    </div>
+    <div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num" style="background: var(--accent);">1</div>
+          <div class="step-body">
+            <div class="step-title">Load & explore data</div>
+            <div class="step-desc">Check class balance, look for outliers, understand each feature's distribution.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent2);">2</div>
+          <div class="step-body">
+            <div class="step-title">Stratified train/test split</div>
+            <div class="step-desc">Use <span style="font-family: var(--mono); font-size: 11px; color: var(--accent2);">stratify=y</span> to keep the 5% fault rate equal in both sets.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent3);">3</div>
+          <div class="step-body">
+            <div class="step-title">Scale features</div>
+            <div class="step-desc">StandardScaler fitted on training data only. Apply the same scaler to test.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent5);">4</div>
+          <div class="step-body">
+            <div class="step-title">Train with class_weight='balanced'</div>
+            <div class="step-desc">Compensates for the imbalance — minority class (FAULT) gets upweighted in the loss.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent4);">5</div>
+          <div class="step-body">
+            <div class="step-title">Evaluate with confusion matrix + F1</div>
+            <div class="step-desc">Never rely on accuracy alone. Target recall ≥ 0.95 for safety-critical systems.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 23 — CLASSIFICATION FULL CODE
+══════════════════════════════════════════════ -->
+<div class="slide" id="s23">
+  <div class="section-tag">Day 2 · Full Code</div>
+  <div class="slide-title">Complete Classification Pipeline</div>
+  <div class="subtitle">Three classifiers compared side by side — logistic regression, decision tree, and k-NN.</div>
+  <div class="code" style="flex: 1; font-size: 11.5px; overflow-y: auto; line-height: 1.65;"><span class="ck">import</span> numpy <span class="ck">as</span> np
+<span class="ck">from</span> sklearn.model_selection <span class="ck">import</span> train_test_split
+<span class="ck">from</span> sklearn.preprocessing  <span class="ck">import</span> StandardScaler
+<span class="ck">from</span> sklearn.linear_model   <span class="ck">import</span> LogisticRegression
+<span class="ck">from</span> sklearn.tree           <span class="ck">import</span> DecisionTreeClassifier
+<span class="ck">from</span> sklearn.neighbors      <span class="ck">import</span> KNeighborsClassifier
+<span class="ck">from</span> sklearn.ensemble       <span class="ck">import</span> RandomForestClassifier
+<span class="ck">from</span> sklearn.metrics        <span class="ck">import</span> classification_report, confusion_matrix
+
+np.random.seed(<span class="cn">42</span>)
+<span class="cm"># Simulate sensor data: 400 normal, 100 fault readings</span>
+X_normal = np.column_stack([np.random.normal(<span class="cn">72</span>,<span class="cn">6</span>,<span class="cn">400</span>), np.random.normal(<span class="cn">3.5</span>,<span class="cn">1</span>,<span class="cn">400</span>), np.random.normal(<span class="cn">195</span>,<span class="cn">8</span>,<span class="cn">400</span>)])
+X_fault  = np.column_stack([np.random.normal(<span class="cn">89</span>,<span class="cn">5</span>,<span class="cn">100</span>), np.random.normal(<span class="cn">7.8</span>,<span class="cn">1.2</span>,<span class="cn">100</span>), np.random.normal(<span class="cn">220</span>,<span class="cn">6</span>,<span class="cn">100</span>)])
+X = np.vstack([X_normal, X_fault])
+y = np.array([<span class="cn">0</span>]*<span class="cn">400</span> + [<span class="cn">1</span>]*<span class="cn">100</span>)   <span class="cm"># 0=NORMAL, 1=FAULT</span>
+
+<span class="cm"># Split: stratify keeps the 80/20 fault ratio in both sets</span>
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=<span class="cn">0.2</span>, random_state=<span class="cn">42</span>, stratify=y
+)
+
+<span class="cm"># Scale: fit on train ONLY, then apply to test</span>
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test  = scaler.transform(X_test)          <span class="cm"># same scaler, no refit!</span>
+
+models = {
+    <span class="cs">'Logistic Regression'</span>: LogisticRegression(class_weight=<span class="cs">'balanced'</span>),
+    <span class="cs">'Decision Tree'</span>:       DecisionTreeClassifier(max_depth=<span class="cn">4</span>, random_state=<span class="cn">42</span>),
+    <span class="cs">'k-NN (k=5)'</span>:         KNeighborsClassifier(n_neighbors=<span class="cn">5</span>),
+    <span class="cs">'Random Forest'</span>:      RandomForestClassifier(n_estimators=<span class="cn">100</span>, random_state=<span class="cn">42</span>),
+}
+<span class="ck">for</span> name, model <span class="ck">in</span> models.items():
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    <span class="cf">print</span>(<span class="cs">f"\n── {name} ──"</span>)
+    <span class="cf">print</span>(classification_report(y_test, y_pred, target_names=[<span class="cs">'NORMAL'</span>,<span class="cs">'FAULT'</span>]))</div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 24 — MODEL COMPARISON TABLE
+══════════════════════════════════════════════ -->
+<div class="slide" id="s24">
+  <div class="section-tag">Summary</div>
+  <div class="slide-title">Algorithm Comparison — <em>when to use what</em></div>
+  <div class="subtitle">No single algorithm wins every problem. Understanding the trade-offs helps you choose the right tool for each situation.</div>
+  <div style="flex: 1; overflow-y: auto;">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Algorithm</th>
+          <th>Best for</th>
+          <th>Needs scaling?</th>
+          <th>Interpretable?</th>
+          <th>Handles non-linear?</th>
+          <th>Big weakness</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="badge b-blue">Linear Regression</span></td>
+          <td style="font-size: 13px;">Predicting numbers, linear relationships</td>
+          <td style="font-size: 13px; color: var(--accent2);">Yes</td>
+          <td style="font-size: 13px; color: var(--accent2);">Very high</td>
+          <td style="font-size: 13px; color: var(--accent4);">No</td>
+          <td style="font-size: 13px;">Assumes linearity</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-purple">Logistic Regression</span></td>
+          <td style="font-size: 13px;">Binary classification, probability output</td>
+          <td style="font-size: 13px; color: var(--accent2);">Yes</td>
+          <td style="font-size: 13px; color: var(--accent2);">High</td>
+          <td style="font-size: 13px; color: var(--accent4);">No</td>
+          <td style="font-size: 13px;">Straight boundary only</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-amber">Decision Tree</span></td>
+          <td style="font-size: 13px;">Explainable rules, mixed feature types</td>
+          <td style="font-size: 13px; color: var(--accent4);">No</td>
+          <td style="font-size: 13px; color: var(--accent2);">Very high</td>
+          <td style="font-size: 13px; color: var(--accent2);">Yes</td>
+          <td style="font-size: 13px;">Overfits without limits</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-red">k-NN</span></td>
+          <td style="font-size: 13px;">Small datasets, complex boundaries</td>
+          <td style="font-size: 13px; color: var(--accent4);">Critical</td>
+          <td style="font-size: 13px; color: var(--accent3);">Medium</td>
+          <td style="font-size: 13px; color: var(--accent2);">Yes</td>
+          <td style="font-size: 13px;">Slow on large datasets</td>
+        </tr>
+        <tr>
+          <td><span class="badge b-green">Random Forest</span></td>
+          <td style="font-size: 13px;">General-purpose, best default choice</td>
+          <td style="font-size: 13px; color: var(--accent4);">No</td>
+          <td style="font-size: 13px; color: var(--accent3);">Medium</td>
+          <td style="font-size: 13px; color: var(--accent2);">Yes</td>
+          <td style="font-size: 13px;">Slow, less interpretable</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="g2" style="margin-top: 16px; gap: 14px;">
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 6px;">Starting strategy</h3>
+        <p style="font-size: 13px;">Always start with logistic regression or linear regression as your baseline. If it fails, try a decision tree. For best performance, try random forest. Complexity is a last resort, not a first step.</p>
+      </div>
+      <div class="card card-amber">
+        <h3 style="color: var(--accent3); margin-bottom: 6px;">The golden rule of model selection</h3>
+        <p style="font-size: 13px;">The model that performs best on your <span class="hl">test set</span> is the right model — not the most mathematically sophisticated one. Simpler models that generalise well are always preferred.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 25 — KEY HYPERPARAMETERS
+══════════════════════════════════════════════ -->
+<div class="slide" id="s25">
+  <div class="section-tag">Reference</div>
+  <div class="slide-title">Hyperparameters — <em>the knobs you tune</em></div>
+  <div class="subtitle">Hyperparameters are settings you choose before training. They control the model's complexity and behaviour. The difference between a mediocre and great model is often just tuning these.</div>
+  <div class="g2" style="flex: 1; gap: 16px;">
+    <div>
+      <div class="card card-blue" style="margin-bottom: 12px; border-color: var(--accent); background: rgba(79,142,247,.07);">
+        <h3 style="color: var(--accent); margin-bottom: 8px;">Decision Tree</h3>
+        <div class="formula" style="margin: 0; font-size: 12px;">max_depth         <span class="cm"># 3–6 is usually good</span>
+min_samples_split <span class="cm"># try 10–50</span>
+min_samples_leaf  <span class="cm"># try 5–20</span>
+criterion         <span class="cm"># 'gini' or 'entropy'</span></div>
+      </div>
+      <div class="card card-green" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent2); margin-bottom: 8px;">Random Forest</h3>
+        <div class="formula" style="margin: 0; font-size: 12px; border-left-color: var(--accent2);">n_estimators      <span class="cm"># 100–500 trees</span>
+max_depth         <span class="cm"># None or 10–20</span>
+max_features      <span class="cm"># 'sqrt' (default)</span>
+oob_score         <span class="cm"># True = free validation</span></div>
+      </div>
+      <div class="card card-purple">
+        <h3 style="color: var(--accent5); margin-bottom: 8px;">Logistic Regression</h3>
+        <div class="formula" style="margin: 0; font-size: 12px; border-left-color: var(--accent5);">C                 <span class="cm"># regularisation (1.0 default)</span>
+penalty           <span class="cm"># 'l2' (ridge) or 'l1' (lasso)</span>
+class_weight      <span class="cm"># 'balanced' for imbalance</span>
+max_iter          <span class="cm"># increase if no convergence</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="card card-amber" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent3); margin-bottom: 8px;">k-NN</h3>
+        <div class="formula" style="margin: 0; font-size: 12px; border-left-color: var(--accent3);">n_neighbors       <span class="cm"># k — try 3, 5, 7, 9</span>
+metric            <span class="cm"># 'euclidean' (default)</span>
+weights           <span class="cm"># 'uniform' or 'distance'</span></div>
+      </div>
+      <div class="card card-red" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent4); margin-bottom: 8px;">How to find the best values</h3>
+        <div class="steps" style="gap: 8px;">
+          <div class="step">
+            <div class="step-num" style="background: var(--accent4); width: 22px; height: 22px; font-size: 10px;">1</div>
+            <div class="step-body"><div class="step-desc"><span class="hl-red">GridSearchCV</span> — try every combination in a defined grid. Exhaustive but reliable.</div></div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent3); width: 22px; height: 22px; font-size: 10px;">2</div>
+            <div class="step-body"><div class="step-desc"><span class="hl">RandomizedSearchCV</span> — sample random combinations. Faster for large search spaces.</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card card-green">
+        <p style="font-size: 13px;"><span class="hl-green">Cross-validation tip:</span> always use cv=5 when tuning hyperparameters. It splits data into 5 folds, trains on 4, validates on 1, rotating — gives a more reliable score than a single train/test split.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 26 — BIAS-VARIANCE TRADEOFF
+══════════════════════════════════════════════ -->
+<div class="slide" id="s26">
+  <div class="section-tag">Core Theory</div>
+  <div class="slide-title">Bias vs Variance — <em>the fundamental tradeoff</em></div>
+  <div class="subtitle">Every ML model lives somewhere on a spectrum between too simple and too complex. Understanding this tradeoff is what separates beginners from practitioners.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">HIGH BIAS (underfitting)    HIGH VARIANCE (overfitting)
+
+  y↑  ★                   y↑  ★
+     ★  ★  ★                  ★ /\ ★__/ ★
+    ★    ★   ★              ★ /   ★   \
+   ─────────────            ★/         \★
+                            
+  Straight line through      Curve through every dot
+  curved data               
+  Train error: HIGH          Train error:  NEAR ZERO
+  Test error:  HIGH          Test error:   HIGH (bad!)
+  
+THE SWEET SPOT — you want:
+  Model complex enough to capture real patterns
+  Simple enough to ignore noise
+  Measured by: low BOTH train AND test error</div>
+      <div class="card card-accent" style="margin-top: 12px;">
+        <h3 style="color: var(--accent); margin-bottom: 6px;">The formula</h3>
+        <div style="font-family: var(--mono); font-size: 12px; color: var(--text);">
+          Total Error = Bias² + Variance + Noise
+        </div>
+        <p style="font-size: 13px; margin-top: 6px;">Noise is irreducible (measurement error). You control bias and variance through model complexity and regularisation.</p>
+      </div>
+    </div>
+    <div>
+      <div class="steps" style="gap: 14px;">
+        <div class="step">
+          <div class="step-num" style="background: var(--accent4);">B</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent4);">Bias — wrong assumptions</div>
+            <div class="step-desc">The model is too simple to capture real patterns. A linear model trying to fit a curve. High bias = consistently wrong in the same direction. Symptom: high training error.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent3);">V</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent3);">Variance — too sensitive</div>
+            <div class="step-desc">The model is too complex and learns noise as if it were signal. Small changes in training data produce very different models. Symptom: great training error, poor test error.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent2);">✓</div>
+          <div class="step-body">
+            <div class="step-title" style="color: var(--accent2);">The diagnosis</div>
+            <div class="step-desc">If train error is high → bias problem, increase complexity. If test error is much higher than train error → variance problem, reduce complexity or add regularisation.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 27 — CROSS-VALIDATION
+══════════════════════════════════════════════ -->
+<div class="slide" id="s27">
+  <div class="section-tag">Core Concept</div>
+  <div class="slide-title">Cross-Validation — <em>testing more reliably</em></div>
+  <div class="subtitle">A single train/test split can be lucky or unlucky. Cross-validation repeats the process multiple times across different splits, giving a much more trustworthy evaluation.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="ascii">5-FOLD CROSS-VALIDATION
+
+Full dataset: ████████████████████████████████
+
+Fold 1: [TEST][train][train][train][train] → score 1
+Fold 2: [train][TEST][train][train][train] → score 2
+Fold 3: [train][train][TEST][train][train] → score 3
+Fold 4: [train][train][train][TEST][train] → score 4
+Fold 5: [train][train][train][train][TEST] → score 5
+
+Final score = mean(score 1, 2, 3, 4, 5)
+Also look at std dev — high std = unstable model
+
+Every sample is tested exactly once.
+Much more reliable than a single split.</div>
+      <div class="code" style="margin-top: 12px;"><span class="ck">from</span> sklearn.model_selection <span class="ck">import</span> cross_val_score
+
+scores = cross_val_score(
+    model, X, y,
+    cv=<span class="cn">5</span>,           <span class="cm"># 5 folds</span>
+    scoring=<span class="cs">'f1'</span>    <span class="cm"># or 'accuracy', 'r2', etc.</span>
+)
+<span class="cf">print</span>(<span class="cs">f"Mean F1: {scores.mean():.3f}"</span>)
+<span class="cf">print</span>(<span class="cs">f"Std dev: {scores.std():.3f}"</span>)</div>
+    </div>
+    <div>
+      <div class="card card-amber" style="margin-bottom: 14px;">
+        <h3 style="color: var(--accent3); margin-bottom: 8px;">When to use cross-validation</h3>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num" style="background: var(--accent3); width: 22px; height: 22px; font-size: 10px;">1</div>
+            <div class="step-body"><div class="step-desc">Comparing algorithms — which one genuinely performs better?</div></div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent3); width: 22px; height: 22px; font-size: 10px;">2</div>
+            <div class="step-body"><div class="step-desc">Tuning hyperparameters — avoid overfitting to the specific test split.</div></div>
+          </div>
+          <div class="step">
+            <div class="step-num" style="background: var(--accent3); width: 22px; height: 22px; font-size: 10px;">3</div>
+            <div class="step-body"><div class="step-desc">Small datasets — when you can't afford to lock away 20% for testing.</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="card card-green">
+        <h3 style="color: var(--accent2); margin-bottom: 6px;">Stratified K-Fold for classification</h3>
+        <p style="font-size: 13px;">When doing cross-validation on a classification problem, always use <span style="font-family: var(--mono); font-size: 12px; color: var(--accent2);">StratifiedKFold</span>. It ensures that each fold has the same class proportions as the full dataset — crucial when you have imbalanced classes.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 28 — DATA PREPROCESSING CHECKLIST
+══════════════════════════════════════════════ -->
+<div class="slide" id="s28">
+  <div class="section-tag">Practical Guide</div>
+  <div class="slide-title">Before You Train — <em>data preprocessing checklist</em></div>
+  <div class="subtitle">The most common reason models perform poorly is not the algorithm — it's the data going into it. These steps apply to almost every project.</div>
+  <div class="g2" style="flex: 1; gap: 18px;">
+    <div>
+      <div class="steps" style="gap: 12px;">
+        <div class="step">
+          <div class="step-num" style="background: var(--accent);">1</div>
+          <div class="step-body">
+            <div class="step-title">Check for missing values</div>
+            <div class="step-desc">Use <span style="font-family: var(--mono); font-size: 11px; color: var(--accent);">df.isnull().sum()</span>. Impute with mean/median or drop rows. Never let NaN values silently propagate through your model.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent2);">2</div>
+          <div class="step-body">
+            <div class="step-title">Check class balance</div>
+            <div class="step-desc">Use <span style="font-family: var(--mono); font-size: 11px; color: var(--accent2);">y.value_counts()</span>. If severely imbalanced, use <span style="font-family: var(--mono); font-size: 11px; color: var(--accent2);">class_weight='balanced'</span> or SMOTE oversampling.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent3);">3</div>
+          <div class="step-body">
+            <div class="step-title">Scale numerical features</div>
+            <div class="step-desc"><span style="font-family: var(--mono); font-size: 11px; color: var(--accent3);">StandardScaler</span> (zero mean, unit variance) for logistic regression and k-NN. Not needed for trees.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent4);">4</div>
+          <div class="step-body">
+            <div class="step-title">Handle outliers</div>
+            <div class="step-desc">Outliers corrupt logistic regression weights. Use IQR clipping or <span style="font-family: var(--mono); font-size: 11px; color: var(--accent4);">RobustScaler</span> which is robust to outliers.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background: var(--accent5);">5</div>
+          <div class="step-body">
+            <div class="step-title">Encode categorical features</div>
+            <div class="step-desc"><span style="font-family: var(--mono); font-size: 11px; color: var(--accent5);">LabelEncoder</span> for ordinal, <span style="font-family: var(--mono); font-size: 11px; color: var(--accent5);">OneHotEncoder</span> for nominal. Models only understand numbers.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card card-red" style="margin-bottom: 12px;">
+        <h3 style="color: var(--accent4); margin-bottom: 6px;">The most common mistake</h3>
+        <div class="ascii" style="font-size: 11px; margin-top: 6px;">WRONG — data leakage:
+  scaler.fit_transform(X)      ← fits on ALL data
+  X_train, X_test = split(X)  ← test info leaked!
+
+RIGHT — fit on train only:
+  X_train, X_test = split(X)
+  scaler.fit(X_train)          ← learn from train
+  X_train = scaler.transform(X_train)
+  X_test  = scaler.transform(X_test)  ← apply same</div>
+      </div>
+      <div class="card card-purple">
+        <h3 style="color: var(--accent5); margin-bottom: 6px;">Use Pipeline to prevent this</h3>
+        <div class="code" style="font-size: 11px;">pipe = Pipeline([
+    (<span class="cs">'scale'</span>, StandardScaler()),
+    (<span class="cs">'model'</span>, LogisticRegression())
+])
+pipe.fit(X_train, y_train) <span class="cm"># safe!</span>
+pipe.predict(X_test)        <span class="cm"># safe!</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 29 — MATH CHEAT SHEET
+══════════════════════════════════════════════ -->
+<div class="slide" id="s29">
+  <div class="section-tag">Reference</div>
+  <div class="slide-title">Mathematics Cheat Sheet</div>
+  <div class="subtitle">Every formula from both days in one place. Bookmark this slide.</div>
+  <div class="g2" style="flex: 1; gap: 14px; overflow-y: auto;">
+    <div>
+      <div style="font-size: 11px; font-family: var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Regression</div>
+      <div class="formula" style="font-size: 12px; line-height: 1.9;">Linear:   <span class="kw">ŷ = w₀ + w₁x₁ + ... + wₙxₙ</span>
+Poly:     <span class="kw">ŷ = w₀ + w₁x + w₂x² + w₃x³</span>
+MSE:      <span class="kw">(1/n) × Σ (yᵢ − ŷᵢ)²</span>
+RMSE:     <span class="kw">√MSE</span>
+R²:       <span class="kw">1 − MSE(model) / MSE(baseline)</span>
+<span class="cm">R²=1 perfect, R²=0 useless, R²&lt;0 worse than mean</span></div>
+
+      <div style="font-size: 11px; font-family: var(--mono); color: var(--accent5); text-transform: uppercase; letter-spacing: 0.1em; margin: 12px 0 8px;">Decision Trees</div>
+      <div class="formula" style="font-size: 12px; line-height: 1.9; border-left-color: var(--accent5);">Gini:     <span class="kw">1 − Σ pᵢ²</span>
+Binary:   <span class="kw">2p(1−p)</span>   <span class="cm">(0=pure, 0.5=mixed)</span>
+Entropy:  <span class="kw">−Σ pᵢ × log₂(pᵢ)</span>
+G. Gain:  <span class="kw">Gini(parent) − Σ(nₖ/n)×Gini(child k)</span></div>
+
+      <div style="font-size: 11px; font-family: var(--mono); color: var(--accent2); text-transform: uppercase; letter-spacing: 0.1em; margin: 12px 0 8px;">Ensemble</div>
+      <div class="formula" style="font-size: 12px; line-height: 1.9; border-left-color: var(--accent2);">RF Predict: <span class="kw">majority vote across n trees</span>
+Feature Im: <span class="kw">Σ (nₛ/n) × Gini_gain per node</span></div>
+    </div>
+    <div>
+      <div style="font-size: 11px; font-family: var(--mono); color: var(--accent3); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px;">Classification</div>
+      <div class="formula" style="font-size: 12px; line-height: 1.9; border-left-color: var(--accent3);">Sigmoid:   <span class="kw">σ(z) = 1 / (1 + e⁻ᶻ)</span>
+Log Loss:  <span class="kw">−[y·log(ŷ) + (1−y)·log(1−ŷ)]</span>
+k-NN dist: <span class="kw">√(Σ (xᵢ−yᵢ)²)</span>  <span class="cm">(Euclidean)</span></div>
+
+      <div style="font-size: 11px; font-family: var(--mono); color: var(--accent4); text-transform: uppercase; letter-spacing: 0.1em; margin: 12px 0 8px;">Evaluation Metrics</div>
+      <div class="formula" style="font-size: 12px; line-height: 1.9; border-left-color: var(--accent4);">Accuracy:  <span class="kw">(TP + TN) / (TP+TN+FP+FN)</span>
+Precision: <span class="kw">TP / (TP + FP)</span>
+Recall:    <span class="kw">TP / (TP + FN)</span>
+F1 Score:  <span class="kw">2 × P × R / (P + R)</span>
+
+<span class="cm">TP = True Positive   FP = False Positive</span>
+<span class="cm">TN = True Negative   FN = False Negative</span></div>
+
+      <div style="font-size: 11px; font-family: var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: 0.1em; margin: 12px 0 8px;">Bias-Variance</div>
+      <div class="formula" style="font-size: 12px; border-left-color: var(--accent);">Total Error = <span class="kw">Bias² + Variance + Noise</span>
+<span class="cm">High bias → underfit → increase complexity</span>
+<span class="cm">High variance → overfit → reduce complexity</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     SLIDE 30 — FINAL SUMMARY
+══════════════════════════════════════════════ -->
+<div class="slide" id="s30">
+  <div class="hero-grid">
+    <svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+      <defs><pattern id="g2" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="0.5"/></pattern></defs>
+      <rect width="1200" height="700" fill="url(#g2)"/>
+    </svg>
+  </div>
+  <div class="section-tag">Summary · Days 1 &amp; 2</div>
+  <div class="slide-title" style="margin-bottom: 16px;">What you've <em>mastered</em></div>
+  <div class="g2" style="gap: 14px; flex: 1; align-content: start;">
+    <div>
+      <div style="font-size: 12px; font-family: var(--mono); color: var(--accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px;">Day 1 · Regression</div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent2); font-size: 16px;">✓</span>
+          <span>What supervised learning is and why labels matter</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent2); font-size: 16px;">✓</span>
+          <span>Linear regression: ŷ = w₀ + w₁x and how training finds w₀, w₁</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent2); font-size: 16px;">✓</span>
+          <span>Polynomial regression: when and how to add x², x³ features</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent2); font-size: 16px;">✓</span>
+          <span>MSE = measure of error size; R² = how much better than guessing</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent2); font-size: 16px;">✓</span>
+          <span>Train/test split: always hide the test set until after training</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent2); font-size: 16px;">✓</span>
+          <span>The scikit-learn API: create → fit() → predict() for everything</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size: 12px; font-family: var(--mono); color: var(--accent3); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px;">Day 2 · Classification</div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent3); font-size: 16px;">✓</span>
+          <span>Logistic regression: sigmoid turns any number into a probability</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent3); font-size: 16px;">✓</span>
+          <span>Decision trees: Gini impurity guides every split; depth controls overfitting</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent3); font-size: 16px;">✓</span>
+          <span>k-NN: majority vote among k nearest neighbours; always scale first</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent3); font-size: 16px;">✓</span>
+          <span>Random forests: ensemble of trees beats any single tree</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent3); font-size: 16px;">✓</span>
+          <span>Confusion matrix: TP/TN/FP/FN — accuracy lies with imbalanced data</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 13px;">
+          <span style="color: var(--accent3); font-size: 16px;">✓</span>
+          <span>Precision vs recall tradeoff: choose based on cost of each error type</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card card-green" style="margin-top: 18px;">
+    <p style="font-size: 14px; text-align: center;">
+      <span class="hl-green">The most important insight:</span> a simple model that generalises is always better than a complex model that memorises. 
+      Master the fundamentals, then the advanced methods become easy.
+    </p>
+  </div>
+</div>
+
+</div><!-- end deck -->
+
+<!-- ══════ NAV BAR ══════ -->
+<div class="nav-bar" id="navBar">
+  <button onclick="go(-1)" title="Previous (← key)">&#8592;</button>
+  <span class="counter" id="counter">1 / 30</span>
+  <button onclick="go(1)" title="Next (→ key)">&#8594;</button>
+  <div style="width:1px;height:18px;background:rgba(255,255,255,0.14);margin:0 2px;"></div>
+  <select id="jumpMenu" onchange="goTo(parseInt(this.value))"
+    style="background:#111827;border:1px solid rgba(255,255,255,0.12);color:rgba(100,116,139,1);font-family:monospace;font-size:11px;cursor:pointer;max-width:160px;outline:none;border-radius:6px;padding:2px 4px;">
+    <option value="0">1. Title</option>
+    <option value="1">2. What is ML?</option>
+    <option value="2">3. Supervised Learning</option>
+    <option value="3">4. What is Regression?</option>
+    <option value="4">5. Linear Regression Math</option>
+    <option value="5">6. MSE &amp; R&#178;</option>
+    <option value="6">7. Polynomial Regression</option>
+    <option value="7">8. scikit-learn API</option>
+    <option value="8">9. Train / Test Split</option>
+    <option value="9">10. Full Regression Code</option>
+    <option value="10">11. What is Classification?</option>
+    <option value="11">12. Logistic Regression</option>
+    <option value="12">13. Decision Trees</option>
+    <option value="13">14. Gini Impurity Math</option>
+    <option value="14">15. Tree Overfitting</option>
+    <option value="15">16. k-Nearest Neighbours</option>
+    <option value="16">17. Confusion Matrix</option>
+    <option value="17">18. Precision, Recall &amp; F1</option>
+    <option value="18">19. Random Forests</option>
+    <option value="19">20. RF Deep Math</option>
+    <option value="20">21. Logistic Regression Errors</option>
+    <option value="21">22. Fault Classification</option>
+    <option value="22">23. Full Classification Code</option>
+    <option value="23">24. Algorithm Comparison</option>
+    <option value="24">25. Hyperparameters</option>
+    <option value="25">26. Bias vs Variance</option>
+    <option value="26">27. Cross-Validation</option>
+    <option value="27">28. Preprocessing Checklist</option>
+    <option value="28">29. Math Cheat Sheet</option>
+    <option value="29">30. Summary</option>
+  </select>
+</div>
+
+<script>
+let cur = 0;
+const slides = document.querySelectorAll('.slide');
+const total = slides.length;
+
+document.getElementById('counter').textContent = '1 / ' + total;
+document.getElementById('progress').style.width = (1 / total * 100) + '%';
+
+function goTo(index) {
+  if (index < 0 || index >= total) return;
+  slides[cur].classList.remove('active');
+  slides[cur].classList.add('prev');
+  const prev = cur;
+  setTimeout(() => slides[prev].classList.remove('prev'), 420);
+  cur = index;
+  slides[cur].classList.add('active');
+  document.getElementById('counter').textContent = (cur + 1) + ' / ' + total;
+  document.getElementById('progress').style.width = ((cur + 1) / total * 100) + '%';
+  const menu = document.getElementById('jumpMenu');
+  if (menu) menu.value = cur;
+}
+
+function go(dir) { goTo(cur + dir); }
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); go(1); }
+  if (e.key === 'ArrowLeft'  || e.key === 'PageUp')                     { e.preventDefault(); go(-1); }
+  if (e.key === 'Home') goTo(0);
+  if (e.key === 'End')  goTo(total - 1);
+});
+
+let touchStartX = 0;
+document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, {passive:true});
+document.addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].screenX - touchStartX;
+  if (Math.abs(dx) > 50) go(dx < 0 ? 1 : -1);
+}, {passive:true});
+
+document.querySelector('.deck').addEventListener('click', e => {
+  if (e.target.closest('.nav-bar, button, input, a')) return;
+  const w = window.innerWidth;
+  if (e.clientX < w * 0.18) go(-1);
+  else if (e.clientX > w * 0.82) go(1);
+});
+</script>
+</body>
+</html>

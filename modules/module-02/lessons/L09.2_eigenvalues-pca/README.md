@@ -1,0 +1,78 @@
+# Eigenvalues and Principal Component Analysis
+## Comprehensive Learning Guide
+
+## Eigenvalues and Eigenvectors
+
+Eigenvectors are special vectors only stretched without changing direction.
+
+Eigenvalues reveal how much stretching happens in each eigenvector direction.
+
+The characteristic polynomial det(A - λI) has roots equal to the eigenvalues.
+
+Symmetric matrices have special properties enabling diagonalization and decomposition.
+
+## Singular Value Decomposition (SVD)
+
+SVD extends eigendecomposition to rectangular matrices: A = U @ Σ @ V^T.
+
+Singular values measure how much the matrix stretches vectors in directions.
+
+SVD reveals the rank of a matrix through non-zero singular values.
+
+SVD simplifies many problems: least-squares, approximation, compression.
+
+## Principal Component Analysis (PCA)
+
+PCA reduces dimensionality while preserving as much variance as possible.
+
+Principal components are directions ordered by variance they capture.
+
+Projecting onto principal components reduces dimensionality efficiently.
+
+Practical PCA requires careful scaling and selection of component numbers.
+
+
+## Advanced Dimensionality Reduction
+
+Kernel PCA handles non-linear patterns unlike linear PCA.
+
+Independent Component Analysis finds independent sources.
+
+Factor Analysis models shared variance between variables.
+
+Multidimensional Scaling preserves pairwise distances.
+
+t-SNE visualizes high-dimensional data revealing clusters.
+
+UMAP offers scalable alternative to t-SNE.
+
+
+## Feature Selection Methods
+
+Variance-based selection removes low-variance features.
+
+Correlation-based selection removes highly correlated features.
+
+Information-based selection uses mutual information.
+
+Recursive feature elimination iteratively removes features.
+
+Model-based selection uses feature importances from fitted models.
+
+Wrapper methods evaluate subsets with cross-validation.
+
+
+## Applications and Interpretability
+
+PCA for visualization reduces to 2D or 3D for plotting.
+
+PCA for noise reduction filters out small variance components.
+
+Visualization of principal components reveals feature relationships.
+
+Explained variance guides selection of component count.
+
+Loadings show how original features contribute to components.
+
+Score plots show projections of samples onto components.
+

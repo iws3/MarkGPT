@@ -1,0 +1,60 @@
+# MarkGPT LLM Curriculum — Python Dependencies
+# Install with: pip install -r requirements.txt
+#
+# Minimum required: Python 3.10+
+# Recommended: Python 3.11
+
+# ── Core Deep Learning ──────────────────────────────────────────────────────
+torch>=2.0.0                 # PyTorch: the deep learning framework for all modules
+torchvision>=0.15.0          # Needed for a few vision exercises (optional)
+
+# ── Data & Tokenization ────────────────────────────────────────────────────
+tokenizers>=0.15.0           # HuggingFace BPE tokenizer (Module 05, 09)
+datasets>=2.14.0             # HuggingFace datasets for loading Bible corpus
+sentencepiece>=0.1.99        # SentencePiece tokenizer (used in Module 09 comparison)
+transformers>=4.35.0         # For loading pretrained models in Module 08
+
+# ── Scientific Python ──────────────────────────────────────────────────────
+numpy>=1.24.0                # Numerical operations (Module 02+)
+scipy>=1.11.0                # Scientific computing utilities
+pandas>=2.0.0                # Dataframe operations, CSV handling
+
+# ── Visualization ──────────────────────────────────────────────────────────
+matplotlib>=3.7.0            # Plotting loss curves, attention weights
+seaborn>=0.12.0              # Statistical visualizations
+bertviz>=1.4.0               # Attention visualization (Module 06, Day 33)
+
+# ── Natural Language Processing ────────────────────────────────────────────
+nltk>=3.8.0                  # Classic NLP toolkit (Module 05)
+spacy>=3.6.0                 # Tokenization, NER (Module 05)
+
+# ── Experiment Tracking ────────────────────────────────────────────────────
+wandb>=0.15.0                # Weights & Biases experiment tracking (Modules 07-10)
+# Alternative: tensorboard>=2.14.0 (if you prefer TensorBoard)
+
+# ── Parameter-Efficient Fine-Tuning ───────────────────────────────────────
+peft>=0.6.0                  # LoRA and other PEFT methods (Module 08)
+
+# ── Deployment & Demo ─────────────────────────────────────────────────────
+gradio>=4.0.0                # Web UI for MarkGPT demo (Day 59)
+
+# ── Utilities ────────────────────────────────────────────────────────────
+pyyaml>=6.0                  # YAML config file parsing
+tqdm>=4.66.0                 # Progress bars for training loops
+rich>=13.0.0                 # Beautiful terminal output
+requests>=2.31.0             # HTTP requests for data downloading
+python-dotenv>=1.0.0         # Environment variable management
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────
+jupyter>=1.0.0               # Jupyter notebook server
+ipywidgets>=8.0.0            # Interactive widgets in notebooks
+notebook>=7.0.0              # Classic notebook interface
+
+# ── Testing ───────────────────────────────────────────────────────────────
+pytest>=7.4.0                # Unit test framework
+pytest-cov>=4.1.0            # Test coverage reporting
+
+# ── Code Quality ──────────────────────────────────────────────────────────
+black>=23.0.0                # Code formatter
+ruff>=0.1.0                  # Fast Python linter
+mypy>=1.5.0                  # Static type checking

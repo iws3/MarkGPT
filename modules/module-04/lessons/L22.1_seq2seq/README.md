@@ -1,0 +1,61 @@
+# Sequence-to-Sequence Models
+## Comprehensive Learning Guide
+
+## Seq2Seq Framework
+
+Sequence-to-sequence models map input sequences to outputs.
+
+Encoder RNN processes input sequence to fixed representation.
+
+Context vector summarizes entire input in fixed dimension.
+
+Decoder RNN generates output sequence from context.
+
+Separate encoder and decoder enable asymmetric processing.
+
+Applicable to translation, summarization, question answering.
+
+## Encoder-Decoder Pattern
+
+Encoder compresses variable length input to fixed size.
+
+Final hidden state becomes context for decoder.
+
+Decoder starts with context vector as initial state.
+
+Decoder generates outputs one timestep at a time.
+
+Teacher forcing provides ground truth during training.
+
+Beam search explores multiple hypotheses at inference.
+
+## Training Considerations
+
+Encoder fully processes input before decoder starts.
+
+Context vector is bottleneck for information transfer.
+
+Limited context causes loss of important information.
+
+Attention mechanisms mitigate context bottleneck.
+
+Different encoding and decoding vocabulary possible.
+
+Shared embeddings sometimes improve performance.
+
+## Advanced Seq2Seq Techniques
+
+Multi-layer seq2seq networks encode hierarchy.
+
+Bidirectional encoders use both directions.
+
+Attention-based decoding enables input focus.
+
+Bucketing sequences reduces padding overhead.
+
+Scheduled sampling curriculum improves decoding.
+
+Multiple decoders model different output aspects.
+
+Hierarchical decoding generates multi-level outputs.
+
