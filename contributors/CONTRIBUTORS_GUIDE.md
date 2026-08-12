@@ -151,7 +151,7 @@ git remote add upstream https://github.com/ORIGINAL-REPO-URL/MarkGPT-LLM-Curricu
 git fetch upstream
 
 # Rebase your changes on top (synchronizes your work)
-git rebase upstream/main
+git rebase upstream/master
 
 # If there are conflicts, resolve them (your editor will help), then:
 # git add .
@@ -314,7 +314,7 @@ contributors/YOUR-USERNAME/module-02/COMMON_ISSUES.md
    ```bash
    # Regularly sync with the main repository
    git fetch upstream
-   git rebase upstream/main
+   git rebase upstream/master
    git push origin main
    ```
 

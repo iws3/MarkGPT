@@ -30,7 +30,7 @@ git fetch upstream
 ```bash
 # Create branch from latest main
 git fetch upstream
-git checkout -b feature/your-feature-name upstream/main
+git checkout -b feature/your-feature-name upstream/master
 
 # Branch naming:
 # - feature/short-description (new feature)
