@@ -126,7 +126,7 @@ Always create a new branch for your changes. Use a descriptive name:
 ```bash
 # Sync with upstream first
 git fetch upstream
-git checkout upstream/main
+git checkout upstream/master
 
 # Create your feature branch
 git checkout -b feat/module-05-tokenization-lesson
@@ -391,7 +391,7 @@ The Bible corpus is stored as binary files of uint16 token IDs for fast loading.
 
 Before submitting a PR, ensure:
 
-- [ ] **Branch is up to date** with upstream/main
+- [ ] **Branch is up to date** with upstream/master
 - [ ] **Tests pass**: `pytest tests/ -v`
 - [ ] **Code is formatted**: `black src/ tests/` and `ruff check --fix src/ tests/`
 - [ ] **Type checking passes**: `mypy src/` (if applicable)
@@ -413,7 +413,7 @@ ruff check src/ tests/
 mypy src/
 
 # List commits in your branch
-git log upstream/main..HEAD --oneline
+git log upstream/master..HEAD --oneline
 ```
 
 ---

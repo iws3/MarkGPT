@@ -95,7 +95,7 @@ git branch your-feature-branch
 
 # Reset main to upstream
 git checkout main
-git reset --hard upstream/main
+git reset --hard upstream/master
 
 # Switch to your feature branch
 git checkout your-feature-branch
@@ -189,7 +189,7 @@ git rebase -i HEAD~3
 git fetch upstream
 
 # Rebase your work on top
-git rebase upstream/main
+git rebase upstream/master
 
 # If you have conflicts, resolve them manually, then:
 git add .
@@ -331,7 +331,7 @@ git remote add upstream https://github.com/ORIGINAL/MarkGPT-LLM-Curriculum.git
 
 # Workflow
 git fetch upstream
-git checkout -b feat/your-feature upstream/main
+git checkout -b feat/your-feature upstream/master
 # ... make changes ...
 git add .
 git commit -m "feat: your change"
@@ -339,7 +339,7 @@ git push origin feat/your-feature
 
 # Sync
 git fetch upstream
-git rebase upstream/main
+git rebase upstream/master
 git push origin feat/your-feature --force-with-lease
 
 # View history
