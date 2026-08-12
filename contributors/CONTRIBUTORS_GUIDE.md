@@ -145,7 +145,7 @@ Before you submit your changes, make sure you have the latest version of the mai
 
 ```bash
 # Add the original repository as "upstream"
-git remote add upstream https://github.com/ORIGINAL-REPO-URL/MarkGPT-LLM-Curriculum.git
+git remote add upstream https://github.com/iws3/MarkGPT.git
 
 # Fetch the latest changes from the original
 git fetch upstream
