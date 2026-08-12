@@ -11,7 +11,7 @@ If you use MarkGPT in research or production, please cite this work:
   title={MarkGPT: A 60-Day LLM Curriculum with Multilingual Support},
   author={IWS Technical},
   year={2024},
-  url={https://github.com/iwstechnical/MarkGPT-LLM-Curriculum},
+  url={https://github.com/iws3/MarkGPT},
   note={Educational curriculum for understanding and building language models}
 }
 ```
@@ -31,21 +31,21 @@ If you use MarkGPT in research or production, please cite this work:
 
 ```
 IWS Technical. (2024). MarkGPT: A 60-day LLM curriculum with multilingual support. 
-GitHub Repository. Retrieved from https://github.com/iwstechnical/MarkGPT-LLM-Curriculum
+GitHub Repository. Retrieved from https://github.com/iws3/MarkGPT
 ```
 
 ## MLA Citation
 
 ```
 IWS Technical. "MarkGPT: A 60-Day LLM Curriculum with Multilingual Support." 
-GitHub, 2024, github.com/iwstechnical/MarkGPT-LLM-Curriculum.
+GitHub, 2024, github.com/iws3/MarkGPT.
 ```
 
 ## Chicago Citation
 
 ```
 IWS Technical. "MarkGPT: A 60-Day LLM Curriculum with Multilingual Support." 
-GitHub, accessed [Date], https://github.com/iwstechnical/MarkGPT-LLM-Curriculum.
+GitHub, accessed [Date], https://github.com/iws3/MarkGPT.
 ```
 
 ## Using Our Models
@@ -58,7 +58,7 @@ If you use MarkGPT pre-trained models, cite both the curriculum and the original
   title={MarkGPT: A 60-Day LLM Curriculum with Multilingual Support},
   author={IWS Technical},
   year={2024},
-  url={https://github.com/iwstechnical/MarkGPT-LLM-Curriculum}
+  url={https://github.com/iws3/MarkGPT}
 }
 
 % Transformer architecture
@@ -99,7 +99,7 @@ If you use our datasets, cite appropriately:
   author={Banso Language Community and MarkGPT Project},
   year={2024},
   note={Created with informed consent; CC-BY-4.0 License},
-  url={https://github.com/iwstechnical/MarkGPT-LLM-Curriculum/data}
+  url={https://github.com/iws3/MarkGPT/data}
 }
 ```
 
@@ -203,4 +203,4 @@ Use BibTeX citations directly in Overleaf projects.
 
 **Citation Version**: 1.0
 **Last Updated**: 2024
-**Repository**: https://github.com/iwstechnical/MarkGPT-LLM-Curriculum
+**Repository**: https://github.com/iws3/MarkGPT

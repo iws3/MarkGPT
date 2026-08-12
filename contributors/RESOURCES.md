@@ -235,7 +235,7 @@ Week 4: Become a Regular
 ## Staying Updated
 
 ### Follow Project Changes
-- **GitHub Star** — https://github.com/iwstechnical/MarkGPT-LLM-Curriculum
+- **GitHub Star** — https://github.com/iws3/MarkGPT
   - Get notifications for releases
   - Track new issues
 
