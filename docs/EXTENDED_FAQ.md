@@ -5,7 +5,7 @@
 ### Q: How do I install MarkGPT on my system?
 **A:** See [INSTALL.md](INSTALL.md) for platform-specific instructions. Quick start:
 ```bash
-git clone https://github.com/iwstechnical/MarkGPT-LLM-Curriculum
+git clone https://github.com/iws3/MarkGPT
 cd MarkGPT-LLM-Curriculum
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -248,7 +248,7 @@ tokens_banso = tokenizer.encode(banso_text)
 ## Community & Support
 
 ### Q: How do I report a bug?
-**A:** Create an issue on [GitHub](https://github.com/iwstechnical/MarkGPT-LLM-Curriculum/issues) with:
+**A:** Create an issue on [GitHub](https://github.com/iws3/MarkGPT/issues) with:
 - Title describing the issue
 - Steps to reproduce
 - Expected vs actual behavior

@@ -26,7 +26,7 @@ Comprehensive installation instructions for MarkGPT on various platforms and con
 
 ```bash
 # Clone repository
-git clone https://github.com/iwstechnical/MarkGPT-LLM-Curriculum.git
+git clone https://github.com/iws3/MarkGPT.git
 cd MarkGPT-LLM-Curriculum
 
 # Create virtual environment
@@ -93,7 +93,7 @@ sudo apt-get install python3.11 python3-pip python3-venv build-essential
 sudo apt-get install nvidia-driver-525 nvidia-cuda-toolkit-11.8
 
 # Clone and setup
-git clone https://github.com/iwstechnical/MarkGPT-LLM-Curriculum.git
+git clone https://github.com/iws3/MarkGPT.git
 cd MarkGPT-LLM-Curriculum
 python3.11 -m venv venv
 source venv/bin/activate

@@ -158,22 +158,22 @@ Once you reach a level, proudly display your badge!
 
 ### Bronze Badge
 ```markdown
-[![MarkGPT Bronze Contributor](https://img.shields.io/badge/MarkGPT-Bronze%20Contributor-CD7F32?logo=github)](https://github.com/iwstechnical/MarkGPT-LLM-Curriculum/blob/main/CONTRIBUTORS.md)
+[![MarkGPT Bronze Contributor](https://img.shields.io/badge/MarkGPT-Bronze%20Contributor-CD7F32?logo=github)](https://github.com/iws3/MarkGPT/blob/main/CONTRIBUTORS.md)
 ```
 
 ### Silver Badge
 ```markdown
-[![MarkGPT Silver Contributor](https://img.shields.io/badge/MarkGPT-Silver%20Contributor-C0C0C0?logo=github)](https://github.com/iwstechnical/MarkGPT-LLM-Curriculum/blob/main/CONTRIBUTORS.md)
+[![MarkGPT Silver Contributor](https://img.shields.io/badge/MarkGPT-Silver%20Contributor-C0C0C0?logo=github)](https://github.com/iws3/MarkGPT/blob/main/CONTRIBUTORS.md)
 ```
 
 ### Gold Badge
 ```markdown
-[![MarkGPT Gold Contributor](https://img.shields.io/badge/MarkGPT-Gold%20Contributor-FFD700?logo=github)](https://github.com/iwstechnical/MarkGPT-LLM-Curriculum/blob/main/CONTRIBUTORS.md)
+[![MarkGPT Gold Contributor](https://img.shields.io/badge/MarkGPT-Gold%20Contributor-FFD700?logo=github)](https://github.com/iws3/MarkGPT/blob/main/CONTRIBUTORS.md)
 ```
 
 ### Platinum Badge
 ```markdown
-[![MarkGPT Platinum Contributor](https://img.shields.io/badge/MarkGPT-Platinum%20Contributor-E5E4E2?logo=github&logoColor=2F3135)](https://github.com/iwstechnical/MarkGPT-LLM-Curriculum/blob/main/CONTRIBUTORS.md)
+[![MarkGPT Platinum Contributor](https://img.shields.io/badge/MarkGPT-Platinum%20Contributor-E5E4E2?logo=github&logoColor=2F3135)](https://github.com/iws3/MarkGPT/blob/main/CONTRIBUTORS.md)
 ```
 
 Add to your README, portfolio, or LinkedIn!

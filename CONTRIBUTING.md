@@ -115,7 +115,7 @@ cd MarkGPT-LLM-Curriculum
 Keep your fork in sync with the main repository:
 
 ```bash
-git remote add upstream https://github.com/iwstechnical/MarkGPT-LLM-Curriculum.git
+git remote add upstream https://github.com/iws3/MarkGPT.git
 git fetch upstream
 ```
 
