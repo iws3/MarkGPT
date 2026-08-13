@@ -48,6 +48,9 @@ data/processed/*.bin
 !configs/*.json
 *.parquet
 
+# Allow CSVs in specific contributor module folders
+!contributors/gita/module-05/neural_nets/1_ann/*.csv
+
 # Notebooks
 .ipynb_checkpoints/
 *.ipynb_checkpoints
