@@ -1,5 +1,10 @@
-from config import LLAMA, GEMINI, DEFAULT_TEMPERATURE
+from config import DEFAULT_MODEL, DEFAULT_TEMPERATURE
 from langchain.chat_models import init_chat_model
+import os
 
-def llm(model:str, temperature:str=DEFAULT_TEMPERATURE):
-    return init_chat_model(model=model, temperature=temperature)
+from  dotenv import load_dotenv
+load_dotenv()
+
+
+def get_model(model_name:str):
+    return init_chat_model(model_name, temperature=DEFAULT_TEMPERATURE)
