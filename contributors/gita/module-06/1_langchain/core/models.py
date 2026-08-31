@@ -7,4 +7,9 @@ load_dotenv()
 
 
 def get_model(model_name:str):
+    """
+    TAKES IN ONE PARAMERTER 
+    @param: model_name
+    """
+    
     return init_chat_model(model_name, temperature=DEFAULT_TEMPERATURE)
