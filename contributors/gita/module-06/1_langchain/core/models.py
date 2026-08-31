@@ -6,7 +6,7 @@ from  dotenv import load_dotenv
 load_dotenv()
 
 
-def get_model(model_name:str):
+def get_model(model_name:str=DEFAULT_MODEL):
     """
     TAKES IN ONE PARAMERTER 
     @param: model_name
