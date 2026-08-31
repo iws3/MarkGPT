@@ -23,39 +23,102 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
+# Virtual environments & Secrets
 venv/
 ENV/
 env/
+.venv/
 .venv
 .env
+.env.*
+*.env
+*.env.*
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+secrets.toml
+.streamlit/secrets.toml
 
-# PyTorch & ML
+# PyTorch, TensorFlow, Keras, Scikit-Learn & ML Models / Weights
 *.pt
 *.pth
+*.pwf
+*.onnx
+*.pb
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+*.gguf
+*.ggml
+*.ckpt
+*.model
+*.weights
+*.caffemodel
+*.dill
+*.mar
 checkpoints/
 runs/
 wandb/
-*.onnx
-*.pb
 
-# Data
+# Data & Datasets
 data/raw/
 data/processed/*.bin
 *.csv
 *.tsv
 *.json
 !configs/*.json
+!**/.vscode/*.json
+!**/package.json
+!**/tsconfig.json
 *.parquet
+*.feather
+*.arrow
+*.npy
+*.npz
+*.tar.gz
+*.tgz
+*.gz
+*.zip
+*.7z
+*.rar
+*.tar
+cifar-10-batches-py/
+**/cifar-10-batches-py/
+**/cifar-10-batches-py/**
+**/MNIST/raw/**
 
-# Allow CSVs in specific contributor module folders
-!contributors/gita/module-05/neural_nets/1_ann/*.csv
+# Contributors specific large dataset / generated ML artifacts
+contributors/**/neural_nets/**/*.keras
+contributors/**/neural_nets/**/*.h5
+contributors/**/neural_nets/**/*.pkl
+contributors/**/neural_nets/**/*.npy
+contributors/**/neural_nets/**/*.npz
+contributors/**/neural_nets/**/*.gz
+contributors/**/neural_nets/**/*.tar.gz
+contributors/**/neural_nets/**/*.png
+contributors/**/neural_nets/**/*.jpg
+contributors/**/neural_nets/**/*.jpeg
+contributors/**/neural_nets/**/*.gif
+contributors/**/neural_nets/**/cifar-10-batches-py/**
+contributors/**/neural_nets/**/data/**
+contributors/**/neural_nets/**/transfer_learning/**
+contributors/**/neural_nets/house_price_results.png
+contributors/**/ui-ai/**
+contributors/**/module-3/titanic/**
+contributors/**/module-3/data/**
 
-# Notebooks
+# Notebooks & Checkpoints
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+**/.ipynb_checkpoints/**
 
-# IDEs
+# IDEs & Editors
 .vscode/
 .idea/
 *.swp
@@ -71,18 +134,18 @@ Thumbs.db
 .AppleDouble
 .LSOverride
 
-# Mypy
+# Mypy & Typing
 .mypy_cache/
 .dmypy.json
 dmypy.json
 
-# Pytest
+# Pytest & Coverage
 .pytest_cache/
 htmlcov/
 .coverage
 .coverage.*
 
-# Black, ruff, pre-commit
+# Linting & Formatting
 .ruff_cache/
 
 # Logs
