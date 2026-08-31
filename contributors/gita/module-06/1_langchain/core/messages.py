@@ -15,11 +15,22 @@ model=get_model(DEFAULT_MODEL)
 # print(result.content)
 
 
-messages=[
-    SystemMessage("you are helpfull assistant that translate English to French"),
-    HumanMessage("Who is the GOAT of football?")
+# messages=[
+#     SystemMessage("you are helpfull assistant that translate English to French"),
+#     HumanMessage("Who is the GOAT of football?")
     
-]
+# ]
 
-respnse=model.invoke(messages)
-print(respnse)
+# respnse=model.invoke(messages)
+# print(respnse)
+
+# model.invoke("Why do parrots talk?")
+
+message=model.invoke([
+    {"role":"system", "content":"you are a poetry expert"},
+    {"role":"user", "content":"Write about Messi losing 2014 world cup"}
+])
+
+print(message)
+
+
