@@ -5,6 +5,9 @@ DEFAULT_TEMPERATURE=0.5
 CHUNK_SIZE=800
 CHUNK_OVERLAP=100
 
+
+
 # https://aistudio.google.com/api-keys
 # pip install langchain-openrouter
-# pip install langchain-google-genai langchain-groq langchain-openai
+# pip install langchain-google-genai langchain-groq langchain-openai:
+# code reusabilty
