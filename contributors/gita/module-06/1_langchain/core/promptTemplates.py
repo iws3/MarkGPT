@@ -1,27 +1,32 @@
+# get the model in and make sure it works
+from .models import create_model
+from config import QWEN
 from langchain_core.prompts import ChatPromptTemplate
-from pydantic import BaseModel, Field
-from .models import get_model
-from config import DEFAULT_MODEL
-prompt=ChatPromptTemplate.from_messages([
-    ("system", "you are a coincise teacher for an ai bootcamp. Answer in {max_sentence} sentences or fewer"),
-    
-    ("human", "{question}")
-])
-model=get_model(DEFAULT_MODEL)
-# A prompt template itself is runnable
-# we need to use a chain
-class ActionItem(BaseModel):
-    task:str=Field(description="What needs to be done")
-    owner:str=Field(description="Who is responsible"),
-    due_date:str=Field(description="Due date in formate: yyyy-mm-dd")
-    
+from langchain_core.output_parsers import StrOutputParser
 
-structured_model=model.with_structured_output(ActionItem)
-result=structured_model.invoke("Gita will finish the model training this week saturday, the  team lead will  review on sunday")
+model=create_model(QWEN)
+parser=StrOutputParser()
 
-print(result.model_dump())
-# chain=prompt | model
+prompt_template=ChatPromptTemplate.from_messages(
+    [
+        ("system", "please  in one sentence describe this {football_player} and give a brief history of his career, and also provide a list of his achievements in football."),
+        ("human", "{question}")
+    ]
+)
 
-# formmatted=chain.invoke({"max_sentence":4, "question":"What is L2 regularization in ml"})
+football_player=input("Enter the name of the football player: ")
+question=input("Enter the question you want to ask about the football player: ")
 
-# print(formmatted)
+
+chain= prompt_template | model | parser
+result=chain.invoke({
+    "football_player": football_player,
+    "question": question
+})
+
+print(result)
+
+# prompt_template.invoke({
+#     "football_player":"Lionel Messi",
+#     "question":"What are the achievements of Lionel Messi in football?"
+# })
