@@ -112,6 +112,7 @@ contributors/**/neural_nets/house_price_results.png
 contributors/**/ui-ai/**
 contributors/**/module-3/titanic/**
 contributors/**/module-3/data/**
+**/generated_images/**
 
 # Notebooks & Checkpoints
 .ipynb_checkpoints/

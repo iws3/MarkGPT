@@ -1,9 +1,13 @@
 from langchain_core.messages import HumanMessage, ToolMessage
 
 from .models import create_model
-from .tools import get_module_deadline
+from .tools import get_module_deadline, count_students_in_module
 
-model=create_model().bind_tools([get_module_deadline])
+
+tools=[get_module_deadline, count_students_in_module]
+model=create_model().bind_tools(tools)
+
+
 
 messages=[HumanMessage("PLease with information and eplaination of what CNNS, ARE , give me the deadline to submit my work on CNNS")]
 
