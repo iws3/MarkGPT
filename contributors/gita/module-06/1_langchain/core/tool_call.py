@@ -37,3 +37,10 @@ print(f"The messages list is : {messages}")
 messages.append(SystemMessage(content="Please make sure you extend the result with moe content of up to 70 words .. be explicit"))
 final=model.invoke(messages)
 print(final.content)
+
+
+# from langchain_ollama import ChatOllama
+
+# model = ChatOllama(model="gemma3:1b", temperature=0.5)
+# response = model.invoke("What is a Runnable in LangChain?")
+# print(response.content)
