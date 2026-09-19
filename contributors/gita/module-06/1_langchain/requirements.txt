@@ -1,0 +1,3 @@
+# Keep Pydantic and its native core on a known-compatible pair.
+pydantic==2.12.5
+pydantic-core==2.41.5
