@@ -1,19 +1,12 @@
 import os
 import streamlit as st
-from core.agents import build_multimodal_agent
-from core.utils import extract_text, logger
 
 st.set_page_config(page_title="Multimodal Assistant", page_icon="🧩")
 
 os.makedirs("uploads", exist_ok=True)
 
-if "agent" not in st.session_state:
-    st.session_state.agent = build_multimodal_agent()
-
 if "messages" not in st.session_state:
     st.session_state.messages = []
-
-agent = st.session_state.agent
 
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
@@ -31,6 +24,13 @@ user_input = st.chat_input(
 )
 
 if user_input:
+    from core.agents import build_multimodal_agent
+    from core.utils import extract_text, logger
+
+    if "agent" not in st.session_state:
+        st.session_state.agent = build_multimodal_agent()
+    agent = st.session_state.agent
+
     prompt_text = user_input.text
     uploaded_file = user_input.files[0] if user_input.files else None
 

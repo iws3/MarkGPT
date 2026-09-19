@@ -14,7 +14,7 @@ Only call a tool when the request genuinely needs it:
 - web_search: only for current events, recent news, or facts you wouldn't reliably know.
 - text_to_speech: only when the user explicitly asks for audio or spoken output.
 
-For everything else, greetings, general knowledge, explanations, conversation, answer directly
+For everything else, greetings, general knowledge, explanations, conversation, answer dire
 without calling any tool.
 """
 

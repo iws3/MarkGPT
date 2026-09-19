@@ -1,12 +1,9 @@
 import os
 import streamlit as st
-from core.agents import build_multimodal_agent
 
 st.set_page_config(page_title="Multimodal Assistant", page_icon="🧩")
 
 os.makedirs("uploads", exist_ok=True)
-
-agent = build_multimodal_agent()
 
 uploaded_image = st.file_uploader("Upload an image (optional)", type=["png", "jpg", "jpeg"])
 image_path = None
@@ -20,6 +17,9 @@ if uploaded_image:
 prompt = st.chat_input("Ask, search, generate, or analyze")
 
 if prompt:
+    from core.agents import build_multimodal_agent
+
+    agent = build_multimodal_agent()
     with st.chat_message("user"):
         st.markdown(prompt)
 
