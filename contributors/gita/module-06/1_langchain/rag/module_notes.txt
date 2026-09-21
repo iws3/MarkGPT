@@ -1,0 +1,32 @@
+MODULE 05: RETRIEVAL-AUGMENTED GENERATION (RAG)
+Cohort: SEED AI Bootcamp
+Duration: 2 weeks
+
+WEEK 1: FOUNDATIONS
+
+Session 1: Why RAG exists
+Large language models only know what was in their training data. They cannot see your company documents, your course notes, or anything published after their cutoff date. RAG solves this by retrieving relevant text at query time and passing it to the model as context. The model then answers using that text instead of guessing from memory.
+
+Session 2: Document loading
+Before any retrieval can happen, the raw content has to be loaded into a common format. In LangChain, a loader reads a source such as a text file, PDF, or web page and returns a list of Document objects. Each Document holds two things: page_content, which is the text, and metadata, which records where the text came from.
+
+Session 3: Text splitting
+Models have a limited context window, so long documents must be split into smaller chunks. Chunk size and overlap both matter. Chunks that are too large dilute the relevant information. Chunks that are too small lose the surrounding context. A common starting point is 500 to 1000 characters with an overlap of 50 to 100 characters.
+
+WEEK 2: BUILDING THE PIPELINE
+
+Session 4: Embeddings and vector stores
+An embedding model turns each chunk into a list of numbers that captures its meaning. Chunks with similar meaning end up close together in vector space. A vector store such as Chroma or FAISS saves these vectors and finds the closest matches to a query.
+
+Session 5: Retrievers and chains
+A retriever takes a question, searches the vector store, and returns the top matching chunks. These chunks are placed into a prompt template along with the question, and the language model produces the final answer.
+
+Session 6: Evaluation and debugging
+Common failure points include poor chunking, weak embeddings, and prompts that do not tell the model to stay within the provided context. Students should test with questions whose answers they already know and check which chunks were retrieved.
+
+ASSIGNMENT
+Build a question-answering tool over the notes in this file. Load the file, split it into chunks, store the embeddings, and answer at least five test questions. Submit your code and a short write-up of what worked and what did not.
+
+INSTRUCTOR NOTES
+Remind students to check file encoding when loading text files. If a loader raises a UnicodeDecodeError, pass encoding="utf-8" explicitly.
+Demonstrate how changing chunk_size changes the retrieved results for the same question.
