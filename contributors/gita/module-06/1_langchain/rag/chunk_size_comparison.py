@@ -15,5 +15,6 @@ for chunk_size in [300, 800, 1500]:
     chunks=splitter.split_documents(docs)
     # avg_length=sum(len(c.page_content)  for c in chunks)
     len_content=[len(c.page_content) for c in chunks]
-    print(f"Lenght for {chunk_size} is : {len_content}")
-    
+    print(f"Lengths for {chunk_size} are : {len_content}")
+    average_length=sum(len_content)/len(len_content)
+    print(f"Average length for {chunk_size} is : {average_length:.2f}")
