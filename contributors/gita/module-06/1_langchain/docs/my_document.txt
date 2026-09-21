@@ -1,0 +1,72 @@
+SEED IT TRAINING - STUDENT HANDBOOK
+
+ABOUT SEED
+
+SEED is an IT training company that helps beginners and working professionals build practical technology skills. Founded in 2018, SEED has trained more than 4,500 students in software development, data analysis, cybersecurity, cloud computing and artificial intelligence. Our mission is simple: plant the skills today so that careers can grow tomorrow. Every course is taught by instructors who work in the industry, so students learn the tools and habits that employers actually expect.
+
+SEED offers both in-person classes at our training center and live online classes. All courses include hands-on projects, weekly mentoring sessions and access to our student community forum.
+
+
+COURSES OFFERED
+
+Web Development Bootcamp
+Duration: 16 weeks. Fee: 900 USD. This course covers HTML, CSS, JavaScript, React, Node.js and MongoDB. Students build three projects, including a full-stack e-commerce application with user accounts, orders and a REST API. No prior programming experience is required.
+
+Data Analysis with Python
+Duration: 10 weeks. Fee: 650 USD. Students learn Python, pandas, NumPy, SQL and data visualization with Matplotlib. The course ends with a capstone project where students analyze a real dataset and present their findings.
+
+Cybersecurity Fundamentals
+Duration: 8 weeks. Fee: 550 USD. This course introduces networking basics, threat modeling, password security, firewalls and ethical hacking. Students practice in a safe virtual lab and prepare for the CompTIA Security+ exam.
+
+Cloud Computing Essentials
+Duration: 8 weeks. Fee: 600 USD. Students learn the core ideas of cloud computing, including virtual machines, storage, networking and deployment. Labs use free-tier cloud accounts, and the course prepares students for an entry-level cloud certification.
+
+Machine Learning and AI Foundations
+Duration: 12 weeks. Fee: 1,100 USD. This course covers supervised and unsupervised learning, neural networks, and an introduction to large language models and retrieval-augmented generation. Students should already know basic Python. The course includes a final project where students build a simple question-answering assistant over their own documents.
+
+
+CLASS SCHEDULE
+
+New cohorts start on the first Monday of January, April, July and October. Weekday classes run from 6:00 PM to 9:00 PM, Monday to Thursday. Weekend classes run on Saturdays from 9:00 AM to 3:00 PM. Online students attend the same live sessions and can watch recordings for up to 30 days afterwards.
+
+Students are expected to attend at least 80 percent of sessions to qualify for a certificate. If a student misses a session, they should tell their instructor in advance so that a recording and the session notes can be shared.
+
+
+ENROLLMENT AND PAYMENT
+
+To enroll, complete the online application form and pay a registration fee of 50 USD. The registration fee is deducted from the total course fee. Students may pay the full course fee upfront and receive a 5 percent discount, or pay in three equal installments: the first at enrollment, the second at the start of week 4, and the third at the start of week 8.
+
+Payments are accepted by bank transfer, mobile money and credit or debit card. A receipt is emailed to the student within 24 hours of every payment. Late installments incur a fee of 10 USD, and access to class materials may be paused until the balance is settled.
+
+
+REFUND POLICY
+
+SEED wants every student to feel confident about their decision to enroll. If a student cancels their enrollment at least 7 days before the cohort start date, they receive a full refund of all fees paid, including the registration fee.
+
+If a student cancels within the first 14 days after the cohort start date, they receive a refund of 70 percent of the course fee paid. The 50 USD registration fee is not refundable at this stage. After day 14 of the course, fees are no longer refundable, but a student may request to transfer their remaining balance to a future cohort of the same course, subject to approval and one transfer per student.
+
+Refund requests must be sent in writing to billing@seedtraining.example. Approved refunds are processed within 10 business days and returned using the original payment method. Refunds are not available for students who have been removed from a course for breaking the code of conduct. If SEED cancels a cohort for any reason, all students receive a full refund or may move to the next available cohort at no extra cost.
+
+
+CERTIFICATION
+
+Students who complete a course with at least 80 percent attendance and pass the final project receive a SEED Certificate of Completion. Certificates include a unique verification number that employers can check on the SEED website. Students who score above 90 percent on their final project receive a Certificate of Distinction.
+
+SEED also prepares students for external exams such as CompTIA Security+ and entry-level cloud certifications. Exam fees are not included in the course fee. Students who fail an external exam on their first attempt can join a free two-hour revision session before retaking it.
+
+
+CODE OF CONDUCT
+
+Students are expected to treat instructors and classmates with respect. Harassment, discrimination, cheating and sharing course materials outside the SEED community are not allowed. Plagiarism in final projects results in a failed project and may lead to removal from the course. Students should arrive on time, keep microphones muted during lectures in online classes, and ask questions openly. Laptops provided by SEED must be returned in good condition at the end of the course.
+
+
+CAREER SUPPORT
+
+SEED offers career support for up to six months after graduation. This includes CV reviews, mock technical interviews, portfolio feedback and introductions to more than 40 partner companies that regularly hire SEED graduates. SEED does not guarantee employment, but about 78 percent of graduates report finding a job or freelance work within six months.
+
+Students can also join the SEED alumni network, which hosts monthly meetups, guest talks from industry professionals and an annual project showcase day.
+
+
+SUPPORT AND CONTACT
+
+For general questions, email info@seedtraining.example. For billing and refund requests, email billing@seedtraining.example. For technical problems with the online classroom, email support@seedtraining.example. The training center is open Monday to Friday from 8:00 AM to 6:00 PM and on Saturdays from 9:00 AM to 3:00 PM. Emails are answered within one business day.
