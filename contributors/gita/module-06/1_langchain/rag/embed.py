@@ -12,6 +12,7 @@ sentences = [
 
 embeddings_model=HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectors = embeddings_model.embed_documents(sentences)
+print(vectors)
 
 # print(vectors)
 
@@ -21,11 +22,3 @@ def cosine_similarity(a, b):
     return np.dot(a, b)/(np.linalg.norm(a) * np.linalg.norm(b))
 
 print("Cosine Similarity Matrix:\n00")
-
-header="      " + "".join(f"S{i}  "  for i in range(len(sentences)))
-
-print(header)
-
-for i, vec_i in enumerate(vectors):
-    row=f"S{i}    " + "".join(f"{cosine_similarity(vec_i, vectors[j]):.2f} " for j in range(len(sentences)) )
-    print(row)
