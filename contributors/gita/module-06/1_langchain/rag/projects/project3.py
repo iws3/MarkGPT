@@ -27,5 +27,5 @@ header="      " + "".join(f"S{i}  "  for i in range(len(sentences)))
 print(header)
 
 for i, vec_i in enumerate(vectors):
-    row=f"S{i}   " + "".join(f"{cosine_similarity(vec_i, vectors[j]):.2f} " for j in range(len(sentences)) )
+    row=f"S{i}    " + "".join(f"{cosine_similarity(vec_i, vectors[j]):.2f} " for j in range(len(sentences)) )
     print(row)

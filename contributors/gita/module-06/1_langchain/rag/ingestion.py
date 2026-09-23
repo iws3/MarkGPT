@@ -19,4 +19,4 @@ def load_and_split_folder(folder_path:str)->list:
     for filename in os.listdir(folder_path):
         docs=load_documents(os.path.join(folder_path, filename))
         all_chunks.extend(splitter.split_documents(docs))
-        return all chunks
+        return all_chunks
