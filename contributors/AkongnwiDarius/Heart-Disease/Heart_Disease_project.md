@@ -70,4 +70,4 @@ This project provided practical experience in building a machine learning model 
 ## Github Repositories
 - Data preparation and cleaning: https://github.com/AkongnwiDarius/Generative_Ai/blob/master/1.5_introduction_to_dl/Heart%20Disease/Data_cleaning.ipynb
 - Model Training: https://github.com/AkongnwiDarius/Generative_Ai/blob/master/1.5_introduction_to_dl/Heart%20Disease/Heart_Disease.ipynb
-- Streamlit application: https://github.com/AkongnwiDarius/Heart-Disease-web-application/blob/master/app.py
+- Streamlit application: https://heart-disease-application000.streamlit.app/
