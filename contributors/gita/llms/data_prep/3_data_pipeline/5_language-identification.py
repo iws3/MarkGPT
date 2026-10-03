@@ -59,7 +59,9 @@ for lang, text in train.items():
     models[lang]=c
     alphabet |= set(c)
 V=len(alphabet)
+print(f"THe alphabet is : {alphabet}")
+print(f"THE MODEL DICTIONANRY IS: {models}")
 total={lang: sum(c.values()) for lang, c in models.items()}
 print(f"The totak is :{total}")
-print(f"the counter is: {c}")
+# print(f"the counter is: {c}")
 
