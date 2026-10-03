@@ -1,3 +1,12 @@
+import io
+import math
+import sys
+import urllib.request
+import zipfile
+from collections import Counter
+
+from requests import models
+
 # tep A: trigrams(), the feature extractor
 
 def trigram(s):
@@ -10,12 +19,7 @@ def trigram(s):
 
 # 8 trigrams from a 10-character padded string, matching len(s) - 2 = 8 exactly (a string of length N has N-2 windows of width 3).
 
-import io
-import math
-import sys
-import urllib.request
-import zipfile
-from collections import Counter
+
 # test the function:
 result_test=trigram("hi there")
 
@@ -43,4 +47,19 @@ def load_corpus():
 
 print("Downloading and fetching data:")
 
-print(load_corpus())
+print(load_corpus()["English"])
+# print("Downloading UDHR corpus...")
+
+train = load_corpus()
+
+models, alphabet={}, set()
+
+for lang, text in train.items():
+    c=Counter(trigram(text))
+    models[lang]=c
+    alphabet |= set(c)
+V=len(alphabet)
+total={lang: sum(c.values()) for lang, c in models.items()}
+print(f"The totak is :{total}")
+print(f"the counter is: {c}")
+
