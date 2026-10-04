@@ -47,7 +47,7 @@ def load_corpus():
 
 print("Downloading and fetching data:")
 
-print(load_corpus()["English"])
+# print(load_corpus()["English"])
 # print("Downloading UDHR corpus...")
 
 train = load_corpus()
@@ -59,9 +59,29 @@ for lang, text in train.items():
     models[lang]=c
     alphabet |= set(c)
 V=len(alphabet)
-print(f"THe alphabet is : {alphabet}")
-print(f"THE MODEL DICTIONANRY IS: {models}")
+# print(f"THe alphabet is : {alphabet}")
+# print(f"THE MODEL DICTIONANRY IS: {models}")
 total={lang: sum(c.values()) for lang, c in models.items()}
-print(f"The totak is :{total}")
+# print(f"The totak is :{total}")
 # print(f"the counter is: {c}")
+
+
+# work and calculate the probability of each bigran
+
+def log_prob(tri, lang, k=0.5):
+    c=models[lang]
+    return math.log((c[tri] + k) /(total[lang]+k*V))
+
+
+# test the funxtin with some inputs
+log_prob_test=log_prob("the", "English")
+log_prob_test_french=log_prob("the", "French")
+log_prob_test_german=log_prob("the", "German")
+log_prob_test_spanish=log_prob("the", "Spanish")
+print(f"The log probability is: {log_prob_test}")
+print(f"The log probability is: {log_prob_test_french}")
+print(f"The log probability is: {log_prob_test_german}")
+print(f"The log probability is: {log_prob_test_spanish}")
+# what does this log probality: The log probability is: -6.168666813516317 mean
+
 
