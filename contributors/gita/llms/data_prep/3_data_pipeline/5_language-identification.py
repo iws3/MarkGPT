@@ -85,3 +85,17 @@ print(f"The log probability is: {log_prob_test_spanish}")
 # what does this log probality: The log probability is: -6.168666813516317 mean
 
 
+# classifying: scoring a whole sentence:
+def classify(text):
+    scores={lang:sum(log_prob(t, lang) for t in trigram(text)) for lang in models }
+    return max(scores, key=scores.get), scores
+
+result_en = classify("I love apples and oranges")
+result_fr = classify("J'aime les pommes et les oranges")
+result_de = classify("Ich liebe Äpfel und Orangen")
+result_es = classify("Me encantan las manzanas y las naranjas")
+
+for label, (lang, scores) in [("EN", result_en), ("FR", result_fr),
+                               ("DE", result_de), ("ES", result_es)]:
+    print(f"{label}: predicted={lang}")
+
