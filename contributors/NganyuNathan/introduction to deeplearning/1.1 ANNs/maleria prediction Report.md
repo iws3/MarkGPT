@@ -21,7 +21,6 @@
 
 ## streamlit interface
    A user interface was developed using Streamlit so that users could enter the relevant patient symptoms and characteristics through a web interface, after which the application would pass the information to the saved neural network. The model would return a probability, and a threshold such as 0.5 could then be used to classify the result as malaria or no malaria.
-   **STREAMLIT URL:**
-
+   
 ## Github links to the project
 - maleria prediction github url: https://github.com/NganyuNathan/GenAI-/tree/master/0.4_introduction_to_dl/malerai%20training%20assignment

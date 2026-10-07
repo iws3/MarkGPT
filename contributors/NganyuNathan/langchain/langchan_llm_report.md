@@ -19,9 +19,9 @@ Important components:
    - Create a variable eg GOOGLE_API_KEY in your env file copy and paste your key in the new variable eg   GOOGLE_API_KEY = API key
 
 
-#🔗🔗LANGCHAIN:  
+## 🔗🔗LANGCHAIN:  
       lanchain is a framework that provides developers with a common documentation of many models. Langchain helps ease the stress of developers having to read the documentation of every model in order to use them. Instead it find for the most common things in all the models and provide them to the developer
              It provides the developer with componets such as  prompts, model calls, chains, structured outputs, tools, agents, converstional workflows etc. to install langchain you can do pip install langchain on your terminal and it will install all the required packages for langchain    
 
-#Github links
+## Github links
  - langchain: https://github.com/NganyuNathan/up/tree/master/0.7_langchain/1_langchain
