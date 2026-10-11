@@ -37,7 +37,27 @@ def gopher_quality(text, min_words=50, max_words=100_0000):
     return True, "passed"
 
 
+def fineweb_style(text):
+    "line level repetition rules in the spirit of fineweb's custom filters"
+    lines=[l.strip() for l in text.split("\n") if l.strip()]
+    if not lines:
+        return False, "empty"
+    total=sum(len(l) for l in lines)
+    seen, dup_chars=set(), 0
+    for l in lines:
+        if l in seen:
+            dup_chars+=len(l)
+        seen.add(l)
+    if dup_chars/total >=0.1:
+        return False, "duplicated_lines"
+    short=sum(len(l)<30 for l in lines)/len(lines)
+    if short >=0.67:
+        return False, "short lines"
+    
+
 testing_clean=gopher_quality("This is a test text with enough words to pass the filter. It should be long enough and contain some stop words like 'the' and 'and'. Let's see if it passes the quality check.", min_words=10, max_words=100)
 
 print("____________________the clean result here_______________")
 print(f"RESULTS: {testing_clean}")
+
+
