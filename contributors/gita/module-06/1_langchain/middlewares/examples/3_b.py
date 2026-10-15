@@ -1,6 +1,7 @@
 
 """B3. A before_agent hook that rejects bad input. Concept: before_agent runs once, and
 a hook can end the run early with jump_to (declared with can_jump_to)."""
+# missing
 
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -28,5 +29,8 @@ for text in ["", "Write a caption for my dance reel", "x" *300]:
     agent=create_agent(model=model, tools=[], middleware=[validate_input])
     result=agent.invoke({"messages": [("user", text)]})
     print(f"input length {len(text):3} -> model calls={model} -> {result['messages'][-1].content}")
+
+
+
 
     
