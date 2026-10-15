@@ -14,9 +14,10 @@ model=create_model()
 for strategy in ["redact", "mask", "hash", "block"]:
     agent=create_agent(model=model, tools=[], middleware=[PIIMiddleware("email", strategy=strategy)])
     try:
-        aresult = agent.invoke({"messages": [("user", message)]})
-        print(f"{strategy:7} -> model saw: {model.seen[0][-1].content}")
+        result = agent.invoke({"messages": [("user", message)]})
+        print(f"{strategy:7} -> model saw: {model}")
+        print(f"Results: {result}")
     except Exception as error:
-       print(f"{strategy:7} -> {type(error).__name__}: the model was never called (calls={model.i})")
+       print(f"{strategy:7} -> {type(error).__name__}: the model was never called (calls={model})")
        
 
