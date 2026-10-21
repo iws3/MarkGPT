@@ -1,0 +1,95 @@
+# Heart Disease Prediction Using Deep Learning
+
+## Abstract
+
+This project demonstrates the development of a deep learning model for predicting the presence or absence of heart disease. The implementation uses an Artificial Neural Network (ANN) to learn patterns from patient-related input features and classify cases into two categories: No Heart Disease and Heart Disease.
+
+The project focuses on model development, evaluation, and performance analysis using a confusion matrix and classification metrics. The trained model is saved as `best_heart_disease.keras` for further use and integration into a prediction application.
+
+## 1. Introduction
+
+Heart disease is a major health concern, and machine learning techniques can help identify patterns in patient data that may support early risk assessment.
+
+This project uses deep learning to develop a binary classification model that predicts whether a case belongs to the No Heart Disease or Heart Disease category.
+
+The objective is to build a model that achieves strong classification performance while evaluating its ability to identify both positive and negative cases accurately.
+
+## 2. Model Architecture
+
+The project uses an Artificial Neural Network (ANN) implemented with TensorFlow and Keras.
+
+The model architecture consists of the following components:
+
+- **Input Layer** — accepts 16 input features.
+- **First Hidden Layer** — contains 128 neurons, followed by batch normalization, ReLU activation, and dropout.
+- **Second Hidden Layer** — contains 32 neurons, followed by batch normalization, ReLU activation, and dropout.
+- **Third Hidden Layer** — contains 32 neurons, followed by ReLU activation and dropout.
+- **Output Layer** — contains one neuron with sigmoid activation for binary classification.
+
+Batch normalization helps stabilize training, while dropout helps reduce overfitting. The sigmoid activation produces a probability that can be used to classify an observation into one of the two categories.
+
+## 3. Model Evaluation
+
+The model's classification performance was evaluated using a confusion matrix containing 5,979 cases.
+
+The confusion matrix produced the following results:
+
+- **True Negatives (3,155)** — cases without heart disease correctly predicted as No Heart Disease.
+- **False Positives (28)** — cases without heart disease incorrectly predicted as Heart Disease.
+- **False Negatives (50)** — cases with heart disease incorrectly predicted as No Heart Disease.
+- **True Positives (2,746)** — cases with heart disease correctly predicted as Heart Disease.
+
+### Performance Metrics
+
+The following metrics were calculated from the confusion matrix:
+
+- **Accuracy: 98.70%** — the proportion of all cases correctly classified.
+- **Precision: 98.99%** — the proportion of predicted heart disease cases that were actual positive cases.
+- **Recall (Sensitivity): 98.21%** — the proportion of actual heart disease cases correctly identified.
+- **Specificity: 99.12%** — the proportion of cases without heart disease correctly identified.
+- **F1-score: 98.60%** — the harmonic mean of precision and recall.
+
+These results indicate strong classification performance on the evaluated dataset. However, the 50 false-negative cases are important because they represent cases of heart disease that the model failed to identify.
+
+## 4. How to Create
+
+1. Set up a Python project and install the required libraries.
+2. Load the heart disease dataset.
+3. Inspect and clean the data to prepare it for model training.
+4. Separate the input features from the target variable.
+5. Split the dataset into training, validation, and testing sets, as appropriate.
+6. Apply the necessary preprocessing and feature scaling.
+7. Build the Artificial Neural Network using TensorFlow and Keras.
+8. Train the model using the training data.
+9. Evaluate the model using appropriate classification metrics and a confusion matrix.
+10. Save the trained model as `best_heart_disease.keras`.
+11. Test the saved model and prepare it for integration into an application.
+
+## 5. Problems Faced
+
+During development, several challenges may arise when building and evaluating a deep learning model:
+
+- Preparing the dataset and ensuring the input features are suitable for training.
+- Applying feature scaling consistently to training and evaluation data.
+- Selecting an appropriate neural network architecture.
+- Reducing overfitting during training.
+- Evaluating the model using a confusion matrix and classification metrics.
+- Interpreting false-positive and false-negative predictions.
+- Saving and loading the trained model for further use.
+
+These areas require careful implementation, testing, and debugging to ensure that the model performs consistently.
+
+## 6. Conclusion
+
+This project demonstrates the application of deep learning to heart disease prediction using an Artificial Neural Network. The model achieved an accuracy of 98.70%, with high precision, recall, and specificity on the evaluated dataset.
+
+The results suggest that the model can distinguish effectively between cases with and without heart disease in the evaluated data. Further testing on independent datasets and checks for data leakage are necessary to establish its reliability and generalization to unseen cases.
+
+The model is intended for educational and research purposes and should not be used as a substitute for professional medical diagnosis.
+
+## 7. GitHub Repository
+
+Project repository : https://github.com/negprecious69-commits/Generative_Ai/blob/main/1.5_introduction_to_dl/HEART_DISEASE_ANN_model.ipynb
+
+
+
