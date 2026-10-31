@@ -1,0 +1,68 @@
+# LangChain Tools and Agent
+
+## Abstract
+
+This project demonstrates the development of a LangChain-based agent that uses custom tools to provide factual information about university modules. The system combines a language model with specialized tools to retrieve information such as module deadlines, student enrollment, prerequisites, and session locations.
+
+## 1. Introduction
+
+Large language models can understand and generate natural language, but they may require external tools to access specific structured information. LangChain provides a framework for connecting language models with tools and agents.
+
+The objective of this project is to develop a university operations assistant that can use predefined tools to answer factual questions about academic modules.
+
+## 2. Tools
+
+Four custom tools were developed:
+
+* **Module Deadline Lookup** — retrieves the submission deadline for a module.
+* **Student Count Lookup** — retrieves the number of students enrolled in a module.
+* **Prerequisite Lookup** — retrieves prerequisite information for a module.
+* **Session Module Lookup** — retrieves the room or session information for a module.
+
+## 3. Agent
+
+A LangChain agent was developed to coordinate the language model and the available tools. The agent receives a user's question, determines the relevant information required, and uses the appropriate tool before generating a response.
+
+## 4. Workflow
+
+The system follows this workflow:
+
+**User Question → Agent → Appropriate Tool → Retrieved Information → Final Response**
+
+This allows the agent to use structured information provided by the tools when answering user questions.
+
+## 5. How to Create
+
+1. Create a Python project and set up a virtual environment.
+2. Install the required LangChain packages and model dependencies.
+3. Create the custom tools using LangChain's tool framework.
+4. Store the tools in a separate tools/utilities file.
+5. Create and configure the language model.
+6. Create a LangChain agent and provide it with the available tools.
+7. Add a system prompt defining the agent's role.
+8. Invoke the agent with a user's question and display the response.
+
+## 6. Problems Faced
+
+During development, several challenges were encountered:
+
+* **Syntax and naming errors:** Inconsistent function and variable names caused errors when importing and using the tools.
+* **Tool configuration:** The tools had to be correctly defined and connected to the agent.
+* **Import errors:** Incorrect file paths or tool names could prevent the tools from being imported.
+* **Agent-tool interaction:** Understanding how the agent selects and uses the appropriate tool required testing and debugging.
+* **Model configuration:** The language model needed to be correctly initialized before it could be connected to the tools.
+
+These challenges were addressed by checking the tool definitions, maintaining consistent names, organizing the project files properly, and testing the agent with different queries.
+
+## 7. Conclusion
+
+This project demonstrates the basic principles of building a tool-using agent with LangChain. By combining custom tools with an agent, the system can retrieve structured university information and use it to respond to user queries.
+
+The project provides a foundation for developing more advanced AI agents that can interact with databases, APIs, documents, and other external information sources.
+
+## 8. GitHub Repository
+
+**Project Repository:**
+GitHub Links for the exact files reviewed in this report:
+- Direct tool implementation: https://github.com/negprecious69-commits/Generative_Ai/blob/main/1.8_langchain/1_langchain/core/agents_ex.py
+- Agent-based implementation:https://github.com/negprecious69-commits/Generative_Ai/blob/main/1.8_langchain/1_langchain/utils/tool_ex.py
