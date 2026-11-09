@@ -157,3 +157,9 @@ htmlcov/
 tmp/
 temp/
 *.tmp
+
+# Ignore the oversized NVIDIA CUDA wheel
+nvidia_cudnn_cu12-*.whl
+
+# Ignore large local CUDA wheel binaries
+nvidia_cudnn_*.whl
